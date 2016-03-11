@@ -1,0 +1,21 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\GroupReleasesView\Adhoc.filter.xml" timeStamp="2015-05-28T03:04:10.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\GroupReleasesView\BasedOn.filter.xml" timeStamp="2015-05-28T03:04:10.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\GroupReleasesView\Description.filter.xml" timeStamp="2015-05-28T03:04:10.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\GroupReleasesView\DisplayName.filter.xml" timeStamp="2015-05-28T03:04:10.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\GroupReleasesView\Family.filter.xml" timeStamp="2015-05-28T03:04:10.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\GroupReleasesView\GroupReleasesView.GroupReleasesView.entity.xml" timeStamp="2015-05-28T03:04:10.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\GroupReleasesView\Name.filter.xml" timeStamp="2015-05-28T03:04:10.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\GroupReleasesView\OnAfterDelete.method.xml" timeStamp="2015-05-28T03:04:10.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\GroupReleasesView\OnAfterInsert.method.xml" timeStamp="2015-05-28T03:04:10.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\GroupReleasesView\OnAfterUpdate.method.xml" timeStamp="2015-05-28T03:04:10.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\GroupReleasesView\OnBeforeDelete.method.xml" timeStamp="2015-05-28T03:04:10.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\GroupReleasesView\OnBeforeInsert.method.xml" timeStamp="2015-05-28T03:04:10.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\GroupReleasesView\OnBeforeUpdate.method.xml" timeStamp="2015-05-28T03:04:10.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\GroupReleasesView\OnCreate.method.xml" timeStamp="2015-05-28T03:04:10.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\GroupReleasesView\ReleasedDate.filter.xml" timeStamp="2015-05-28T03:04:10.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\GroupReleasesView\ReleasedTo.filter.xml" timeStamp="2015-05-28T03:04:10.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\GroupReleasesView\ReleasedToType.filter.xml" timeStamp="2015-05-28T03:04:10.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\GroupReleasesView\UserType.filter.xml" timeStamp="2015-05-28T03:04:10.0000" />
+</exportedFiles>

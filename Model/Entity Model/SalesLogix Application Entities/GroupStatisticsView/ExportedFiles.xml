@@ -1,0 +1,25 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\GroupStatisticsView\Dev.filter.xml" timeStamp="2015-05-28T03:04:10.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\GroupStatisticsView\DisplayName.filter.xml" timeStamp="2015-05-28T03:04:10.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\GroupStatisticsView\Family.filter.xml" timeStamp="2015-05-28T03:04:10.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\GroupStatisticsView\FirstUsedBy.filter.xml" timeStamp="2015-05-28T03:04:10.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\GroupStatisticsView\FirstUsedDate.filter.xml" timeStamp="2015-05-28T03:04:10.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\GroupStatisticsView\GroupStatisticsView.GroupStatsView.entity.xml" timeStamp="2015-05-28T03:04:10.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\GroupStatisticsView\LastUsedBy.filter.xml" timeStamp="2015-05-28T03:04:10.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\GroupStatisticsView\LastUsedDate.filter.xml" timeStamp="2015-05-28T03:04:10.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\GroupStatisticsView\Name.filter.xml" timeStamp="2015-05-28T03:04:10.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\GroupStatisticsView\OnAfterDelete.method.xml" timeStamp="2015-05-28T03:04:10.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\GroupStatisticsView\OnAfterInsert.method.xml" timeStamp="2015-05-28T03:04:10.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\GroupStatisticsView\OnAfterUpdate.method.xml" timeStamp="2015-05-28T03:04:10.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\GroupStatisticsView\OnBeforeDelete.method.xml" timeStamp="2015-05-28T03:04:10.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\GroupStatisticsView\OnBeforeInsert.method.xml" timeStamp="2015-05-28T03:04:10.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\GroupStatisticsView\OnBeforeUpdate.method.xml" timeStamp="2015-05-28T03:04:10.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\GroupStatisticsView\OnCreate.method.xml" timeStamp="2015-05-28T03:04:10.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\GroupStatisticsView\Owner.filter.xml" timeStamp="2015-05-28T03:04:10.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\GroupStatisticsView\OwnerUsageCount.filter.xml" timeStamp="2015-05-28T03:04:10.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\GroupStatisticsView\Shared.filter.xml" timeStamp="2015-05-28T03:04:10.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\GroupStatisticsView\SharedDate.filter.xml" timeStamp="2015-05-28T03:04:10.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\GroupStatisticsView\SharedUsageCount.filter.xml" timeStamp="2015-05-28T03:04:10.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\GroupStatisticsView\Type.filter.xml" timeStamp="2015-05-28T03:04:10.0000" />
+</exportedFiles>

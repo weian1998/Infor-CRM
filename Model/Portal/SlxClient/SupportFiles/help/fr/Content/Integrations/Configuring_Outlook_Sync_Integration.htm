@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:fileTags="Translation Status.Support files" xml:lang="fr" MadCap:tocPath="" MadCap:medium="non-print" MadCap:InPreviewMode="false" MadCap:PreloadImages="false" MadCap:RuntimeFileType="Topic" MadCap:TargetType="WebHelp" lang="fr" MadCap:conditions="Integrations.OutlookSync" MadCap:PathToHelpSystem="../../" MadCap:HelpSystemFileName="WebClient.xml" MadCap:SearchType="Stem">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Configuration de l'intégration d'Outlook Sync</title>
+        <link href="../SkinSupport/Slideshow.css" rel="stylesheet" />
+        <link href="../SkinSupport/MadCap.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/Infor.CSS" rel="stylesheet" />
+        <script src="../SkinSupport/jquery.min.js">
+        </script>
+        <script src="../SkinSupport/MadCapAll.js">
+        </script>
+        <script src="../SkinSupport/MadCapTopicAll.js">
+        </script>
+    </head>
+    <body>
+        <h1><a name="kanchor518"></a>Configuration de l'intégration d'Outlook Sync</h1>
+        <p>Procédez comme suit pour configurer l'intégration d'Outlook Sync.</p>
+        <ol>
+            <li value="1">Exécutez le fichier <a href="Conversion_Utility.htm">SLXConversionUtility.exe</a>. <br />Une fois suffit pour la prise en charge de toutes les intégrations.</li>
+            <li value="2"><a href="SData_Detail_view.htm">Configurer la<span class="MyVariablesProduct Name">Infor CRM</span> synchronisation SData</a>.<br />Une fois suffit pour la prise en charge de toutes les intégrations. .</li>
+            <li value="3">Configurez le <a href="Config_Integrations_Sync_Service.htm">service de synchronisation d'intégration</a>.<br /></li>
+            <li value="4">Arrêtez le <span class="SLXBold"> service de synchronisation (service) xsSData</span>de <span class="MyVariablesProduct Name">Infor CRM</span> et le <span class="SLXBold">service de tâches (service)</span> de <span class="MyVariablesProduct Name">Infor CRM</span> sur le serveur Web si l'un deux est en cours d'exécution.</li>
+            <li value="5">Dans la <a href="Integrations_List_View.htm">vue Liste des intégrations</a>, sélectionnez <span class="SLXBold">OutlookSync</span>. <br />Une fois suffit pour la prise en charge de toutes les intégrations.</li>
+            <li value="6">Examinez les zones d'informations.</li>
+            <li value="7">Sous <span class="SLXBold">Type de lien</span>, sélectionnez <span class="SLXBold">Utilisateur</span>.</li>
+            <li value="8">Cochez la case <span class="SLXBold">Activé</span>.</li>
+            <li value="9">Définissez les options de synchronisation. <ol><li value="1">Dans le champ <span class="SLXBold">Synchroniser toutes les</span>, tapez le nombre de minutes qui doit s'écouler entre le début des cycles de synchronisation. </li><li value="2">Dans les champs <span class="SLXBold">Synchroniser entre</span>, cliquez sur le Bouton<span class="MCExpanding_0"><a href="javascript:void(0);" class="MCExpandingHead_0" onclick="FMCExpand( this ); return false;">Agenda<img style="border: none;margin-left: 5px;" src="../SkinSupport/ExpandClosed.gif" MadCap:altsrc="../SkinSupport/ExpandOpen.gif" onload="if ( typeof( FMCPreloadImage ) == 'function' ) { FMCPreloadImage( '../SkinSupport/ExpandOpen.gif' ); }" alt="Closed" MadCap:alt2="Open" class="MCExpandingIcon" /></a><span class="MCExpandingBody_0" style="display: none;"><img src="../image/calendar.gif" /></span></span> et sélectionnez l'heure de début et l'heure de fin marquant la période durant laquelle la synchronisation doit avoir lieu. <span class="MyVariablesProduct Name">Infor CRM</span> recommande que les heures sélectionnées ne chevauchent pas minuit. <table wrapperparagraphselector="P" style="width: 80%;margin-top: 14pt;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" width="80%"><col style="width: 78px;" /><col /><tr><td style="padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top"><p class="Topic-Text-Indent" style="text-align: center;"><img src="../image/note.gif" /></p></td><td style="width: 90%;padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top" width="90%"><p class="Tip-Note-Text" style="margin-bottom: 0;">Lorsque vous activez ou désactivez une intégration, vous devez vous déconnecter puis vous reconnecter à <span class="MyVariablesProduct Name">Infor CRM</span> pour que ces modifications prennent effet.</p></td></tr></table></li></ol></li>
+            <li value="10">Cliquez sur <span class="MCExpanding_0"><a href="javascript:void(0);" class="MCExpandingHead_0" onclick="FMCExpand( this ); return false;">Enregistrer<img style="border: none;margin-left: 5px;" src="../SkinSupport/ExpandClosed.gif" MadCap:altsrc="../SkinSupport/ExpandOpen.gif" onload="if ( typeof( FMCPreloadImage ) == 'function' ) { FMCPreloadImage( '../SkinSupport/ExpandOpen.gif' ); }" alt="Closed" MadCap:alt2="Open" class="MCExpandingIcon" /></a><span class="MCExpandingBody_0" style="display: none;"><img src="../image/update.gif" /></span></span>.</li>
+            <li value="11">
+                <p>Accordez les droits d'accès appropriés&#160;:</p>
+                <ol>
+                    <li value="1">Configurez le <a href="../Admin_security/Select_Role_Dialog.htm">rôle</a> Intégration pour chaque utilisateur auquel vous voulez accorder l'accès administrateur aux intégrations autres que celles du système de comptabilité.</li>
+                    <li value="2">Pour donner à des utilisateus individuels l'accès à des tâches d'intégration non administratives, ajoutez les <a href="../Admin_security/What_are_Roles_and_Secured_Actions.htm">actions sécurisées</a> au rôle Utilisateur standard&#160;:<ul><li value="1">Integration/View</li><li value="2"> Entities/SyncHistory/View</li><li value="3"> Entities/SyncJob/View</li></ul></li>
+                </ol>
+            </li>
+        </ol>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

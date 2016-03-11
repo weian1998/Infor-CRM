@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<method xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="69a01fd3-b1cd-4d3c-abeb-a9df262948fd" lastModifiedUtc="2015-02-10T22:58:07.174165Z" name="IsImportEnabledForEntity" returnType="Boolean" methodType="Rule" actionType="None" returnMode="Object">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmEntityMethod" />
+  </ExtendedPropertiesCollection>
+  <parameter>
+    <OrmEntityMethodParam id="4ed57e65-3c9b-4c91-9ca0-f9c8d1294b6f" paramName="entityName" sequence="0" paramType="String">
+      <description>The name of the enitity to be validated.</description>
+    </OrmEntityMethodParam>
+  </parameter>
+  <preExecuteTargets />
+  <methodTargets>
+    <methodTarget id="bf71498d-8052-4934-be4b-3ebfe4e8d6b4" lastModifiedUtc="2015-02-11T21:28:34.581253Z" targetType="Sage.SalesLogix.Import.Rules, Sage.SalesLogix.BusinessRules" targetMethod="IsImportEnabledForEntity" active="true">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmMethodTarget" />
+      </ExtendedPropertiesCollection>
+    </methodTarget>
+  </methodTargets>
+  <postExecuteTargets />
+  <postFlushTargets />
+</method>

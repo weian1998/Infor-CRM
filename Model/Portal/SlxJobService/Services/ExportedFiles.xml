@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\SlxJobService\Services\Sage.Platform.Application.Caching.CacheInitializationService.service.xml" timeStamp="2015-05-28T03:07:08.0000" />
+  <exportedFile url="\Portal\SlxJobService\Services\Sage.Platform.Data.IDataService.service.xml" timeStamp="2015-05-28T03:07:08.0000" />
+  <exportedFile url="\Portal\SlxJobService\Services\Sage.Platform.Data.IHibernateConfigurationService.service.xml" timeStamp="2015-05-28T03:07:08.0000" />
+  <exportedFile url="\Portal\SlxJobService\Services\Sage.Platform.SData.IAppIdMappingService.service.xml" timeStamp="2015-05-28T03:07:08.0000" />
+  <exportedFile url="\Portal\SlxJobService\Services\Sage.Platform.Security.IUserService.service.xml" timeStamp="2015-05-28T03:07:08.0000" />
+  <exportedFile url="\Portal\SlxJobService\Services\Sage.SalesLogix.IUserOptionsService.service.xml" timeStamp="2015-05-28T03:07:08.0000" />
+  <exportedFile url="\Portal\SlxJobService\Services\Sage.SalesLogix.Services.Import.IImportService.service.xml" timeStamp="2015-05-28T03:07:08.0000" />
+  <exportedFile url="\Portal\SlxJobService\Services\Sage.SalesLogix.Services.ISystemOptionsService.service.xml" timeStamp="2015-05-28T03:07:08.0000" />
+  <exportedFile url="\Portal\SlxJobService\Services\Sage.SalesLogix.Services.PotentialMatch.IDeDupService.service.xml" timeStamp="2015-05-28T03:07:08.0000" />
+</exportedFiles>

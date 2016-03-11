@@ -1,0 +1,14 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\PageTemplates\" />
+  <exportedFile url="\Portal\PortalTemplates\" />
+  <exportedFile url="\Portal\ProcessHost\" />
+  <exportedFile url="\Portal\sdata\" />
+  <exportedFile url="\Portal\SDataCustomer\" />
+  <exportedFile url="\Portal\SlxClient\" />
+  <exportedFile url="\Portal\SLXCustomerPortal\" />
+  <exportedFile url="\Portal\SlxJobService\" />
+  <exportedFile url="\Portal\SlxMobile\" />
+  <exportedFile url="\Portal\Templates\" />
+  <exportedFile url="\Portal\TemporaryFiles\" />
+</exportedFiles>

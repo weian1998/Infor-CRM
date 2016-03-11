@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<method xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="f6ef1a29-18d8-4387-8cfb-316122005456" lastModifiedUtc="2013-07-16T20:03:34.8351102Z" name="SetLinkEnabledState" methodType="Rule" actionType="None" returnMode="None">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmEntityMethod" />
+  </ExtendedPropertiesCollection>
+  <parameter>
+    <OrmEntityMethodParam id="8d813fe4-6f36-4c9d-8315-b79c81acb4b7" paramName="entityIds" sequence="0" paramType="String">
+      <description>List of AppId's to be updated</description>
+    </OrmEntityMethodParam>
+    <OrmEntityMethodParam id="01cdb2cd-19c3-4172-b8b3-19cbfdab56fe" paramName="enable" sequence="0" paramType="bool">
+      <description>Value indicating whether or not the enabled property should be enabled or disabled.</description>
+    </OrmEntityMethodParam>
+  </parameter>
+  <preExecuteTargets />
+  <methodTargets>
+    <methodTarget id="da71012d-2a58-43fd-97cc-7c071765fd46" lastModifiedUtc="2013-07-16T18:28:06.2150323Z" targetType="Sage.SalesLogix.AppIdMapping.Rules, Sage.SalesLogix.BusinessRules" targetMethod="SetLinkEnabledState" active="true">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmMethodTarget" />
+      </ExtendedPropertiesCollection>
+    </methodTarget>
+  </methodTargets>
+  <postExecuteTargets />
+  <postFlushTargets />
+</method>

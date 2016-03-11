@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:fileTags="Translation Status.Support files" MadCap:tocPath="" MadCap:medium="non-print" MadCap:InPreviewMode="false" MadCap:PreloadImages="false" MadCap:RuntimeFileType="Topic" MadCap:TargetType="WebHelp" lang="en-us" xml:lang="en-us" MadCap:conditions="Output.WebClient" MadCap:PathToHelpSystem="../../" MadCap:HelpSystemFileName="WebClient.xml" MadCap:SearchType="Stem">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Resolving Duplicates</title>
+        <link href="../SkinSupport/Slideshow.css" rel="stylesheet" />
+        <link href="../SkinSupport/MadCap.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/Infor.CSS" rel="stylesheet" />
+        <script src="../SkinSupport/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapAll.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapTopicAll.js" type="text/javascript">
+        </script>
+    </head>
+    <body>
+        <h1>Resolving Duplicates</h1>
+        <table wrapperparagraphselector="P" style="width: 80%;margin-top: 14pt;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" width="80%">
+            <tr>
+                <td style="width: 10%;padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top" width="10%">
+                    <p style="text-align: center;margin-bottom: 0;" align="center">
+                        <img src="../image/adminonly.gif" />
+                    </p>
+                </td>
+                <td style="width: 90%;padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top" width="90%">
+                    <p>The system administrator and users with the appropriate <a href="../Admin_security/What_are_Roles_and_Secured_Actions.htm" target="_self">role</a> can access these features.</p>
+                </td>
+            </tr>
+        </table>
+        <p>Each time you run the Check for Duplicates Wizard, a Check for Duplicates History job is created identifying any potential duplicates. Potential duplicates display in the Check for Duplicates History Job Detail view and the Process Duplicates List view. You can use the Check for Duplicates History or Process Duplicates List view to resolve potential duplicates.</p>
+        <ul>
+            <li class="Bullets" value="1">The Check for Duplicates History Detail view contains the group of potential duplicates within a job.</li>
+            <li class="Bullets" value="2">The Process Duplicates List view displays all potential duplicates in the system. This view displays the job the duplicates were found in, but does not group potential duplicates by job.</li>
+        </ul>
+        <p class="Infinitive">To resolve duplicates</p>
+        <ol>
+            <li class="Topic-Text-Numbered" value="1">Open the <a href="DedupResults.htm" target="_self">Check for Duplicates History Detail</a> view for the job in which you want to resolve duplicates. </li>
+            <li class="Topic-Text-Numbered" value="2">On the <b>Job Results</b> tab, select a potential duplicate and click the <b>Resolve</b> link. You can use the information on this tab to help determine if the record is a duplicate or if it needs to be resolved.</li>
+        </ol>
+        <ul>
+            <li class="Topic-Text-Bulleted-2" value="1"><b>Search Record</b> - The name within the entity that was found to be a potential duplicate. For example, if the check for duplicates was run on accounts, the search record would display the account name.</li>
+            <li class="Topic-Text-Bulleted-2" value="2"><b>Resolve Status</b> - The status of the record which indicates if it is a possible duplicate, if the data has been merged, or if it has been determined that it is not a duplicate.</li>
+            <li class="Topic-Text-Bulleted-2" value="3"><b>Score </b>- The probability rating that this record is a duplicate. A higher score indicates a higher probability that the record is a duplicate.</li>
+            <li class="Topic-Text-Bulleted-2" value="4"><b>Best Match</b> - The entity that is the closest match to this record.</li>
+            <li class="Topic-Text-Bulleted-2" value="5"><b>Record Type</b> - The entity type.</li>
+            <li class="Topic-Text-Bulleted-2" value="6"><b>Matches Found</b> - The number of potential matches for this entity.</li>
+        </ul>
+        <ol>
+            <li class="Topic-Text-Numbered" value="3">In the <span class="SLXBold">Resolve Duplicate Record</span> dialog box, select a record and do one of the following:</li>
+        </ol>
+        <ul>
+            <li class="Topic-Text-Bulleted-2" value="1">Click <span class="SLXBold">Not a Duplicate</span> for each record that is not a duplicate.</li>
+            <li class="Topic-Text-Bulleted-2" value="2">Click <span class="SLXBold">Merge</span> and complete the <a href="../Integration Contract/Merge_Data.htm" target="_self">Merge Data</a> dialog box to merge the records.</li>
+        </ul>
+        <p class="RelatedTopics">Related Topics</p>
+        <p><a href="ProcessDuplicatesListView.htm" target="_self">Process Duplicates List View</a>
+        </p>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

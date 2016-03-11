@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\PortalTemplates\ServicePortalTemplate\SupportFiles\connection.config" timeStamp="2015-05-28T03:04:45.0000" />
+  <exportedFile url="\Portal\PortalTemplates\ServicePortalTemplate\SupportFiles\Default.aspx" timeStamp="2015-05-28T03:04:45.0000" />
+  <exportedFile url="\Portal\PortalTemplates\ServicePortalTemplate\SupportFiles\Default.aspx.cs" timeStamp="2015-05-28T03:04:45.0000" />
+  <exportedFile url="\Portal\PortalTemplates\ServicePortalTemplate\SupportFiles\deployables.manifest.xml" timeStamp="2015-05-28T03:04:45.0000" />
+  <exportedFile url="\Portal\PortalTemplates\ServicePortalTemplate\SupportFiles\dynamicmethods.xml" timeStamp="2015-05-28T03:04:45.0000" />
+  <exportedFile url="\Portal\PortalTemplates\ServicePortalTemplate\SupportFiles\Global.asax" timeStamp="2015-05-28T03:04:45.0000" />
+  <exportedFile url="\Portal\PortalTemplates\ServicePortalTemplate\SupportFiles\log4net.config" timeStamp="2015-05-28T03:04:45.0000" />
+  <exportedFile url="\Portal\PortalTemplates\ServicePortalTemplate\SupportFiles\Web.config" timeStamp="2015-05-28T03:04:45.0000" />
+  <exportedFile url="\Portal\PortalTemplates\ServicePortalTemplate\SupportFiles\bin\" />
+</exportedFiles>

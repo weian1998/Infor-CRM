@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:fileTags="Translation Status.Support files" MadCap:tocPath="" MadCap:medium="non-print" MadCap:InPreviewMode="false" MadCap:PreloadImages="false" MadCap:RuntimeFileType="Topic" MadCap:TargetType="WebHelp" lang="en-us" xml:lang="en-us" MadCap:conditions="Output.Mail Merge,Output.WebClient" MadCap:PathToHelpSystem="../../" MadCap:HelpSystemFileName="WebClient.xml" MadCap:SearchType="Stem">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Editing SQL Image Fields</title>
+        <link href="../SkinSupport/Slideshow.css" rel="stylesheet" />
+        <link href="../SkinSupport/MadCap.css" rel="stylesheet" />
+        <link href="../Resources/TableStyles/TableStyle.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/Infor.CSS" rel="stylesheet" />
+        <script src="../SkinSupport/jquery.min.js">
+        </script>
+        <script src="../SkinSupport/MadCapAll.js">
+        </script>
+        <script src="../SkinSupport/MadCapTopicAll.js">
+        </script>
+    </head>
+    <body>
+        <h1>Editing SQL Image Fields<a name="kanchor863"></a></h1>
+        <p>You can use the Mail Merge Field Editor to edit new and existing SQL Image merge
+fields. When you select an SQL Image field from the list view, the edit options will
+display in the edit pane.</p>
+        <ul style="list-style-type: disc;">
+            <li value="1">Field Identifier - Allows you to change the text that appears in the template.</li>
+            <li value="2">SQL - Allows you to enter a SELECT statement to request data from the OLE DB provider. Only the first record of the first column will display.<br />Click on the Edit button to open the <a href="Editing_SQL.htm">Edit SQL</a> dialog box.</li>
+            <li value="3">Format As - Displays the merge field type.</li>
+            <li value="4">Query Returns - Allows you to select how the image is stored. You can choose from:</li>
+        </ul>
+        <ul>
+            <li class="Topic-Text-Bulleted-2" value="1">
+                <div class="MCDropDown">
+                    <div class="MCDropDownHead_0"><a class="MCDropDownHotSpot_0" href="javascript:void(0);" id="MCDropDownHotSpot_1949597166_0" onclick="FMCDropDown( this ); return false;">Image blob data<img style="border: none;margin-left: 5px;" src="../SkinSupport/DropDownClosed.gif" MadCap:altsrc="../SkinSupport/DropDownOpen.gif" onload="if ( typeof( FMCPreloadImage ) == 'function' ) { FMCPreloadImage( '../SkinSupport/DropDownOpen.gif' ); }" alt="Closed" MadCap:alt2="Open" class="MCDropDownIcon" /></a>
+                    </div>
+                    <div class="MCDropDownBody" id="MCDropDownBody_1949597166_0" style="display: none;">
+                        <p class="Topic-Text-Indent">The image is stored as a blob field in the database. You must also select an image type from the drop-down list. The image type is used to create a temporary file name with the file type extension.</p>
+                    </div>
+                </div>
+            </li>
+        </ul>
+        <ul>
+            <li class="Topic-Text-Bulleted-2" value="1">
+                <div class="MCDropDown">
+                    <div class="MCDropDownHead_0"><a class="MCDropDownHotSpot_0" href="javascript:void(0);" id="MCDropDownHotSpot_1949597166_1" onclick="FMCDropDown( this ); return false;">Fully-qualified path and file name of an image<img style="border: none;margin-left: 5px;" src="../SkinSupport/DropDownClosed.gif" MadCap:altsrc="../SkinSupport/DropDownOpen.gif" onload="if ( typeof( FMCPreloadImage ) == 'function' ) { FMCPreloadImage( '../SkinSupport/DropDownOpen.gif' ); }" alt="Closed" MadCap:alt2="Open" class="MCDropDownIcon" /></a>
+                    </div>
+                    <div class="MCDropDownBody" id="MCDropDownBody_1949597166_1" style="display: none;">
+                        <p class="Topic-Text-Indent">Use this option if the record returned by the SQL query contains a fully-qualified path and name of an image.</p>
+                        <p class="Topic-Text-Indent">If the image begins with HTTP, it will be inserted as a hyperlink to that file; otherwise a copy of the image will be stored with the document.</p>
+                    </div>
+                </div>
+            </li>
+        </ul>
+        <ul style="list-style-type: disc;">
+            <li value="1">Hyperlink Address - Allows you to enter a URL to be opened from the merge field.</li>
+            <li class="Topic-Text-Bulleted-2" value="2"><a href="javascript:void(0);" onclick="FMCToggler( this ); return false;" class="MCToggler_0" MadCap:targets="Hyperlink Address Examples">Hyperlink Address Examples<img style="border: none;margin-left: 5px;" src="../SkinSupport/DropDownClosed.gif" MadCap:altsrc="../SkinSupport/DropDownOpen.gif" onload="if ( typeof( FMCPreloadImage ) == 'function' ) { FMCPreloadImage( '../SkinSupport/DropDownOpen.gif' ); }" alt="Closed" MadCap:alt2="Open" class="MCTogglerIcon" /></a>
+            </li>
+        </ul>
+        <ul style="list-style-type: disc; display: none;" MadCap:targetName="Hyperlink Address Examples">
+            <li class="Bullet3" value="1">http://www.infor.com/</li>
+            <li class="Bullet3" value="2">mailto:jabbott@abbott.demo?Subject=Special Offer&amp;Body=Yes, please send me info on this special offer!</li>
+            <li class="Bullet3" value="3">mailto::SLXUserName &lt;:SLXUserEmail&gt;?Subject=Special Offer&amp;Body=Yes, please send me info on this special offer!</li>
+            <li class="Bullet3" value="4">ftp://ftp.winzip.com/winzip81.exe</li>
+            <li class="Bullet3" value="5">news://msnews.microsoft.com/microsoft.public.word.mailmerge.fields</li>
+        </ul>
+        <ul style="list-style-type: disc;">
+            <li value="1">Hyperlink Target - Allows you to choose how the URL will be opened. From the drop-down list, select a <a href="javascript:void(0);" onclick="FMCToggler( this ); return false;" class="MCToggler_0" MadCap:targets="Target table">Target<img style="border: none;margin-left: 5px;" src="../SkinSupport/DropDownClosed.gif" MadCap:altsrc="../SkinSupport/DropDownOpen.gif" onload="if ( typeof( FMCPreloadImage ) == 'function' ) { FMCPreloadImage( '../SkinSupport/DropDownOpen.gif' ); }" alt="Closed" MadCap:alt2="Open" class="MCTogglerIcon" /></a>.<br /></li>
+            <table style="width: 90%;mc-table-style: url('../Resources/TableStyles/TableStyle.css');margin-left: auto;margin-right: auto;display: none;" class="TableStyle-TableStyle" cellspacing="0" MadCap:targetName="Target table">
+                <thead>
+                    <tr class="TableStyle-TableStyle-Head-Header1">
+                        <th class="TableStyle-TableStyle-HeadE-Column1-Header1">Target Option</th>
+                        <th class="TableStyle-TableStyle-HeadD-Column1-Header1">Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="TableStyle-TableStyle-Body-Body1">
+                        <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Page Default (none)</td>
+                        <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Opens the link in the same window.</td>
+                    </tr>
+                    <tr class="TableStyle-TableStyle-Body-Body1">
+                        <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Same Frame</td>
+                        <td class="TableStyle-TableStyle-BodyD-Column1-Body1">
+                            <p>Opens the link in the same frame.</p>
+                            <p>Corresponds to the HTML target of "_self".</p>
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-TableStyle-Body-Body1">
+                        <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Whole Page</td>
+                        <td class="TableStyle-TableStyle-BodyD-Column1-Body1">
+                            <p>Opens the link into the full body of the current window.</p>
+                            <p>Corresponds to the HTML target of "_top".</p>
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-TableStyle-Body-Body1">
+                        <td class="TableStyle-TableStyle-BodyE-Column1-Body1">New Window</td>
+                        <td class="TableStyle-TableStyle-BodyD-Column1-Body1">
+                            <p>Opens the link in a new, unnamed window.</p>
+                            <p>Corresponds to the HTML target of "_blank".</p>
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-TableStyle-Body-Body1">
+                        <td class="TableStyle-TableStyle-BodyB-Column1-Body1">Parent Frame</td>
+                        <td class="TableStyle-TableStyle-BodyA-Column1-Body1">
+                            <p>Opens the link in the immediate parent window of the document with the link.</p>
+                            <p>Corresponds to the HTML target of "_parent".</p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </ul>
+        <ul style="list-style-type: disc;">
+            <li value="1">Hyperlink Screen Tip - Allows you to enter text that appears when the mouse pointer is positioned over the hyperlink.<br /><a href="javascript:void(0);" onclick="FMCToggler( this ); return false;" class="MCToggler_0" MadCap:targets="Parameters table">Parameters<img style="border: none;margin-left: 5px;" src="../SkinSupport/DropDownClosed.gif" MadCap:altsrc="../SkinSupport/DropDownOpen.gif" onload="if ( typeof( FMCPreloadImage ) == 'function' ) { FMCPreloadImage( '../SkinSupport/DropDownOpen.gif' ); }" alt="Closed" MadCap:alt2="Open" class="MCTogglerIcon" /></a> can be included in the Hyperlink Address and Hyperlink Screen Tip, and can be useful when creating a mailto:hyperlink.<br /></li>
+            <table style="width: 90%;mc-table-style: url('../Resources/TableStyles/TableStyle.css');margin-left: auto;margin-right: auto;display: none;" class="TableStyle-TableStyle" cellspacing="0" MadCap:targetName="Parameters table">
+                <thead>
+                    <tr class="TableStyle-TableStyle-Head-Header1">
+                        <th class="TableStyle-TableStyle-HeadE-Column1-Header1"><span class="MyVariablesProduct Name">Infor CRM</span> Parameter</th>
+                        <th class="TableStyle-TableStyle-HeadD-Column1-Header1">Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="TableStyle-TableStyle-Body-Body1">
+                        <td class="TableStyle-TableStyle-BodyE-Column1-Body1">SLXAccountManagerEmail</td>
+                        <td class="TableStyle-TableStyle-BodyD-Column1-Body1">The :SLXAccountManagerEmail parameter will be replaced with the account manager's
+e-mail address for the contact record being merged to.</td>
+                    </tr>
+                    <tr class="TableStyle-TableStyle-Body-Body1">
+                        <td class="TableStyle-TableStyle-BodyE-Column1-Body1">SLXAccountManagerName</td>
+                        <td class="TableStyle-TableStyle-BodyD-Column1-Body1">The :SLXAccountManagerName parameter will be replaced with the account manager's
+name for the contact record being merged to.</td>
+                    </tr>
+                    <tr class="TableStyle-TableStyle-Body-Body1">
+                        <td class="TableStyle-TableStyle-BodyE-Column1-Body1">SLXAccountManagerTitle</td>
+                        <td class="TableStyle-TableStyle-BodyD-Column1-Body1">The :SLXAccountManagerTitle parameter will be replaced with the account manager's
+title for the contact record being merged to.</td>
+                    </tr>
+                    <tr class="TableStyle-TableStyle-Body-Body1">
+                        <td class="TableStyle-TableStyle-BodyE-Column1-Body1">SLXAccountManagerPhone</td>
+                        <td class="TableStyle-TableStyle-BodyD-Column1-Body1">The :SLXAccountManagerPhone parameter will be replaced with the account manager's
+phone number for the contact record being merged to.</td>
+                    </tr>
+                    <tr class="TableStyle-TableStyle-Body-Body1">
+                        <td class="TableStyle-TableStyle-BodyE-Column1-Body1">SLXAccountManagerFax</td>
+                        <td class="TableStyle-TableStyle-BodyD-Column1-Body1">The :SLXAccountManagerFax parameter will be replaced with the account manager's fax
+number for the contact record being merged to.</td>
+                    </tr>
+                    <tr class="TableStyle-TableStyle-Body-Body1">
+                        <td class="TableStyle-TableStyle-BodyE-Column1-Body1">SLXUserEmail</td>
+                        <td class="TableStyle-TableStyle-BodyD-Column1-Body1">The :SLXUserEmail parameter will be replaced with the mail merge user's e-mail address.</td>
+                    </tr>
+                    <tr class="TableStyle-TableStyle-Body-Body1">
+                        <td class="TableStyle-TableStyle-BodyE-Column1-Body1">SLXUserName</td>
+                        <td class="TableStyle-TableStyle-BodyD-Column1-Body1">The :SLXUserName parameter will be replaced with the mail merge user's name.</td>
+                    </tr>
+                    <tr class="TableStyle-TableStyle-Body-Body1">
+                        <td class="TableStyle-TableStyle-BodyE-Column1-Body1">SLXUserTitle</td>
+                        <td class="TableStyle-TableStyle-BodyD-Column1-Body1">The :SLXUserTitle parameter will be replaced with the mail merge user's title.</td>
+                    </tr>
+                    <tr class="TableStyle-TableStyle-Body-Body1">
+                        <td class="TableStyle-TableStyle-BodyE-Column1-Body1">SLXUserPhone</td>
+                        <td class="TableStyle-TableStyle-BodyD-Column1-Body1">The :SLXUserPhone parameter will be replaced with the mail merge user's phone number.</td>
+                    </tr>
+                    <tr class="TableStyle-TableStyle-Body-Body1">
+                        <td class="TableStyle-TableStyle-BodyB-Column1-Body1">SLXUserFax</td>
+                        <td class="TableStyle-TableStyle-BodyA-Column1-Body1">The :SLXUserFax parameter will be replaced with the mail merge user's fax number</td>
+                    </tr>
+                </tbody>
+            </table>
+        </ul>
+        <p class="RelatedTopics">Related Topics</p>
+        <p><a href="Editing_Merge_Fields.htm">Editing Merge Fields</a>
+        </p>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

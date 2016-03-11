@@ -1,0 +1,11 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\ProdPackageKitView\OnAfterDelete.method.xml" timeStamp="2015-05-28T03:04:20.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\ProdPackageKitView\OnAfterInsert.method.xml" timeStamp="2015-05-28T03:04:20.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\ProdPackageKitView\OnAfterUpdate.method.xml" timeStamp="2015-05-28T03:04:20.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\ProdPackageKitView\OnBeforeDelete.method.xml" timeStamp="2015-05-28T03:04:20.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\ProdPackageKitView\OnBeforeInsert.method.xml" timeStamp="2015-05-28T03:04:20.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\ProdPackageKitView\OnBeforeUpdate.method.xml" timeStamp="2015-05-28T03:04:20.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\ProdPackageKitView\OnCreate.method.xml" timeStamp="2015-05-28T03:04:20.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\ProdPackageKitView\ProdPackageKitView.PRODPACKAGEKITVIEW.entity.xml" timeStamp="2015-05-28T03:04:20.0000" />
+</exportedFiles>

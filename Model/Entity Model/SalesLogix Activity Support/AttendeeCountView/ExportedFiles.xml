@@ -1,0 +1,11 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\AttendeeCountView\AttendeeCountView.ATTENDEECOUNTVIEW.entity.xml" timeStamp="2015-05-28T03:03:55.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\AttendeeCountView\OnAfterDelete.method.xml" timeStamp="2015-05-28T03:03:55.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\AttendeeCountView\OnAfterInsert.method.xml" timeStamp="2015-05-28T03:03:55.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\AttendeeCountView\OnAfterUpdate.method.xml" timeStamp="2015-05-28T03:03:55.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\AttendeeCountView\OnBeforeDelete.method.xml" timeStamp="2015-05-28T03:03:55.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\AttendeeCountView\OnBeforeInsert.method.xml" timeStamp="2015-05-28T03:03:55.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\AttendeeCountView\OnBeforeUpdate.method.xml" timeStamp="2015-05-28T03:03:55.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\AttendeeCountView\OnCreate.method.xml" timeStamp="2015-05-28T03:03:55.0000" />
+</exportedFiles>

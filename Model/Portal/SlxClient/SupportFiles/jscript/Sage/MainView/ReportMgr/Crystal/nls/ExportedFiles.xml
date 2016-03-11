@@ -1,0 +1,15 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\ReportMgr\Crystal\nls\_ParameterEditorBase.js" timeStamp="2015-05-28T03:09:04.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\ReportMgr\Crystal\nls\CrystalReportConditionEditor.js" timeStamp="2015-05-28T03:09:04.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\ReportMgr\Crystal\nls\CrystalReportConditionsDialog.js" timeStamp="2015-05-28T03:09:04.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\ReportMgr\Crystal\nls\CrystalReportParametersDialog.js" timeStamp="2015-05-28T03:09:04.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\ReportMgr\Crystal\nls\CrystalReportsFormatter.js" timeStamp="2015-05-28T03:09:04.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\ReportMgr\Crystal\nls\CrystalReportsUtility.js" timeStamp="2015-05-28T03:09:04.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\ReportMgr\Crystal\nls\CrystalReportWizardController.js" timeStamp="2015-05-28T03:09:04.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\ReportMgr\Crystal\nls\de\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\ReportMgr\Crystal\nls\en\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\ReportMgr\Crystal\nls\fr\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\ReportMgr\Crystal\nls\it\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\ReportMgr\Crystal\nls\ru\" />
+</exportedFiles>

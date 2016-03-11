@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<NavigationItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="07b06534-bbb2-4652-9824-0de595da796a">
+  <ItemId>navEntity</ItemId>
+  <NavUrl>EntityManager.aspx</NavUrl>
+  <LargeImageUrl />
+  <SmallImageUrl />
+  <ContextMenuId />
+  <Target />
+  <AppliedSecurity>Administration/EntityManager/Entities/View</AppliedSecurity>
+</NavigationItem>

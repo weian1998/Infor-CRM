@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<MenuDropDownItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="ccd258bd-c33f-4185-bfcc-358ac51aa7f3">
+  <ItemId>menuItemLookupIntegrationLink</ItemId>
+  <NavUrl>javascript:Sage.Utility.Groups.showMainLookupFor('APPIDMAPPING','IntegrationLink.aspx');</NavUrl>
+  <LargeImageUrl />
+  <SmallImageUrl />
+  <ContextMenuId />
+  <Target />
+  <AppliedSecurity />
+</MenuDropDownItem>

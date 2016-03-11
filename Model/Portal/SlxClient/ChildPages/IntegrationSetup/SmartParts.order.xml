@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<ModelItems xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Item Id="b53f31ad-654d-4f91-b345-97218aaa3c86">SlxEndPointDetails.smartpart.xml</Item>
+  <Item Id="cbba5a27-f2f1-4abc-a53b-04adfa9b2177">Integrations.smartpart.xml</Item>
+  <Item Id="1238b961-db81-4843-969c-79dd8de684a7">Matching.smartpart.xml</Item>
+</ModelItems>

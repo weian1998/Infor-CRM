@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\UserCalendarFavorite\OnAfterDelete.method.xml" timeStamp="2015-05-28T03:03:57.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\UserCalendarFavorite\OnAfterInsert.method.xml" timeStamp="2015-05-28T03:03:57.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\UserCalendarFavorite\OnAfterUpdate.method.xml" timeStamp="2015-05-28T03:03:57.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\UserCalendarFavorite\OnBeforeDelete.method.xml" timeStamp="2015-05-28T03:03:57.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\UserCalendarFavorite\OnBeforeInsert.method.xml" timeStamp="2015-05-28T03:03:57.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\UserCalendarFavorite\OnBeforeUpdate.method.xml" timeStamp="2015-05-28T03:03:57.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\UserCalendarFavorite\OnCreate.method.xml" timeStamp="2015-05-28T03:03:57.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\UserCalendarFavorite\UpdateUserCalendarFavorites.method.xml" timeStamp="2015-05-28T03:03:57.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\UserCalendarFavorite\UserCalendarFavorite.USERCALENDARFAVORITE.entity.xml" timeStamp="2015-05-28T03:03:57.0000" />
+</exportedFiles>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:fileTags="Translation Status.Support files" MadCap:tocPath="" MadCap:medium="non-print" MadCap:InPreviewMode="false" MadCap:PreloadImages="false" MadCap:RuntimeFileType="Topic" MadCap:TargetType="WebHelp" lang="en-us" xml:lang="en-us" MadCap:conditions="Integrations.X3" MadCap:PathToHelpSystem="../../" MadCap:HelpSystemFileName="WebClient.xml" MadCap:SearchType="Stem">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Merge Data</title>
+        <link href="../SkinSupport/Slideshow.css" rel="stylesheet" />
+        <link href="../SkinSupport/MadCap.css" rel="stylesheet" />
+        <link href="../Resources/TableStyles/TableStyle.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/Infor.CSS" rel="stylesheet" />
+        <script src="../SkinSupport/jquery.min.js">
+        </script>
+        <script src="../SkinSupport/MadCapAll.js">
+        </script>
+        <script src="../SkinSupport/MadCapTopicAll.js">
+        </script>
+    </head>
+    <body>
+        <h1>Merge Data</h1>
+        <p><a name="kanchor546"></a>(Accounting Integration Only) The Merge Data screen displays differences in data when you are linking records between <span class="MyVariablesProduct Name">Infor CRM</span> and an accounting system. Use this screen to select the data you want to use when merging records. The data you keep overwrites the data in the other system. <a href="javascript:void(0);" onclick="FMCToggler( this ); return false;" class="MCToggler_0" MadCap:targets="IC rules">Tell me more...<img style="border: none;margin-left: 5px;" src="../SkinSupport/DropDownClosed.gif" MadCap:altsrc="../SkinSupport/DropDownOpen.gif" onload="if ( typeof( FMCPreloadImage ) == 'function' ) { FMCPreloadImage( '../SkinSupport/DropDownOpen.gif' ); }" alt="Closed" MadCap:alt2="Open" class="MCTogglerIcon" /></a></p>
+        <ul MadCap:targetName="IC rules" style="display: none;">
+            <li class="Bullets" value="1">If Accounting Integration is not enabled and you merge two accounts, sales orders associated to the deleted account are added to the merged account.</li>
+            <li class="Bullets" value="2">If Accounting Integration is enabled and you merge two accounts, an account that has associated sales orders or quotes that have been submitted to the accounting system cannot be deleted (the account that contains the submitted records cannot be the Source account). If necessary, you can control the Source account by selecting that account first when merging data. This allows you to keep the account with associated sales orders by merging into it.</li>
+        </ul>
+        <p class="Infinitive">To select</p>
+        <ol>
+            <li value="1">Open the <a href="Linking_Records.htm" target="_self">Linking wizard</a> and proceed through the previous screens.</li>
+        </ol>
+        <ol MadCap:continue="true">
+            <li value="2">Complete the <span class="SLXBold">Merge Data</span> screen.
+                <table class="TableStyle-TableStyle" style="mc-table-style: url('../Resources/TableStyles/TableStyle.css');margin-left: 0;margin-right: auto;width: 894px;" cellspacing="0"><col style="width: 149px;" class="TableStyle-TableStyle-Column-Column1" /><col class="TableStyle-TableStyle-Column-Column1" /><thead><tr class="TableStyle-TableStyle-Head-Header1"><th class="TableStyle-TableStyle-HeadE-Column1-Header1">Box</th><th class="TableStyle-TableStyle-HeadD-Column1-Header1">Description/Action</th></tr></thead><tbody><tr class="TableStyle-TableStyle-Body-Body1"><td class="TableStyle-TableStyle-BodyE-Column1-Body1">Property</td><td class="TableStyle-TableStyle-BodyD-Column1-Body1"><p>Lists the data fields that exist for the record in the two records in <span class="MyVariablesProduct Name">Infor CRM</span>.</p></td></tr><tr class="TableStyle-TableStyle-Body-Body1"><td class="TableStyle-TableStyle-BodyE-Column1-Body1"><p><i>[Source]</i> column </p></td><td class="TableStyle-TableStyle-BodyD-Column1-Body1"><p>Use the column to the left of the Source column to select, on a field-by-field basis, which data to keep from the <span class="MyVariablesProduct Name">Infor CRM</span> account (Source) when the records are merged.</p><p>Select the option in the column heading to keep all the <span class="MyVariablesProduct Name">Infor CRM</span> (Source) data.</p></td></tr><tr class="TableStyle-TableStyle-Body-Body1"><td class="TableStyle-TableStyle-BodyE-Column1-Body1"><i>[Target]</i> column</td><td class="TableStyle-TableStyle-BodyD-Column1-Body1"><p>Use the column to the left of the Target column to define, on a field-by-field basis, which data to keep from the accounting system (Target) when the records are merged.</p><p>Select the option in the column heading to keep all accounting system  data.</p></td></tr><tr class="TableStyle-TableStyle-Body-Body1"><td class="TableStyle-TableStyle-BodyB-Column1-Body1">Hide Duplicates or Show All</td><td class="TableStyle-TableStyle-BodyA-Column1-Body1">Click to show or hide the property information that is the same in both systems. By default, only fields with different values display in the list.</td></tr></tbody></table></li>
+            <li value="3">Click <span class="SLXBold">Next</span> to go to the next step. <br />Depending on your choices, you may need to <a href="Merge_Contacts.htm" target="_self">merge contacts</a> . 
+                </li>
+        </ol>
+        <p class="RelatedTopics">Related Topics</p>
+        <p><a href="Linking_Records.htm" target="_self">Linking Records</a>
+        </p>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

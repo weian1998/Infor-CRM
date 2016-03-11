@@ -1,0 +1,14 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\SlxClient\SupportFiles\Libraries\Simplate.js" timeStamp="2015-05-28T03:07:41.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\Libraries\Simplate.min.js" timeStamp="2015-05-28T03:07:41.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\Libraries\SparkHandler.ashx" timeStamp="2015-05-28T03:07:41.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\Libraries\DesktopIntegration\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\Libraries\dhtmlxScheduler_v30\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\Libraries\dojo\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\Libraries\font-awesome\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\Libraries\jQuery\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\Libraries\RadControls\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\Libraries\sdata\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\Libraries\sinon\" />
+</exportedFiles>

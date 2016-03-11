@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:fileTags="Translation Status.Support files" MadCap:tocPath="Administration|Security" MadCap:medium="non-print" MadCap:InPreviewMode="false" MadCap:PreloadImages="false" MadCap:RuntimeFileType="Topic" MadCap:TargetType="WebHelp" lang="en-us" xml:lang="en-us" MadCap:conditions="Output.WebClient,Output.IntegrationContract,Targeted.WebHelp-slxgetstartedADMIN subset" MadCap:PathToHelpSystem="../../" MadCap:HelpSystemFileName="WebClient.xml" MadCap:SearchType="Stem">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>What are Roles and Secured Actions?</title>
+        <link href="../SkinSupport/Slideshow.css" rel="stylesheet" />
+        <link href="../SkinSupport/MadCap.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/Infor.CSS" rel="stylesheet" />
+        <script src="../SkinSupport/jquery.min.js">
+        </script>
+        <script src="../SkinSupport/MadCapAll.js">
+        </script>
+        <script src="../SkinSupport/MadCapTopicAll.js">
+        </script>
+    </head>
+    <body>
+        <h1>What are Roles and Secured Actions?</h1>
+        <p><a name="kanchor57"></a>A role determines what functionality a user can access in the Web Client. Roles use secured actions to control access to user interface elements such as pages, menus, menu items, toolbars, and buttons. When you control access to individual user interface elements, you can control access to actions such as editing, deleting, or printing. Current secured elements are all user interface elements giving access to accounts, contacts, and opportunities.</p>
+        <p>You secure a user interface element by assigning a secured action to its Applied Security property in the Application Architect. Once a secured action is applied to a user interface element, only users who are assigned a role that includes the secured action can see and use the element. For example, Entities/Account/Save is the secured action assigned to the Applied Security property for the Save button action on the Account Detail view. When the button loads at runtime, the display value changes depending on whether the user has permission to perform the action.</p>
+        <p>A user interface element in the Web Client that is secured restricts access from all users until a role is assigned which gives access to the user. To secure elements in the Web Client using roles you must add secured actions to elements, add the secured action to a role, and assign users to the role.    <a href="javascript:void(0);" onclick="FMCToggler( this ); return false;" class="MCToggler_0" MadCap:targets="example;roles steps">Tell me more... <img style="border: none;margin-left: 5px;" src="../SkinSupport/DropDownClosed.gif" MadCap:altsrc="../SkinSupport/DropDownOpen.gif" onload="if ( typeof( FMCPreloadImage ) == 'function' ) { FMCPreloadImage( '../SkinSupport/DropDownOpen.gif' ); }" alt="Closed" MadCap:alt2="Open" class="MCTogglerIcon" /></a></p>
+        <p MadCap:targetName="example" style="display: none;">Elements are secured in the Application Architect by assigning a secured action to them, or applying security. The value of the Applied Security property is the secured action name. To secure an element in the UI and allow users access to that element you must:</p>
+        <ol MadCap:targetName="roles steps" style="display: none;">
+            <li class="Topic-Text-Numbered" value="1">Determine what secured action you want to use to secure the element. If necessary, you can create a new secured action in the Web Client.</li>
+            <li class="Topic-Text-Numbered" value="2">Add a secured action to the Applied Security property for the element in the Application Architect. See the "Understanding Secured Actions" topic in the Application Architect Help for more information.</li>
+            <li class="Topic-Text-Numbered" value="3">Add the secured action for that element to a role in the Web Client.</li>
+            <li class="Topic-Text-Numbered" value="4">Assign users to the role.</li>
+        </ol>
+        <p class="subheading">Default Roles</p>
+        <p><a name="DefaultRoles"></a>By default, users created in the Web Client are assigned the Standard User role. This allows access to all non-administrative functions in the Web Client. If you remove a user from this role, the user will not have access to any items that are secured unless you assign a new role. </p>
+        <p> </p>
+        <p>The default roles are:</p>
+        <ul>
+            <li value="1"><span class="SLXBold">Administrator</span> - Allows add, edit, and delete permissions to administration functions such as users, teams, departments, pick lists, products, packages, Check for Duplicates, Process Duplicates, and Check for Duplicates History. Also gives edit permission for quick forms in the Web Form Designer.</li>
+            <li value="2"><span class="SLXBold">Data Quality Manager</span> - Allows add, edit, and delete permissions to Check for Duplicates, Process Duplicates, and Check for Duplicates History.</li>
+            <li value="3"><span class="SLXBold">Standard User</span> - Allows view, add, edit, and delete permissions to Web Client non-administrative entities such as accounts, contacts, opportunities, sales orders, leads, contracts, defects, and tickets. Also allows view permissions for products and packages.<br />If you have existing users or create new users in the Administrator, you must assign users to the <a href="Assigning_Users_To_Standard_Role.htm" target="_self">Standard User role</a>.</li>
+        </ul>
+        <ul>
+            <li value="1"><span class="SLXBold">Order and Quote Processor</span> - Allows add and view permissions to contacts and accounts and add, edit, and delete permissions to sales orders.</li>
+            <li value="2"><span class="SLXBold">Integration</span> - Allows add, edit, delete, and view permissions for integrations.
+                <table wrapperparagraphselector="P" style="margin-top: 14pt;border-spacing: 0px;margin-left: 0;margin-right: auto;caption-side: top;width: 843px;" cellspacing="0"><col style="width: 38px;" /><col /><tr><td style="padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top"><p style="text-align: center;margin-bottom: 0;" align="center"><img src="../image/note.gif" /></p></td><td style="padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top"><p>This role is not recommended for standard users.  The ability to view Sync History is part of the Standard User role. If users require access to other Integrations actions, for example the ability to authorize an integration, <span class="MyVariablesProduct Name">Infor CRM</span> recommends adding those actions to the Standard User role or creating a new role that includes those actions.</p></td></tr></table></li>
+            <li MadCap:conditions="Output.IntegrationContract" value="3"><span class="SLXBold">Integration Contract Lock Price</span> - Allows permission to lock product pricing on a sales order. (Accounting Integration Only)</li>
+        </ul>
+        <table wrapperparagraphselector="P" style="margin-top: 14pt;border-spacing: 0px;margin-left: 0;margin-right: auto;caption-side: top;" cellspacing="0">
+            <col />
+            <col />
+            <tr>
+                <td style="width: 10%;padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top" width="10%">
+                    <p style="text-align: center;margin-bottom: 0;" align="center">
+                        <img src="../image/note.gif" />
+                    </p>
+                </td>
+                <td style="padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top">
+                    <ul>
+                        <li class="Bullets" value="1">Security in the Network Client is defined using feature security, function security, and administrative roles. Web security combines all Network elements into one security model - a role. You cannot use the Network security model for a user who is logged into the Web Client or the Web security model for a user who is logged into the Network Client.</li>
+                        <li class="Bullets" value="2">The admin login can access all user interface elements, regardless of secured actions.</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+        <p class="RelatedTopics" MadCap:conditions="Output.WebClient">How Do I?</p>
+        <p MadCap:conditions="Output.WebClient"><a href="Creating_a_Role.htm" target="_self">Create a Role</a>
+        </p>
+        <p MadCap:conditions="Output.WebClient"><a href="CreatingASecuredAction.htm" target="_self">Create a Secured Action</a>
+        </p>
+        <p MadCap:conditions="Output.WebClient"><a href="Role_Users_Tab.htm" target="_self">Assign a Role to Users</a>
+        </p>
+        <p MadCap:conditions="Output.WebClient"><a href="EditingOrDeletingASecuredAction.htm" target="_self">Edit or Delete a Secured Action</a>
+        </p>
+        <p MadCap:conditions="Output.WebClient"><a href="Assigning_Users_To_Standard_Role.htm" target="_self">Assign Users to the Standard User Role</a>
+        </p>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

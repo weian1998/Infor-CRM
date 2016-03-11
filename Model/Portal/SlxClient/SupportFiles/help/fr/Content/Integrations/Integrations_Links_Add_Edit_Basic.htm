@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:fileTags="Translation Status.Support files" xml:lang="fr" MadCap:tocPath="" MadCap:medium="non-print" MadCap:InPreviewMode="false" MadCap:PreloadImages="false" MadCap:RuntimeFileType="Topic" MadCap:TargetType="WebHelp" lang="fr" MadCap:conditions="Output.WebClient" MadCap:PathToHelpSystem="../../" MadCap:HelpSystemFileName="WebClient.xml" MadCap:SearchType="Stem">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Ajout ou modification d'un lien d'intégration de base</title>
+        <link href="../SkinSupport/Slideshow.css" rel="stylesheet" />
+        <link href="../SkinSupport/MadCap.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/Infor.CSS" rel="stylesheet" />
+        <script src="../SkinSupport/jquery.min.js">
+        </script>
+        <script src="../SkinSupport/MadCapAll.js">
+        </script>
+        <script src="../SkinSupport/MadCapTopicAll.js">
+        </script>
+    </head>
+    <body>
+        <h1><a name="kanchor521"></a>Ajout ou modification d'un lien d'intégration de base</h1>
+        <p>Utilisez la boîte de dialogue Ajouter un lien ou Modifier un lien pour ajouter ou modifier des liens d'intégration. Si le type d'autorisation d'une intégration est Basique, utilisez cette boîte de dialogue pour ajouter des liens.</p>
+        <p class="RelatedTopics">Procédure</p>
+        <div class="MCDropDown">
+            <div class="MCDropDownHead_0"><a class="MCDropDownHotSpot_0" href="javascript:void(0);" id="MCDropDownHotSpot_470562827_0" onclick="FMCDropDown( this ); return false;">Ajouter un lien<img style="border: none;margin-left: 5px;" src="../SkinSupport/DropDownClosed.gif" MadCap:altsrc="../SkinSupport/DropDownOpen.gif" onload="if ( typeof( FMCPreloadImage ) == 'function' ) { FMCPreloadImage( '../SkinSupport/DropDownOpen.gif' ); }" alt="Closed" MadCap:alt2="Open" class="MCDropDownIcon" /></a>
+            </div>
+            <div class="MCDropDownBody" id="MCDropDownBody_470562827_0" style="display: none;">
+                <ol>
+                    <li value="1">Dans la <a href="Integrations_Detail_View.htm">vue Détails de l'intégration</a>, cliquez sur l'onglet <span class="SLXBold">Liens</span>.<table wrapperparagraphselector="P" style="width: 80%;margin-top: 14pt;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" width="80%"><col style="width: 45px;" /><col /><tr><td style="padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top"><p style="text-align: center;margin-bottom: 0;" align="center"><img src="../image/note.gif" /></p></td><td style="width: 90%;padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top" width="90%"><p class="Tip-Note-Text" style="margin-bottom: 0;">L'onglet Liens est disponible uniquement pour les intégrations avec une méthode de synchronisation côté client ou côté serveur.</p></td></tr></table></li>
+                    <li value="2">Cliquez sur le bouton <span class="MCExpanding_0"><a href="javascript:void(0);" class="MCExpandingHead_0" onclick="FMCExpand( this ); return false;">Ajouter un lien<img style="border: none;margin-left: 5px;" src="../SkinSupport/ExpandClosed.gif" MadCap:altsrc="../SkinSupport/ExpandOpen.gif" onload="if ( typeof( FMCPreloadImage ) == 'function' ) { FMCPreloadImage( '../SkinSupport/ExpandOpen.gif' ); }" alt="Closed" MadCap:alt2="Open" class="MCExpandingIcon" /></a><span class="MCExpandingBody_0" style="display: none;"><img src="../image/add.gif" /></span></span>.<br /> Ce bouton est disponible uniquement si le type de lien d'intégration est Système ou Admin.</li>
+                    <li value="3">Dans la zone <span class="SLXBold">URL</span>, tapez l'URL SData utilisée par <span class="MyVariablesProduct Name">Infor CRM</span> pour partager les informations entre les systèmes. <ul><li value="1">Utilisez un des formats suivants&#160;:<ul><li value="1">Si votre implémentation n'utilise par le port par défaut (port 80), utilisez le format http://server:port/sdatavirtualdir/<i>application</i>/<i>contract</i>/<i>dataset</i>/</li>&#160;<li value="2">Si votre implémentation utilise le port 80, omettez le numéro de port de l'URL.<br /> Le service de synchronisation expurge automatiquement le port par défaut de l'URL qui cause les erreurs et les problèmes correspondants. Evitez ceci en utilisant le format http://server/sdatavirtualdir/<i>application</i>/<i>contract</i>/<i>dataset</i>/</li></ul></li><li value="2">Remplacez par les valeurs fournies par votre partenaire d'intégration&#160;: <ul><li value="1">&#160;<i>Sdatavirtualdir</i> - Par exemple, sdata. </li><li value="2"><p>&#160;<i>application</i> - le nom de votre application de comptabilité. Par exemple, comptes50. </p></li><li value="3">&#160;<i>contract</i> - le nom du contrat. Par exemple, GCRM. </li><li value="4">&#160;<i>dataset</i> - fait la distinction entre un jeu de données et une société d'exploitation. Par exemple, /-/</li></ul></li></ul></li>
+                    <li value="4">Dans la zone <span class="SLXBold">Nom d'affichage</span>, tapez le nom que vous voulez afficher lorsque des utilisateurs associent des enregistrements entre <span class="MyVariablesProduct Name">Infor CRM</span> et le système intégré.</li>
+                    <li value="5">Dans la zone <span class="SLXBold">Nom d'utilisateur</span>, tapez le nom que vous utilisez pour vous connecter au système d'intégration.</li>
+                    <li value="6">Dans la zone <span class="SLXBold">Mot de passe</span>, tapez le mot de passe correspondant qui permet à l'utilisateur de se connecter au système d'intégration.</li>
+                    <li value="7">Cliquez sur le bouton <span class="SLXBold">Tester le lien</span>.<br /> Le nom du bouton dépend du type d'autorisation et du type de lien.</li>
+                    <li value="8">Cliquez sur <span class="SLXBold">OK</span>.</li>
+                </ol>
+            </div>
+        </div>
+        <div class="MCDropDown">
+            <div class="MCDropDownHead_0"><a class="MCDropDownHotSpot_0" href="javascript:void(0);" id="MCDropDownHotSpot_470562827_1" onclick="FMCDropDown( this ); return false;">Modifier un lien<img style="border: none;margin-left: 5px;" src="../SkinSupport/DropDownClosed.gif" MadCap:altsrc="../SkinSupport/DropDownOpen.gif" onload="if ( typeof( FMCPreloadImage ) == 'function' ) { FMCPreloadImage( '../SkinSupport/DropDownOpen.gif' ); }" alt="Closed" MadCap:alt2="Open" class="MCDropDownIcon" /></a>
+            </div>
+            <div class="MCDropDownBody" id="MCDropDownBody_470562827_1" style="display: none;">
+                <ol>
+                    <li value="1">Dans la <a href="Integrations_Detail_View.htm">vue Détails de l'intégration</a>, cliquez sur l'onglet <span class="SLXBold">Liens</span>.</li>
+                    <table wrapperparagraphselector="P" style="width: 80%;margin-top: 14pt;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" width="80%">
+                        <col style="width: 45px;" />
+                        <col />
+                        <tr>
+                            <td style="padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top">
+                                <p style="text-align: center;margin-bottom: 0;" align="center">
+                                    <img src="../image/note.gif" />
+                                </p>
+                            </td>
+                            <td style="width: 90%;padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top" width="90%">
+                                <p class="Tip-Note-Text" style="margin-bottom: 0;">L'onglet Liens est disponible uniquement pour les intégrations avec une méthode de synchronisation côté client ou côté serveur.</p>
+                            </td>
+                        </tr>
+                    </table>
+                    <li value="2">Cliquez sur le lien hypertexte <span class="SLXBold">Modifier</span> correspondant au lien que vous voulez modifier.<br /> Ce lien est disponible uniquement si le type de lien d'intégration est Système ou Admin.</li>
+                    <li value="3">Apportez vos modifications.</li>
+                    <li value="4">Cliquez sur le bouton <span class="SLXBold">Tester le lien</span>.</li>
+                    <li value="5">Cliquez sur <span class="SLXBold">OK</span>.</li>
+                </ol>
+            </div>
+        </div>
+        <p class="RelatedTopics">Rubriques connexes</p>
+        <p><a href="Integrations_Links_Tab.htm">Onglet Liens</a>
+        </p>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

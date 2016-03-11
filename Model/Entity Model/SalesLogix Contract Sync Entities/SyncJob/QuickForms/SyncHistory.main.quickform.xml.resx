@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btnRefresh.Caption" xml:space="preserve">
+    <value>Refresh</value>
+  </data>
+  <data name="btnRefresh.ToolTip" xml:space="preserve">
+    <value>Refresh</value>
+  </data>
+  <data name="usrUser.Caption" xml:space="preserve">
+    <value>Filter By User Name:</value>
+  </data>
+  <data name="usrUser.ButtonToolTip" xml:space="preserve">
+    <value>Find</value>
+  </data>
+  <data name="cboResource.Caption" xml:space="preserve">
+    <value>Filter By Resource Kind:</value>
+  </data>
+  <data name="grdSyncHistory.58dc0efe-a10c-4af8-b2c2-97d523f28045.ColumnHeading" xml:space="preserve">
+    <value>Resource Kind</value>
+  </data>
+  <data name="grdSyncHistory.18d63b98-17ae-4516-8d4e-532ba6b2c845.ColumnHeading" xml:space="preserve">
+    <value>Resource</value>
+  </data>
+  <data name="grdSyncHistory.e5481099-93e7-47bf-a395-6084280e2f41.ColumnHeading" xml:space="preserve">
+    <value>Log Create Date</value>
+  </data>
+  <data name="grdSyncHistory.46f1ed4c-739b-4779-911d-9f4405d2cb7d.ColumnHeading" xml:space="preserve">
+    <value>User Name</value>
+  </data>
+  <data name="grdSyncHistory.c7e6d5a0-1a3e-4793-8ba4-d65e426c4a9b.ColumnHeading" xml:space="preserve">
+    <value>Message</value>
+  </data>
+  <data name="grdSyncHistory.7d9ae004-829d-454b-b726-1b6c369f6fd3.ColumnHeading" xml:space="preserve">
+    <value>Entity</value>
+  </data>
+  <data name="txtResource_item0.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtResource_item0.Value" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtResource_item1.Text" xml:space="preserve">
+    <value>test</value>
+  </data>
+  <data name="txtResource_item1.Value" xml:space="preserve">
+    <value>test</value>
+  </data>
+  <data name="txtResource_item2.Text" xml:space="preserve">
+    <value>two</value>
+  </data>
+  <data name="txtResource_item2.Value" xml:space="preserve">
+    <value>two</value>
+  </data>
+  <data name="grdSyncHistory.f3320432-30a4-4b53-8eeb-9c0ec3a0cbc1.FormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grdSyncHistory.f3320432-30a4-4b53-8eeb-9c0ec3a0cbc1.ColumnHeading" xml:space="preserve">
+    <value>Record</value>
+  </data>
+  <data name="grdSyncHistory.5672b48b-de8a-4f23-b5f5-7d895d64701f.ColumnHeading" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grdSyncHistory.d7d40e19-0f70-4fab-9707-52e02c18dfd3.ColumnHeading" xml:space="preserve">
+    <value>Sync History Log Name</value>
+  </data>
+  <data name="grdSyncHistory.cdfb348f-d6b8-4812-9de4-cb8e8ed5f9f9.ColumnHeading" xml:space="preserve">
+    <value>Sent From</value>
+  </data>
+  <data name="grdSyncHistory.36de09c3-4aa6-43d9-90d7-c9058c59e655.ColumnHeading" xml:space="preserve">
+    <value>Received By</value>
+  </data>
+  <data name="grdSyncHistory.933921af-b23b-4fa4-a3f3-cd29b5ed4da5.ColumnHeading" xml:space="preserve">
+    <value>Integration</value>
+  </data>
+  <data name="grdSyncHistory.ff0ba147-6d52-4109-819a-c76588a071e7.ColumnHeading" xml:space="preserve">
+    <value>Record</value>
+  </data>
+</root>

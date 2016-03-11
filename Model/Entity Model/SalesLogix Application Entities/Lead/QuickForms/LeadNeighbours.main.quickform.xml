@@ -1,0 +1,376 @@
+<?xml version="1.0"?>
+<QuickForm xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="31b5a4ad-723e-4110-a1d4-a0415d54a725" DefinitionType="Sage.Platform.QuickForms.QuickFormMainDetailViewDefinition, Sage.Platform.QuickForms" lastModifiedUtc="2016-03-07T16:13:16.862178Z">
+  <ActiveControl />
+  <ImagePath />
+  <LoadActions>
+    <FormActionDefinition>
+      <ResourceKey>73e967df-9e22-4b11-8671-8ee0c251a162</ResourceKey>
+      <Action typeName="Sage.Platform.QuickForms.ActionItems.CSharpSnippetActionItem, Sage.Platform.QuickForms">
+        <CSharpSnippetActionItem>
+          <MethodName>quickformload0</MethodName>
+          <CSharpCodeSnippet>        ILead lead = BindingSource.Current as Sage.Entity.Interfaces.ILead;
+		lblRecords.Text = lead.GetNeighborhood().Count.ToString() + " records found";</CSharpCodeSnippet>
+        </CSharpSnippetActionItem>
+      </Action>
+      <IsDialogCloseAction>False</IsDialogCloseAction>
+      <RunOnEveryRePaint>False</RunOnEveryRePaint>
+      <DialogActionResult>NoResult</DialogActionResult>
+      <PerformsUpdate>False</PerformsUpdate>
+      <AppliedSecurity />
+      <RefreshData>False</RefreshData>
+    </FormActionDefinition>
+  </LoadActions>
+  <Name>LeadNeighbours</Name>
+  <ClientScriptIncludes />
+  <ClientResourceKeys />
+  <ExtendedProperties />
+  <HelpFile />
+  <ReadOnly>false</ReadOnly>
+  <GeneratePrintView>false</GeneratePrintView>
+  <Controls>
+    <Control typeName="Sage.SalesLogix.QuickForms.QFControls.QFSLXPickList, Sage.SalesLogix.QuickForms.QFControls">
+      <QFSLXPickList>
+        <Column>0</Column>
+        <Row>0</Row>
+        <HotKey>0</HotKey>
+        <TabIndex>0</TabIndex>
+        <ControlId>ddlType</ControlId>
+        <DataBindings />
+        <ControlLabelPlacement>left</ControlLabelPlacement>
+        <ExtendedProperties />
+        <CaptionAlignment>left</CaptionAlignment>
+        <StyleScheme />
+        <MaxLength>64</MaxLength>
+        <OnChangeAction>
+          <ResourceKey>ddlType</ResourceKey>
+          <Action typeName="Sage.Platform.QuickForms.ActionItems.CSharpSnippetActionItem, Sage.Platform.QuickForms">
+            <CSharpSnippetActionItem>
+              <MethodName>ddlType_ChangeAction</MethodName>
+              <CSharpCodeSnippet>	grdLeads_RowSelectedAction(sender, e);</CSharpCodeSnippet>
+            </CSharpSnippetActionItem>
+          </Action>
+          <IsDialogCloseAction>False</IsDialogCloseAction>
+          <RunOnEveryRePaint>False</RunOnEveryRePaint>
+          <DialogActionResult>NoResult</DialogActionResult>
+          <PerformsUpdate>False</PerformsUpdate>
+          <AppliedSecurity />
+          <RefreshData>False</RefreshData>
+        </OnChangeAction>
+        <Required>false</Required>
+        <AutoPostBack>false</AutoPostBack>
+        <PickListName>Lead Source Type</PickListName>
+        <StorageMode>Text</StorageMode>
+        <NameFormatString />
+        <AllowMultiples>false</AllowMultiples>
+        <AlphaSort>false</AlphaSort>
+        <MustExistInList>false</MustExistInList>
+        <NoneEditable>false</NoneEditable>
+        <PickListId />
+        <ValueStoredAsText>true</ValueStoredAsText>
+      </QFSLXPickList>
+    </Control>
+    <Control typeName="Sage.SalesLogix.QuickForms.QFControls.QFDataGrid, Sage.SalesLogix.QuickForms.QFControls">
+      <QFDataGrid>
+        <ColumnSpan>3</ColumnSpan>
+        <Column>0</Column>
+        <Row>1</Row>
+        <HotKey>0</HotKey>
+        <TabIndex>0</TabIndex>
+        <ControlId>grdLeads</ControlId>
+        <DataBindings />
+        <ControlLabelPlacement>none</ControlLabelPlacement>
+        <ExtendedProperties />
+        <CaptionAlignment>left</CaptionAlignment>
+        <StyleScheme />
+        <DataSource>dsLeads</DataSource>
+        <EnablePaging>false</EnablePaging>
+        <EnableSorting>true</EnableSorting>
+        <Columns>
+          <QFLinkCol>
+            <StyleScheme />
+            <DataField>LeadNameLastFirst</DataField>
+            <ColumnId>b02ca604-ad21-4381-9530-b07b1968acbe</ColumnId>
+            <HorizontalAlignment>left</HorizontalAlignment>
+            <HeaderAlignment>left</HeaderAlignment>
+            <SortDirection>None</SortDirection>
+            <IsSortable>true</IsSortable>
+            <SortField>LeadNameLastFirst</SortField>
+            <MultiCurrencyDependent>false</MultiCurrencyDependent>
+            <Destination />
+            <Image />
+            <EntityIdField>Id</EntityIdField>
+            <EntityTypeName>Lead</EntityTypeName>
+            <Target />
+            <AppliedSecurity />
+          </QFLinkCol>
+          <QFDataGridCol>
+            <StyleScheme />
+            <DataField>Company</DataField>
+            <ColumnId>d6ef1165-184e-443e-ab4c-377e502bafc6</ColumnId>
+            <HorizontalAlignment>left</HorizontalAlignment>
+            <HeaderAlignment>left</HeaderAlignment>
+            <SortDirection>None</SortDirection>
+            <IsSortable>true</IsSortable>
+            <SortField>Company</SortField>
+            <MultiCurrencyDependent>false</MultiCurrencyDependent>
+          </QFDataGridCol>
+          <QFDataGridCol>
+            <StyleScheme />
+            <DataField>Type</DataField>
+            <ColumnId>86a34c08-9b75-43bc-b5d1-dd6407195539</ColumnId>
+            <HorizontalAlignment>left</HorizontalAlignment>
+            <HeaderAlignment>left</HeaderAlignment>
+            <SortDirection>None</SortDirection>
+            <IsSortable>true</IsSortable>
+            <SortField>Type</SortField>
+            <MultiCurrencyDependent>false</MultiCurrencyDependent>
+          </QFDataGridCol>
+          <QFDataGridCol>
+            <StyleScheme />
+            <DataField>Status</DataField>
+            <ColumnId>1446d165-e4fc-48fd-ba6c-4a74f7f175db</ColumnId>
+            <HorizontalAlignment>left</HorizontalAlignment>
+            <HeaderAlignment>left</HeaderAlignment>
+            <SortDirection>None</SortDirection>
+            <IsSortable>true</IsSortable>
+            <SortField>Status</SortField>
+            <MultiCurrencyDependent>false</MultiCurrencyDependent>
+          </QFDataGridCol>
+          <QFDataGridCol>
+            <StyleScheme />
+            <DataField>Address.PostalCode</DataField>
+            <ColumnId>6616b6ea-fc38-442e-95c2-6449b296f594</ColumnId>
+            <HorizontalAlignment>left</HorizontalAlignment>
+            <HeaderAlignment>left</HeaderAlignment>
+            <SortDirection>None</SortDirection>
+            <IsSortable>true</IsSortable>
+            <SortField>Address.PostalCode</SortField>
+            <MultiCurrencyDependent>false</MultiCurrencyDependent>
+          </QFDataGridCol>
+          <QFDataGridCol>
+            <StyleScheme />
+            <DataField>Address.City</DataField>
+            <ColumnId>c015cd52-00cf-4850-9166-8bf528798d3c</ColumnId>
+            <HorizontalAlignment>left</HorizontalAlignment>
+            <HeaderAlignment>left</HeaderAlignment>
+            <SortDirection>None</SortDirection>
+            <IsSortable>true</IsSortable>
+            <SortField>Address.City</SortField>
+            <MultiCurrencyDependent>false</MultiCurrencyDependent>
+          </QFDataGridCol>
+        </Columns>
+        <RenderVertical>false</RenderVertical>
+        <OnRowSelectedAction>
+          <ResourceKey>grdLeads</ResourceKey>
+          <Action typeName="Sage.Platform.QuickForms.ActionItems.CSharpSnippetActionItem, Sage.Platform.QuickForms">
+            <CSharpSnippetActionItem>
+              <MethodName>grdLeads_RowSelectedAction</MethodName>
+              <CSharpCodeSnippet>		Dictionary&lt;string, string&gt; filter = new Dictionary&lt;string, string&gt;();
+        ILead lead = BindingSource.Current as Sage.Entity.Interfaces.ILead;
+        filter.Add("Type", ddlType.PickListValue);
+        filter.Add("Status", ddlStatus.PickListValue);
+        grdLeads.DataSource = lead.GetNeighborhoodByFilter(filter);
+		grdLeads.DataBind();
+		lblRecords.Text = grdLeads.Rows.Count.ToString() + " records found";</CSharpCodeSnippet>
+            </CSharpSnippetActionItem>
+          </Action>
+          <IsDialogCloseAction>False</IsDialogCloseAction>
+          <RunOnEveryRePaint>False</RunOnEveryRePaint>
+          <DialogActionResult>NoResult</DialogActionResult>
+          <PerformsUpdate>False</PerformsUpdate>
+          <AppliedSecurity />
+          <RefreshData>False</RefreshData>
+        </OnRowSelectedAction>
+      </QFDataGrid>
+    </Control>
+    <Control typeName="Sage.SalesLogix.QuickForms.QFControls.QFSLXPickList, Sage.SalesLogix.QuickForms.QFControls">
+      <QFSLXPickList>
+        <Column>1</Column>
+        <Row>0</Row>
+        <HotKey>0</HotKey>
+        <TabIndex>0</TabIndex>
+        <ControlId>ddlStatus</ControlId>
+        <DataBindings />
+        <ControlLabelPlacement>left</ControlLabelPlacement>
+        <ExtendedProperties />
+        <CaptionAlignment>left</CaptionAlignment>
+        <StyleScheme />
+        <MaxLength>64</MaxLength>
+        <OnChangeAction>
+          <ResourceKey>ddlStatus</ResourceKey>
+          <Action typeName="Sage.Platform.QuickForms.ActionItems.CSharpSnippetActionItem, Sage.Platform.QuickForms">
+            <CSharpSnippetActionItem>
+              <MethodName>ddlStatus_ChangeAction</MethodName>
+              <CSharpCodeSnippet>	grdLeads_RowSelectedAction(sender, e);</CSharpCodeSnippet>
+            </CSharpSnippetActionItem>
+          </Action>
+          <IsDialogCloseAction>False</IsDialogCloseAction>
+          <RunOnEveryRePaint>False</RunOnEveryRePaint>
+          <DialogActionResult>NoResult</DialogActionResult>
+          <PerformsUpdate>False</PerformsUpdate>
+          <AppliedSecurity />
+          <RefreshData>False</RefreshData>
+        </OnChangeAction>
+        <Required>false</Required>
+        <AutoPostBack>false</AutoPostBack>
+        <PickListName>Lead Status</PickListName>
+        <StorageMode>Text</StorageMode>
+        <NameFormatString />
+        <AllowMultiples>false</AllowMultiples>
+        <AlphaSort>false</AlphaSort>
+        <MustExistInList>false</MustExistInList>
+        <NoneEditable>false</NoneEditable>
+        <PickListId />
+        <ValueStoredAsText>true</ValueStoredAsText>
+      </QFSLXPickList>
+    </Control>
+    <Control typeName="Sage.Platform.QuickForms.QFControls.QFControlsList, Sage.Platform.QuickForms.QFControls">
+      <QFControlsList>
+        <Column>2</Column>
+        <Row>0</Row>
+        <HotKey>0</HotKey>
+        <TabIndex>0</TabIndex>
+        <ControlId>QFControlsList</ControlId>
+        <DataBindings />
+        <ControlLabelPlacement>left</ControlLabelPlacement>
+        <ExtendedProperties />
+        <CaptionAlignment>left</CaptionAlignment>
+        <StyleScheme />
+        <Caption />
+        <Controls>
+          <ControlsCollection>
+            <Control TypeName="Sage.Platform.QuickForms.Controls.QFButton, Sage.Platform.QuickForms">
+              <QFButton>
+                <Column>0</Column>
+                <Row>0</Row>
+                <HotKey>0</HotKey>
+                <TabIndex>0</TabIndex>
+                <ControlId>btnReset</ControlId>
+                <DataBindings />
+                <ControlLabelPlacement>none</ControlLabelPlacement>
+                <ExtendedProperties />
+                <CaptionAlignment>left</CaptionAlignment>
+                <StyleScheme />
+                <ButtonType>Icon</ButtonType>
+                <Image>[Localization!Global_Images:Reset_16x16]</Image>
+                <OnClientClick />
+                <OnClickAction>
+                  <ResourceKey>btnReset</ResourceKey>
+                  <Action typeName="Sage.Platform.QuickForms.ActionItems.CSharpSnippetActionItem, Sage.Platform.QuickForms">
+                    <CSharpSnippetActionItem>
+                      <MethodName>btnReset_ClickAction</MethodName>
+                      <CSharpCodeSnippet>		ddlType.PickListValue = "";
+		ddlStatus.PickListValue = "";
+        ILead lead = BindingSource.Current as Sage.Entity.Interfaces.ILead;
+		lblRecords.Text = lead.GetNeighborhood().Count.ToString() + " records found";</CSharpCodeSnippet>
+                    </CSharpSnippetActionItem>
+                  </Action>
+                  <IsDialogCloseAction>False</IsDialogCloseAction>
+                  <RunOnEveryRePaint>False</RunOnEveryRePaint>
+                  <DialogActionResult>NoResult</DialogActionResult>
+                  <PerformsUpdate>False</PerformsUpdate>
+                  <AppliedSecurity />
+                  <RefreshData>False</RefreshData>
+                </OnClickAction>
+              </QFButton>
+            </Control>
+            <Control TypeName="Sage.Platform.QuickForms.QFControls.QFLabel, Sage.Platform.QuickForms.QFControls">
+              <QFLabel>
+                <Column>0</Column>
+                <Row>0</Row>
+                <HotKey>0</HotKey>
+                <TabIndex>0</TabIndex>
+                <ControlId>lblRecords</ControlId>
+                <DataBindings />
+                <ControlLabelPlacement>left</ControlLabelPlacement>
+                <ExtendedProperties />
+                <CaptionAlignment>left</CaptionAlignment>
+                <StyleScheme />
+                <AssociatedControlID />
+              </QFLabel>
+            </Control>
+          </ControlsCollection>
+        </Controls>
+      </QFControlsList>
+    </Control>
+    <Control typeName="Sage.Platform.QuickForms.QFControls.QFDataSource, Sage.Platform.QuickForms.QFControls">
+      <QFDataSource>
+        <Column>0</Column>
+        <Row>1</Row>
+        <Visible>false</Visible>
+        <HotKey>48</HotKey>
+        <TabIndex>0</TabIndex>
+        <ControlId>dsLeads</ControlId>
+        <DataBindings />
+        <ControlLabelPlacement>none</ControlLabelPlacement>
+        <ExtendedProperties />
+        <CaptionAlignment>left</CaptionAlignment>
+        <StyleScheme />
+        <EntityTypeName>Lead</EntityTypeName>
+        <GetByMethod>GetNeighborhood</GetByMethod>
+        <GetByProperty />
+        <UseSmartSelection>true</UseSmartSelection>
+        <DataOptional>false</DataOptional>
+      </QFDataSource>
+    </Control>
+  </Controls>
+  <ToolControls>
+    <Control typeName="Sage.Platform.QuickForms.Controls.QFElementSpacer, Sage.Platform.QuickForms">
+      <QFElementSpacer>
+        <Column>0</Column>
+        <Row>0</Row>
+        <HotKey>0</HotKey>
+        <TabIndex>0</TabIndex>
+        <ControlId>cf124a7f309b4c359683a5c7e691820d</ControlId>
+        <DataBindings />
+        <ControlLabelPlacement>left</ControlLabelPlacement>
+        <ExtendedProperties />
+        <CaptionAlignment>left</CaptionAlignment>
+        <StyleScheme />
+      </QFElementSpacer>
+    </Control>
+    <Control typeName="Sage.Platform.QuickForms.Controls.QFElementSpacer, Sage.Platform.QuickForms">
+      <QFElementSpacer>
+        <Column>0</Column>
+        <Row>0</Row>
+        <HotKey>0</HotKey>
+        <TabIndex>0</TabIndex>
+        <ControlId>aa60ffe8dae64eea85b164f31830cbed</ControlId>
+        <DataBindings />
+        <ControlLabelPlacement>left</ControlLabelPlacement>
+        <ExtendedProperties />
+        <CaptionAlignment>left</CaptionAlignment>
+        <StyleScheme />
+      </QFElementSpacer>
+    </Control>
+  </ToolControls>
+  <Columns>
+    <ColumnStyle>
+      <SizeType>Percent</SizeType>
+      <Width>33</Width>
+    </ColumnStyle>
+    <ColumnStyle>
+      <SizeType>Percent</SizeType>
+      <Width>33</Width>
+    </ColumnStyle>
+    <ColumnStyle>
+      <SizeType>Percent</SizeType>
+      <Width>33</Width>
+    </ColumnStyle>
+  </Columns>
+  <Rows>
+    <RowStyle>
+      <SizeType>Absolute</SizeType>
+      <Height>100</Height>
+    </RowStyle>
+    <RowStyle>
+      <SizeType>Absolute</SizeType>
+      <Height>35</Height>
+    </RowStyle>
+  </Rows>
+  <Description />
+  <UseEntityNameAsTitle>true</UseEntityNameAsTitle>
+  <EntityTypeName>ILead</EntityTypeName>
+  <DefaultNamespace>Sage.Entity.Interfaces</DefaultNamespace>
+  <AssemblyName>Sage.Entity.Interfaces</AssemblyName>
+</QuickForm>

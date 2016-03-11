@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<method xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="691d7c18-3a76-4a68-a8ac-e30313541699" lastModifiedUtc="2013-07-16T22:55:54.6073276Z" name="SetUserIntegrationMapEnabledState" methodType="Rule" actionType="None" returnMode="None">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmEntityMethod" />
+  </ExtendedPropertiesCollection>
+  <parameter>
+    <OrmEntityMethodParam id="84373ad0-6702-431d-a531-e328ab6778fb" paramName="entityIds" sequence="0" paramType="String">
+      <description>List of User Intergration Map Id's to be updated</description>
+    </OrmEntityMethodParam>
+    <OrmEntityMethodParam id="50b03970-05fe-4660-a29b-c2441a2701b5" paramName="enable" sequence="0" paramType="bool">
+      <description>Value indicating whether or not the enabled property should be enabled or disabled.</description>
+    </OrmEntityMethodParam>
+  </parameter>
+  <preExecuteTargets />
+  <methodTargets>
+    <methodTarget id="b3b27a45-ed9d-4511-9fac-91ce3539853c" lastModifiedUtc="2013-07-16T22:55:51.6470316Z" targetType="Sage.SalesLogix.UserIntegrationMap.Rules, Sage.SalesLogix.BusinessRules" targetMethod="SetUserIntegrationMapEnabledState" active="true">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmMethodTarget" />
+      </ExtendedPropertiesCollection>
+    </methodTarget>
+  </methodTargets>
+  <postExecuteTargets />
+  <postFlushTargets />
+</method>

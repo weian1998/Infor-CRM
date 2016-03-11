@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<ModelItems xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Item Id="052ab3e9-7d78-4238-a773-f33be512a031">SDataListViewer.smartpart.xml</Item>
+  <Item Id="eef5dd16-a3d8-4473-9975-8861c62a47a4">ReportManagerFilters.smartpart.xml</Item>
+  <Item Id="7720a819-4b3c-4bde-8f8c-5169e60640ce">ReportManagerTasks.smartpart.xml</Item>
+</ModelItems>

@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<relationship xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="772d0f1d-8c46-4908-aa9a-6b18c6683175" lastModifiedUtc="2015-04-28T16:42:42.8349197Z" parentEntityId="8820d186-4bad-4423-9349-b5b1ceb3972b" childEntityId="4a923e9f-fa48-44cc-bd8e-d7dbb78bee13" cascadeOption="None">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmRelationship" />
+  </ExtendedPropertiesCollection>
+  <parentProperty id="882316a2-fd86-4126-a257-3fd320bb0240" lastModifiedUtc="2015-04-28T16:28:34.1920639Z" name="UserIntegrationsViews" audited="false" include="false">
+    <ExtendedPropertiesCollection>
+      <extendee type="Sage.Platform.Orm.Entities.OrmRelationProperty">
+        <extender guid="ae60621d-9d91-3d9a-b9fb-eb6c8be12131">
+          <OrmEntityPropertySDataExtension generate="true" />
+        </extender>
+        <extender guid="ac7a8695-7689-4c4b-819d-6c3ab7c2e15f">
+          <OrmEntityPropertyImportExtension canImport="false" canMatch="false" />
+        </extender>
+        <extender guid="cbb948ad-9154-4174-847a-690a81c1c2e4">
+          <OrmEntityPropertyBulkActionExtension canBulkUpdate="false" />
+        </extender>
+      </extendee>
+    </ExtendedPropertiesCollection>
+    <SystemDataType guid="2f770d03-c93c-4605-8ae8-7cdae04830d7">
+      <RelationshipDataType />
+    </SystemDataType>
+  </parentProperty>
+  <childProperty id="be5155a7-f865-4b99-8ec0-a73cc755b6f3" lastModifiedUtc="2015-04-28T16:42:42.8339196Z" name="Integration" audited="false">
+    <ExtendedPropertiesCollection>
+      <extendee type="Sage.Platform.Orm.Entities.OrmRelationProperty">
+        <extender guid="ae60621d-9d91-3d9a-b9fb-eb6c8be12131">
+          <OrmEntityPropertySDataExtension generate="true" />
+        </extender>
+        <extender guid="ac7a8695-7689-4c4b-819d-6c3ab7c2e15f">
+          <OrmEntityPropertyImportExtension canImport="false" canMatch="false" />
+        </extender>
+        <extender guid="cbb948ad-9154-4174-847a-690a81c1c2e4">
+          <OrmEntityPropertyBulkActionExtension canBulkUpdate="false" />
+        </extender>
+      </extendee>
+    </ExtendedPropertiesCollection>
+    <SystemDataType guid="2f770d03-c93c-4605-8ae8-7cdae04830d7">
+      <RelationshipDataType />
+    </SystemDataType>
+  </childProperty>
+  <column>
+    <OrmRelationshipColumn id="2d1103aa-b427-44b0-bf10-a29830cda82c" parentPropertyId="b15397c1-42ab-4f17-bc2e-2e49f74b9f5e" childPropertyId="f8bb9422-14fe-4b48-a085-f365632cb2a9" ordinal="0" />
+  </column>
+</relationship>

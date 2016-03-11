@@ -1,0 +1,45 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Campaign\QuickForms\AddEditMarketingServicesUser.main.quickform.xml" timeStamp="2015-05-28T03:04:02.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Campaign\QuickForms\AddEditMarketingServicesUser.main.quickform.xml.de.resx" timeStamp="2015-05-28T03:04:02.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Campaign\QuickForms\AddEditMarketingServicesUser.main.quickform.xml.fr.resx" timeStamp="2015-05-28T03:04:02.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Campaign\QuickForms\AddEditMarketingServicesUser.main.quickform.xml.it.resx" timeStamp="2015-05-28T03:04:02.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Campaign\QuickForms\AddEditMarketingServicesUser.main.quickform.xml.resx" timeStamp="2015-05-28T03:04:02.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Campaign\QuickForms\AddEditMarketingServicesUser.main.quickform.xml.ru.resx" timeStamp="2015-05-28T03:04:02.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Campaign\QuickForms\CampaignBudgetResults.main.quickform.xml" timeStamp="2015-05-28T03:04:02.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Campaign\QuickForms\CampaignBudgetResults.main.quickform.xml.de.resx" timeStamp="2015-05-28T03:04:02.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Campaign\QuickForms\CampaignBudgetResults.main.quickform.xml.fr.resx" timeStamp="2015-05-28T03:04:02.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Campaign\QuickForms\CampaignBudgetResults.main.quickform.xml.it.resx" timeStamp="2015-05-28T03:04:02.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Campaign\QuickForms\CampaignBudgetResults.main.quickform.xml.resx" timeStamp="2015-05-28T03:04:02.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Campaign\QuickForms\CampaignBudgetResults.main.quickform.xml.ru.resx" timeStamp="2015-05-28T03:04:02.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Campaign\QuickForms\CampaignDetails.main.quickform.xml" timeStamp="2015-05-28T03:04:02.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Campaign\QuickForms\CampaignDetails.main.quickform.xml.de.resx" timeStamp="2015-05-28T03:04:02.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Campaign\QuickForms\CampaignDetails.main.quickform.xml.fr.resx" timeStamp="2015-05-28T03:04:02.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Campaign\QuickForms\CampaignDetails.main.quickform.xml.it.resx" timeStamp="2015-05-28T03:04:02.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Campaign\QuickForms\CampaignDetails.main.quickform.xml.resx" timeStamp="2015-05-28T03:04:02.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Campaign\QuickForms\CampaignDetails.main.quickform.xml.ru.resx" timeStamp="2015-05-28T03:04:02.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Campaign\QuickForms\CampaignOpportunities.main.quickform.xml" timeStamp="2015-05-28T03:04:02.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Campaign\QuickForms\CampaignOpportunities.main.quickform.xml.de.resx" timeStamp="2015-05-28T03:04:02.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Campaign\QuickForms\CampaignOpportunities.main.quickform.xml.fr.resx" timeStamp="2015-05-28T03:04:02.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Campaign\QuickForms\CampaignOpportunities.main.quickform.xml.it.resx" timeStamp="2015-05-28T03:04:02.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Campaign\QuickForms\CampaignOpportunities.main.quickform.xml.resx" timeStamp="2015-05-28T03:04:02.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Campaign\QuickForms\CampaignOpportunities.main.quickform.xml.ru.resx" timeStamp="2015-05-28T03:04:02.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Campaign\QuickForms\CampaignProducts.main.quickform.xml" timeStamp="2015-05-28T03:04:02.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Campaign\QuickForms\CampaignProducts.main.quickform.xml.de.resx" timeStamp="2015-05-28T03:04:02.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Campaign\QuickForms\CampaignProducts.main.quickform.xml.fr.resx" timeStamp="2015-05-28T03:04:02.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Campaign\QuickForms\CampaignProducts.main.quickform.xml.it.resx" timeStamp="2015-05-28T03:04:02.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Campaign\QuickForms\CampaignProducts.main.quickform.xml.resx" timeStamp="2015-05-28T03:04:02.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Campaign\QuickForms\CampaignProducts.main.quickform.xml.ru.resx" timeStamp="2015-05-28T03:04:02.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Campaign\QuickForms\CampaignSummary.main.quickform.xml" timeStamp="2015-05-28T03:04:02.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Campaign\QuickForms\CampaignSummary.main.quickform.xml.de.resx" timeStamp="2015-05-28T03:04:02.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Campaign\QuickForms\CampaignSummary.main.quickform.xml.fr.resx" timeStamp="2015-05-28T03:04:02.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Campaign\QuickForms\CampaignSummary.main.quickform.xml.it.resx" timeStamp="2015-05-28T03:04:02.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Campaign\QuickForms\CampaignSummary.main.quickform.xml.resx" timeStamp="2015-05-28T03:04:02.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Campaign\QuickForms\CampaignSummary.main.quickform.xml.ru.resx" timeStamp="2015-05-28T03:04:02.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Campaign\QuickForms\InsertCampaign.main.quickform.xml" timeStamp="2015-05-28T03:04:02.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Campaign\QuickForms\InsertCampaign.main.quickform.xml.de.resx" timeStamp="2015-05-28T03:04:02.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Campaign\QuickForms\InsertCampaign.main.quickform.xml.fr.resx" timeStamp="2015-05-28T03:04:02.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Campaign\QuickForms\InsertCampaign.main.quickform.xml.it.resx" timeStamp="2015-05-28T03:04:02.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Campaign\QuickForms\InsertCampaign.main.quickform.xml.resx" timeStamp="2015-05-28T03:04:02.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Campaign\QuickForms\InsertCampaign.main.quickform.xml.ru.resx" timeStamp="2015-05-28T03:04:02.0000" />
+</exportedFiles>

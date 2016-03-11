@@ -1,0 +1,7 @@
+﻿<?xml version="1.0"?>
+<entityFilter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="OrmDistinctEntityFilter" id="b77cd4c6-8ddd-4a30-9897-ebcc7d3ab6b7" lastModifiedUtc="2015-02-10T21:14:48.7825926Z" filterName="Owner" propertyName="UserId" characters="0">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmDistinctEntityFilter" />
+  </ExtendedPropertiesCollection>
+</entityFilter>

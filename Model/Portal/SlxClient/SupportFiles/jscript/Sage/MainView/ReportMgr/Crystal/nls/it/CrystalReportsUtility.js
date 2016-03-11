@@ -1,0 +1,3 @@
+define((
+{ txtCurrentUser: 'Utente corrente' }
+));

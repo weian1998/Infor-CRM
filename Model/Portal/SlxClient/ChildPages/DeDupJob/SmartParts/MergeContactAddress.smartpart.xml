@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<SmartPartMapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="d215e5e0-5e9d-4174-b152-ce060538bdcf">
+  <SmartPartId>MergeContactAddress</SmartPartId>
+  <ReferencedModelId>00000000-0000-0000-0000-000000000000</ReferencedModelId>
+  <SmartPart>SmartParts\MergeRecords\MergeContactAddress.ascx</SmartPart>
+  <TargetWorkspace>DialogWorkspace</TargetWorkspace>
+  <ShowInMode>Detail</ShowInMode>
+  <Properties />
+  <AllowRoles />
+</SmartPartMapping>

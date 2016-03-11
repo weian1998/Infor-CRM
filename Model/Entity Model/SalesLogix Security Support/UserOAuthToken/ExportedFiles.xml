@@ -1,0 +1,11 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Entity Model\SalesLogix Security Support\UserOAuthToken\OnAfterDelete.method.xml" timeStamp="2015-05-28T03:04:43.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Security Support\UserOAuthToken\OnAfterInsert.method.xml" timeStamp="2015-05-28T03:04:43.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Security Support\UserOAuthToken\OnAfterUpdate.method.xml" timeStamp="2015-05-28T03:04:43.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Security Support\UserOAuthToken\OnBeforeDelete.method.xml" timeStamp="2015-05-28T03:04:43.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Security Support\UserOAuthToken\OnBeforeInsert.method.xml" timeStamp="2015-05-28T03:04:43.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Security Support\UserOAuthToken\OnBeforeUpdate.method.xml" timeStamp="2015-05-28T03:04:44.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Security Support\UserOAuthToken\OnCreate.method.xml" timeStamp="2015-05-28T03:04:44.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Security Support\UserOAuthToken\UserOAuthToken.USER_OAUTHTOKEN.entity.xml" timeStamp="2015-05-28T03:04:44.0000" />
+</exportedFiles>

@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<MenuDropDownItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="056d03d1-7e77-4d3d-923e-644f7595d091">
+  <ItemId>mnuExecutionsListCancelExecution</ItemId>
+  <NavUrl>javascript:Sage.MainView.JobMgr.JobManagerActions.showCancelExecutionDialog();</NavUrl>
+  <LargeImageUrl />
+  <SmallImageUrl />
+  <ContextMenuId />
+  <Target />
+  <AppliedSecurity>Entities/JobManager/CancelJob</AppliedSecurity>
+</MenuDropDownItem>

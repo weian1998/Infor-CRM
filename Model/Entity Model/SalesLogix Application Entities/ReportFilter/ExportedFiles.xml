@@ -1,0 +1,11 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\ReportFilter\OnAfterDelete.method.xml" timeStamp="2015-05-28T03:04:22.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\ReportFilter\OnAfterInsert.method.xml" timeStamp="2015-05-28T03:04:22.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\ReportFilter\OnAfterUpdate.method.xml" timeStamp="2015-05-28T03:04:22.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\ReportFilter\OnBeforeDelete.method.xml" timeStamp="2015-05-28T03:04:22.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\ReportFilter\OnBeforeInsert.method.xml" timeStamp="2015-05-28T03:04:22.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\ReportFilter\OnBeforeUpdate.method.xml" timeStamp="2015-05-28T03:04:22.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\ReportFilter\OnCreate.method.xml" timeStamp="2015-05-28T03:04:22.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\ReportFilter\ReportFilter.REPORTFILTER.entity.xml" timeStamp="2015-05-28T03:04:22.0000" />
+</exportedFiles>

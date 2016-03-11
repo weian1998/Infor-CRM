@@ -1,0 +1,103 @@
+/* CheckBox
+ * 
+ * Styling CheckBox mainly includes:
+ * 
+ * 1. Containers
+ * 		.dijitCheckBox|.dijitCheckBoxIcon - for border, padding, width|height and background image
+ * 
+ * 2. CheckBox within ToggleButton
+ * 		.dijitToggleButton|.dijitToggleButtonChecked .* - for background image
+ * 
+ * 3. Checked state
+ * 		.dijitCheckBoxChecked - for checked background-color|image
+ * 		.dijitToggleButtonChecked - for border, background-color|image, display and width|height
+ * 
+ * 4. Hover state
+ * 		.dijitCheckBoxHover|.dijitCheckBoxCheckedHover - for background image
+ * 
+ * 5. Disabled state
+ * 		.dijitCheckBoxDisabled|.dijitCheckBoxCheckedDisabled - for background image
+ */
+
+
+.inforSoHoXi .dijitToggleButton .dijitCheckBoxIcon {
+/* background-image:
+url("../images/checkmarkNoBorder.png"); */
+}
+
+.dj_ie6 .inforSoHoXi .dijitToggleButton .dijitCheckBoxIcon {
+/*   background-image: url("../images/checkmarkNoBorder.gif"); */
+}
+
+.inforSoHoXi .dijitCheckBox,
+.inforSoHoXi .dijitCheckBoxIcon {
+/*   background-image: url("images/checkboxRadioButtonStates.png");
+  /* checkbox sprite image 
+	background-repeat: no-repeat;
+	width: 15px;
+	height: 16px;
+	margin: 0 2px 0 0;
+  padding: 0; */
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAAAAABzpdGLAAAAAnRSTlMAAHaTzTgAAAAmSURBVHgBYyAazEQCCBEEgAq9/Q8Fb+FC/+FgUAjhcyp+TxIdVgAaz5pRclAmbwAAAABJRU5ErkJggg==");
+  background-position: 1px 0;
+  background-repeat: no-repeat;
+  content: " ";
+  display: inline-block;
+  height: 21px;
+  vertical-align: middle;
+  width: 24px;
+}
+
+.dj_ie6 .inforSoHoXi .dijitCheckBox,
+.dj_ie6 .inforSoHoXi .dijitCheckBoxIcon {
+  background-image: url("images/checkboxAndRadioButtons_IE6.png");
+  /* checkbox sprite image */
+}
+
+.inforSoHoXi .dijitCheckBox,
+.inforSoHoXi .dijitToggleButton .dijitCheckBoxIcon {
+	/* unchecked */
+/*   background-position: -15px; */
+}
+
+.inforSoHoXi .dijitCheckBoxChecked,
+.inforSoHoXi .dijitToggleButtonChecked .dijitCheckBoxIcon {
+	/* checked */
+  /* background-position: 0; */
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAMAAABhEH5lAAAACVBMVEUAAAATo/f///8qqXS/AAAAAXRSTlMAQObYZgAAADVJREFUeNqNzjEOACAIADHh/482cShoHLix061x0SKtlxIRRFAXlKQoCTrdE6QoCNKfGJm2AZVnAN96+MmKAAAAAElFTkSuQmCC");
+}
+
+.inforSoHoXi .dijitCheckBoxDisabled {
+	/* disabled */
+/*   background-position: -75px; */
+	background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAAAAABzpdGLAAAAAnRSTlMAAHaTzTgAAAAmSURBVHgBYyAazEQCCBEEgAq9/Q8Fb+FC/+FgUAjhcyp+TxIdVgAaz5pRclAmbwAAAABJRU5ErkJggg==");
+    opacity: .6;
+	filter: alpha(opacity=60);
+	cursor: default;
+}
+
+.inforSoHoXi .dijitCheckBoxCheckedDisabled {
+	/* disabled but checked */
+/*   background-position: -60px; */
+	background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAMAAABhEH5lAAAACVBMVEUAAAATo/f///8qqXS/AAAAAXRSTlMAQObYZgAAADVJREFUeNqNzjEOACAIADHh/482cShoHLix061x0SKtlxIRRFAXlKQoCTrdE6QoCNKfGJm2AZVnAN96+MmKAAAAAElFTkSuQmCC");
+    opacity: .6;
+	filter: alpha(opacity=60);
+	cursor: default;
+}
+
+.inforSoHoXi .dijitCheckBoxHover {
+	/* hovering over an unchecked enabled checkbox */
+/*   background-position: -45px; */
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAbUlEQVR4AWMAAeHF3yuA+CEQ/ycRP4TqBRtSAhJ4/OXff1IBUA/MsBKQQXcffP73/zfQnJkzZ5KCwXpAekFmgAwCGQ6SIAuDAMgMDIPevn1LyEcgNYQNIhKMGjRqEC0TJOVZhGqZlqrFCFUKNgARJTEQsWRuZwAAAABJRU5ErkJggg==");
+}
+
+.inforSoHoXi .dijitCheckBoxCheckedHover {
+	/* hovering over an checked enabled checkbox */
+/*   background-position: -30px; */
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAe0lEQVR4Ab2UwQmAMAxF3cH9T47Qi+MIjqAgWEjsk55EiE2DDz6Bwn8XYwYYp2MuySXamFy7tyTxsO6irdCpsoToXDbRLMpjU+jQxYFIgekJMF0i6BZBtwg8IkNiiOCrxBSBLbFFb/g+/5OuPaqELeT/orCfNvSMhBy2CyckznFaBqSaAAAAAElFTkSuQmCC");
+}
+.inforSoHoXi div[widgetid$="chkIncumbent"] {
+    margin-right: 28px;
+}
+
+

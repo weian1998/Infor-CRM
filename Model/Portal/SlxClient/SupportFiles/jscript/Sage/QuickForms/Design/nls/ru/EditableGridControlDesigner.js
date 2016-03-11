@@ -1,0 +1,3 @@
+define((
+{ displayNameText: 'Редактируемая таблица' }
+));

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0"?>
+<entityFilter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="OrmDistinctEntityFilter" id="85f59d7b-d3ca-4735-b51a-162770e5c8d5" lastModifiedUtc="2013-06-28T19:57:04.8348256Z" filterName="SyncEnabled" propertyName="Enabled" characters="0">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmDistinctEntityFilter" />
+  </ExtendedPropertiesCollection>
+</entityFilter>

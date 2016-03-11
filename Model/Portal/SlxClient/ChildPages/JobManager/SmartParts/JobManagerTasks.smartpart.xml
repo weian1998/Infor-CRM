@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<SmartPartMapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="381e115b-eb3f-40a9-a55c-410874bb4ee3">
+  <SmartPartId>JobManagerTasks</SmartPartId>
+  <ReferencedModelId>00000000-0000-0000-0000-000000000000</ReferencedModelId>
+  <SmartPart>SmartParts\TaskPane\JobManager\JobManagerTasks.ascx</SmartPart>
+  <TargetWorkspace>TaskPane</TargetWorkspace>
+  <ShowInMode />
+  <Properties />
+  <AllowRoles />
+</SmartPartMapping>

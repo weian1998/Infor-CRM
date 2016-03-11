@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:fileTags="Translation Status.Support files" MadCap:tocPath="" MadCap:medium="non-print" MadCap:InPreviewMode="false" MadCap:PreloadImages="false" MadCap:RuntimeFileType="Topic" MadCap:TargetType="WebHelp" lang="ru" xml:lang="ru" MadCap:conditions="Output.IntegrationContract,Output.WebClient" MadCap:PathToHelpSystem="../../" MadCap:HelpSystemFileName="WebClient.xml" MadCap:SearchType="Stem">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Сравнение и Настройка Различий схемы</title>
+        <link href="../SkinSupport/Slideshow.css" rel="stylesheet" />
+        <link href="../SkinSupport/MadCap.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/Infor.CSS" rel="stylesheet" />
+        <script src="../SkinSupport/jquery.min.js">
+        </script>
+        <script src="../SkinSupport/MadCapAll.js">
+        </script>
+        <script src="../SkinSupport/MadCapTopicAll.js">
+        </script>
+    </head>
+    <body>
+        <h1>Сравнение и Настройка Различий схемы</h1>
+        <p>Эта тема больше не применяется. Для получения информации о сравнении различных схем интеграции  см. в разделе "Управление схемами".</p>
+        <p><a name="kanchor509"></a><span class="MyVariablesCompanyNameShort">Infor</span> рекомендует сравнивать схемы базы данных в <span class="MyVariablesCompanyNameShort">Infor</span> со схемами учетного приложения, чтобы убедиться в целостности данных. Можно сравнить данные для различных ресурсов, чтобы определить, существуют ли различия в длине строк между системами.</p>
+        <p>Эта функция сравнивает схемы выбранных ресурсов в двух интегрированных системах и возвращает любые различия в длине строк.  </p>
+        <div class="MCDropDown">
+            <div class="MCDropDownHead_0"><a class="MCDropDownHotSpot_0" href="javascript:void(0);" id="MCDropDownHotSpot_4136596369_0" onclick="FMCDropDown( this ); return false;">Узнать больше о том, как <span class="MyVariablesCompanyNameShort">Infor</span> управляет различиями схем...<img style="border: none;margin-left: 5px;" src="../SkinSupport/DropDownClosed.gif" MadCap:altsrc="../SkinSupport/DropDownOpen.gif" onload="if ( typeof( FMCPreloadImage ) == 'function' ) { FMCPreloadImage( '../SkinSupport/DropDownOpen.gif' ); }" alt="Closed" MadCap:alt2="Open" class="MCDropDownIcon" /></a>
+            </div>
+            <div class="MCDropDownBody" id="MCDropDownBody_4136596369_0" style="display: none;">
+                <p><span class="SLXBold">Максимальная Длина</span> - Если синхронизируются данные, превосходящие максимальную длину поля, вся строчка будет отклонена.</p>
+                <p><span class="SLXBold">Цифры дробной части</span> - Если синхронизируются данные, превосходящие количество десятичных знаков, значение будет округлено до максимального знака после запятой. Например, если поле валюты определено как 17.4, тогда значение 123.12348 сохранится как 123.1235, и значение 123.12343 сохранится как 123.1234.</p>
+            </div>
+        </div>
+        <p class="Infinitive">Чтобы сравнить</p>
+        <ol>
+            <li class="Topic-Text-Numbered" value="1">В меню <span class="SLXBold">Администрирование</span> выберите <span class="SLXBold">Установка интеграции</span>.</li>
+            <li class="Topic-Text-Numbered" value="2">На закладке <span class="SLXBold">Системы учета</span> нажмите <span class="SLXBold">Изменить</span> для учетной системы.</li>
+            <li class="Topic-Text-Numbered" value="3">В диалоге <span class="SLXBold">Установка интеграции учета</span> используйте раздел <span class="SLXBold">Различия схемы</span>, чтобы найти различия между системами.</li>
+        </ol>
+        <ol style="list-style-type: lower-alpha;">
+            <li class="Topic-Text-Lettered" value="1">В поле <span class="SLXBold">Фильтр по ресурсам</span> выберите тип ресурса.</li>
+            <li class="Topic-Text-Lettered" value="2">Нажмите <span class="SLXBold">Выполнить</span>.</li>
+            <li class="Topic-Text-Lettered" value="3">Просмотрите различия в таблице.</li>
+            <li class="Topic-Text-Lettered" value="4">Отметьте любую информацию, которая может нарушить целостность данных. Например, поле учетной системы может принять только три символа, в то время как то же поле в <span class="MyVariablesCompanyNameShort">Infor</span> принимает любой текст.</li>
+            <li class="Topic-Text-Lettered" value="5">Повторите шаг 3 для всех типов ресурсов.</li>
+        </ol>
+        <ol MadCap:continue="true">
+            <li class="Topic-Text-Numbered" value="4">Нажмите <span class="SLXBold">ОК</span>.</li>
+            <li class="Topic-Text-Numbered" value="5">Используйте менеджер базы данных или другое приложение, чтобы изменить схемы в одной из систем.</li>
+        </ol>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

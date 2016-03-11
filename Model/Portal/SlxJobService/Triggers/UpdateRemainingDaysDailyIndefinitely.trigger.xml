@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<SchedulerTrigger xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="94731b6d-9404-4567-8c5a-3058dcfacde3">
+  <InstanceId>28d83695ae084a8099cd238135fa84d6</InstanceId>
+  <JobId>6e924fa2840f4f038877b376ad7c1430</JobId>
+  <Name>UpdateRemainingDaysDailyIndefinitely</Name>
+  <CronExpression>0 0 0 1/1 * ? *</CronExpression>
+</SchedulerTrigger>

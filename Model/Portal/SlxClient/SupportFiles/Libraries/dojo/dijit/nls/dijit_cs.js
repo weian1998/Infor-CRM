@@ -1,0 +1,11 @@
+define('dijit/nls/dijit_cs',{
+'dijit/nls/loading':{"loadingState":"Probíhá načítání...","errorState":"Omlouváme se, došlo k chybě","_localized":{}}
+,
+'dijit/nls/common':{"buttonOk":"OK","buttonCancel":"Storno","buttonSave":"Uložit","itemClose":"Zavřít","_localized":{}}
+,
+'dijit/_editor/nls/commands':{"bold":"Tučné","copy":"Kopírovat","cut":"Vyjmout","delete":"Odstranit","indent":"Odsadit","insertHorizontalRule":"Vodorovná čára","insertOrderedList":"Číslovaný seznam","insertUnorderedList":"Seznam s odrážkami","italic":"Kurzíva","justifyCenter":"Zarovnat na střed","justifyFull":"Do bloku","justifyLeft":"Zarovnat vlevo","justifyRight":"Zarovnat vpravo","outdent":"Předsadit","paste":"Vložit","redo":"Opakovat","removeFormat":"Odebrat formát","selectAll":"Vybrat vše","strikethrough":"Přeškrtnutí","subscript":"Dolní index","superscript":"Horní index","underline":"Podtržení","undo":"Zpět","unlink":"Odebrat odkaz","createLink":"Vytvořit odkaz","toggleDir":"Přepnout směr","insertImage":"Vložit obrázek","insertTable":"Vložit/upravit tabulku","toggleTableBorder":"Přepnout ohraničení tabulky","deleteTable":"Odstranit tabulku","tableProp":"Vlastnost tabulky","htmlToggle":"Zdroj HTML","foreColor":"Barva popředí","hiliteColor":"Barva pozadí","plainFormatBlock":"Styl odstavce","formatBlock":"Styl odstavce","fontSize":"Velikost písma","fontName":"Název písma","tabIndent":"Odsazení tabulátoru","fullScreen":"Přepnout režim celé obrazovky","viewSource":"Zobrazit zdroj ve formátu HTML","print":"Tisk","newPage":"Nová stránka","systemShortcut":"Akce \"${0}\" je v prohlížeči dostupná pouze prostřednictvím klávesové zkratky. Použijte klávesovou zkratku ${1}.","ctrlKey":"ctrl+${0}","appleKey":"⌘${0}","_localized":{}}
+,
+'dijit/form/nls/validate':{"invalidMessage":"Zadaná hodnota není platná.","missingMessage":"Tato hodnota je vyžadována.","rangeMessage":"Tato hodnota je mimo rozsah.","_localized":{}}
+,
+'dijit/form/nls/ComboBox':{"previousMessage":"Předchozí volby","nextMessage":"Další volby","_localized":{}}
+});

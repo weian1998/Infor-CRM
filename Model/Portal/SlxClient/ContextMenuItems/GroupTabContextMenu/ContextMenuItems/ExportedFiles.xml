@@ -1,0 +1,16 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\SlxClient\ContextMenuItems\GroupTabContextMenu\ContextMenuItems\gtcAddGroup\" />
+  <exportedFile url="\Portal\SlxClient\ContextMenuItems\GroupTabContextMenu\ContextMenuItems\gtcCopy\" />
+  <exportedFile url="\Portal\SlxClient\ContextMenuItems\GroupTabContextMenu\ContextMenuItems\gtcDelete\" />
+  <exportedFile url="\Portal\SlxClient\ContextMenuItems\GroupTabContextMenu\ContextMenuItems\gtcEdit\" />
+  <exportedFile url="\Portal\SlxClient\ContextMenuItems\GroupTabContextMenu\ContextMenuItems\gtcExport\" />
+  <exportedFile url="\Portal\SlxClient\ContextMenuItems\GroupTabContextMenu\ContextMenuItems\gtcExportToFile\" />
+  <exportedFile url="\Portal\SlxClient\ContextMenuItems\GroupTabContextMenu\ContextMenuItems\gtcHide\" />
+  <exportedFile url="\Portal\SlxClient\ContextMenuItems\GroupTabContextMenu\ContextMenuItems\gtcRevertLayout\" />
+  <exportedFile url="\Portal\SlxClient\ContextMenuItems\GroupTabContextMenu\ContextMenuItems\gtcSetAsDefault\" />
+  <exportedFile url="\Portal\SlxClient\ContextMenuItems\GroupTabContextMenu\ContextMenuItems\gtcShare\" />
+  <exportedFile url="\Portal\SlxClient\ContextMenuItems\GroupTabContextMenu\ContextMenuItems\gtcSpacer1\" />
+  <exportedFile url="\Portal\SlxClient\ContextMenuItems\GroupTabContextMenu\ContextMenuItems\gtcSpacer2\" />
+  <exportedFile url="\Portal\SlxClient\ContextMenuItems\GroupTabContextMenu\ContextMenuItems\gtcSpacer3\" />
+</exportedFiles>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\UnitOfMeasure\OnAfterDelete.method.xml" timeStamp="2015-05-28T03:04:32.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\UnitOfMeasure\OnAfterInsert.method.xml" timeStamp="2015-05-28T03:04:32.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\UnitOfMeasure\OnAfterUpdate.method.xml" timeStamp="2015-05-28T03:04:32.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\UnitOfMeasure\OnBeforeDelete.method.xml" timeStamp="2015-05-28T03:04:32.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\UnitOfMeasure\OnBeforeInsert.method.xml" timeStamp="2015-05-28T03:04:32.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\UnitOfMeasure\OnBeforeUpdate.method.xml" timeStamp="2015-05-28T03:04:32.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\UnitOfMeasure\OnCreate.method.xml" timeStamp="2015-05-28T03:04:32.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\UnitOfMeasure\UnitOfMeasure.UNITOFMEASURE.entity.xml" timeStamp="2015-05-28T03:04:32.0000" />
+</exportedFiles>

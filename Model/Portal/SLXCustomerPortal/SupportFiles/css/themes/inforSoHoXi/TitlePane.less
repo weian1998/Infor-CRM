@@ -1,0 +1,92 @@
+/* TitlePane 
+ * 
+ * Styling TitlePane means styling the TitlePane title and its content container  (dijitTitlePane)
+ * 
+ * TitlePane title:
+ * 1. TitlePane title (default styling): 
+ * 		.dijitTitlePaneTitle - TitlePane's title div style: background-color, border
+ *
+ * 2. hovered TitlePane title (ie, mouse hover on a title bar)
+ * 		.dijitTitlePaneTitleHover - styles when mouse hover on the title div
+ * 
+ * 3. active TitlePane title (ie, mouse down on a title bar)
+ * 		.dijitTitlePaneTitleActive - styles when mouse down on the title div
+ * 
+ * 
+ * TitlePane Content Container:
+ * 1. outer/inner container: 
+ * 		.dijitTitlePaneContentOuter / dijitTitlePaneContentInner - styles for the content outer div
+ */
+
+@import "variables";
+
+.inforSoHoXi .dijitTitlePaneTitle {
+	background-color: @unselected-background-color;	// TODO: Mailed Jason, shouldn't this toggle to @selected-background-color when pane opened?
+	border:1px solid @border-color;
+	padding: 4px 10px;
+	min-height: 17px;
+    border-radius: 4px 4px 0px 0px;
+}
+.inforSoHoXi .dijitTitlePaneContentOuter .dijitTitlePaneTitle:last-child {
+    border-top: solid 1px #d2d2d2 !important;
+    border-radius: 0 0 4px 4px !important;
+    font-size: 12px !important;
+}
+.dj_ie6 .inforSoHoXi .dijitTitlePaneTitle {
+	background-image: none;
+}
+.inforSoHoXi .dijitFieldset {
+  .border-radius(4px);
+}
+.inforSoHoXi .dijitTitlePaneTitleOpen, .inforSoHoXi .dijitTitlePaneTitleFixedOpen {
+  background-color: @selected-background-color;
+  color: @text-color;
+}
+.inforSoHoXi .dijitTitlePaneTitleHover {
+	background-color: @unselected-background-color;
+	border-color: @border-color;
+}
+.inforSoHoXi .dijitTitlePaneTitleActive {
+	background-color: @unselected-background-color;
+	border-color: @border-color;
+	background-position:0 -136px;
+}
+.inforSoHoXi .dijitTitlePaneTitleFocus {
+	margin-top:3px;
+	padding-bottom:2px;
+    font-size: 13px;
+    border-radius: 0px 0px 4px 4px;
+}
+.inforSoHoXi .dijitTitlePane .dijitArrowNode, .inforSoHoXi .dijitFieldset .dijitArrowNode {
+	background-image: url(@image-arrow-sprite);
+	background-repeat: no-repeat;
+	height: 8px;
+	width: 7px;
+    margin-right: 5px;
+}
+.inforSoHoXi .dijitTitlePane .dijitOpen .dijitArrowNode, .inforSoHoXi .dijitTitlePaneTitleOpen .dijitArrowNode,  .inforSoHoXi .dijitFieldsetTitleOpen .dijitArrowNode {
+	background-position: 0 0;
+}
+.inforSoHoXi .dijitTitlePane .dijitClosed .dijitArrowNode, .inforSoHoXi .dijitTitlePaneTitleClosed .dijitArrowNode, .inforSoHoXi .dijitFieldsetTitleClosed .dijitArrowNode {
+	background-position: -14px 0;
+}
+.inforSoHoXi .dijitTitlePane .dijitTitlePaneTextNode {
+	color:@text-color;
+}
+.inforSoHoXi .dijitTitlePaneContentOuter {
+	background: @pane-background-color;
+	border:1px solid @border-color;
+	border-top:none;
+    border-radius: 0 0 4px 4px;
+    box-shadow: 2px 0 4px -4px #999, -2px 0 4px -4px #999, 0 2px 4px -4px #999;
+}
+.inforSoHoXi .dijitTitlePaneContentInner {
+	padding: 5px 12px !important;
+}
+.inforSoHoXi .dijitFieldsetContentInner {
+  padding: 4px;
+}
+.inforSoHoXi .dijitTitlePaneTextNode, .inforSoHoXi .dijitFieldsetLegendNode {
+	margin-right: 4px;
+	vertical-align:text-top;
+}

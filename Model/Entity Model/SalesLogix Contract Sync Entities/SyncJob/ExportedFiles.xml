@@ -1,0 +1,16 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Entity Model\SalesLogix Contract Sync Entities\SyncJob\EndPoint.filter.xml" timeStamp="2015-05-28T03:04:34.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Contract Sync Entities\SyncJob\EndTime.filter.xml" timeStamp="2015-05-28T03:04:34.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Contract Sync Entities\SyncJob\JobName.filter.xml" timeStamp="2015-05-28T03:04:34.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Contract Sync Entities\SyncJob\OnAfterDelete.method.xml" timeStamp="2015-05-28T03:04:34.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Contract Sync Entities\SyncJob\OnAfterInsert.method.xml" timeStamp="2015-05-28T03:04:34.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Contract Sync Entities\SyncJob\OnAfterUpdate.method.xml" timeStamp="2015-05-28T03:04:34.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Contract Sync Entities\SyncJob\OnBeforeDelete.method.xml" timeStamp="2015-05-28T03:04:34.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Contract Sync Entities\SyncJob\OnBeforeInsert.method.xml" timeStamp="2015-05-28T03:04:34.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Contract Sync Entities\SyncJob\OnBeforeUpdate.method.xml" timeStamp="2015-05-28T03:04:34.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Contract Sync Entities\SyncJob\OnCreate.method.xml" timeStamp="2015-05-28T03:04:34.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Contract Sync Entities\SyncJob\StartDate.filter.xml" timeStamp="2015-05-28T03:04:34.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Contract Sync Entities\SyncJob\SyncJob.SYNCJOB.entity.xml" timeStamp="2015-05-28T03:04:34.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Contract Sync Entities\SyncJob\QuickForms\" />
+</exportedFiles>

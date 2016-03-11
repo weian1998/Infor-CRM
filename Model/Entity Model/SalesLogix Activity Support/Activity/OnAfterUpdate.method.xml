@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<method xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="cb310c9b-7661-4b69-b364-8768b0554d91" lastModifiedUtc="2013-09-26T00:34:31.5051514Z" name="OnAfterUpdate" methodType="CrudEvent" actionType="None" returnMode="None">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmEntityMethod" />
+  </ExtendedPropertiesCollection>
+  <parameter />
+  <preExecuteTargets />
+  <methodTargets>
+    <methodTarget id="a8df0dea-48df-4d29-b5f6-33c10528531d" lastModifiedUtc="2013-10-16T17:35:18.4933732Z" targetType="Sage.SalesLogix.Activity.BusinessRules.Activity.Rules, Sage.SalesLogix.Activity" targetMethod="OnAfterUpdate" active="true">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmMethodTarget" />
+      </ExtendedPropertiesCollection>
+    </methodTarget>
+  </methodTargets>
+  <postExecuteTargets>
+    <methodTarget id="951a9d94-ee3e-4949-9a5a-653b27aa459a" lastModifiedUtc="2013-10-16T17:09:12.5925995Z" targetType="Sage.SalesLogix.Activity.BusinessRules.Activity.Rules, Sage.SalesLogix.Activity" targetMethod="OnAfterUpdate" active="true">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmMethodTarget" />
+      </ExtendedPropertiesCollection>
+    </methodTarget>
+  </postExecuteTargets>
+  <postFlushTargets />
+</method>

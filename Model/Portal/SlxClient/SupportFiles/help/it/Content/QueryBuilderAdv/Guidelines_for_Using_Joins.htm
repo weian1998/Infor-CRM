@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:fileTags="Translation Status.Support files" MadCap:tocPath="Utilizzo del Query Builder|Utilizzo delle Join" MadCap:medium="non-print" MadCap:InPreviewMode="false" MadCap:PreloadImages="false" MadCap:RuntimeFileType="Topic" MadCap:TargetType="WebHelp" lang="en-us" xml:lang="en-us" MadCap:conditions="Output.WebClient,Output.Query Builder" MadCap:PathToHelpSystem="../../" MadCap:HelpSystemFileName="WebClient.xml" MadCap:SearchType="Stem">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="copyright" /><title>Linee Guida sull'Utilizzo delle Join</title>
+        <link href="../SkinSupport/Slideshow.css" rel="stylesheet" />
+        <link href="../SkinSupport/MadCap.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/Infor.CSS" rel="stylesheet" />
+        <script src="../SkinSupport/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapAll.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapTopicAll.js" type="text/javascript">
+        </script>
+    </head>
+    <body>
+        <h1 value="SalesLogix Query Builder Help (10/16/2002) for v6.0 © 2002 Interact Commerce Corporation"><a name="kanchor251"></a>Linee Guida sull'Utilizzo delle Join</h1>
+        <p>Utilizzare le seguenti linee guida durante la creazione di join in <span class="MyVariablesProduct Name">Infor CRM</span>:</p>
+        <ul>
+            <li class="Bullets" value="1">In una vista contenente campi da tabelle multiple, utilizzare join Sinistri. Se si utilizzasse un join Interno e non ci fossero dati in una delle tabelle, NESSUN DATO apparirebbe in OGNI campo della vista.  </li>
+            <li class="Bullets" value="2">In un gruppo, utilizzare join Interni per le tabelle utilizzate nelle Condizioni. In questo modo, si otterranno solo i record soddisfacenti i criteri. Comunque si potrebbe preferire il join Sinistro per le tabelle utilizzate in Layout, affinchè tutti i record che rispettano le Condizioni siano inclusi, anche nel caso non siano presenti dati in una delle tabelle.</li>
+        </ul>
+        <table wrapperparagraphselector="P" style="margin-top: 14pt;border-spacing: 0px;border-spacing: 0px;" cellspacing="0">
+            <col style="width: 53px;" />
+            <col />
+            <tr>
+                <td style="padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top">
+                    <p style="text-align: center;margin-bottom: 0;" align="center">
+                        <img src="../image/caution.gif" />
+                    </p>
+                </td>
+                <td style="padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top">
+                    <p class="Tip-Note-Text" style="margin-bottom: 0;">Per impostazione predefinito, la tabella Indirizzo (ADDRESS) è in join con la tabella Azienda (ACCOUNT) tramite join Interno. <span style="font-style: italic;">Non</span> modificare le proprietà di questa join.</p>
+                </td>
+            </tr>
+        </table>
+        <p class="RelatedTopics">Argomenti Correlati</p>
+        <p><a href="Add_a_Global_Join.htm">Aggiungere una Join Globale</a>
+        </p>
+        <p><a href="Add_a_Local_Join.htm">Aggiungere una Join Locale</a>
+        </p>
+        <p><a href="Joining_Tables.htm">Join di Tabelle</a>
+        </p>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

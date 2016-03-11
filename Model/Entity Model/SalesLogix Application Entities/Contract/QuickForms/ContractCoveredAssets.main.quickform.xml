@@ -1,0 +1,398 @@
+<?xml version="1.0"?>
+<QuickForm xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="7c890aaf-6bc2-4a48-9fa0-33508170bbae" DefinitionType="Sage.Platform.QuickForms.QuickFormMainDetailViewDefinition, Sage.Platform.QuickForms">
+  <ActiveControl />
+  <ImagePath />
+  <LoadActions>
+    <FormActionDefinition>
+      <ResourceKey>af3407cd-649c-46c7-8615-ee43e0d04575</ResourceKey>
+      <Action typeName="Sage.Platform.QuickForms.ActionItems.CSharpSnippetActionItem, Sage.Platform.QuickForms">
+        <CSharpSnippetActionItem>
+          <MethodName>quickformload0</MethodName>
+          <CSharpCodeSnippet>Sage.Entity.Interfaces.IContract contract = this.BindingSource.Current as Sage.Entity.Interfaces.IContract;
+if (contract != null &amp;&amp; contract.Account != null)
+{
+	var clientContextService = PageWorkItem.Services.Get&lt;Sage.Platform.WebPortal.Services.ClientContextService&gt;();
+	if (clientContextService != null)
+	{
+		//get the contract's account to be used for the asset's association lookup
+		if (clientContextService.CurrentContext.ContainsKey("ContractAccount"))
+		{
+			clientContextService.CurrentContext["ContractAccount"] = contract.Account.Id.ToString();
+		}
+		else
+		{
+			clientContextService.CurrentContext.Add("ContractAccount", contract.Account.Id.ToString());
+		}
+	}
+}</CSharpCodeSnippet>
+        </CSharpSnippetActionItem>
+      </Action>
+      <IsDialogCloseAction>False</IsDialogCloseAction>
+      <RunOnEveryRePaint>False</RunOnEveryRePaint>
+      <DialogActionResult>NoResult</DialogActionResult>
+      <PerformsUpdate>False</PerformsUpdate>
+      <AppliedSecurity />
+      <RefreshData>False</RefreshData>
+    </FormActionDefinition>
+  </LoadActions>
+  <Name>ContractCoveredAssets</Name>
+  <ClientScriptIncludes />
+  <ClientResourceKeys />
+  <ExtendedProperties />
+  <HelpFile />
+  <ReadOnly>false</ReadOnly>
+  <GeneratePrintView>false</GeneratePrintView>
+  <Controls>
+    <Control typeName="Sage.SalesLogix.QuickForms.QFControls.SDataGrid.QFSDataGrid, Sage.SalesLogix.QuickForms.QFControls">
+      <QFSDataGrid>
+        <Column>0</Column>
+        <Row>0</Row>
+        <IsReadOnly>false</IsReadOnly>
+        <HotKey>0</HotKey>
+        <TabIndex>0</TabIndex>
+        <ControlId>grdAssets</ControlId>
+        <DataBindings />
+        <ControlLabelPlacement>left</ControlLabelPlacement>
+        <ExtendedProperties />
+        <CaptionAlignment>left</CaptionAlignment>
+        <StyleScheme />
+        <GenerateMember>false</GenerateMember>
+        <ReadOnlyCondition>False</ReadOnlyCondition>
+        <AppliedSecurity />
+        <RelateToPropertyName>Items</RelateToPropertyName>
+        <PreviewField />
+        <ResourceKind>
+          <Name>contractItems</Name>
+          <GetPredicate />
+        </ResourceKind>
+        <PathSegments />
+        <Columns>
+          <QFEditableCol>
+            <StyleScheme />
+            <DataField>Asset.ProductName</DataField>
+            <ColumnId>d6d15772-06ee-4b25-a62e-981991ddeb1d</ColumnId>
+            <HorizontalAlignment>left</HorizontalAlignment>
+            <HeaderAlignment>left</HeaderAlignment>
+            <SortDirection>Ascending</SortDirection>
+            <IsSortable>true</IsSortable>
+            <SortField>Asset.ProductName</SortField>
+            <MultiCurrencyDependent>false</MultiCurrencyDependent>
+            <IsEditable>false</IsEditable>
+            <HideCondition />
+            <Width>14</Width>
+            <CustomFormatter />
+            <AbbreviationLength>0</AbbreviationLength>
+          </QFEditableCol>
+          <QFEditableCol>
+            <StyleScheme />
+            <DataField>Asset.ActualId</DataField>
+            <ColumnId>59048bd8-65e8-4738-8090-6ba56e6117a7</ColumnId>
+            <HorizontalAlignment>left</HorizontalAlignment>
+            <HeaderAlignment>left</HeaderAlignment>
+            <SortDirection>None</SortDirection>
+            <IsSortable>true</IsSortable>
+            <SortField>Asset.ActualId</SortField>
+            <MultiCurrencyDependent>false</MultiCurrencyDependent>
+            <IsEditable>false</IsEditable>
+            <HideCondition />
+            <Width>10</Width>
+            <CustomFormatter />
+            <AbbreviationLength>0</AbbreviationLength>
+          </QFEditableCol>
+          <QFEditableCol>
+            <StyleScheme />
+            <DataField>Asset.SerialNumber</DataField>
+            <ColumnId>af8c6561-89f7-44ef-8612-3ce13251f52c</ColumnId>
+            <HorizontalAlignment>left</HorizontalAlignment>
+            <HeaderAlignment>left</HeaderAlignment>
+            <SortDirection>None</SortDirection>
+            <IsSortable>false</IsSortable>
+            <MultiCurrencyDependent>false</MultiCurrencyDependent>
+            <IsEditable>false</IsEditable>
+            <HideCondition />
+            <Width>10</Width>
+            <CustomFormatter />
+            <AbbreviationLength>0</AbbreviationLength>
+          </QFEditableCol>
+          <QFEditableCol>
+            <StyleScheme />
+            <DataField>Asset.Quantity</DataField>
+            <ColumnId>501d2ec3-e2cf-4491-8f48-7e2b1af03336</ColumnId>
+            <HorizontalAlignment>left</HorizontalAlignment>
+            <HeaderAlignment>left</HeaderAlignment>
+            <SortDirection>None</SortDirection>
+            <IsSortable>true</IsSortable>
+            <SortField>Asset.Quantity</SortField>
+            <MultiCurrencyDependent>false</MultiCurrencyDependent>
+            <IsEditable>false</IsEditable>
+            <HideCondition />
+            <Width>8</Width>
+            <CustomFormatter />
+            <AbbreviationLength>0</AbbreviationLength>
+          </QFEditableCol>
+          <QFSDataLinkCol>
+            <StyleScheme />
+            <DataField>Asset.Contact.NameLF</DataField>
+            <ColumnId>bc2f61f4-5049-4b0b-a062-891b9609b28b</ColumnId>
+            <HorizontalAlignment>left</HorizontalAlignment>
+            <HeaderAlignment>left</HeaderAlignment>
+            <SortDirection>None</SortDirection>
+            <IsSortable>true</IsSortable>
+            <SortField>Asset.Contact.LastName</SortField>
+            <MultiCurrencyDependent>false</MultiCurrencyDependent>
+            <Destination />
+            <Image />
+            <EntityIdField>Asset.Contact.Id</EntityIdField>
+            <EntityTypeName>Contact</EntityTypeName>
+            <Target />
+            <AppliedSecurity />
+            <HideCondition />
+            <Width>12</Width>
+          </QFSDataLinkCol>
+          <QFEditableCol>
+            <StyleScheme />
+            <DataField>Asset.Location</DataField>
+            <ColumnId>bab779e0-89dd-469e-893b-da44d5fa90c8</ColumnId>
+            <HorizontalAlignment>left</HorizontalAlignment>
+            <HeaderAlignment>left</HeaderAlignment>
+            <SortDirection>None</SortDirection>
+            <IsSortable>true</IsSortable>
+            <SortField>Asset.Location</SortField>
+            <MultiCurrencyDependent>false</MultiCurrencyDependent>
+            <IsEditable>false</IsEditable>
+            <HideCondition />
+            <Width>12</Width>
+            <CustomFormatter />
+            <AbbreviationLength>0</AbbreviationLength>
+          </QFEditableCol>
+          <QFEditableCol>
+            <StyleScheme />
+            <DataField>Asset.AssetCode</DataField>
+            <ColumnId>141e8d00-61ca-4889-804a-5f75090ba2ad</ColumnId>
+            <HorizontalAlignment>left</HorizontalAlignment>
+            <HeaderAlignment>left</HeaderAlignment>
+            <SortDirection>None</SortDirection>
+            <IsSortable>true</IsSortable>
+            <SortField>Asset.AssetCode</SortField>
+            <MultiCurrencyDependent>false</MultiCurrencyDependent>
+            <IsEditable>false</IsEditable>
+            <HideCondition />
+            <Width>12</Width>
+            <CustomFormatter />
+            <AbbreviationLength>0</AbbreviationLength>
+          </QFEditableCol>
+          <QFSDataCheckBoxCol>
+            <StyleScheme />
+            <DataField>Asset.Returned</DataField>
+            <ColumnId>1c82ae1f-b3a3-498f-bc75-45f5b6aae145</ColumnId>
+            <HorizontalAlignment>center</HorizontalAlignment>
+            <HeaderAlignment>left</HeaderAlignment>
+            <SortDirection>None</SortDirection>
+            <IsSortable>true</IsSortable>
+            <SortField>Asset.Returned</SortField>
+            <MultiCurrencyDependent>false</MultiCurrencyDependent>
+            <IsEditable>false</IsEditable>
+            <HideCondition />
+            <Width>8</Width>
+            <CustomFormatter />
+            <AbbreviationLength>0</AbbreviationLength>
+          </QFSDataCheckBoxCol>
+          <QFSDataCheckBoxCol>
+            <StyleScheme />
+            <DataField>Asset.Evaluation</DataField>
+            <ColumnId>8f97f70a-252e-4ad9-bcbf-f385752df26d</ColumnId>
+            <HorizontalAlignment>center</HorizontalAlignment>
+            <HeaderAlignment>left</HeaderAlignment>
+            <SortDirection>None</SortDirection>
+            <IsSortable>true</IsSortable>
+            <SortField>Asset.Evaluation</SortField>
+            <MultiCurrencyDependent>false</MultiCurrencyDependent>
+            <IsEditable>false</IsEditable>
+            <HideCondition />
+            <Width>8</Width>
+            <CustomFormatter />
+            <AbbreviationLength>0</AbbreviationLength>
+          </QFSDataCheckBoxCol>
+        </Columns>
+        <ConditionalWhere />
+        <Select>
+          <string>Asset.Contact.Id</string>
+        </Select>
+        <Include />
+        <FeedCategory>InternalAppEntities</FeedCategory>
+        <OnGetMappingId />
+        <ParentRelationshipPropertyName>Contract</ParentRelationshipPropertyName>
+        <ChildRelationshipPropertyName>Asset</ChildRelationshipPropertyName>
+        <OnDataChange />
+        <OnAdd />
+        <Tools>
+          <SDataGridAddRelationTool>
+            <Name>Relate</Name>
+            <Image />
+            <DisplayInInsert>false</DisplayInInsert>
+            <MergePosition>Default</MergePosition>
+            <MergeControlId />
+            <OnClick>//default add relationship behavior</OnClick>
+            <StyleScheme />
+            <AppliedSecurity>Entities/Contract/Edit</AppliedSecurity>
+            <LookupButton>
+              <Column>0</Column>
+              <Row>0</Row>
+              <IsReadOnly>false</IsReadOnly>
+              <HotKey>0</HotKey>
+              <TabIndex>0</TabIndex>
+              <ControlId>lueAddProduct</ControlId>
+              <DataBindings />
+              <ControlLabelPlacement>left</ControlLabelPlacement>
+              <ExtendedProperties />
+              <CaptionAlignment>left</CaptionAlignment>
+              <StyleScheme />
+              <OnChangeAction>
+                <ResourceKey>lueAddProduct</ResourceKey>
+                <Action typeName="Sage.Platform.QuickForms.ActionItems.NoActionActionItem, Sage.Platform.QuickForms">
+                  <NoActionActionItem>
+                    <MethodName />
+                  </NoActionActionItem>
+                </Action>
+                <IsDialogCloseAction>False</IsDialogCloseAction>
+                <RunOnEveryRePaint>False</RunOnEveryRePaint>
+                <DialogActionResult>NoResult</DialogActionResult>
+                <PerformsUpdate>False</PerformsUpdate>
+                <AppliedSecurity />
+                <RefreshData>False</RefreshData>
+              </OnChangeAction>
+              <Required>false</Required>
+              <LookupImage>[Localization!Global_Images:plus_16x16]</LookupImage>
+              <LookupDialogWidth xsi:nil="true" />
+              <LookupDialogHeight xsi:nil="true" />
+              <LookupDisplayMode>ButtonOnly</LookupDisplayMode>
+              <LookupBindingMode>Object</LookupBindingMode>
+              <LookupResultValue xsi:type="xsd:string" />
+              <AddEmptyListItem>false</AddEmptyListItem>
+              <AllowClearingResult>false</AllowClearingResult>
+              <OverrideSeedOnSearch>false</OverrideSeedOnSearch>
+              <LookupEntityName>AccountProduct</LookupEntityName>
+              <LookupEntityTypeName>Sage.Entity.Interfaces.IAccountProduct, Sage.Entity.Interfaces, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</LookupEntityTypeName>
+              <AutoPostBack>false</AutoPostBack>
+              <EnableHyperLinking>false</EnableHyperLinking>
+              <InitializeLookup>false</InitializeLookup>
+              <LookupProperties>
+                <LookupProperty>
+                  <PropertyName>ActualId</PropertyName>
+                  <PropertyType>System.String</PropertyType>
+                  <PropertyHeader>SKU</PropertyHeader>
+                  <PropertyFormat>None</PropertyFormat>
+                  <PropertyFormatString />
+                  <UseAsResult>true</UseAsResult>
+                  <ExcludeFromFilters>false</ExcludeFromFilters>
+                  <IsSortable>true</IsSortable>
+                  <HideCondition />
+                </LookupProperty>
+                <LookupProperty>
+                  <PropertyName>ProductName</PropertyName>
+                  <PropertyType>System.String</PropertyType>
+                  <PropertyHeader>Product</PropertyHeader>
+                  <PropertyFormat>None</PropertyFormat>
+                  <PropertyFormatString />
+                  <UseAsResult>true</UseAsResult>
+                  <ExcludeFromFilters>false</ExcludeFromFilters>
+                  <IsSortable>true</IsSortable>
+                  <HideCondition />
+                </LookupProperty>
+                <LookupProperty>
+                  <PropertyName>SerialNumber</PropertyName>
+                  <PropertyType>System.String</PropertyType>
+                  <PropertyHeader>Serial Number</PropertyHeader>
+                  <PropertyFormat>None</PropertyFormat>
+                  <PropertyFormatString />
+                  <UseAsResult>true</UseAsResult>
+                  <ExcludeFromFilters>false</ExcludeFromFilters>
+                  <IsSortable>true</IsSortable>
+                  <HideCondition />
+                </LookupProperty>
+              </LookupProperties>
+              <LookupPreFilters />
+              <LookupSelectionMode>Multi</LookupSelectionMode>
+              <OnSelection />
+              <AdditionalSelectFields />
+              <ChildEntity />
+              <LookupResourceName>AccountProduct</LookupResourceName>
+              <ConditionalWhere>function() {
+	var clientContextService = Sage.Services.getService("ClientContextService");
+	if (clientContextService != null &amp;&amp; typeof clientContextService !== "undefined") {
+		if (clientContextService.containsKey("ContractAccount")) {
+			return dojo.string.substitute("Account.Id eq '${0}'", [clientContextService.getValue("ContractAccount")]);
+		}
+	}
+}</ConditionalWhere>
+              <ConditionalShow />
+            </LookupButton>
+          </SDataGridAddRelationTool>
+          <SDataGridDeleteTool>
+            <Name>Delete</Name>
+            <Image>[Localization!Global_Images:Delete_16x16]</Image>
+            <DisplayInInsert>false</DisplayInInsert>
+            <MergePosition>Default</MergePosition>
+            <MergeControlId />
+            <OnClick />
+            <StyleScheme />
+            <AppliedSecurity />
+          </SDataGridDeleteTool>
+        </Tools>
+      </QFSDataGrid>
+    </Control>
+  </Controls>
+  <ToolControls>
+    <Control typeName="Sage.Platform.QuickForms.Controls.QFElementSpacer, Sage.Platform.QuickForms">
+      <QFElementSpacer>
+        <Column>0</Column>
+        <Row>0</Row>
+        <IsReadOnly>false</IsReadOnly>
+        <HotKey>0</HotKey>
+        <TabIndex>0</TabIndex>
+        <ControlId />
+        <DataBindings />
+        <ControlLabelPlacement>left</ControlLabelPlacement>
+        <ExtendedProperties />
+        <CaptionAlignment>left</CaptionAlignment>
+        <StyleScheme />
+      </QFElementSpacer>
+    </Control>
+    <Control typeName="Sage.Platform.QuickForms.Controls.QFElementSpacer, Sage.Platform.QuickForms">
+      <QFElementSpacer>
+        <Column>0</Column>
+        <Row>0</Row>
+        <IsReadOnly>false</IsReadOnly>
+        <HotKey>0</HotKey>
+        <TabIndex>0</TabIndex>
+        <ControlId />
+        <DataBindings />
+        <ControlLabelPlacement>left</ControlLabelPlacement>
+        <ExtendedProperties />
+        <CaptionAlignment>left</CaptionAlignment>
+        <StyleScheme />
+      </QFElementSpacer>
+    </Control>
+  </ToolControls>
+  <Columns>
+    <ColumnStyle>
+      <SizeType>Percent</SizeType>
+      <Width>100</Width>
+    </ColumnStyle>
+  </Columns>
+  <Rows>
+    <RowStyle>
+      <SizeType>Absolute</SizeType>
+      <Height>35</Height>
+    </RowStyle>
+    <RowStyle>
+      <SizeType>Absolute</SizeType>
+      <Height>35</Height>
+    </RowStyle>
+  </Rows>
+  <Description />
+  <UseEntityNameAsTitle>false</UseEntityNameAsTitle>
+  <EntityTypeName>IContract</EntityTypeName>
+  <DefaultNamespace>Sage.Entity.Interfaces</DefaultNamespace>
+  <AssemblyName>Sage.Entity.Interfaces</AssemblyName>
+</QuickForm>

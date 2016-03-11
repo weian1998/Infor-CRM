@@ -1,0 +1,11 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\SlxClient\MenuItems\mnuTools\MenuItems\LitFulfillment\" />
+  <exportedFile url="\Portal\SlxClient\MenuItems\mnuTools\MenuItems\new_ToolsSpacer\" />
+  <exportedFile url="\Portal\SlxClient\MenuItems\mnuTools\MenuItems\SearchAdv\" />
+  <exportedFile url="\Portal\SlxClient\MenuItems\mnuTools\MenuItems\tools_DeDupManager\" />
+  <exportedFile url="\Portal\SlxClient\MenuItems\mnuTools\MenuItems\tools_DeDupResults\" />
+  <exportedFile url="\Portal\SlxClient\MenuItems\mnuTools\MenuItems\tools_DeDupWizard\" />
+  <exportedFile url="\Portal\SlxClient\MenuItems\mnuTools\MenuItems\tools_ImportLeads\" />
+  <exportedFile url="\Portal\SlxClient\MenuItems\mnuTools\MenuItems\tools_Options\" />
+</exportedFiles>

@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<SmartPartMapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="f08d36f4-a50e-4756-9d45-751ae7bb320d">
+  <SmartPartId>EntityManagerFilters</SmartPartId>
+  <ReferencedModelId>00000000-0000-0000-0000-000000000000</ReferencedModelId>
+  <SmartPart>SmartParts\TaskPane\EntityManager\EntityManagerFilters.ascx</SmartPart>
+  <TargetWorkspace>TaskPane</TargetWorkspace>
+  <ShowInMode />
+  <Properties />
+  <AllowRoles />
+</SmartPartMapping>

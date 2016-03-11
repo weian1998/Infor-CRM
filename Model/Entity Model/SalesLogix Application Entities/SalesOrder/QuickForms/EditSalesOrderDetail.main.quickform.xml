@@ -1,0 +1,394 @@
+<?xml version="1.0"?>
+<QuickForm xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="09a0ae8d-7ed4-4553-b55c-f7238f4d6f90" DefinitionType="Sage.Platform.QuickForms.QuickFormMainDetailViewDefinition, Sage.Platform.QuickForms">
+  <ActiveControl />
+  <ImagePath />
+  <LoadActions />
+  <Name>EditSalesOrderDetail</Name>
+  <ClientScriptIncludes />
+  <ClientResourceKeys />
+  <ExtendedProperties />
+  <HelpFile />
+  <ReadOnly>false</ReadOnly>
+  <GeneratePrintView>false</GeneratePrintView>
+  <Controls>
+    <Control typeName="Sage.SalesLogix.QuickForms.QFControls.QFSLXNumeric, Sage.SalesLogix.QuickForms.QFControls">
+      <QFSLXNumeric>
+        <Column>0</Column>
+        <Row>0</Row>
+        <HotKey>0</HotKey>
+        <TabIndex>0</TabIndex>
+        <ControlId>numDiscountRate</ControlId>
+        <DataBindings>
+          <QuickFormPropertyDataBindingDefinition>
+            <DataSourceID>MainEntity</DataSourceID>
+            <DataItemName>Discount</DataItemName>
+            <ControlItemName>Text</ControlItemName>
+            <FormatString />
+            <NullValueString />
+          </QuickFormPropertyDataBindingDefinition>
+        </DataBindings>
+        <ControlLabelPlacement>left</ControlLabelPlacement>
+        <ExtendedProperties />
+        <CaptionAlignment>left</CaptionAlignment>
+        <StyleScheme />
+        <OnChangeAction>
+          <ResourceKey>numDiscountRate</ResourceKey>
+          <Action typeName="Sage.Platform.QuickForms.ActionItems.CSharpSnippetActionItem, Sage.Platform.QuickForms">
+            <CSharpSnippetActionItem>
+              <MethodName>numDiscountRate_ChangeAction</MethodName>
+              <CSharpCodeSnippet>Sage.Entity.Interfaces.ISalesOrder salesOrder = BindingSource.Current as Sage.Entity.Interfaces.ISalesOrder;
+if (salesOrder != null)
+{
+    double orderTotal = salesOrder.OrderTotal ?? 0;
+    double discountAmount = orderTotal * Convert.ToDouble(String.IsNullOrEmpty(numDiscountRate.Text) ? "0" : numDiscountRate.Text);
+    salesOrder.DiscountTotal = discountAmount;
+    double adjustedTotal = orderTotal - discountAmount;
+    salesOrder.TaxTotal = (salesOrder.Tax ?? 0) * adjustedTotal;
+}</CSharpCodeSnippet>
+            </CSharpSnippetActionItem>
+          </Action>
+          <IsDialogCloseAction>False</IsDialogCloseAction>
+          <RunOnEveryRePaint>False</RunOnEveryRePaint>
+          <DialogActionResult>NoResult</DialogActionResult>
+          <PerformsUpdate>False</PerformsUpdate>
+          <AppliedSecurity />
+          <RefreshData>False</RefreshData>
+        </OnChangeAction>
+        <Required>false</Required>
+        <DecimalDigits>
+          <Strict>false</Strict>
+        </DecimalDigits>
+        <FormatType>Percent</FormatType>
+      </QFSLXNumeric>
+    </Control>
+    <Control typeName="Sage.SalesLogix.QuickForms.QFControls.QFSLXCurrency, Sage.SalesLogix.QuickForms.QFControls">
+      <QFSLXCurrency>
+        <Column>0</Column>
+        <Row>1</Row>
+        <IsReadOnly>true</IsReadOnly>
+        <Enabled>false</Enabled>
+        <HotKey>0</HotKey>
+        <TabIndex>0</TabIndex>
+        <ControlId>curDiscountAmount</ControlId>
+        <DataBindings>
+          <QuickFormPropertyDataBindingDefinition>
+            <DataSourceID>MainEntity</DataSourceID>
+            <DataItemName>DiscountTotal</DataItemName>
+            <ControlItemName>Text</ControlItemName>
+            <FormatString />
+            <NullValueString />
+          </QuickFormPropertyDataBindingDefinition>
+        </DataBindings>
+        <ControlLabelPlacement>left</ControlLabelPlacement>
+        <ExtendedProperties />
+        <CaptionAlignment>left</CaptionAlignment>
+        <StyleScheme />
+        <OnChangeAction>
+          <ResourceKey>curDiscountAmount</ResourceKey>
+          <Action typeName="Sage.Platform.QuickForms.ActionItems.NoActionActionItem, Sage.Platform.QuickForms">
+            <NoActionActionItem>
+              <MethodName />
+            </NoActionActionItem>
+          </Action>
+          <IsDialogCloseAction>False</IsDialogCloseAction>
+          <RunOnEveryRePaint>False</RunOnEveryRePaint>
+          <DialogActionResult>NoResult</DialogActionResult>
+          <PerformsUpdate>False</PerformsUpdate>
+          <AppliedSecurity />
+          <RefreshData>False</RefreshData>
+        </OnChangeAction>
+        <Required>false</Required>
+        <CurrentCode />
+        <ExchangeRate>1</ExchangeRate>
+        <ExchangeRateType>BaseRate</ExchangeRateType>
+        <DecimalDigits>-1</DecimalDigits>
+      </QFSLXCurrency>
+    </Control>
+    <Control typeName="Sage.SalesLogix.QuickForms.QFControls.QFSLXCurrency, Sage.SalesLogix.QuickForms.QFControls">
+      <QFSLXCurrency>
+        <Column>0</Column>
+        <Row>2</Row>
+        <HotKey>0</HotKey>
+        <TabIndex>0</TabIndex>
+        <ControlId>curShipping</ControlId>
+        <DataBindings>
+          <QuickFormPropertyDataBindingDefinition>
+            <DataSourceID>MainEntity</DataSourceID>
+            <DataItemName>Freight</DataItemName>
+            <ControlItemName>Text</ControlItemName>
+            <FormatString />
+            <NullValueString />
+          </QuickFormPropertyDataBindingDefinition>
+        </DataBindings>
+        <ControlLabelPlacement>left</ControlLabelPlacement>
+        <ExtendedProperties />
+        <CaptionAlignment>left</CaptionAlignment>
+        <StyleScheme />
+        <OnChangeAction>
+          <ResourceKey>curShipping</ResourceKey>
+          <Action typeName="Sage.Platform.QuickForms.ActionItems.NoActionActionItem, Sage.Platform.QuickForms">
+            <NoActionActionItem>
+              <MethodName />
+            </NoActionActionItem>
+          </Action>
+          <IsDialogCloseAction>False</IsDialogCloseAction>
+          <RunOnEveryRePaint>False</RunOnEveryRePaint>
+          <DialogActionResult>NoResult</DialogActionResult>
+          <PerformsUpdate>False</PerformsUpdate>
+          <AppliedSecurity />
+          <RefreshData>False</RefreshData>
+        </OnChangeAction>
+        <Required>false</Required>
+        <CurrentCode />
+        <ExchangeRate>1</ExchangeRate>
+        <ExchangeRateType>BaseRate</ExchangeRateType>
+        <DecimalDigits>-1</DecimalDigits>
+      </QFSLXCurrency>
+    </Control>
+    <Control typeName="Sage.SalesLogix.QuickForms.QFControls.QFSLXNumeric, Sage.SalesLogix.QuickForms.QFControls">
+      <QFSLXNumeric>
+        <Column>0</Column>
+        <Row>3</Row>
+        <HotKey>0</HotKey>
+        <TabIndex>0</TabIndex>
+        <ControlId>numTaxRate</ControlId>
+        <DataBindings>
+          <QuickFormPropertyDataBindingDefinition>
+            <DataSourceID>MainEntity</DataSourceID>
+            <DataItemName>Tax</DataItemName>
+            <ControlItemName>Text</ControlItemName>
+            <FormatString />
+            <NullValueString />
+          </QuickFormPropertyDataBindingDefinition>
+        </DataBindings>
+        <ControlLabelPlacement>left</ControlLabelPlacement>
+        <ExtendedProperties />
+        <CaptionAlignment>left</CaptionAlignment>
+        <StyleScheme />
+        <OnChangeAction>
+          <ResourceKey>numTaxRate</ResourceKey>
+          <Action typeName="Sage.Platform.QuickForms.ActionItems.CSharpSnippetActionItem, Sage.Platform.QuickForms">
+            <CSharpSnippetActionItem>
+              <MethodName>numTaxRate_ChangeAction</MethodName>
+              <CSharpCodeSnippet>Sage.Entity.Interfaces.ISalesOrder salesOrder = BindingSource.Current as Sage.Entity.Interfaces.ISalesOrder;
+if (salesOrder != null)
+{
+	salesOrder.TaxTotal = Sage.SalesLogix.SalesOrder.SalesOrder.GetSalesOrderTaxAmount(salesOrder);
+}</CSharpCodeSnippet>
+            </CSharpSnippetActionItem>
+          </Action>
+          <IsDialogCloseAction>False</IsDialogCloseAction>
+          <RunOnEveryRePaint>False</RunOnEveryRePaint>
+          <DialogActionResult>NoResult</DialogActionResult>
+          <PerformsUpdate>False</PerformsUpdate>
+          <AppliedSecurity />
+          <RefreshData>False</RefreshData>
+        </OnChangeAction>
+        <Required>false</Required>
+        <DecimalDigits>
+          <Strict>false</Strict>
+        </DecimalDigits>
+        <FormatType>Percent</FormatType>
+      </QFSLXNumeric>
+    </Control>
+    <Control typeName="Sage.SalesLogix.QuickForms.QFControls.QFSLXCurrency, Sage.SalesLogix.QuickForms.QFControls">
+      <QFSLXCurrency>
+        <Column>0</Column>
+        <Row>4</Row>
+        <IsReadOnly>true</IsReadOnly>
+        <Enabled>false</Enabled>
+        <HotKey>0</HotKey>
+        <TabIndex>0</TabIndex>
+        <ControlId>curTaxAmount</ControlId>
+        <DataBindings>
+          <QuickFormPropertyDataBindingDefinition>
+            <DataSourceID>MainEntity</DataSourceID>
+            <DataItemName>TaxTotal</DataItemName>
+            <ControlItemName>Text</ControlItemName>
+            <FormatString />
+            <NullValueString />
+          </QuickFormPropertyDataBindingDefinition>
+        </DataBindings>
+        <ControlLabelPlacement>left</ControlLabelPlacement>
+        <ExtendedProperties />
+        <CaptionAlignment>left</CaptionAlignment>
+        <StyleScheme />
+        <OnChangeAction>
+          <ResourceKey>curTaxAmount</ResourceKey>
+          <Action typeName="Sage.Platform.QuickForms.ActionItems.NoActionActionItem, Sage.Platform.QuickForms">
+            <NoActionActionItem>
+              <MethodName />
+            </NoActionActionItem>
+          </Action>
+          <IsDialogCloseAction>False</IsDialogCloseAction>
+          <RunOnEveryRePaint>False</RunOnEveryRePaint>
+          <DialogActionResult>NoResult</DialogActionResult>
+          <PerformsUpdate>False</PerformsUpdate>
+          <AppliedSecurity />
+          <RefreshData>False</RefreshData>
+        </OnChangeAction>
+        <Required>false</Required>
+        <CurrentCode />
+        <ExchangeRate>1</ExchangeRate>
+        <ExchangeRateType>BaseRate</ExchangeRateType>
+        <DecimalDigits>-1</DecimalDigits>
+      </QFSLXCurrency>
+    </Control>
+    <Control typeName="Sage.Platform.QuickForms.QFControls.QFControlsList, Sage.Platform.QuickForms.QFControls">
+      <QFControlsList>
+        <Column>0</Column>
+        <Row>5</Row>
+        <HotKey>0</HotKey>
+        <TabIndex>0</TabIndex>
+        <ControlId>ctrlstButtons</ControlId>
+        <DataBindings />
+        <ControlLabelPlacement>left</ControlLabelPlacement>
+        <ExtendedProperties />
+        <CaptionAlignment>left</CaptionAlignment>
+        <StyleScheme>qfActionContainer</StyleScheme>
+        <Caption />
+        <Controls>
+          <ControlsCollection>
+            <Control TypeName="Sage.Platform.QuickForms.Controls.QFButton, Sage.Platform.QuickForms">
+              <QFButton>
+                <Column>0</Column>
+                <Row>0</Row>
+                <HotKey>0</HotKey>
+                <TabIndex>0</TabIndex>
+                <ControlId>btnOK</ControlId>
+                <DataBindings />
+                <ControlLabelPlacement>none</ControlLabelPlacement>
+                <ExtendedProperties />
+                <CaptionAlignment>left</CaptionAlignment>
+                <StyleScheme>slxbutton</StyleScheme>
+                <ButtonType>StandardButton</ButtonType>
+                <Image />
+                <OnClientClick />
+                <OnClickAction>
+                  <ResourceKey>btnOK</ResourceKey>
+                  <Action typeName="Sage.Platform.QuickForms.ActionItems.BusinessRuleActionItem, Sage.Platform.QuickForms">
+                    <BusinessRuleActionItem>
+                      <BusinessRule>Save</BusinessRule>
+                      <Object>SalesOrder</Object>
+                      <Parameters />
+                      <PassResultsToNextAction>False</PassResultsToNextAction>
+                      <OnComplete typeName="Sage.Platform.QuickForms.ActionItems.RefreshDataAction, Sage.Platform.QuickForms">
+                        <RefreshDataAction>
+                          <MethodName>btnOK_ClickActionBRC</MethodName>
+                        </RefreshDataAction>
+                      </OnComplete>
+                    </BusinessRuleActionItem>
+                  </Action>
+                  <IsDialogCloseAction>False</IsDialogCloseAction>
+                  <RunOnEveryRePaint>False</RunOnEveryRePaint>
+                  <DialogActionResult>DialogOK</DialogActionResult>
+                  <PerformsUpdate>True</PerformsUpdate>
+                  <AppliedSecurity />
+                  <RefreshData>False</RefreshData>
+                </OnClickAction>
+              </QFButton>
+            </Control>
+            <Control TypeName="Sage.Platform.QuickForms.Controls.QFButton, Sage.Platform.QuickForms">
+              <QFButton>
+                <Column>0</Column>
+                <Row>0</Row>
+                <HotKey>0</HotKey>
+                <TabIndex>0</TabIndex>
+                <ControlId>btnCancel</ControlId>
+                <DataBindings />
+                <ControlLabelPlacement>none</ControlLabelPlacement>
+                <ExtendedProperties />
+                <CaptionAlignment>left</CaptionAlignment>
+                <StyleScheme>slxbutton</StyleScheme>
+                <ButtonType>StandardButton</ButtonType>
+                <Image />
+                <OnClientClick />
+                <OnClickAction>
+                  <ResourceKey>btnCancel</ResourceKey>
+                  <Action typeName="Sage.Platform.QuickForms.ActionItems.NoActionActionItem, Sage.Platform.QuickForms">
+                    <NoActionActionItem>
+                      <MethodName />
+                    </NoActionActionItem>
+                  </Action>
+                  <IsDialogCloseAction>False</IsDialogCloseAction>
+                  <RunOnEveryRePaint>False</RunOnEveryRePaint>
+                  <DialogActionResult>DialogCancel</DialogActionResult>
+                  <PerformsUpdate>False</PerformsUpdate>
+                  <AppliedSecurity />
+                  <RefreshData>False</RefreshData>
+                </OnClickAction>
+              </QFButton>
+            </Control>
+          </ControlsCollection>
+        </Controls>
+      </QFControlsList>
+    </Control>
+  </Controls>
+  <ToolControls>
+    <Control typeName="Sage.Platform.QuickForms.Controls.QFElementSpacer, Sage.Platform.QuickForms">
+      <QFElementSpacer>
+        <Column>0</Column>
+        <Row>0</Row>
+        <HotKey>0</HotKey>
+        <TabIndex>0</TabIndex>
+        <ControlId />
+        <DataBindings />
+        <ControlLabelPlacement>left</ControlLabelPlacement>
+        <ExtendedProperties />
+        <CaptionAlignment>left</CaptionAlignment>
+        <StyleScheme />
+      </QFElementSpacer>
+    </Control>
+    <Control typeName="Sage.Platform.QuickForms.Controls.QFElementSpacer, Sage.Platform.QuickForms">
+      <QFElementSpacer>
+        <Column>0</Column>
+        <Row>0</Row>
+        <HotKey>0</HotKey>
+        <TabIndex>0</TabIndex>
+        <ControlId />
+        <DataBindings />
+        <ControlLabelPlacement>left</ControlLabelPlacement>
+        <ExtendedProperties />
+        <CaptionAlignment>left</CaptionAlignment>
+        <StyleScheme />
+      </QFElementSpacer>
+    </Control>
+  </ToolControls>
+  <Columns>
+    <ColumnStyle>
+      <SizeType>Percent</SizeType>
+      <Width>100</Width>
+    </ColumnStyle>
+  </Columns>
+  <Rows>
+    <RowStyle>
+      <SizeType>Absolute</SizeType>
+      <Height>35</Height>
+    </RowStyle>
+    <RowStyle>
+      <SizeType>Absolute</SizeType>
+      <Height>35</Height>
+    </RowStyle>
+    <RowStyle>
+      <SizeType>Absolute</SizeType>
+      <Height>35</Height>
+    </RowStyle>
+    <RowStyle>
+      <SizeType>Absolute</SizeType>
+      <Height>35</Height>
+    </RowStyle>
+    <RowStyle>
+      <SizeType>Absolute</SizeType>
+      <Height>35</Height>
+    </RowStyle>
+    <RowStyle>
+      <SizeType>Absolute</SizeType>
+      <Height>35</Height>
+    </RowStyle>
+  </Rows>
+  <Description />
+  <UseEntityNameAsTitle>false</UseEntityNameAsTitle>
+  <EntityTypeName>ISalesOrder</EntityTypeName>
+  <DefaultNamespace>Sage.Entity.Interfaces</DefaultNamespace>
+  <AssemblyName>Sage.Entity.Interfaces</AssemblyName>
+</QuickForm>

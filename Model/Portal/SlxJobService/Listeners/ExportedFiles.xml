@@ -1,0 +1,6 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\SlxJobService\Listeners\Sage.Platform.Scheduling.SessionScopeListener.listener.xml" timeStamp="2015-05-28T03:07:08.0000" />
+  <exportedFile url="\Portal\SlxJobService\Listeners\Sage.SalesLogix.Scheduling.UserAuthenticationListener.listener.xml" timeStamp="2015-05-28T03:07:08.0000" />
+  <exportedFile url="\Portal\SlxJobService\Listeners\Sage.SalesLogix.Scheduling.VirtualFileSystemListener.listener.xml" timeStamp="2015-05-28T03:07:08.0000" />
+</exportedFiles>

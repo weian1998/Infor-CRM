@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:fileTags="Translation Status.Support files" xml:lang="fr" MadCap:tocPath="" MadCap:medium="non-print" MadCap:InPreviewMode="false" MadCap:PreloadImages="false" MadCap:RuntimeFileType="Topic" MadCap:TargetType="WebHelp" lang="fr" MadCap:conditions="Output.WebClient,Output.Query Builder" MadCap:PathToHelpSystem="../../" MadCap:HelpSystemFileName="WebClient.xml" MadCap:SearchType="Stem">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Chaînes de format de champ Date/heure</title>
+        <link href="../SkinSupport/Slideshow.css" rel="stylesheet" />
+        <link href="../SkinSupport/MadCap.css" rel="stylesheet" />
+        <link href="../Resources/TableStyles/TableStyle.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/Infor.CSS" rel="stylesheet" />
+        <script src="../SkinSupport/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapAll.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapTopicAll.js" type="text/javascript">
+        </script>
+    </head>
+    <body>
+        <h1><a name="kanchor666"></a>Chaînes de format de champ Date/heure</h1>
+        <p>Le tableau suivant dresse la liste des options de chaîne de formatage pour les champs Date et Heure, mais non les <a href="Date_Time_Separators.htm">séparateurs Date/Heure</a>.</p>
+        <table style="width: 90%;mc-table-style: url('../Resources/TableStyles/TableStyle.css');margin-left: 0;margin-right: auto;" class="TableStyle-TableStyle" cellspacing="0">
+            <thead>
+                <tr class="TableStyle-TableStyle-Head-Header1">
+                    <th class="TableStyle-TableStyle-HeadE-Column1-Header1">Option</th>
+                    <th class="TableStyle-TableStyle-HeadD-Column1-Header1">Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">c</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Affiche la date au format fourni par la variable globale ShortDateFormat, suivi de l'heure au format fourni par la variable globale LongTimeFormat. L'heure ne s'affiche pas si la fraction de la valeur DateTime est zéro.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">d</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Affiche le jour sous forme de chiffres, sans zéro devant (1&#160;à&#160;31).</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">jj</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Affiche le jour sous forme de chiffres, avec un zéro devant (01&#160;à&#160;31).</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">jjj</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Affiche le jour sous forme d'abréviation (Dim&#160;à&#160;Sam) à l'aide des chaînes fournies par la variable globale ShortDayNames.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">jjjj</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Affiche le nom complet du jour (Dimanche&#160;à&#160;Samedi) à l'aide des chaînes fournies par la variable globale LongDayNames.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">jjjjj</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Affiche la date au format fourni par la variable globale ShortDateFormat.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">m</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Affiche le mois sous forme de chiffres, sans zéro devant (1&#160;à&#160;12). Si le spécificateur m est immédiatement suivi du spécificateur h ou hh, les minutes sont affichées à la place du mois.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">mm</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Affiche le mois sous forme de chiffres, avec un zéro devant (01&#160;à&#160;12). Si le spécificateur mm est immédiatement suivi du spécificateur h ou hh, les minutes sont affichées à la place du mois.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">mmm</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Affiche le mois sous forme d'abréviation (Jan&#160;à&#160;Déc) à l'aide des chaînes fournies par la variable globale ShortMonthNames.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">mmmm</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Affiche le nom complet du mois (Janvier&#160;à&#160;Décembre) à l'aide des chaînes fournies par la variable globale LongMonthNames.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">aa</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Affiche l'année sous forme de deux chiffres (00&#160;à&#160;99).</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">aaaa</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Affiche l'année sous forme de quatre chiffres (0000&#160;à&#160;9999).</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">h</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Affiche l'heure sans zéro devant (0&#160;à&#160;23).</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">hh</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Affiche l'heure avec un zéro devant (00&#160;à&#160;23).</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">n</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Affiche les minutes sans zéro devant (0&#160;à&#160;59).</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">nn</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Affiche les minutes avec un zéro devant (00&#160;à&#160;59).</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">s</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Affiche les secondes sans zéro devant (0&#160;à&#160;59).</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">ss</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Affiche les secondes avec un zéro devant (00&#160;à&#160;59).</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">t</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Affiche l'heure au format fourni par la variable globale ShortTimeFormat.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">tt</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Affiche l'heure au format fourni par la variable globale LongTimeFormat.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">am/pm</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Utilise le format d'horloge 12&#160;heures pour le spécificateur h ou hh précédent et affiche «&#160;am&#160;» pour les heures du matin et «&#160;pm&#160;» pour celles de l'après-midi. Le spécificateur am/pm peut employer les minuscules, majuscules ou les deux&#160;; l'affichage variera en fonction.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">a/p</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Utilise le format d'horloge 12&#160;heures pour le spécificateur h ou hh précédent et affiche «&#160;a&#160;» pour les heures du matin et «&#160;p&#160;» pour celles de l'après-midi. Le spécificateur a/p peut employer les minuscules, majuscules ou les deux&#160;; l'affichage variera en fonction.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyB-Column1-Body1">ampm</td>
+                    <td class="TableStyle-TableStyle-BodyA-Column1-Body1">Utilise le format d'horloge 12&#160;heures pour le spécificateur h ou hh précédent et affiche le contenu de la variable globale TimeAMString pour les heures du matin et le contenu de la variable globale TimePMString pour celles de l'après-midi.</td>
+                </tr>
+            </tbody>
+        </table>
+        <p class="RelatedTopics">Rubriques connexes</p>
+        <p><a href="../QueryBuilderAdv/assign_query_layout.htm" target="_self">Présentation de la requête</a>
+        </p>
+        <div style="width: 100%;position: relative;">
+            <p>&#160;</p>
+        </div>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

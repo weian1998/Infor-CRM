@@ -1,0 +1,3 @@
+define((
+{ titleFmtString: '${0}' }
+));

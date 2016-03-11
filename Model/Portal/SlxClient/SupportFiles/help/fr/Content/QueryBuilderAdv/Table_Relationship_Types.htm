@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:fileTags="Translation Status.Support files" xml:lang="fr" MadCap:tocPath="" MadCap:medium="non-print" MadCap:InPreviewMode="false" MadCap:PreloadImages="false" MadCap:RuntimeFileType="Topic" MadCap:TargetType="WebHelp" lang="fr" MadCap:conditions="Output.WebClient,Output.Query Builder" class="" MadCap:PathToHelpSystem="../../" MadCap:HelpSystemFileName="WebClient.xml" MadCap:SearchType="Stem">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Types de relation entre les tables</title>
+        <link href="../SkinSupport/Slideshow.css" rel="stylesheet" />
+        <link href="../SkinSupport/MadCap.css" rel="stylesheet" />
+        <link href="../Resources/TableStyles/TableStyle.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/Infor.CSS" rel="stylesheet" />
+        <script src="../SkinSupport/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapAll.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapTopicAll.js" type="text/javascript">
+        </script>
+    </head>
+    <body>
+        <h1><a name="kanchor701"></a>Types de relation entre les tables</h1>
+        <table wrapperparagraphselector="P" style="margin-top: 14pt;border-spacing: 0px;border-spacing: 0px;" cellspacing="0">
+            <col />
+            <col />
+            <tr>
+                <td style="padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top">
+                    <p style="text-align: center;margin-bottom: 0;" align="center">
+                        <img src="../image/note.gif" />
+                    </p>
+                </td>
+                <td style="padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top">
+                    <ul style="list-style: disc;" type="disc">
+                        <li class="kadov-p-CBullets" value="1">La table parent détermine le type de relation. Par exemple, lorsque la table CONTACT est la table parent, sa relation avec la table ACCOUNT est du type un-à-un. En revanche, si la table ACCOUNT est la table parent, sa relation est du type un-à-plusieurs. Dans la colonne Exemple, le nom des tables parent est en italique.</li>
+                        <li class="SLXNote" value="2">Vous ne pouvez pas utiliser directement des tables qui ont une relation plusieurs-à-plusieurs. Vous devez vous servir d'une table de liaison, c'est-à-dire d'une table intermédiaire dont le but est de résoudre les relations plusieurs-à-plusieurs en créant un lien entre les tables. Si vous avez besoin d'informations provenant des tables USERINFO et ACTIVITY, utilisez la table USER_ACTIVITY pour y accéder. La table USER_ACTIVITY est une table de liaison.</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+        <p style="font-weight: normal;">Pour définir le type de relation entre plusieurs tables, utilisez les termes suivants&#160;:</p>
+        <table style="width: 90%;mc-table-style: url('../Resources/TableStyles/TableStyle.css');margin-left: 0;margin-right: auto;" class="TableStyle-TableStyle" cellspacing="0">
+            <thead>
+                <tr class="TableStyle-TableStyle-Head-Header1">
+                    <th class="TableStyle-TableStyle-HeadE-Column1-Header1">Terme</th>
+                    <th class="TableStyle-TableStyle-HeadE-Column1-Header1">Symbole</th>
+                    <th class="TableStyle-TableStyle-HeadE-Column1-Header1">Description</th>
+                    <th class="TableStyle-TableStyle-HeadD-Column1-Header1">Exemple</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Un à un</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">
+                        <img src="../image/onetoone.gif" alt="image\onetoone.gif" style="width: 78px;height: 13px;margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;border-style: none;border-style: none;" width="78" height="13" border="0" />
+                    </td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Chaque enregistrement unique d'une table est lié à un seul enregistrement d'une autre table.</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Supposons qu'un contact est associé à un seul compte. La relation entre les tables <i>CONTACT</i> et ACCOUNT est alors de type un-à-un (correspondance unique).</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">De zéro à un</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">
+                        <img src="../image/zerotoone.gif" alt="image\zerotoone.gif" style="width: 76px;height: 13px;margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;border-style: none;border-style: none;" width="76" height="13" border="0" />
+                    </td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Chaque enregistrement unique d'une table est lié à un seul enregistrement d'une autre table ou à aucun enregistrement. Une relation zéro-à-un s'établit après la configuration d'une table avec une relation un-à-un avec une autre table ne contenant aucun enregistrement.</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Une activité peut n'être liée à aucune opportunité. Si elle est liée à une opportunité, elle n'est liée qu'à cette seule opportunité&#160;; la relation entre les tables <i>ACTIVITY</i> et OPPORTUNITY est alors de type zéro-à-un.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Un à plusieurs</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">
+                        <img src="../image/onetomany.gif" alt="image\onetomany.gif" style="width: 77px;height: 15px;margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;border-style: none;border-style: none;" width="77" height="15" border="0" />
+                    </td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Chaque enregistrement de la table est lié à un ou plusieurs enregistrements d'une autre table.</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Plusieurs contacts peuvent être associés à un compte, mais un compte au moins est toujours associé à un contact. La relation entre les tables <i>ACCOUNT</i> et CONTACT est alors de type un-à-plusieurs (correspondances multiples).</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Zéro-à-plusieurs</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">
+                        <img src="../image/zerotomany.gif" alt="image\zerotomany.gif" style="width: 76px;height: 14px;margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;border-style: none;float: none;border-style: none;" width="76" height="14" border="0" />
+                    </td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Chaque enregistrement unique d'une table peut être lié à aucun enregistrement ou à plusieurs enregistrements d'une autre table. Une relation zéro-à-plusieurs s'établit après la configuration d'une table avec une relation un-à-plusieurs avec une autre table ne contenant aucun enregistrement.</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Un contact peut n'avoir aucune activité ou en avoir plusieurs. La relation entre les tables <i>CONTACT</i> et ACTIVITY est alors de type zéro-à-plusieurs.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyB-Column1-Body1">Plusieurs-à-plusieurs</td>
+                    <td class="TableStyle-TableStyle-BodyB-Column1-Body1">
+                        <img src="../image/Manytomany.gif" />
+                    </td>
+                    <td class="TableStyle-TableStyle-BodyB-Column1-Body1">La table contient plusieurs enregistrements qui sont liés à plusieurs enregistrements d'une autre table.</td>
+                    <td class="TableStyle-TableStyle-BodyA-Column1-Body1">Un utilisateur peut avoir plusieurs activités et une activité peut être associée à plusieurs utilisateurs. La relation entre les tables <i>USERINFO</i> et ACTIVITY est alors de type plusieurs-à-plusieurs.</td>
+                </tr>
+            </tbody>
+        </table>
+        <p class="RelatedTopics">Rubriques connexes</p>
+        <p class="Topic-Text-Numbered"><a href="Joining_Tables.htm">Association de tables</a>
+        </p>
+        <p class="Topic-Text-Numbered"><a href="Join_Example.htm">Exemple de jointure</a>
+        </p>
+        <p class="Topic-Text-Numbered"><a href="ID_Fields_in_Tables.htm">Champs ID dans les tables</a>
+        </p>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

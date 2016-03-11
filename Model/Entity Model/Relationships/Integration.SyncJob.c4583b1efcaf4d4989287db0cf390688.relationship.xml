@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<relationship xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="c4583b1e-fcaf-4d49-8928-7db0cf390688" lastModifiedUtc="2013-07-18T17:49:47.1978835Z" parentEntityId="8820d186-4bad-4423-9349-b5b1ceb3972b" childEntityId="f20cb75d-032b-46b4-a54c-970697216936" cascadeOption="None">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmRelationship" />
+  </ExtendedPropertiesCollection>
+  <parentProperty id="79d64fc2-a52f-456d-ac74-1ba48e545a40" lastModifiedUtc="2013-07-18T17:49:27.3209089Z" name="SyncJobs" audited="false">
+    <ExtendedPropertiesCollection>
+      <extendee type="Sage.Platform.Orm.Entities.OrmRelationProperty">
+        <extender guid="ae60621d-9d91-3d9a-b9fb-eb6c8be12131">
+          <OrmEntityPropertySDataExtension generate="true" />
+        </extender>
+      </extendee>
+    </ExtendedPropertiesCollection>
+    <SystemDataType guid="2f770d03-c93c-4605-8ae8-7cdae04830d7">
+      <RelationshipDataType />
+    </SystemDataType>
+  </parentProperty>
+  <childProperty id="5cb8f081-3f9d-46f9-aba6-bc0dddd838e9" lastModifiedUtc="2013-07-18T17:49:27.3224092Z" name="Integration" audited="false">
+    <ExtendedPropertiesCollection>
+      <extendee type="Sage.Platform.Orm.Entities.OrmRelationProperty">
+        <extender guid="ae60621d-9d91-3d9a-b9fb-eb6c8be12131">
+          <OrmEntityPropertySDataExtension generate="true" />
+        </extender>
+      </extendee>
+    </ExtendedPropertiesCollection>
+    <SystemDataType guid="2f770d03-c93c-4605-8ae8-7cdae04830d7">
+      <RelationshipDataType />
+    </SystemDataType>
+  </childProperty>
+  <column>
+    <OrmRelationshipColumn id="5894dab4-3aaf-49a2-909b-b822cfb489a9" parentPropertyId="b15397c1-42ab-4f17-bc2e-2e49f74b9f5e" childPropertyId="4be03181-aebd-4d7d-980f-951b9a1bd57f" ordinal="0" />
+  </column>
+</relationship>

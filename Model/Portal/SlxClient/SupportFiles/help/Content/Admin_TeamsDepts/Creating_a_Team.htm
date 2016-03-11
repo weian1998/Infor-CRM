@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:fileTags="Translation Status.Support files" MadCap:tocPath="Administration|Teams and Departments" MadCap:medium="non-print" MadCap:InPreviewMode="false" MadCap:PreloadImages="false" MadCap:RuntimeFileType="Topic" MadCap:TargetType="WebHelp" lang="en-us" xml:lang="en-us" MadCap:conditions="Output.WebClient,Targeted.WebHelp-slxgetstartedADMIN subset" MadCap:PathToHelpSystem="../../" MadCap:HelpSystemFileName="WebClient.xml" MadCap:SearchType="Stem">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Creating a Team</title>
+        <link href="../SkinSupport/Slideshow.css" rel="stylesheet" />
+        <link href="../SkinSupport/MadCap.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/Infor.CSS" rel="stylesheet" />
+        <script src="../SkinSupport/jquery.min.js">
+        </script>
+        <script src="../SkinSupport/MadCapAll.js">
+        </script>
+        <script src="../SkinSupport/MadCapTopicAll.js">
+        </script>
+    </head>
+    <body>
+        <h1><a name="kanchor48"></a>Creating a Team</h1>
+        <table wrapperparagraphselector="P" style="width: 80%;margin-top: 14pt;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" width="80%">
+            <tr>
+                <td style="width: 10%;padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top" width="10%">
+                    <p style="text-align: center;margin-bottom: 0;" align="center">
+                        <img src="../image/adminonly.gif" />
+                    </p>
+                </td>
+                <td style="width: 90%;padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top" width="90%">
+                    <p>The system administrator and users with the appropriate <a href="../Admin_security/What_are_Roles_and_Secured_Actions.htm" target="_self">role</a> can access these features.</p>
+                </td>
+            </tr>
+        </table>
+        <p>A team can consist of users, teams, and departments. When creating a team, you must select one person as the team owner.</p>
+        <p>When determining a user’s ability to create and maintain teams, consider the following rules.                   </p>
+        <p class="Infinitive">A user can never</p>
+        <ul>
+            <li class="Bullets" value="1">Add himself or herself to an existing team.</li>
+            <li class="Bullets" value="2">Remove himself or herself from a team.</li>
+            <li class="Bullets" value="3">Remove the system administrator from a team.</li>
+            <li class="Bullets" value="4">Delete a team.</li>
+        </ul>
+        <p><a href="javascript:void(0);" onclick="FMCToggler( this ); return false;" class="MCToggler_0" MadCap:targets="team2;team3;team1">Tell me more about team security...<img style="border: none;margin-left: 5px;" src="../SkinSupport/DropDownClosed.gif" MadCap:altsrc="../SkinSupport/DropDownOpen.gif" onload="if ( typeof( FMCPreloadImage ) == 'function' ) { FMCPreloadImage( '../SkinSupport/DropDownOpen.gif' ); }" alt="Closed" MadCap:alt2="Open" class="MCTogglerIcon" /></a>
+        </p>
+        <p MadCap:targetName="team1" style="display: none;">When a user is added to a team, his/her security on that team defaults to the profile set on the <a href="../Admin_useradmin/User_Detail_View_Security_Tab.htm" target="_self">Security tab</a>. The security profile can be changed on each team of which the user is a member. Changing a user’s security profile on one team does not affect the user’s default profile, or the profile in any other team in which the user is a member.</p>
+        <p MadCap:targetName="team3" style="display: none;">If a user has more than one security profile (for example, the user is added to a team as a nested team or department and is also a direct member of the parent team), the security profiles share the same seccode (owner). When determining security access for a field, multiple profiles may be returned. In the Web Client, access is determined by combining the maximum access of all profiles assigned to that user and owner.</p>
+        <p class="Infinitive">To create</p>
+        <ol>
+            <li class="Topic-Text-Numbered" value="1">On the  <span class="SLXBold">Administration</span> menu, click <span class="SLXBold">New Team</span>.</li>
+            <li class="Topic-Text-Numbered" value="2">In the <span class="SLXBold">Name</span> box, type a name for the team.</li>
+            <li class="Topic-Text-Numbered" value="3">In the <span class="SLXBold">Owner</span> box, select a  team owner. Teams may have multiple team owners.</li>
+            <li class="Topic-Text-Numbered" value="4">In the <span class="SLXBold">Default Security Profile</span> box, select a default profile for the team. This profile is applied when the team is added to another team.</li>
+            <li class="Topic-Text-Numbered" value="5">Select the <span class="SLXBold">Automatically add user's manager to team</span> check box if you want to add the user's manager to the team when you add a new team member.</li>
+            <li class="Topic-Text-Numbered" value="6">Click <span class="MCExpanding_0"><a href="javascript:void(0);" class="MCExpandingHead_0" onclick="FMCExpand( this ); return false;">Save<img style="border: none;margin-left: 5px;" src="../SkinSupport/ExpandClosed.gif" MadCap:altsrc="../SkinSupport/ExpandOpen.gif" onload="if ( typeof( FMCPreloadImage ) == 'function' ) { FMCPreloadImage( '../SkinSupport/ExpandOpen.gif' ); }" alt="Closed" MadCap:alt2="Open" class="MCExpandingIcon" /></a><span class="MCExpandingBody_0" style="display: none;"><img src="../image/update.gif" /></span></span>.</li>
+            <li class="Topic-Text-Numbered" value="7"><a href="Adding_Team_Members.htm" target="_self">Add team members</a>.</li>
+            <li class="Topic-Text-Numbered" value="8">If necessary, <a href="Editing_a_Security_Profile_Within_a_Team.htm" target="_self">modify the security rights</a> of each team member.</li>
+            <li class="Topic-Text-Numbered" value="9">Click <span class="MCExpanding_0"><a href="javascript:void(0);" class="MCExpandingHead_0" onclick="FMCExpand( this ); return false;">Save<img style="border: none;margin-left: 5px;" src="../SkinSupport/ExpandClosed.gif" MadCap:altsrc="../SkinSupport/ExpandOpen.gif" onload="if ( typeof( FMCPreloadImage ) == 'function' ) { FMCPreloadImage( '../SkinSupport/ExpandOpen.gif' ); }" alt="Closed" MadCap:alt2="Open" class="MCExpandingIcon" /></a><span class="MCExpandingBody_0" style="display: none;"><img src="../image/update.gif" /></span></span>.</li>
+        </ol>
+        <p class="RelatedTopics">Related Topics</p>
+        <p><a href="Working_with_Teams.htm" target="_self">Working with Teams</a>
+        </p>
+        <p MadCap:conditions="Output.WebClient"><a href="Copying_a_Team.htm" target="_self">Copying a Team</a>
+        </p>
+        <p MadCap:conditions="Output.WebClient"><a href="Team_Owner_Profile.htm" target="_self">Team&#160;Owner Profile</a>
+        </p>
+        <p><a href="Team_Hierarchy.htm" target="_self">Team Hierarchy</a>
+        </p>
+        <div style="width: 100%;position: relative;">
+            <p>&#160;</p>
+        </div>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

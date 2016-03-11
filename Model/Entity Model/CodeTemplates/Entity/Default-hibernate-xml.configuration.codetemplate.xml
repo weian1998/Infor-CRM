@@ -1,0 +1,104 @@
+<?xml version="1.0"?>
+<codeTemplate xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="bceb7051-97ec-4b2d-aaaa-77ac29099ac7" name="Default-Hibernate-Xml" entityType="Entity" templateType="Configuration" templateEngineType="T4">
+  <template>
+  <![CDATA[<#@ template language="C#v4.0" #>
+<#@ output extension="xml" #>
+<#@ assembly name="Sage.Platform.Orm.CodeGen.dll" #>
+<#@ assembly name="System.Core.dll" #>
+<#@ assembly name="Microsoft.CSharp.dll" #>
+<#@ assembly name="Microsoft.Unity.dll" #>
+<#@ assembly name="NHibernate.dll" #>
+<#@ import namespace="System" #>
+<#@ import namespace="System.Collections" #>
+<#@ import namespace="System.Collections.Generic" #>
+<#@ import namespace="System.Linq" #>
+<#@ import namespace="Microsoft.Practices.Unity" #>
+<#@ import namespace="NHibernate.Cache" #>
+<#@ import namespace="Sage.Platform.Orm.CodeGen" #>
+<#@ import namespace="Sage.Platform.Orm.Entities" #>
+<#
+var assemblies = (IEnumerable<string>) Context["assemblies"];
+var model = (OrmModel) Context["model"];
+var cachedEntities = model.Packages
+    .Where(p => p.Include)
+	.SelectMany(p => p.Entities)
+	.Where(e => e.Generate && !e.IsDynamic &&
+				e.CacheUsage > NHibernateCacheUsage.None && e.CacheUsage <= NHibernateCacheUsage.NonStrictReadWrite)
+	.Select(e => new
+	    {
+		    FullName = AssemblyQualifiedName(e),
+			Usage = CacheUsageToString(e.CacheUsage)
+		});
+#>
+<?xml version="1.0"?>
+<NHibernate xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Dialect>Sage.SalesLogix.NHibernate.SLXDialect, Sage.SalesLogix.NHibernate</Dialect>
+  <ConnectionProvider>Sage.Platform.Data.DataServiceConnectionProvider, Sage.Platform</ConnectionProvider>
+  <ConnectionDriver>Sage.SalesLogix.NHibernate.SLXOleDbDriver, Sage.SalesLogix.NHibernate</ConnectionDriver>
+  <CacheProvider>Sage.Platform.NHibernate.CacheProvider, Sage.Platform</CacheProvider>
+  <CacheExpiration>120</CacheExpiration>
+
+  <hibernate-configuration xmlns='urn:nhibernate-configuration-2.2'>
+    <session-factory>
+      <property name="cache.use_query_cache">true</property>
+      <property name="query.substitutions">true 'T', false 'F', True 'T', False 'F'</property>
+      <property name="query.factory_class">Sage.Platform.Security.SecuredQueryTranslatorFactory, Sage.Platform</property>
+      <property name="proxyfactory.factory_class">Sage.Platform.Security.SecuredProxyFactoryFactory, Sage.Platform</property>
+
+      <!-- Cache Settings -->
+
+<# foreach (var cachedEntity in cachedEntities) { #>
+      <class-cache class="<#= cachedEntity.FullName #>" usage="<#= cachedEntity.Usage #>" />
+<# } #>
+
+      <!-- PickList -->
+      <class-cache class="Sage.SalesLogix.PickLists.PickList, Sage.SalesLogix.PickLists" usage="read-write" />
+
+      <!-- Plugin -->
+      <class-cache class="Sage.SalesLogix.Plugins.Plugin, Sage.SalesLogix.Plugins" usage="read-write" />
+      <class-cache class="Sage.SalesLogix.Plugins.PluginBlob, Sage.SalesLogix.Plugins" usage="read-write" />
+
+      <!-- SystemInformation -->
+      <class-cache class="Sage.SalesLogix.SystemInformation, Sage.SalesLogix.System" usage="read-write" />
+
+    </session-factory>
+  </hibernate-configuration>
+
+  <MappingAssemblies>
+    <AssemblyName>Sage.Platform</AssemblyName>
+    <AssemblyName>Sage.SalesLogix.PickLists</AssemblyName>
+    <AssemblyName>Sage.SalesLogix.Plugins</AssemblyName>
+    <AssemblyName>Sage.Saleslogix.System</AssemblyName>
+<# foreach (var asm in assemblies) { #>
+    <AssemblyName><#= asm #></AssemblyName>
+<# } #>
+  </MappingAssemblies>
+</NHibernate>
+<#+
+[Dependency]
+public IDictionary Context { get; set; }
+#>
+<#+ private static string CacheUsageToString(NHibernateCacheUsage cacheUsage)
+    {
+        switch (cacheUsage)
+        {
+            case NHibernateCacheUsage.ReadOnly:
+                return CacheFactory.ReadOnly;
+            case NHibernateCacheUsage.ReadWrite:
+                return CacheFactory.ReadWrite;
+            case NHibernateCacheUsage.NonStrictReadWrite:
+                return CacheFactory.NonstrictReadWrite;
+            default:
+                throw new ArgumentException("Invalid cache usage type for entity", "cacheUsage");
+        }
+    } #>
+<#+ private static string AssemblyQualifiedName(OrmEntity entity)
+    {
+        if (entity.ExtendedMetaData.ContainsName("NHibernate.Mapping.AlternateConcreteClass"))
+            return entity.ExtendedMetaData["NHibernate.Mapping.AlternateConcreteClass"];
+
+        var ext = entity.Package.ExtendedProperties.Get<OrmPackageMetadataExtension>();
+        return string.Format("{0}.{1}, {2}", ext.DefaultNamespace, entity.Name, ext.AssemblyName);
+    } #>]]></template>
+  <description>Default Hibernate xml configuration template</description>
+</codeTemplate>

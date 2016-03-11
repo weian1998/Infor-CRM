@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\Libraries\Simplate.js" timeStamp="2015-05-28T03:07:41.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\Libraries\Simplate.min.js" timeStamp="2015-05-28T03:07:41.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\Libraries\SparkHandler.ashx" timeStamp="2015-05-28T03:07:41.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\Libraries\dojo\" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\Libraries\font-awesome\" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\Libraries\jQuery\" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\Libraries\RadControls\" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\Libraries\sdata\" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\Libraries\sinon\" />
+</exportedFiles>

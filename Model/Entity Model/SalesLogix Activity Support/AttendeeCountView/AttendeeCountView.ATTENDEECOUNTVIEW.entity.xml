@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<entity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="980ac5b2-d30a-4401-bda7-43ba375b8403" lastModifiedUtc="2015-04-29T15:12:37.1650105Z" manageSchema="false" tableName="ATTENDEECOUNTVIEW" name="AttendeeCountView" isExtension="false" audited="false" onBeforeInsertMethodId="0d856dea-4987-4460-9693-4091e4e792c4" onAfterInsertMethodId="c94c475c-61b0-4e26-8f70-2f6ac52418ce" onBeforeUpdateMethodId="d762128f-4d0a-4818-9ca9-9e2dbf48b52e" onAfterUpdateMethodId="4f24d9a2-918e-4db1-ad33-3bf17e9332b5" onBeforeDeleteMethodId="2821e1b2-c534-4fbd-a0cf-afa1610edca7" onAfterDeleteMethodId="90b326aa-d18b-4026-86ca-d5a11cba95fd" onCreateId="74ecce6a-87df-4fba-a4a9-6fbc48374654">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmEntity">
+      <extender guid="76aa0e24-2c8f-3b71-a1f9-ca6db3db4459">
+        <OrmEntitySDataExtension pathName="attendeeCountViews" canPost="false" canPut="false" canDelete="false" />
+      </extender>
+      <extender guid="7ba306ee-9fbc-4c61-98be-bcfd895410ee">
+        <OrmEntityImportExtension />
+      </extender>
+      <extender guid="1589723d-0536-4bf3-bdd7-3f6f7fe165d0">
+        <OrmEntityMetadataExtension>
+          <StringExpression>${AttendeeCount}</StringExpression>
+          <IsHistoryTable>false</IsHistoryTable>
+        </OrmEntityMetadataExtension>
+      </extender>
+    </extendee>
+  </ExtendedPropertiesCollection>
+  <keyProperties>
+    <keyReference id="8a49c435-b9a9-44cc-af7e-149ea3adead8" ordinalPosition="1" />
+  </keyProperties>
+  <properties>
+    <property xsi:type="OrmFieldProperty" id="8a49c435-b9a9-44cc-af7e-149ea3adead8" lastModifiedUtc="2015-04-28T14:58:51.9865959Z" name="ActivityId" audited="false" isNullable="false" include="false" columnName="ACTIVITYID" maxLength="12" precision="0" scale="0" ordinal="0" isReadOnly="false">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmFieldProperty">
+          <extender guid="ae60621d-9d91-3d9a-b9fb-eb6c8be12131">
+            <OrmEntityPropertySDataExtension generate="true" />
+          </extender>
+          <extender guid="ac7a8695-7689-4c4b-819d-6c3ab7c2e15f">
+            <OrmEntityPropertyImportExtension canImport="false" canMatch="false" />
+          </extender>
+          <extender guid="cbb948ad-9154-4174-847a-690a81c1c2e4">
+            <OrmEntityPropertyBulkActionExtension canBulkUpdate="false" />
+          </extender>
+        </extendee>
+      </ExtendedPropertiesCollection>
+      <SystemDataType guid="30053f5a-8d40-4db1-b185-1e4128eb26cc">
+        <StandardIdDataType />
+      </SystemDataType>
+    </property>
+    <property xsi:type="OrmFieldProperty" id="0fc848aa-d27c-4078-bb4c-0404aaee06bf" lastModifiedUtc="2015-04-29T14:43:29.5234147Z" name="AttendeeCount" audited="false" isNullable="false" columnName="ATTENDEECOUNT" maxLength="0" precision="10" scale="0" ordinal="1" isReadOnly="false">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmFieldProperty">
+          <extender guid="ae60621d-9d91-3d9a-b9fb-eb6c8be12131">
+            <OrmEntityPropertySDataExtension generate="true" />
+          </extender>
+          <extender guid="ac7a8695-7689-4c4b-819d-6c3ab7c2e15f">
+            <OrmEntityPropertyImportExtension canImport="false" canMatch="false" />
+          </extender>
+          <extender guid="cbb948ad-9154-4174-847a-690a81c1c2e4">
+            <OrmEntityPropertyBulkActionExtension canBulkUpdate="false" />
+          </extender>
+        </extendee>
+      </ExtendedPropertiesCollection>
+      <SystemDataType guid="47f90249-e4c8-4564-9ae6-e1fa9904f8b8">
+        <IntegerDataType />
+      </SystemDataType>
+    </property>
+  </properties>
+</entity>

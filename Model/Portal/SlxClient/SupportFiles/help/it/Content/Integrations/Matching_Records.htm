@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:fileTags="Translation Status.Support files" MadCap:tocPath="" MadCap:medium="non-print" MadCap:InPreviewMode="false" MadCap:PreloadImages="false" MadCap:RuntimeFileType="Topic" MadCap:TargetType="WebHelp" lang="en-us" xml:lang="en-us" MadCap:conditions="Output.WebClient,Output.Integrations LAN" MadCap:PathToHelpSystem="../../" MadCap:HelpSystemFileName="WebClient.xml" MadCap:SearchType="Stem">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Record corrispondenti tra Infor CRM e Integrazioni</title>
+        <link href="../Resources/TableStyles/TableStyle.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/Infor.CSS" rel="stylesheet" />
+        <script src="../SkinSupport/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapAll.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapTopicAll.js" type="text/javascript">
+        </script>
+    </head>
+    <body>
+        <h1><a name="kanchor527"></a>Record corrispondenti tra <span class="MyVariablesProduct Name">Infor CRM</span> e Integrazioni</h1>
+        <p>Per evitare record duplicati e trovare record corrispondenti in entrambe le applicazioni, <span class="MyVariablesProduct Name">Infor CRM</span> cerca i record corrispondenti in base ai seguenti settori chiave:</p>
+        <table style="width: 95%;mc-table-style: url('../Resources/TableStyles/TableStyle.css');margin-left: 0;margin-right: auto;" class="TableStyle-TableStyle" cellspacing="0">
+            <col class="TableStyle-TableStyle-Column-Column1" />
+            <col class="TableStyle-TableStyle-Column-Column1" style="width: 86px;" />
+            <col class="TableStyle-TableStyle-Column-Column1" />
+            <col class="TableStyle-TableStyle-Column-Column1" />
+            <thead>
+                <tr class="TableStyle-TableStyle-Head-Header1">
+                    <th class="TableStyle-TableStyle-HeadE-Column1-Header1">Elenco Indirizzi/Contatti</th>
+                    <th class="TableStyle-TableStyle-HeadE-Column1-Header1">Aziende</th>
+                    <th class="TableStyle-TableStyle-HeadE-Column1-Header1">
+                        <p>Appuntamento/Attività</p>
+                        <p>&#160;</p>
+                    </th>
+                    <th class="TableStyle-TableStyle-HeadD-Column1-Header1">Impegni</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Indirizzo e-mail (EMAIL 1, EMAIL 2, EMAIL 3)</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">
+                        <p>Azienda/Compagnia</p>
+                    </td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Data/Data iniziale</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Data/Data iniziale</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">
+                        <p>&#160;</p>
+                    </td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Descrizione/Oggetto</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Descrizione/Oggetto</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyB-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-TableStyle-BodyB-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-TableStyle-BodyB-Column1-Body1">Durata</td>
+                    <td class="TableStyle-TableStyle-BodyA-Column1-Body1">Durata</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>Le password sono sensibili ai caratteri maiuscoli/minuscoli. Per esempio, se si ha un record per Lee Hogan nel <span class="MyVariablesProduct Name">Infor CRM</span> e uno di questi record per Lee Hogan in Microsoft Outlook, i record non sono equi. Entrambi i record sono aggiunti a ciascun sistema durante la sincronizzazione. </p>
+        <p class="subheading">Corrispondenza Contatto</p>
+        <p>I contatti sono corrispondenti utilizzando un indirizzo e-mail. Se la corrispondenza non può essere trovata, poi viene creato un nuovo record. Per evitare di creare record duplicati <span class="MyVariablesCompanyNameFull">Infor</span> raccomanda di assicurarsi che i record dei contatti da sincronizzare abbiano un indirizzo di posta elettronica univoco in entrambe le applicazioni.</p>
+        <p>Se la corrispondenza di un esatto indirizzo e-mail non viene trovata, succede quanto segue:</p>
+        <ul>
+            <li value="1">Nel <span class="MyVariablesCompanyNameFull">Infor</span> se l'indirizzo e-mail non può essere trovato, viebe creato un nuovo contatto.</li>
+            <li value="2">Nel <span class="MyVariablesCompanyNameFull">Infor</span> se più record nel <span class="MyVariablesCompanyNameFull">Infor</span> hanno lo stesso indirizzo e-mail, poi:<ul><li class="Topic-Text-Numbered" value="1"><span class="MyVariablesCompanyNameFull">Infor</span> cerca di corrispondere con il cognome del contatto e nome.</li><li class="Topic-Text-Numbered" value="2">Se la corrispondenza non può essere trovata, poi viene creato un nuovo contatto nel <span class="MyVariablesCompanyNameFull">Infor</span>.</li></ul></li>
+            <li value="3">In un'applicazione integrata se più record hanno lo stesso indirizzo di posta elettronica, il contatto è collegato al primo contatto trovato con un indirizzo e-mail corrispondente.</li>
+        </ul>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

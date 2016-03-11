@@ -1,0 +1,20 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\TaskPane\AccountingTasks\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\TaskPane\ActivityManager\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\TaskPane\AdminTasks\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\TaskPane\CommonTasks\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\TaskPane\ContactTasks\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\TaskPane\EntityManager\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\TaskPane\Filters\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\TaskPane\FormManager\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\TaskPane\GroupList\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\TaskPane\GroupManager\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\TaskPane\JobManager\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\TaskPane\LeadTasks\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\TaskPane\LiteratureManagement\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\TaskPane\OpportunityTasks\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\TaskPane\ProcessTasks\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\TaskPane\ReportManager\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\TaskPane\SecurityManager\" />
+</exportedFiles>

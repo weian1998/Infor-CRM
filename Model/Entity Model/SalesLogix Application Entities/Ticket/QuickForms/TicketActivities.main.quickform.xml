@@ -1,0 +1,457 @@
+<?xml version="1.0"?>
+<QuickForm xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="31c08153-16c3-4bf7-bb57-9fc7c64e8629" DefinitionType="Sage.Platform.QuickForms.QuickFormMainDetailViewDefinition, Sage.Platform.QuickForms">
+  <ActiveControl />
+  <ImagePath />
+  <LoadActions />
+  <Name>TicketActivities</Name>
+  <ClientScriptIncludes />
+  <ClientResourceKeys />
+  <ExtendedProperties />
+  <HelpFile />
+  <ReadOnly>false</ReadOnly>
+  <GeneratePrintView>true</GeneratePrintView>
+  <Controls>
+    <Control typeName="Sage.Platform.QuickForms.QFControls.QFControlsList, Sage.Platform.QuickForms.QFControls">
+      <QFControlsList>
+        <ColumnSpan>2</ColumnSpan>
+        <Column>0</Column>
+        <Row>0</Row>
+        <HotKey>0</HotKey>
+        <TabIndex>0</TabIndex>
+        <ControlId>ctrlDescription</ControlId>
+        <DataBindings />
+        <ControlLabelPlacement>left</ControlLabelPlacement>
+        <ExtendedProperties />
+        <CaptionAlignment>left</CaptionAlignment>
+        <StyleScheme />
+        <Caption />
+        <Controls>
+          <ControlsCollection>
+            <Control TypeName="Sage.Platform.QuickForms.Controls.QFTextBox, Sage.Platform.QuickForms">
+              <QFTextBox>
+                <ColumnSpan>2</ColumnSpan>
+                <Column>0</Column>
+                <Row>0</Row>
+                <HotKey>0</HotKey>
+                <TabIndex>0</TabIndex>
+                <ControlId>txtComments</ControlId>
+                <DataBindings>
+                  <QuickFormPropertyDataBindingDefinition>
+                    <DataSourceID>dtsTicketActivityDataSource</DataSourceID>
+                    <DataItemName>ActivityDescription</DataItemName>
+                    <ControlItemName>Text</ControlItemName>
+                    <FormatString />
+                    <NullValueString />
+                  </QuickFormPropertyDataBindingDefinition>
+                </DataBindings>
+                <ControlLabelPlacement>left</ControlLabelPlacement>
+                <ExtendedProperties />
+                <CaptionAlignment>left</CaptionAlignment>
+                <StyleScheme />
+                <Lines>4</Lines>
+                <OnChangeAction>
+                  <ResourceKey>txtComments</ResourceKey>
+                  <Action typeName="Sage.Platform.QuickForms.ActionItems.NoActionActionItem, Sage.Platform.QuickForms">
+                    <NoActionActionItem>
+                      <MethodName />
+                    </NoActionActionItem>
+                  </Action>
+                  <IsDialogCloseAction>False</IsDialogCloseAction>
+                  <RunOnEveryRePaint>False</RunOnEveryRePaint>
+                  <DialogActionResult>NoResult</DialogActionResult>
+                  <PerformsUpdate>False</PerformsUpdate>
+                  <AppliedSecurity />
+                  <RefreshData>False</RefreshData>
+                </OnChangeAction>
+                <Required>false</Required>
+              </QFTextBox>
+            </Control>
+            <Control TypeName="Sage.Platform.QuickForms.Controls.QFButton, Sage.Platform.QuickForms">
+              <QFButton>
+                <ColumnSpan>2</ColumnSpan>
+                <Column>0</Column>
+                <Row>0</Row>
+                <HotKey>0</HotKey>
+                <TabIndex>0</TabIndex>
+                <ControlId>cmdCommentsDateStamp</ControlId>
+                <DataBindings />
+                <ControlLabelPlacement>none</ControlLabelPlacement>
+                <ExtendedProperties />
+                <CaptionAlignment>left</CaptionAlignment>
+                <StyleScheme>qfButtonContainer</StyleScheme>
+                <ButtonType>Icon</ButtonType>
+                <Image>[Localization!Global_Images:User_Date_Stamp_16x16]</Image>
+                <OnClientClick />
+                <OnClickAction>
+                  <ResourceKey>cmdCommentsDateStamp</ResourceKey>
+                  <Action typeName="Sage.Platform.QuickForms.ActionItems.BusinessRuleActionItem, Sage.Platform.QuickForms">
+                    <BusinessRuleActionItem>
+                      <BusinessRule>AddTicketActivityCommentsTimeStamp</BusinessRule>
+                      <Object>Ticket</Object>
+                      <Parameters>
+                        <Parameter>dtsTicketActivityDataSource</Parameter>
+                      </Parameters>
+                      <PassResultsToNextAction>False</PassResultsToNextAction>
+                      <OnComplete typeName="Sage.Platform.QuickForms.ActionItems.NoActionActionItem, Sage.Platform.QuickForms">
+                        <NoActionActionItem>
+                          <MethodName />
+                        </NoActionActionItem>
+                      </OnComplete>
+                    </BusinessRuleActionItem>
+                  </Action>
+                  <IsDialogCloseAction>False</IsDialogCloseAction>
+                  <RunOnEveryRePaint>False</RunOnEveryRePaint>
+                  <DialogActionResult>NoResult</DialogActionResult>
+                  <PerformsUpdate>False</PerformsUpdate>
+                  <AppliedSecurity />
+                  <RefreshData>False</RefreshData>
+                </OnClickAction>
+              </QFButton>
+            </Control>
+          </ControlsCollection>
+        </Controls>
+      </QFControlsList>
+    </Control>
+    <Control typeName="Sage.Platform.QuickForms.QFControls.QFHorizontalSeparator, Sage.Platform.QuickForms.QFControls">
+      <QFHorizontalSeparator>
+        <ColumnSpan>3</ColumnSpan>
+        <Column>0</Column>
+        <Row>1</Row>
+        <HotKey>48</HotKey>
+        <TabIndex>0</TabIndex>
+        <ControlId>hzsActivities</ControlId>
+        <DataBindings />
+        <ControlLabelPlacement>none</ControlLabelPlacement>
+        <ExtendedProperties />
+        <CaptionAlignment>left</CaptionAlignment>
+        <StyleScheme />
+        <DisplayAsTitleBar>false</DisplayAsTitleBar>
+      </QFHorizontalSeparator>
+    </Control>
+    <Control typeName="Sage.SalesLogix.QuickForms.QFControls.SDataGrid.QFSDataGrid, Sage.SalesLogix.QuickForms.QFControls">
+      <QFSDataGrid>
+        <ColumnSpan>3</ColumnSpan>
+        <Column>0</Column>
+        <Row>2</Row>
+        <HotKey>0</HotKey>
+        <TabIndex>0</TabIndex>
+        <ControlId>grdTicketActivities</ControlId>
+        <DataBindings />
+        <ControlLabelPlacement>left</ControlLabelPlacement>
+        <ExtendedProperties />
+        <CaptionAlignment>left</CaptionAlignment>
+        <StyleScheme />
+        <GenerateMember>false</GenerateMember>
+        <ReadOnlyCondition>False</ReadOnlyCondition>
+        <AppliedSecurity />
+        <RelateToPropertyName>TicketActivities</RelateToPropertyName>
+        <PreviewField>ActivityDescription</PreviewField>
+        <ResourceKind>
+          <Name>ticketActivities</Name>
+          <GetPredicate />
+        </ResourceKind>
+        <PathSegments />
+        <Columns>
+          <QFSDataLinkCol>
+            <StyleScheme />
+            <DataField />
+            <ColumnId>0509cdb3-ff22-44fb-940f-19a24860e02f</ColumnId>
+            <HorizontalAlignment>left</HorizontalAlignment>
+            <HeaderAlignment>left</HeaderAlignment>
+            <SortDirection>None</SortDirection>
+            <IsSortable>false</IsSortable>
+            <MultiCurrencyDependent>false</MultiCurrencyDependent>
+            <Destination />
+            <Image />
+            <EntityIdField>Id</EntityIdField>
+            <EntityTypeName>TicketActivity</EntityTypeName>
+            <Target />
+            <AppliedSecurity />
+            <HideCondition />
+            <Width>5</Width>
+          </QFSDataLinkCol>
+          <QFSDataPickListCol>
+            <StyleScheme />
+            <DataField>ActivityTypeCode</DataField>
+            <ColumnId>999ab82e-6b24-4741-b77b-4dc90b785593</ColumnId>
+            <HorizontalAlignment>left</HorizontalAlignment>
+            <HeaderAlignment>left</HeaderAlignment>
+            <SortDirection>None</SortDirection>
+            <IsSortable>true</IsSortable>
+            <SortField>ActivityTypeCode</SortField>
+            <MultiCurrencyDependent>false</MultiCurrencyDependent>
+            <IsEditable>false</IsEditable>
+            <HideCondition />
+            <Width>10</Width>
+            <CustomFormatter />
+            <AbbreviationLength>0</AbbreviationLength>
+            <PickListName>Ticket Activity</PickListName>
+            <DisplayMode>AsText</DisplayMode>
+            <StorageMode>ID</StorageMode>
+          </QFSDataPickListCol>
+          <QFEditableCol>
+            <StyleScheme />
+            <DataField>User.UserInfo.NameLF</DataField>
+            <ColumnId>1a8f67b9-1c52-4b9f-9eab-718774e3c741</ColumnId>
+            <HorizontalAlignment>left</HorizontalAlignment>
+            <HeaderAlignment>left</HeaderAlignment>
+            <SortDirection>None</SortDirection>
+            <IsSortable>true</IsSortable>
+            <SortField>User.UserInfo.LastName</SortField>
+            <MultiCurrencyDependent>false</MultiCurrencyDependent>
+            <IsEditable>false</IsEditable>
+            <HideCondition />
+            <Width>10</Width>
+            <CustomFormatter />
+            <AbbreviationLength>0</AbbreviationLength>
+          </QFEditableCol>
+          <QFSDataDateTimeCol>
+            <StyleScheme />
+            <DataField>AssignedDate</DataField>
+            <ColumnId>12352d75-17a5-419a-a592-2d80ea965b55</ColumnId>
+            <HorizontalAlignment>left</HorizontalAlignment>
+            <HeaderAlignment>left</HeaderAlignment>
+            <SortDirection>Descending</SortDirection>
+            <IsSortable>true</IsSortable>
+            <SortField>AssignedDate</SortField>
+            <MultiCurrencyDependent>false</MultiCurrencyDependent>
+            <IsEditable>false</IsEditable>
+            <HideCondition />
+            <Width>10</Width>
+            <CustomFormatter />
+            <AbbreviationLength>0</AbbreviationLength>
+            <DateOnly>false</DateOnly>
+          </QFSDataDateTimeCol>
+          <QFSDataPickListCol>
+            <StyleScheme />
+            <DataField>PublicAccessCode</DataField>
+            <ColumnId>79a654ac-e61e-4e5f-b371-7f8500df8ad5</ColumnId>
+            <HorizontalAlignment>left</HorizontalAlignment>
+            <HeaderAlignment>left</HeaderAlignment>
+            <SortDirection>None</SortDirection>
+            <IsSortable>true</IsSortable>
+            <SortField>PublicAccessCode</SortField>
+            <MultiCurrencyDependent>false</MultiCurrencyDependent>
+            <IsEditable>false</IsEditable>
+            <HideCondition />
+            <Width>10</Width>
+            <CustomFormatter />
+            <AbbreviationLength>0</AbbreviationLength>
+            <PickListName>Ticket Activity Public Access</PickListName>
+            <DisplayMode>AsText</DisplayMode>
+            <StorageMode>ID</StorageMode>
+          </QFSDataPickListCol>
+          <QFSDataCurrencyCol>
+            <StyleScheme />
+            <DataField>TotalFee</DataField>
+            <ColumnId>e1fe0285-a9a6-4f96-9e9c-a9002dc6c4f1</ColumnId>
+            <HorizontalAlignment>left</HorizontalAlignment>
+            <HeaderAlignment>left</HeaderAlignment>
+            <SortDirection>None</SortDirection>
+            <IsSortable>true</IsSortable>
+            <SortField>TotalFee</SortField>
+            <MultiCurrencyDependent>false</MultiCurrencyDependent>
+            <IsEditable>false</IsEditable>
+            <HideCondition />
+            <Width>10</Width>
+            <CustomFormatter />
+            <AbbreviationLength>0</AbbreviationLength>
+            <CurrentCode />
+            <ExchangeRate />
+            <ExchangeRateType>BaseRate</ExchangeRateType>
+            <DecimalDigits>2</DecimalDigits>
+          </QFSDataCurrencyCol>
+        </Columns>
+        <ConditionalWhere />
+        <Select />
+        <Include />
+        <FeedCategory>InternalAppEntities</FeedCategory>
+        <OnGetMappingId />
+        <ParentRelationshipPropertyName>Ticket</ParentRelationshipPropertyName>
+        <ChildRelationshipPropertyName>TicketActivity</ChildRelationshipPropertyName>
+        <OnDataChange />
+        <OnAdd />
+        <Tools />
+      </QFSDataGrid>
+    </Control>
+    <Control typeName="Sage.Platform.QuickForms.Controls.QFButton, Sage.Platform.QuickForms">
+      <QFButton>
+        <Column>2</Column>
+        <Row>0</Row>
+        <HotKey>0</HotKey>
+        <TabIndex>0</TabIndex>
+        <ControlId>cmdAdvanced</ControlId>
+        <DataBindings />
+        <ControlLabelPlacement>none</ControlLabelPlacement>
+        <ExtendedProperties />
+        <CaptionAlignment>left</CaptionAlignment>
+        <StyleScheme>slxbutton</StyleScheme>
+        <ButtonType>StandardButton</ButtonType>
+        <Image />
+        <OnClientClick />
+        <OnClickAction>
+          <ResourceKey>cmdAdvanced</ResourceKey>
+          <Action typeName="Sage.Platform.QuickForms.ActionItems.CSharpSnippetActionItem, Sage.Platform.QuickForms">
+            <CSharpSnippetActionItem>
+              <MethodName>cmdAdvanced_ClickAction</MethodName>
+              <CSharpCodeSnippet>    Session.Add("TicketActivityComments", txtComments.Text);
+    Response.Redirect("InsertTicketActivity.aspx?modeid=insert");</CSharpCodeSnippet>
+            </CSharpSnippetActionItem>
+          </Action>
+          <IsDialogCloseAction>False</IsDialogCloseAction>
+          <RunOnEveryRePaint>False</RunOnEveryRePaint>
+          <DialogActionResult>NoResult</DialogActionResult>
+          <PerformsUpdate>False</PerformsUpdate>
+          <AppliedSecurity />
+          <RefreshData>False</RefreshData>
+        </OnClickAction>
+      </QFButton>
+    </Control>
+    <Control typeName="Sage.Platform.QuickForms.QFControls.QFDataSource, Sage.Platform.QuickForms.QFControls">
+      <QFDataSource>
+        <Column>0</Column>
+        <Row>3</Row>
+        <Visible>false</Visible>
+        <HotKey>48</HotKey>
+        <TabIndex>0</TabIndex>
+        <ControlId>dtsActivities</ControlId>
+        <DataBindings />
+        <ControlLabelPlacement>none</ControlLabelPlacement>
+        <ExtendedProperties />
+        <CaptionAlignment>left</CaptionAlignment>
+        <StyleScheme />
+        <EntityTypeName>TicketActivity</EntityTypeName>
+        <GetByMethod />
+        <GetByProperty>TicketActivities</GetByProperty>
+        <UseSmartSelection>true</UseSmartSelection>
+        <DataOptional>false</DataOptional>
+      </QFDataSource>
+    </Control>
+    <Control typeName="Sage.Platform.QuickForms.QFControls.QFDataSource, Sage.Platform.QuickForms.QFControls">
+      <QFDataSource>
+        <Column>0</Column>
+        <Row>3</Row>
+        <Visible>false</Visible>
+        <HotKey>48</HotKey>
+        <TabIndex>0</TabIndex>
+        <ControlId>dtsTicketActivityDataSource</ControlId>
+        <DataBindings />
+        <ControlLabelPlacement>none</ControlLabelPlacement>
+        <ExtendedProperties />
+        <CaptionAlignment>left</CaptionAlignment>
+        <StyleScheme />
+        <EntityTypeName>TicketActivity</EntityTypeName>
+        <GetByMethod>&lt;create&gt;</GetByMethod>
+        <GetByProperty />
+        <IsCollection>false</IsCollection>
+        <UseSmartSelection>false</UseSmartSelection>
+        <DataOptional>false</DataOptional>
+      </QFDataSource>
+    </Control>
+  </Controls>
+  <ToolControls>
+    <Control typeName="Sage.Platform.QuickForms.Controls.QFElementSpacer, Sage.Platform.QuickForms">
+      <QFElementSpacer>
+        <Column>0</Column>
+        <Row>0</Row>
+        <HotKey>0</HotKey>
+        <TabIndex>0</TabIndex>
+        <ControlId />
+        <DataBindings />
+        <ControlLabelPlacement>left</ControlLabelPlacement>
+        <ExtendedProperties />
+        <CaptionAlignment>left</CaptionAlignment>
+        <StyleScheme />
+      </QFElementSpacer>
+    </Control>
+    <Control typeName="Sage.Platform.QuickForms.Controls.QFElementSpacer, Sage.Platform.QuickForms">
+      <QFElementSpacer>
+        <Column>0</Column>
+        <Row>0</Row>
+        <HotKey>0</HotKey>
+        <TabIndex>0</TabIndex>
+        <ControlId />
+        <DataBindings />
+        <ControlLabelPlacement>left</ControlLabelPlacement>
+        <ExtendedProperties />
+        <CaptionAlignment>left</CaptionAlignment>
+        <StyleScheme />
+      </QFElementSpacer>
+    </Control>
+    <Control typeName="Sage.Platform.QuickForms.Controls.QFButton, Sage.Platform.QuickForms">
+      <QFButton>
+        <Column>0</Column>
+        <Row>0</Row>
+        <HotKey>0</HotKey>
+        <TabIndex>0</TabIndex>
+        <ControlId>cmdTicketActivities</ControlId>
+        <DataBindings />
+        <ControlLabelPlacement>none</ControlLabelPlacement>
+        <ExtendedProperties />
+        <CaptionAlignment>left</CaptionAlignment>
+        <StyleScheme />
+        <ButtonType>Icon</ButtonType>
+        <Image>[Localization!Global_Images:Save_16x16]</Image>
+        <OnClientClick>var prm = Sys.WebForms.PageRequestManager.getInstance();if(prm != null) {function endCommentRequest(sender,args) {var node = dojo.byId("&lt;%= txtComments.ClientID %&gt;");if(node != null) {node.value = "";}prm.remove_pageLoaded(endCommentRequest);}prm.add_pageLoaded(endCommentRequest);}return true;</OnClientClick>
+        <OnClickAction>
+          <ResourceKey>cmdTicketActivities</ResourceKey>
+          <Action typeName="Sage.Platform.QuickForms.ActionItems.BusinessRuleActionItem, Sage.Platform.QuickForms">
+            <BusinessRuleActionItem>
+              <BusinessRule>AddTicketActivityEx</BusinessRule>
+              <Object>TicketActivity</Object>
+              <Parameters>
+                <Parameter>dtsTicketActivityDataSource</Parameter>
+                <Parameter>MainEntity</Parameter>
+              </Parameters>
+              <PassResultsToNextAction>False</PassResultsToNextAction>
+              <OnComplete typeName="Sage.Platform.QuickForms.ActionItems.RefreshDataAction, Sage.Platform.QuickForms">
+                <RefreshDataAction>
+                  <MethodName>cmdTicketActivities_ClickActionBRC</MethodName>
+                </RefreshDataAction>
+              </OnComplete>
+            </BusinessRuleActionItem>
+          </Action>
+          <IsDialogCloseAction>False</IsDialogCloseAction>
+          <RunOnEveryRePaint>False</RunOnEveryRePaint>
+          <DialogActionResult>NoResult</DialogActionResult>
+          <PerformsUpdate>True</PerformsUpdate>
+          <AppliedSecurity />
+          <RefreshData>False</RefreshData>
+        </OnClickAction>
+      </QFButton>
+    </Control>
+  </ToolControls>
+  <Columns>
+    <ColumnStyle>
+      <SizeType>Percent</SizeType>
+      <Width>10</Width>
+    </ColumnStyle>
+    <ColumnStyle>
+      <SizeType>Percent</SizeType>
+      <Width>10</Width>
+    </ColumnStyle>
+    <ColumnStyle>
+      <SizeType>Percent</SizeType>
+      <Width>10</Width>
+    </ColumnStyle>
+  </Columns>
+  <Rows>
+    <RowStyle>
+      <SizeType>Absolute</SizeType>
+      <Height>35</Height>
+    </RowStyle>
+    <RowStyle>
+      <SizeType>Absolute</SizeType>
+      <Height>35</Height>
+    </RowStyle>
+    <RowStyle>
+      <SizeType>Absolute</SizeType>
+      <Height>35</Height>
+    </RowStyle>
+  </Rows>
+  <Description />
+  <UseEntityNameAsTitle>false</UseEntityNameAsTitle>
+  <EntityTypeName>ITicket</EntityTypeName>
+  <DefaultNamespace>Sage.Entity.Interfaces</DefaultNamespace>
+  <AssemblyName>Sage.Entity.Interfaces</AssemblyName>
+</QuickForm>

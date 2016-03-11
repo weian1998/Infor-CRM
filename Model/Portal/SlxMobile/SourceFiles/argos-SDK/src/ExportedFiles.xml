@@ -1,0 +1,49 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\src\_ActionMixin.js" timeStamp="2015-05-28T03:49:59.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\src\_ConfigureBase.js" timeStamp="2015-05-28T03:49:59.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\src\_CustomizationMixin.js" timeStamp="2015-05-28T03:49:59.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\src\_DetailBase.js" timeStamp="2015-05-28T03:49:59.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\src\_EditBase.js" timeStamp="2015-05-28T03:49:59.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\src\_ErrorHandleMixin.js" timeStamp="2015-05-28T03:49:59.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\src\_LegacySDataDetailMixin.js" timeStamp="2015-05-28T03:49:59.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\src\_LegacySDataEditMixin.js" timeStamp="2015-05-28T03:49:59.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\src\_LegacySDataListMixin.js" timeStamp="2015-05-28T03:50:00.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\src\_ListBase.js" timeStamp="2015-05-28T03:50:00.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\src\_PullToRefreshMixin.js" timeStamp="2015-05-28T03:50:00.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\src\_RelatedViewWidgetBase.js" timeStamp="2015-05-28T03:50:00.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\src\_RelatedViewWidgetDetailMixin.js" timeStamp="2015-05-28T03:50:00.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\src\_RelatedViewWidgetEditMixin.js" timeStamp="2015-05-28T03:50:00.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\src\_RelatedViewWidgetListMixin.js" timeStamp="2015-05-28T03:50:00.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\src\_SDataDetailMixin.js" timeStamp="2015-05-28T03:50:00.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\src\_SDataEditMixin.js" timeStamp="2015-05-28T03:50:00.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\src\_SDataListMixin.js" timeStamp="2015-05-28T03:50:00.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\src\_ServiceMixin.js" timeStamp="2015-05-28T03:50:00.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\src\_Templated.js" timeStamp="2015-05-28T03:50:01.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\src\Application.js" timeStamp="2015-05-28T03:49:57.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\src\ApplicationModule.js" timeStamp="2015-05-28T03:49:57.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\src\Calendar.js" timeStamp="2015-05-28T03:49:57.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\src\ConfigurableSelectionModel.js" timeStamp="2015-05-28T03:49:57.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\src\Convert.js" timeStamp="2015-05-28T03:49:57.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\src\Detail.js" timeStamp="2015-05-28T03:49:57.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\src\Edit.js" timeStamp="2015-05-28T03:49:57.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\src\ErrorManager.js" timeStamp="2015-05-28T03:49:57.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\src\FieldManager.js" timeStamp="2015-05-28T03:49:57.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\src\Format.js" timeStamp="2015-05-28T03:49:58.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\src\GroupedList.js" timeStamp="2015-05-28T03:49:58.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\src\List.js" timeStamp="2015-05-28T03:49:58.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\src\MainToolbar.js" timeStamp="2015-05-28T03:49:58.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\src\PersistentStorage.js" timeStamp="2015-05-28T03:49:58.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\src\RelatedViewManager.js" timeStamp="2015-05-28T03:49:59.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\src\RelatedViewWidget.js" timeStamp="2015-05-28T03:49:59.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\src\SearchWidget.js" timeStamp="2015-05-28T03:49:59.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\src\SelectionModel.js" timeStamp="2015-05-28T03:49:59.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\src\Toolbar.js" timeStamp="2015-05-28T03:49:59.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\src\Utility.js" timeStamp="2015-05-28T03:49:59.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\src\View.js" timeStamp="2015-05-28T03:49:59.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\src\Fields\" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\src\Groups\" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\src\ReUI\" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\src\Store\" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\src\Views\" />
+</exportedFiles>

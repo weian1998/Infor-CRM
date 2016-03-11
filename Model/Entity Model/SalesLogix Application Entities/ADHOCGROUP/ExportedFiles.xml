@@ -1,0 +1,11 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\ADHOCGROUP\AdHocGroup.AdHocGroup.entity.xml" timeStamp="2015-05-28T03:04:01.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\ADHOCGROUP\OnAfterDelete.method.xml" timeStamp="2015-05-28T03:04:01.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\ADHOCGROUP\OnAfterInsert.method.xml" timeStamp="2015-05-28T03:04:01.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\ADHOCGROUP\OnAfterUpdate.method.xml" timeStamp="2015-05-28T03:04:01.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\ADHOCGROUP\OnBeforeDelete.method.xml" timeStamp="2015-05-28T03:04:01.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\ADHOCGROUP\OnBeforeInsert.method.xml" timeStamp="2015-05-28T03:04:01.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\ADHOCGROUP\OnBeforeUpdate.method.xml" timeStamp="2015-05-28T03:04:01.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\ADHOCGROUP\OnCreate.method.xml" timeStamp="2015-05-28T03:04:01.0000" />
+</exportedFiles>

@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<SmartPartMapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="052ab3e9-7d78-4238-a773-f33be512a031">
+  <SmartPartId>SDataListViewer</SmartPartId>
+  <ReferencedModelId>00000000-0000-0000-0000-000000000000</ReferencedModelId>
+  <SmartPart>SmartParts\General\SDataListViewer.ascx</SmartPart>
+  <TargetWorkspace>MainContent</TargetWorkspace>
+  <ShowInMode />
+  <Properties>
+    <Property Name="MainViewDefinition" TypeConverter="">Sage.MainView.ReportManager</Property>
+    <Property Name="HelpTopicName" TypeConverter="">reportmgrlistview</Property>
+    <Property Name="ListContextMenu" TypeConverter="">ReportManagerListContextMenu</Property>
+    <Property Name="HelpTopic" TypeConverter="">reportmgrlistview</Property>
+  </Properties>
+  <AllowRoles />
+</SmartPartMapping>

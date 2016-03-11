@@ -1,0 +1,21 @@
+define({
+    SelectRecordMsg: 'Sie müssen mindestens einen Datensatz auswählen, bevor Sie fortfahren.',
+    SelectRecordMsgSingle: 'Sie müssen einen einzelnen Datensatz auswählen, bevor Sie fortfahren.',
+    ConfirmDeletionMsg: 'Möchten Sie den/die/das ausgewählte(n) ${1} wirklich ${0}?',
+    SelectedGroups: 'Gruppe(n) (mit Freigaben)',
+    SelectedReleases: 'freigegebene Gruppe(n)',
+    SelectedStatistics: 'Gruppenstatistik',
+    Yes: 'Ja',
+    No: 'Nein',
+    Reset: 'Zurücksetzen',
+    Delete: 'Löschen',
+    InvalidSelectedGroup: 'Die ausgewählte Gruppe ist freigegeben. Wählen Sie eine Gruppe aus, deren Besitzer Sie sind oder für die Sie über die entsprechende Berechtigung verfügen und die nicht freigegeben ist.',
+    NotDeveloperGroup: 'Die ausgewählte Gruppe befindet sich nicht mehr in Entwicklung.',
+    NotGroupOwner: 'Sie sind nicht Besitzer der ausgewählten Gruppe. Wählen Sie eine Gruppe aus, deren Besitzer Sie sind oder für die Sie über die entsprechende Berechtigung verfügen.',
+    OK: 'OK',
+    SelectOwner: 'Zugriffsberechtigten auswählen',
+    FirstName: 'Vorname',
+    LastName: 'Nachname',
+    UserName: 'Benutzername',
+    Type: 'Typ'
+});

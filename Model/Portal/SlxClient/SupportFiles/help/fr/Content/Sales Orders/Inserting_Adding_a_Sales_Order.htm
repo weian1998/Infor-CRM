@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:fileTags="Translation Status.Support files" xml:lang="fr" MadCap:tocPath="Bons de commande" MadCap:medium="non-print" MadCap:InPreviewMode="false" MadCap:PreloadImages="false" MadCap:RuntimeFileType="Topic" MadCap:TargetType="WebHelp" lang="fr" MadCap:conditions="Output.IntegrationContract,Output.WebClient,Output.Legacy LAN" class="" MadCap:PathToHelpSystem="../../" MadCap:HelpSystemFileName="WebClient.xml" MadCap:SearchType="Stem">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="copyright" />
+        <meta name="window-type" content="(w95sec)" /><title>Ajout d'un bon de commande</title>
+        <link href="../SkinSupport/Slideshow.css" rel="stylesheet" />
+        <link href="../SkinSupport/MadCap.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/Infor.CSS" rel="stylesheet" />
+        <script src="../SkinSupport/jquery.min.js">
+        </script>
+        <script src="../SkinSupport/MadCapAll.js">
+        </script>
+        <script src="../SkinSupport/MadCapTopicAll.js">
+        </script>
+    </head>
+    <body>
+        <h1 value="Architect Help (09-19-01) for v5.2 © 2001 Interact Commerce Corporation"><a name="kanchor98"></a>Ajout d'un bon de commande</h1>
+        <p>Utilisez cette vue pour ajouter un bon de commande, incluant l'adresse de facturation, l'adresse d'expédition ou des informations sur le produit et d'autres informations sur le bon de commande.</p>
+        <table wrapperparagraphselector="P" style="margin-top: 14pt;width: 98%;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" width="98%">
+            <col style="width: 38px;" />
+            <col style="width: 92.25%;" />
+            <tr MadCap:conditions="Output.IntegrationContract">
+                <td style="padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top">
+                    <img src="../image/note.gif" />
+                </td>
+                <td style="padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top">
+                    <p class="Tip-Note-Text" style="margin-bottom: 0;">Vous ne pouvez pas imprimer ou envoyer par e-mail un devis avant que le bon de commande soit approuvé par le système de comptabilité.</p>
+                    <p class="Topic-Text-Bulleted-2">(Intégration de la comptabilité uniquement)</p>
+                </td>
+            </tr>
+        </table>
+        <p class="Infinitive">Pour ajouter</p>
+        <ol>
+            <li MadCap:conditions="Output.WebClient,Output.GSWeb" value="1">Effectuez l’une des opérations suivantes&#160;:<ul><li value="1">Dans le menu <span class="SLXBold">Nouveau</span>, cliquez sur <span class="SLXBold">Bon de commande</span>.</li><li value="2">Dans la vue <a href="../Opportunities/Using_the_Opportunity_Detail_View.htm">Détails de l'opportunité</a>, dans le <a href="../General/taskpane.htm">volet Tâches</a>, cliquez sur <span class="SLXBold">Ajouter un bon de commande</span> ou sur l'onglet <span class="SLXBold">Bons de commande</span>, cliquez sur le bouton <span class="MCExpanding_0"><a href="javascript:void(0);" class="MCExpandingHead_0" onclick="FMCExpand( this ); return false;">Insérer un bon de commande<img style="border: none;margin-left: 5px;" src="../SkinSupport/ExpandClosed.gif" MadCap:altsrc="../SkinSupport/ExpandOpen.gif" onload="if ( typeof( FMCPreloadImage ) == 'function' ) { FMCPreloadImage( '../SkinSupport/ExpandOpen.gif' ); }" alt="Closed" MadCap:alt2="Open" class="MCExpandingIcon" /></a><span class="MCExpandingBody_0" style="display: none;"><img src="../image/add.gif" /></span></span>.<br /> Le compte, les produits et d'autres informations sur l'opportunité sont automatiquement copiés sur le nouveau bon de commande.</li></ul></li>
+            <li MadCap:conditions="Output.WebClient,Output.GSWeb" value="2">Sélectionnez <span class="SLXBold">Bon de commande</span>.</li>
+            <li value="3">
+                <MadCap:conditionalText MadCap:conditions="Output.WebClient,Output.GSWeb">Ajoutez des <a href="salesorderinfoboxes.htm">informations sur le bon de commande</a>.</MadCap:conditionalText>
+                <table wrapperparagraphselector="P" style="margin-top: 14pt;width: 98%;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" width="98%" MadCap:conditions="Output.WebClient">
+                    <col style="width: 43px;" />
+                    <col style="width: 410px;" />
+                    <tr>
+                        <td style="padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top">
+                            <p style="text-align: center;margin-bottom: 0;" align="center">
+                                <img src="../image/note.gif" />
+                            </p>
+                        </td>
+                        <td style="padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top">
+                            <p class="Tip-Note-Text" style="margin-bottom: 0;">Vous devez associer un compte au bon de commande.</p>
+                        </td>
+                    </tr>
+                </table>
+            </li>
+            <li value="4">(Facultatif) Modifiez les informations de l'<span class="SLXBold">Adresse de facturation</span>. <MadCap:conditionalText MadCap:conditions="Output.GSWeb,Output.WebClient">Par défaut, ce champ est renseigné avec le nom du contact principal du compte, et les informations de l'adresse principale si le bon de commande a été créé depuis les vues Détails du contact, du compte ou de l'opportunité. </MadCap:conditionalText><ol style="list-style-type: lower-alpha;" MadCap:conditions="Output.GSWeb,Output.WebClient"><li value="1">Pour sélectionner un <span class="SLXBold">nom</span>, Cliquez sur le bouton <span class="MCExpanding_0"><a href="javascript:void(0);" class="MCExpandingHead_0" onclick="FMCExpand( this ); return false;">Rechercher<img style="border: none;margin-left: 5px;" src="../SkinSupport/ExpandClosed.gif" MadCap:altsrc="../SkinSupport/ExpandOpen.gif" onload="if ( typeof( FMCPreloadImage ) == 'function' ) { FMCPreloadImage( '../SkinSupport/ExpandOpen.gif' ); }" alt="Closed" MadCap:alt2="Open" class="MCExpandingIcon" /></a><span class="MCExpandingBody_0" style="display: none;"><img src="../image/find.gif" /></span></span>, puis utilisez la recherche pour <a href="../Lookups/findlookup.htm">rechercher</a> un contact. </li><li value="2">Cliquez sur la la flèche du menu déroulant et effectuez votre sélection dans la liste&#160;<span class="SLXBold">Adresse</span>. </li><li value="3">Pour <a href="../Common Tabs/Adding_Editing_an_Alternate_Address.htm">modifier</a> l'<span class="SLXBold">adresse</span>, cliquez sur le bouton <span class="MCExpanding_0"><a href="javascript:void(0);" class="MCExpandingHead_0" onclick="FMCExpand( this ); return false;">Modifier<img style="border: none;margin-left: 5px;" src="../SkinSupport/ExpandClosed.gif" MadCap:altsrc="../SkinSupport/ExpandOpen.gif" onload="if ( typeof( FMCPreloadImage ) == 'function' ) { FMCPreloadImage( '../SkinSupport/ExpandOpen.gif' ); }" alt="Closed" MadCap:alt2="Open" class="MCExpandingIcon" /></a><span class="MCExpandingBody_0" style="display: none;"><img src="../image/edit.gif" /></span></span>. Pour afficher une carte de l'adresse, cliquez sur le bouton <span class="MCExpanding_0"><a href="javascript:void(0);" class="MCExpandingHead_0" onclick="FMCExpand( this ); return false;">MapQuest<img style="border: none;margin-left: 5px;" src="../SkinSupport/ExpandClosed.gif" MadCap:altsrc="../SkinSupport/ExpandOpen.gif" onload="if ( typeof( FMCPreloadImage ) == 'function' ) { FMCPreloadImage( '../SkinSupport/ExpandOpen.gif' ); }" alt="Closed" MadCap:alt2="Open" class="MCExpandingIcon" /></a><span class="MCExpandingBody_0" style="display: none;"><img src="../image/map1.gif" /></span></span>.</li></ol></li>
+            <li value="5">(Facultatif) Modifiez les informations de l'<span class="SLXBold">Adresse d'expédition</span>.<MadCap:conditionalText MadCap:conditions="Output.WebClient,Output.GSWeb"> Par défaut, ce champ est renseigné avec le nom du contact principal du compte correspondant, et avec les informations de l'adresse d'expédition si le bon de commande a été créé depuis les vues Détails du contact, du compte ou de l'opportunité. </MadCap:conditionalText><ol style="list-style-type: lower-alpha;" MadCap:conditions="Output.GSWeb,Output.WebClient"><li value="1">Pour sélectionner un <span class="SLXBold">nom</span>, cliquez sur le bouton <span class="MCExpanding_0"><a href="javascript:void(0);" class="MCExpandingHead_0" onclick="FMCExpand( this ); return false;">Rechercher<img style="border: none;margin-left: 5px;" src="../SkinSupport/ExpandClosed.gif" MadCap:altsrc="../SkinSupport/ExpandOpen.gif" onload="if ( typeof( FMCPreloadImage ) == 'function' ) { FMCPreloadImage( '../SkinSupport/ExpandOpen.gif' ); }" alt="Closed" MadCap:alt2="Open" class="MCExpandingIcon" /></a><span class="MCExpandingBody_0" style="display: none;"><img src="../image/find.gif" /></span></span>, puis utilisez la recherche pour <a href="../Lookups/findlookup.htm">rechercher</a> un contact. </li><li value="2">Cliquez sur la la flèche du menu déroulant et effectuez votre sélection dans la liste&#160;<span class="SLXBold">Adresse</span>. </li><li value="3">Pour modifier l'<span class="SLXBold">adresse</span>, cliquez sur le bouton <span class="MCExpanding_0"><a href="javascript:void(0);" class="MCExpandingHead_0" onclick="FMCExpand( this ); return false;">Modifier<img style="border: none;margin-left: 5px;" src="../SkinSupport/ExpandClosed.gif" MadCap:altsrc="../SkinSupport/ExpandOpen.gif" onload="if ( typeof( FMCPreloadImage ) == 'function' ) { FMCPreloadImage( '../SkinSupport/ExpandOpen.gif' ); }" alt="Closed" MadCap:alt2="Open" class="MCExpandingIcon" /></a><span class="MCExpandingBody_0" style="display: none;"><img src="../image/edit.gif" /></span></span>. Pour afficher une carte de l'adresse, cliquez sur le bouton <span class="MCExpanding_0"><a href="javascript:void(0);" class="MCExpandingHead_0" onclick="FMCExpand( this ); return false;">MapQuest<img style="border: none;margin-left: 5px;" src="../SkinSupport/ExpandClosed.gif" MadCap:altsrc="../SkinSupport/ExpandOpen.gif" onload="if ( typeof( FMCPreloadImage ) == 'function' ) { FMCPreloadImage( '../SkinSupport/ExpandOpen.gif' ); }" alt="Closed" MadCap:alt2="Open" class="MCExpandingIcon" /></a><span class="MCExpandingBody_0" style="display: none;"><img src="../image/map1.gif" /></span></span>. </li><li value="4">Cliquez sur la <MadCap:conditionalText MadCap:conditions="Output.GSWeb,Output.WebClient,Output.SendSLX Tray App,Output.Customer Portal,Output.IntegrationContract,Targeted.WebHelp-slxgetstarted sub-set">flèche déroulante vers le bas</MadCap:conditionalText>&#160; et sélectionnez un élément dans la liste&#160;<span class="SLXBold">Expédier par</span>.</li></ol></li>
+            <li value="6">
+                <MadCap:conditionalText MadCap:conditions="Output.GSWeb,Output.WebClient">Ajoutez des <a href="salesorderaddproduct.htm">produits</a>.</MadCap:conditionalText>&#160;<br /> La section Produit affiche tous les produits associés au bon de commande. Si vous voulez supprimer un produit, sélectionnez l'enregistrement dans la grille <span>Produits</span>, puis cliquez sur le bouton <span>Supprimer</span>.<br /> Le Total de la commande est recalculé lorsque des produits sont ajoutés ou supprimés.</li>
+            <li value="7">
+                <MadCap:conditionalText MadCap:conditions="Output.WebClient,Output.GSWeb">Cliquez sur <span class="MCExpanding_0"><a href="javascript:void(0);" class="MCExpandingHead_0" onclick="FMCExpand( this ); return false;">Enregistrer<img style="border: none;margin-left: 5px;" src="../SkinSupport/ExpandClosed.gif" MadCap:altsrc="../SkinSupport/ExpandOpen.gif" onload="if ( typeof( FMCPreloadImage ) == 'function' ) { FMCPreloadImage( '../SkinSupport/ExpandOpen.gif' ); }" alt="Closed" MadCap:alt2="Open" class="MCExpandingIcon" /></a><span class="MCExpandingBody_0" style="display: none;"><img src="../image/update.gif" /></span></span>.. </MadCap:conditionalText>
+            </li>
+        </ol>
+        <p class="RelatedTopics">Rubriques connexes</p>
+        <p><a href="salesorderoverview.htm">Présentation des bons de commande</a>
+        </p>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

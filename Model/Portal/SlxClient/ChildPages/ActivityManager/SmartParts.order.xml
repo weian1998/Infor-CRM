@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<ModelItems xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Item Id="e89cf2ed-a3ca-4577-9878-e63ab59c6c08">SDataListViewer.smartpart.xml</Item>
+  <Item Id="4fd404a2-3fe0-4442-a97c-53edab3989d8">ActivityFilters.smartpart.xml</Item>
+  <Item Id="452e92c6-b33e-4b0f-9655-6e73c71df2f0">ActivityManagerTasks.smartpart.xml</Item>
+</ModelItems>

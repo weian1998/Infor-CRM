@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<method xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="64deda6a-25b3-41ef-9506-2490a3a8e440" lastModifiedUtc="2013-05-07T21:35:17.5841322Z" name="OnAfterUpdate" methodType="CrudEvent" actionType="None" returnMode="None">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmEntityMethod" />
+  </ExtendedPropertiesCollection>
+  <parameter />
+  <preExecuteTargets />
+  <methodTargets>
+    <methodTarget id="666f93fd-595e-4909-8a5d-5ed5f8ce87fe" lastModifiedUtc="2013-07-29T16:20:28.7904793Z" targetType="Sage.SalesLogix.User.Rules, Sage.SalesLogix.BusinessRules" targetMethod="PerformRetiredUserEndPointRules" active="true">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmMethodTarget" />
+      </ExtendedPropertiesCollection>
+    </methodTarget>
+  </methodTargets>
+  <postExecuteTargets />
+  <postFlushTargets />
+</method>

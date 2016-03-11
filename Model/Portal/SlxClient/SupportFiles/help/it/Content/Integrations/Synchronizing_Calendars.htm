@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:fileTags="Translation Status.Support files" MadCap:tocPath="Utilizzo delle Integrazioni|Utilizzo delle Integrazioni|Integrazione con Outlook|Sincronizzazione del Calendario" MadCap:medium="non-print" MadCap:InPreviewMode="false" MadCap:PreloadImages="false" MadCap:RuntimeFileType="Topic" MadCap:TargetType="WebHelp" lang="en-us" xml:lang="en-us" MadCap:conditions="Output.Integrations LAN,Output.WebClient" MadCap:PathToHelpSystem="../../" MadCap:HelpSystemFileName="WebClient.xml" MadCap:SearchType="Stem">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Scenari Sincronizzazione Calendario</title>
+        <link href="../SkinSupport/Slideshow.css" rel="stylesheet" />
+        <link href="../SkinSupport/MadCap.css" rel="stylesheet" />
+        <link href="../Resources/TableStyles/TableStyle.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/Infor.CSS" rel="stylesheet" />
+        <script src="../SkinSupport/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapAll.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapTopicAll.js" type="text/javascript">
+        </script>
+    </head>
+    <body>
+        <h1><a name="kanchor261"></a>Scenari Sincronizzazione Calendario</h1>
+        <p>I seguenti sono alcuni scenari comuni per aiutare a spiegare come funziona la sincronizzazione del calendario.</p>
+        <table wrapperparagraphselector="P" style="width: 80%;margin-top: 14pt;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" width="80%">
+            <col style="width: 45px;" />
+            <col />
+            <tr MadCap:conditions="">
+                <td style="padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top">
+                    <p style="text-align: center;margin-bottom: 0;" align="center">
+                        <img src="../image/note.gif" />
+                    </p>
+                </td>
+                <td style="width: 90%;padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top" width="90%">La Sincronizzazione riguarda i dati di sicurezza associati all'utente che si è connesso in <span class="MyVariablesProduct Name">Infor CRM</span>. Il quantitativo di dati disponibili ad essere trasferito è limitato dai diritti di sicurezza dell'utente autenticato.</td>
+            </tr>
+        </table>
+        <p class="Infinitive">Scenari di Sincronizzazione</p>
+        <p>Tipi di Attività in <span class="MyVariablesCompanyNameFull">Infor</span> possono essere sincronizzate in differenti tipi di attività in un'applicazione integrata. Vedere la <a href="Understanding_Calendar_Integration.htm">Tabella per Comprendere lo scambio Dati Calendario</a> per i dettagli. </p>
+        <p>Per i seguenti scenari:</p>
+        <ul>
+            <li value="1"> ''Voce calendario'' può essere utilizzata per rappresentare i tipi di attività calendario in un'applicazione integrata, e chiamate telefoniche, incontri, o attività personali in <span class="MyVariablesCompanyNameFull">Infor</span>.  </li>
+            <li value="2">''attività'' sarà utilizzata per rappresentare un tipo di attività non calendario in un'applicazione integrata e un impegno in <span class="MyVariablesCompanyNameFull">Infor</span>.</li>
+            <li value="3">''entrambe le applicazioni'' si riferisce a <span class="MyVariablesCompanyNameFull">Infor</span> e alle applicazioni integrate.</li>
+        </ul>
+        <table style="width: 95%;mc-table-style: url('../Resources/TableStyles/TableStyle.css');margin-left: 0;margin-right: auto;" class="TableStyle-TableStyle" cellspacing="0">
+            <col class="TableStyle-TableStyle-Column-Column1" style="width: 312px;" />
+            <col class="TableStyle-TableStyle-Column-Column1" />
+            <thead>
+                <tr class="TableStyle-TableStyle-Head-Header1">
+                    <th class="TableStyle-TableStyle-HeadE-Column1-Header1">Azione</th>
+                    <th class="TableStyle-TableStyle-HeadD-Column1-Header1">Risultato<br /></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <th colspan="2" class="TableStyle-TableStyle-BodyD-Column1-Body1">Pianificando, Modificando, Completando o Cancellando la voce calendario
+                    </th>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Pianificare la voce calendario in entrambe le applicazioni.</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">La voce calendario sincronizza.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Modificare la voce calendario in entrambe le applicazioni.</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Sincronizza la voce calendario.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Modificare la stessa voce calendario in entrambe le applicazioni durante lo stesso ciclo di sincronizzazione.</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">
+                        <p>La voce calendario che è stata modificata più recentemente sincronizzerà per le altre applicazioni e aggiorna tutti i valori con ogni differenza.   </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Completare la voce calendario in <span class="MyVariablesCompanyNameFull">Infor</span>.</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">La voce calendario è completata in <span class="MyVariablesCompanyNameFull">Infor</span> e la parola ''Completata'' appare nella linea Soggetto della voce nell'applicazione integrata.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Eliminare la voce calendario in entrambe le applicazioni.</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">La voce calendario viene rimossa dai calendari degli utenti in entrambe le applicazioni.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <th class="TableStyle-TableStyle-BodyD-Column1-Body1" colspan="2">
+                        <p class="TableBold">Pianificando, Modificando, Completando o Cancellando Attività</p>
+                    </th>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Pianificare la voce attività in entrambe le applicazioni.</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Sincronizza le attività.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Modificare la voce attività in entrambe le applicazioni.</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Sincronizza il cambiamento di attività.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Modificare la stessa attività in entrambe le applicazioni durante lo stesso ciclo di sincronizzazione.</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">
+                        <p>L'attività che è stata modificata più recentemente sincronizzerà per le altre applicazioni e aggiorna tutti i valori con ogni differenza.   </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Completare gli impegni in <span class="MyVariablesCompanyNameFull">Infor</span>.</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">La variazione sincronizza e nell'attività è contrassegnato come completato nell'applicazione integrata.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Completare un'attività in un'applicazione integrata.</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">La variazione sincronizza e l'impegno è completato e registrato come una voce cronologia in <span class="MyVariablesCompanyNameFull">Infor</span>.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Pianificare un'attività che non ha data o ora di inizio in un'applicazione integrata.</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">L'attività sincronizza come impegno in <span class="MyVariablesCompanyNameFull">Infor</span> con i dati creati e la data di inizio. Durante la successiva sincronizzazione la nuova data di inizio sincronizza e aggiorna l'attività in un'applicazione integrata.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <th class="TableStyle-TableStyle-BodyD-Column1-Body1" colspan="2">
+                        <p>Pianificando la voce Calendario e Attività con multiple Occorrenze</p>
+                    </th>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Pianificare una voce calendario ricorrente in <span class="MyVariablesCompanyNameFull">Infor</span>.</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">La voce calendario e tutte le occorrenze sono sincronizzate dall'applicazione integrata.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Pianificare una voce calendario con multiple occorrenze nell'applicazione integrata.</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">
+                        <p>La voce calendario è sincronizzata da <span class="MyVariablesCompanyNameFull">Infor</span> con il massimo numero di occorrenze consentite in <span class="MyVariablesCompanyNameFull">Infor</span>: </p>
+                        <ul>
+                            <li value="1">Quotidiano - 999</li>
+                            <li value="2">Settimanale - 260</li>
+                            <li value="3">Mensile - 60</li>
+                            <li value="4">Annuale - 20</li>
+                        </ul>
+                        <p>Questo limite è sincronizzato dietro all'applicazione integrata.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Pianificare gli impegni ricorrenti in <span class="MyVariablesCompanyNameFull">Infor</span>.</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">L'impegno ricorrente è sincronizzato da un'attività ricorrente nell'applicazione integrata.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Pianificare un'attività ricorrente in un'applicazione integrata.</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">
+                        <p>L'attività è sincronizzata da <span class="MyVariablesCompanyNameFull">Infor</span> come impegno con il massimo numero di occorrenze consentite in <span class="MyVariablesCompanyNameFull">Infor</span>: </p>
+                        <ul>
+                            <li value="1">Quotidiano - 999</li>
+                            <li value="2">Settimanale - 260</li>
+                            <li value="3">Mensile - 60</li>
+                            <li value="4">Annuale - 20</li>
+                        </ul>
+                        <p>Questo limite è sincronizzato dietro all'applicazione integrata.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <th class="TableStyle-TableStyle-BodyD-Column1-Body1" colspan="2">
+                        <p>Pianificando la voce Calendario con i Membri</p>
+                    </th>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Pianificare la voce calendario in entrambe le applicazioni, dove voi siete i leader e ci sono altri tre membri.</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">
+                        <p>Nell'applicazione dove la voce calendario è pianificata, la voce calendario include il leader e le informazioni dei membri come pianificati. Quando questo sincronizza con le altre applicazioni, voi rimanete il leader, ma questo non contiene nessuna informazione sui membri.</p>
+                        <p>Le informazioni sui membri rimangono nella voce calendario dall'origine dell'applicazione, anche se la voce calendario è aggiornata.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Pianificare una voce calendario in entrambe le applicazioni, dove voi siete un membro e non il leader.</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">
+                        <p>Nell'applicazione dove la voce calendario è pianificata, la voce calendario include il leader e le informazioni dei membri come pianificati. Quando questo sincronizza con le altre applicazioni, voi diventate il leader, ma questo non contiene nessuna informazione sui membri.</p>
+                        <p>Le informazioni sui membri rimangono nella voce calendario dall'origine dell'applicazione, anche se la voce calendario è aggiornata.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Far diventare leader un altro utente nel <span class="MyVariablesCompanyNameFull">Infor</span> dopo che la voce calendario ha sincronizzato.</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">
+                        <p>Cancella la voce calendario in un'applicazione integrata.*</p>
+                        <p>*Non si può cambiare il leader di una voce calendario in Outlook.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <th class="TableStyle-TableStyle-BodyD-Column1-Body1" colspan="2">
+                        <p>Accettando e Declinando gli inviti dalla voce calendario</p>
+                    </th>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Accettare un invito dalla voce calendario in entrambe le applicazioni prima che la voce calendario sia sincronizzata.</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">La voce calendario è sincronizzata e questo indica che è stato accettato.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Accettare un invito dalla voce calendario in entrambe le applicazioni dopo che la voce calendario sia sincronizzata.</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">La voce calendario sincronizza quando è pianificata e dopo di nuovo aggiornata per indicare che è stato accettato. </td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Declinare un invito dalla voce calendario in entrambe le applicazioni prima che la voce calendario sia sincronizzata.</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">La voce calendario non è sincronizzata da altre applicazioni.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Declinare un invito dalla voce calendario in entrambe le applicazioni dopo che la voce calendario sia sincronizzata.</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">La voce calendario viene rimossa dai calendari degli utenti in entrambe le applicazioni.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <th class="TableStyle-TableStyle-BodyD-Column1-Body1" colspan="2">
+                        <p>Lavorabdo con voci Calendario Personali o Private</p>
+                    </th>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Pianificare un'attività personale in <span class="MyVariablesCompanyNameFull">Infor</span>.</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">L'attività personale sincronizza come una voce calendario impostata come Privato nell'applicazione integrata.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Pianificare una voce calendario privata in un'applicazione integrata.</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">La voce calendario privata sincronizza come attività personale in <span class="MyVariablesCompanyNameFull">Infor</span>.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">In un'applicazione integrata, deselezionare il flag privato dopo che la voce calendario è stato sincronizzato.</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">La voce calendario sincronizza e cambia le attività personali per un incontro in <span class="MyVariablesCompanyNameFull">Infor</span>.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">In un'applicazione integrata, selezionare il flag privato dopo che la voce calendario è stata sincronizzata.</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">La voce calendario sincronizza e cambia le attività personali per un incontro in <span class="MyVariablesCompanyNameFull">Infor</span>.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <th class="TableStyle-TableStyle-BodyD-Column1-Body1" colspan="2">
+                        <p>Lavoranzo con la voce CAlendario e Attività illimitatamente</p>
+                    </th>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Pianificare una voce calendario illimitata in <span class="MyVariablesProduct Name">Infor CRM</span>.</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">La voce calendario illimitata sincronizza come un evento di tutti i giorni dall'applicazione integrata.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Pianifica un evento di tutti i giorni in un'applicazione integrata.</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">L'evento di tutti i giorni sincronizza come un incontro illimitato in <span class="MyVariablesCompanyNameFull">Infor</span>.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Cambiare una voce calendario illimitata in <span class="MyVariablesCompanyNameFull">Infor</span>.</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">La voce calendario è cambiata da un evento di tutti i giorni nell'applicazione integrata.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Girare una voce calendario illimitata in <span class="MyVariablesCompanyNameFull">Infor</span>.</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Il cambiamento sincronizza da un'applicazione integrata  cambia la data di inizio alla corrente, girata la data.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <th class="TableStyle-TableStyle-BodyD-Column1-Body1" colspan="2">
+                        <p>Posticipare gli allarmi </p>
+                    </th>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Posticipare un allarme per una voce calendario in entrambe le applicazioni.</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">
+                        <p>Sincronizza la voce calendario.</p>
+                        <p>A seconda di quando l'elemento di calendario è posticipato durante il ciclo di sincronizzazione l'allarme può essere attivato prima che la ''posticipazione'' sia sincronizzata.</p>
+                        <p><span class="MyVariablesProduct Name">Infor CRM</span> raccomandaposticipando allarmi in solo una delle applicazioni.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyB-Column1-Body1">Posticipare un allarme per una voce calendario in entrambe le applicazioni.</td>
+                    <td class="TableStyle-TableStyle-BodyA-Column1-Body1">
+                        <p>Sincronizza il cambiamento di attività.</p>
+                        <p>A seconda di quando l'elemento di calendario è posticipato durante il ciclo di sincronizzazione l'allarme può essere attivato prima che la ''posticipazione'' sia sincronizzata.</p>
+                        <p><span class="MyVariablesProduct Name">Infor CRM</span> raccomandaposticipando allarmi in solo una delle applicazioni.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p class="RelatedTopics">Argomenti Correlati</p>
+        <p><a href="Understanding_Contact_Integration.htm">Comprendere l'Integrazione Contatti</a>
+        </p>
+        <p><a href="Matching_Records.htm">Corrispondenza record</a>
+        </p>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

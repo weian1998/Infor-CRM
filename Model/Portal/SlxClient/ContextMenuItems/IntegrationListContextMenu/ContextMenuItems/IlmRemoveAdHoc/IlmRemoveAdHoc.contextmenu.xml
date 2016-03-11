@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<MenuDropDownItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="1a287952-6a36-4240-8ae0-637de5ce3731">
+  <ItemId>IlmRemoveAdHoc</ItemId>
+  <NavUrl>javascript:Sage.Groups.GroupManager.removeSelectionsFromGroup()</NavUrl>
+  <LargeImageUrl />
+  <SmallImageUrl />
+  <ContextMenuId />
+  <Target />
+  <AppliedSecurity />
+</MenuDropDownItem>

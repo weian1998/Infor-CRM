@@ -1,0 +1,21 @@
+﻿<?xml version="1.0"?>
+<entityFilter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="OrmRangeEntityFilter" id="a07fc6c1-bb1f-4e52-b8e1-d4eb963f456a" lastModifiedUtc="2014-10-02T16:10:59.3932937Z" filterName="TimeFrame" propertyName="CreateDate" characters="0">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmRangeEntityFilter" />
+  </ExtendedPropertiesCollection>
+  <ranges id="d777fc1f-8883-4e25-8588-abc4e74860c6" rangeName="Yesterday" lower=":yesterdaystart" upper=":yesterdayend" />
+  <ranges id="c65b64f2-62ad-4878-b77d-0b701d491f7b" rangeName="Today" lower=":todaystart" upper=":todayend" />
+  <ranges id="d6f40bfb-f908-4ed7-b07d-944b3717ac7e" rangeName="ThisWeek" lower=":thisweekstart" upper=":thisweekend" />
+  <ranges id="318847dd-ff8b-42a0-b121-9b7deeeac222" rangeName="ThisMonth" lower=":thismonthstart" upper=":thismonthend" />
+  <ranges id="6e7f105a-c9b5-4677-9463-d4f24249060f" rangeName="ThisQuarter" lower=":thisquarterstart" upper=":thisquarterend" />
+  <ranges id="af46f900-32dc-413e-9533-c960857f139f" rangeName="ThisYear" lower=":thisyearstart" upper=":thisyearend" />
+  <ranges id="d349795f-bfe3-4716-a941-015927c25b93" rangeName="LastWeek" lower=":lastweekstart" upper=":lastweekend" />
+  <ranges id="dd70de44-5993-4f64-991c-16033aef6572" rangeName="LastMonth" lower=":lastmonthstart" upper=":lastmonthend" />
+  <ranges id="2fb9f35e-0da8-4fe5-85b8-9555f0d84c6b" rangeName="LastQuarter" lower=":lastquarterstart" upper=":lastquarterend" />
+  <ranges id="05d8e89f-32e5-4c48-b296-ea7c0450c08e" rangeName="LastYear" lower=":lastyearstart" upper=":lastyearend" />
+  <ranges id="a9be2a6d-b915-4d93-ba6b-73ec04cff5f2" rangeName="WeekToDate" lower=":thisweekstart" upper=":thisweekend" />
+  <ranges id="4a8b1f9f-c922-4988-899b-c3997363682f" rangeName="MonthToDate" lower=":thismonthstart" upper=":thismonthend" />
+  <ranges id="3dccb606-7609-4ff3-b2d7-76de557be947" rangeName="QuarterToDate" lower=":thisquarterstart" upper=":thisquarterend" />
+  <ranges id="6fa51e20-9ddb-4ea7-a1d2-0c3a99bf0f6d" rangeName="YearToDate" lower=":thisyearstart" upper=":thisyearend" />
+</entityFilter>

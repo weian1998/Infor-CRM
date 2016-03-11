@@ -1,0 +1,18 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\DeDupResult\DeDupResult.DEDUPRESULT.entity.xml" timeStamp="2015-05-28T03:04:07.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\DeDupResult\GetMatchResults.method.xml" timeStamp="2015-05-28T03:04:07.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\DeDupResult\GetMergeArguments.method.xml" timeStamp="2015-05-28T03:04:07.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\DeDupResult\GetSearchFilters.method.xml" timeStamp="2015-05-28T03:04:07.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\DeDupResult\JobDate.filter.xml" timeStamp="2015-05-28T03:04:07.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\DeDupResult\OnAfterDelete.method.xml" timeStamp="2015-05-28T03:04:07.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\DeDupResult\OnAfterInsert.method.xml" timeStamp="2015-05-28T03:04:07.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\DeDupResult\OnAfterUpdate.method.xml" timeStamp="2015-05-28T03:04:07.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\DeDupResult\OnBeforeDelete.method.xml" timeStamp="2015-05-28T03:04:07.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\DeDupResult\OnBeforeInsert.method.xml" timeStamp="2015-05-28T03:04:07.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\DeDupResult\OnBeforeUpdate.method.xml" timeStamp="2015-05-28T03:04:07.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\DeDupResult\OnCreate.method.xml" timeStamp="2015-05-28T03:04:07.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\DeDupResult\Status.filter.xml" timeStamp="2015-05-28T03:04:07.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\DeDupResult\UpdateStatusNoDuplicate.method.xml" timeStamp="2015-05-28T03:04:07.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\DeDupResult\QuickForms\" />
+</exportedFiles>

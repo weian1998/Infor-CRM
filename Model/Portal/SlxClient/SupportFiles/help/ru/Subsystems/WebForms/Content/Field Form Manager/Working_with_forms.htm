@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:tocPath="Настройка рабочей области" MadCap:medium="non-print" MadCap:InPreviewMode="false" MadCap:PreloadImages="false" MadCap:RuntimeFileType="Topic" MadCap:TargetType="WebHelp" lang="ru" xml:lang="ru" MadCap:PathToHelpSystem="../../" MadCap:HelpSystemFileName="WebForms.xml" MadCap:SearchType="Stem">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="copyright" value="SalesLogix Sales Help (03/19/2002) for v6.2 © 1997-2004 Best Software, Inc. and Sage Technologies Limited" />
+        <meta name="window-type" content="(w95sec)" /><title>Working with Forms</title>
+        <link href="../SkinSupport/MadCap.css" rel="stylesheet" />
+        <link href="../Resources/TableStyles/Borders.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/SALESLOGIX.CSS" rel="stylesheet" />
+        <script src="../SkinSupport/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop" style="display: none;"><a href="../../WebForms_CSH.htm#Field Form Manager/Working_with_forms.htm" style="font-family: Verdana;color: #ffffff;background-color: #cad59f;">Open topic with Search, TOC, and Index</a>
+        </p>
+        <h1><a name="kanchor1"></a>Работа с Формами</h1>
+        <table wrapperparagraphselector="P" style="width: 80%;margin-top: 14pt;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" width="80%">
+            <col style="width: 41px;" />
+            <col />
+            <tr>
+                <td style="padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top">
+                    <p style="text-align: center;margin-bottom: 0;" align="center">
+                        <img src="../image/adminonly.gif" />
+                    </p>
+                </td>
+                <td style="width: 90%;padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top" width="90%">Системный администратор и пользователи с соответсвующей <a href="..\..\..\..\Content/Admin_security/What_are_Roles_and_Secured_Actions.htm" target="_self">ролью</a> могут иметь доступ к данным характеристикам.</td>
+            </tr>
+        </table>
+        <p>Вы можете сделать простые изменения с представлением с помощью редактирования его составных <a href="What are forms, views, controls, and data fields.htm">форм</a> по средством Проектировщика Web Форм. Например, вы можете изменить заголовки и переместить элементы по форме и скрывать информацию.  </p>
+        <p>Когда вы сохраняете изменения формы, все представления, содержащие форму, также меняются.</p>
+        <p>Изменения, которые вы производителе, влияют на каждый элемент в системе, потому что определения формы и представления схожи.</p>
+        <p><span class="MCPopup"><a href="javascript:void(0);" MadCap:src="Popups/Quick_Forms_def.htm" onclick="FMCPopup( event, this ); return false;" MadCap:width="4in" MadCap:height="auto" class="MCPopupSpot">Quick Формы</a></span> могут редактироваться с помощью Проектировщика Web Форм в Web Клиенте Saleslogix или в Application Architect. Пользовательские формы не могут быть изменены с помощью Проектировщика Web Форм. Каждая форма может быть отредактирована в <span class="MyVariablesFormDesignerName">Редактор форм</span>, с помощью кнопки Редактировать Форму <img src="../image/form_manager_16x16.png" /> в инструментальной панели, пользователями, имеющими доступ к этой функции.</p>
+        <p class="RelatedTopics">Как мне?</p>
+        <h5 style="margin-bottom: 0.5em;">Общие</h5>
+        <p>Открыть <span class="MyVariablesFormDesignerName">Редактор форм</span></p>
+        <div class="MCDropDown">
+            <div id="MCDropDownBody_953222719_0" class="MCDropDownBody">
+                <ol>
+                    <li value="1"><a name="kanchor2"></a>Откройте представление Web Клиента как Детальное представление Субъекта в вашем броузере.<br />Заметьте, что каждая из форм в представлении имеет собственную инструментальную панель.</li>
+                    <li value="2">В инструментальной панели формы, которую вы хотите редактировать, CTRL-нажмите Редактировать Форму<img src="../image/form_manager_16x16.png" />.<br />Другая закладка броузера открывается с помощью Проектировщика Web Форм.</li>
+                    <li value="3">Щелкните на новую закладку броузера.<br /><span class="MyVariablesFormDesignerName">Редактор форм</span> показывает макет элемента управления формы. Вы можете переключаться между новыми закладками из <span class="MyVariablesFormDesignerName">Редактор форм</span>, и другими вкладками в представлении в веб-клиенте для повторного внесения изменений и просмотра результатов.</li>
+                </ol>
+                <blockquote>
+                    <p MadCap:conditions="Primary.FormManagerListView">Или используйте <a href="formmgrlistview.htm">Списочное представление Менеджера Форм</a> для открытия Проектировщика Web Форм.</p>
+                </blockquote>
+            </div>
+        </div>
+        <div class="MCDropDown_0">
+            <div class="MCDropDownHead_0"><a class="MCDropDownHotSpot_0" href="javascript:void(0);" id="MCDropDownHotSpot_1992572200_0" onclick="FMCDropDown( this ); return false;" name="Редактировать_форму">Редактировать форму<img style="border: none;margin-left: 5px;" src="../SkinSupport/DropDownClosed.gif" MadCap:altsrc="../SkinSupport/DropDownOpen.gif" onload="if ( typeof( FMCPreloadImage ) == 'function' ) { FMCPreloadImage( '../SkinSupport/DropDownOpen.gif' ); }" class="MCDropDownIcon" /></a>
+            </div>
+            <div class="MCDropDownBody" id="MCDropDownBody_1992572200_0" style="display: none;">
+                <ol>
+                    <li value="1">Откройте форму в Проектировщике Web Форм.</li>
+                    <li value="2">Щелкните на закладку <a name="kanchor4"></a><span class="SLXBold">Использование</span> и отметьте какие представления содержат данную форму. Изменения данной формы повлияют на все эти представления. Если вы не видите закладку Использование, нажмите на пустое пространство в левом верхнем углу в Редакторе форм.</li>
+                    <li value="3">Совершите изменения с формой такие как:<ul><li value="1">Изменять заголовки <a name="kanchor5"></a> и другие свойства элемента управления</li><li value="2">Добавление элементов управления (Добавление полей данных на форму)</li><li value="3">Изменить свойства формы, строки и столбца</li></ul></li>
+                </ol>
+                <ol start="4">
+                    <li value="4">Нажмите    <![CDATA[ ]]><span class="MCExpanding_0"><a href="javascript:void(0);" class="MCExpandingHead_0" onclick="FMCExpand( this ); return false;">Сохранить<img style="border: none;margin-left: 5px;" src="../SkinSupport/ExpandClosed.gif" MadCap:altsrc="../SkinSupport/ExpandOpen.gif" onload="if ( typeof( FMCPreloadImage ) == 'function' ) { FMCPreloadImage( '../SkinSupport/ExpandOpen.gif' ); }" class="MCExpandingIcon" /></a><span class="MCExpandingBody_0" style="display: none;"><img src="../image/update.gif" /></span></span>.<br />Изменения сразу вступают в силу.</li>
+                </ol>
+            </div>
+        </div>
+        <div class="MCDropDown_0">
+            <div class="MCDropDownHead_0"><a class="MCDropDownHotSpot_0" href="javascript:void(0);" id="MCDropDownHotSpot_1992572200_1" onclick="FMCDropDown( this ); return false;">Просмотреть изменения<img style="border: none;margin-left: 5px;" src="../SkinSupport/DropDownClosed.gif" MadCap:altsrc="../SkinSupport/DropDownOpen.gif" onload="if ( typeof( FMCPreloadImage ) == 'function' ) { FMCPreloadImage( '../SkinSupport/DropDownOpen.gif' ); }" class="MCDropDownIcon" /></a>
+            </div>
+            <div class="MCDropDownBody" id="MCDropDownBody_1992572200_1" style="display: none;">
+                <ul>
+                    <li value="1">Переключитесь на первоначальный броузер закладки и нажмите  <span class="SLXBold">F5</span>. Вы можете переключаться между данными закладками, чтобы неоднократно совершать изменения и просматривать результаты.</li>
+                    <li value="2">Или просматрите любое представление, которое содержащее форму, которую вы отредактировали.</li>
+                </ul>
+                <blockquote>
+                    <table wrapperparagraphselector="P" style="width: 80%;margin-top: 14pt;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" width="80%">
+                        <tr>
+                            <td style="width: 10%;padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top" width="10%">
+                                <p style="text-align: center;margin-bottom: 0;" align="center">
+                                    <img src="../image/caution.gif" />
+                                </p>
+                            </td>
+                            <td style="width: 90%;padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top" width="90%">
+                                <p>Вы можете просматривать изменения в суммирующем представлении quick форм после того, как конструкция и размещение завершено в Приложении Архитектор. Обратитесь к теме "Конструирование Web Платформы" в справке Приложения Архитектор для получения более подробной информации.</p>
+                            </td>
+                        </tr>
+                    </table>
+                </blockquote>
+            </div>
+        </div>
+        <div class="MCDropDown_0">
+            <div class="MCDropDownHead_0"><a class="MCDropDownHotSpot_0" href="javascript:void(0);" id="MCDropDownHotSpot_1992572200_2" onclick="FMCDropDown( this ); return false;">Отменить последние изменения<img style="border: none;margin-left: 5px;" src="../SkinSupport/DropDownClosed.gif" MadCap:altsrc="../SkinSupport/DropDownOpen.gif" onload="if ( typeof( FMCPreloadImage ) == 'function' ) { FMCPreloadImage( '../SkinSupport/DropDownOpen.gif' ); }" class="MCDropDownIcon" /></a>
+            </div>
+            <div class="MCDropDownBody" id="MCDropDownBody_1992572200_2" style="display: none;">
+                <ul>
+                    <li value="1">На вкладке браузера в которой открыт    <![CDATA[ ]]><span class="MyVariablesFormDesignerName">Редактор форм</span>, нажмите <span class="SLXBold">F5</span>, чтобы вернуться к последней сохраненной версии формы.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="MCDropDown_0">
+            <div class="MCDropDownHead_0"><a class="MCDropDownHotSpot_0" href="javascript:void(0);" id="MCDropDownHotSpot_1992572200_3" onclick="FMCDropDown( this ); return false;" name="kanchor6">Показывать мои изменения другим пользователям<img style="border: none;margin-left: 5px;" src="../SkinSupport/DropDownClosed.gif" MadCap:altsrc="../SkinSupport/DropDownOpen.gif" onload="if ( typeof( FMCPreloadImage ) == 'function' ) { FMCPreloadImage( '../SkinSupport/DropDownOpen.gif' ); }" class="MCDropDownIcon" /></a>
+            </div>
+            <div class="MCDropDownBody" id="MCDropDownBody_1992572200_3" style="display: none;">
+                <ul>
+                    <li value="1">Когда вы сохраняете изменения, они сразу влияют на каждый элемент в вашей системе. Если кто-то имеет уже открытое представление, он должен нажать <span class="SLXBold">F5</span> для обновления страницы. </li>
+                    <li value="2">Если вы хотите показать изменения другой системе, то вы должны использовать Приложение Архитектор. Обратитесь к теме "Работа с Бандл Моделью" в справке Приложения Архитектор для получения более подробной информации.</li>
+                </ul>
+            </div>
+        </div>
+        <h5 style="margin-bottom: 0.5em;">Элементы управления</h5>
+        <p class="HowDoI"><a href="Editing_control_properties.htm" name="kanchor7">Просмотр и редактирование значений свойств элементов управления</a>
+        </p>
+        <div class="MCDropDown_0">
+            <div class="MCDropDownHead_0"><a class="MCDropDownHotSpot_0" href="javascript:void(0);" id="MCDropDownHotSpot_1992572200_4" onclick="FMCDropDown( this ); return false;" name="kanchor8">Переместить элемент управления<img style="border: none;margin-left: 5px;" src="../SkinSupport/DropDownClosed.gif" MadCap:altsrc="../SkinSupport/DropDownOpen.gif" onload="if ( typeof( FMCPreloadImage ) == 'function' ) { FMCPreloadImage( '../SkinSupport/DropDownOpen.gif' ); }" class="MCDropDownIcon" /></a>
+            </div>
+            <div class="MCDropDownBody" id="MCDropDownBody_1992572200_4" style="display: none;">
+                <ol>
+                    <li value="1">Щелкните на элемент управления и перетащите его.</li>
+                    <li value="2">Бросьте его на любое место, которое выделяется при наведении курсора на него.<br />При необходимости существующий элемент управления автоматически перемещается.<br /></li>
+                </ol>
+            </div>
+        </div>
+        <div class="MCDropDown_0">
+            <div class="MCDropDownHead_0"><a class="MCDropDownHotSpot_0" href="javascript:void(0);" id="MCDropDownHotSpot_1992572200_5" onclick="FMCDropDown( this ); return false;" name="kanchor9">Удалить элемент управления<img style="border: none;margin-left: 5px;" src="../SkinSupport/DropDownClosed.gif" MadCap:altsrc="../SkinSupport/DropDownOpen.gif" onload="if ( typeof( FMCPreloadImage ) == 'function' ) { FMCPreloadImage( '../SkinSupport/DropDownOpen.gif' ); }" class="MCDropDownIcon" /></a>
+            </div>
+            <div class="MCDropDownBody" id="MCDropDownBody_1992572200_5" style="display: none;">
+                <ul>
+                    <li value="1">Проектировщик Web Форм позволяет вам скрывать элементы управления, но не удалять их. Используйте  Архитектор приложений Saleslogix, если вы должны удалить элемент управления.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="MCDropDown_0">
+            <div class="MCDropDownHead_0"><a class="MCDropDownHotSpot_0" href="javascript:void(0);" id="MCDropDownHotSpot_1992572200_6" onclick="FMCDropDown( this ); return false;" name="kanchor10">Скрыть элемент управления<img style="border: none;margin-left: 5px;" src="../SkinSupport/DropDownClosed.gif" MadCap:altsrc="../SkinSupport/DropDownOpen.gif" onload="if ( typeof( FMCPreloadImage ) == 'function' ) { FMCPreloadImage( '../SkinSupport/DropDownOpen.gif' ); }" class="MCDropDownIcon" /></a>
+            </div>
+            <div class="MCDropDownBody" id="MCDropDownBody_1992572200_6" style="display: none;">
+                <ol>
+                    <li value="1">Выберите элемент управления и щелкните на закладку <span class="SLXBold">Расширенный</span>.</li>
+                    <li value="2">В группе <span class="SLXBold">Вид</span> отчистите поле свойства <span class="SLXBold">Видимый</span>.</li>
+                    <li value="3">Если вы хотите иметь возможность повторно использовать пространство, которое занимают скрытые контролы, переместите их в другое место или вниз страницы. Используйте Приложение Архитектор Saleslogix, если вы должны удалить элемент управления.</li>
+                </ol>
+            </div>
+        </div>
+        <p class="HowDoI"><a href="Adding_data_field.htm" name="kanchor11">Добавить элемент управления/поле данных</a>
+        </p>
+        <div class="MCDropDown_0">
+            <div class="MCDropDownHead_0"><a class="MCDropDownHotSpot_0" href="javascript:void(0);" id="MCDropDownHotSpot_1992572200_7" onclick="FMCDropDown( this ); return false;">Изменить размер элемента управления<img style="border: none;margin-left: 5px;" src="../SkinSupport/DropDownClosed.gif" MadCap:altsrc="../SkinSupport/DropDownOpen.gif" onload="if ( typeof( FMCPreloadImage ) == 'function' ) { FMCPreloadImage( '../SkinSupport/DropDownOpen.gif' ); }" class="MCDropDownIcon" /></a>
+            </div>
+            <div class="MCDropDownBody" id="MCDropDownBody_1992572200_7" style="display: none;">
+                <ol>
+                    <li value="1">Выберите элемент управления и щелкните на закладку <span class="SLXBold">Макет</span>.</li>
+                    <li value="2">В группе  <span class="SLXBold">Размер</span> измените при необходимости свойства <span class="SLXBold">Интервал Строки</span> или <span class="SLXBold">Интервал Столбца</span>.<br />Например, в Детальной форме Субъекта, Описании Деятельности имеется две строки.&#160;Обратите внимание, что некоторые типы элементов управления имеют постоянный размер отображения вне зависимости от количества пространства, которое они занимают.</li>
+                </ol>
+            </div>
+        </div>
+        <div class="MCDropDown_0">
+            <div class="MCDropDownHead_0"><a class="MCDropDownHotSpot_0" href="javascript:void(0);" id="MCDropDownHotSpot_1992572200_8" onclick="FMCDropDown( this ); return false;">Изменить метку на элементе управления<img style="border: none;margin-left: 5px;" src="../SkinSupport/DropDownClosed.gif" MadCap:altsrc="../SkinSupport/DropDownOpen.gif" onload="if ( typeof( FMCPreloadImage ) == 'function' ) { FMCPreloadImage( '../SkinSupport/DropDownOpen.gif' ); }" class="MCDropDownIcon" /></a>
+            </div>
+            <div class="MCDropDownBody" id="MCDropDownBody_1992572200_8" style="display: none;">
+                <ol>
+                    <li value="1">Выберите элемент управления и щелкните на закладку <span class="SLXBold">Основное</span>.</li>
+                    <li value="2">В группе <span class="SLXBold">Вид</span> измените при необходимости свойство <span class="SLXBold">Заголовок</span>.</li>
+                </ol>
+            </div>
+        </div>
+        <div class="MCDropDown_0">
+            <div class="MCDropDownHead_0"><a class="MCDropDownHotSpot_0" href="javascript:void(0);" id="MCDropDownHotSpot_1992572200_9" onclick="FMCDropDown( this ); return false;">Сделать данные элемента управления только для чтения<img style="border: none;margin-left: 5px;" src="../SkinSupport/DropDownClosed.gif" MadCap:altsrc="../SkinSupport/DropDownOpen.gif" onload="if ( typeof( FMCPreloadImage ) == 'function' ) { FMCPreloadImage( '../SkinSupport/DropDownOpen.gif' ); }" class="MCDropDownIcon" /></a>
+            </div>
+            <div class="MCDropDownBody" id="MCDropDownBody_1992572200_9" style="display: none;">
+                <ol>
+                    <li value="1">Выберите элемент управления и щелкните на закладку <span class="SLXBold">Основное</span>.</li>
+                    <li value="2">В группе <span class="SLXBold">Поведение</span> щелкните на поле  <span class="SLXBold">Только Чтение</span>.</li>
+                </ol>
+            </div>
+        </div>
+        <h5 style="margin-bottom: 0.5em;">Формы</h5>
+        <div class="MCDropDown_0">
+            <div class="MCDropDownHead_0"><a class="MCDropDownHotSpot_0" href="javascript:void(0);" id="MCDropDownHotSpot_1992572200_10" onclick="FMCDropDown( this ); return false;" name="kanchor12">Просмотр и изменение свойств формы<img style="border: none;margin-left: 5px;" src="../SkinSupport/DropDownClosed.gif" MadCap:altsrc="../SkinSupport/DropDownOpen.gif" onload="if ( typeof( FMCPreloadImage ) == 'function' ) { FMCPreloadImage( '../SkinSupport/DropDownOpen.gif' ); }" class="MCDropDownIcon" /></a>
+            </div>
+            <div class="MCDropDownBody" id="MCDropDownBody_1992572200_10" style="display: none;">
+                <ol>
+                    <li value="1">Нажмите в области редактирования формы в <span class="MyVariablesFormDesignerName">Редактор форм</span> в любом месте, вне занимаемого пространства, например, в левом верхнем углу.<br /><a href="Form_properties.htm">Свойства формы</a> отображаются в области закладок.</li>
+                    <li value="2">Просмотрите и измените при необходимости значения характеристик.  Например, <span class="SLXBold">Активный Элемент Управления</span> - это элемент управления, который вы хотите, чтобы курсор пользователя запустил, когда представление впервые отображается.</li>
+                </ol>
+            </div>
+        </div>
+        <div class="MCDropDown_0">
+            <div class="MCDropDownHead_0"><a class="MCDropDownHotSpot_0" href="javascript:void(0);" id="MCDropDownHotSpot_1992572200_11" onclick="FMCDropDown( this ); return false;" name="kanchor13">Определить, где используется форма<img style="border: none;margin-left: 5px;" src="../SkinSupport/DropDownClosed.gif" MadCap:altsrc="../SkinSupport/DropDownOpen.gif" onload="if ( typeof( FMCPreloadImage ) == 'function' ) { FMCPreloadImage( '../SkinSupport/DropDownOpen.gif' ); }" class="MCDropDownIcon" /></a>
+            </div>
+            <div class="MCDropDownBody" id="MCDropDownBody_1992572200_11" style="display: none;">
+                <ol>
+                    <li value="1">Нажмите в области редактирования формы в <span class="MyVariablesFormDesignerName">Редактор форм</span> в любом месте, вне занимаемого пространства, например, в левом верхнем углу.<br /><a href="Form_properties.htm">Свойства формы</a> отображаются в области закладок</li>
+                    <li value="2">Откройте закладку <span class="SLXBold">Использование</span>.<br />Все представления, которые содержат форму будут перечислены.<br /></li>
+                </ol>
+            </div>
+        </div>
+        <div class="MCDropDown_0">
+            <div class="MCDropDownHead_0"><a class="MCDropDownHotSpot_0" href="javascript:void(0);" id="MCDropDownHotSpot_1992572200_12" onclick="FMCDropDown( this ); return false;">Изменить ширину колонки столбца элементов управления<img style="border: none;margin-left: 5px;" src="../SkinSupport/DropDownClosed.gif" MadCap:altsrc="../SkinSupport/DropDownOpen.gif" onload="if ( typeof( FMCPreloadImage ) == 'function' ) { FMCPreloadImage( '../SkinSupport/DropDownOpen.gif' ); }" class="MCDropDownIcon" /></a>
+            </div>
+            <div class="MCDropDownBody" id="MCDropDownBody_1992572200_12" style="display: none;">
+                <ol>
+                    <li value="1">Щелкните на переключатель столбцов вверху столбца.<br />Свойства столбца отражаются в области, снабжённой закладками.</li>
+                    <li value="2">В группе <span class="SLXBold">Вид</span> <![CDATA[ ]]>измените <span class="SLXBold">Ширину</span>.</li>
+                    <li value="3">Повторите для каждого столбца.<p>Если <span class="SLXBold">Тип Размера</span> в процентах, то общая ширина столбцов приведённа к 100.</p></li>
+                </ol>
+            </div>
+        </div>
+        <div class="MCDropDown_0">
+            <div class="MCDropDownHead_0"><a class="MCDropDownHotSpot_0" href="javascript:void(0);" id="MCDropDownHotSpot_1992572200_13" onclick="FMCDropDown( this ); return false;">Добавить или удалить пустую строку или столбец<img style="border: none;margin-left: 5px;" src="../SkinSupport/DropDownClosed.gif" MadCap:altsrc="../SkinSupport/DropDownOpen.gif" onload="if ( typeof( FMCPreloadImage ) == 'function' ) { FMCPreloadImage( '../SkinSupport/DropDownOpen.gif' ); }" class="MCDropDownIcon" /></a>
+            </div>
+            <div class="MCDropDownBody" id="MCDropDownBody_1992572200_13" style="display: none;">
+                <ol>
+                    <li value="1">Щелкните правой кнопкой мыши на прямоугольник выбора слево от строки или выше столбца.</li>
+                    <li value="2">Используйте контекстное меню для удаления или добавления пустой стороки или столбца.</li>
+                </ol>
+            </div>
+        </div>
+        <div class="MCDropDown_0">
+            <div class="MCDropDownHead_0"><a class="MCDropDownHotSpot_0" href="javascript:void(0);" id="MCDropDownHotSpot_1992572200_14" onclick="FMCDropDown( this ); return false;">Добавление форм<img style="border: none;margin-left: 5px;" src="../SkinSupport/DropDownClosed.gif" MadCap:altsrc="../SkinSupport/DropDownOpen.gif" onload="if ( typeof( FMCPreloadImage ) == 'function' ) { FMCPreloadImage( '../SkinSupport/DropDownOpen.gif' ); }" class="MCDropDownIcon" /></a>
+            </div>
+            <div class="MCDropDownBody" id="MCDropDownBody_1992572200_14" style="display: none;">
+                <ul>
+                    <li value="1"><a name="kanchor14"></a>Используйте Архитектор приложенийдля добавления форм. Для получения дополнительной информации обратитесь к справке Архитектора приложений к разделу "Создать новую форму».</li>
+                </ul>
+            </div>
+        </div>
+        <p class="RelatedTopics">Смотрите Также</p>
+        <p><a href="What are forms, views, controls, and data fields.htm">Что такое Формы, Представления, Элементы Управления и Поля Данных?</a>
+        </p>
+        <p><a href="Supporting_a_multi-language_environment.htm">Поддержка многоязычного окружения</a>
+        </p>
+        <p>&#160;</p>
+        <table style="caption-side: top;mc-table-style: url('../Resources/TableStyles/Borders.css');width: 100%;border-left-style: solid;border-left-width: 0px;border-left-color: #000000;border-right-style: solid;border-right-width: 0px;border-right-color: #000000;border-top-style: solid;border-top-width: 0px;border-top-color: #000000;border-bottom-style: solid;border-bottom-width: 0px;border-bottom-color: #000000;margin-left: 0;margin-right: auto;" class="TableStyle_Borders" cellspacing="0">
+            <col style="width: 100%;" />
+            <tbody>
+                <tr MadCap:conditions="">
+                    <td style="font-size: 8pt;border-left-style: solid;border-left-width: 0px;border-right-style: solid;border-right-width: 0px;border-top-style: solid;border-top-width: 2px;border-top-color: #cad59f;border-bottom-style: solid;border-bottom-width: 0px;" class="TableStyle_Borders_Body_0_0_RowEnd_ColEnd">
+                        <p style="font-family: Verdana;font-size: 8pt;"><a href="../General/feedback.htm">Скажите нам как мы можем улучшить Помощь</a>.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

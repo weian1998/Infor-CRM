@@ -1,0 +1,8 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\tools\argos-localizer\" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\tools\bundler\" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\tools\JsBit\" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\tools\JSBuilder\" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\tools\jsduck\" />
+</exportedFiles>

@@ -1,0 +1,815 @@
+<?xml version="1.0"?>
+<QuickForm xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="19648f2f-7952-40e0-9c8e-e008afb21df9" DefinitionType="Sage.Platform.QuickForms.QuickFormMainDetailViewDefinition, Sage.Platform.QuickForms">
+  <ActiveControl />
+  <ImagePath />
+  <LoadActions />
+  <Name>TicketHistory</Name>
+  <ClientScriptIncludes />
+  <ClientResourceKeys />
+  <ExtendedProperties />
+  <HelpFile />
+  <ReadOnly>false</ReadOnly>
+  <GeneratePrintView>true</GeneratePrintView>
+  <Controls>
+    <Control typeName="Sage.SalesLogix.QuickForms.QFControls.QFSLXOwner, Sage.SalesLogix.QuickForms.QFControls">
+      <QFSLXOwner>
+        <Column>0</Column>
+        <Row>0</Row>
+        <IsReadOnly>false</IsReadOnly>
+        <HotKey>0</HotKey>
+        <TabIndex>0</TabIndex>
+        <ControlId>ownReceivedBy</ControlId>
+        <DataBindings>
+          <QuickFormPropertyDataBindingDefinition>
+            <DataSourceID>MainEntity</DataSourceID>
+            <DataItemName>ReceivedBy</DataItemName>
+            <ControlItemName>LookupResultValue</ControlItemName>
+            <FormatString />
+            <NullValueString>null</NullValueString>
+          </QuickFormPropertyDataBindingDefinition>
+        </DataBindings>
+        <ControlLabelPlacement>left</ControlLabelPlacement>
+        <ExtendedProperties />
+        <CaptionAlignment>left</CaptionAlignment>
+        <StyleScheme />
+        <OnChangeAction>
+          <ResourceKey>ownReceivedBy</ResourceKey>
+          <Action typeName="Sage.Platform.QuickForms.ActionItems.NoActionActionItem, Sage.Platform.QuickForms">
+            <NoActionActionItem>
+              <MethodName />
+            </NoActionActionItem>
+          </Action>
+          <IsDialogCloseAction>False</IsDialogCloseAction>
+          <RunOnEveryRePaint>False</RunOnEveryRePaint>
+          <DialogActionResult>NoResult</DialogActionResult>
+          <PerformsUpdate>False</PerformsUpdate>
+          <AppliedSecurity />
+          <RefreshData>False</RefreshData>
+        </OnChangeAction>
+        <Required>false</Required>
+        <LookupResultValue xsi:type="xsd:string" />
+        <AutoPostBack>true</AutoPostBack>
+      </QFSLXOwner>
+    </Control>
+    <Control typeName="Sage.SalesLogix.QuickForms.QFControls.QFSLXOwner, Sage.SalesLogix.QuickForms.QFControls">
+      <QFSLXOwner>
+        <Column>0</Column>
+        <Row>1</Row>
+        <IsReadOnly>false</IsReadOnly>
+        <HotKey>0</HotKey>
+        <TabIndex>0</TabIndex>
+        <ControlId>ownCompletedBy</ControlId>
+        <DataBindings>
+          <QuickFormPropertyDataBindingDefinition>
+            <DataSourceID>MainEntity</DataSourceID>
+            <DataItemName>CompletedBy</DataItemName>
+            <ControlItemName>LookupResultValue</ControlItemName>
+            <FormatString />
+            <NullValueString>null</NullValueString>
+          </QuickFormPropertyDataBindingDefinition>
+        </DataBindings>
+        <ControlLabelPlacement>left</ControlLabelPlacement>
+        <ExtendedProperties />
+        <CaptionAlignment>left</CaptionAlignment>
+        <StyleScheme />
+        <OnChangeAction>
+          <ResourceKey>ownCompletedBy</ResourceKey>
+          <Action typeName="Sage.Platform.QuickForms.ActionItems.NoActionActionItem, Sage.Platform.QuickForms">
+            <NoActionActionItem>
+              <MethodName />
+            </NoActionActionItem>
+          </Action>
+          <IsDialogCloseAction>False</IsDialogCloseAction>
+          <RunOnEveryRePaint>False</RunOnEveryRePaint>
+          <DialogActionResult>NoResult</DialogActionResult>
+          <PerformsUpdate>False</PerformsUpdate>
+          <AppliedSecurity />
+          <RefreshData>False</RefreshData>
+        </OnChangeAction>
+        <Required>false</Required>
+        <LookupResultValue xsi:type="xsd:string" />
+        <AutoPostBack>true</AutoPostBack>
+      </QFSLXOwner>
+    </Control>
+    <Control typeName="Sage.Platform.QuickForms.QFControls.QFCheckBox, Sage.Platform.QuickForms.QFControls">
+      <QFCheckBox>
+        <Column>0</Column>
+        <Row>2</Row>
+        <IsReadOnly>true</IsReadOnly>
+        <HotKey>0</HotKey>
+        <TabIndex>0</TabIndex>
+        <ControlId>chkCompletedByNeededDate</ControlId>
+        <DataBindings>
+          <QuickFormPropertyDataBindingDefinition>
+            <DataSourceID>MainEntity</DataSourceID>
+            <DataItemName>CompletedByNeededDate</DataItemName>
+            <ControlItemName>Checked</ControlItemName>
+            <FormatString />
+            <NullValueString>null</NullValueString>
+          </QuickFormPropertyDataBindingDefinition>
+        </DataBindings>
+        <ControlLabelPlacement>right</ControlLabelPlacement>
+        <ExtendedProperties />
+        <CaptionAlignment>left</CaptionAlignment>
+        <StyleScheme />
+        <Checked>false</Checked>
+        <OnChangeAction>
+          <ResourceKey>chkCompletedByNeededDate</ResourceKey>
+          <Action typeName="Sage.Platform.QuickForms.ActionItems.NoActionActionItem, Sage.Platform.QuickForms">
+            <NoActionActionItem>
+              <MethodName />
+            </NoActionActionItem>
+          </Action>
+          <IsDialogCloseAction>False</IsDialogCloseAction>
+          <RunOnEveryRePaint>False</RunOnEveryRePaint>
+          <DialogActionResult>NoResult</DialogActionResult>
+          <PerformsUpdate>False</PerformsUpdate>
+          <AppliedSecurity />
+          <RefreshData>False</RefreshData>
+        </OnChangeAction>
+      </QFCheckBox>
+    </Control>
+    <Control typeName="Sage.Platform.QuickForms.QFControls.QFHorizontalSeparator, Sage.Platform.QuickForms.QFControls">
+      <QFHorizontalSeparator>
+        <ColumnSpan>4</ColumnSpan>
+        <Column>0</Column>
+        <Row>3</Row>
+        <IsReadOnly>false</IsReadOnly>
+        <HotKey>48</HotKey>
+        <TabIndex>0</TabIndex>
+        <ControlId>hzsAuditTrail</ControlId>
+        <DataBindings />
+        <ControlLabelPlacement>none</ControlLabelPlacement>
+        <ExtendedProperties />
+        <CaptionAlignment>left</CaptionAlignment>
+        <StyleScheme />
+        <DisplayAsTitleBar>true</DisplayAsTitleBar>
+      </QFHorizontalSeparator>
+    </Control>
+    <Control typeName="Sage.SalesLogix.QuickForms.QFControls.SDataGrid.QFSDataGrid, Sage.SalesLogix.QuickForms.QFControls">
+      <QFSDataGrid>
+        <ColumnSpan>4</ColumnSpan>
+        <Column>0</Column>
+        <Row>4</Row>
+        <IsReadOnly>false</IsReadOnly>
+        <HotKey>0</HotKey>
+        <TabIndex>0</TabIndex>
+        <ControlId>QFSDataGrid</ControlId>
+        <DataBindings />
+        <ControlLabelPlacement>left</ControlLabelPlacement>
+        <ExtendedProperties />
+        <CaptionAlignment>left</CaptionAlignment>
+        <StyleScheme />
+        <GenerateMember>false</GenerateMember>
+        <ReadOnlyCondition>False</ReadOnlyCondition>
+        <AppliedSecurity />
+        <RelateToPropertyName />
+        <PreviewField />
+        <ResourceKind>
+          <Name>ticketHistory</Name>
+          <GetPredicate />
+        </ResourceKind>
+        <PathSegments />
+        <Columns>
+          <QFSDataDateTimeCol>
+            <StyleScheme />
+            <DataField>CreateDate</DataField>
+            <ColumnId>172d76f3-99b4-4ea1-8414-da75e5e88912</ColumnId>
+            <HorizontalAlignment>left</HorizontalAlignment>
+            <HeaderAlignment>left</HeaderAlignment>
+            <SortDirection>Ascending</SortDirection>
+            <IsSortable>true</IsSortable>
+            <SortField>CreateDate</SortField>
+            <MultiCurrencyDependent>false</MultiCurrencyDependent>
+            <IsEditable>false</IsEditable>
+            <HideCondition />
+            <Width>12</Width>
+            <CustomFormatter />
+            <AbbreviationLength>0</AbbreviationLength>
+            <DateOnly>false</DateOnly>
+          </QFSDataDateTimeCol>
+          <QFSDataSlxUserCol>
+            <StyleScheme />
+            <DataField>CreateUser</DataField>
+            <ColumnId>51deac7c-b02d-44ec-97ca-b8fea21eea43</ColumnId>
+            <HorizontalAlignment>left</HorizontalAlignment>
+            <HeaderAlignment>left</HeaderAlignment>
+            <SortDirection>None</SortDirection>
+            <IsSortable>true</IsSortable>
+            <SortField>CreateUser</SortField>
+            <MultiCurrencyDependent>false</MultiCurrencyDependent>
+            <IsEditable>false</IsEditable>
+            <HideCondition />
+            <Width>12</Width>
+            <CustomFormatter />
+            <AbbreviationLength>0</AbbreviationLength>
+          </QFSDataSlxUserCol>
+          <QFEditableCol>
+            <StyleScheme />
+            <DataField>FieldName</DataField>
+            <ColumnId>d1f6b256-d567-40b6-ae8a-8a3bc328b642</ColumnId>
+            <HorizontalAlignment>left</HorizontalAlignment>
+            <HeaderAlignment>left</HeaderAlignment>
+            <SortDirection>None</SortDirection>
+            <IsSortable>false</IsSortable>
+            <MultiCurrencyDependent>false</MultiCurrencyDependent>
+            <IsEditable>false</IsEditable>
+            <HideCondition />
+            <Width>12</Width>
+            <CustomFormatter />
+            <AbbreviationLength>0</AbbreviationLength>
+          </QFEditableCol>
+          <QFEditableCol>
+            <StyleScheme />
+            <DataField>OldValue</DataField>
+            <ColumnId>19b71659-8053-4cb9-8f99-81170e06c1f7</ColumnId>
+            <HorizontalAlignment>left</HorizontalAlignment>
+            <HeaderAlignment>left</HeaderAlignment>
+            <SortDirection>None</SortDirection>
+            <IsSortable>true</IsSortable>
+            <SortField>OldValue</SortField>
+            <MultiCurrencyDependent>false</MultiCurrencyDependent>
+            <IsEditable>false</IsEditable>
+            <HideCondition />
+            <Width>12</Width>
+            <CustomFormatter>(function () {
+		    var cache = {};
+		    return function (value, inRowIndex, cell) {
+		        // Special format for some of the history fields
+		        var item = cell.grid.getItem(inRowIndex);
+                var fieldName = cell.grid.store.getValue(item, "FieldName").toUpperCase();
+
+                if(cache[fieldName + "/" + value]){
+                    return cache[fieldName + "/" + value];
+                }		        
+		        var formatPicklistid = function (pickListName, itemid) {
+		            var deferred = new dojo.Deferred();
+		            var result = itemid;
+		            var config = {
+		                pickListName: pickListName, // Required
+		                storeMode: "id",
+		                displayMode: "text"
+		            };
+		            this.pickList = new Sage.UI.Controls.PickList(config);
+		            this.pickList.getPickListData(deferred);
+		            deferred.then(dojo.hitch(this,
+                        function (data) {
+                            dojo.forEach(data.items.$resources, function (pickListItem, index, array) {
+                                //console.log(item.id + ' === ' + id);
+                                if (pickListItem.$key === itemid) {
+                                    result = pickListItem.text;
+                                }
+                            }, this);
+
+                        }),
+                        function (e) {
+                            console.error(e); // errback
+                        }
+                    );
+		            return result;
+		        };
+		        var formatSdata = function (resourceKind, id) {
+		            console.log("Format sdata: " + resourceKind + " / " + id);
+		            var def = new dojo.Deferred();
+		            dojo.xhrGet({
+		                url: "slxdata.ashx/slx/dynamic/-/" + resourceKind + "('" + id + "')?format=json&amp;select=Id",
+		                handleAs: "json",
+		                load: function (data) {
+                            cache[fieldName + "/" + value] = data.$descriptor;
+		                    def.resolve(data.$descriptor);
+		                }
+		            });
+		            return def;
+		        };
+		        
+		        switch (fieldName) {
+		            case "STATUSCODE":
+		                return formatPicklistid("Ticket Status", value);
+		            case "ASSIGNEDTOID": case "RECEIVEDBYID": case "COMPLETEDBYID":
+		                return formatSdata("owners", value);
+		            case "ACCOUNTID":
+		                return formatSdata("accounts", value);
+		            case "CONTACTID":
+		                return formatSdata("contacts", value);
+		        }
+		        return value;
+		    };
+		})()
+</CustomFormatter>
+            <AbbreviationLength>0</AbbreviationLength>
+          </QFEditableCol>
+          <QFEditableCol>
+            <StyleScheme />
+            <DataField>NewValue</DataField>
+            <ColumnId>de9a042c-2163-485e-8896-186e17d886ca</ColumnId>
+            <HorizontalAlignment>left</HorizontalAlignment>
+            <HeaderAlignment>left</HeaderAlignment>
+            <SortDirection>None</SortDirection>
+            <IsSortable>true</IsSortable>
+            <SortField>NewValue</SortField>
+            <MultiCurrencyDependent>false</MultiCurrencyDependent>
+            <IsEditable>false</IsEditable>
+            <HideCondition />
+            <Width>12</Width>
+            <CustomFormatter>(function () {
+		    var cache = {};
+		    return function (value, inRowIndex, cell) {
+		        // Special format for some of the history fields
+		        var item = cell.grid.getItem(inRowIndex);
+                var fieldName = cell.grid.store.getValue(item, "FieldName").toUpperCase();
+
+                if(cache[fieldName + "/" + value]){
+                    return cache[fieldName + "/" + value];
+                }		        
+		        var formatPicklistid = function (pickListName, itemid) {
+		            var deferred = new dojo.Deferred();
+		            var result = itemid;
+		            var config = {
+		                pickListName: pickListName, // Required
+		                storeMode: "id",
+		                displayMode: "text"
+		            };
+		            this.pickList = new Sage.UI.Controls.PickList(config);
+		            this.pickList.getPickListData(deferred);
+		            deferred.then(dojo.hitch(this,
+                        function (data) {
+                            dojo.forEach(data.items.$resources, function (pickListItem, index, array) {
+                                //console.log(item.id + ' === ' + id);
+                                if (pickListItem.$key === itemid) {
+                                    result = pickListItem.text;
+                                }
+                            }, this);
+
+                        }),
+                        function (e) {
+                            console.error(e); // errback
+                        }
+                    );
+		            return result;
+		        };
+		        var formatSdata = function (resourceKind, id) {
+		            console.log("Format sdata: " + resourceKind + " / " + id);
+		            var def = new dojo.Deferred();
+		            dojo.xhrGet({
+		                url: "slxdata.ashx/slx/dynamic/-/" + resourceKind + "('" + id + "')?format=json&amp;select=Id",
+		                handleAs: "json",
+		                load: function (data) {
+                            cache[fieldName + "/" + value] = data.$descriptor;
+		                    def.resolve(data.$descriptor);
+		                }
+		            });
+		            return def;
+		        };
+		        
+		        switch (fieldName) {
+		            case "STATUSCODE":
+		                return formatPicklistid("Ticket Status", value);
+		            case "ASSIGNEDTOID": case "RECEIVEDBYID": case "COMPLETEDBYID":
+		                return formatSdata("owners", value);
+		            case "ACCOUNTID":
+		                return formatSdata("accounts", value);
+		            case "CONTACTID":
+		                return formatSdata("contacts", value);
+		        }
+		        return value;
+		    };
+		})()
+</CustomFormatter>
+            <AbbreviationLength>0</AbbreviationLength>
+          </QFEditableCol>
+          <QFEditableCol>
+            <StyleScheme />
+            <DataField>Note</DataField>
+            <ColumnId>0bed4c04-75b7-4c30-b38f-adc480b39157</ColumnId>
+            <HorizontalAlignment>left</HorizontalAlignment>
+            <HeaderAlignment>left</HeaderAlignment>
+            <SortDirection>None</SortDirection>
+            <IsSortable>false</IsSortable>
+            <MultiCurrencyDependent>false</MultiCurrencyDependent>
+            <IsEditable>false</IsEditable>
+            <HideCondition />
+            <Width>-1</Width>
+            <CustomFormatter />
+            <AbbreviationLength>128</AbbreviationLength>
+          </QFEditableCol>
+        </Columns>
+        <ConditionalWhere />
+        <Select />
+        <Include />
+        <FeedCategory>InternalAppEntities</FeedCategory>
+        <OnGetMappingId />
+        <ParentRelationshipPropertyName>Ticket</ParentRelationshipPropertyName>
+        <ChildRelationshipPropertyName />
+        <OnDataChange />
+        <OnAdd />
+        <Tools />
+      </QFSDataGrid>
+    </Control>
+    <Control typeName="Sage.SalesLogix.QuickForms.QFControls.QFDateTimePicker, Sage.SalesLogix.QuickForms.QFControls">
+      <QFDateTimePicker>
+        <Column>1</Column>
+        <Row>0</Row>
+        <IsReadOnly>false</IsReadOnly>
+        <HotKey>0</HotKey>
+        <TabIndex>0</TabIndex>
+        <ControlId>dtpReceivedDate</ControlId>
+        <DataBindings>
+          <QuickFormPropertyDataBindingDefinition>
+            <DataSourceID>MainEntity</DataSourceID>
+            <DataItemName>ReceivedDate</DataItemName>
+            <ControlItemName>DateTimeValue</ControlItemName>
+            <FormatString />
+            <NullValueString>null</NullValueString>
+          </QuickFormPropertyDataBindingDefinition>
+        </DataBindings>
+        <ControlLabelPlacement>left</ControlLabelPlacement>
+        <ExtendedProperties />
+        <CaptionAlignment>left</CaptionAlignment>
+        <StyleScheme />
+        <OnChangeAction>
+          <ResourceKey>dtpReceivedDate</ResourceKey>
+          <Action typeName="Sage.Platform.QuickForms.ActionItems.NoActionActionItem, Sage.Platform.QuickForms">
+            <NoActionActionItem>
+              <MethodName />
+            </NoActionActionItem>
+          </Action>
+          <IsDialogCloseAction>False</IsDialogCloseAction>
+          <RunOnEveryRePaint>False</RunOnEveryRePaint>
+          <DialogActionResult>NoResult</DialogActionResult>
+          <PerformsUpdate>False</PerformsUpdate>
+          <AppliedSecurity />
+          <RefreshData>False</RefreshData>
+        </OnChangeAction>
+        <Required>false</Required>
+        <DateTimeValue xsi:nil="true" />
+        <SelectedDateTime>0001-01-01T00:00:00</SelectedDateTime>
+        <DateOnly>false</DateOnly>
+        <DisplayTime>true</DisplayTime>
+        <BoundFieldType>DateTime</BoundFieldType>
+        <AutoPostBack>false</AutoPostBack>
+        <Timeless>false</Timeless>
+      </QFDateTimePicker>
+    </Control>
+    <Control typeName="Sage.SalesLogix.QuickForms.QFControls.QFDateTimePicker, Sage.SalesLogix.QuickForms.QFControls">
+      <QFDateTimePicker>
+        <Column>1</Column>
+        <Row>1</Row>
+        <IsReadOnly>false</IsReadOnly>
+        <HotKey>0</HotKey>
+        <TabIndex>0</TabIndex>
+        <ControlId>dtpCompletedDate</ControlId>
+        <DataBindings>
+          <QuickFormPropertyDataBindingDefinition>
+            <DataSourceID>MainEntity</DataSourceID>
+            <DataItemName>CompletedDate</DataItemName>
+            <ControlItemName>DateTimeValue</ControlItemName>
+            <FormatString />
+            <NullValueString>null</NullValueString>
+          </QuickFormPropertyDataBindingDefinition>
+        </DataBindings>
+        <ControlLabelPlacement>left</ControlLabelPlacement>
+        <ExtendedProperties />
+        <CaptionAlignment>left</CaptionAlignment>
+        <StyleScheme />
+        <OnChangeAction>
+          <ResourceKey>dtpCompletedDate</ResourceKey>
+          <Action typeName="Sage.Platform.QuickForms.ActionItems.NoActionActionItem, Sage.Platform.QuickForms">
+            <NoActionActionItem>
+              <MethodName />
+            </NoActionActionItem>
+          </Action>
+          <IsDialogCloseAction>False</IsDialogCloseAction>
+          <RunOnEveryRePaint>False</RunOnEveryRePaint>
+          <DialogActionResult>NoResult</DialogActionResult>
+          <PerformsUpdate>False</PerformsUpdate>
+          <AppliedSecurity />
+          <RefreshData>False</RefreshData>
+        </OnChangeAction>
+        <Required>false</Required>
+        <DateTimeValue xsi:nil="true" />
+        <SelectedDateTime>0001-01-01T00:00:00</SelectedDateTime>
+        <DateOnly>false</DateOnly>
+        <DisplayTime>true</DisplayTime>
+        <BoundFieldType>DateTime</BoundFieldType>
+        <AutoPostBack>false</AutoPostBack>
+        <Timeless>false</Timeless>
+      </QFDateTimePicker>
+    </Control>
+    <Control typeName="Sage.SalesLogix.QuickForms.QFControls.QFSLXUser, Sage.SalesLogix.QuickForms.QFControls">
+      <QFSLXUser>
+        <Column>2</Column>
+        <Row>0</Row>
+        <IsReadOnly>true</IsReadOnly>
+        <HotKey>0</HotKey>
+        <TabIndex>0</TabIndex>
+        <ControlId>usrCreateUser</ControlId>
+        <DataBindings>
+          <QuickFormPropertyDataBindingDefinition>
+            <DataSourceID>MainEntity</DataSourceID>
+            <DataItemName>CreateUser</DataItemName>
+            <ControlItemName>LookupResultValue</ControlItemName>
+            <FormatString />
+            <NullValueString />
+          </QuickFormPropertyDataBindingDefinition>
+        </DataBindings>
+        <ControlLabelPlacement>left</ControlLabelPlacement>
+        <ExtendedProperties />
+        <CaptionAlignment>left</CaptionAlignment>
+        <StyleScheme />
+        <OnChangeAction>
+          <ResourceKey>usrCreateUser</ResourceKey>
+          <Action typeName="Sage.Platform.QuickForms.ActionItems.NoActionActionItem, Sage.Platform.QuickForms">
+            <NoActionActionItem>
+              <MethodName />
+            </NoActionActionItem>
+          </Action>
+          <IsDialogCloseAction>False</IsDialogCloseAction>
+          <RunOnEveryRePaint>False</RunOnEveryRePaint>
+          <DialogActionResult>NoResult</DialogActionResult>
+          <PerformsUpdate>False</PerformsUpdate>
+          <AppliedSecurity />
+          <RefreshData>False</RefreshData>
+        </OnChangeAction>
+        <Required>false</Required>
+        <ShowNonLoginUsers>false</ShowNonLoginUsers>
+        <LookupBindingMode>Object</LookupBindingMode>
+        <LookupResultValue xsi:type="xsd:string" />
+        <AutoPostBack>false</AutoPostBack>
+      </QFSLXUser>
+    </Control>
+    <Control typeName="Sage.SalesLogix.QuickForms.QFControls.QFSLXUser, Sage.SalesLogix.QuickForms.QFControls">
+      <QFSLXUser>
+        <Column>2</Column>
+        <Row>1</Row>
+        <IsReadOnly>true</IsReadOnly>
+        <HotKey>0</HotKey>
+        <TabIndex>0</TabIndex>
+        <ControlId>usrModifyUser</ControlId>
+        <DataBindings>
+          <QuickFormPropertyDataBindingDefinition>
+            <DataSourceID>MainEntity</DataSourceID>
+            <DataItemName>ModifyUser</DataItemName>
+            <ControlItemName>LookupResultValue</ControlItemName>
+            <FormatString />
+            <NullValueString />
+          </QuickFormPropertyDataBindingDefinition>
+        </DataBindings>
+        <ControlLabelPlacement>left</ControlLabelPlacement>
+        <ExtendedProperties />
+        <CaptionAlignment>left</CaptionAlignment>
+        <StyleScheme />
+        <OnChangeAction>
+          <ResourceKey>usrModifyUser</ResourceKey>
+          <Action typeName="Sage.Platform.QuickForms.ActionItems.NoActionActionItem, Sage.Platform.QuickForms">
+            <NoActionActionItem>
+              <MethodName />
+            </NoActionActionItem>
+          </Action>
+          <IsDialogCloseAction>False</IsDialogCloseAction>
+          <RunOnEveryRePaint>False</RunOnEveryRePaint>
+          <DialogActionResult>NoResult</DialogActionResult>
+          <PerformsUpdate>False</PerformsUpdate>
+          <AppliedSecurity />
+          <RefreshData>False</RefreshData>
+        </OnChangeAction>
+        <Required>false</Required>
+        <ShowNonLoginUsers>false</ShowNonLoginUsers>
+        <LookupBindingMode>Object</LookupBindingMode>
+        <LookupResultValue xsi:type="xsd:string" />
+        <AutoPostBack>false</AutoPostBack>
+      </QFSLXUser>
+    </Control>
+    <Control typeName="Sage.SalesLogix.QuickForms.QFControls.QFDateTimePicker, Sage.SalesLogix.QuickForms.QFControls">
+      <QFDateTimePicker>
+        <Column>3</Column>
+        <Row>0</Row>
+        <IsReadOnly>true</IsReadOnly>
+        <HotKey>0</HotKey>
+        <TabIndex>0</TabIndex>
+        <ControlId>dtpCreateDate</ControlId>
+        <DataBindings>
+          <QuickFormPropertyDataBindingDefinition>
+            <DataSourceID>MainEntity</DataSourceID>
+            <DataItemName>CreateDate</DataItemName>
+            <ControlItemName>DateTimeValue</ControlItemName>
+            <FormatString />
+            <NullValueString>null</NullValueString>
+          </QuickFormPropertyDataBindingDefinition>
+        </DataBindings>
+        <ControlLabelPlacement>left</ControlLabelPlacement>
+        <ExtendedProperties />
+        <CaptionAlignment>left</CaptionAlignment>
+        <StyleScheme />
+        <OnChangeAction>
+          <ResourceKey>dtpCreateDate</ResourceKey>
+          <Action typeName="Sage.Platform.QuickForms.ActionItems.NoActionActionItem, Sage.Platform.QuickForms">
+            <NoActionActionItem>
+              <MethodName />
+            </NoActionActionItem>
+          </Action>
+          <IsDialogCloseAction>False</IsDialogCloseAction>
+          <RunOnEveryRePaint>False</RunOnEveryRePaint>
+          <DialogActionResult>NoResult</DialogActionResult>
+          <PerformsUpdate>False</PerformsUpdate>
+          <AppliedSecurity />
+          <RefreshData>False</RefreshData>
+        </OnChangeAction>
+        <Required>false</Required>
+        <DateTimeValue xsi:nil="true" />
+        <SelectedDateTime>0001-01-01T00:00:00</SelectedDateTime>
+        <DateOnly>false</DateOnly>
+        <DisplayTime>true</DisplayTime>
+        <BoundFieldType>DateTime</BoundFieldType>
+        <AutoPostBack>false</AutoPostBack>
+        <Timeless>false</Timeless>
+      </QFDateTimePicker>
+    </Control>
+    <Control typeName="Sage.SalesLogix.QuickForms.QFControls.QFDateTimePicker, Sage.SalesLogix.QuickForms.QFControls">
+      <QFDateTimePicker>
+        <Column>3</Column>
+        <Row>1</Row>
+        <IsReadOnly>true</IsReadOnly>
+        <HotKey>0</HotKey>
+        <TabIndex>0</TabIndex>
+        <ControlId>dtpModifyDate</ControlId>
+        <DataBindings>
+          <QuickFormPropertyDataBindingDefinition>
+            <DataSourceID>MainEntity</DataSourceID>
+            <DataItemName>ModifyDate</DataItemName>
+            <ControlItemName>DateTimeValue</ControlItemName>
+            <FormatString />
+            <NullValueString>null</NullValueString>
+          </QuickFormPropertyDataBindingDefinition>
+        </DataBindings>
+        <ControlLabelPlacement>left</ControlLabelPlacement>
+        <ExtendedProperties />
+        <CaptionAlignment>left</CaptionAlignment>
+        <StyleScheme />
+        <OnChangeAction>
+          <ResourceKey>dtpModifyDate</ResourceKey>
+          <Action typeName="Sage.Platform.QuickForms.ActionItems.NoActionActionItem, Sage.Platform.QuickForms">
+            <NoActionActionItem>
+              <MethodName />
+            </NoActionActionItem>
+          </Action>
+          <IsDialogCloseAction>False</IsDialogCloseAction>
+          <RunOnEveryRePaint>False</RunOnEveryRePaint>
+          <DialogActionResult>NoResult</DialogActionResult>
+          <PerformsUpdate>False</PerformsUpdate>
+          <AppliedSecurity />
+          <RefreshData>False</RefreshData>
+        </OnChangeAction>
+        <Required>false</Required>
+        <DateTimeValue xsi:nil="true" />
+        <SelectedDateTime>0001-01-01T00:00:00</SelectedDateTime>
+        <DateOnly>false</DateOnly>
+        <DisplayTime>true</DisplayTime>
+        <BoundFieldType>DateTime</BoundFieldType>
+        <AutoPostBack>false</AutoPostBack>
+        <Timeless>false</Timeless>
+      </QFDateTimePicker>
+    </Control>
+    <Control typeName="Sage.Platform.QuickForms.QFControls.QFDataSource, Sage.Platform.QuickForms.QFControls">
+      <QFDataSource>
+        <Column>0</Column>
+        <Row>6</Row>
+        <IsReadOnly>false</IsReadOnly>
+        <Visible>false</Visible>
+        <HotKey>48</HotKey>
+        <TabIndex>0</TabIndex>
+        <ControlId>dtsHistory</ControlId>
+        <DataBindings />
+        <ControlLabelPlacement>none</ControlLabelPlacement>
+        <ExtendedProperties />
+        <CaptionAlignment>left</CaptionAlignment>
+        <StyleScheme />
+        <EntityTypeName>TicketHistory</EntityTypeName>
+        <GetByMethod />
+        <GetByProperty>TicketHistory</GetByProperty>
+        <UseSmartSelection>true</UseSmartSelection>
+        <DataOptional>false</DataOptional>
+      </QFDataSource>
+    </Control>
+  </Controls>
+  <ToolControls>
+    <Control typeName="Sage.Platform.QuickForms.Controls.QFElementSpacer, Sage.Platform.QuickForms">
+      <QFElementSpacer>
+        <Column>0</Column>
+        <Row>0</Row>
+        <IsReadOnly>false</IsReadOnly>
+        <HotKey>0</HotKey>
+        <TabIndex>0</TabIndex>
+        <ControlId />
+        <DataBindings />
+        <ControlLabelPlacement>left</ControlLabelPlacement>
+        <ExtendedProperties />
+        <CaptionAlignment>left</CaptionAlignment>
+        <StyleScheme />
+      </QFElementSpacer>
+    </Control>
+    <Control typeName="Sage.Platform.QuickForms.Controls.QFElementSpacer, Sage.Platform.QuickForms">
+      <QFElementSpacer>
+        <Column>0</Column>
+        <Row>0</Row>
+        <IsReadOnly>false</IsReadOnly>
+        <HotKey>0</HotKey>
+        <TabIndex>0</TabIndex>
+        <ControlId />
+        <DataBindings />
+        <ControlLabelPlacement>left</ControlLabelPlacement>
+        <ExtendedProperties />
+        <CaptionAlignment>left</CaptionAlignment>
+        <StyleScheme />
+      </QFElementSpacer>
+    </Control>
+    <Control typeName="Sage.Platform.QuickForms.Controls.QFButton, Sage.Platform.QuickForms">
+      <QFButton>
+        <Column>0</Column>
+        <Row>0</Row>
+        <IsReadOnly>false</IsReadOnly>
+        <HotKey>0</HotKey>
+        <TabIndex>0</TabIndex>
+        <ControlId>cmdSave</ControlId>
+        <DataBindings />
+        <ControlLabelPlacement>none</ControlLabelPlacement>
+        <ExtendedProperties />
+        <CaptionAlignment>left</CaptionAlignment>
+        <StyleScheme />
+        <ButtonType>Icon</ButtonType>
+        <Image>[Localization!Global_Images:Save_16x16]</Image>
+        <OnClientClick />
+        <OnClickAction>
+          <ResourceKey>cmdSave</ResourceKey>
+          <Action typeName="Sage.Platform.QuickForms.ActionItems.BusinessRuleActionItem, Sage.Platform.QuickForms">
+            <BusinessRuleActionItem>
+              <BusinessRule>Save</BusinessRule>
+              <Object>Ticket</Object>
+              <Parameters />
+              <PassResultsToNextAction>False</PassResultsToNextAction>
+              <OnComplete typeName="Sage.Platform.QuickForms.ActionItems.NoActionActionItem, Sage.Platform.QuickForms">
+                <NoActionActionItem>
+                  <MethodName />
+                </NoActionActionItem>
+              </OnComplete>
+            </BusinessRuleActionItem>
+          </Action>
+          <IsDialogCloseAction>False</IsDialogCloseAction>
+          <RunOnEveryRePaint>False</RunOnEveryRePaint>
+          <DialogActionResult>NoResult</DialogActionResult>
+          <PerformsUpdate>True</PerformsUpdate>
+          <AppliedSecurity />
+          <RefreshData>False</RefreshData>
+        </OnClickAction>
+      </QFButton>
+    </Control>
+  </ToolControls>
+  <Columns>
+    <ColumnStyle>
+      <SizeType>Percent</SizeType>
+      <Width>10</Width>
+    </ColumnStyle>
+    <ColumnStyle>
+      <SizeType>Percent</SizeType>
+      <Width>10</Width>
+    </ColumnStyle>
+    <ColumnStyle>
+      <SizeType>Percent</SizeType>
+      <Width>10</Width>
+    </ColumnStyle>
+    <ColumnStyle>
+      <SizeType>Percent</SizeType>
+      <Width>10</Width>
+    </ColumnStyle>
+  </Columns>
+  <Rows>
+    <RowStyle>
+      <SizeType>Absolute</SizeType>
+      <Height>35</Height>
+    </RowStyle>
+    <RowStyle>
+      <SizeType>Absolute</SizeType>
+      <Height>35</Height>
+    </RowStyle>
+    <RowStyle>
+      <SizeType>Absolute</SizeType>
+      <Height>35</Height>
+    </RowStyle>
+    <RowStyle>
+      <SizeType>Absolute</SizeType>
+      <Height>35</Height>
+    </RowStyle>
+    <RowStyle>
+      <SizeType>Absolute</SizeType>
+      <Height>35</Height>
+    </RowStyle>
+    <RowStyle>
+      <SizeType>Absolute</SizeType>
+      <Height>35</Height>
+    </RowStyle>
+  </Rows>
+  <Description />
+  <UseEntityNameAsTitle>false</UseEntityNameAsTitle>
+  <EntityTypeName>ITicket</EntityTypeName>
+  <DefaultNamespace>Sage.Entity.Interfaces</DefaultNamespace>
+  <AssemblyName>Sage.Entity.Interfaces</AssemblyName>
+</QuickForm>

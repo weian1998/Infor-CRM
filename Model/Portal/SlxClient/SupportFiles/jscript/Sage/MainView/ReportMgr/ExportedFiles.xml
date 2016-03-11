@@ -1,0 +1,21 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\ReportMgr\FilterConfigurationProvider.js" timeStamp="2015-05-28T03:09:04.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\ReportMgr\HistoryListPanelConfig.js" timeStamp="2015-05-28T03:09:04.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\ReportMgr\main.js" timeStamp="2015-05-28T03:09:04.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\ReportMgr\ReportManagerActions.js" timeStamp="2015-05-28T03:09:04.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\ReportMgr\ReportManagerFormatter.js" timeStamp="2015-05-28T03:09:04.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\ReportMgr\ReportManagerGroupContextService.js" timeStamp="2015-05-28T03:09:04.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\ReportMgr\ReportManagerUtility.js" timeStamp="2015-05-28T03:09:04.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\ReportMgr\ReportsListPanelConfig.js" timeStamp="2015-05-28T03:09:04.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\ReportMgr\ReportsSDataDetailViewDataManager.js" timeStamp="2015-05-28T03:09:04.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\ReportMgr\ReportsSDataSummaryFormatterScope.js" timeStamp="2015-05-28T03:09:04.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\ReportMgr\ReportWizardController.js" timeStamp="2015-05-28T03:09:04.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\ReportMgr\SchedulesListPanelConfig.js" timeStamp="2015-05-28T03:09:04.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\ReportMgr\SchedulesSDataDetailViewDataManager.js" timeStamp="2015-05-28T03:09:04.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\ReportMgr\SchedulesSDataSummaryFormatterScope.js" timeStamp="2015-05-28T03:09:04.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\ReportMgr\Common\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\ReportMgr\Crystal\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\ReportMgr\nls\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\ReportMgr\templates\" />
+</exportedFiles>

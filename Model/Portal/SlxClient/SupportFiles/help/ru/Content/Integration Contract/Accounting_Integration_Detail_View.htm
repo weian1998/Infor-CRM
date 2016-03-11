@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:fileTags="Translation Status.Support files" MadCap:tocPath="" MadCap:medium="non-print" MadCap:InPreviewMode="false" MadCap:PreloadImages="false" MadCap:RuntimeFileType="Topic" MadCap:TargetType="WebHelp" lang="ru" xml:lang="ru" MadCap:conditions="Output.IntegrationContract,Output.WebClient" MadCap:PathToHelpSystem="../../" MadCap:HelpSystemFileName="WebClient.xml" MadCap:SearchType="Stem">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Детальное представление Интеграции Учета</title>
+        <link href="../SkinSupport/Slideshow.css" rel="stylesheet" />
+        <link href="../SkinSupport/MadCap.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/Infor.CSS" rel="stylesheet" />
+        <script src="../SkinSupport/jquery.min.js">
+        </script>
+        <script src="../SkinSupport/MadCapAll.js">
+        </script>
+        <script src="../SkinSupport/MadCapTopicAll.js">
+        </script>
+    </head>
+    <body>
+        <h1>Детальное представление Интеграции Учета</h1>
+        <p>Эта тема больше не применяется. Сведения о настройке SData синхронизации см. в разделе "Использование SData синхронизации".</p>
+        <p><a name="kanchor495"></a>Используйте детальное представление Интеграции Учета для настройки связей между <span class="MyVariablesCompanyNameShort">Infor</span> и вашими учетными системами.</p>
+        <p>Интеграция Учета возможна, когда возможны и настроены точки интеграции на стороне <span class="MyVariablesCompanyNameShort">Infor</span> и на стороне учетной системы. Если ничего не указано на закладке Системы учета, тогда интеграция не возможна.</p>
+        <table wrapperparagraphselector="P" style="width: 80%;margin-top: 14pt;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" width="80%">
+            <col style="width: 45px;" />
+            <col />
+            <tr>
+                <td style="padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top">
+                    <p align="center">
+                        <img src="../image/note.gif" />
+                    </p>
+                </td>
+                <td style="width: 90%;padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top" width="90%">
+                    <p class="Tip-Note-Text" style="margin-bottom: 0;">Когда вы включаете или отключаете Интеграцию учета, изменения вступят в силу только после повторного входа в систему.</p>
+                </td>
+            </tr>
+        </table>
+        <p>Установите свойства подаваемой информации для <span class="MyVariablesCompanyNameShort">Infor</span>, затем настройте свойства информации для каждой интегрируемой учетной системы.</p>
+        <p class="Infinitive">Чтобы установить</p>
+        <ol>
+            <li value="1">В меню <span class="SLXBold">Администрирование</span> выберите <span class="SLXBold">Установка интеграции</span></li>
+            <li value="2">В поле <span class="SLXBold"><span class="MyVariablesCompanyNameShort">Infor</span> Канал</span> введите адрес портала SData, который используется <span class="MyVariablesCompanyNameShort">Infor</span> для обмена информацией между системами.	</li>
+            <ul>
+                <li value="1">&#160;Выполните одно из следующих действий:
+						<ul><li value="1">Если ваша реализация не использует порт по умолчанию (порт 80), используйте формат http://server:port/sdatavirtualdir/<i>application</i>/<i>contract</i>/dataset/</li><li value="2"> Если ваша реализация использует порт 80, опустите номер порта в адресе. Сервис Sync автоматически удаляет порт по умолчанию из адреса, что вызывает проблемы и ошибки. Избежать этого можно, используя формат http://server/sdatavirutaldir/<i>application</i>/<i>contract</i>/<i>dataset</i>/</li></ul></li>
+                <li value="2">Замените значения представленными Вашим партнером по интеграции:<ul><li value="1">&#160;<i>Sdatavirtualdir</i> – например, sdata.</li><li value="2"><i>application</i> – наименование вашей системы учета. Например, accounts50.</li><li value="3"><i>contract</i> – наименование контракта. Например, GCRM.</li><li value="4"><i>dataset</i> – различает набор данных или рабочей компании. Например, / - /</li></ul></li>
+            </ul>
+            <li value="3">В поле <span class="SLXBold">Имя пользователя</span>, введите имя пользователя для базы данных <span class="MyVariablesCompanyNameShort">Infor</span>, к которой подсоединяется учетная система.</li>
+            <li value="4">В поле <span class="SLXBold">Пароль</span> введите пароль для имени пользователя.</li>
+            <li value="5">В поле <span class="SLXBold">Название</span> введите отображаемое название для потока.</li>
+            <li value="6">При необходимости, выберите <span class="SLXBold">Ограничить выдвижение Субъекта в единственную систему учета</span>, чтобы ограничить интеграцию одной учетной системой.</li>
+            <li value="7">При необходимости, установите флажок <span class="SLXBold">Разрешить системе учета управлять Заказами</span> для удаления возможности создавать и редактировать <a href="../Sales Orders/salesorderoverview.htm" target="_self">заказы</a> в <span class="MyVariablesCompanyNameShort">Infor</span>. Когда вы выставите этот флажок, ваша система учета должна быть использована для управления заказами. </li>
+            <table wrapperparagraphselector="P" style="width: 80%;margin-top: 14pt;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" width="80%">
+                <col style="width: 45px;" />
+                <col />
+                <tr>
+                    <td style="padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top">
+                        <p style="text-align: center;margin-bottom: 0;" align="center">
+                            <img src="../image/note.gif" />
+                        </p>
+                    </td>
+                    <td style="width: 90%;padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top" width="90%">
+                        <p>Эта опция необходима для некоторых интеграции, например, с X3.</p>
+                    </td>
+                </tr>
+            </table>
+            <li value="8">Нажмите  <span class="MCExpanding_0"><a href="javascript:void(0);" class="MCExpandingHead_0" onclick="FMCExpand( this ); return false;">Сохранить<img style="border: none;margin-left: 5px;" src="../SkinSupport/ExpandClosed.gif" MadCap:altsrc="../SkinSupport/ExpandOpen.gif" onload="if ( typeof( FMCPreloadImage ) == 'function' ) { FMCPreloadImage( '../SkinSupport/ExpandOpen.gif' ); }" alt="Closed" MadCap:alt2="Open" class="MCExpandingIcon" /></a><span class="MCExpandingBody_0" style="display: none;"><img src="../image/update.gif" /></span></span></li>
+            <li value="9">Используйте закладку <a href="Accounting_Systems_Tab.htm" target="_self">Системы учета</a> для настройки деталей снабжения для вашей учетной системы.</li>
+            <li value="10">Используйте закладку <a href="Synchronization_Tab.htm" target="_self">Синхронизация</a> для настройки интервалов синхронизации.</li>
+            <li value="11">Используйте закладку <a href="Matching_Tab.htm" target="_self">Совпадения</a>, чтобы установить глобальные стандартные критерии совпадений для пользователей, создающих связи.</li>
+        </ol>
+        <p class="RelatedTopics">Как выполнить?</p>
+        <p><a href="Linking_Records.htm" target="_self">Связать Записи</a>
+        </p>
+        <p><a href="FindSchemaDifferences.htm" target="_self">Проверить целостность данных Учетных систем</a>
+        </p>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

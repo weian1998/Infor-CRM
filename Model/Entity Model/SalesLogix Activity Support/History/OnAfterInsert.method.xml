@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<method xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="9fad6c19-d360-4ea6-9ec3-3f4292c902d2" lastModifiedUtc="2013-10-18T21:48:43.3997178Z" name="OnAfterInsert" methodType="CrudEvent" actionType="None" returnMode="None">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmEntityMethod" />
+  </ExtendedPropertiesCollection>
+  <parameter />
+  <preExecuteTargets />
+  <methodTargets>
+    <methodTarget xsi:type="OrmMethodTargetSnippet" id="8226d62e-0b3d-464d-b005-9827a5252c51" lastModifiedUtc="2013-05-20T15:17:02.0533074Z" targetType="Sage.BusinessRules.CodeSnippets.HistoryBusinessRules, Sage.SnippetLibrary.CSharp" targetMethod="OnAfterInsertStep" active="true" description="This step is here so that the Post Execute Step can be disabled easily. This step currently does nothing, except allow a Post Execute Step to be executed." codeSnippetId="3339a093-f22a-4c0c-b4c4-56592016706c">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmMethodTargetSnippet" />
+      </ExtendedPropertiesCollection>
+    </methodTarget>
+  </methodTargets>
+  <postExecuteTargets>
+    <methodTarget id="d92dfd27-4b34-46da-90e0-56fb1626fd51" lastModifiedUtc="2013-10-18T21:49:57.1830954Z" targetType="Sage.SalesLogix.Activity.BusinessRules.HistoryRules, Sage.SalesLogix.Activity" targetMethod="CreateTicketActivity" active="true" description="Creates a TicketActivity record">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmMethodTarget" />
+      </ExtendedPropertiesCollection>
+    </methodTarget>
+  </postExecuteTargets>
+  <postFlushTargets />
+</method>

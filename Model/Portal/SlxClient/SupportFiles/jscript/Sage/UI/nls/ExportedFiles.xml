@@ -1,0 +1,36 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\UI\nls\_AbstractGrid.js" timeStamp="2015-05-28T03:09:17.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\UI\nls\ActivityList.js" timeStamp="2015-05-28T03:09:17.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\UI\nls\ActivityScheduler.js" timeStamp="2015-05-28T03:09:17.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\UI\nls\AttachmentList.js" timeStamp="2015-05-28T03:09:17.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\UI\nls\Boolean.js" timeStamp="2015-05-28T03:09:17.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\UI\nls\CalendarUsersListPane.js" timeStamp="2015-05-28T03:09:17.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\UI\nls\ConditionManager.js" timeStamp="2015-05-28T03:09:17.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\UI\nls\Dialogs.js" timeStamp="2015-05-28T03:09:17.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\UI\nls\EditableGrid.js" timeStamp="2015-05-28T03:09:17.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\UI\nls\EditCalendarUsers.js" timeStamp="2015-05-28T03:09:17.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\UI\nls\GroupsTitlePaneConfigProvider.js" timeStamp="2015-05-28T03:09:17.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\UI\nls\JobSchedulingWidget.js" timeStamp="2015-05-28T03:09:17.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\UI\nls\ListPanel.js" timeStamp="2015-05-28T03:09:17.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\UI\nls\Login.js" timeStamp="2015-05-28T03:09:17.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\UI\nls\NotesHistoryList.js" timeStamp="2015-05-28T03:09:17.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\UI\nls\OwnerType.js" timeStamp="2015-05-28T03:09:17.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\UI\nls\SDataFeed.js" timeStamp="2015-05-28T03:09:17.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\UI\nls\SDataLookup.js" timeStamp="2015-05-28T03:09:18.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\UI\nls\SearchConditionWidget.js" timeStamp="2015-05-28T03:09:18.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\UI\nls\SearchMenuItem.js" timeStamp="2015-05-28T03:09:18.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\UI\nls\SLXPreviewGrid.js" timeStamp="2015-05-28T03:09:18.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\UI\nls\SpeedSearch.js" timeStamp="2015-05-28T03:09:18.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\UI\nls\TimelessActivitiesPane.js" timeStamp="2015-05-28T03:09:18.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\UI\nls\TimeZoneItem.js" timeStamp="2015-05-28T03:09:18.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\UI\nls\TransferBoxWidget.js" timeStamp="2015-05-28T03:09:18.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\UI\nls\UserType.js" timeStamp="2015-05-28T03:09:18.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\UI\nls\WebFeedWidget.js" timeStamp="2015-05-28T03:09:18.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\UI\nls\WebSiteWidget.js" timeStamp="2015-05-28T03:09:18.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\UI\nls\de\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\UI\nls\en\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\UI\nls\fr\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\UI\nls\it\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\UI\nls\ru\" />
+</exportedFiles>

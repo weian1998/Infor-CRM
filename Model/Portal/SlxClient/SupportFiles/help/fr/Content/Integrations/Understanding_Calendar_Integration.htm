@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:fileTags="Translation Status.Support files" xml:lang="fr" MadCap:tocPath="Utilisation des intégrations|Intégration avec Outlook|Utilisation de la Synchronisation Outlook|Synchronisation d'agendas" MadCap:medium="non-print" MadCap:InPreviewMode="false" MadCap:PreloadImages="false" MadCap:RuntimeFileType="Topic" MadCap:TargetType="WebHelp" lang="fr" MadCap:conditions="Output.Integrations LAN,Output.OutlookSync,Output.WebClient,Output.GSLAN,Output.GSWeb,Output.OutlookSync WP,Output.ExchangeSync,Output.GoogleSync WP,Integrations.Admin,Integrations.User,Integrations.ExchangeAdmin" MadCap:PathToHelpSystem="../../" MadCap:HelpSystemFileName="WebClient.xml" MadCap:SearchType="Stem">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Présentation de la synchronisation d'agendas avec Outlook</title>
+        <link href="../SkinSupport/Slideshow.css" rel="stylesheet" />
+        <link href="../SkinSupport/MadCap.css" rel="stylesheet" />
+        <link href="../Resources/TableStyles/TableStyle.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/Infor.CSS" rel="stylesheet" />
+        <script src="../SkinSupport/jquery.min.js">
+        </script>
+        <script src="../SkinSupport/MadCapAll.js">
+        </script>
+        <script src="../SkinSupport/MadCapTopicAll.js">
+        </script>
+    </head>
+    <body>
+        <h1 MadCap:conditions="Integrations.Not Print">Présentation de la synchronisation d'agendas avec <span class="MyVariablesIntegrated (an)/Outlook (Caps)">Outlook</span></h1>
+        <p>L'intégration de l'agenda vous permet de synchroniser les éléments d'agenda entre <span class="MyVariablesProduct Name">Infor CRM</span> et <span class="MyVariablesIntegrated (an)/Outlook (lower)">Outlook</span>.<MadCap:conditionalText MadCap:conditions="Integrations.User,Integrations.ExchangeUser,Output.GSLAN,Output.GSWeb,Output.Integrations LAN,Output.OutlookSync,Output.WebClient"> Votre administrateur doit configurer et accorder une autorisation pour vous permettre de synchroniser des agendas avec <span class="MyVariablesIntegrated (an)/Outlook (lower)">Outlook</span>.</MadCap:conditionalText></p>
+        <table wrapperparagraphselector="P" style="width: 80%;margin-top: 14pt;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" width="80%">
+            <col style="width: 45px;" />
+            <col />
+            <tr>
+                <td style="padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top">
+                    <p style="text-align: center;margin-bottom: 0;" align="center">
+                        <img src="../image/note.gif" />
+                    </p>
+                </td>
+                <td style="width: 90%;padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top" width="90%">
+                    <p class="Tip-Note-Text" style="margin-bottom: 0;">Il est possible que cette fonction ne soit pas disponible pour tous les utilisateurs. Les intégrations externes doivent être implémentées par votre administrateur.</p>
+                </td>
+            </tr>
+        </table>
+        <p>Pendant un cycle de synchronisation, <span class="MyVariablesProduct Name">Infor CRM</span> compare les champs dans les deux applications et apporte des modifications de sorte que les informations soient les mêmes partout. Seules les données des champs mappés entre les applications sont transférées. Les données sont comparées et des modifications sont apportées afin de s'assurer que les informations <a href="Matching_Records.htm">correspondent</a>. Par exemple, si un enregistrement a été ajouté dans une application et pas dans l'autre, il va être ajouté dans l'application incomplète.</p>
+        <table wrapperparagraphselector="P" style="width: 80%;margin-top: 14pt;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" width="80%" MadCap:conditions="Output.WebClient,Output.OutlookSync,Output.Integrations LAN">
+            <col style="width: 45px;" />
+            <col />
+            <tr MadCap:conditions="">
+                <td style="padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top">
+                    <p style="text-align: center;margin-bottom: 0;" align="center">
+                        <img src="../image/note.gif" />
+                    </p>
+                </td>
+                <td style="width: 90%;padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top" width="90%">La synchronisation est affectée par la sécurité intégrée des données associée à l'utilisateur connecté à <span class="MyVariablesProduct Name">Infor CRM</span>. La quantité de données pouvant être transférée est limitée par les droits de sécurité de l'utilisateur connecté.</td>
+            </tr>
+        </table>
+        <p class="subheading" MadCap:conditions="Integrations.Not Print">Comportement de synchronisation des agendas</p>
+        <ul>
+            <li MadCap:conditions="Integrations.OutlookSync" value="1">Si le même enregistrement est mis à jour dans les deux applications durant le même cycle de synchronisation, la dernière modification a préséance.</li>
+            <li value="2">La suppression d'une activité dans l'une ou l'autre application supprime l'activité des deux applications.</li>
+            <li value="3">Responsables, membres et ressources d'activité&#160;:<ul><li value="1">Les informations concernant les membres et les ressources ne sont pas synchronisées. </li><li MadCap:conditions="Integrations.OutlookSync" value="2">Si l'utilisateur est membre ou responsable d'une activité, lorsque l'activité est synchronisée, l'utilisateur obtient son propre enregistrement d'activité.</li></ul></li>
+            <li value="4">Les activités confirmées et non confirmées seront synchronisées.</li>
+            <li value="5">Activités refusées&#160;:<ul><li value="1">Les activités refusées avant un cycle de synchronisation ne sont pas synchronisées. </li><li MadCap:conditions="Integrations.OutlookSync" value="2">Les activités qui sont refusées après un cycle de synchronisation sont supprimées de l'agenda de l'utilisateur dans les deux applications.</li></ul></li>
+            <li value="6">Les types d'activité dans <span class="MyVariablesProduct Name">Infor CRM</span> peuvent être synchronisés avec différents types d'activité dans <span class="MyVariablesIntegrated (an)/Outlook (lower)">Outlook</span>. Pour des détails, voir le tableau Présentation de l'échange de données d'agenda.</li>
+            <li value="7">Les pièces jointes de l'activité ne sont pas synchronisées entre <span class="MyVariablesProduct Name">Infor CRM</span> et <span class="MyVariablesIntegrated (an)/Outlook (lower)">Outlook</span>.</li>
+            <li MadCap:conditions="Integrations.OutlookSync,Output.GSLAN,Output.GSWeb,Output.Integrations LAN,Output.OutlookSync,Output.WebClient" value="8">
+                <MadCap:conditionalText MadCap:conditions="Output.WebClient,Output.Integrations LAN">(<span class="MyVariablesOutlook sync">Synchronisation d'Outlook</span> uniquement) </MadCap:conditionalText>Outlook comporte des options de synchronisation Outlook qui empêchent la synchronisation des rendez-vous et des tâches avant une date sélectionnée. En revanche, les activités qui sont modifiées (y compris la mise en veille ou la désactivation d'une alarme) après la date sélectionnée et toute occurrence passée d'une activité récurrente en cours seront synchronisées.</li>
+        </ul>
+        <p MadCap:conditions="Output.GSLAN,Output.GSWeb,Output.Integrations LAN,Output.OutlookSync,Output.WebClient">
+            <MadCap:conditionalText MadCap:conditions="Output.WebClient,Output.OutlookSync,Output.Integrations LAN">Pour des scénarios spécifiques, voir <a href="Synchronizing_Calendars_Scenarios.htm">Scénarios de synchronisation d'agendas</a>.</MadCap:conditionalText>&#160;</p>
+        <p class="subheading" MadCap:conditions="Integrations.Not Print">Présentation de l'échange de données d'agenda</p>
+        <p MadCap:conditions="Output.Integrations LAN,Output.OutlookSync,Output.WebClient,Output.OutlookSync WP,Integrations.User,Integrations.Admin">Le tableau suivant répertorie comment les données de l'agenda <span class="MyVariablesProduct Name">Infor CRM</span> sont synchronisées avec <span class="MyVariablesIntegrated (an)/Outlook (lower)">Outlook</span>&#160;:</p>
+        <table style="width: 95%;mc-table-style: url('../Resources/TableStyles/TableStyle.css');margin-left: 0;margin-right: auto;" class="TableStyle-TableStyle" cellspacing="0" MadCap:conditions="Output.Integrations LAN,Output.OutlookSync,Output.WebClient,Output.OutlookSync WP,Integrations.Admin,Integrations.User">
+            <col class="TableStyle-TableStyle-Column-Column1" style="width: 435px;">
+            </col>
+            <col class="TableStyle-TableStyle-Column-Column1" style="width: 109px;">
+            </col>
+            <col class="TableStyle-TableStyle-Column-Column1" style="width: 243px;" MadCap:conditions="Integrations.OutlookSync">
+            </col>
+            <thead>
+                <tr class="TableStyle-TableStyle-Head-Header1">
+                    <th class="TableStyle-TableStyle-HeadE-Column1-Header1" MadCap:conditions="Output.Integrations LAN,Output.OutlookSync,Output.WebClient"><span class="MyVariablesProduct Name">Infor CRM</span>
+                    </th>
+                    <th class="TableStyle-TableStyle-HeadE-Column1-Header1">Synchronisation en tant que</th>
+                    <th class="TableStyle-TableStyle-HeadD-Column1-Header1" MadCap:conditions="Output.Integrations LAN,Output.OutlookSync,Output.WebClient"><span class="MyVariablesOutlook(short)">Outlook</span>
+                    </th>
+                    <th class="TableStyle-TableStyle-HeadE-Column1-Header1"><span class="MyVariablesIntegrated (an)/Outlook (Caps)">Outlook</span>
+                    </th>
+                    <th class="TableStyle-TableStyle-HeadD-Column1-Header1"><span class="MyVariablesGoogle">Google</span>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1" MadCap:conditions="Output.Integrations LAN,Output.OutlookSync,Output.WebClient">Réunions</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">synchronisation en tant que</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1" MadCap:conditions="Output.Integrations LAN,Output.OutlookSync,Output.WebClient">Rendez-vous</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Evénements*</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1" MadCap:conditions="Output.Integrations LAN,Output.OutlookSync,Output.WebClient">Appels téléphoniques</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">synchronisation en tant que</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1" MadCap:conditions="Output.Integrations LAN,Output.OutlookSync,Output.WebClient">Rendez-vous</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Evénements*</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1" MadCap:conditions="Output.Integrations LAN,Output.OutlookSync,Output.WebClient">Activités personnelles</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">synchronisation en tant que</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1" MadCap:conditions="Output.Integrations LAN,Output.OutlookSync,Output.WebClient">Rendez-vous, avec la mention « Privé »</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Evénements marqués comme «&#160;Privés&#160;»</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1" MadCap:conditions="Output.Integrations LAN,Output.OutlookSync,Output.WebClient">Tâches à faire</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">synchronisation en tant que</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1" MadCap:conditions="Output.Integrations LAN,Output.OutlookSync,Output.WebClient">Tâches</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Tâches</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1" MadCap:conditions="Output.Integrations LAN,Output.OutlookSync,Output.WebClient">Evénements</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">pas de synchronisation</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1" MadCap:conditions="Output.Integrations LAN,Output.OutlookSync,Output.WebClient">&#160;</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">&#160;</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyB-Column1-Body1" MadCap:conditions="Output.Integrations LAN,Output.OutlookSync,Output.WebClient">Appel téléphonique, réunion ou activité personnelle sans horaire défini</td>
+                    <td class="TableStyle-TableStyle-BodyB-Column1-Body1">synchronisation en tant que</td>
+                    <td class="TableStyle-TableStyle-BodyA-Column1-Body1" MadCap:conditions="Output.Integrations LAN,Output.OutlookSync,Output.WebClient">Evénement d'une journée entière*</td>
+                    <td class="TableStyle-TableStyle-BodyB-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-TableStyle-BodyA-Column1-Body1">Evénements sans horaire défini</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>*Evénement ne désigne pas les événements <span class="MyVariablesProduct Name">Infor CRM</span>, qui ne sont pas synchronisé avec <span class="MyVariablesIntegrated (an)/Outlook (lower)">Outlook</span>.</p>
+        <p class="RelatedTopics">Procédure</p>
+        <ul>
+            <li MadCap:conditions="Output.Integrations LAN,Output.OutlookSync,Output.WebClient" value="1"><a href="../Outlook/Configuring_Outlook_Sync.htm">Définition des options de l'agenda</a>
+            </li>
+            <li MadCap:conditions="Integrations.OutlookSync" value="2"><a href="javascript:void(0);" onclick="FMCToggler( this ); return false;" class="MCToggler_0" MadCap:targets="manual">Synchronisation manuelle de l'agenda et des contacts<img style="border: none;margin-left: 5px;" src="../SkinSupport/DropDownClosed.gif" MadCap:altsrc="../SkinSupport/DropDownOpen.gif" onload="if ( typeof( FMCPreloadImage ) == 'function' ) { FMCPreloadImage( '../SkinSupport/DropDownOpen.gif' ); }" alt="Closed" MadCap:alt2="Open" class="MCTogglerIcon" /></a> (synchronisation Outlook uniquement)<ul MadCap:targetName="manual" style="display: none;"><li value="1">Dans Outlook, cliquez sur le bouton <span class="SLXBold">Synchroniser maintenant</span>.</li></ul></li>
+        </ul>
+        <table wrapperparagraphselector="P" style="width: 80%;margin-top: 14pt;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" width="80%" MadCap:conditions="Output.WebClient,Output.OutlookSync,Output.Integrations LAN">
+            <col style="width: 45px;">
+            </col>
+            <col>
+            </col>
+            <tr>
+                <td style="padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top">
+                    <p style="text-align: center;margin-bottom: 0;" align="center">
+                        <img src="../image/caution.gif">
+                        </img>
+                    </p>
+                </td>
+                <td style="width: 90%;padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top" width="90%">
+                    <p class="Tip-Note-Text" style="margin-bottom: 0;">Il est déconseillé de synchroniser simultanément le client distant avec la base de données du bureau principal et Microsoft Outlook. Cela réduit considérablement la vitesse de la synchronisation et provoque des problèmes de mémoire. <span class="MyVariablesProduct Name">Infor CRM</span> recommande de vous synchroniser avec MS&#160;Outlook avant ou après avoir synchronisé votre base de données distante.</p>
+                </td>
+            </tr>
+        </table>
+        <p class="RelatedTopics">Rubriques connexes</p>
+        <p MadCap:conditions="Output.Integrations LAN,Output.OutlookSync,Output.WebClient"><a href="Synchronizing_Calendars_Scenarios.htm">Scénarios de synchronisation d'agendas</a>
+        </p>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

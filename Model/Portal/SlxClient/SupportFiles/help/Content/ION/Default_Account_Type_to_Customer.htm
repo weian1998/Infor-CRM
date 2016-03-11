@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:fileTags="Translation Status.Support files" MadCap:tocPath="" MadCap:medium="non-print" MadCap:InPreviewMode="false" MadCap:PreloadImages="false" MadCap:RuntimeFileType="Topic" MadCap:TargetType="WebHelp" lang="en-us" xml:lang="en-us" MadCap:conditions="Integrations.ION" class="" MadCap:PathToHelpSystem="../../" MadCap:HelpSystemFileName="WebClient.xml" MadCap:SearchType="Stem">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Defaulting the Account Type to Customer (Back Office Extension)</title>
+        <link href="../SkinSupport/Slideshow.css" rel="stylesheet" />
+        <link href="../SkinSupport/MadCap.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/Infor.CSS" rel="stylesheet" />
+        <script src="../SkinSupport/jquery.min.js">
+        </script>
+        <script src="../SkinSupport/MadCapAll.js">
+        </script>
+        <script src="../SkinSupport/MadCapTopicAll.js">
+        </script>
+    </head>
+    <body>
+        <h1><a name="kanchor594"></a>Defaulting the Account Type to Customer (Back Office Extension)</h1>
+        <p>Infor CRM&#160;Back Office Extension only. A Back Office Extension is an ERP system that is configured to send information to display in Infor CRM. Back Office Extension is managed by an administrator. Some organizations may need to default the account type to Customer. Please refer to your ERP-specific integration guide to determine if this step is necessary.</p>
+        <p>In order to set a default account type, you must add a new field mapping to the Account BOD&#160;Mapping.</p>
+        <p>The system administrator and users with the appropriate <a href="../Admin_security/What_are_Roles_and_Secured_Actions.htm" target="_self">role</a> can access these features.</p>
+        <p class="Infinitive">To add an ION&#160;BOD&#160;mapping</p>
+        <ol>
+            <li value="1">On the <a href="../Integrations/Integrations_List_View.htm">Integrations List view</a>, select <span class="SLXBold">ION Integration</span>.</li>
+            <li value="2">Click the <span class="SLXBold">Back Offices</span> tab, and select the appropriate back office.</li>
+            <li value="3">On the selected <a href="Using_the_Back Office_Detail_View.htm">Back Office Detail</a> view, click the <span class="SLXBold">BOD&#160;Mappings</span> tab, and in the <span class="SLXBold">BOD&#160;Mapping</span> column, click <span class="SLXBold">Account</span>. </li>
+            <li value="4">On the <span class="SLXBold">Field Mappings</span> tab, select a field mapping to clone.<br />Select a mapping that has similar information or options. For example, ERP Status.</li>
+            <li value="5">On the<a href="Using_the_ION_Field_Mapping_Detail_View.htm"> ION&#160;Field&#160;Mappings Detail</a>                
+                view, click the <span class="MCExpanding_0"><a href="javascript:void(0);" class="MCExpandingHead_0" onclick="FMCExpand( this ); return false;">Save and New<img style="border: none;margin-left: 5px;" src="../SkinSupport/ExpandClosed.gif" MadCap:altsrc="../SkinSupport/ExpandOpen.gif" onload="if ( typeof( FMCPreloadImage ) == 'function' ) { FMCPreloadImage( '../SkinSupport/ExpandOpen.gif' ); }" alt="Closed" MadCap:alt2="Open" class="MCExpandingIcon" /></a><span class="MCExpandingBody_0" style="display: none;"><img src="../image/savenew.gif" /></span></span> button.<br />The Insert BOD Field Mapping view opens with some of the boxes already completed with information from the cloned field mapping.</li>
+            <li value="6">Make the following changes:<ol><li value="1">In the <span class="SLXBold">Field Mapping</span> box, type a unique and descriptive name for the field mapping.</li><li value="2">In the <span class="SLXBold">Default Value</span> box, type <span class="SLXBold">Customer</span>.</li><li value="3">Select <span class="SLXBold">Active</span> to turn on synchronization. </li><li value="4">In the <span class="SLXBold">Property</span> box type <span class="SLXBold">Type</span>.</li><li value="5">In the <span class="SLXBold">Property XPath</span> box change the first part of the path to <span class="SLXBold">Status1</span>.<br />For example, Status[@languageID='en-US' or @languageID='en-us' or @languageID  = '' or not(@languageID)]</li></ol></li>
+            <li value="7">Leave the remaining boxes with the default values.</li>
+            <li value="8">Click <span class="MCExpanding_0"><a href="javascript:void(0);" class="MCExpandingHead_0" onclick="FMCExpand( this ); return false;">Save<img style="border: none;margin-left: 5px;" src="../SkinSupport/ExpandClosed.gif" MadCap:altsrc="../SkinSupport/ExpandOpen.gif" onload="if ( typeof( FMCPreloadImage ) == 'function' ) { FMCPreloadImage( '../SkinSupport/ExpandOpen.gif' ); }" alt="Closed" MadCap:alt2="Open" class="MCExpandingIcon" /></a><span class="MCExpandingBody_0" style="display: none;"><img src="../image/update.gif" /></span></span>.</li>
+        </ol>
+        <p class="RelatedTopics">Related Topics</p>
+        <p><a href="Integration_BackOffice_Tab.htm">Back Offices Tab</a>
+        </p>
+        <p><a href="BackOffice_BODMappings_Tab.htm">BOD Mappings Tab</a>
+        </p>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

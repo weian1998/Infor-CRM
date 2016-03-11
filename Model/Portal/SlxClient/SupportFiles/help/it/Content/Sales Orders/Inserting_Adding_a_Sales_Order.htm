@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:fileTags="Translation Status.Support files" MadCap:tocPath="Ordini di Vendita" MadCap:medium="non-print" MadCap:InPreviewMode="false" MadCap:PreloadImages="false" MadCap:RuntimeFileType="Topic" MadCap:TargetType="WebHelp" lang="en-us" xml:lang="en-us" MadCap:conditions="Output.IntegrationContract,Output.WebClient,Output.Legacy LAN" class="" MadCap:PathToHelpSystem="../../" MadCap:HelpSystemFileName="WebClient.xml" MadCap:SearchType="Stem">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="copyright" />
+        <meta name="window-type" content="(w95sec)" /><title>Aggiungere un Ordine di Vendita</title>
+        <link href="../SkinSupport/Slideshow.css" rel="stylesheet" />
+        <link href="../SkinSupport/MadCap.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/Infor.CSS" rel="stylesheet" />
+        <script src="../SkinSupport/jquery.min.js">
+        </script>
+        <script src="../SkinSupport/MadCapAll.js">
+        </script>
+        <script src="../SkinSupport/MadCapTopicAll.js">
+        </script>
+    </head>
+    <body>
+        <h1 value="Architect Help (09-19-01) for v5.2 © 2001 Interact Commerce Corporation"><a name="kanchor99"></a>Aggiungere un Ordine di Vendita</h1>
+        <p>Utilizzare questa vista per aggiungere un ordine di vendita includendo l'indirizzo di fatturazione, di spedizione oppure le informazioni sui prodotti o generiche dell'ordine.</p>
+        <table wrapperparagraphselector="P" style="margin-top: 14pt;width: 98%;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" width="98%">
+            <col style="width: 38px;" />
+            <col style="width: 92.25%;" />
+            <tr MadCap:conditions="Output.IntegrationContract">
+                <td style="padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top">
+                    <img src="../image/note.gif" />
+                </td>
+                <td style="padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top">
+                    <p class="Tip-Note-Text" style="margin-bottom: 0;">Non si può stampare o inviare tramite email un preventivo finchè l'ordine di vendita è approvato dal sistema di contabilità. </p>
+                    <p class="Topic-Text-Bulleted-2">(Solo in Integrazione Contabilità)</p>
+                </td>
+            </tr>
+        </table>
+        <p class="Infinitive">Per aggiungere</p>
+        <ol>
+            <li MadCap:conditions="Output.WebClient,Output.GSWeb" value="1">Effettuare una delle seguenti operazioni:<ul><li value="1">Nel menu <span class="SLXBold">Nuovo</span> fare clic su <span class="SLXBold">Ordine di Vendita</span>.</li><li value="2">Nella vista <a href="../Opportunities/Using_the_Opportunity_Detail_View.htm">Dettaglio Opportunità</a>, nel <a href="../General/taskpane.htm">Pannello Compiti</a>, fare clic su <span class="SLXBold">Aggiungi Ordine di Vendita</span> oppure nella scheda <span class="SLXBold">Ordini di Vendita</span> fare clic sul pulsante <span class="MCExpanding_0"><a href="javascript:void(0);" class="MCExpandingHead_0" onclick="FMCExpand( this ); return false;">Inserisci Ordine di Vendita<img style="border: none;margin-left: 5px;" src="../SkinSupport/ExpandClosed.gif" MadCap:altsrc="../SkinSupport/ExpandOpen.gif" onload="if ( typeof( FMCPreloadImage ) == 'function' ) { FMCPreloadImage( '../SkinSupport/ExpandOpen.gif' ); }" alt="Closed" MadCap:alt2="Open" class="MCExpandingIcon" /></a><span class="MCExpandingBody_0" style="display: none;"><img src="../image/add.gif" /></span></span>.<br />L'azienda dell'opportunità, i prodotti e le altre informazioni vengono copiate automaticamente nel nuovo ordine.</li></ul></li>
+            <li MadCap:conditions="Output.WebClient,Output.GSWeb" value="2">Selezionare <span class="SLXBold">Ordine di Vendita</span>.</li>
+            <li value="3">
+                <MadCap:conditionalText MadCap:conditions="Output.WebClient,Output.GSWeb">Aggiungere le <a href="salesorderinfoboxes.htm">informazioni sull'ordine di vendita</a>.</MadCap:conditionalText>
+                <table wrapperparagraphselector="P" style="margin-top: 14pt;width: 98%;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" width="98%" MadCap:conditions="Output.WebClient">
+                    <col style="width: 43px;" />
+                    <col style="width: 410px;" />
+                    <tr>
+                        <td style="padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top">
+                            <p style="text-align: center;margin-bottom: 0;" align="center">
+                                <img src="../image/note.gif" />
+                            </p>
+                        </td>
+                        <td style="padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top">
+                            <p class="Tip-Note-Text" style="margin-bottom: 0;">E' necessario associare un'azienda all'ordine.</p>
+                        </td>
+                    </tr>
+                </table>
+            </li>
+            <li value="4">(Opzionale) Modificare le informazioni sull'<span class="SLXBold">Indirizzo di Fatturazione</span>. <MadCap:conditionalText MadCap:conditions="Output.GSWeb,Output.WebClient">Per impostazione definita, queste informazioni vengono popolate con il nome del contatto primario e l'indirizzo primario dell'azienda associata nel caso in cui l'ordine sia stato creato dalle viste Dettaglio Contatto, Azienda od Opportunità.</MadCap:conditionalText><ol style="list-style-type: lower-alpha;" MadCap:conditions="Output.GSWeb,Output.WebClient"><li value="1">Per selezionare un <span class="SLXBold">Nome</span>, Fare clic sul pulsante <span class="MCExpanding_0"><a href="javascript:void(0);" class="MCExpandingHead_0" onclick="FMCExpand( this ); return false;">Trova<img style="border: none;margin-left: 5px;" src="../SkinSupport/ExpandClosed.gif" MadCap:altsrc="../SkinSupport/ExpandOpen.gif" onload="if ( typeof( FMCPreloadImage ) == 'function' ) { FMCPreloadImage( '../SkinSupport/ExpandOpen.gif' ); }" alt="Closed" MadCap:alt2="Open" class="MCExpandingIcon" /></a><span class="MCExpandingBody_0" style="display: none;"><img src="../image/find.gif" /></span></span> e usare la ricerca per <a href="../Lookups/findlookup.htm">trovare</a> un contatto.</li><li value="2">Fare clic su  <span class="SLXBold">Indirizzo </span>Fare clic sulla freccia e selezionare dall'elenco..</li><li value="3">Per <a href="../Common Tabs/Adding_Editing_an_Alternate_Address.htm">modificare</a> l'<span class="SLXBold">Indirizzo</span>, Fare clic sul pulsante <span class="MCExpanding_0"><a href="javascript:void(0);" class="MCExpandingHead_0" onclick="FMCExpand( this ); return false;">Modifica<img style="border: none;margin-left: 5px;" src="../SkinSupport/ExpandClosed.gif" MadCap:altsrc="../SkinSupport/ExpandOpen.gif" onload="if ( typeof( FMCPreloadImage ) == 'function' ) { FMCPreloadImage( '../SkinSupport/ExpandOpen.gif' ); }" alt="Closed" MadCap:alt2="Open" class="MCExpandingIcon" /></a><span class="MCExpandingBody_0" style="display: none;"><img src="../image/edit.gif" /></span></span>.. Per visualizzare una mappa dell'indirizzo, fare clic sul pulsante <span class="MCExpanding_0"><a href="javascript:void(0);" class="MCExpandingHead_0" onclick="FMCExpand( this ); return false;">MapQuest<img style="border: none;margin-left: 5px;" src="../SkinSupport/ExpandClosed.gif" MadCap:altsrc="../SkinSupport/ExpandOpen.gif" onload="if ( typeof( FMCPreloadImage ) == 'function' ) { FMCPreloadImage( '../SkinSupport/ExpandOpen.gif' ); }" alt="Closed" MadCap:alt2="Open" class="MCExpandingIcon" /></a><span class="MCExpandingBody_0" style="display: none;"><img src="../image/map1.gif" /></span></span>.</li></ol></li>
+            <li value="5">(Opzionale) Modificare le informazioni sull'<span class="SLXBold">Indirizzo di Spedizione</span>.<MadCap:conditionalText MadCap:conditions="Output.WebClient,Output.GSWeb"> Per impostazione definita, queste informazioni vengono popolate con il nome del contatto primario e l'indirizzo di spedizione dell'azienda associata nel caso in cui l'ordine sia stato creato dalle viste Dettaglio Contatto, Azienda od Opportunità.</MadCap:conditionalText><ol style="list-style-type: lower-alpha;" MadCap:conditions="Output.GSWeb,Output.WebClient"><li value="1">Per selezionare un <span class="SLXBold">Nome</span>, Fare clic sul pulsante <span class="MCExpanding_0"><a href="javascript:void(0);" class="MCExpandingHead_0" onclick="FMCExpand( this ); return false;">Trova<img style="border: none;margin-left: 5px;" src="../SkinSupport/ExpandClosed.gif" MadCap:altsrc="../SkinSupport/ExpandOpen.gif" onload="if ( typeof( FMCPreloadImage ) == 'function' ) { FMCPreloadImage( '../SkinSupport/ExpandOpen.gif' ); }" alt="Closed" MadCap:alt2="Open" class="MCExpandingIcon" /></a><span class="MCExpandingBody_0" style="display: none;"><img src="../image/find.gif" /></span></span> e usare la ricerca per <a href="../Lookups/findlookup.htm">trovare</a> un contatto.</li><li value="2">Fare clic su  <span class="SLXBold">Indirizzo </span>Fare clic sulla freccia e selezionare dall'elenco..</li><li value="3">Per modificare l'<span class="SLXBold">Indirizzo</span>, Fare clic sul pulsante <span class="MCExpanding_0"><a href="javascript:void(0);" class="MCExpandingHead_0" onclick="FMCExpand( this ); return false;">Modifica<img style="border: none;margin-left: 5px;" src="../SkinSupport/ExpandClosed.gif" MadCap:altsrc="../SkinSupport/ExpandOpen.gif" onload="if ( typeof( FMCPreloadImage ) == 'function' ) { FMCPreloadImage( '../SkinSupport/ExpandOpen.gif' ); }" alt="Closed" MadCap:alt2="Open" class="MCExpandingIcon" /></a><span class="MCExpandingBody_0" style="display: none;"><img src="../image/edit.gif" /></span></span>.. Per visualizzare una mappa dell'indirizzo, fare clic sul pulsante <span class="MCExpanding_0"><a href="javascript:void(0);" class="MCExpandingHead_0" onclick="FMCExpand( this ); return false;">MapQuest<img style="border: none;margin-left: 5px;" src="../SkinSupport/ExpandClosed.gif" MadCap:altsrc="../SkinSupport/ExpandOpen.gif" onload="if ( typeof( FMCPreloadImage ) == 'function' ) { FMCPreloadImage( '../SkinSupport/ExpandOpen.gif' ); }" alt="Closed" MadCap:alt2="Open" class="MCExpandingIcon" /></a><span class="MCExpandingBody_0" style="display: none;"><img src="../image/map1.gif" /></span></span>.</li><li value="4">Fare clic su <span class="SLXBold">Spedisci via</span>
+            pulsante <MadCap:conditionalText MadCap:conditions="Output.GSWeb,Output.WebClient,Output.SendSLX Tray App,Output.Customer Portal,Output.IntegrationContract,Targeted.WebHelp-slxgetstarted sub-set">freccia a discesa</MadCap:conditionalText>pulsante, e selezionare una voce dall'elenco..</li></ol></li>
+            <li value="6">
+                <MadCap:conditionalText MadCap:conditions="Output.GSWeb,Output.WebClient">Aggiungere <a href="salesorderaddproduct.htm">prodotti</a>.</MadCap:conditionalText>
+                <br />La sezione Prodotti visualizzerà tutti i prodotti associati all'ordine. Se si desidera rimuovere un prodotto, selezionare il record nella griglia <span>Prodotti</span> e poi fare clic sul pulsante <span>Rimuovi</span>.<br /> Il Totale ordine viene ricalcolato nel momento in cui i prodotti sono aggiunti o rimossi.
+
+                </li>
+            <li value="7">
+                <MadCap:conditionalText MadCap:conditions="Output.WebClient,Output.GSWeb">Fare clic su <span class="MCExpanding_0"><a href="javascript:void(0);" class="MCExpandingHead_0" onclick="FMCExpand( this ); return false;">Salva<img style="border: none;margin-left: 5px;" src="../SkinSupport/ExpandClosed.gif" MadCap:altsrc="../SkinSupport/ExpandOpen.gif" onload="if ( typeof( FMCPreloadImage ) == 'function' ) { FMCPreloadImage( '../SkinSupport/ExpandOpen.gif' ); }" alt="Closed" MadCap:alt2="Open" class="MCExpandingIcon" /></a><span class="MCExpandingBody_0" style="display: none;"><img src="../image/update.gif" /></span></span>.. </MadCap:conditionalText>
+            </li>
+        </ol>
+        <p class="RelatedTopics">Argomenti Correlati</p>
+        <p><a href="salesorderoverview.htm">Panoramica Ordini di Vendita</a>
+        </p>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

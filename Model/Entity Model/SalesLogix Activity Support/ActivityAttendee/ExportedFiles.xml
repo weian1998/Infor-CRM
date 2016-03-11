@@ -1,0 +1,15 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\ActivityAttendee\ActivityAttendee.ACTIVITYATTENDEE.entity.xml" timeStamp="2015-05-28T03:03:54.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\ActivityAttendee\CopyAttendee.method.xml" timeStamp="2015-05-28T03:03:54.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\ActivityAttendee\CopyAttendees.method.xml" timeStamp="2015-05-28T03:03:54.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\ActivityAttendee\CopyContactToAttendee.method.xml" timeStamp="2015-05-28T03:03:54.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\ActivityAttendee\CopyLeadToAttendee.method.xml" timeStamp="2015-05-28T03:03:54.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\ActivityAttendee\OnAfterDelete.method.xml" timeStamp="2015-05-28T03:03:54.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\ActivityAttendee\OnAfterInsert.method.xml" timeStamp="2015-05-28T03:03:54.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\ActivityAttendee\OnAfterUpdate.method.xml" timeStamp="2015-05-28T03:03:54.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\ActivityAttendee\OnBeforeDelete.method.xml" timeStamp="2015-05-28T03:03:54.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\ActivityAttendee\OnBeforeInsert.method.xml" timeStamp="2015-05-28T03:03:54.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\ActivityAttendee\OnBeforeUpdate.method.xml" timeStamp="2015-05-28T03:03:54.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\ActivityAttendee\OnCreate.method.xml" timeStamp="2015-05-28T03:03:54.0000" />
+</exportedFiles>

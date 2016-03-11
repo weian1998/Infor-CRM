@@ -1,0 +1,11 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Entity Model\SalesLogix Contract Sync Entities\CountryCodeMapping\CountryCodeMapping.COUNTRYCODEMAPPING.entity.xml" timeStamp="2015-05-28T03:04:33.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Contract Sync Entities\CountryCodeMapping\OnAfterDelete.method.xml" timeStamp="2015-05-28T03:04:33.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Contract Sync Entities\CountryCodeMapping\OnAfterInsert.method.xml" timeStamp="2015-05-28T03:04:33.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Contract Sync Entities\CountryCodeMapping\OnAfterUpdate.method.xml" timeStamp="2015-05-28T03:04:33.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Contract Sync Entities\CountryCodeMapping\OnBeforeDelete.method.xml" timeStamp="2015-05-28T03:04:33.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Contract Sync Entities\CountryCodeMapping\OnBeforeInsert.method.xml" timeStamp="2015-05-28T03:04:33.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Contract Sync Entities\CountryCodeMapping\OnBeforeUpdate.method.xml" timeStamp="2015-05-28T03:04:33.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Contract Sync Entities\CountryCodeMapping\OnCreate.method.xml" timeStamp="2015-05-28T03:04:33.0000" />
+</exportedFiles>

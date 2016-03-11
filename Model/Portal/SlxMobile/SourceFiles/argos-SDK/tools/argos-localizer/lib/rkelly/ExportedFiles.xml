@@ -1,0 +1,19 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\tools\argos-localizer\lib\rkelly\constants.rb" timeStamp="2015-05-28T03:50:03.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\tools\argos-localizer\lib\rkelly\generated_parser.rb" timeStamp="2015-05-28T03:50:03.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\tools\argos-localizer\lib\rkelly\js.rb" timeStamp="2015-05-28T03:50:03.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\tools\argos-localizer\lib\rkelly\lexeme.rb" timeStamp="2015-05-28T03:50:03.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\tools\argos-localizer\lib\rkelly\nodes.rb" timeStamp="2015-05-28T03:50:03.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\tools\argos-localizer\lib\rkelly\parser.rb" timeStamp="2015-05-28T03:50:03.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\tools\argos-localizer\lib\rkelly\runtime.rb" timeStamp="2015-05-28T03:50:03.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\tools\argos-localizer\lib\rkelly\syntax_error.rb" timeStamp="2015-05-28T03:50:03.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\tools\argos-localizer\lib\rkelly\token.rb" timeStamp="2015-05-28T03:50:03.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\tools\argos-localizer\lib\rkelly\tokenizer.rb" timeStamp="2015-05-28T03:50:03.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\tools\argos-localizer\lib\rkelly\visitable.rb" timeStamp="2015-05-28T03:50:03.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\tools\argos-localizer\lib\rkelly\visitors.rb" timeStamp="2015-05-28T03:50:03.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\tools\argos-localizer\lib\rkelly\js\" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\tools\argos-localizer\lib\rkelly\nodes\" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\tools\argos-localizer\lib\rkelly\runtime\" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\tools\argos-localizer\lib\rkelly\visitors\" />
+</exportedFiles>

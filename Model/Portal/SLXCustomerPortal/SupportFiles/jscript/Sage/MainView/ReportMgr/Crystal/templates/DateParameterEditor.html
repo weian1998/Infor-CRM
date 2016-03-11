@@ -1,0 +1,150 @@
+﻿<div>
+    <div data-dojo-attach-point="promptParameterContainer" class="crystalParameterContainer">
+        <div data-dojo-attach-point="paramsHeaderContainer"></div>
+        <div data-dojo-attach-point="divMinMaxMessage">
+            <span data-dojo-attach-point="spanMinMaxMessage">&nbsp;</span>
+        </div>
+        <div>
+            <table data-dojo-attach-point="tblRange" style="width:100%">
+                <colgroup>
+                    <col style="width:1%" />
+                    <col style="width:44%" />
+                    <col style="width:10%" />
+                    <col style="width:1%" />
+                    <col style="width:44%" />
+                </colgroup>
+                <tr>
+                    <td colspan="3">
+                        <label data-dojo-attach-point="lblDiscreteStartRange" style="font-weight:bold">{%= Sage.Utility.htmlEncode($.txtStartOfRange) %}</label>
+                    </td>
+                    <td colspan="2" data-dojo-attach-point="colEndDefaultValuesLabel">
+                        <label style="font-weight:bold">{%= Sage.Utility.htmlEncode($.txtEndOfRange) %}</label>
+                    </td>
+                </tr>
+                <tr data-dojo-attach-point="rowRangeListItems">
+                    <td></td>
+                    <td data-dojo-attach-point="colStartDefaultValues">
+                        <div>
+                            <select dojotype="dijit.form.FilteringSelect" data-dojo-attach-point="cboDiscreteStartRange" style="width:90%"></select>
+                            <span data-dojo-attach-point="lstErrorDiscreteStartRange" class="display-none" style="color:red">*</span>
+                        </div>
+                    </td>
+                    <td colspan="2"></td>
+                    <td data-dojo-attach-point="colEndDefaultValues">
+                        <div>
+                            <select dojotype="dijit.form.FilteringSelect" data-dojo-attach-point="cboEndRangeValues" style="width:90%"></select>
+                            <span data-dojo-attach-point="lstErrorEndRange" class="display-none" style="color:red">*</span>
+                        </div>
+                    </td>
+                </tr>
+                <tr data-dojo-attach-point="rowStartEndOrValue">
+                    <td colspan="3">
+                        <label style="font-weight:bold">{%= Sage.Utility.htmlEncode($.lblOrValue_Caption) %}</label><br />
+                    </td>
+                    <td colspan="2" data-dojo-attach-point="rowToValueLabel">
+                        <label style="font-weight:bold">{%= Sage.Utility.htmlEncode($.lblOrValue_Caption) %}</label><br />
+                    </td>
+                </tr>
+                <tr data-dojo-attach-point="rowCustomRangeValues">
+                    <td></td>
+                    <td data-dojo-attach-point="rowDiscreteFromRange">
+                        <div shouldpublishmarkdirty="false" dojotype="Sage.UI.Controls.DateTimePicker" data-dojo-attach-point="dtDiscreteFromRange" displaydate="true"
+                             displaytime="false" required="true" style="width:90%">
+                        </div>
+                        <span data-dojo-attach-point="errorDiscreteValue" class="display-none" style="color:red">*</span>
+                    </td>
+                    <td colspan="2"></td>
+                    <td data-dojo-attach-point="rowToRange">
+                        <div shouldpublishmarkdirty="false" dojotype="Sage.UI.Controls.DateTimePicker" data-dojo-attach-point="dtToRange" displaydate="true"
+                             displaytime="false" required="true" style="width:90%">
+                        </div>
+                        <span data-dojo-attach-point="errorEndRange" class="display-none" style="color:red">*</span>
+                    </td>
+                </tr>
+                <tr data-dojo-attach-point="rowIncludeRangeOptions">
+                    <td></td>
+                    <td colspan="2">
+                        <input data-dojo-type="dijit.form.CheckBox" data-dojo-attach-point="chkIncludeFromRange" />
+                        <label>{%= Sage.Utility.htmlEncode($.txtIncludeThisValue) %}</label>
+                    </td>
+                    <td></td>
+                    <td>
+                        <input data-dojo-type="dijit.form.CheckBox" data-dojo-attach-point="chkIncludeToRange" />
+                        <label>{%= Sage.Utility.htmlEncode($.txtIncludeThisValue) %}</label>
+                    </td>
+                </tr>
+                <tr data-dojo-attach-point="rowUpperLowerRangeOptions">
+                    <td></td>
+                    <td colspan="2">
+                        <input data-dojo-type="dijit.form.CheckBox" data-dojo-attach-point="chkNoLowerValue" dojoattachevent="onChange:_chkNoLowerValue_OnCheck" />
+                        <label>{%= Sage.Utility.htmlEncode($.txtNoLowerValue) %}</label>
+                    </td>
+                    <td></td>
+                    <td>
+                        <input data-dojo-type="dijit.form.CheckBox" data-dojo-attach-point="chkNoUpperValue" dojoattachevent="onChange:_chkNoUpperValue_OnCheck" />
+                        <label>{%= Sage.Utility.htmlEncode($.txtNoUpperValue) %}</label>
+                    </td>
+                </tr>
+                <tr data-dojo-attach-point="rowRangeValidationError" class="display-none">
+                    <td colspan="4">
+                        <div>
+                            <label data-dojo-attach-point="lblRangeValidationError" style="color:red">{%= Sage.Utility.htmlEncode($.txtPleaseSpecifyValue) %}</label>
+                        </div>
+                    </td>
+                </tr>
+                <tr data-dojo-attach-point="rowAddRangeParameter">
+                    <td colspan="4"></td>
+                    <td>
+                        <div style="padding:5px">
+                            <div data-dojo-type="dijit.form.Button" data-dojo-attach-point="cmdAddRange" dojoattachevent="onClick:_cmdAddRange_OnClick"
+                                 style="float:right">
+                                {%= Sage.Utility.htmlEncode($.txtAddRange) %}
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+            <table style="width:100%">
+                <colgroup>
+                    <col style="width:1%" />
+                    <col style="width:44%" />
+                    <col style="width:10%" />
+                    <col style="width:44%" />
+                </colgroup>
+                <tr>
+                    <td colspan="4">
+                        <div data-dojo-attach-point="transferBoxContainer" style="height:auto"></div>
+                    </td>
+                </tr>
+                <tr data-dojo-attach-point="rowCustomValues">
+                    <td></td>
+                    <td>
+                        <div>
+                            <label>{%= Sage.Utility.htmlEncode($.lblEnterValue_Caption) %}</label><br />
+                            <div shouldpublishmarkdirty="false" dojotype="Sage.UI.Controls.DateTimePicker" data-dojo-attach-point="dtCustomValue" displaydate="true"
+                                 displaytime="false" required="true" style="width:93%">
+                            </div>
+                            <span data-dojo-attach-point="errorCustomDate" class="display-none" style="color:red">*</span>
+                        </div>
+                    </td>
+                    <td>
+                        <br />
+                        <div data-dojo-type="dijit.form.Button" data-dojo-attach-point="cmdAddCustom" dojoattachevent="onClick:_cmdAddCustom_OnClick">{%= Sage.Utility.htmlEncode(">") %}</div>
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td colspan="3">
+                        <div data-dojo-attach-point="divValidationMessage" style="color:red">
+                            <span data-dojo-attach-point="spanValidationMessage">&nbsp;</span>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div>
+        <br />
+    </div>
+</div>

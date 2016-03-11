@@ -1,0 +1,51 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\SlxClient\SupportFiles\Libraries\dojo\dijit\themes\claro\Calendar.css" timeStamp="2015-05-28T03:51:59.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\Libraries\dojo\dijit\themes\claro\Calendar.less" timeStamp="2015-05-28T03:01:10.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\Libraries\dojo\dijit\themes\claro\Calendar_rtl.css" timeStamp="2015-05-28T03:51:59.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\Libraries\dojo\dijit\themes\claro\Calendar_rtl.less" timeStamp="2015-05-28T03:01:10.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\Libraries\dojo\dijit\themes\claro\claro.css" timeStamp="2015-05-28T03:51:59.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\Libraries\dojo\dijit\themes\claro\claro_rtl.css" timeStamp="2015-05-28T03:51:59.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\Libraries\dojo\dijit\themes\claro\ColorPalette.css" timeStamp="2015-05-28T03:51:59.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\Libraries\dojo\dijit\themes\claro\ColorPalette.less" timeStamp="2015-05-28T03:01:10.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\Libraries\dojo\dijit\themes\claro\Common.css" timeStamp="2015-05-28T03:51:59.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\Libraries\dojo\dijit\themes\claro\Common.less" timeStamp="2015-05-28T03:01:10.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\Libraries\dojo\dijit\themes\claro\compile.js" timeStamp="2015-05-28T03:01:10.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\Libraries\dojo\dijit\themes\claro\Dialog.css" timeStamp="2015-05-28T03:51:59.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\Libraries\dojo\dijit\themes\claro\Dialog.less" timeStamp="2015-05-28T03:01:10.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\Libraries\dojo\dijit\themes\claro\Dialog_rtl.css" timeStamp="2015-05-28T03:51:59.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\Libraries\dojo\dijit\themes\claro\Dialog_rtl.less" timeStamp="2015-05-28T03:01:10.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\Libraries\dojo\dijit\themes\claro\document.css" timeStamp="2015-05-28T03:51:59.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\Libraries\dojo\dijit\themes\claro\document.less" timeStamp="2015-05-28T03:01:10.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\Libraries\dojo\dijit\themes\claro\Editor.css" timeStamp="2015-05-28T03:52:00.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\Libraries\dojo\dijit\themes\claro\Editor.less" timeStamp="2015-05-28T03:01:10.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\Libraries\dojo\dijit\themes\claro\Editor_rtl.css" timeStamp="2015-05-28T03:52:00.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\Libraries\dojo\dijit\themes\claro\Editor_rtl.less" timeStamp="2015-05-28T03:01:10.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\Libraries\dojo\dijit\themes\claro\InlineEditBox.css" timeStamp="2015-05-28T03:52:00.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\Libraries\dojo\dijit\themes\claro\InlineEditBox.less" timeStamp="2015-05-28T03:01:10.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\Libraries\dojo\dijit\themes\claro\Menu.css" timeStamp="2015-05-28T03:52:00.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\Libraries\dojo\dijit\themes\claro\Menu.less" timeStamp="2015-05-28T03:01:10.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\Libraries\dojo\dijit\themes\claro\Menu_rtl.css" timeStamp="2015-05-28T03:52:00.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\Libraries\dojo\dijit\themes\claro\Menu_rtl.less" timeStamp="2015-05-28T03:01:10.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\Libraries\dojo\dijit\themes\claro\ProgressBar.css" timeStamp="2015-05-28T03:52:00.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\Libraries\dojo\dijit\themes\claro\ProgressBar.less" timeStamp="2015-05-28T03:01:10.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\Libraries\dojo\dijit\themes\claro\ProgressBar_rtl.css" timeStamp="2015-05-28T03:52:00.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\Libraries\dojo\dijit\themes\claro\ProgressBar_rtl.less" timeStamp="2015-05-28T03:01:10.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\Libraries\dojo\dijit\themes\claro\README" timeStamp="2015-05-28T03:01:10.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\Libraries\dojo\dijit\themes\claro\TimePicker.css" timeStamp="2015-05-28T03:52:00.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\Libraries\dojo\dijit\themes\claro\TimePicker.less" timeStamp="2015-05-28T03:01:11.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\Libraries\dojo\dijit\themes\claro\TitlePane.css" timeStamp="2015-05-28T03:52:00.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\Libraries\dojo\dijit\themes\claro\TitlePane.less" timeStamp="2015-05-28T03:01:11.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\Libraries\dojo\dijit\themes\claro\TitlePane_rtl.css" timeStamp="2015-05-28T03:52:00.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\Libraries\dojo\dijit\themes\claro\TitlePane_rtl.less" timeStamp="2015-05-28T03:01:11.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\Libraries\dojo\dijit\themes\claro\Toolbar.css" timeStamp="2015-05-28T03:52:00.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\Libraries\dojo\dijit\themes\claro\Toolbar.less" timeStamp="2015-05-28T03:01:11.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\Libraries\dojo\dijit\themes\claro\Toolbar_rtl.css" timeStamp="2015-05-28T03:52:00.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\Libraries\dojo\dijit\themes\claro\Toolbar_rtl.less" timeStamp="2015-05-28T03:01:11.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\Libraries\dojo\dijit\themes\claro\Tree.css" timeStamp="2015-05-28T03:52:00.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\Libraries\dojo\dijit\themes\claro\Tree.less" timeStamp="2015-05-28T03:01:11.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\Libraries\dojo\dijit\themes\claro\variables.less" timeStamp="2015-05-28T03:01:11.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\Libraries\dojo\dijit\themes\claro\form\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\Libraries\dojo\dijit\themes\claro\images\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\Libraries\dojo\dijit\themes\claro\layout\" />
+</exportedFiles>

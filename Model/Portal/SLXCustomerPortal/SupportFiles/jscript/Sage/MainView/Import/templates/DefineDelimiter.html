@@ -1,0 +1,48 @@
+﻿<div>
+    <div data-dojo-type="dijit.Dialog" title="{%= $._nlsResources.dlgDefineDelimiter_Title %}" data-dojo-attach-point="_dialog" data-dojo-attach-event="onCancel:_btnCancel_OnClick" style="width: 825px">
+        <div data-dojo-type="dijit.form.Form">
+            <div style="overflow:auto">
+                <label class="wizardHeaderText">{%= $._nlsResources.txtHeader_Caption %}</label>
+            </div>
+            <br/>
+            <div style="padding-left: 5px">
+                <label>{%= $._nlsResources.txtChooseDelimiter %}</label>
+                <div>
+                    <input data-dojo-type="dijit.form.RadioButton" type="radio" name="delimiterOption" value="\t" data-dojo-attach-point="rdoTabOption" data-dojo-attach-event="onClick:_rdoOption_OnClick" /> {%= $._nlsResources.rdoTabOption %}
+                    <input data-dojo-type="dijit.form.RadioButton" type="radio" name="delimiterOption" value=";" data-dojo-attach-point="rdoSemiColonOption" data-dojo-attach-event="onClick:_rdoOption_OnClick" /> {%= $._nlsResources.rdoSemicolonOption %}
+                    <input data-dojo-type="dijit.form.RadioButton" type="radio" name="delimiterOption" value="," data-dojo-attach-point="rdoCommaOption" data-dojo-attach-event="onClick:_rdoOption_OnClick" /> {%= $._nlsResources.rdoCommaOption %}
+                    <input data-dojo-type="dijit.form.RadioButton" type="radio" name="delimiterOption" value=" " data-dojo-attach-point="rdoSpaceOption" data-dojo-attach-event="onClick:_rdoOption_OnClick" /> {%= $._nlsResources.rdoSpaceOption %}
+                    <input data-dojo-type="dijit.form.RadioButton" type="radio" name="delimiterOption" value="otherOption" data-dojo-attach-point="rdoOtherOption" data-dojo-attach-event="onClick:_rdoOption_OnClick" /> {%= $._nlsResources.rdoOtherOption %}
+                    <input data-dojo-type="dijit.form.TextBox" data-dojo-attach-point="txtOtherOption" style="width:40px" maxlength="1" disabled="disabled" data-dojo-attach-event="onChange:_txtOtherOption_OnChange" />
+                </div>
+                <br/>
+                <div>
+                    <label> {%= $._nlsResources.txtQualifier %}</label>
+                    <select data-dojo-type="dijit.form.Select" data-dojo-attach-point="cmbQualifiers" sortByLabel="false" style="width:80px">
+                        <option value="\x000"></option>
+                        <option value="&quot;">"</option>
+                        <option value="'">'</option>
+                        <option value="None" selected="selected">{%= Sage.Utility.htmlEncode($.emptyListItem_Caption) %}</option>
+                    </select>
+                </div>
+                <br/>
+                <div>
+                    <input data-dojo-type="dijit.form.CheckBox" data-dojo-attach-point="chkFirstRowFieldNames" data-dojo-attach-event="onChange:_chkFirstRowFieldNames_OnChange" checked="true" />
+                    <label> {%= $._nlsResources.chkFirstRowFieldNames %}</label>
+                </div>
+                <br/>
+                <label data-dojo-attach-point="lblPreviewData"></label>
+                <div data-dojo-attach-point="divLoadingMessage">
+                    <br />
+                    <label style="padding-left:300px;font-size:16px;font-weight:bold"> {%= Sage.Utility.htmlEncode($.gridLoading_Caption) %}</label>
+                </div>
+                <div data-dojo-type="dijit.layout.ContentPane" data-dojo-attach-point="previewGrid_Container"></div>
+            </div>
+            <div align="right" style="margin-top:10px">
+                <div data-dojo-type="dijit.form.Button" data-dojo-attach-point="btnBack" data-dojo-attach-event="onClick:_btnBack_OnClick" >{%= Sage.Utility.htmlEncode($.btnBack_Caption) %}</div>
+                <div data-dojo-type="dijit.form.Button" data-dojo-attach-point="btnNext" data-dojo-attach-event="onClick:_btnNext_OnClick">{%= Sage.Utility.htmlEncode($.btnNext_Caption) %}</div>
+                <div data-dojo-type="dijit.form.Button" data-dojo-attach-point="btnCancel" data-dojo-attach-event="onClick:_btnCancel_OnClick" style="margin-left:5px;">{%= Sage.Utility.htmlEncode($.btnCancel_Caption) %}</div>
+            </div>
+        </div>
+    </div>
+</div>

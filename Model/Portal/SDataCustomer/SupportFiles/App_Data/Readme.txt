@@ -1,0 +1,1 @@
+This placeholder file ensures the empty App_Data folder will be created.

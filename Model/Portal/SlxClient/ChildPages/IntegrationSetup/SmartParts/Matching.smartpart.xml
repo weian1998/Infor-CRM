@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<SmartPartMapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="1238b961-db81-4843-969c-79dd8de684a7">
+  <SmartPartId>Matching</SmartPartId>
+  <ReferencedModelId>00000000-0000-0000-0000-000000000000</ReferencedModelId>
+  <SmartPart>SmartParts\AppIdMapping\Matching.ascx</SmartPart>
+  <TargetWorkspace>TabControl</TargetWorkspace>
+  <ShowInMode>Detail</ShowInMode>
+  <Properties />
+  <AllowRoles />
+</SmartPartMapping>

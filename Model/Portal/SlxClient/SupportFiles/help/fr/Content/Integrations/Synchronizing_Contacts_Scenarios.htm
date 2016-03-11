@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:fileTags="Translation Status.Support files" xml:lang="fr" MadCap:tocPath="Utilisation des intégrations|Intégration avec Outlook|Utilisation de la Synchronisation Outlook|Synchronisation de contacts" MadCap:medium="non-print" MadCap:InPreviewMode="false" MadCap:PreloadImages="false" MadCap:RuntimeFileType="Topic" MadCap:TargetType="WebHelp" lang="fr" MadCap:conditions="Output.Integrations LAN,Output.WebClient,Integrations.Google topics" MadCap:PathToHelpSystem="../../" MadCap:HelpSystemFileName="WebClient.xml" MadCap:SearchType="Stem">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Scénarios de synchronisation de contacts pour Outlook</title>
+        <link href="../SkinSupport/Slideshow.css" rel="stylesheet" />
+        <link href="../SkinSupport/MadCap.css" rel="stylesheet" />
+        <link href="../Resources/TableStyles/TableStyle.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/Infor.CSS" rel="stylesheet" />
+        <script src="../SkinSupport/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapAll.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapTopicAll.js" type="text/javascript">
+        </script>
+    </head>
+    <body>
+        <h1><a name="kanchor262"></a>Scénarios de synchronisation de contacts pour <span class="MyVariablesIntegrated (an)/Outlook (Caps)">Outlook</span></h1>
+        <p>Les scénarios suivants sont des scénarios courants qui permettent d'expliquer le fonctionnement de la synchronisation des contacts avec <span class="MyVariablesIntegrated (an)/Outlook (lower)">Outlook</span>.</p>
+        <table wrapperparagraphselector="P" style="width: 80%;margin-top: 14pt;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" width="80%">
+            <col style="width: 45px;" />
+            <col />
+            <tr MadCap:conditions="">
+                <td style="padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top">
+                    <p style="text-align: center;margin-bottom: 0;" align="center">
+                        <img src="../image/note.gif" />
+                    </p>
+                </td>
+                <td style="width: 90%;padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top" width="90%">
+                    <p>La synchronisation est restreinte par la sécurité intégrée des données associée à l'utilisateur connecté à <span class="MyVariablesProduct Name">Infor CRM</span>. La quantité de données pouvant être transférée est limitée par les droits de sécurité de l'utilisateur connecté.</p>
+                </td>
+            </tr>
+        </table>
+        <p class="Infinitive">Scénarios de synchronisation</p>
+        <table style="width: 95%;mc-table-style: url('../Resources/TableStyles/TableStyle.css');margin-left: 0;margin-right: auto;" class="TableStyle-TableStyle" cellspacing="0">
+            <col class="TableStyle-TableStyle-Column-Column1" />
+            <col class="TableStyle-TableStyle-Column-Column1" />
+            <col class="TableStyle-TableStyle-Column-Column1" />
+            <thead>
+                <tr class="TableStyle-TableStyle-Head-Header1">
+                    <th class="TableStyle-TableStyle-HeadE-Column1-Header1">Je veux</th>
+                    <th class="TableStyle-TableStyle-HeadE-Column1-Header1">Action</th>
+                    <th class="TableStyle-TableStyle-HeadD-Column1-Header1">Result</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Ajouter un contact à partir de la base de données <span class="MyVariablesProduct Name">Infor CRM</span> vers <span class="MyVariablesIntegrated (an)/Outlook (lower)">Outlook</span></td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1"><a href="Selecting_Contacts_to_Synchronize.htm">Ajouter le contact au groupe de synchronisation de contacts dans <span class="MyVariablesProduct Name">Infor CRM</span></a>.</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Le contact est ajouté au cycle de synchronisation suivant.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Ajouter un enregistrement de contact individuel de <span class="MyVariablesIntegrated (an)/Outlook (lower)">Outlook</span> au <span class="MyVariablesProduct Name">Infor CRM</span>.</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">
+                        <p><a href="Adding Integration Contacts to Saleslogix.htm">Ajouter le contact au dossier de synchronisation de contacts</a> et exécuter une synchronisation.</p>
+                    </td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">
+                        <p>L'enregistrement est ajouté au groupe de synchronisation de contacts <span class="MyVariablesProduct Name">Infor CRM</span> et les données se synchronisent à chaque cycle de synchronisation.</p>
+                        <p>Scénario&#160;1&#160;: si aucun nom de société n'est associé au contact, un compte est créé avec le nom de contact, par exemple «&#160;Prénom&lt;space&gt;Nom&#160;».</p>
+                        <p>Remarque&#160;: si le nom de la société est modifiée après le cycle de synchronisation initial, la modification ne sera pas synchronisée avec <span class="MyVariablesProduct Name">Infor CRM</span>.</p>
+                        <p>Scénario&#160;2&#160;: si un nom de société est une correspondance EXACTE d'un compte dans <span class="MyVariablesProduct Name">Infor CRM</span>, le nouveau contact est associé au compte correspondant.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Synchroniser un enregistrement de contact qui existe actuellement à la fois dans <span class="MyVariablesProduct Name">Infor CRM</span> et dans <span class="MyVariablesIntegrated (the)/Outlook">Outlook</span>.</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">
+                        <p>Ajouter le contact au <a href="Selecting_Contacts_to_Synchronize.htm">groupe de synchronisation de contacts</a> dans <span class="MyVariablesProduct Name">Infor CRM</span> ou au <a href="../Outlook/Outlook_Sync_Sync_Tab.htm">dossier de synchronisation de contacts</a> dans <span class="MyVariablesIntegrated (the)/Outlook">Outlook</span>. Durant la synchronisation, les données sont comparées et des modifications ont lieu pour s'assurer que les informations <a href="Matching_Records.htm">correspondent</a>.</p>
+                        <p>.
+</p>
+                    </td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">les données sont synchronisées et continuent de se synchroniser à chaque exécution d'un cycle de synchronisation.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Arrêtez de synchroniser un contact.</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">
+                        <ol>
+                            <li value="1">Déplacez le contact dans un autre dossier de contacts que le <a href="../Outlook/Outlook_Sync_Sync_Tab.htm">dossier de synchronisation de contacts</a> et exécutez un cycle de synchronisation.</li>
+                            <li value="2">Dans <span class="MyVariablesProduct Name">Infor CRM</span>, supprimez le contact du <a href="Configuring the Contact Sync Group.htm">groupe de synchronisation de contacts</a>,.</li>
+                        </ol>
+                    </td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Le contact est supprimé du <a href="Configuring the Contact Sync Group.htm">groupe de synchronisation de contacts</a>&#160;; ce faisant, il n'est plus synchronisé avec <span class="MyVariablesIntegrated (the)/Outlook">Outlook</span>, mais il n'est pas supprimé de <span class="MyVariablesProduct Name">Infor CRM</span>.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Supprimer un contact à partir des deux applications.</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Supprimez le contact de <span class="MyVariablesProduct Name">Infor CRM</span>, puis exécutez un cycle de synchronisation.</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Le contact est supprimé de <span class="MyVariablesProduct Name">Infor CRM</span> et transféré au dossier Éléments supprimés d'Outlook, d'où il peut être définitivement supprimé.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyB-Column1-Body1">Supprimer un contact de <span class="MyVariablesProduct Name">Infor CRM</span>, mais laissez le contact dans <span class="MyVariablesIntegrated (the)/Outlook">Outlook</span>.</td>
+                    <td class="TableStyle-TableStyle-BodyB-Column1-Body1">
+                        <ol>
+                            <li value="1">Déplacez le contact dans un autre dossier de contacts que le <a href="../Outlook/Outlook_Sync_Sync_Tab.htm">dossier de synchronisation de contacts</a> et exécutez un cycle de synchronisation.</li>
+                            <li value="2">Supprimez le contact de <span class="MyVariablesProduct Name">Infor CRM</span>.</li>
+                        </ol>
+                    </td>
+                    <td class="TableStyle-TableStyle-BodyA-Column1-Body1">Le contact est supprimé de <span class="MyVariablesProduct Name">Infor CRM</span>, mais toujours disponible dans <span class="MyVariablesIntegrated (the)/Outlook">Outlook</span>.</td>
+                </tr>
+            </tbody>
+        </table>
+        <p class="RelatedTopics">Rubriques connexes</p>
+        <p><a href="Understanding_Contact_Integration.htm">Présentation de l’intégration des contacts</a>
+        </p>
+        <p><a href="Matching_Records.htm">Enregistrements correspondants</a>
+        </p>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

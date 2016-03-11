@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<method xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="a74ef93c-a9f3-487d-a841-35bd5ab1ba1e" lastModifiedUtc="2012-12-10T21:34:39.5865066Z" name="OnBeforeInsert" methodType="CrudEvent" actionType="None" returnMode="None">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmEntityMethod" />
+  </ExtendedPropertiesCollection>
+  <parameter />
+  <preExecuteTargets />
+  <methodTargets>
+    <methodTarget id="b1ba137d-941a-40bf-8354-a9b2151ec34c" lastModifiedUtc="2012-12-10T21:34:39.2774889Z" targetType="Sage.Platform.Orm.DefaultCRUDEventHandler, Sage.Platform" targetMethod="OnBeforeInsert" active="true">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmMethodTarget" />
+      </ExtendedPropertiesCollection>
+    </methodTarget>
+  </methodTargets>
+  <postExecuteTargets>
+    <methodTarget id="eb8b5b05-217d-4cf4-a728-3f40482ecdfb" lastModifiedUtc="2013-07-05T20:35:13.8690944Z" targetType="Sage.SalesLogix.UserOAuthToken.UserOAuthTokenRules, Sage.SalesLogix.BusinessRules" targetMethod="CreateOAuthSvcProviderEndPoint" active="true">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmMethodTarget" />
+      </ExtendedPropertiesCollection>
+    </methodTarget>
+  </postExecuteTargets>
+  <postFlushTargets />
+</method>

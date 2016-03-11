@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<MenuDropDownItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="22f1f88e-0d72-4486-8388-4bec6cb751c7">
+  <ItemId>menuItemCreateNewIntegrationLinkGroup</ItemId>
+  <NavUrl>javascript:Sage.Groups.GroupManager.CreateGroup('APPIDMAPPING');</NavUrl>
+  <LargeImageUrl />
+  <SmallImageUrl />
+  <ContextMenuId />
+  <Target />
+  <AppliedSecurity />
+</MenuDropDownItem>

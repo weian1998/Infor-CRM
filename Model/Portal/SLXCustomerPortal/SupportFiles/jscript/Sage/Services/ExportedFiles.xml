@@ -1,0 +1,19 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\Services\_ServiceMixin.js" timeStamp="2015-05-28T03:09:10.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\Services\ActivityAction.js" timeStamp="2015-05-28T03:09:10.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\Services\ActivityActionProcessor.js" timeStamp="2015-05-28T03:09:10.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\Services\ActivityService.js" timeStamp="2015-05-28T03:09:10.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\Services\CalendarSecurityService.js" timeStamp="2015-05-28T03:09:10.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\Services\ClientBindingManagerService.js" timeStamp="2015-05-28T03:09:10.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\Services\ClientContextService.js" timeStamp="2015-05-28T03:09:10.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\Services\ClientEntityContext.js" timeStamp="2015-05-28T03:09:10.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\Services\JobService.js" timeStamp="2015-05-28T03:09:10.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\Services\main.js" timeStamp="2015-05-28T03:09:10.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\Services\ReportingService.js" timeStamp="2015-05-28T03:09:10.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\Services\RoleSecurityService.js" timeStamp="2015-05-28T03:09:10.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\Services\SelectionContextService.js" timeStamp="2015-05-28T03:09:10.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\Services\SystemOptions.js" timeStamp="2015-05-28T03:09:10.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\Services\UserOptions.js" timeStamp="2015-05-28T03:09:10.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\Services\nls\" />
+</exportedFiles>

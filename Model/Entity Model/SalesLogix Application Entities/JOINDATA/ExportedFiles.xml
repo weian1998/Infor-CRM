@@ -1,0 +1,11 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\JOINDATA\JoinData.JOINDATA.entity.xml" timeStamp="2015-05-28T03:04:12.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\JOINDATA\OnAfterDelete.method.xml" timeStamp="2015-05-28T03:04:12.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\JOINDATA\OnAfterInsert.method.xml" timeStamp="2015-05-28T03:04:12.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\JOINDATA\OnAfterUpdate.method.xml" timeStamp="2015-05-28T03:04:12.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\JOINDATA\OnBeforeDelete.method.xml" timeStamp="2015-05-28T03:04:12.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\JOINDATA\OnBeforeInsert.method.xml" timeStamp="2015-05-28T03:04:12.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\JOINDATA\OnBeforeUpdate.method.xml" timeStamp="2015-05-28T03:04:12.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\JOINDATA\OnCreate.method.xml" timeStamp="2015-05-28T03:04:12.0000" />
+</exportedFiles>

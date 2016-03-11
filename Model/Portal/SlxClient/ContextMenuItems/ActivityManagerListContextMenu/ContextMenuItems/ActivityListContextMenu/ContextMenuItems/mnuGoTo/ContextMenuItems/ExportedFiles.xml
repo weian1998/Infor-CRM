@@ -1,0 +1,8 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\SlxClient\ContextMenuItems\ActivityManagerListContextMenu\ContextMenuItems\ActivityListContextMenu\ContextMenuItems\mnuGoTo\ContextMenuItems\mnuGoToAccount\" />
+  <exportedFile url="\Portal\SlxClient\ContextMenuItems\ActivityManagerListContextMenu\ContextMenuItems\ActivityListContextMenu\ContextMenuItems\mnuGoTo\ContextMenuItems\mnuGoToContact\" />
+  <exportedFile url="\Portal\SlxClient\ContextMenuItems\ActivityManagerListContextMenu\ContextMenuItems\ActivityListContextMenu\ContextMenuItems\mnuGoTo\ContextMenuItems\mnuGoToLead\" />
+  <exportedFile url="\Portal\SlxClient\ContextMenuItems\ActivityManagerListContextMenu\ContextMenuItems\ActivityListContextMenu\ContextMenuItems\mnuGoTo\ContextMenuItems\mnuGoToOpportunity\" />
+  <exportedFile url="\Portal\SlxClient\ContextMenuItems\ActivityManagerListContextMenu\ContextMenuItems\ActivityListContextMenu\ContextMenuItems\mnuGoTo\ContextMenuItems\mnuGoToTicket\" />
+</exportedFiles>

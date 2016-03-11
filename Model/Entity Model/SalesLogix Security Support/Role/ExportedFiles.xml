@@ -1,0 +1,19 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Entity Model\SalesLogix Security Support\Role\AddSecuredAction.method.xml" timeStamp="2015-05-28T03:04:39.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Security Support\Role\AddSecuredActions.method.xml" timeStamp="2015-05-28T03:04:39.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Security Support\Role\AddUser.method.xml" timeStamp="2015-05-28T03:04:39.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Security Support\Role\AddUsers.method.xml" timeStamp="2015-05-28T03:04:39.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Security Support\Role\CreateUser.filter.xml" timeStamp="2015-05-28T03:04:39.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Security Support\Role\Description.filter.xml" timeStamp="2015-05-28T03:04:39.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Security Support\Role\Name.filter.xml" timeStamp="2015-05-28T03:04:39.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Security Support\Role\OnAfterDelete.method.xml" timeStamp="2015-05-28T03:04:39.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Security Support\Role\OnAfterInsert.method.xml" timeStamp="2015-05-28T03:04:39.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Security Support\Role\OnAfterUpdate.method.xml" timeStamp="2015-05-28T03:04:39.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Security Support\Role\OnBeforeDelete.method.xml" timeStamp="2015-05-28T03:04:39.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Security Support\Role\OnBeforeInsert.method.xml" timeStamp="2015-05-28T03:04:39.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Security Support\Role\OnBeforeUpdate.method.xml" timeStamp="2015-05-28T03:04:39.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Security Support\Role\OnCreate.method.xml" timeStamp="2015-05-28T03:04:39.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Security Support\Role\Role.ROLE.entity.xml" timeStamp="2015-05-28T03:04:39.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Security Support\Role\QuickForms\" />
+</exportedFiles>

@@ -1,0 +1,71 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\tools\bundler\ActiproSoftware.Shared.Net20.dll" timeStamp="2015-05-28T03:50:04.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\tools\bundler\ActiproSoftware.SyntaxEditor.Addons.DotNet.Net20.dll" timeStamp="2015-05-28T03:50:04.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\tools\bundler\ActiproSoftware.SyntaxEditor.Net20.dll" timeStamp="2015-05-28T03:50:04.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\tools\bundler\ActiproSoftware.WinUICore.Net20.dll" timeStamp="2015-05-28T03:50:04.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\tools\bundler\antlr.runtime.dll" timeStamp="2015-05-28T03:50:11.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\tools\bundler\Boo.Lang.dll" timeStamp="2015-05-28T03:50:04.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\tools\bundler\Bundler.exe" timeStamp="2015-05-28T03:50:04.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\tools\bundler\Bundler.exe.config" timeStamp="2015-05-28T03:50:04.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\tools\bundler\Castle.Core.dll" timeStamp="2015-05-28T03:50:04.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\tools\bundler\FileHelpers.dll" timeStamp="2015-05-28T03:50:05.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\tools\bundler\HelpConfiguration.xsd" timeStamp="2015-05-28T03:50:05.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\tools\bundler\HelpConfiguration.xsx" timeStamp="2015-05-28T03:50:05.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\tools\bundler\ICSharpCode.NRefactory.dll" timeStamp="2015-05-28T03:50:05.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\tools\bundler\Iesi.Collections.dll" timeStamp="2015-05-28T03:50:05.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\tools\bundler\Infragistics2.Shared.v7.1.dll" timeStamp="2015-05-28T03:50:05.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\tools\bundler\Infragistics2.Win.UltraWinDock.v7.1.dll" timeStamp="2015-05-28T03:50:05.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\tools\bundler\Infragistics2.Win.UltraWinTabbedMdi.v7.1.dll" timeStamp="2015-05-28T03:50:05.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\tools\bundler\Infragistics2.Win.v7.1.dll" timeStamp="2015-05-28T03:50:05.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\tools\bundler\log4net.dll" timeStamp="2015-05-28T03:50:13.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\tools\bundler\log4net.xml" timeStamp="2015-05-28T03:50:13.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\tools\bundler\Microsoft.Unity.dll" timeStamp="2015-05-28T03:50:05.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\tools\bundler\Mono.TextTemplating.dll" timeStamp="2015-05-28T03:50:06.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\tools\bundler\NHibernate.dll" timeStamp="2015-05-28T03:50:06.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\tools\bundler\NVelocity.dll" timeStamp="2015-05-28T03:50:06.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\tools\bundler\Quartz.dll" timeStamp="2015-05-28T03:50:06.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\tools\bundler\Rhino.Etl.Core.dll" timeStamp="2015-05-28T03:50:06.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\tools\bundler\Sage.Common.Syndication.dll" timeStamp="2015-05-28T03:50:07.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\tools\bundler\Sage.Integration.Client.dll" timeStamp="2015-05-28T03:50:07.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\tools\bundler\Sage.Integration.Diagnostics.dll" timeStamp="2015-05-28T03:50:07.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\tools\bundler\Sage.Integration.Server.dll" timeStamp="2015-05-28T03:50:07.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\tools\bundler\Sage.Integration.Server.Feeds.dll" timeStamp="2015-05-28T03:50:07.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\tools\bundler\Sage.Integration.Server.Model.dll" timeStamp="2015-05-28T03:50:07.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\tools\bundler\Sage.Platform.Application.dll" timeStamp="2015-05-28T03:50:07.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\tools\bundler\Sage.Platform.Application.UI.Web.dll" timeStamp="2015-05-28T03:50:07.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\tools\bundler\Sage.Platform.Application.UI.WinForms.dll" timeStamp="2015-05-28T03:50:07.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\tools\bundler\Sage.Platform.BundleModel.dll" timeStamp="2015-05-28T03:50:07.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\tools\bundler\Sage.Platform.Configuration.dll" timeStamp="2015-05-28T03:50:08.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\tools\bundler\Sage.Platform.Design.dll" timeStamp="2015-05-28T03:50:08.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\tools\bundler\Sage.Platform.dll" timeStamp="2015-05-28T03:50:10.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\tools\bundler\Sage.Platform.Expressions.dll" timeStamp="2015-05-28T03:50:08.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\tools\bundler\Sage.Platform.FileSystem.dll" timeStamp="2015-05-28T03:50:08.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\tools\bundler\Sage.Platform.FileSystem.UI.WinForms.dll" timeStamp="2015-05-28T03:50:08.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\tools\bundler\Sage.Platform.IDEModule.dll" timeStamp="2015-05-28T03:50:08.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\tools\bundler\Sage.Platform.Mashups.AdminModule.dll" timeStamp="2015-05-28T03:50:08.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\tools\bundler\Sage.Platform.Mashups.dll" timeStamp="2015-05-28T03:50:08.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\tools\bundler\Sage.Platform.Projects.dll" timeStamp="2015-05-28T03:50:08.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\tools\bundler\Sage.Platform.QuickForms.dll" timeStamp="2015-05-28T03:50:09.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\tools\bundler\Sage.Platform.QuickForms.QFControls.dll" timeStamp="2015-05-28T03:50:09.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\tools\bundler\Sage.Platform.VirtualFileSystem.dll" timeStamp="2015-05-28T03:50:09.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\tools\bundler\Sage.Platform.WebPortal.Design.dll" timeStamp="2015-05-28T03:50:09.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\tools\bundler\Sage.Platform.WebPortal.dll" timeStamp="2015-05-28T03:50:09.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\tools\bundler\Sage.Platform.Windows.Forms.dll" timeStamp="2015-05-28T03:50:09.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\tools\bundler\Sage.SalesLogix.HighLevelTypes.dll" timeStamp="2015-05-28T03:50:10.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\tools\bundler\Sage.SalesLogix.QuickForms.QFControls.dll" timeStamp="2015-05-28T03:50:10.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\tools\bundler\Sage.Scheduling.Client.dll" timeStamp="2015-05-28T03:50:10.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\tools\bundler\Sage.Scheduling.dll" timeStamp="2015-05-28T03:50:10.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\tools\bundler\Sage.SData.Client.dll" timeStamp="2015-05-28T03:50:10.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\tools\bundler\Sage.Utilities.dll" timeStamp="2015-05-28T03:50:10.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\tools\bundler\SampleBundleConfig.xml" timeStamp="2015-05-28T03:50:10.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\tools\bundler\Xceed.Compression.dll" timeStamp="2015-05-28T03:50:10.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\tools\bundler\Xceed.FileSystem.dll" timeStamp="2015-05-28T03:50:11.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\tools\bundler\Xceed.Zip.dll" timeStamp="2015-05-28T03:50:11.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\tools\bundler\XmlDiffPatch.dll" timeStamp="2015-05-28T03:50:11.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\tools\bundler\Configuration\" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\tools\bundler\de\" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\tools\bundler\fr\" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\tools\bundler\it\" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\tools\bundler\ru\" />
+</exportedFiles>

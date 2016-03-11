@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:fileTags="Translation Status.Support files" MadCap:tocPath="" MadCap:medium="non-print" MadCap:InPreviewMode="false" MadCap:PreloadImages="false" MadCap:RuntimeFileType="Topic" MadCap:TargetType="WebHelp" lang="ru" xml:lang="ru" MadCap:conditions="Output.Comments,Output.WebClient" MadCap:PathToHelpSystem="../../" MadCap:HelpSystemFileName="WebClient.xml" MadCap:SearchType="Stem">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Я не могу удалить пользователя</title>
+        <link href="../Resources/Stylesheets/Infor.CSS" rel="stylesheet" />
+        <script src="../SkinSupport/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapAll.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapTopicAll.js" type="text/javascript">
+        </script>
+    </head>
+    <body>
+        <h1>Я не могу удалить пользователя</h1>
+        <p><span class="SLXBold">Сообщение об ошибке:</span>  Другие пользователи подчиняются этому пользователю. Этот пользователь не может быть удален.</p>
+        <p><span class="SLXBold">Решение:</span> В детальном представлении Пользователя, которого вы хотите удалить, снимите флаг Пользователь является Менеджером.</p>
+        <p>&#160;</p>
+        <p><span class="SLXBold">Сообщение об ошибке:</span> У этого пользователя есть записи, которые должны быть переназначены перед удалением, или пользователь является Куратором команды и должен быть удален из команды перед удалением.</p>
+        <p><span class="SLXBold">Решение:</span> Запустите перегруппировку. </p>
+        <ul>
+            <li class="Bullets" value="1">Если сообщение появляется после проведения перегруппировки, нужно запустить Integrity Checker, чтобы изменить поле SECCODEID в различных таблицах на правильное значение. Это можно сделать с помощью Integrity Checker и последующим проведение тестов: "Сводная информация по Субъекту с некорректным куратором" , "Контакты с некорректным куратором" и "Сделки с некорректным куратором".</li>
+            <li class="Bullets" value="2">Предыдущее сообщение также может отображаться, когда пользователь - куратор команды. В этом случае, другой пользователь должен быть выбран куратором команды.</li>
+            <li class="Bullets" value="3">Другая причина для такого сообщения - перегруппировка была проведена неуспешно в предыдущем запуске, и этот пользователь все еще имеет записи в таблицах CONTACT, ACCOUNT, ACCOUNTSUMMARY, или OPPORTUNITY. Может оказаться полезным следующий SQL код, показывающий пользователей и соответствующие SECCODEID: </li>
+        </ul>
+        <p class="Topic-Text-Indent">SELECT UI.USERID, UI.USERNAME, SR.SECCODEID, SC.SECCODEDESC</p>
+        <p class="Topic-Text-Indent">FROM SECRIGHTS SR, USERINFO UI, SECCODE SC</p>
+        <p class="Topic-Text-Indent">WHERE UI.USERID = SR.ACCESSID AND</p>
+        <p class="Topic-Text-Indent">SR.SECCODEID = SC.SECCODEID</p>
+        <p class="Topic-Text-Indent">ORDER BY ACCESSID</p>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

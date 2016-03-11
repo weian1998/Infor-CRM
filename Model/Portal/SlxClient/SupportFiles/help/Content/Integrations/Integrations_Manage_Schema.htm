@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:fileTags="Translation Status.Support files" MadCap:tocPath="" MadCap:medium="non-print" MadCap:InPreviewMode="false" MadCap:PreloadImages="false" MadCap:RuntimeFileType="Topic" MadCap:TargetType="WebHelp" lang="en-us" xml:lang="en-us" MadCap:conditions="Output.WebClient" MadCap:PathToHelpSystem="../../" MadCap:HelpSystemFileName="WebClient.xml" MadCap:SearchType="Stem">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Managing Schema</title>
+        <link href="../SkinSupport/Slideshow.css" rel="stylesheet" />
+        <link href="../SkinSupport/MadCap.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/Infor.CSS" rel="stylesheet" />
+        <script src="../SkinSupport/jquery.min.js">
+        </script>
+        <script src="../SkinSupport/MadCapAll.js">
+        </script>
+        <script src="../SkinSupport/MadCapTopicAll.js">
+        </script>
+    </head>
+    <body>
+        <h1><a name="kanchor557"></a><a name="kanchor558"></a>Managing Schema</h1>
+        <p>Use the Manage Schema dialog to compare the database schema in <span class="MyVariablesProduct Name">Infor CRM</span> with your integration schema to ensure data integrity.  You can compare data for various resources to determine if differences in string lengths exist between systems.</p>
+        <div class="MCDropDown">
+            <div class="MCDropDownHead_0"><a class="MCDropDownHotSpot_0" href="javascript:void(0);" id="MCDropDownHotSpot_1995157193_0" onclick="FMCDropDown( this ); return false;">Tell me more about how <span class="MyVariablesProduct Name">Infor CRM</span> manages schema differences...<img style="border: none;margin-left: 5px;" src="../SkinSupport/DropDownClosed.gif" MadCap:altsrc="../SkinSupport/DropDownOpen.gif" onload="if ( typeof( FMCPreloadImage ) == 'function' ) { FMCPreloadImage( '../SkinSupport/DropDownOpen.gif' ); }" alt="Closed" MadCap:alt2="Open" class="MCDropDownIcon" /></a>
+            </div>
+            <div class="MCDropDownBody" id="MCDropDownBody_1995157193_0" style="display: none;">
+                <p><span class="SLXBold">MaxLength</span> - If data is synchronized to <span class="MyVariablesProduct Name">Infor CRM</span> that exceeds the MaxLength of a field, the entire row will be rejected.</p>
+                <p><span class="SLXBold">FractionalDigits</span> - If data is synchronized to <span class="MyVariablesProduct Name">Infor CRM</span> that exceeds the number of decimal points, the value will be rounded to the maximum digits allowed after the decimal point. For example, if a currency field is defined as 17.4, then a value of 123.12348 is saved as 123.1235 and a value of 123.12343 is saved as 123.1234.</p>
+            </div>
+        </div>
+        <p class="RelatedTopics">How Do I?</p>
+        <div class="MCDropDown">
+            <div class="MCDropDownHead_0"><a class="MCDropDownHotSpot_0" href="javascript:void(0);" id="MCDropDownHotSpot_1995157193_1" onclick="FMCDropDown( this ); return false;">Open the Manage Schema dialog<img style="border: none;margin-left: 5px;" src="../SkinSupport/DropDownClosed.gif" MadCap:altsrc="../SkinSupport/DropDownOpen.gif" onload="if ( typeof( FMCPreloadImage ) == 'function' ) { FMCPreloadImage( '../SkinSupport/DropDownOpen.gif' ); }" alt="Closed" MadCap:alt2="Open" class="MCDropDownIcon" /></a>
+            </div>
+            <div class="MCDropDownBody" id="MCDropDownBody_1995157193_1" style="display: none;">
+                <ul>
+                    <li value="1">On the <span class="SLXBold">Integration Detail</span> view <a href="Integrations_Resources_Tab.htm">Resources</a> tab, click  the <span class="MCExpanding_0"><a href="javascript:void(0);" class="MCExpandingHead_0" onclick="FMCExpand( this ); return false;">Manage Schema<img style="border: none;margin-left: 5px;" src="../SkinSupport/ExpandClosed.gif" MadCap:altsrc="../SkinSupport/ExpandOpen.gif" onload="if ( typeof( FMCPreloadImage ) == 'function' ) { FMCPreloadImage( '../SkinSupport/ExpandOpen.gif' ); }" alt="Closed" MadCap:alt2="Open" class="MCExpandingIcon" /></a><span class="MCExpandingBody_0" style="display: none;"><img src="../image/ManageSchema.png" /></span></span> button.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="MCDropDown">
+            <div class="MCDropDownHead_0"><a class="MCDropDownHotSpot_0" href="javascript:void(0);" id="MCDropDownHotSpot_1995157193_2" onclick="FMCDropDown( this ); return false;">Compare schema for resources<img style="border: none;margin-left: 5px;" src="../SkinSupport/DropDownClosed.gif" MadCap:altsrc="../SkinSupport/DropDownOpen.gif" onload="if ( typeof( FMCPreloadImage ) == 'function' ) { FMCPreloadImage( '../SkinSupport/DropDownOpen.gif' ); }" alt="Closed" MadCap:alt2="Open" class="MCDropDownIcon" /></a>
+            </div>
+            <div class="MCDropDownBody" id="MCDropDownBody_1995157193_2" style="display: none;">
+                <ol>
+                    <li value="1">
+                In the <span class="SLXBold">Manage Schema</span> dialog <span class="SLXBold">Filter By Resource</span> box, select the resource type.</li>
+                    <li value="2">
+                Click <span class="SLXBold">Execute</span>.</li>
+                    <li value="3">
+                Review the differences in the grid.<br />               Note any information that may cause data integrity issues. For example, an accounting system field may only accept three characters when the same field in <span class="MyVariablesProduct Name">Infor CRM</span> accepts free text.</li>
+                    <li value="4">Repeat for all resource types.</li>
+                    <li value="5"><![CDATA[
+                ]]>Click <span class="SLXBold">Close</span>.</li>
+                </ol>
+            </div>
+        </div>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

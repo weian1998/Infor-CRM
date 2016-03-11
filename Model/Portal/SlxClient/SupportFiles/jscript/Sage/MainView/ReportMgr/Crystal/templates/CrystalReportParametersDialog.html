@@ -1,0 +1,14 @@
+﻿<div>
+    <div data-dojo-type="dijit.Dialog" title="{%= $._getDialogTitle() %}" dojoattachpoint="_dialog" dojoattachevent="onCancel:_dialog_OnCancel" style="width: 625px">
+        <div data-dojo-type="dijit.form.Form">
+            <div style="overflow:auto">
+                <div dojoattachpoint="paramsContainerDiv" id="paramsContainerDiv" style="height:400px; overflow:auto"></div>
+            </div>
+            <div align="right" style="margin-top:10px">
+                <div data-dojo-type="dijit.form.Button"dojoAttachPoint="cmdBack" dojoAttachEvent="onClick:_cmdBack_OnClick" >{%= Sage.Utility.htmlEncode($._nlsResources.cmdBack_Caption) %}</div>
+                <div data-dojo-type="dijit.form.Button"dojoAttachPoint="cmdNext" dojoAttachEvent="onClick:_cmdNext_OnClick">{%= Sage.Utility.htmlEncode($._nlsResources.cmdNext_Caption) %}</div>
+                <div data-dojo-type="dijit.form.Button" dojoAttachPoint="cmdCancel" dojoAttachEvent="onClick:_cmdCancel_OnClick" style="margin-left:5px;">{%= Sage.Utility.htmlEncode($._nlsResources.cmdCancel_Caption) %}</div>
+            </div>
+        </div>
+    </div>
+</div>

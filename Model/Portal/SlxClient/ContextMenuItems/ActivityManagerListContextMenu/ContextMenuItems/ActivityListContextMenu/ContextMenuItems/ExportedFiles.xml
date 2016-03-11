@@ -1,0 +1,8 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\SlxClient\ContextMenuItems\ActivityManagerListContextMenu\ContextMenuItems\ActivityListContextMenu\ContextMenuItems\mnuCompleteActivity\" />
+  <exportedFile url="\Portal\SlxClient\ContextMenuItems\ActivityManagerListContextMenu\ContextMenuItems\ActivityListContextMenu\ContextMenuItems\mnuDeleteActivity\" />
+  <exportedFile url="\Portal\SlxClient\ContextMenuItems\ActivityManagerListContextMenu\ContextMenuItems\ActivityListContextMenu\ContextMenuItems\mnuGoTo\" />
+  <exportedFile url="\Portal\SlxClient\ContextMenuItems\ActivityManagerListContextMenu\ContextMenuItems\ActivityListContextMenu\ContextMenuItems\mnuOpenActivity\" />
+  <exportedFile url="\Portal\SlxClient\ContextMenuItems\ActivityManagerListContextMenu\ContextMenuItems\ActivityListContextMenu\ContextMenuItems\mnuSpacer1\" />
+</exportedFiles>

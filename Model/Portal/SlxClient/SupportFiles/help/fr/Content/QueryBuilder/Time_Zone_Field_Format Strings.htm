@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:fileTags="Translation Status.Support files" xml:lang="fr" MadCap:tocPath="" MadCap:medium="non-print" MadCap:InPreviewMode="false" MadCap:PreloadImages="false" MadCap:RuntimeFileType="Topic" MadCap:TargetType="WebHelp" lang="fr" MadCap:conditions="Output.WebClient,Output.Query Builder" MadCap:PathToHelpSystem="../../" MadCap:HelpSystemFileName="WebClient.xml" MadCap:SearchType="Stem">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Chaînes de format des champs de fuseau horaire</title>
+        <link href="../Resources/TableStyles/TableStyle.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/Infor.CSS" rel="stylesheet" />
+        <script src="../SkinSupport/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapAll.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapTopicAll.js" type="text/javascript">
+        </script>
+    </head>
+    <body>
+        <h1><a name="kanchor678"></a>Chaînes de format des champs de fuseau horaire</h1>
+        <p>Le tableau suivant dresse la liste des options de chaîne de formatage pour les champs Fuseau horaire. La validité d'un format de chaîne dépend du type de format sélectionné.</p>
+        <p>Si aucune chaîne de formatage n'est précisée dans un champ Fuseau horaire, la valeur est formatée à l'aide du nom d'affichage du fuseau horaire correspondant. Exemple : (GMT-06:00) Centre (États-Unis et Canada).</p>
+        <table wrapperparagraphselector="P" style="width: 80%;margin-top: 14pt;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" width="80%">
+            <col style="width: 45px;" />
+            <col />
+            <tr>
+                <td style="padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top">
+                    <p style="text-align: center;margin-bottom: 0;" align="center">
+                        <img src="../image/note.gif" />
+                    </p>
+                </td>
+                <td style="width: 90%;padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top" width="90%">
+                    <p class="Tip-Note-Text" style="margin-bottom: 0;">Une chaîne de formatage doit commencer par un signe % et se terminer par un caractère de type de format&#160;:</p>
+                    <p class="Tip-Note-Text" style="margin-bottom: 0;">[%] [type]</p>
+                </td>
+            </tr>
+        </table>
+        <table style="width: 90%;mc-table-style: url('../Resources/TableStyles/TableStyle.css');margin-left: auto;margin-right: auto;" class="TableStyle-TableStyle" cellspacing="0">
+            <col class="TableStyle-TableStyle-Column-Column1" />
+            <col class="TableStyle-TableStyle-Column-Column1" />
+            <thead>
+                <tr class="TableStyle-TableStyle-Head-Header1">
+                    <th class="TableStyle-TableStyle-HeadE-Column1-Header1">Option</th>
+                    <th class="TableStyle-TableStyle-HeadD-Column1-Header1">Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">
+                        <p>B</p>
+                    </td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">La valeur est formatée à l'aide du décalage du fuseau horaire correspondant (ex. : 420). Le décalage est la différence en minutes entre l'heure du méridien de Greenwich (UTC) et le fuseau horaire.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">DB</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">La valeur est formatée à l'aide du décalage pour l'heure d'été du fuseau horaire correspondant (ex. : -60). Le décalage pour l'heure d'été est la différence en minutes entre l'heure d'hiver et l'heure d'été.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">SB</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">La valeur est formatée à l'aide du décalage du fuseau horaire pour l'heure d'hiver (ex. : 0). Cette valeur est utilisée pendant les conversions en heure locale qui surviennent pendant l'heure d'hiver. Cette valeur est généralement 0.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">SN</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">La valeur est formatée à l'aide du nom standard du fuseau horaire correspondant (ex. : Heure Normale du Centre). Cette valeur est généralement équivalente à la valeur du champ TIMEZONE.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyB-Column1-Body1">DN</td>
+                    <td class="TableStyle-TableStyle-BodyA-Column1-Body1">La valeur est formatée à l'aide du nom du fuseau horaire pour l'heure d'été (ex. : Heure Avancée du Centre). Si le fuseau horaire n'observe pas l'heure d'été, la valeur sera formatée sous la forme « N/A » (Sans objet).</td>
+                </tr>
+            </tbody>
+        </table>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

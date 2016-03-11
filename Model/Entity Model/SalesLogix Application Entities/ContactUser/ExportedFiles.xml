@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\ContactUser\ContactUser.CONTACTUSER.entity.xml" timeStamp="2015-05-28T03:04:05.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\ContactUser\OnAfterDelete.method.xml" timeStamp="2015-05-28T03:04:05.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\ContactUser\OnAfterInsert.method.xml" timeStamp="2015-05-28T03:04:05.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\ContactUser\OnAfterUpdate.method.xml" timeStamp="2015-05-28T03:04:05.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\ContactUser\OnBeforeDelete.method.xml" timeStamp="2015-05-28T03:04:05.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\ContactUser\OnBeforeInsert.method.xml" timeStamp="2015-05-28T03:04:05.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\ContactUser\OnBeforeUpdate.method.xml" timeStamp="2015-05-28T03:04:05.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\ContactUser\OnCreate.method.xml" timeStamp="2015-05-28T03:04:05.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\ContactUser\RemoveContactUserAssociations.method.xml" timeStamp="2015-05-28T03:04:05.0000" />
+</exportedFiles>

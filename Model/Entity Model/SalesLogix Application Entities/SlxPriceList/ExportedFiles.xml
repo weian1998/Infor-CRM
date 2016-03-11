@@ -1,0 +1,11 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SlxPriceList\OnAfterDelete.method.xml" timeStamp="2015-05-28T03:04:26.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SlxPriceList\OnAfterInsert.method.xml" timeStamp="2015-05-28T03:04:26.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SlxPriceList\OnAfterUpdate.method.xml" timeStamp="2015-05-28T03:04:26.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SlxPriceList\OnBeforeDelete.method.xml" timeStamp="2015-05-28T03:04:26.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SlxPriceList\OnBeforeInsert.method.xml" timeStamp="2015-05-28T03:04:26.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SlxPriceList\OnBeforeUpdate.method.xml" timeStamp="2015-05-28T03:04:26.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SlxPriceList\OnCreate.method.xml" timeStamp="2015-05-28T03:04:26.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SlxPriceList\SlxPriceList.SLXPRICELIST.entity.xml" timeStamp="2015-05-28T03:04:26.0000" />
+</exportedFiles>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\SlxClient\ContextMenuItems\LeadListContextMenu\ContextMenuItems\llmAddAdHoc\" />
+  <exportedFile url="\Portal\SlxClient\ContextMenuItems\LeadListContextMenu\ContextMenuItems\llmDelete\" />
+  <exportedFile url="\Portal\SlxClient\ContextMenuItems\LeadListContextMenu\ContextMenuItems\llmEmail\" />
+  <exportedFile url="\Portal\SlxClient\ContextMenuItems\LeadListContextMenu\ContextMenuItems\llmNewAdHoc\" />
+  <exportedFile url="\Portal\SlxClient\ContextMenuItems\LeadListContextMenu\ContextMenuItems\llmRemoveAdHoc\" />
+  <exportedFile url="\Portal\SlxClient\ContextMenuItems\LeadListContextMenu\ContextMenuItems\llmUpdateLeads\" />
+</exportedFiles>

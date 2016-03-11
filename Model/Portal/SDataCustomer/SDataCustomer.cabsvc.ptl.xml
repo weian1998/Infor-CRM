@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<CabServicePortal xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="7ace1348-f933-4cc7-a768-4bb4aef766b4">
+  <PortalAlias>SDataCustomer</PortalAlias>
+  <PortalReferences />
+  <DeploymentActions>
+    <ActionType TypeName="Sage.SalesLogix.Web.AdminModule.SLXClientConnectionStringDeploymentAction, Sage.SalesLogix.Web.AdminModule">
+      <Properties />
+    </ActionType>
+    <ActionType TypeName="Sage.Platform.Deployment.AdminModule.EntityDeploymentAction, Sage.Platform.Deployment.AdminModule">
+      <Properties />
+    </ActionType>
+    <ActionType TypeName="Sage.Platform.Deployment.AdminModule.CabPortalDeploymentAction, Sage.Platform.Deployment.AdminModule">
+      <Properties />
+    </ActionType>
+  </DeploymentActions>
+  <AuthenticationProvider>Sage.SalesLogix.Web.SLXCustomerAuthenticationProvider, Sage.SalesLogix.Web</AuthenticationProvider>
+</CabServicePortal>

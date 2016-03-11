@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WebHelpSystem DefaultUrl="Content/Common/slxoverview.htm" Toc="Data/Toc.xml" Index="Data/Index.xml" Concepts="Data/Concepts.xml" Glossary="Content/Glossary.htm" SearchDatabase="Data/Search.xml" Alias="Data/Alias.xml" Synonyms="Data/Synonyms.xml" Skin="Data/SkinWeb_Infor/Skin.xml" Skins="Web_Infor" BuildTime="5/21/2015 3:09:59 PM" BuildVersion="11.0.0.32808" TargetType="WebHelp" SkinTemplateFolder="Skin/" InPreviewMode="false" MoveOutputContentToRoot="false" MakeFileLowerCase="false" UseCustomTopicFileExtension="false" PreventExternalUrls="false" EnableResponsiveOutput="false" ResultsPerPage="20">
+    <Subsystems>
+        <Url Source="Subsystems/WebClient11/WebClient11.mcwebhelp" TocPath="Administration|Integrations|Accounting Integration" />
+        <Url Source="Subsystems/WebClient6/WebClient6.mcwebhelp" TocPath="Administration" />
+        <Url Source="Subsystems/WebClient7/WebClient7.mcwebhelp" TocPath="Administration" />
+        <Url Source="Subsystems/WebClient8/WebClient8.mcwebhelp" TocPath="Administration" />
+        <Url Source="Subsystems/WebClient9/WebClient9.mcwebhelp" TocPath="Administration" />
+        <Url Source="Subsystems/WebClient21/WebClient21.mcwebhelp" TocPath="Marketing|Leads" />
+        <Url Source="Subsystems/WebClient10/WebClient10.mcwebhelp" TocPath="" />
+        <Url Source="Subsystems/WebClient22/WebClient22.mcwebhelp" TocPath="Using Integrations" />
+        <Url Source="Subsystems/WebClient12/WebClient12.mcwebhelp" TocPath="Using Integrations" />
+        <Url Source="Subsystems/WebClient13/WebClient13.mcwebhelp" TocPath="Using Integrations" />
+        <Url Source="Subsystems/WebClient14/WebClient14.mcwebhelp" TocPath="Using Integrations" />
+        <Url Source="Subsystems/WebClient15/WebClient15.mcwebhelp" TocPath="Using Integrations" />
+        <Url Source="Subsystems/WebClient16/WebClient16.mcwebhelp" TocPath="Using Integrations" />
+        <Url Source="Subsystems/WebClient17/WebClient17.mcwebhelp" TocPath="Using Integrations" />
+        <Url Source="Subsystems/WebClient18/WebClient18.mcwebhelp" TocPath="Using Integrations" />
+        <Url Source="Subsystems/WebClient19/WebClient19.mcwebhelp" TocPath="Using Integrations" />
+        <Url Source="Subsystems/WebClient20/WebClient20.mcwebhelp" TocPath="Using Integrations" />
+        <Url Source="Subsystems/WebClient2/WebClient2.mcwebhelp" TocPath="" />
+        <Url Source="Subsystems/WebClient3/WebClient3.mcwebhelp" TocPath="" />
+        <Url Source="Subsystems/WebClient4/WebClient4.mcwebhelp" TocPath="" />
+        <Url Source="Subsystems/WebClient5/WebClient5.mcwebhelp" TocPath="" />
+        <Url Source="Subsystems/WebForms/WebForms.mcwebhelp" TocPath="" />
+    </Subsystems>
+</WebHelpSystem>

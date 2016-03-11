@@ -1,0 +1,13 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\SlxClient\ChildPages\TicketActivityRate\Modules.order.xml" timeStamp="2015-05-28T03:05:38.0000" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\TicketActivityRate\SmartParts.order.xml" timeStamp="2015-05-28T03:05:38.0000" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\TicketActivityRate\TicketActivityRate.page.xml" timeStamp="2015-05-28T03:05:38.0000" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\TicketActivityRate\TicketActivityRate.page.xml.de.resx" timeStamp="2015-05-28T03:05:38.0000" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\TicketActivityRate\TicketActivityRate.page.xml.fr.resx" timeStamp="2015-05-28T03:05:38.0000" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\TicketActivityRate\TicketActivityRate.page.xml.it.resx" timeStamp="2015-05-28T03:05:38.0000" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\TicketActivityRate\TicketActivityRate.page.xml.resx" timeStamp="2015-05-28T03:05:38.0000" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\TicketActivityRate\TicketActivityRate.page.xml.ru.resx" timeStamp="2015-05-28T03:05:38.0000" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\TicketActivityRate\Modules\" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\TicketActivityRate\SmartParts\" />
+</exportedFiles>

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<method xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="e83b2b43-6476-4100-b2d7-292326fa98ca" lastModifiedUtc="2013-02-26T19:55:46.1888362Z" name="AddContactAttendee" methodType="Rule" actionType="None" returnMode="None">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmEntityMethod" />
+  </ExtendedPropertiesCollection>
+  <parameter>
+    <OrmEntityMethodParam id="374e0d7a-c738-4356-afd1-a29d84905f2c" paramName="contactId" sequence="0" paramType="String" />
+  </parameter>
+  <preExecuteTargets />
+  <methodTargets>
+    <methodTarget id="03d291f0-93a9-45b2-b405-a25becf46067" lastModifiedUtc="2013-09-26T22:45:34.5514986Z" targetType="Sage.SalesLogix.Activity.BusinessRules.Activity.Rules, Sage.SalesLogix.Activity" targetMethod="AddContactAttendee" active="true">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmMethodTarget" />
+      </ExtendedPropertiesCollection>
+    </methodTarget>
+  </methodTargets>
+  <postExecuteTargets />
+  <postFlushTargets />
+</method>

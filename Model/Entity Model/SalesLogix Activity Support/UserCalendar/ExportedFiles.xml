@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\UserCalendar\OnAfterDelete.method.xml" timeStamp="2015-05-28T03:03:57.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\UserCalendar\OnAfterInsert.method.xml" timeStamp="2015-05-28T03:03:57.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\UserCalendar\OnAfterUpdate.method.xml" timeStamp="2015-05-28T03:03:57.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\UserCalendar\OnBeforeDelete.method.xml" timeStamp="2015-05-28T03:03:57.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\UserCalendar\OnBeforeInsert.method.xml" timeStamp="2015-05-28T03:03:57.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\UserCalendar\OnBeforeUpdate.method.xml" timeStamp="2015-05-28T03:03:57.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\UserCalendar\OnCreate.method.xml" timeStamp="2015-05-28T03:03:57.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\UserCalendar\UserCalendar.USERCALENDAR.entity.xml" timeStamp="2015-05-28T03:03:57.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\UserCalendar\QuickForms\" />
+</exportedFiles>

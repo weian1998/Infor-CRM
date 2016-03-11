@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:fileTags="Translation Status.Support files" MadCap:tocPath="Администрирование|Интеграция" MadCap:medium="non-print" MadCap:InPreviewMode="false" MadCap:PreloadImages="false" MadCap:RuntimeFileType="Topic" MadCap:TargetType="WebHelp" lang="ru" xml:lang="ru" MadCap:conditions="Output.IntegrationContract" MadCap:PathToHelpSystem="../../" MadCap:HelpSystemFileName="WebClient.xml" MadCap:SearchType="Stem">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Служба настройки синхронизации источников интеграции</title>
+        <link href="../SkinSupport/Slideshow.css" rel="stylesheet" />
+        <link href="../SkinSupport/MadCap.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/Infor.CSS" rel="stylesheet" />
+        <script src="../SkinSupport/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapAll.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapTopicAll.js" type="text/javascript">
+        </script>
+    </head>
+    <body>
+        <h1>Служба настройки синхронизации источников интеграции</h1>
+        <p><a name="kanchor58"></a>Служба синхронизации источников интеграции(Служба синхронизации SData) позволяет передавать данные между Вашими интегрированными источниками. Служба должна быть запущена и настроена для работы в автоматическом режиме.</p>
+        <table wrapperparagraphselector="P" style="margin-top: 14pt;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" width="840px">
+            <col style="width: 45px;" />
+            <col />
+            <tr>
+                <td style="padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top">
+                    <p style="text-align: center;margin-bottom: 0;" align="center">
+                        <img src="../image/note.gif" />
+                    </p>
+                </td>
+                <td style="width: 90%;padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top" width="90%">
+                    <p>Синхронизация информации в режиме реального времени требует подключения к интернету. При использовании учета интеграции на <span class="MyVariablesWebRemote">Автономный веб-клиент</span>, данные в представлениях данных в режиме реального времени будет по состоянию на последнее подключение пользователя к базе данных.</p>
+                </td>
+            </tr>
+        </table>
+        <p class="Infinitive">Настройка</p>
+        <ol>
+            <li value="1">
+                <p>Войдите в систему как пользователь WebDLL.</p>
+            </li>
+            <li value="2">
+                <p>Убедитесь, что вы настроили и включили синхронизацию SData и Вашу интеграцию перед запуском службы.</p>
+            </li>
+            <li value="3">Просмотрите файл Sage.Saleslogix.SLXSDataSyncServer.exe.config, чтобы обеспечить корректное соединение. Информация о соединении должна соответствовать connection.config на вашем веб-сайте.<br />По умолчанию конфигурационный файл находится в ...\Program Files\Saleslogix\Sage.Saleslogix.SLXSDataSyncServer.exe.config и файл подключения будет развернут в ...\inetpub\wwwroot\slxclient</li>
+            <li value="4">Убедитесь, что Вы разрешили проверку подлинности Windows для пользователя WebDLL.
+</li>
+            <li value="5">На рабочей станции администратора, в диалоговом окне служба Windows в Управлении компьютером.</li>
+            <li value="6">Дважды нажмите правой кнопкой мыши на <span class="MyVariablesCompanyNameShort">Infor</span> <span class="SLXBold">сервере синхронизации SData</span> и затем нажмите <span class="SLXBold">Свойства</span>.<ol><li value="1">В поле <span class="SLXBold">Тип запуска</span> выберите <span class="SLXBold">Автоматически</span>.</li><li value="2">Установите службу авторизации и запустите под пользователем WebDLL.</li><li value="3">Нажмите <span class="SLXBold">Старт.</span></li></ol></li>
+            <li value="7">&#160;Нажмите <span class="SLXBold">OK</span>.</li>
+        </ol>
+        <p class="RelatedTopics">См. также</p>
+        <p>Настройка перечня интеграции</p>
+        <p><a href="Using_Sage_SalesLogix_Integration.htm" target="_self">Использование интеграции учета</a>
+        </p>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

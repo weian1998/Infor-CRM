@@ -1,0 +1,11 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\MainView\JobMgr\nls\it\BaseListPanelConfig.js" timeStamp="2015-05-28T03:09:03.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\MainView\JobMgr\nls\it\ExecutionsListPanelConfig.js" timeStamp="2015-05-28T03:09:03.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\MainView\JobMgr\nls\it\FilterConfigurationProvider.js" timeStamp="2015-05-28T03:09:03.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\MainView\JobMgr\nls\it\JobDefinitionsListPanelConfig.js" timeStamp="2015-05-28T03:09:03.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\MainView\JobMgr\nls\it\JobManagerActions.js" timeStamp="2015-05-28T03:09:03.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\MainView\JobMgr\nls\it\JobManagerGroupContextService.js" timeStamp="2015-05-28T03:09:03.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\MainView\JobMgr\nls\it\RunJobDialog.js" timeStamp="2015-05-28T03:09:03.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\MainView\JobMgr\nls\it\SchedulesListPanelConfig.js" timeStamp="2015-05-28T03:09:03.0000" />
+</exportedFiles>

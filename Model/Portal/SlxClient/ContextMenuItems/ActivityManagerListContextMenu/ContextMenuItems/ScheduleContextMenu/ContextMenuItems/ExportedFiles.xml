@@ -1,0 +1,7 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\SlxClient\ContextMenuItems\ActivityManagerListContextMenu\ContextMenuItems\ScheduleContextMenu\ContextMenuItems\mnuScheduleMeeting\" />
+  <exportedFile url="\Portal\SlxClient\ContextMenuItems\ActivityManagerListContextMenu\ContextMenuItems\ScheduleContextMenu\ContextMenuItems\mnuSchedulePersonalActivty\" />
+  <exportedFile url="\Portal\SlxClient\ContextMenuItems\ActivityManagerListContextMenu\ContextMenuItems\ScheduleContextMenu\ContextMenuItems\mnuSchedulePhoneCall\" />
+  <exportedFile url="\Portal\SlxClient\ContextMenuItems\ActivityManagerListContextMenu\ContextMenuItems\ScheduleContextMenu\ContextMenuItems\mnuScheduleToDo\" />
+</exportedFiles>

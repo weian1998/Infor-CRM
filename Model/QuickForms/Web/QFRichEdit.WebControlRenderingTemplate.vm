@@ -1,0 +1,14 @@
+#if(${qfcontrol.Caption} != "")
+ <div class="#if(${qfcontrol.ColumnSpan} == 2)twocollbl#else lbl#end#if(${qfcontrol.ColumnSpan} > 2) colspan3#end alignright" #if($IsPrintView)style="margin-top:.5em;"#end>
+   <asp:Label ID="${qfcontrol.LabelId}" AssociatedControlID="${qfcontrol.ControlId}" runat="server" Text="<%$ resources: ${qfcontrol.ControlId}.Caption %>" #if(!$qfcontrol.Visible)Visible="false" #end></asp:Label>
+ </div>
+#end
+ <div #if(${qfcontrol.ColumnSpan} > 1) class="twocoltextcontrol" #else class="textcontrol" #end #if($IsPrintView)style="margin-top:.5em;"#end >
+  <SalesLogix:RichEditControl ID="${qfcontrol.ControlId}" runat="server"
+#if(!$qfcontrol.Enabled)Enabled="false" #end  
+#if($qfcontrol.Text != "")Text="<%$ resources: ${qfcontrol.ControlId}.Text %>" #end
+#if($qfcontrol.ToolTip != "")ToolTip="<%$ resources: ${qfcontrol.ControlId}.ToolTip %>" #end
+#if($qfcontrol.IsReadOnly)ReadOnly="true" #end
+#if($qfcontrol.StyleScheme != "")CssClass="$qfcontrol.StyleScheme" #end
+#if($qfcontrol.HasActionCode)AutoPostBack="true" #end />
+ </div>

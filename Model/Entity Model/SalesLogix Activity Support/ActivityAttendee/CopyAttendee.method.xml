@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<method xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="f17ccb81-ce84-4615-853c-1cd8b4dbab7f" lastModifiedUtc="2013-02-26T20:05:39.3133082Z" name="CopyAttendee" returnType="IActivityAttendee" methodType="Rule" actionType="None" returnMode="Object">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmEntityMethod" />
+  </ExtendedPropertiesCollection>
+  <parameter>
+    <OrmEntityMethodParam id="609b9617-1926-43b7-92f7-74c74ad31231" paramName="targetActivity" sequence="0" paramType="IActivity" />
+  </parameter>
+  <preExecuteTargets />
+  <methodTargets>
+    <methodTarget id="9030abb1-11a8-4a14-be4e-45898fff8868" lastModifiedUtc="2013-09-26T22:52:39.5724986Z" targetType="Sage.SalesLogix.Activity.BusinessRules.ActivityAttendee.ActivityAttendeeRules, Sage.SalesLogix.Activity" targetMethod="CopyAttendee" active="true">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmMethodTarget" />
+      </ExtendedPropertiesCollection>
+    </methodTarget>
+  </methodTargets>
+  <postExecuteTargets />
+  <postFlushTargets />
+</method>

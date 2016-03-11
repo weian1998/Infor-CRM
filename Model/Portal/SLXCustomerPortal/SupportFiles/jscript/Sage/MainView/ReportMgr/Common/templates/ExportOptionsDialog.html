@@ -1,0 +1,47 @@
+﻿<div>
+    <div data-dojo-type="dijit.Dialog" title="{%= $._getDialogTitle() %}" dojoattachpoint="_dialog" dojoattachevent="onCancel:_dialog_OnCancel" style="width: 600px">
+        <div data-dojo-type="dijit.form.Form">
+            <div style="overflow:auto">
+                <div dojoattachpoint="containerDiv" id="containerDiv" style="height:350px; overflow:auto">
+                    <table cellspacing="10">
+                        <tr dojoAttachpoint="trScheduleDescription">
+                            <td>
+                                <label>{%= $._nlsResources.txtScheduleDescription_Caption %}:</label>
+                            </td>
+                            <td>
+                                <input type="text" dojoAttachPoint="txtScheduleDescription" required="true" dojoType="dijit.form.TextBox" style="width:300px" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label>{%= $._nlsResources.txtOutputFormat_Caption %}:</label>
+                            </td>
+                            <td>
+                                <select dojoType="dijit.form.Select" dojoAttachPoint="cmbOutputFormat" sortByLabel="false" style="width:300px" >
+                                </select>
+                            </td>
+                        </tr>
+                        <tr dojoAttachpoint="trRunAsUserId">
+                            <td>
+                                <label>{%= $._nlsResources.txtRunAs_Caption %}:</label>
+                            </td>
+                            <td>
+                                <div dojoType="dijit.layout.ContentPane" label="{%= $._nlsResources.txtRunAs_Caption %}" dojoAttachPoint="container_lkpRunAsUserId" style="padding: 0 !important;"></div>                            
+                            </td>
+                        </tr>
+                        <tr dojoAttachpoint="trSchedulingWidget">                            
+                            <td colspan="2">
+                                <div data-dojo-type="Sage.UI.JobSchedulingWidget" id="jobSchedulingWidget" data-dojo-attach-point="jobSchedulingWidget"></div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div align="right" style="margin-top:10px">
+                <div data-dojo-type="dijit.form.Button"dojoAttachPoint="cmdBack" dojoAttachEvent="onClick:_cmdBack_OnClick" >{%= Sage.Utility.htmlEncode($._nlsResources.cmdBack_Caption) %}</div>
+                <div data-dojo-type="dijit.form.Button"dojoAttachPoint="cmdNext" dojoAttachEvent="onClick:_cmdNext_OnClick">{%= Sage.Utility.htmlEncode($._nlsResources.cmdNext_Caption) %}</div>
+                <div data-dojo-type="dijit.form.Button" dojoAttachPoint="cmdCancel" dojoAttachEvent="onClick:_cmdCancel_OnClick" style="margin-left:5px;">{%= Sage.Utility.htmlEncode($._nlsResources.cmdCancel_Caption) %}</div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<ModelItems xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Item Id="ff2cb863-ee14-4655-ab5b-3565f1294482">GroupListContextMenu.contextmenu.xml</Item>
+  <Item Id="ec5df6fe-2579-4692-8fde-b94058abfd85">AdhocGroupsListContextMenu.contextmenu.xml</Item>
+  <Item Id="e02c141c-10bb-4878-8186-e2b990be5580">ReleasesContextMenu.contextmenu.xml</Item>
+</ModelItems>

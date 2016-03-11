@@ -1,0 +1,83 @@
+﻿[
+
+  '<table style="width:100%">',
+  '    <tbody>',
+  '    <col style="width:200px" />',
+  '    <col style="width:400px" />',
+  '    <tr>',
+  '        <td>',
+  '            <table>',
+
+  '                <tr id="{%= $.$key %}_ReportDetailSummary_txtReportName">',
+  '                    <td class="SummaryCaption">{%= $.txtReportName_Caption || "Name:" %} </td>',
+  '                    <td class="DataItem">{%= Sage.Utility.htmlEncode($.entity.displayName) %}</td>',
+  '                </tr>',
+
+  '                <tr id="{%= $.$key %}_ReportDetailSummary_txtReportType">',
+  '                    <td class="SummaryCaption">{%= $.txtReportType_Caption || "Type:" %} </td>',
+  '                    <td class="DataItem">{%= Sage.Utility.htmlEncode(Sage.MainView.ReportMgr.ReportManagerFormatter.formatReportType($.entity.reportType)) %}</td>',
+  '                </tr>',
+
+  '                <tr id="{%= $.$key %}_ReportDetailSummary_txtTable">',
+  '                    <td class="SummaryCaption">{%= $.txtTable_Caption || "Table:" %}</td>',
+  '                    <td class="DataItem">{%= Sage.Utility.htmlEncode($.entity.mainTable) %}</td>',
+  '                </tr>',
+
+  '                <tr id="{%= $.$key %}_ReportDetailSummary_txtCreateUser">',
+  '                    <td class="SummaryCaption">{%= $.txtCreateUser_Caption || "Create User:" %}</td>',
+  '                    <td class="DataItem">{%= Sage.Utility.htmlEncode(Sage.Utility.getUserName($.entity.createUser)) %}</td>',
+  '                </tr>',
+
+  '                <tr id="{%= $.$key %}_ReportDetailSummary_txtCreateDate">',
+  '                    <td class="SummaryCaption">{%= $.txtCreateDate_Caption || "Create Date:" %}</td>',
+  "                    <td class=\"DataItem\">{%= ($.entity.createDate) ? dojo.date.locale.format(Sage.Utility.Convert.dateToTimeless(Sage.Utility.Convert.toDateFromString($.entity.createDate)), {selector: 'date'}) : '' %}</td>",
+  '                </tr>',
+
+  '                <tr id="{%= $.$key %}_ReportDetailSummary_txtModifyUser">',
+  '                    <td class="SummaryCaption">{%= $.txtModifyUser_Caption || "Modify User:" %}</td>',
+  '                    <td class="DataItem">{%= Sage.Utility.htmlEncode(Sage.Utility.getUserName($.entity.modifyUser)) %}</td>',
+  '                </tr>',
+
+  '                <tr id="{%= $.$key %}_ReportDetailSummary_txtModifyDate">',
+  '                    <td class="SummaryCaption">{%= $.txtModifyDate_Caption || "Modify Date:" %}</td>',
+  "                <td class=\"DataItem\">{%= ($.entity.modifyDate) ? dojo.date.locale.format(Sage.Utility.Convert.dateToTimeless(Sage.Utility.Convert.toDateFromString($.entity.modifyDate)), {selector: 'date'}) : '' %}</td>",
+  '                </tr>',
+
+  '                <tr id="{%= $.$key %}_ReportDetailSummary_txtUserField">',
+  '                    <td class="SummaryCaption">{%= $.txtUserField_Caption || "User Field:" %}</td>',
+  '                    <td class="DataItem">{%= Sage.Utility.htmlEncode($.entity.userField) %}</td>',
+  '                </tr>',
+
+  '                <tr id="{%= $.$key %}_ReportDetailSummary_txtDateField">',
+  '                    <td class="SummaryCaption">{%= $.txtDateField_Caption || "Date Field:" %}</td>',
+  '                    <td class="DataItem">{%= Sage.Utility.htmlEncode($.entity.dateField) %}</td>',
+  '                </tr>',
+
+  '                <tr id="{%= $.$key %}_ReportDetailSummary_txtUseGroupFilter">',
+  '                    <td class="SummaryCaption">{%= $.txtUseGroupFilter_Caption || "Use Group Filter:" %}</td>',
+  '                    <td class="DataItem">{%= Sage.Utility.htmlEncode(Sage.MainView.ReportMgr.ReportManagerFormatter.formatBoolean($.entity.useGroupFilter)) %}</td>',
+  '                </tr>',
+
+  '                <tr id="{%= $.$key %}_ReportDetailSummary_txtUseUserFilter">',
+  '                    <td class="SummaryCaption">{%= $.txtUseUserFilter_Caption || "Use User Filter:" %}</td>',
+  '                    <td class="DataItem">{%= Sage.Utility.htmlEncode(Sage.MainView.ReportMgr.ReportManagerFormatter.formatBoolean($.entity.useUserFilter)) %}</td>',
+  '                </tr>',
+
+  '                <tr id="{%= $.$key %}_ReportDetailSummary_txtUseDateFilter">',
+  '                    <td class="SummaryCaption">{%= $.txtUseDateFilter_Caption || "Use Date Filter:" %}</td>',
+  '                    <td class="DataItem">{%= Sage.Utility.htmlEncode(Sage.MainView.ReportMgr.ReportManagerFormatter.formatBoolean($.entity.useDateFilter)) %}</td>',
+  '                </tr>',
+
+  '                <tr id="{%= $.$key %}_ReportDetailSummary_txtFileName">',
+  '                    <td class="SummaryCaption">{%= $.txtFileName_Caption || "File Name:" %}</td>',
+  '                    <td class="DataItem">{%= Sage.Utility.htmlEncode($.entity.originalFileName) %}</td>',
+  '                </tr>',
+
+  '            </table>',
+  '        </td>',
+  '      </tr>',
+  '   </tbody>',
+  '</table>',
+
+
+]

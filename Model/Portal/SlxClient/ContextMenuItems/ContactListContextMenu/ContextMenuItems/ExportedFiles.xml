@@ -1,0 +1,8 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\SlxClient\ContextMenuItems\ContactListContextMenu\ContextMenuItems\clmAddAdHoc\" />
+  <exportedFile url="\Portal\SlxClient\ContextMenuItems\ContactListContextMenu\ContextMenuItems\clmEmail\" />
+  <exportedFile url="\Portal\SlxClient\ContextMenuItems\ContactListContextMenu\ContextMenuItems\clmMerge\" />
+  <exportedFile url="\Portal\SlxClient\ContextMenuItems\ContactListContextMenu\ContextMenuItems\clmNewAdHoc\" />
+  <exportedFile url="\Portal\SlxClient\ContextMenuItems\ContactListContextMenu\ContextMenuItems\clmRemoveAdHoc\" />
+</exportedFiles>

@@ -1,0 +1,16 @@
+﻿[
+'<div>',
+    '<table>',
+        '<col style="width:180px" />',
+        '<col style="width:400px" />',
+        '<tr id="{%= $.id %}_JobDefinitionDetailSummary_txtJobName">',
+            '<td>{%= $.txtJobName_Caption || "Job Name:" %} </td>',
+            '<td class="DataItem">{%= Sage.Utility.htmlEncode($.entity.$descriptor) %}</td>',
+        '</tr>',
+        '<tr id="{%= $.id %}_JobDefinitionDetailSummary_txtDescription">',
+            '<td>{%= $.txtDescription_Caption || "Description:" %} </td>',
+            '<td class="DataItem">{%= Sage.Utility.htmlEncode($.entity.description) %}</td>',
+        '</tr>',
+    '</table>',
+'</div>'
+]

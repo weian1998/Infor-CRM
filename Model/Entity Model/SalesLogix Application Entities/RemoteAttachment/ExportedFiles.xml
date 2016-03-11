@@ -1,0 +1,11 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\RemoteAttachment\OnAfterDelete.method.xml" timeStamp="2015-05-28T03:04:22.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\RemoteAttachment\OnAfterInsert.method.xml" timeStamp="2015-05-28T03:04:22.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\RemoteAttachment\OnAfterUpdate.method.xml" timeStamp="2015-05-28T03:04:22.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\RemoteAttachment\OnBeforeDelete.method.xml" timeStamp="2015-05-28T03:04:22.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\RemoteAttachment\OnBeforeInsert.method.xml" timeStamp="2015-05-28T03:04:22.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\RemoteAttachment\OnBeforeUpdate.method.xml" timeStamp="2015-05-28T03:04:22.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\RemoteAttachment\OnCreate.method.xml" timeStamp="2015-05-28T03:04:22.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\RemoteAttachment\RemoteAttachment.REMOTEATTACHMENTS.entity.xml" timeStamp="2015-05-28T03:04:22.0000" />
+</exportedFiles>

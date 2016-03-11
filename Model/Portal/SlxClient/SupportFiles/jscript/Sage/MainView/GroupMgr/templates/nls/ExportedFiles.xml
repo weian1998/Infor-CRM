@@ -1,0 +1,14 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\GroupMgr\templates\nls\GroupDetailSummary.js" timeStamp="2015-05-28T03:09:01.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\GroupMgr\templates\nls\GroupsListSummary.js" timeStamp="2015-05-28T03:09:01.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\GroupMgr\templates\nls\ReleasesDetailSummary.js" timeStamp="2015-05-28T03:09:01.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\GroupMgr\templates\nls\ReleasesListSummary.js" timeStamp="2015-05-28T03:09:01.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\GroupMgr\templates\nls\StatisticsDetailSummary.js" timeStamp="2015-05-28T03:09:01.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\GroupMgr\templates\nls\StatisticsListSummary.js" timeStamp="2015-05-28T03:09:01.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\GroupMgr\templates\nls\de\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\GroupMgr\templates\nls\en\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\GroupMgr\templates\nls\fr\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\GroupMgr\templates\nls\it\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\GroupMgr\templates\nls\ru\" />
+</exportedFiles>

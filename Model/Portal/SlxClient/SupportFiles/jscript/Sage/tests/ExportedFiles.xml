@@ -1,0 +1,13 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\tests\mocks.js" timeStamp="2015-05-28T03:09:11.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\tests\runTests.html" timeStamp="2015-05-28T03:09:11.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\tests\testLoader.js" timeStamp="2015-05-28T03:09:11.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\tests\Utility.html" timeStamp="2015-05-28T03:09:11.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\tests\Utility.js" timeStamp="2015-05-28T03:09:11.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\tests\Data\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\tests\Services\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\tests\Store\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\tests\UI\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\tests\Workspaces\" />
+</exportedFiles>

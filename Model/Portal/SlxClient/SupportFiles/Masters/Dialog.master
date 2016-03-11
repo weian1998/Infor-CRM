@@ -1,0 +1,147 @@
+<%@ Master Language="C#" %>
+<%@ Register Assembly="Sage.Platform.WebPortal" Namespace="Sage.Platform.WebPortal.SmartParts" TagPrefix="smartParts" %>
+<%@ Register Assembly="Sage.Platform.WebPortal" Namespace="Sage.Platform.WebPortal.Workspaces" TagPrefix="workSpace" %>
+<%@ Register Assembly="Sage.SalesLogix.Client.GroupBuilder" Namespace="Sage.SalesLogix.Client.GroupBuilder" TagPrefix="SalesLogix" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<script type="text/C#" runat="server">
+
+    private bool _hideTitleBar;
+    public bool MainContentWorkspace_HideTitleBar
+    {
+        get { return _hideTitleBar; }
+        set { _hideTitleBar = value; }
+    }
+    
+	public void Page_Load(object sender, EventArgs e)
+	{
+		Page.Title = GetLocalResourceObject("DialogPageTitle").ToString();
+        ClientGroupContextService clientGroupContext = new ClientGroupContextService();
+        Page.Form.Controls.Add(clientGroupContext);
+        Page.Header.DataBind();
+	}
+</script>
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head id="Head1" runat="server">
+    <%-- IE Should use the latest version available  --%>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+    <link rel="shortcut icon" href="~/favicon.ico"/>
+    <title>Infor CRM</title>
+    
+    <script pin="pin" language="JavaScript" src="Libraries/jQuery/jquery.js" type="text/javascript"></script>
+    <script pin="pin" language="JavaScript" src="Libraries/jQuery/jquery-ui.js" type="text/javascript"></script>
+
+<script pin="pin" type="text/javascript">
+    var djConfig = {
+        parseOnLoad: false,
+        isDebug: false,
+        locale: '<%# Global.Locale %>',
+        modulePaths: { 'Sage': '../../../jscript/Sage' }
+    };
+</script>
+    <script pin="pin" language="JavaScript" src="Libraries/dojo/dojo/dojo.js"></script>    
+    <script pin="pin" type="text/javascript">
+        window.Sage = window.Sage || {};
+        window.Sage.__namespace = true; //allows child namespaces to be registered via Type.registerNamespace(...)
+    </script>
+
+    <%-- Flattened NLS bundles from dojo build (Comment these out for development)--%>
+    <script pin="pin" type="text/javascript" src="Libraries/dojo/dojox/nls/dojox_<%# Global.Locale %>.js"></script>
+    <script pin="pin" type="text/javascript" src="Libraries/dojo/dijit/nls/dijit_<%# Global.Locale %>.js"></script>
+    <script pin="pin" type="text/javascript" src="jscript/Sage/nls/Sage_<%# Global.Locale %>.js"></script> 
+
+    <%-- Combined dijit/dojox/Sage and all deps (Comment out for development) --%>
+    <script pin="pin" src="jscript/Sage/Sage-Combined.js" type="text/javascript"></script>
+
+    <%--  Built layers from dojo build (Uncomment to load each layer individual if needed)
+    <script pin="pin" type="text/javascript" src="Libraries/dojo/dijit/dijit.js"></script>
+    <script pin="pin" type="text/javascript" src="Libraries/dojo/dojox/dojox.js"></script>
+    <script pin="pin" type="text/javascript" src="jscript/Sage/Sage.js"></script>--%>
+
+    <%--Sage Platform (Uncomment to load for development)
+    <script pin="pin" src="jscript/sage-platform/sage-platform-servicecontainer.js" type="text/javascript"></script>
+    <script pin="pin" src="jscript/sage-platform/gears_init.js" type="text/javascript"></script>
+    <script pin="pin" src="jscript/sage-platform/sage-platform-maincontentworkspace.js" type="text/javascript"></script>
+    <script pin="pin" src="jscript/sage-platform/sage-platform-standardworkspace.js" type="text/javascript"></script>
+    <script pin="pin" src="jscript/sage-platform/sage-platform-tabworkspace.js" type="text/javascript"></script>
+    <script pin="pin" src="jscript/sage-platform/sage-platform-objectconnectionservice.js" type="text/javascript"></script>
+    <script pin="pin" src="jscript/sage-platform/sage-platform-integrationcontractservice.js" type="text/javascript"></script>
+    <script pin="pin" src="jscript/sage-platform/sage-controls-slxgridview.js" type="text/javascript"></script>
+    <script pin="pin" src="jscript/sage-platform/sage-controls-timeline.js" type="text/javascript"></script>--%>
+
+    <%-- Third Party Libs (Uncomment to load for development)
+    <script pin="pin" src="Libraries/sdata/Base64.js" type="text/javascript"></script>
+    <script pin="pin" src="Libraries/sdata/ObjTree.js" type="text/javascript"></script>
+    <script pin="pin" src="Libraries/sdata/sdata-client.js" type="text/javascript"></script>
+    <script pin="pin" src="Libraries/Simplate.js" type="text/javascript"></script>
+    <script pin="pin" src="Libraries/dhtmlxScheduler_v30/dhtmlxscheduler.js" type="text/javascript"></script>
+    <script pin="pin" src="Libraries/dhtmlxScheduler_v30/ext/dhtmlxscheduler_timeline.js" type="text/javascript"></script>
+    <script pin="pin" src="jscript/FusionCharts.js" type="text/javascript"></script>
+    <script pin="pin" src="Libraries/jQuery/jquery.js" type="text/javascript"></script>
+    <script pin="pin" src="Libraries/jQuery/jquery-ui.js" type="text/javascript"></script>--%>
+    
+
+    <script pin="pin" type="text/javascript" src="jscript/sage-common/sage-common.js"></script>
+    <script pin="pin" type="text/javascript" src="jscript/timeobjs.js"></script>
+	<%-- legacy --%>    
+    <link rel="stylesheet" type="text/css" href="~/css/sage-styles.css" />   
+    <!-- dojo -->
+        <%-- debug theme styles: uncomment for debugging and development 
+
+        <link rel="stylesheet" type="text/css" href="~/css/themes/inforSoHoXi/inforSoHoXi.debug.css" />
+            
+    --%>
+
+    <%-- production theme styles: comment for debugging and development --%>
+
+        <link rel="stylesheet" type="text/css" href="~/css/themes/inforSoHoXi/inforSoHoXi.css" />
+
+    
+    <!-- style -->
+    <link rel="stylesheet" type="text/css" href="~/css/layout.css"/>  
+    <!--[if IE]>
+	<link rel="stylesheet" type="text/css" href="~/css/layout-ie.css" />
+    <![endif]--> 
+    <link rel="stylesheet" type="text/css" href="~/css/theme.css"/>   
+    <!-- temporary -->
+    <link rel="stylesheet" type="text/css" href="~/css/sageStyles.css" />
+    <link rel="stylesheet" type="text/css" href="~/css/Global_Images.css"/>
+
+    <%-- Ripped and merged from querybuilder dll --%>
+    <link rel="stylesheet" type="text/css" href="~/css/GroupBuilder/main.css"/>
+
+
+<script pin="pin" type="text/javascript">
+    dojo.require('dojo.parser');
+    dojo.ready(function () {
+        dojo.parser.parse();
+    });
+</script>
+     <script type="text/javascript">
+         function ScheduleActivity(ActivityType) {
+             var vURL = 'activity.aspx?modeid=Insert&type=' + ActivityType;
+             window.open(vURL, 'EditActivity', 'resizable=yes,centerscreen=yes,width=950,height=425,status=no,toolbar=no,scrollbars=yes');
+         }  
+    </script>
+    
+</head>
+<body class="inforSoHoXi">  
+	<form id="mainform" runat="server" method="post" >
+		<div class="ContentArea">
+			<!-- all page content goes here  -->
+			<asp:UpdatePanel runat="server" ID="mainformUpdatePanel" ChildrenAsTriggers="true" UpdateMode="conditional">
+                <ContentTemplate>
+                    <workSpace:MainContentWorkspace ID="MainContent" runat="server" SmartPartInfoStyle-CssClass="mainContentHeader" SmartPartContainerStyle-CssClass="mainContentContent" />
+                </ContentTemplate>
+            </asp:UpdatePanel>
+		</div>
+	</form>
+    
+<script type="text/javascript">
+    dojo.require('Sage.Utility');
+
+</script>    
+       
+</body>
+</html>

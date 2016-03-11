@@ -1,0 +1,36 @@
+﻿.ie10 #GroupTabs
+{
+	bottom: 8px !important;
+}
+
+.ie10 #activityEditor_tc_EditActivity_tablist .dijitTabListWrapper
+{
+    border-bottom: 1px solid #B5BCC7 !important;
+    height: 31px !important;
+    top:2px !important;
+}
+
+.inforSoHoXi.ie10 #activityEditor_tc_EditActivity_tablist .dijitTabContainerTop-tabs .dijitTab {
+    padding-bottom:3px;
+}
+.inforSoHoXi.ie10 #activityEditor_tc_EditActivity_tablist .dijitTabContainerTop-tabs .dijitTabChecked,
+.inforSoHoXi.ie10 #activityEditor_tc_EditActivity_tablist .dijitTabContainerTop-tabs .dijitTabHover,
+.inforSoHoXi.ie10 #activityEditor_tc_EditActivity_tablist .dijitTabContainerTop-tabs .dijitTabActive {
+    padding-top: 0px;
+}
+
+.ie10 div.dijitMenuPopup[dijitPopupParent="_listContextmenu"] > table
+{
+	padding: 0;
+}
+.ie10 input[disabled="disabled"],
+.ie10 .textcontrol input[disabled="disabled"], 
+.ie10 .textcontrol textarea[disabled="disabled"], 
+.ie10 .dependency input[disabled="disabled"], 
+.ie10 .dependency textarea[disabled="disabled"] {
+	background-color : #e5e5e5;
+	color : #737373;
+	border: 1px solid #d2d2d2;
+	cursor : default;	
+	text-shadow: none;
+}

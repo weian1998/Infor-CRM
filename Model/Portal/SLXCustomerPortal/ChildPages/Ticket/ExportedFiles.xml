@@ -1,0 +1,13 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\SLXCustomerPortal\ChildPages\Ticket\Modules.order.xml" timeStamp="2015-05-28T03:07:04.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\ChildPages\Ticket\SmartParts.order.xml" timeStamp="2015-05-28T03:07:04.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\ChildPages\Ticket\Ticket.page.xml" timeStamp="2015-05-28T03:07:04.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\ChildPages\Ticket\Ticket.page.xml.de.resx" timeStamp="2015-05-28T03:07:04.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\ChildPages\Ticket\Ticket.page.xml.fr.resx" timeStamp="2015-05-28T03:07:04.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\ChildPages\Ticket\Ticket.page.xml.it.resx" timeStamp="2015-05-28T03:07:04.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\ChildPages\Ticket\Ticket.page.xml.resx" timeStamp="2015-05-28T03:07:04.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\ChildPages\Ticket\Ticket.page.xml.ru.resx" timeStamp="2015-05-28T03:07:04.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\ChildPages\Ticket\Modules\" />
+  <exportedFile url="\Portal\SLXCustomerPortal\ChildPages\Ticket\SmartParts\" />
+</exportedFiles>

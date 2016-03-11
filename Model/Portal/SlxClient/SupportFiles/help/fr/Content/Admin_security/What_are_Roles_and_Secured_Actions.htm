@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:fileTags="Translation Status.Support files" xml:lang="fr" MadCap:tocPath="Administration|Sécurité" MadCap:medium="non-print" MadCap:InPreviewMode="false" MadCap:PreloadImages="false" MadCap:RuntimeFileType="Topic" MadCap:TargetType="WebHelp" lang="fr" MadCap:conditions="Output.WebClient,Output.IntegrationContract,Targeted.WebHelp-slxgetstartedADMIN subset" MadCap:PathToHelpSystem="../../" MadCap:HelpSystemFileName="WebClient.xml" MadCap:SearchType="Stem">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Que sont les rôles et les actions sécurisées&#160;?</title>
+        <link href="../SkinSupport/Slideshow.css" rel="stylesheet" />
+        <link href="../SkinSupport/MadCap.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/Infor.CSS" rel="stylesheet" />
+        <script src="../SkinSupport/jquery.min.js">
+        </script>
+        <script src="../SkinSupport/MadCapAll.js">
+        </script>
+        <script src="../SkinSupport/MadCapTopicAll.js">
+        </script>
+    </head>
+    <body>
+        <h1>Que sont les rôles et les actions sécurisées&#160;?</h1>
+        <p><a name="kanchor52"></a>Un rôle détermine les fonctionnalités auxquelles un utilisateur a accès dans le client Web. Les rôles sont associés à des actions sécurisées qui contrôlent l'accès à des éléments de l'interface utilisateur tels que&#160;: pages, menus, éléments de menu, barres d'outils et boutons. Lorsque vous contrôlez l'accès aux éléments individuels de l'interface utilisateur, vous pouvez contrôler l'accès aux actions telles que la modification, la suppression ou l'impression. Les éléments sécurisés courants sont tous des éléments de l'interface utilisateur, qui donnent accès aux comptes, aux contacts et aux opportunités.</p>
+        <p>Vous pouvez sécuriser un élément de l'interface utilisateur en affectant une action sécurisée à sa propriété Sécurité appliquée dans l'application Architect. Une fois qu'une application sécurisée est appliquée à un élément de l'interface utilisateur, seuls les utilisateurs auxquels a été attribué un rôle qui comprend l'action sécurisée peuvent voir et utiliser cet élément. Par exemple, Entities/Account/Save est l'action sécurisée affectée à la propriété Sécurité appliquée pour action du bouton Enregistrer sur la vue Détails du compte. Lorsque ce bouton se charge à l'exécution, la valeur d'affichage change selon que l'utilisateur possède ou non l'autorisation d'effectuer l'action.</p>
+        <p>Un élément de l'interface utilisateur dans le Client Web qui est sécurisé restreint l'accès à tous les utilisateurs jusqu'à ce qu'un rôle soit attribué à l'utilisateur et lui en autorise l'accès. Pour sécuriser des éléments dans le Client Web à l'aide de rôles, vous devez ajouter des actions sécurisées à ces éléments, ajouter l'action sécurisée à un rôle et attribuer ce rôle à l'utilisateur. <a href="javascript:void(0);" onclick="FMCToggler( this ); return false;" class="MCToggler_0" MadCap:targets="example;roles steps">En savoir plus...<img style="border: none;margin-left: 5px;" src="../SkinSupport/DropDownClosed.gif" MadCap:altsrc="../SkinSupport/DropDownOpen.gif" onload="if ( typeof( FMCPreloadImage ) == 'function' ) { FMCPreloadImage( '../SkinSupport/DropDownOpen.gif' ); }" alt="Closed" MadCap:alt2="Open" class="MCTogglerIcon" /></a></p>
+        <p MadCap:targetName="example" style="display: none;">Les éléments sont sécurisés dans l'application Architect en leur attribuant une action sécurisée ou en appliquant une sécurité. La valeur de la propriété Sécurité appliquée est le nom de l'action sécurisée. Pour sécuriser un élément dans l'IU et permettre aux utilisateurs d'accéder à cet élément, vous devez&#160;:</p>
+        <ol MadCap:targetName="roles steps" style="display: none;">
+            <li class="Topic-Text-Numbered" value="1">Déterminer quelle action sécurisée vous souhaitez utiliser pour sécuriser l'élément. Si nécessaire, vous pouvez créer une nouvelle action sécurisée dans le Client Web.</li>
+            <li class="Topic-Text-Numbered" value="2">Ajouter une action sécurisée à la propriété Sécurité appliquée de l'élément dans l'application Architect. Pour plus d'informations, consultez la rubrique «&#160;Comprendre les actions sécurisées&#160;» dans l'aide de l'application Architect.</li>
+            <li class="Topic-Text-Numbered" value="3">Ajouter l'action sécurisée pour cet élément à un rôle dans le client Web.</li>
+            <li class="Topic-Text-Numbered" value="4">Affecter des utilisateurs au rôle.</li>
+        </ol>
+        <p class="subheading">Rôles par défaut</p>
+        <p><a name="DefaultRoles">&#160;</a>Le rôle Utilisateur standard est affecté par défaut à tous les utilisateurs créés dans le client Web. Cela permet l'accès à toutes les fonctions non administratives dans le client Web. Si vous supprimez un utilisateur de ce rôle, l'utilisateur n'aura plus accès aux éléments sécurisés tant que vous ne lui attribuerez pas un nouveau rôle.</p>
+        <p>&#160;</p>
+        <p>Les rôles par défaut sont les suivants&#160;:</p>
+        <ul>
+            <li value="1"><span class="SLXBold">Administrateur</span>&#160;: permet d'ajouter, de modifier et de supprimer des autorisations à des fonctions d'administration comme les utilisateurs, les équipes, les services, les listes de sélection, les produits, les lots, la recherche de doublons, le traitement des doublons et l'historique de la recherche de doublons. Permet également de modifier les quick forms dans le concepteur de formulaire Web.</li>
+            <li value="2"><span class="SLXBold">Responsable qualité des données</span>&#160;: permet d'ajouter, de modifier et de supprimer des autorisations pour les fonctions Recherche des doublons, Traiter les doublons et Historique de la recherche des doublons.</li>
+            <li value="3"><span class="SLXBold">Utilisateur standard</span>&#160;: permet d'afficher, d'ajouter, de modifier et de supprimer des autorisations accordées à des entités non administratives du client Web comme les comptes, les contacts, les opportunités, les bons de commande, les leads, les contrats, les défauts et les tickets. Permet également d'afficher les autorisations d'accès aux produits et aux lots.<br /> Si vous disposez déjà d'utilisateurs, ou si vous créez de nouveaux utilisateurs dans l'Administrateur, vous devez affecter aux utilisateurs le <a href="Assigning_Users_To_Standard_Role.htm" target="_self">rôle d'Utilisateur standard</a>.</li>
+        </ul>
+        <ul>
+            <li value="1"><span class="SLXBold">Processeur commande et devis</span>&#160;: permet d'ajouter et d'afficher des autorisations accordées à des contacts et à des comptes, et de supprimer des autorisations pour des bons de commandes.</li>
+            <li value="2"><span class="SLXBold">Intégration</span>&#160;: permet d'ajouter, de modifier, de supprimer et de consulter des intégrations. <table wrapperparagraphselector="P" style="margin-top: 14pt;border-spacing: 0px;margin-left: 0;margin-right: auto;caption-side: top;width: 843px;" cellspacing="0"><col style="width: 38px;" /><col /><tr><td style="padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top"><p style="text-align: center;margin-bottom: 0;" align="center"><img src="../image/note.gif" /></p></td><td style="padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top"><p>Ce rôle n'est pas recommandé pour les utilisateurs standard. Le rôle d'utilisateur standard offre la possibilité de consulter l'historique de synchronisation. Si des utilisateurs demandent l'accès à d'autres actions d'intégration, par exemple la possibilité d'autoriser une intégration, <span class="MyVariablesProduct Name">Infor CRM</span> recommande d'ajouter ces actions au rôle d'utilisateur standard ou de créer un rôle incluant ces actions.</p></td></tr></table></li>
+            <li MadCap:conditions="Output.IntegrationContract" value="3"><span class="SLXBold">Verrouillage du prix du contrat d'intégration</span>&#160;: permet d'accorder l'autorisation de verrouiller le prix d'un produit sur un bon de commande. (Intégration de la comptabilité uniquement)</li>
+        </ul>
+        <table wrapperparagraphselector="P" style="margin-top: 14pt;border-spacing: 0px;margin-left: 0;margin-right: auto;caption-side: top;" cellspacing="0">
+            <col />
+            <col />
+            <tr>
+                <td style="width: 10%;padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top" width="10%">
+                    <p style="text-align: center;margin-bottom: 0;" align="center">
+                        <img src="../image/note.gif" />
+                    </p>
+                </td>
+                <td style="padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top">
+                    <ul>
+                        <li class="Bullets" value="1">La sécurité dans le client réseau est définie à l'aide de la sécurité des fonctionnalités, de la sécurité des fonctions et des rôles administratifs. La sécurité Web combine tous les éléments réseau dans un seul modèle de sécurité&#160;: un rôle. Vous ne pouvez pas utiliser le modèle de sécurité réseau pour un utilisateur qui est connecté au client Web ou le modèle de sécurité Web pour un utilisateur qui est connecté au client réseau.</li>
+                        <li class="Bullets" value="2">L'utilisateur admin peut accéder à tous les éléments de l'interfacce utilisateur, pour toutes les actions sécurisées.</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+        <p class="RelatedTopics" MadCap:conditions="Output.WebClient">Procédure</p>
+        <p MadCap:conditions="Output.WebClient"><a href="Creating_a_Role.htm" target="_self">Créer un rôle</a>
+        </p>
+        <p MadCap:conditions="Output.WebClient"><a href="CreatingASecuredAction.htm" target="_self">Créer une action sécurisée</a>
+        </p>
+        <p MadCap:conditions="Output.WebClient"><a href="Role_Users_Tab.htm" target="_self">Affecter un rôle à des utilisateurs</a>
+        </p>
+        <p MadCap:conditions="Output.WebClient"><a href="EditingOrDeletingASecuredAction.htm" target="_self">Modifier ou supprimer une action sécurisée</a>
+        </p>
+        <p MadCap:conditions="Output.WebClient"><a href="Assigning_Users_To_Standard_Role.htm" target="_self">Affecter des utilisateurs au rôle d'utilisateur standard</a>
+        </p>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

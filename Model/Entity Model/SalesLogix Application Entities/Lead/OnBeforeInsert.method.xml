@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<method xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="facc3100-9ffd-4e83-bb86-6c62987f6a11" lastModifiedUtc="2013-09-05T15:57:33.499361Z" name="OnBeforeInsert" methodType="CrudEvent" actionType="None" returnMode="None">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmEntityMethod" />
+  </ExtendedPropertiesCollection>
+  <parameter />
+  <preExecuteTargets />
+  <methodTargets>
+    <methodTarget id="67856440-a90c-4add-98cf-73ac7c2e74d3" lastModifiedUtc="0001-01-01T00:00:00" targetType="Sage.SalesLogix.Lead.Rules, Sage.SalesLogix.BusinessRules" targetMethod="OnBeforeInsert" active="true">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmMethodTarget" />
+      </ExtendedPropertiesCollection>
+    </methodTarget>
+  </methodTargets>
+  <postExecuteTargets>
+    <methodTarget id="d49826fe-c523-4fb7-bab4-dc6fc32a7cb1" lastModifiedUtc="2013-09-05T15:57:32.293361Z" targetType="Sage.SalesLogix.Lead.IntegrationRules, Sage.SalesLogix.BusinessRules" targetMethod="AssignAddressGlobalSyncId" active="true">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmMethodTarget" />
+      </ExtendedPropertiesCollection>
+    </methodTarget>
+  </postExecuteTargets>
+  <postFlushTargets />
+</method>

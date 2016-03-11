@@ -1,0 +1,16 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\SmartParts\help.ascx" timeStamp="2015-05-28T03:09:20.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\SmartParts\help.ascx.cs" timeStamp="2015-05-28T03:09:20.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\SmartParts\PortalUser.ascx" timeStamp="2015-05-28T03:07:08.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\SmartParts\PortalUser.ascx.cs" timeStamp="2015-05-28T03:07:08.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\SmartParts\ProcessTestBed.ascx" timeStamp="2015-05-28T03:07:41.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\SmartParts\ProcessTestBed.ascx.cs" timeStamp="2015-05-28T03:07:41.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\SmartParts\App_LocalResources\" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\SmartParts\Attachment\" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\SmartParts\General\" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\SmartParts\GroupBuilder\" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\SmartParts\Reports\" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\SmartParts\SpeedSearch\" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\SmartParts\TaskPane\" />
+</exportedFiles>

@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<SchedulerTrigger xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="94d54da9-1e9e-4719-8e7d-2418c95bc84e">
+  <InstanceId>b5a7b8d0403c4e17b415741776fbe67c</InstanceId>
+  <JobId>e4b407ddd3eb455c834602d53b3fff39</JobId>
+  <Name>RolloverActivitiesEveryHourIndefinitely</Name>
+  <CronExpression>0 0 0/1 * * ? *</CronExpression>
+</SchedulerTrigger>

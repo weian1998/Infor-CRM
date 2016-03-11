@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MadCapSynonyms>
+    <!-- saved from url=(0016)http://localhost -->
+    <Groups />
+    <Directional>
+        <DirectionalSynonym From="offline" To="disconnect" />
+        <DirectionalSynonym From="icon" To="button" />
+        <DirectionalSynonym Stem="true" From="promote" To="link" FromStem="promot" />
+    </Directional>
+</MadCapSynonyms>

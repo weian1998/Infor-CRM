@@ -1,0 +1,31 @@
+define({
+    root: {
+        loadingText: 'Loading...',
+        moreText: 'Edit Items',
+        clearText: 'Clear',
+        emptyText: '(Blank)',
+        nullText: '(Null)',
+        ofText: '/',
+        filterHasMetric: 'Has Metric',
+        filterHasFilter: 'Has Filter',
+        filteroptionToday: 'Today',
+        filteroptionThisWeek: 'This Week',
+        filteroptionThisMonth: 'This Months',
+        filteroptionThisQuarter: 'This Quarter',
+        filteroptionThisYear: 'This Year',
+        filteroptionLastWeek: 'Last Week',
+        filteroptionLastMonth: 'Last Month',
+        filteroptionLastQuarter: 'Last Quarter',
+        filteroptionLastYear: 'Last Year',
+		filteroptionWeektoStart: 'Week to Date',
+        filteroptionMonthtoStart: 'Month to Date',
+        filteroptionQtrtoStart: 'Quarter to Date',
+        filteroptionYeartoStart: 'Year to Date',
+        filteroptionOlder: 'Older'
+    },
+    "de": true,
+    "en": true,
+    "fr": true,
+    "it": true,
+    "ru": true
+});

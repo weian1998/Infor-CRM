@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<method xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="3ee3d95c-1e08-4201-9a72-7df2d4869cf9" lastModifiedUtc="2016-02-15T16:48:10.3364052Z" name="SearchPostalCodes" returnType="String[]" methodType="Rule" actionType="None" returnMode="Object">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmEntityMethod" />
+  </ExtendedPropertiesCollection>
+  <parameter>
+    <OrmEntityMethodParam id="c8c75787-8ffa-46c1-b2fa-5b8795485a54" paramName="Address" sequence="0" paramType="IAddress" />
+    <OrmEntityMethodParam id="06658696-3e50-4615-817a-96943aa9389b" paramName="sCountry" sequence="0" paramType="String" />
+  </parameter>
+  <preExecuteTargets />
+  <methodTargets>
+    <methodTarget xsi:type="OrmMethodTargetSnippet" id="c0864bb6-240f-4d2d-9a37-a08f6b4c446d" lastModifiedUtc="2016-02-15T16:49:05.6635708Z" targetType="Sage.BusinessRules.CodeSnippets.AccountBusinessRules, Sage.SnippetLibrary.CSharp" targetMethod="SearchPostalCodesStep" active="true" codeSnippetId="bdc68370-69a5-486c-8b97-6582792a2470">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmMethodTargetSnippet" />
+      </ExtendedPropertiesCollection>
+    </methodTarget>
+  </methodTargets>
+  <postExecuteTargets />
+  <postFlushTargets />
+</method>

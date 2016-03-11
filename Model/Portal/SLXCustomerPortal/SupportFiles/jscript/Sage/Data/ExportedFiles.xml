@@ -1,0 +1,17 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\Data\BaseSDataStore.js" timeStamp="2015-05-28T03:08:54.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\Data\GroupLayoutSingleton.js" timeStamp="2015-05-28T03:08:54.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\Data\main.js" timeStamp="2015-05-28T03:08:55.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\Data\ProxySDataStore.js" timeStamp="2015-05-28T03:08:55.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\Data\QBTreeStoreModel.js" timeStamp="2015-05-28T03:08:55.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\Data\SDataServiceRegistry.js" timeStamp="2015-05-28T03:08:55.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\Data\SDataStore.js" timeStamp="2015-05-28T03:08:55.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\Data\SDataSummaryViewDataManager.js" timeStamp="2015-05-28T03:08:55.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\Data\ServiceOperationSDataStore.js" timeStamp="2015-05-28T03:08:55.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\Data\SingleEntryPropertySDataStore.js" timeStamp="2015-05-28T03:08:55.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\Data\SingleEntrySDataStore.js" timeStamp="2015-05-28T03:08:55.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\Data\SummaryViewDataManager.js" timeStamp="2015-05-28T03:08:55.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\Data\WritableSDataStore.js" timeStamp="2015-05-28T03:08:55.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\Data\WritableStore.js" timeStamp="2015-05-28T03:08:55.0000" />
+</exportedFiles>

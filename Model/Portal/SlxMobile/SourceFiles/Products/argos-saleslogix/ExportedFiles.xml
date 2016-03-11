@@ -1,0 +1,39 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\Products\argos-saleslogix\.csslintrc" timeStamp="2015-05-28T03:47:32.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\Products\argos-saleslogix\.gitignore" timeStamp="2015-05-28T03:47:32.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\Products\argos-saleslogix\.jscsrc" timeStamp="2015-05-28T03:47:32.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\Products\argos-saleslogix\.jshintrc" timeStamp="2015-05-28T03:47:32.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\Products\argos-saleslogix\.travis.yml" timeStamp="2015-05-28T03:47:32.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\Products\argos-saleslogix\argos-saleslogix.sln" timeStamp="2015-05-28T03:47:32.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\Products\argos-saleslogix\Gruntfile.js" timeStamp="2015-05-28T03:47:32.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\Products\argos-saleslogix\GruntRunner.tmpl" timeStamp="2015-05-28T03:47:32.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\Products\argos-saleslogix\index-dev.aspx" timeStamp="2015-05-28T03:47:34.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\Products\argos-saleslogix\index-dev.html" timeStamp="2015-05-28T03:47:34.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\Products\argos-saleslogix\index-nocache.aspx" timeStamp="2015-05-28T03:47:34.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\Products\argos-saleslogix\index-nocache.html" timeStamp="2015-05-28T03:47:35.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\Products\argos-saleslogix\index-phonegap.html" timeStamp="2015-05-28T03:47:35.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\Products\argos-saleslogix\index.aspx" timeStamp="2015-05-28T03:47:35.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\Products\argos-saleslogix\index.html" timeStamp="2015-05-28T03:47:35.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\Products\argos-saleslogix\index.manifest.ashx" timeStamp="2015-05-28T03:47:35.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\Products\argos-saleslogix\LICENSE" timeStamp="2015-05-28T03:47:32.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\Products\argos-saleslogix\manifest.appcache" timeStamp="2015-05-28T03:47:36.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\Products\argos-saleslogix\METRIC-WIDGETS.md" timeStamp="2015-05-28T03:47:32.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\Products\argos-saleslogix\modules.json" timeStamp="2015-05-28T03:47:36.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\Products\argos-saleslogix\package.json" timeStamp="2015-05-28T03:47:36.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\Products\argos-saleslogix\README.md" timeStamp="2015-05-28T03:47:32.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\Products\argos-saleslogix\template.manifest" timeStamp="2015-05-28T03:47:41.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\Products\argos-saleslogix\unsupported.html" timeStamp="2015-05-28T03:47:42.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\Products\argos-saleslogix\web.config" timeStamp="2015-05-28T03:47:42.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\Products\argos-saleslogix\build\" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\Products\argos-saleslogix\bundle\" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\Products\argos-saleslogix\configuration\" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\Products\argos-saleslogix\content\" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\Products\argos-saleslogix\grunt-tasks\" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\Products\argos-saleslogix\help\" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\Products\argos-saleslogix\localization\" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\Products\argos-saleslogix\min\" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\Products\argos-saleslogix\src\" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\Products\argos-saleslogix\src-docs\" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\Products\argos-saleslogix\tests\" />
+</exportedFiles>

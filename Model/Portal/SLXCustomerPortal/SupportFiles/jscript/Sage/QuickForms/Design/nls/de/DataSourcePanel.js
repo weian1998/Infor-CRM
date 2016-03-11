@@ -1,0 +1,3 @@
+define((
+{ loadingText: 'Wird geladen...' }
+));

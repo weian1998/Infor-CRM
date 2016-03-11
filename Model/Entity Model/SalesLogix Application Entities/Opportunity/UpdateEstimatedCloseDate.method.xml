@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<method xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="35d8076b-db2d-4099-bbf0-45dc347c5a23" lastModifiedUtc="2013-10-01T22:24:47.1883957Z" name="UpdateEstimatedCloseDate" returnType="Boolean" methodType="Rule" actionType="None" returnMode="Object">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmEntityMethod" />
+  </ExtendedPropertiesCollection>
+  <parameter>
+    <OrmEntityMethodParam id="3c8b051c-6a8e-4cd2-848e-6c0baed6e14a" paramName="days" sequence="0" paramType="String">
+      <description>The number of days the opportunities estimated close date is modified.</description>
+    </OrmEntityMethodParam>
+  </parameter>
+  <preExecuteTargets />
+  <methodTargets>
+    <methodTarget id="903178a1-6790-406e-9412-f9da269cef02" lastModifiedUtc="2013-10-01T22:24:41.6883957Z" targetType="Sage.SalesLogix.Opportunity.Rules, Sage.SalesLogix.BusinessRules" targetMethod="UpdateEstimatedCloseDate" active="true">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmMethodTarget" />
+      </ExtendedPropertiesCollection>
+    </methodTarget>
+  </methodTargets>
+  <postExecuteTargets />
+  <postFlushTargets />
+</method>

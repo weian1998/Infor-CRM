@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:fileTags="Translation Status.Support files" xml:lang="de" MadCap:tocPath="" MadCap:medium="non-print" MadCap:InPreviewMode="false" MadCap:PreloadImages="false" MadCap:RuntimeFileType="Topic" MadCap:TargetType="WebHelp" lang="de" MadCap:conditions="Output.WebClient,Output.Query Builder" MadCap:PathToHelpSystem="../../" MadCap:HelpSystemFileName="WebClient.xml" MadCap:SearchType="Stem">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Datenbeziehungen</title>
+        <link href="../SkinSupport/Slideshow.css" rel="stylesheet" />
+        <link href="../SkinSupport/MadCap.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/Infor.CSS" rel="stylesheet" />
+        <script src="../SkinSupport/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapAll.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapTopicAll.js" type="text/javascript">
+        </script>
+    </head>
+    <body>
+        <h1><a name="kanchor687"></a>Datenbeziehungen</h1>
+        <p>Eine relationale Datenbank enthält mehrere Tabellen. Die Struktur der Datenbank wird durch die Beziehung zwischen den Tabellen definiert. Da Daten basierend auf Tabellenbeziehungen abgerufen werden, ist es wichtig, die Beziehungen zwischen den Tabellen zu kennen, bevor einer Datenbank benutzerdefinierte Tabellen und Felder hinzugefügt werden. Diese Kenntnis ist auch beim Erstellen von Abfragen für Suchen, Gruppen, Abonnementregeln oder Vorlagen usw. ungemein hilfreich.</p>
+        <p>Wenn Sie eine benutzerdefinierte Tabelle erstellen, werden die folgenden Felder automatisch hinzugefügt:</p>
+        <ul>
+            <li class="Bullets" value="1">Angelegt von</li>
+            <li class="Bullets" value="2">Erstellungsdatum</li>
+            <li class="Bullets" value="3">Geändert von</li>
+            <li class="Bullets" value="4">Änderungsdatum</li>
+        </ul>
+        <p>Da jede Tabelle zudem mindestens einen Primärschlüssel aufweisen muss, fügt <span class="MyVariablesProduct Name">Infor CRM</span> das Primärschlüsselfeld der benutzerdefinierten Tabelle (wenn die Tabelle über eine 1:0- oder 1:n-Beziehung zu einer anderen Tabelle verfügt) und das Primärschlüsselfeld jeder verknüpften Tabelle hinzu. Im Bedarfsfall können benutzerdefinierte Felder hinzugefügt werden.</p>
+        <p class="Infinitive">Tabellenbeziehungen</p>
+        <p>Eine Beziehung zwischen zwei Tabellen entsteht, wenn in beiden Tabellen wenigstens ein identisches Feld vorhanden ist. Oft ist auch der Name des Feldes identisch, jedoch nicht immer. Die Tabellen ACCOUNT und CONTACT sind beispielsweise miteinander verbunden, da sie beide über ein Feld mit dem Namen "AccountID" und identischem Wert verfügen. Allerdings ist die Tabelle ACCOUNT auch mit der Tabelle USERINFO über das Feld "AccountManagerID" in der Tabelle ACCOUNT und das Feld "UserID" in der Tabelle USERINFO verknüpft. Obwohl in diesen Tabellen unterschiedliche Feldnamen verwendet werden, sind die Werte identisch.</p>
+        <p>Die Verbindung zwischen zwei Tabellen wird als <a href="Joining_Tables.htm">Join</a> bezeichnet. Ein Join wird mithilfe eines Felds eingerichtet, das in beiden Tabellen vorhanden ist. Auch wenn zwei Tabellen verknüpft sind, kann jede Tabelle über unterschiedliche <a href="Table_Relationship_Types.htm">Beziehungen</a> verfügen. Tabellenbeziehungen sind bei der Erstellung von Abfragen wichtig. Eine Abfrage, die auf zwei Tabellen zugreift, kann je nachdem, welche Tabelle die Quelltabelle der Beziehung ist, zu unterschiedlichen Ergebnissen führen.</p>
+        <p class="RelatedTopics">Verwandte Themen</p>
+        <p class="Topic-Text-Numbered"><a href="../QueryBuilder/Using_SalesLogix_Query_Builder.htm" target="_self">Abfrage-Assistent - Übersicht</a>
+        </p>
+        <p class="Topic-Text-Numbered"><a href="Table_Relationship_Types.htm">Typen von Tabellenbeziehungen</a>
+        </p>
+        <p class="Topic-Text-Numbered"><a href="Join_Types.htm">Join-Typen</a>
+        </p>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

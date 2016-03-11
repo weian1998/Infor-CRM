@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Lookup name="LogToHistory">
+  <LookupValue id="F" text="Prompt" localizedId="Prompt" default="false"></LookupValue>
+  <LookupValue id="T" text="DoNotPrompt" localizedId="DoNotPrompt" default="true"></LookupValue>
+</Lookup>

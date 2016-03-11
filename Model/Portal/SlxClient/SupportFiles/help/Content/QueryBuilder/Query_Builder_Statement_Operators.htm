@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:fileTags="Translation Status.Support files" MadCap:tocPath="" MadCap:medium="non-print" MadCap:InPreviewMode="false" MadCap:PreloadImages="false" MadCap:RuntimeFileType="Topic" MadCap:TargetType="WebHelp" lang="en-us" xml:lang="en-us" MadCap:conditions="Output.WebClient,Output.Query Builder" MadCap:PathToHelpSystem="../../" MadCap:HelpSystemFileName="WebClient.xml" MadCap:SearchType="Stem">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Query Builder Statement Operators</title>
+        <link href="../SkinSupport/Slideshow.css" rel="stylesheet" />
+        <link href="../SkinSupport/MadCap.css" rel="stylesheet" />
+        <link href="../Resources/TableStyles/TableStyle.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/Infor.CSS" rel="stylesheet" />
+        <script src="../SkinSupport/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapAll.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapTopicAll.js" type="text/javascript">
+        </script>
+    </head>
+    <body>
+        <h1>Query Builder Statement Operators<a name="kanchor764"></a></h1>
+        <p>When you add a conditional statement, you must select an operator. The operator  is used to determine whether or not a record meets the criteria defined in a  conditional statement. When you add a conditional statement, the default  operator and other available operators depend on the             <a href="Query_Builder_Field_Type_Conventions.htm">field 
+ type</a>.</p>
+        <p>The following table describes all of the possible operators.</p>
+        <table style="width: 90%;mc-table-style: url('../Resources/TableStyles/TableStyle.css');margin-left: 0;margin-right: auto;" class="TableStyle-TableStyle" cellspacing="0">
+            <thead>
+                <tr class="TableStyle-TableStyle-Head-Header1">
+                    <th class="TableStyle-TableStyle-HeadE-Column1-Header1">Operator</th>
+                    <th class="TableStyle-TableStyle-HeadD-Column1-Header1">Selects 
+ a record if the applicable field contains a value that:</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Starting With</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Starts with the value defined in the Value is box.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Contains</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Contains the string defined in the Value is box.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">(=) equal to</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Equals the value defined in the Value is 
+ box.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">(&lt;&gt;) not equal to</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Is not equal to the value defined in the  Value is box.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">(&lt;) less than</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Is less than the value defined in the Value 
+ is box.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">(&lt;=) less than or equal to</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Is less than or equal to the value defined 
+ in the Value is box.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">(&gt;) greater than</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Is greater than the value defined in the 
+ Value is box.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">(&gt;=) greater than or equal to</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Is greater than or equal to the value defined 
+ in the Value is box.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">In</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Contains one of the strings defined in the 
+ Value is box, such as an embedded literal OR statement. You must use quotation 
+ marks around any values to indicate what it should search for.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">does not contain data</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Is null (contains no value).</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">does contain data</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Is not null (contains any value).</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">within last xxx days</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Is a date within the last "xxx" 
+ days (past). Enter either an integer or two integers separated by a comma 
+ for a date range.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyB-Column1-Body1">within next xxx days</td>
+                    <td class="TableStyle-TableStyle-BodyA-Column1-Body1">Is a date within the next "xxx" 
+ days (future). Enter either an integer or two integers separated by a 
+ comma for a date range.</td>
+                </tr>
+            </tbody>
+        </table>
+        <p class="RelatedTopics">Related Topics</p>
+        <p><a href="Using_SalesLogix_Query_Builder.htm" target="_self">Query Builder Overview</a>
+        </p>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

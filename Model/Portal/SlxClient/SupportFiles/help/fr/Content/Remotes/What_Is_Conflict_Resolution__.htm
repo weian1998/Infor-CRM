@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:fileTags="Translation Status.Support files" xml:lang="fr" MadCap:tocPath="" MadCap:medium="non-print" MadCap:InPreviewMode="false" MadCap:PreloadImages="false" MadCap:RuntimeFileType="Topic" MadCap:TargetType="WebHelp" lang="fr" MadCap:conditions="Output.WebClient,Output.Legacy LAN,Output.GSLAN" class="" MadCap:PathToHelpSystem="../../" MadCap:HelpSystemFileName="WebClient.xml" MadCap:SearchType="Stem">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="copyright" value="SalesLogix Sales Help (03/19/2002) for v6.2 © 1997-2004 Best Software, Inc. and Sage Technologies Limited" />
+        <meta name="window-type" content="(w95sec)" /><title>Présentation de la résolution de conflit</title>
+        <link href="../SkinSupport/Slideshow.css" rel="stylesheet" />
+        <link href="../SkinSupport/MadCap.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/Infor.CSS" rel="stylesheet" />
+        <script src="../SkinSupport/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapAll.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapTopicAll.js" type="text/javascript">
+        </script>
+    </head>
+    <body>
+        <h1 MadCap:conditions="Output.Legacy LAN,Output.WebClient">Présentation de la résolution de conflit</h1>
+        <p MadCap:conditions="Output.WebClient">Les utilisateurs <span class="MyVariablesSLX Network Client">Client réseau Infor&#160;CRM</span> et les utilisateurs distants peuvent avoir besoin de modifier un même enregistrement. Les modifications apportées par un utilisateur réseau sont directement appliquées à la base de données du bureau principal. En revanche, les utilisateurs distants modifient leur base de données locale, qu'ils <a href="What_Is_Synchronization_.htm" target="_self">synchronisent</a> ensuite avec le bureau principal et c'est ce dernier qui applique leurs modifications à la base de données du bureau principal.</p>
+        <p><a name="kanchor712"></a>Comme rien n'empêche de modifier ou d'insérer de manière indépendante des enregistrements qui résident à la fois dans les bases de données du bureau principal et distante, un dispositif est nécessaire pour décider de la validité des modifications. Dans le cadre de la synchronisation, le composant Résolution du conflit permet précisément de choisir les modifications à appliquer.</p>
+        <p>L'administrateur peut définir trois critères pour déterminer l'utilisateur qui l'emporte en cas de conflit.<MadCap:conditionalText MadCap:conditions="Output.WebClient,Output.Legacy LAN"> Après analyse des deux transactions en conflit, le système décide qui gagne et qui perd, ou s'il y a égalité. En cas d'égalité, le critère suivant est utilisé pour tenter de départager les transactions, et ainsi de suite. En général, si les transactions sont encore en conflit après l'utilisation de tous les critères, le système décide que la modification la plus récente gagne.</MadCap:conditionalText></p>
+        <p>Les conflits sont résolus au moment où les modifications sont appliquées à la base de données réseau, et non à la base de données distante.</p>
+        <p class="Infinitive" MadCap:conditions="Output.WebClient,Output.Legacy LAN">Critères possibles pour établir une règle de résolution des conflits</p>
+        <ul style="list-style-type: disc;" MadCap:conditions="Output.Legacy LAN,Output.WebClient">
+            <li value="1">Le propriétaire de l'enregistrement gagne (Règle : est le propriétaire de l'enregistrement)</li>
+            <li value="2">L'auteur de la modification la plus récente gagne. (Règle : a réalisé la modification la plus récente)</li>
+            <li value="3">L'utilisateur <span class="MyVariablesSLX Network Client">Client réseau Infor&#160;CRM</span> l'emporte. (Règle : est un client réseau)</li>
+            <li value="4">L'utilisateur <span class="MyVariablesSLX Remote Client">Client distant Infor&#160;CRM</span> l'emporte. (Règle : est un client distant)</li>
+        </ul>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

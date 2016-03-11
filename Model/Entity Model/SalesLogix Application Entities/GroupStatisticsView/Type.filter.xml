@@ -1,0 +1,9 @@
+﻿<?xml version="1.0"?>
+<entityFilter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="OrmRangeEntityFilter" id="ddf7947d-ee46-4454-af59-e1ebd17f0cd4" lastModifiedUtc="2015-02-10T22:34:22.1726716Z" filterName="Type" propertyName="Type" characters="0">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmRangeEntityFilter" />
+  </ExtendedPropertiesCollection>
+  <ranges id="50d4476f-5fe2-4e14-b0a0-2eeb3459ee61" rangeName="ACOGroup" lower="8" upper="8" />
+  <ranges id="dd17d0d8-ab77-467a-9cad-d515b8998cdc" rangeName="Group" lower="23" />
+</entityFilter>

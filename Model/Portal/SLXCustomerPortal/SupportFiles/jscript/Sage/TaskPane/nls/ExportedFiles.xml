@@ -1,0 +1,25 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\TaskPane\nls\_BaseTaskPaneTasklet.js" timeStamp="2015-05-28T03:09:11.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\TaskPane\nls\AccountingTasksTasklet.js" timeStamp="2015-05-28T03:09:11.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\TaskPane\nls\ActivityManagerTasklet.js" timeStamp="2015-05-28T03:09:11.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\TaskPane\nls\ActivityTaskConfigurationProvider.js" timeStamp="2015-05-28T03:09:11.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\TaskPane\nls\ActivityTaskPaneActions.js" timeStamp="2015-05-28T03:09:11.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\TaskPane\nls\CommonTasksTasklet.js" timeStamp="2015-05-28T03:09:11.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\TaskPane\nls\ContactTasksTasklet.js" timeStamp="2015-05-28T03:09:11.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\TaskPane\nls\GroupListTasklet.js" timeStamp="2015-05-28T03:09:11.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\TaskPane\nls\GroupManagerTasksTasklet.js" timeStamp="2015-05-28T03:09:11.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\TaskPane\nls\JobManagerTasksTasklet.js" timeStamp="2015-05-28T03:09:11.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\TaskPane\nls\LeadTasksTasklet.js" timeStamp="2015-05-28T03:09:11.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\TaskPane\nls\LiteratureManagementTasks.js" timeStamp="2015-05-28T03:09:11.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\TaskPane\nls\OpportunityTasksTasklet.js" timeStamp="2015-05-28T03:09:11.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\TaskPane\nls\ReportManagerTasksTasklet.js" timeStamp="2015-05-28T03:09:11.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\TaskPane\nls\SecuredActionTasklet.js" timeStamp="2015-05-28T03:09:11.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\TaskPane\nls\SecurityManagerTasksTasklet.js" timeStamp="2015-05-28T03:09:11.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\TaskPane\nls\UserTasklet.js" timeStamp="2015-05-28T03:09:11.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\TaskPane\nls\de\" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\TaskPane\nls\en\" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\TaskPane\nls\fr\" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\TaskPane\nls\it\" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\TaskPane\nls\ru\" />
+</exportedFiles>

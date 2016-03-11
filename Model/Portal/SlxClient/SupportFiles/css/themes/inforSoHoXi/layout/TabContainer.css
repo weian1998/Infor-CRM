@@ -1,0 +1,367 @@
+/* TabContainer 
+ * 
+ * Styling TabContainer means styling the TabList and Its content container  (dijitTitlePane)
+ * 
+ * Tab List: (including 4 kinds of tab location)
+ * 		.dijitTabContainerTop-tabs     - tablist container at top
+ * 		.dijitTabContainerBottom-tabs  - tablist container at bottom
+ * 		.dijitTabContainerLeft-tabs    - tablist container at left
+ * 		.dijitTabContainerRight-tabs   - tablist container at right
+ * 
+ * Tab Strip Button:
+ * 		.dijitTabStripIcon - tab strip button icon
+ * 		.dijitTabStripMenuIcon - down arrow icon position
+ * 		.dijitTabStripSlideLeftIcon - left arrow icon position
+ * 		.dijitTabStripSlideRightIcon - right arrow icon position
+ * 
+ * 		.tabStripButtonDisabled - styles for disabled tab strip buttons
+ * 
+ * Tab Button:
+ * 		.dijitTabContainerTop-tabs .dijitTabInnerDiv/.dijitTabContent     - styles for top tab button container
+ * 		.dijitTabContainerBottom-tabs .dijitTabInnerDiv/.dijitTabContent  - styles for bottom tab button container
+ * 		.dijitTabContainerLeft-tabs .dijitTabInnerDiv/.dijitTabContent    - styles for left tab button container
+ * 		.dijitTabContainerRight-tabs .dijitTabInnerDiv/.dijitTabContent   - styles for right tab button container
+ * 
+ * 		.dijitTabContainerTop-tabs .dijitTabChecked .dijitTabInnerDiv/.dijitTabContent    
+ * 				- styles for selected status of top tab button
+ * 		same to Bottom, Left, Right Tabs
+ * 
+ * 		.dijitTabHover .dijitTabInnerDiv   - styles when mouse hover on tab buttons
+ * 		.dijitTabActive .dijitTabInnerDiv  - styles when mouse down on tab buttons
+ * 		.dijitTabChecked .dijitTabInnerDiv  - styles when on buttons of selected tab		
+ * 
+ * 		.dijitTabCloseButton - the close action buttons lie at the right top of each tab button on closable tabs
+ * 		.dijitTabCloseButtonHover - styles when mouse hover on close action button
+ * 		.dijitTabCloseButtonActive - styles when mouse down on close action button
+ * 
+ * Tab Button: (checked status)
+ * 
+ * Tab Content Container:
+ * 		.dijitTabContainerTop-dijitContentPane
+ * 		.dijitTabContainerBottom-dijitContentPane
+ * 		.dijitTabContainerLeft-dijitContentPane
+ * 		.dijitTabContainerRight-dijitContentPane - for background and padding
+ * 
+ * Nested Tabs:
+ * 		.dijitTabContainerNested - Container for nested tabs
+ * 		.dijitTabContainerTabListNested - tab list container for nested tabs
+ */
+/*** some common features ***/
+.inforSoHoXi .dijitTabPaneWrapper {
+  background: #005bb8;
+  height: auto !important;
+}
+.inforSoHoXi .dijitTabPaneWrapper,
+.inforSoHoXi .dijitTabContainerTop-tabs,
+.inforSoHoXi .dijitTabContainerBottom-tabs,
+.inforSoHoXi .dijitTabContainerLeft-tabs,
+.inforSoHoXi .dijitTabContainerRight-tabs {
+  /* todo: add common class name for this div */
+  border-color: #d2d2d2;
+}
+.inforSoHoXi .dijitTabCloseButton {
+  background: url("layout/images/tabClose.png") no-repeat;
+  width: 14px;
+  height: 14px;
+  margin-left: 5px;
+  margin-right: -5px;
+}
+.inforSoHoXi .dijitTabCloseButtonHover {
+  background-position: -14px;
+}
+.inforSoHoXi .dijitTabCloseButtonActive {
+  background-position: -28px;
+}
+.inforSoHoXi .dijitTabSpacer {
+  /* set the spacer invisible.  note that height:0 doesn't work on IE/quirks, it's still 10px. */
+  display: none;
+}
+.inforSoHoXi .dijitTab {
+  background-color: #005bb8;
+  color: #d2d2d2;
+  /*border: 1px solid @tab-border-color;*/
+}
+.inforSoHoXi .dijitTabHover {
+  background-color: #005bb8;
+  color: #ffffff;
+  border-bottom: 3px solid #ffffff !important;
+  border-radius: 3px 3px 0 0 !important;
+  border-color: #005bb8;
+}
+.inforSoHoXi .dijitTabActive {
+  background-color: #005bb8;
+  color: #ffffff !important;
+  border-bottom: 3px solid #ffffff !important;
+  border-radius: 3px 3px 0 0 !important;
+  border-color: #005bb8;
+}
+.inforSoHoXi .dijitTabChecked {
+  background-color: #005bb8;
+  color: #ffffff !important;
+  border-bottom: 3px solid #ffffff !important;
+  border-radius: 3px 3px 0 0 !important;
+  font-weight: bold;
+}
+.inforSoHoXi .tabStripButton .dijitTab {
+  background-color: transparent;
+}
+.inforSoHoXi .tabStripButton {
+  border: none;
+}
+/*** end common ***/
+/*************** top tab ***************/
+.dj_ie7 .inforSoHoXi .dijitTabContainerTop-tabs .dijitTab {
+  top: 3px;
+}
+/* for top tab padding. change height when status changes */
+.inforSoHoXi .dijitTabContainerTop-tabs {
+  padding: 9px 5px 4px 5px;
+  background-position: 0 0;
+  background-repeat: repeat-x;
+  min-width: 60px;
+}
+.inforSoHoXi .dijitTabContainerTop-tabs .dijitTabActive,
+.inforSoHoXi .dijitTabContainerTop-tabs .dijitTabHover,
+.inforSoHoXi .dijitTabContainerTop-tabs .dijitTabChecked {
+  padding-bottom: 4px;
+  padding-top: 6px;
+}
+/* normal status */
+.inforSoHoXi .dijitTabContainerTop-tabs .dijitTab {
+  background-position: 0 -248px;
+  background-position: bottom;
+  background-repeat: repeat-x;
+  top: 0px;
+  /* used for overlap */
+  margin-right: 20px;
+  padding-bottom: 8px;
+}
+/* checked status */
+.inforSoHoXi .dijitTabContainerTop-tabs .dijitTabChecked .dijitTab {
+  background-image: none;
+  /*.box-shadow(0 -1px 2px rgba(0, 0, 0, 0.05));*/
+}
+.inforSoHoXi .dijitTabContainerTop-tabs .dijitTabChecked {
+  background-position: 0 -102px;
+  background-repeat: repeat-x;
+}
+/** end top tab **/
+/*************** bottom tab ***************/
+.inforSoHoXi .dijitTabContainerBottom-tabs .dijitTab {
+  top: -1px;
+  /* used for overlap */
+  margin-right: 1px;
+  background-position: top;
+  background-repeat: repeat-x;
+  padding-bottom: 3px;
+}
+/* calculate the position and size */
+.inforSoHoXi .dijitTabContainerBottom-tabs {
+  padding: 3px 6px;
+  border-top-width: 0;
+  background-position: 0 -249px;
+  background-repeat: repeat-x;
+  /*background-position:bottom;  duplicate style/selector  which is it?*/
+  min-width: 60px;
+  /*text-align: center;*/
+}
+/* checked status */
+.inforSoHoXi .dijitTabContainerBottom-tabs .dijitTabChecked .dijitTabContent {
+  padding-bottom: 7px;
+  padding-top: 4px;
+  background-position: 0 -119px;
+}
+.inforSoHoXi .dijitTabContainerBottom-tabs .dijitTabChecked {
+  padding-bottom: 0;
+}
+.inforSoHoXi .dijitTabContainerBottom-tabs .dijitTabChecked .dijitTabInnerDiv {
+  background-image: none;
+}
+/** end bottom tab **/
+/*************** left tab ***************/
+.inforSoHoXi .dijitTabContainerLeft-tabs .dijitTab {
+  border-right-width: 0;
+  left: 1px;
+  /* used for overlap */
+  margin-bottom: 1px;
+  background-position: -347px -340px;
+  background-repeat: repeat-y;
+}
+.inforSoHoXi .dijitTabContainerLeft-tabs {
+  padding: 3px 8px 4px 4px;
+  background-repeat: repeat-y;
+  background-position: 0 0;
+}
+/* checked status */
+.inforSoHoXi .dijitTabContainerLeft-tabs .dijitTabChecked {
+  padding-right: 9px;
+  border-right: none;
+  background-image: none;
+}
+.inforSoHoXi .dijitTabContainerLeft-tabs .dijitTabChecked .dijitTabInnerDiv {
+  background-position: 0 -179px;
+  background-repeat: repeat-y;
+}
+/** end left tab **/
+/*************** right tab ***************/
+.inforSoHoXi .dijitTabContainerRight-tabs .dijitTab {
+  border-left-width: 0;
+  left: -1px;
+  /* used for overlap */
+  margin-bottom: 1px;
+  background-repeat: repeat-y;
+  background-position: -1px -347px;
+}
+.inforSoHoXi .dijitTabContainerRight-tabs {
+  padding: 3px 8px 4px 4px;
+  background-position: right top;
+  background-repeat: repeat-y;
+}
+/* checked status */
+.inforSoHoXi .dijitTabContainerRight-tabs .dijitTabChecked {
+  padding-left: 5px;
+  border-left: none;
+  background-image: none;
+  background-position: -348px -179px;
+}
+/** end right tab **/
+/** round corner **/
+.inforSoHoXi .dijitTabContainerBottom-tabs .dijitTab {
+  -moz-border-radius: 0 0 2px 2px;
+  border-radius: 0 0 2px 2px;
+}
+.inforSoHoXi .dijitTabContainerLeft-tabs .dijitTab,
+.inforSoHoXi .dijitTabContainerLeft-tabs .dijitTab {
+  -moz-border-radius: 2px 0 0 2px;
+  border-radius: 2px 0 0 2px;
+}
+.inforSoHoXi .dijitTabContainerRight-tabs .dijitTab,
+.inforSoHoXi .dijitTabContainerRight-tabs .dijitTab {
+  -moz-border-radius: 0 2px 2px 0;
+  border-radius: 0 2px 2px 0;
+}
+/************ left/right scroll buttons + menu button ************/
+.inforSoHoXi .tabStripButton {
+  background-color: transparent;
+  border: 1px solid #005bb8;
+}
+.inforSoHoXi .dijitTabListContainer-top .tabStripButton {
+  padding: 4px 3px;
+  margin-top: 10px;
+  height: 20px !important;
+  border: none !important;
+}
+.inforSoHoXi .dijitTabListContainer-bottom .tabStripButton {
+  padding: 4px 3px;
+  margin-bottom: 4px;
+  background-position: 0 -248px;
+  background-position: bottom;
+}
+.inforSoHoXi .tabStripButtonHover {
+  background-color: transparent;
+  border-bottom-color: #005bb8;
+}
+.inforSoHoXi .tabStripButtonActive {
+  background-color: transparent;
+  border-bottom-color: #005bb8;
+}
+.inforSoHoXi .dijitTabStripIcon {
+  height: 15px;
+  width: 15px;
+  margin: 0 auto;
+  background-color: transparent;
+}
+.inforSoHoXi .dijitTabStripSlideRightIcon {
+  background-position: -30px 50%;
+  background-image: url("../../../images/icons/smGreenArrowRight.png");
+}
+.inforSoHoXi .dijitTabStripSlideLeftIcon {
+  background-position: -75px 50%;
+  background-image: url("../../../images/icons/smGreenArrowLeft.png");
+}
+.inforSoHoXi .dijitTabStripMenuIcon {
+  background-position: -51px 50%;
+}
+/*disabled styles for tab strip buttons*/
+.inforSoHoXi .dijitTabListContainer-top .tabStripButtonDisabled,
+.inforSoHoXi .dijitTabListContainer-bottom .tabStripButtonDisabled {
+  background-color: transparent;
+  border: 1px solid #005bb8;
+  /* to match border of TabContainer itself */
+}
+.inforSoHoXi .tabStripButtonDisabled .dijitTabStripSlideLeftIcon {
+  background-position: -75px 50%;
+}
+.inforSoHoXi .tabStripButtonDisabled .dijitTabStripSlideRightIcon {
+  background-position: -30px 50%;
+}
+.inforSoHoXi .tabStripButtonDisabled .dijitTabStripMenuIcon {
+  background-position: -151px 50%;
+}
+/* Nested Tabs */
+.inforSoHoXi .dijitTabContainerNested .dijitTabListWrapper {
+  height: auto;
+}
+.inforSoHoXi .dijitTabContainerNested .dijitTabContainerTop-tabs {
+  border-bottom: solid 1px #005bb8;
+  padding: 1px 2px 4px;
+  margin-top: -2px;
+}
+.inforSoHoXi .dijitTabContainerTabListNested .dijitTab {
+  border: none;
+  padding: 4px;
+}
+.inforSoHoXi .dijitTabContainerTabListNested .dijitTab {
+  /* 4 element selector to override box-shadow setting from above rule:
+	 *		.inforSoHoXi .dijitTabContainerTop-tabs .dijitTabChecked .dijitTabInnerDiv { ... }
+	 */
+  background: none;
+  border: none;
+  top: 0;
+  /* to override top: 1px/-1px for normal tabs */
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+.inforSoHoXi .dijitTabContainerTabListNested .dijitTabHover {
+  background-color: #005bb8;
+  border: solid 1px #005bb8;
+  padding: 3px;
+}
+.inforSoHoXi .dijitTabContainerTabListNested .dijitTabHover .tabLabel {
+  text-decoration: none;
+}
+.inforSoHoXi .dijitTabContainerTabListNested .dijitTabActive {
+  border: solid 1px #005bb8;
+  padding: 3px;
+}
+.inforSoHoXi .dijitTabContainerTabListNested .dijitTabChecked {
+  padding: 3px;
+  border: solid 1px #005bb8;
+  background-position: 0 105px;
+  background-color: #005bb8;
+}
+.inforSoHoXi .dijitTabContainerTabListNested .dijitTabChecked .tabLabel {
+  text-decoration: none;
+  background-image: none;
+}
+.inforSoHoXi .dijitTabPaneWrapperNested {
+  border: none;
+  /* prevent double border */
+}
+.dj_ie6 .inforSoHoXi .dijitTabContent,
+.dj_ie6 .inforSoHoXi .dijitTab,
+.dj_ie6 .dijitTabListContainer-top .tabStripButton,
+.dj_ie6 .dijitTabListContainer-bottom .tabStripButton {
+  background-image: none;
+}
+.inforSoHoXi .activity-dialog .dijitTabListWrapper {
+  top: 5px !important;
+}
+.inforSoHoXi .QueryBuilderMaincontents .dijitTabContainer-Top-tabs {
+  top: 5px;
+}
+.inforSoHoXi .dijitTabController {
+  z-index: 1;
+  background-color: #005bb8;
+}

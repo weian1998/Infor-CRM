@@ -1,0 +1,19 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\LiteratureItem\Author.filter.xml" timeStamp="2015-05-28T03:04:15.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\LiteratureItem\Cost.filter.xml" timeStamp="2015-05-28T03:04:15.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\LiteratureItem\Family.filter.xml" timeStamp="2015-05-28T03:04:15.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\LiteratureItem\ItemNumber.filter.xml" timeStamp="2015-05-28T03:04:15.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\LiteratureItem\LiteratureItem.LITERATURE.entity.xml" timeStamp="2015-05-28T03:04:15.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\LiteratureItem\Name.filter.xml" timeStamp="2015-05-28T03:04:15.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\LiteratureItem\OnAfterDelete.method.xml" timeStamp="2015-05-28T03:04:15.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\LiteratureItem\OnAfterInsert.method.xml" timeStamp="2015-05-28T03:04:15.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\LiteratureItem\OnAfterUpdate.method.xml" timeStamp="2015-05-28T03:04:15.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\LiteratureItem\OnBeforeDelete.method.xml" timeStamp="2015-05-28T03:04:15.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\LiteratureItem\OnBeforeInsert.method.xml" timeStamp="2015-05-28T03:04:15.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\LiteratureItem\OnBeforeUpdate.method.xml" timeStamp="2015-05-28T03:04:15.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\LiteratureItem\OnCreate.method.xml" timeStamp="2015-05-28T03:04:15.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\LiteratureItem\OnHand.filter.xml" timeStamp="2015-05-28T03:04:15.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\LiteratureItem\ReorderQty.filter.xml" timeStamp="2015-05-28T03:04:15.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\LiteratureItem\QuickForms\" />
+</exportedFiles>

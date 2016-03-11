@@ -1,0 +1,7 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\SlxClient\ContextMenuItems\AccountListContextMenu\ContextMenuItems\almAddAdHoc\" />
+  <exportedFile url="\Portal\SlxClient\ContextMenuItems\AccountListContextMenu\ContextMenuItems\almMergeAccounts\" />
+  <exportedFile url="\Portal\SlxClient\ContextMenuItems\AccountListContextMenu\ContextMenuItems\almNewAdHoc\" />
+  <exportedFile url="\Portal\SlxClient\ContextMenuItems\AccountListContextMenu\ContextMenuItems\almRemoveAdHoc\" />
+</exportedFiles>

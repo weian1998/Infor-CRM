@@ -1,0 +1,24 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\SLXCustomerPortal\ContextMenuItems.order.xml" timeStamp="2015-05-28T03:07:02.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\MenuItems.order.xml" timeStamp="2015-05-28T03:07:02.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\Modules.order.xml" timeStamp="2015-05-28T03:07:02.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\NavigationGroups.order.xml" timeStamp="2015-05-28T03:07:02.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\Services.order.xml" timeStamp="2015-05-28T03:07:02.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SLXCustomerPortal.cabapp.ptl.xml" timeStamp="2015-05-28T03:07:02.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SLXCustomerPortal.cabapp.ptl.xml.de.resx" timeStamp="2015-05-28T03:07:02.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SLXCustomerPortal.cabapp.ptl.xml.fr.resx" timeStamp="2015-05-28T03:07:02.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SLXCustomerPortal.cabapp.ptl.xml.it.resx" timeStamp="2015-05-28T03:07:02.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SLXCustomerPortal.cabapp.ptl.xml.resx" timeStamp="2015-05-28T03:07:02.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SLXCustomerPortal.cabapp.ptl.xml.ru.resx" timeStamp="2015-05-28T03:07:02.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles.def.xml" timeStamp="2015-05-28T03:07:02.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\Tasklets.order.xml" timeStamp="2015-05-28T03:07:02.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\ChildPages\" />
+  <exportedFile url="\Portal\SLXCustomerPortal\ContextMenuItems\" />
+  <exportedFile url="\Portal\SLXCustomerPortal\Deployment\" />
+  <exportedFile url="\Portal\SLXCustomerPortal\MenuItems\" />
+  <exportedFile url="\Portal\SLXCustomerPortal\Modules\" />
+  <exportedFile url="\Portal\SLXCustomerPortal\NavGroups\" />
+  <exportedFile url="\Portal\SLXCustomerPortal\Services\" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\" />
+</exportedFiles>

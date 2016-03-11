@@ -1,0 +1,18 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\ReportMgr\nls\BaseReportScheduleEditor.js" timeStamp="2015-05-28T03:09:05.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\ReportMgr\nls\FilterConfigurationProvider.js" timeStamp="2015-05-28T03:09:05.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\ReportMgr\nls\HistoryListPanelConfig.js" timeStamp="2015-05-28T03:09:05.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\ReportMgr\nls\ReportManagerActions.js" timeStamp="2015-05-28T03:09:05.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\ReportMgr\nls\ReportManagerFormatter.js" timeStamp="2015-05-28T03:09:05.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\ReportMgr\nls\ReportManagerGroupContextService.js" timeStamp="2015-05-28T03:09:05.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\ReportMgr\nls\ReportManagerUtility.js" timeStamp="2015-05-28T03:09:05.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\ReportMgr\nls\ReportsListPanelConfig.js" timeStamp="2015-05-28T03:09:05.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\ReportMgr\nls\ReportWizardController.js" timeStamp="2015-05-28T03:09:05.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\ReportMgr\nls\SchedulesListPanelConfig.js" timeStamp="2015-05-28T03:09:05.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\ReportMgr\nls\de\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\ReportMgr\nls\en\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\ReportMgr\nls\fr\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\ReportMgr\nls\it\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\ReportMgr\nls\ru\" />
+</exportedFiles>

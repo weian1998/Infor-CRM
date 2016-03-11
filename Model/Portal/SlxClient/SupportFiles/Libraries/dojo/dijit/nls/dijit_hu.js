@@ -1,0 +1,11 @@
+define('dijit/nls/dijit_hu',{
+'dijit/nls/loading':{"loadingState":"Betöltés...","errorState":"Sajnálom, hiba történt","_localized":{}}
+,
+'dijit/nls/common':{"buttonOk":"OK","buttonCancel":"Mégse","buttonSave":"Mentés","itemClose":"Bezárás","_localized":{}}
+,
+'dijit/_editor/nls/commands':{"bold":"Félkövér","copy":"Másolás","cut":"Kivágás","delete":"Törlés","indent":"Behúzás","insertHorizontalRule":"Vízszintes vonalzó","insertOrderedList":"Számozott lista","insertUnorderedList":"Felsorolásjeles lista","italic":"Dőlt","justifyCenter":"Középre igazítás","justifyFull":"Sorkizárás","justifyLeft":"Balra igazítás","justifyRight":"Jobbra igazítás","outdent":"Negatív behúzás","paste":"Beillesztés","redo":"Újra","removeFormat":"Formázás eltávolítása","selectAll":"Összes kijelölése","strikethrough":"Áthúzott","subscript":"Alsó index","superscript":"Felső index","underline":"Aláhúzott","undo":"Visszavonás","unlink":"Hivatkozás eltávolítása","createLink":"Hivatkozás létrehozása","toggleDir":"Irány váltókapcsoló","insertImage":"Kép beszúrása","insertTable":"Táblázat beszúrása/szerkesztése","toggleTableBorder":"Táblázatszegély ki-/bekapcsolása","deleteTable":"Táblázat törlése","tableProp":"Táblázat tulajdonságai","htmlToggle":"HTML forrás","foreColor":"Előtérszín","hiliteColor":"Háttérszín","plainFormatBlock":"Bekezdés stílusa","formatBlock":"Bekezdés stílusa","fontSize":"Betűméret","fontName":"Betűtípus","tabIndent":"Tab behúzás","fullScreen":"Váltás teljes képernyőre","viewSource":"HTML forrás megjelenítése","print":"Nyomtatás","newPage":"Új oldal","systemShortcut":"A(z) \"${0}\" művelet a böngészőben csak billentyűparancs használatával érhető el. Használja a következőt: ${1}.","ctrlKey":"ctrl+${0}","appleKey":"⌘${0}","_localized":{}}
+,
+'dijit/form/nls/validate':{"invalidMessage":"A megadott érték érvénytelen.","missingMessage":"Meg kell adni egy értéket.","rangeMessage":"Az érték kívül van a megengedett tartományon.","_localized":{}}
+,
+'dijit/form/nls/ComboBox':{"previousMessage":"Előző menüpontok","nextMessage":"További menüpontok","_localized":{}}
+});

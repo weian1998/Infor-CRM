@@ -1,0 +1,10 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\SlxClient\ContextMenuItems\GroupLookupTabContextMenu\ContextMenuItems\gltcmExportToExcel\" />
+  <exportedFile url="\Portal\SlxClient\ContextMenuItems\GroupLookupTabContextMenu\ContextMenuItems\gltcmExportToFile\" />
+  <exportedFile url="\Portal\SlxClient\ContextMenuItems\GroupLookupTabContextMenu\ContextMenuItems\gltcmSaveAsGroup\" />
+  <exportedFile url="\Portal\SlxClient\ContextMenuItems\GroupLookupTabContextMenu\ContextMenuItems\gtcRevertLayout\" />
+  <exportedFile url="\Portal\SlxClient\ContextMenuItems\GroupLookupTabContextMenu\ContextMenuItems\gtcSpacer1\" />
+  <exportedFile url="\Portal\SlxClient\ContextMenuItems\GroupLookupTabContextMenu\ContextMenuItems\gtcSpacer2\" />
+  <exportedFile url="\Portal\SlxClient\ContextMenuItems\GroupLookupTabContextMenu\ContextMenuItems\gtlcAddGroup\" />
+</exportedFiles>

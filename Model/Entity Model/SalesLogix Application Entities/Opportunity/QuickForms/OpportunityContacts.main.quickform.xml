@@ -1,0 +1,397 @@
+<?xml version="1.0"?>
+<QuickForm xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="7f6397ac-02ec-41d0-adc7-65a6f2be625a" DefinitionType="Sage.Platform.QuickForms.QuickFormMainDetailViewDefinition, Sage.Platform.QuickForms">
+  <ActiveControl />
+  <ImagePath />
+  <LoadActions />
+  <Name>OpportunityContacts</Name>
+  <ClientScriptIncludes />
+  <ClientResourceKeys />
+  <ExtendedProperties />
+  <HelpFile />
+  <ReadOnly>false</ReadOnly>
+  <GeneratePrintView>false</GeneratePrintView>
+  <Controls>
+    <Control typeName="Sage.SalesLogix.QuickForms.QFControls.SDataGrid.QFSDataGrid, Sage.SalesLogix.QuickForms.QFControls">
+      <QFSDataGrid>
+        <Column>0</Column>
+        <Row>0</Row>
+        <HotKey>0</HotKey>
+        <TabIndex>0</TabIndex>
+        <ControlId>grdContacts</ControlId>
+        <DataBindings />
+        <ControlLabelPlacement>left</ControlLabelPlacement>
+        <ExtendedProperties />
+        <CaptionAlignment>left</CaptionAlignment>
+        <StyleScheme />
+        <GenerateMember>false</GenerateMember>
+        <ReadOnlyCondition>False</ReadOnlyCondition>
+        <AppliedSecurity />
+        <RelateToPropertyName>Contacts</RelateToPropertyName>
+        <PreviewField />
+        <ResourceKind>
+          <Name>opportunityContacts</Name>
+          <GetPredicate />
+        </ResourceKind>
+        <PathSegments />
+        <Columns>
+          <QFSDataEditCol>
+            <StyleScheme />
+            <DataField />
+            <ColumnId>ebb97896-7b49-4f42-841e-b0691c7082ef</ColumnId>
+            <HorizontalAlignment>left</HorizontalAlignment>
+            <HeaderAlignment>left</HeaderAlignment>
+            <SortDirection>None</SortDirection>
+            <IsSortable>false</IsSortable>
+            <MultiCurrencyDependent>false</MultiCurrencyDependent>
+            <DialogSpecs>
+              <SmartPart>EditOpportunityContact</SmartPart>
+              <Height>400</Height>
+              <Width>750</Width>
+              <Top>0</Top>
+              <Left>0</Left>
+              <EntityType>OpportunityContact</EntityType>
+              <ResourceKey>cb2b003f-bb83-4f79-ae29-9a7df36aae9d</ResourceKey>
+              <CenterDialog>True</CenterDialog>
+            </DialogSpecs>
+            <AppliedSecurity>Entities/Opportunity/Edit</AppliedSecurity>
+            <HideCondition>function () {
+    if (Sage.Utility.getModeId() === 'insert') {
+        return true;
+    }
+}</HideCondition>
+            <Width>4</Width>
+          </QFSDataEditCol>
+          <QFSDataLinkCol>
+            <StyleScheme />
+            <DataField>Contact.NameLF</DataField>
+            <ColumnId>4d2f53cb-d5a8-4b35-a692-52338cc459e8</ColumnId>
+            <HorizontalAlignment>left</HorizontalAlignment>
+            <HeaderAlignment>left</HeaderAlignment>
+            <SortDirection>Ascending</SortDirection>
+            <IsSortable>true</IsSortable>
+            <SortField>Contact.NameLF</SortField>
+            <MultiCurrencyDependent>false</MultiCurrencyDependent>
+            <Destination />
+            <Image />
+            <EntityIdField>Contact.Id</EntityIdField>
+            <EntityTypeName>Contact</EntityTypeName>
+            <Target />
+            <AppliedSecurity />
+            <HideCondition />
+            <Width>12</Width>
+          </QFSDataLinkCol>
+          <QFEditableCol>
+            <StyleScheme />
+            <DataField>Contact.Title</DataField>
+            <ColumnId>8d492f7c-a115-4e0a-b392-c39eae576428</ColumnId>
+            <HorizontalAlignment>left</HorizontalAlignment>
+            <HeaderAlignment>left</HeaderAlignment>
+            <SortDirection>None</SortDirection>
+            <IsSortable>true</IsSortable>
+            <SortField>Contact.Title</SortField>
+            <MultiCurrencyDependent>false</MultiCurrencyDependent>
+            <IsEditable>false</IsEditable>
+            <HideCondition />
+            <Width>10</Width>
+            <CustomFormatter />
+            <AbbreviationLength>0</AbbreviationLength>
+          </QFEditableCol>
+          <QFSDataPickListCol>
+            <StyleScheme />
+            <DataField>SalesRole</DataField>
+            <ColumnId>c3b7f9ef-e728-4e71-91f9-cfed1ad93e97</ColumnId>
+            <HorizontalAlignment>left</HorizontalAlignment>
+            <HeaderAlignment>left</HeaderAlignment>
+            <SortDirection>None</SortDirection>
+            <IsSortable>true</IsSortable>
+            <SortField>SalesRole</SortField>
+            <MultiCurrencyDependent>false</MultiCurrencyDependent>
+            <IsEditable>false</IsEditable>
+            <HideCondition />
+            <Width>10</Width>
+            <CustomFormatter />
+            <AbbreviationLength>0</AbbreviationLength>
+            <PickListName>Role</PickListName>
+            <DisplayMode>AsText</DisplayMode>
+            <StorageMode>Text</StorageMode>
+          </QFSDataPickListCol>
+          <QFSDataCheckBoxCol>
+            <StyleScheme />
+            <DataField>IsPrimary</DataField>
+            <ColumnId>0b348cda-aed0-4447-97a0-2cf9a75fc7e5</ColumnId>
+            <HorizontalAlignment>left</HorizontalAlignment>
+            <HeaderAlignment>left</HeaderAlignment>
+            <SortDirection>None</SortDirection>
+            <IsSortable>true</IsSortable>
+            <SortField>IsPrimary</SortField>
+            <MultiCurrencyDependent>false</MultiCurrencyDependent>
+            <IsEditable>false</IsEditable>
+            <HideCondition />
+            <Width>6</Width>
+            <CustomFormatter />
+            <AbbreviationLength>0</AbbreviationLength>
+          </QFSDataCheckBoxCol>
+          <QFSDataPhoneCol>
+            <StyleScheme />
+            <DataField>Contact.WorkPhone</DataField>
+            <ColumnId>53466a16-c110-4cc9-a255-766895b39c4a</ColumnId>
+            <HorizontalAlignment>left</HorizontalAlignment>
+            <HeaderAlignment>left</HeaderAlignment>
+            <SortDirection>None</SortDirection>
+            <IsSortable>true</IsSortable>
+            <SortField>Contact.WorkPhone</SortField>
+            <MultiCurrencyDependent>false</MultiCurrencyDependent>
+            <IsEditable>false</IsEditable>
+            <HideCondition />
+            <Width>10</Width>
+            <CustomFormatter />
+            <AbbreviationLength>0</AbbreviationLength>
+          </QFSDataPhoneCol>
+          <QFSDataEmailCol>
+            <StyleScheme />
+            <DataField>Contact.Email</DataField>
+            <ColumnId>9134df93-3411-44af-9c46-0be921f191ab</ColumnId>
+            <HorizontalAlignment>left</HorizontalAlignment>
+            <HeaderAlignment>left</HeaderAlignment>
+            <SortDirection>None</SortDirection>
+            <IsSortable>true</IsSortable>
+            <SortField>Contact.Email</SortField>
+            <MultiCurrencyDependent>false</MultiCurrencyDependent>
+            <IsEditable>false</IsEditable>
+            <HideCondition />
+            <Width>12</Width>
+            <CustomFormatter />
+            <AbbreviationLength>0</AbbreviationLength>
+          </QFSDataEmailCol>
+        </Columns>
+        <ConditionalWhere />
+        <Select />
+        <Include />
+        <FeedCategory>InternalAppEntities</FeedCategory>
+        <OnGetMappingId />
+        <ParentRelationshipPropertyName>Opportunity</ParentRelationshipPropertyName>
+        <ChildRelationshipPropertyName>Contact</ChildRelationshipPropertyName>
+        <OnDataChange />
+        <OnAdd />
+        <Tools>
+          <SDataGridSaveTool>
+            <Name>Save</Name>
+            <Image>[Localization!Global_Images:Save_16x16]</Image>
+            <DisplayInInsert>false</DisplayInInsert>
+            <MergePosition>Default</MergePosition>
+            <MergeControlId />
+            <OnClick>function () { if (Sage.Utility.getModeId() !== 'insert') { __doPostBack('MainContent', ''); } }</OnClick>
+            <StyleScheme />
+            <AppliedSecurity>Entities/Opportunity/Edit</AppliedSecurity>
+          </SDataGridSaveTool>
+          <SDataGridAddRelationTool>
+            <Name>Relate</Name>
+            <Image />
+            <DisplayInInsert>true</DisplayInInsert>
+            <MergePosition>Default</MergePosition>
+            <MergeControlId />
+            <OnClick>//default add relationship behavior</OnClick>
+            <StyleScheme />
+            <AppliedSecurity>Entities/Opportunity/Edit</AppliedSecurity>
+            <LookupButton>
+              <Column>0</Column>
+              <Row>0</Row>
+              <HotKey>0</HotKey>
+              <TabIndex>0</TabIndex>
+              <ControlId>lueAddContact</ControlId>
+              <DataBindings />
+              <ControlLabelPlacement>left</ControlLabelPlacement>
+              <ExtendedProperties />
+              <CaptionAlignment>left</CaptionAlignment>
+              <StyleScheme />
+              <OnChangeAction>
+                <ResourceKey>lueAddContact</ResourceKey>
+                <Action typeName="Sage.Platform.QuickForms.ActionItems.NoActionActionItem, Sage.Platform.QuickForms">
+                  <NoActionActionItem>
+                    <MethodName />
+                  </NoActionActionItem>
+                </Action>
+                <IsDialogCloseAction>False</IsDialogCloseAction>
+                <RunOnEveryRePaint>False</RunOnEveryRePaint>
+                <DialogActionResult>NoResult</DialogActionResult>
+                <PerformsUpdate>False</PerformsUpdate>
+                <AppliedSecurity />
+                <RefreshData>False</RefreshData>
+              </OnChangeAction>
+              <Required>false</Required>
+              <LookupImage>[Localization!Global_Images:plus_16x16]</LookupImage>
+              <LookupDialogWidth xsi:nil="true" />
+              <LookupDialogHeight xsi:nil="true" />
+              <LookupDisplayMode>ButtonOnly</LookupDisplayMode>
+              <LookupBindingMode>Object</LookupBindingMode>
+              <LookupResultValue xsi:type="xsd:string" />
+              <AddEmptyListItem>false</AddEmptyListItem>
+              <AllowClearingResult>false</AllowClearingResult>
+              <AppendStringValues>false</AppendStringValues>
+              <OverrideSeedOnSearch>false</OverrideSeedOnSearch>
+              <LookupEntityName>Contact</LookupEntityName>
+              <LookupEntityTypeName>Sage.Entity.Interfaces.IContact, Sage.Entity.Interfaces, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</LookupEntityTypeName>
+              <AutoPostBack>false</AutoPostBack>
+              <EnableHyperLinking>false</EnableHyperLinking>
+              <InitializeLookup>false</InitializeLookup>
+              <LookupProperties>
+                <LookupProperty>
+                  <PropertyName>NameLF</PropertyName>
+                  <PropertyType>System.String</PropertyType>
+                  <PropertyHeader>Name</PropertyHeader>
+                  <PropertyFormat>None</PropertyFormat>
+                  <PropertyFormatString />
+                  <UseAsResult>true</UseAsResult>
+                  <ExcludeFromFilters>false</ExcludeFromFilters>
+                  <IsSortable>true</IsSortable>
+                  <HideCondition />
+                </LookupProperty>
+                <LookupProperty>
+                  <PropertyName>Title</PropertyName>
+                  <PropertyType>System.String</PropertyType>
+                  <PropertyHeader>Title</PropertyHeader>
+                  <PropertyFormat>None</PropertyFormat>
+                  <PropertyFormatString />
+                  <UseAsResult>true</UseAsResult>
+                  <ExcludeFromFilters>false</ExcludeFromFilters>
+                  <IsSortable>true</IsSortable>
+                  <HideCondition />
+                </LookupProperty>
+                <LookupProperty>
+                  <PropertyName>AccountName</PropertyName>
+                  <PropertyType>System.String</PropertyType>
+                  <PropertyHeader>Account Name</PropertyHeader>
+                  <PropertyFormat>None</PropertyFormat>
+                  <PropertyFormatString />
+                  <UseAsResult>true</UseAsResult>
+                  <ExcludeFromFilters>false</ExcludeFromFilters>
+                  <IsSortable>true</IsSortable>
+                  <HideCondition />
+                </LookupProperty>
+                <LookupProperty>
+                  <PropertyName>Address.City</PropertyName>
+                  <PropertyType>System.String</PropertyType>
+                  <PropertyHeader>City</PropertyHeader>
+                  <PropertyFormat>None</PropertyFormat>
+                  <PropertyFormatString />
+                  <UseAsResult>true</UseAsResult>
+                  <ExcludeFromFilters>false</ExcludeFromFilters>
+                  <IsSortable>true</IsSortable>
+                  <HideCondition />
+                </LookupProperty>
+                <LookupProperty>
+                  <PropertyName>Address.State</PropertyName>
+                  <PropertyType>System.String</PropertyType>
+                  <PropertyHeader>State</PropertyHeader>
+                  <PropertyFormat>None</PropertyFormat>
+                  <PropertyFormatString />
+                  <UseAsResult>true</UseAsResult>
+                  <ExcludeFromFilters>false</ExcludeFromFilters>
+                  <IsSortable>true</IsSortable>
+                  <HideCondition />
+                </LookupProperty>
+                <LookupProperty>
+                  <PropertyName>WorkPhone</PropertyName>
+                  <PropertyType>System.String</PropertyType>
+                  <PropertyHeader>Phone</PropertyHeader>
+                  <PropertyFormat>Phone</PropertyFormat>
+                  <PropertyFormatString />
+                  <UseAsResult>true</UseAsResult>
+                  <ExcludeFromFilters>false</ExcludeFromFilters>
+                  <IsSortable>true</IsSortable>
+                  <HideCondition />
+                </LookupProperty>
+                <LookupProperty>
+                  <PropertyName>Email</PropertyName>
+                  <PropertyType>System.String</PropertyType>
+                  <PropertyHeader>Email</PropertyHeader>
+                  <PropertyFormat>None</PropertyFormat>
+                  <PropertyFormatString />
+                  <UseAsResult>true</UseAsResult>
+                  <ExcludeFromFilters>false</ExcludeFromFilters>
+                  <IsSortable>true</IsSortable>
+                  <HideCondition />
+                </LookupProperty>
+              </LookupProperties>
+              <LookupPreFilters />
+              <LookupSelectionMode>Multi</LookupSelectionMode>
+              <OnSelection />
+              <AdditionalSelectFields />
+              <ChildEntity />
+              <LookupResourceName>Contact</LookupResourceName>
+              <ConditionalWhere />
+              <ConditionalShow />
+            </LookupButton>
+          </SDataGridAddRelationTool>
+          <SDataGridCancelTool>
+            <Name>Cancel</Name>
+            <Image>[Localization!Global_Images:Reset_16x16]</Image>
+            <DisplayInInsert>false</DisplayInInsert>
+            <MergePosition>Default</MergePosition>
+            <MergeControlId />
+            <OnClick>//default Cancel behavior</OnClick>
+            <StyleScheme />
+            <AppliedSecurity />
+          </SDataGridCancelTool>
+          <SDataGridDeleteTool>
+            <Name>Delete</Name>
+            <Image>[Localization!Global_Images:Delete_16x16]</Image>
+            <DisplayInInsert>true</DisplayInInsert>
+            <MergePosition>Default</MergePosition>
+            <MergeControlId />
+            <OnClick>function () { if (Sage.Utility.getModeId() !== 'insert') { __doPostBack('MainContent', ''); } }</OnClick>
+            <StyleScheme />
+            <AppliedSecurity>Entities/Opportunity/Delete</AppliedSecurity>
+          </SDataGridDeleteTool>
+        </Tools>
+      </QFSDataGrid>
+    </Control>
+  </Controls>
+  <ToolControls>
+    <Control typeName="Sage.Platform.QuickForms.Controls.QFElementSpacer, Sage.Platform.QuickForms">
+      <QFElementSpacer>
+        <Column>0</Column>
+        <Row>0</Row>
+        <HotKey>0</HotKey>
+        <TabIndex>0</TabIndex>
+        <ControlId />
+        <DataBindings />
+        <ControlLabelPlacement>left</ControlLabelPlacement>
+        <ExtendedProperties />
+        <CaptionAlignment>left</CaptionAlignment>
+        <StyleScheme />
+      </QFElementSpacer>
+    </Control>
+    <Control typeName="Sage.Platform.QuickForms.Controls.QFElementSpacer, Sage.Platform.QuickForms">
+      <QFElementSpacer>
+        <Column>0</Column>
+        <Row>0</Row>
+        <HotKey>0</HotKey>
+        <TabIndex>0</TabIndex>
+        <ControlId />
+        <DataBindings />
+        <ControlLabelPlacement>left</ControlLabelPlacement>
+        <ExtendedProperties />
+        <CaptionAlignment>left</CaptionAlignment>
+        <StyleScheme />
+      </QFElementSpacer>
+    </Control>
+  </ToolControls>
+  <Columns>
+    <ColumnStyle>
+      <SizeType>Percent</SizeType>
+      <Width>100</Width>
+    </ColumnStyle>
+  </Columns>
+  <Rows>
+    <RowStyle>
+      <SizeType>Absolute</SizeType>
+      <Height>35</Height>
+    </RowStyle>
+  </Rows>
+  <Description />
+  <UseEntityNameAsTitle>false</UseEntityNameAsTitle>
+  <EntityTypeName>IOpportunity</EntityTypeName>
+  <DefaultNamespace>Sage.Entity.Interfaces</DefaultNamespace>
+  <AssemblyName>Sage.Entity.Interfaces</AssemblyName>
+</QuickForm>

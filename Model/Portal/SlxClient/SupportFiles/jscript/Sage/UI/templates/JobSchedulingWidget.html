@@ -1,0 +1,71 @@
+﻿<div>
+    <div dojoAttachPoint="divJobSchedulingWidget">
+        <table>
+            <tr>
+                <td>
+                    <label>${lblCreateSchedule}:</label>
+                </td>
+            </tr>
+            <tr style="padding-left: 10px">
+                <td>
+                    <label style="padding-left: 10px">${lblEveryText}</label>&nbsp;
+                    <div dojoAttachPoint="divMinutesHours" class="display-none" style="display: -moz-inline-box; display: inline-block">
+                        <select dojoType="dijit.form.Select" dojoAttachPoint="cboMinutesHours"></select>
+                    </div>
+                    <select dojoType="dijit.form.Select" dojoAttachPoint="cboFrequency" dojoAttachEvent="onChange:_onFrequencyChange">
+                        <option value="minutes">${lblMinutesFrequency}</option>
+                        <option value="hourly">${lblHourlyFrequency}</option>
+                        <option value="daily">${lblDailyFrequency}</option>
+                        <option value="weekday">${lblWeekDayFrequency}</option>
+                        <option value="weekly">${lblWeeklyFrequency}</option>
+                        <option value="monthly">${lblMonthlyFrequency}</option>
+                        <option value="yearly" selected="selected" disabled="disabled">${lblYearlyFrequency}</option>
+                    </select>
+                    <label dojoAttachPoint="lblOnText" class="display-none">${lblOnText}</label>&nbsp;
+                    <label dojoAttachPoint="lblOnTheText" class="display-none">${lblOnTheText}</label>&nbsp;
+                    <div dojoAttachPoint="divMonthDay" style="display: -moz-inline-box; display: inline-block" class="display-none">
+                        <select dojoType="dijit.form.Select" dojoAttachPoint="cboMonthDay">
+                            <option value="1" selected="selected">${lblFirstDay}</option>
+                            <option value="2">${lblSecondDay}</option>
+                            <option value="3">${lblThirdDay}</option>
+                            <option value="4">${lblFourthDay}</option>
+                        </select>&nbsp;
+                    </div>
+                    <div dojoAttachPoint="divDay" style="display: -moz-inline-box; display: inline-block" class="display-none">
+                        <select dojoType="dijit.form.Select" dojoAttachPoint="cboDay">
+                            <option value="SUN">${lblSunday}</option>
+                            <option value="MON" selected="selected">${lblMonday}</option>
+                            <option value="TUE">${lblTuesday}</option>
+                            <option value="WED">${lblWednesday}</option>
+                            <option value="THU">${lblThursday}</option>
+                            <option value="FRI">${lblFriday}</option>
+                            <option value="SAT">${lblSaturday}</option>
+                        </select>&nbsp;
+                    </div>
+                    <label dojoAttachPoint="lblAtText">${lblAtText}</label>&nbsp;&nbsp;
+                    <div dojoAttachPoint="divMinutesPastHour" class="display-none" style="display: -moz-inline-box; display: inline-block">
+                        <select dojoType="dijit.form.Select" dojoAttachPoint="cboMinutesPastHour"></select>&nbsp;
+                    </div>
+                    <label dojoAttachPoint="lblMinutesPastHour" class="display-none">${lblMinutesPastHour}</label>&nbsp;
+                    <div dojoAttachPoint="divRunAtTime" style="display: -moz-inline-box; display: inline-block">
+                        <div shouldPublishMarkDirty="false" dojoType="Sage.UI.Controls.DateTimePicker" dojoAttachPoint="dtRunAtTime" displayDate="false" displayTime="true" label="${lblAtText}" required="true"></div>
+                    </div>
+                </td>
+            </tr>
+            <tr dojoAttachPoint="rowRunFromDate">
+                <td>
+                    <label style="padding-left: 10px">${lblFromTimeText}</label>&nbsp;
+                    <div shouldPublishMarkDirty="false" dojoType="Sage.UI.Controls.DateTimePicker" dojoAttachPoint="dtRunFromDate" displayDate="true" label="${lblFromTimeText}" style="width: 180px"></div>&nbsp;
+                    <label>${lblToTimeText}</label>&nbsp;
+                    <div shouldPublishMarkDirty="false" dojoType="Sage.UI.Controls.DateTimePicker" dojoAttachPoint="dtRunToDate" displayDate="true" label="${lblToTimeText}" style="width: 180px"></div>&nbsp;
+                </td>
+            </tr>
+            <tr dojoAttachPoint="rowCronExpression">
+                <td>
+                    <label style="padding-left: 10px">${lblCronExpressionText}</label>&nbsp;
+                    <div data-dojo-type="dijit.form.TextBox" dojoAttachPoint="txtCronExpression" style="width: 375px"></div>&nbsp
+                </td>
+            </tr>
+        </table>
+    </div>
+</div>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\SlxJobService\Listeners.order.xml" timeStamp="2015-05-28T03:07:08.0000" />
+  <exportedFile url="\Portal\SlxJobService\Modules.order.xml" timeStamp="2015-05-28T03:07:08.0000" />
+  <exportedFile url="\Portal\SlxJobService\Plugins.order.xml" timeStamp="2015-05-28T03:07:08.0000" />
+  <exportedFile url="\Portal\SlxJobService\Services.order.xml" timeStamp="2015-05-28T03:07:08.0000" />
+  <exportedFile url="\Portal\SlxJobService\SlxJobService.cabsch.ptl.xml" timeStamp="2015-05-28T03:07:08.0000" />
+  <exportedFile url="\Portal\SlxJobService\SlxJobService.cabsch.ptl.xml.de.resx" timeStamp="2015-05-28T03:07:08.0000" />
+  <exportedFile url="\Portal\SlxJobService\SlxJobService.cabsch.ptl.xml.fr.resx" timeStamp="2015-05-28T03:07:08.0000" />
+  <exportedFile url="\Portal\SlxJobService\SlxJobService.cabsch.ptl.xml.it.resx" timeStamp="2015-05-28T03:07:08.0000" />
+  <exportedFile url="\Portal\SlxJobService\SlxJobService.cabsch.ptl.xml.resx" timeStamp="2015-05-28T03:07:08.0000" />
+  <exportedFile url="\Portal\SlxJobService\SlxJobService.cabsch.ptl.xml.ru.resx" timeStamp="2015-05-28T03:07:08.0000" />
+  <exportedFile url="\Portal\SlxJobService\SupportFiles.def.xml" timeStamp="2015-05-28T03:07:08.0000" />
+  <exportedFile url="\Portal\SlxJobService\Jobs\" />
+  <exportedFile url="\Portal\SlxJobService\Listeners\" />
+  <exportedFile url="\Portal\SlxJobService\Plugins\" />
+  <exportedFile url="\Portal\SlxJobService\Services\" />
+  <exportedFile url="\Portal\SlxJobService\SupportFiles\" />
+  <exportedFile url="\Portal\SlxJobService\Triggers\" />
+</exportedFiles>

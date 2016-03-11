@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<PortalService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="a71a5d2e-d2f0-46cc-adbe-32731ddd5ad4">
+  <InstanceId>720c9b1af94f4812863a54d15f3db96a</InstanceId>
+  <ServiceType>Sage.Platform.Projects.Localization.RuntimeProjectLocalizationService, Sage.Platform.Projects</ServiceType>
+  <RegisterAs>Sage.Platform.Projects.Localization.ProjectLocalizationService, Sage.Platform.Projects</RegisterAs>
+  <Properties />
+  <Scope>Application</Scope>
+</PortalService>

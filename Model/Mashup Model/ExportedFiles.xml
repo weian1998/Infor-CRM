@@ -1,0 +1,14 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Mashup Model\AccountTimeline.mashup.xml" timeStamp="2015-05-28T03:04:44.0000" />
+  <exportedFile url="\Mashup Model\ActivityFreeBusy.mashup.xml" timeStamp="2015-05-28T03:04:44.0000" />
+  <exportedFile url="\Mashup Model\ActivityManager.mashup.xml" timeStamp="2015-05-28T03:04:45.0000" />
+  <exportedFile url="\Mashup Model\AreaCategoryIssueQueries.mashup.xml" timeStamp="2015-05-28T03:04:45.0000" />
+  <exportedFile url="\Mashup Model\LiteratureRequests.mashup.xml" timeStamp="2015-05-28T03:04:45.0000" />
+  <exportedFile url="\Mashup Model\OpportunityStatistics.mashup.xml" timeStamp="2015-05-28T03:04:45.0000" />
+  <exportedFile url="\Mashup Model\RemindersAndAlarms.mashup.xml" timeStamp="2015-05-28T03:04:45.0000" />
+  <exportedFile url="\Mashup Model\SecurityProfile.mashup.xml" timeStamp="2015-05-28T03:04:45.0000" />
+  <exportedFile url="\Mashup Model\SummaryViewQueries.mashup.xml" timeStamp="2015-05-28T08:57:59.0000" />
+  <exportedFile url="\Mashup Model\TicketTimeline.mashup.xml" timeStamp="2015-05-28T03:04:45.0000" />
+  <exportedFile url="\Mashup Model\UserCalendarQueries.mashup.xml" timeStamp="2015-05-28T03:04:45.0000" />
+</exportedFiles>

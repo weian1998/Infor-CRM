@@ -1,0 +1,17 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\EntityMgr\EntityDetailContentFilterGrid.js" timeStamp="2015-05-28T03:08:59.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\EntityMgr\EntityDetailTabManager.js" timeStamp="2015-05-28T03:09:00.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\EntityMgr\EntityFilterConfigurationProvider.js" timeStamp="2015-05-28T03:08:59.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\EntityMgr\EntityFilterUtility.js" timeStamp="2015-05-28T03:09:00.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\EntityMgr\EntityListPanelConfig.js" timeStamp="2015-05-28T03:09:00.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\EntityMgr\EntityManagerFormatter.js" timeStamp="2015-05-28T03:09:00.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\EntityMgr\EntityManagerGroupContextService.js" timeStamp="2015-05-28T03:09:00.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\EntityMgr\EntitySDataDetailViewDataManager.js" timeStamp="2015-05-28T03:09:00.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\EntityMgr\EntitySDataSummaryFormatterScope.js" timeStamp="2015-05-28T03:09:00.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\EntityMgr\main.js" timeStamp="2015-05-28T03:09:00.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\EntityMgr\PropertyStore.js" timeStamp="2015-05-28T03:09:00.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\EntityMgr\AddEditEntityFilter\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\EntityMgr\nls\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\EntityMgr\templates\" />
+</exportedFiles>

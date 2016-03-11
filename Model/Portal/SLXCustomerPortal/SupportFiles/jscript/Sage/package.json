@@ -1,0 +1,20 @@
+{
+    "name": "Sage",
+    "version":"8.2",
+    "directories": {
+        "lib": "."
+    },
+    "dependencies": {
+        "dojo": "current",
+        "dijit": "current",
+        "dojox": "current"
+    },
+    "main": "main",
+    "description": "Saleslogix Client Library",
+    "licenses": [
+    ],
+    "bugs": "https://www.sageslx.com/SlxClient/Login.aspx",
+    "keywords": ["JavaScript", "Dojo", "Sage", "SalesLogix"],
+    "homepage": "http://na.sage.com/sage-saleslogix",
+    "dojoBuild": "sage.profile.js"
+}

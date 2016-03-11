@@ -1,0 +1,136 @@
+﻿[
+    '<div>',
+        '<div data-dojo-type="dijit.Dialog" title="{%= $._getDialogTitle() %}" dojoAttachPoint="_dialog" dojoAttachEvent="onCancel:_dialog_OnCancel, onShow:_dialog_OnShow" style="width: 700px">',
+            '<div data-dojo-type="dijit.form.Form">',
+                '<table cellspacing="10">',
+                    
+                    '<tr>',
+                        '<td>',
+                            '<label>{%= $._nlsResources.txtReportType_Caption %}:</label>',
+                        '</td>',
+                        '<td>',
+                            '<input type="text" dojoAttachPoint="txtReportType" required="true" dojoType="dijit.form.TextBox" disabled="disabled" style="width:300px" />',
+                        '</td>',
+                    '</tr>',                    
+                    
+
+                    '<tr>',
+                        '<td>',
+                            '<label>{%= $._nlsResources.txtReportName_Caption %}:</label>',
+                        '</td>',
+                        '<td>',
+                            '<input type="text" dojoAttachPoint="txtReportName" required="true" dojoType="dijit.form.TextBox" disabled="disabled" style="width:300px" />',
+                        '</td>',
+                    '</tr>',  
+                    
+
+                    '<tr>',
+                        '<td>',
+                            '<label>{%= $._nlsResources.txtOutputFormat_Caption %}:</label>',
+                        '</td>',
+                        '<td>',
+                            '<select dojoType="dijit.form.Select" dojoAttachPoint="cmbOutputFormat" sortByLabel="false" style="width:300px" >',
+                            '</select>',
+                        '</td>',
+                    '</tr>', 
+
+
+                    '<tr dojoAttachpoint="trRunAsUserId">',
+                        '<td>',
+                            '<label>{%= $._nlsResources.txtRunAs_Caption %}:</label>',
+                        '</td>',
+                        '<td>',
+                            '<div dojoType="dijit.layout.ContentPane" label="{%= $._nlsResources.txtRunAs_Caption %}" dojoAttachPoint="container_lkpRunAsUserId" class="remove-padding lookup-container" style="width:300px; padding: 0px !important;"></div>',                            
+                        '</td>',
+                    '</tr>',
+                                        
+                                     
+
+
+                '</table>',
+
+                '<div dojoType="dijit.layout.TabContainer" dojoAttachPoint="tabsContainer" class="tab-container" style="width:100%; height:200px">',
+                    '<div dojoType="dijit.layout.ContentPane"  title="{%= $._nlsResources.tabSchedule_Caption %}" class="tabContent remove-padding" dojoAttachPoint="contentPaneSchedule">',
+                        '<table cellspacing="10">',
+
+                            '<tr>',
+                                '<td style="width:150px">',
+                                    '<label>{%= $._nlsResources.txtScheduleName_Caption %}:</label>',
+                                '</td>',
+                                '<td>',
+                                    '<input type="text" dojoAttachPoint="txtScheduleName" required="true" dojoType="dijit.form.TextBox" style="width:300px" />',
+                                '</td>',
+                            '</tr>',
+
+
+                            '<tr>',
+                                '<td style="width:150px">',
+                                    '<label>{%= $._nlsResources.txtScheduleDescription_Caption %}:</label>',
+                                '</td>',
+                                '<td>',
+                                    '<input type="text" dojoAttachPoint="txtScheduleDescription" required="true" dojoType="dijit.form.TextBox" style="width:300px" />',
+                                '</td>',
+                            '</tr>',
+
+
+
+                            '<tr dojoAttachPoint="trStartTime">',
+                                '<td>',
+                                    '<label>{%= $._nlsResources.dtStartTime_Caption %}:</label>',
+                                '</td>',
+                                '<td>',
+                                    '<div shouldPublishMarkDirty="false" dojoType="Sage.UI.Controls.DateTimePicker" dojoAttachPoint="dtStartTime" displayDate="true" displayTime="true" label="{%= $._nlsResources.dtStartTime_Caption %}" style="width:150px"></div>',
+                                '</td>',
+                            '</tr>',
+                            '<tr dojoAttachPoint="trEndTime">',
+                                '<td>',
+                                    '<label>{%= $._nlsResources.dtEndTime_Caption %}:</label>',
+                                '</td>',
+                                '<td>',
+                                    '<div shouldPublishMarkDirty="false" dojoType="Sage.UI.Controls.DateTimePicker" dojoAttachPoint="dtEndTime" displayDate="true" displayTime="true" label="{%= $._nlsResources.dtEndTime_Caption %}" style="width:150px"></div>',
+                                '</td>',
+                            '</tr>',                    
+                            '<tr dojoAttachPoint="trRepeatCount">',
+                                '<td>',
+                                    '<label>{%= $._nlsResources.txtRepeatCount_Caption %}:</label>',
+                                '</td>',
+                                '<td>',                            
+                                    '<input type="text" dojoType="Sage.UI.Controls.Numeric" dojoAttachPoint="txtRepeatCount" style="width:150px" />',
+                                '</td>',
+                            '</tr>',
+                            '<tr dojoAttachPoint="trRepeatInterval">',
+                                '<td>',
+                                    '<label>{%= $._nlsResources.txtRepeatInterval_Caption %}:</label>',
+                                '</td>',
+                                '<td>',                            
+                                    '<input type="text" dojoType="Sage.UI.Controls.Numeric" dojoAttachPoint="txtRepeatInterval" style="width:150px" />',
+                                '</td>',
+                            '</tr>',
+                    
+                            '<tr>',
+                                '<td>',
+                                    '<label>{%= $._nlsResources.cmbArchive_Caption %}:</label>',
+                                '</td>',
+                                '<td>',
+                                    '<select dojoType="dijit.form.Select" dojoAttachPoint="cmbArchive" style="width:150px" >',
+                                        '<option value="1">1</option>',
+                                        '<option value="2">2</option>',
+                                    '</select>',
+                                '</td>',
+                            '</tr>', 
+
+                        '</table>',
+                    '</div>',
+
+                    %inheritedClassTabs%,
+
+                '</div>',
+                
+                '<div align="right" style="margin-top:10px">',
+                    '<div data-dojo-type="dijit.form.Button"dojoAttachPoint="cmdOK" dojoAttachEvent="onClick:_cmdOK_OnClick">{%= $._nlsResources.cmdOK_Caption %}</div>',
+                    '<div data-dojo-type="dijit.form.Button" dojoAttachPoint="cmdCancel" dojoAttachEvent="onClick:_cmdCancel_OnClick" style="margin-left:5px;">{%= $._nlsResources.cmdCancel_Caption %}</div>',
+                '</div>',
+            '</div>',
+        '</div>',
+    '</div>'
+]

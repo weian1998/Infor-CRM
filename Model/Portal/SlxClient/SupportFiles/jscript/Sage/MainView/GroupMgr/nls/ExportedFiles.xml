@@ -1,0 +1,15 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\GroupMgr\nls\FilterConfigurationProvider.js" timeStamp="2015-05-28T03:09:00.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\GroupMgr\nls\GroupManagerActions.js" timeStamp="2015-05-28T03:09:00.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\GroupMgr\nls\GroupManagerFormatter.js" timeStamp="2015-05-28T03:09:00.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\GroupMgr\nls\GroupManagerGroupContextService.js" timeStamp="2015-05-28T03:09:00.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\GroupMgr\nls\GroupsListPanelConfig.js" timeStamp="2015-05-28T03:09:00.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\GroupMgr\nls\ReleasesListPanelConfig.js" timeStamp="2015-05-28T03:09:00.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\GroupMgr\nls\StatisticsListPanelConfig.js" timeStamp="2015-05-28T03:09:00.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\GroupMgr\nls\de\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\GroupMgr\nls\en\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\GroupMgr\nls\fr\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\GroupMgr\nls\it\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\GroupMgr\nls\ru\" />
+</exportedFiles>

@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:fileTags="Translation Status.Support files" xml:lang="fr" MadCap:tocPath="Utilisation des intégrations|Intégration avec Outlook|Utilisation de la Synchronisation Outlook|Synchronisation d'agendas" MadCap:medium="non-print" MadCap:InPreviewMode="false" MadCap:PreloadImages="false" MadCap:RuntimeFileType="Topic" MadCap:TargetType="WebHelp" lang="fr" MadCap:conditions="Output.Integrations LAN,Output.WebClient,Integrations.Google topics,Integrations.ExchangeSync" MadCap:PathToHelpSystem="../../" MadCap:HelpSystemFileName="WebClient.xml" MadCap:SearchType="Stem">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Scénarios de synchronisation d'agendas pour Outlook</title>
+        <link href="../SkinSupport/Slideshow.css" rel="stylesheet" />
+        <link href="../SkinSupport/MadCap.css" rel="stylesheet" />
+        <link href="../Resources/TableStyles/TableStyle.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/Infor.CSS" rel="stylesheet" />
+        <script src="../SkinSupport/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapAll.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapTopicAll.js" type="text/javascript">
+        </script>
+    </head>
+    <body>
+        <h1><a name="kanchor264"></a>Scénarios de synchronisation d'agendas pour <span class="MyVariablesIntegrated (an)/Outlook (Caps)">Outlook</span></h1>
+        <p>Les scénarios suivants sont des scénarios courants qui permettent d'expliquer le fonctionnement de la synchronisation des agendas avec <span class="MyVariablesIntegrated (an)/Outlook (lower)">Outlook</span>.</p>
+        <table wrapperparagraphselector="P" style="width: 80%;margin-top: 14pt;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" width="80%">
+            <col style="width: 45px;" />
+            <col />
+            <tr MadCap:conditions="">
+                <td style="padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top">
+                    <p style="text-align: center;margin-bottom: 0;" align="center">
+                        <img src="../image/note.gif" />
+                    </p>
+                </td>
+                <td style="width: 90%;padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top" width="90%">La synchronisation est affectée par la sécurité intégrée des données associée à l'utilisateur connecté à <span class="MyVariablesProduct Name">Infor CRM</span>. La quantité de données pouvant être transférée est limitée par les droits de sécurité de l'utilisateur connecté.</td>
+            </tr>
+        </table>
+        <p class="Infinitive">Scénarios de synchronisation</p>
+        <p>Les types d'activité dans <span class="MyVariablesProduct Name">Infor CRM</span> peuvent être synchronisés avec différents types d'activité dans <span class="MyVariablesIntegrated (an)/Outlook (lower)">Outlook</span>. Pour des détails, voir le <a href="Understanding_Calendar_Integration.htm">tableau Présentation de l'échange de données d'agenda</a>.</p>
+        <p>Pour les scénarios suivants :</p>
+        <ul>
+            <li value="1">«&#160;élément d'agenda » représentera un type d'activité d'agenda dans <span class="MyVariablesIntegrated (an)/Outlook (Caps)">Outlook</span>, et des appels téléphoniques, des réunions ou des activités personnelles dans <span class="MyVariablesProduct Name">Infor CRM</span>.</li>
+            <li value="2">« tâche » représente un type d'activité hors agenda dans <span class="MyVariablesIntegrated (an)/Outlook (lower)">Outlook</span> et une action à exécuter dans <span class="MyVariablesProduct Name">Infor CRM</span>.</li>
+        </ul>
+        <table style="width: 95%;mc-table-style: url('../Resources/TableStyles/TableStyle.css');margin-left: 0;margin-right: auto;" class="TableStyle-TableStyle" cellspacing="0">
+            <col class="TableStyle-TableStyle-Column-Column1" style="width: 312px;" />
+            <col class="TableStyle-TableStyle-Column-Column1" />
+            <thead>
+                <tr class="TableStyle-TableStyle-Head-Header1">
+                    <th class="TableStyle-TableStyle-HeadE-Column1-Header1">Action</th>
+                    <th class="TableStyle-TableStyle-HeadD-Column1-Header1">Résultat<br /></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <th colspan="2" class="TableStyle-TableStyle-BodyD-Column1-Body1">Planification, modification, exécution ou suppression d'éléments d'agenda</th>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Planifiez un élément d'agenda dans l'une ou l'autre application.</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">L'élément d'agenda se synchronise.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Modifiez un élément d'agenda dans l'une ou l'autre application.</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">La modification de l'élément d'agenda se synchronise.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Modifiez le même élément d'agenda dans les deux applications durant le même cycle de synchronisation.</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">
+                        <p>L'élément d'agenda qui a été modifié en dernier se synchronise avec l'autre application et met à jour toutes les valeurs avec des différences.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Exécutez un élément d'agenda dans <span class="MyVariablesProduct Name">Infor CRM</span>.</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">L'élément d'agenda est exécuté dans <span class="MyVariablesProduct Name">Infor CRM</span> et le mot "Terminé" s'affiche dans la ligne Objet de l'élément dans <span class="MyVariablesIntegrated (the)/Outlook">Outlook</span>.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Supprimez un élément d'agenda de l'une ou l'autre application.</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">L'élément d'agenda est supprimé de l'agenda de l'utilisateur dans les deux applications.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <th class="TableStyle-TableStyle-BodyD-Column1-Body1" colspan="2">
+                        <p class="TableBold">Planification, modification, exécution ou suppression de tâches</p>
+                    </th>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Planifiez une tâche dans l'une ou l'autre application.</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">La tâche se synchronise.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Modifiez une tâche dans l'une ou l'autre application.</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">La modification de la tâche se synchronise.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Modifiez la même tâche dans les deux applications durant le même cycle de synchronisation.</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">
+                        <p>La tâche qui a été modifiée en dernier se synchronise avec <span class="MyVariablesIntegrated (the)/Outlook">Outlook</span> et met à jour toutes les valeurs avec des différences.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Exécutez une tâche à faire dans <span class="MyVariablesProduct Name">Infor CRM</span>.</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">La modification se synchronise et la tâche est marquée comme exécutée dans <span class="MyVariablesIntegrated (the)/Outlook">Outlook</span>.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Terminez une tâche dans <span class="MyVariablesIntegrated (the)/Outlook">Outlook</span></td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">La modification se synchronise et la tâche à faire est exécutée et consignée dans l'historique de <span class="MyVariablesProduct Name">Infor CRM</span>.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Planifiez une tâche sans date ou heure de début dans <span class="MyVariablesIntegrated (the)/Outlook">Outlook</span>.</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">La tâche se synchronise comme une tâche à faire dans <span class="MyVariablesProduct Name">Infor CRM</span> avec la date de création comme date de début. A la synchronisation suivante, la nouvelle date de début se synchronisera et mettra la date à jour dans <span class="MyVariablesIntegrated (the)/Outlook">Outlook</span>.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <th class="TableStyle-TableStyle-BodyD-Column1-Body1" colspan="2">
+                        <p>Planification d'éléments d'agenda et de tâches à occurrences multiples</p>
+                    </th>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Planifiez un élément d'agenda récurrent dans <span class="MyVariablesProduct Name">Infor CRM</span>.</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">L'élément d'agenda et toutes les occurrences sont synchronisés avec <span class="MyVariablesIntegrated (the)/Outlook">Outlook</span>.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Planifiez un élément d'agenda avec de multiples occurrences dans <span class="MyVariablesIntegrated (the)/Outlook">Outlook</span>.</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">
+                        <p>L'élément d'agenda est synchronisé avec <span class="MyVariablesProduct Name">Infor CRM</span>, avec le nombre maximum d'occurrences permises dans <span class="MyVariablesProduct Name">Infor CRM</span> :</p>
+                        <ul>
+                            <li value="1">Tous les jours - 999</li>
+                            <li value="2">Toutes les semaines - 260</li>
+                            <li value="3">Tous les mois - 60</li>
+                            <li value="4">Tous les ans - 20</li>
+                        </ul>
+                        <p>Cette limite est à nouveau synchronisée avec <span class="MyVariablesIntegrated (the)/Outlook">Outlook</span>.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Planifiez une tâche récurrente dans <span class="MyVariablesProduct Name">Infor CRM</span>.</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">La tâche récurrente est synchronisée avec une tâche récurrente dans <span class="MyVariablesIntegrated (the)/Outlook">Outlook</span>.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Planifiez une tâche récurrente dans <span class="MyVariablesIntegrated (the)/Outlook">Outlook</span>.</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">
+                        <p>La tâche est synchronisée avec <span class="MyVariablesProduct Name">Infor CRM</span> comme une tâche à faire avec le nombre maximum d'occurrences autorisé dans <span class="MyVariablesProduct Name">Infor CRM</span>&#160;:</p>
+                        <ul>
+                            <li value="1">Tous les jours - 999</li>
+                            <li value="2">Toutes les semaines - 260</li>
+                            <li value="3">Tous les mois - 60</li>
+                            <li value="4">Tous les ans - 20</li>
+                        </ul>
+                        <p>Cette limite est à nouveau synchronisée avec <span class="MyVariablesIntegrated (the)/Outlook">Outlook</span>.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <th class="TableStyle-TableStyle-BodyD-Column1-Body1" colspan="2">
+                        <p>Planification d'éléments d'agenda avec membres</p>
+                    </th>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Planifiez un élément d'agenda dans l'une ou l'autre application, où je suis le responsable et qui comporte 3 autres membres.</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">
+                        <p>Dans l'application où l'élément d'agenda a été programmé, l'élément d'agenda inclut les informations sur le responsable et les membres, comme prévu. Lorsqu'il se synchronise avec l'autre application, vous restez responsable, mais il ne contient aucune information sur le membres.</p>
+                        <p>Les informations sur les membres resteront dans l'élément d'agenda de l'application source, même si l'élément d'agenda est mis à jour.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Planifiez un élément d'agenda dans l'une ou l'autre application, où je suis un membre, mais pas le responsable.</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">
+                        <p>Dans l'application où l'élément d'agenda a été programmé, l'élément d'agenda inclut les informations sur le responsable et les membres, comme prévu. Lorsqu'il se synchronise avec l'autre application, vous devenez le responsable, mais il ne contient aucune information sur le membres.</p>
+                        <p>Les informations sur les membres resteront dans l'élément d'agenda de l'application source, même si l'élément d'agenda est mis à jour.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Remplacez-moi comme responsable par un autre utilisateur dans <span class="MyVariablesProduct Name">Infor CRM</span> après la synchronisation de l'élément d'agenda.</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">
+                        <p>Supprime l'élément d'agenda dans <span class="MyVariablesIntegrated (the)/Outlook">Outlook</span>.*</p>
+                        <p>*Vous ne pouvez pas modifier le responsable d'un élément d'agenda dans Outlook.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <th class="TableStyle-TableStyle-BodyD-Column1-Body1" colspan="2">
+                        <p>Acceptation et suppression d'invitations à des éléments d'agenda</p>
+                    </th>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Acceptez une invitation à un élément d'agenda dans l'une ou l'autre application avant de synchroniser cet élément.</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">L'élément d'agenda est synchronisé et indique qu'il est accepté.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Acceptez une invitation à un élément d'agenda dans l'une ou l'autre application après la synchronisation de cet élément.</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">L'élément d'agenda se synchronise lorsqu'il est planifié et il se synchronise à nouveau apès sa mise à jour pour indiquer son acceptation.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1" MadCap:conditions="">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Acceptez de manière provisoire une invitation à un élément d'agenda dans <span class="MyVariablesIntegrated (the)/Outlook">Outlook</span>.</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">L'élément d'agenda se synchronise lorsqu'il est planifié et il se synchronise à nouveau apès sa mise à jour pour indiquer son acceptation. <span class="MyVariablesProduct Name">Infor CRM</span> ne comporte pas d'état Provisoire pour les activités.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Refusez une invitation à un élément d'agenda dans l'une ou l'autre application avant de synchroniser cet élément.</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">
+                        <p>L'élément d'agenda est supprimé de l'agenda de l'utilisateur dans les deux applications.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Refusez une invitation à un élément d'agenda dans <span class="MyVariablesProduct Name">Infor CRM</span> après la synchronisation de cet élément.</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">
+                        <p>L'élément d'agenda est supprimé de l'agenda de l'utilisateur dans les deux applications.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Refusez une invitation à un élément d'agenda dans <span class="MyVariablesProduct Name">Infor CRM</span> après la synchronisation de cet élément.</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">L'élément d'agenda est supprimé de l'agenda de l'utilisateur dans les deux applications.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <th class="TableStyle-TableStyle-BodyD-Column1-Body1" colspan="2">
+                        <p>Utilisation d'éléments d'agenda personnels et privés</p>
+                    </th>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Planifiez une activité personnelle dans <span class="MyVariablesProduct Name">Infor CRM</span>.</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">L'activité personnelle se synchronise comme un élément d'agenda configuré comme étant Privé dans <span class="MyVariablesIntegrated (an)/Outlook (Caps)">Outlook</span>.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Planifiez un élément d'agenda privé dans <span class="MyVariablesIntegrated (the)/Outlook">Outlook</span>.</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">L'élément d'agenda privé se synchronise comme une activité personnelle dans <span class="MyVariablesProduct Name">Infor CRM</span>.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Dans <span class="MyVariablesIntegrated (the)/Outlook">Outlook</span>, effacez l'indicateur Privé après la synchronisation de l'élément d'agenda.</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">L'élément d'agenda se synchronise et modifie l'activité personnelle en une réunion dans <span class="MyVariablesProduct Name">Infor CRM</span>.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Dans <span class="MyVariablesIntegrated (the)/Outlook">Outlook</span>, sélectionnez l'indicateur Privé après la synchronisation de l'élément d'agenda.</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">L'élément d'agenda se synchronise et modifie l'activité personnelle en une réunion dans<span class="MyVariablesProduct Name">Infor CRM</span>.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <th class="TableStyle-TableStyle-BodyD-Column1-Body1" colspan="2">
+                        <p>Utilisation d'élément d'agenda et de tâches sans horaire défini</p>
+                    </th>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Planifiez un élément d'agenda sans horaire défini dans <span class="MyVariablesProduct Name">Infor CRM</span>.</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">L'élément d'agenda sans horaire défini se synchronise comme un événement de toute une journée avec <span class="MyVariablesIntegrated (the)/Outlook">Outlook</span>.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Planifiez un événement de toute une journée dans <span class="MyVariablesIntegrated (the)/Outlook">Outlook</span>.</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">L'événement de toute une journée se synchronise comme une réunion sans horaire défini dans <span class="MyVariablesProduct Name">Infor CRM</span>.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Modifiez un élément d'agenda comme un élément sans horaire défini dans <span class="MyVariablesProduct Name">Infor CRM</span>.</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">L'élément d'agenda est modifié en un événement de toute une journée dans <span class="MyVariablesIntegrated (the)/Outlook">Outlook</span>.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Passez le curseur de la souris sur un élément d'agenda sans horaire défini dans <span class="MyVariablesProduct Name">Infor CRM</span>.</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">La modification se synchronise avec <span class="MyVariablesIntegrated (the)/Outlook">Outlook</span> et remplace la date de début par la date actuelle sur laquelle le curseur passe.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <th class="TableStyle-TableStyle-BodyD-Column1-Body1" colspan="2">
+                        <p>Mise en veille des alarmes</p>
+                    </th>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Mettez une alarme en sourdine pour un élément d'agenda dans l'une ou l'autre application.</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">
+                        <p>La modification de l'élément d'agenda se synchronise.</p>
+                        <p>Selon le moment du cycle de synchronisation où l'élément d'agenda est mis en sourdine, l'alarme pourra se déclencher avant la synchronisation de la mise en sourdine.</p>
+                        <p><span class="MyVariablesProduct Name">Infor CRM</span> recommande la mise en sourdine d'alarmes dans une seule application.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyB-Column1-Body1">Mettez en sourdine une alarme pour une tâche dans l'une ou l'autre application.</td>
+                    <td class="TableStyle-TableStyle-BodyA-Column1-Body1">
+                        <p>La modification de la tâche se synchronise.</p>
+                        <p>Selon le moment du cycle de synchronisation où l'élément d'agenda est mis en sourdine, l'alarme pourra se déclencher avant la synchronisation de la mise en sourdine.</p>
+                        <p><span class="MyVariablesProduct Name">Infor CRM</span> recommande la mise en sourdine d'alarmes dans une seule application.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p class="RelatedTopics">Rubriques connexes</p>
+        <p><a href="Understanding_Contact_Integration.htm">Présentation de l’intégration des contacts</a>
+        </p>
+        <p><a href="Matching_Records.htm">Enregistrements correspondants</a>
+        </p>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

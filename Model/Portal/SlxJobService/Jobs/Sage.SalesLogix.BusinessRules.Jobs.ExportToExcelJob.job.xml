@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<SchedulerJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="6b86a146-9609-4b3b-9953-9db8d509e3a8">
+  <InstanceId>d0b54fbcf9fc468a838e9de50fb51946</InstanceId>
+  <TypeName>Sage.SalesLogix.BusinessRules.Jobs.ExportToExcelJob, Sage.SalesLogix.BusinessRules</TypeName>
+  <Parameters />
+</SchedulerJob>

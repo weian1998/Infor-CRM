@@ -1,0 +1,8 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\SlxClient\ContextMenuItems\contextCalendarNavBar\ContextMenuItems\menuItemNavScheduleEvent\" />
+  <exportedFile url="\Portal\SlxClient\ContextMenuItems\contextCalendarNavBar\ContextMenuItems\menuItemNavScheduleMeeting\" />
+  <exportedFile url="\Portal\SlxClient\ContextMenuItems\contextCalendarNavBar\ContextMenuItems\menuItemNavSchedulePersonalActivity\" />
+  <exportedFile url="\Portal\SlxClient\ContextMenuItems\contextCalendarNavBar\ContextMenuItems\mnuItemNavSchedulePhoneCall\" />
+  <exportedFile url="\Portal\SlxClient\ContextMenuItems\contextCalendarNavBar\ContextMenuItems\mnuItemNavScheduleToDo\" />
+</exportedFiles>

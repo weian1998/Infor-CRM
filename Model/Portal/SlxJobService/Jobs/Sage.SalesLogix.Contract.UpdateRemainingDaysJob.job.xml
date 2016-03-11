@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<SchedulerJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="fba51466-fdb5-4c4e-b11d-da59bca9c738">
+  <InstanceId>6e924fa2840f4f038877b376ad7c1430</InstanceId>
+  <TypeName>Sage.SalesLogix.Contract.UpdateRemainingDaysJob, Sage.SalesLogix.BusinessRules</TypeName>
+</SchedulerJob>

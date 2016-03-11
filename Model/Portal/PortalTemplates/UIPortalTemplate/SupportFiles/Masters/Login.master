@@ -1,0 +1,48 @@
+<%@ Master Language="C#" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<script runat="server">
+public void Page_Load(object sender, EventArgs e)
+{
+    //headerDate.Text = String.Format("{0}, {1}", DateTime.Now.DayOfWeek.ToString(), DateTime.Now.ToShortDateString());
+    if (!Page.IsPostBack)
+    {
+        Page.ClientScript.RegisterClientScriptInclude("general", "jscript/general.js");
+        Page.ClientScript.RegisterClientScriptInclude("YAHOO_yahoo", "jscript/YUI/yahoo.js");
+        Page.ClientScript.RegisterClientScriptInclude("YAHOO_event", "jscript/YUI/event.js");
+        Page.ClientScript.RegisterClientScriptInclude("timezone", "jscript/timezone.js");
+    } 
+    else
+    {
+        if (Request.Params["tz_info"] != null)
+        {
+            Sage.Platform.TimeZones tzs = new Sage.Platform.TimeZones();
+            string[] tzinfo = Request.Params["tz_info"].Split(',');
+            if (tzinfo.Length == 11)
+            {
+                Sage.Platform.TimeZone tz = tzs.FindTimeZone(tzinfo[0], tzinfo[1], tzinfo[2], tzinfo[3], tzinfo[4], tzinfo[5], tzinfo[6], tzinfo[7], tzinfo[8], tzinfo[9], tzinfo[10]);
+                Sage.Platform.Application.IContextService context = Sage.Platform.Application.ApplicationContext.Current.Services.Get<Sage.Platform.Application.IContextService>(true);
+                context.SetContext("TimeZone", tz);
+            }            
+        }
+    }
+	Page.Title = GetLocalResourceObject("LoginPageTitle").ToString();
+}
+
+</script>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <link rel="shortcut icon" type="image/png" href="~/inforLogo24x24.png" />
+    <link rel="icon" type="image/png" href="~/inforLogo24x24.png" />
+	<title>Infor CRM</title>
+    
+	<link type="text/css" href="../css/SlxBase.css" rel="stylesheet" />
+</head>
+<body class="inforSignInDialog">
+	<form id="Form1" runat="server" method="post" class="inforSignInDialogControls" >
+        <asp:ContentPlaceHolder ID="ContentPlaceHolderArea" runat="server"></asp:ContentPlaceHolder>
+	</form>
+</body>
+</html>

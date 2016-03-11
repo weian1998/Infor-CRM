@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:fileTags="Translation Status.Support files" MadCap:tocPath="" MadCap:medium="non-print" MadCap:InPreviewMode="false" MadCap:PreloadImages="false" MadCap:RuntimeFileType="Topic" MadCap:TargetType="WebHelp" lang="ru" xml:lang="ru" MadCap:conditions="Output.IntegrationContract" MadCap:PathToHelpSystem="../../" MadCap:HelpSystemFileName="WebClient.xml" MadCap:SearchType="Stem">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Настройка Службы синхронизации Интеграции учета</title>
+        <link href="../SkinSupport/Slideshow.css" rel="stylesheet" />
+        <link href="../SkinSupport/MadCap.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/Infor.CSS" rel="stylesheet" />
+        <script src="../SkinSupport/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapAll.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapTopicAll.js" type="text/javascript">
+        </script>
+    </head>
+    <body>
+        <h1>Настройка Службы синхронизации Интеграции учета</h1>
+        <p>Эта тема больше не действительна. Дополнительные сведения о настройке службы синхронизации SData  см. в разделе "Служба настройки Integration Synchronization".</p>
+        <p><a name="kanchor507"></a>Служба синхронизации Интеграции учета (<span class="MyVariablesCompanyNameShort">Infor</span> системный сервис) делает возможным обмен данными между <span class="MyVariablesCompanyNameShort">Infor</span> и вашей системой учета. Служба должна начать работу автоматически.</p>
+        <table wrapperparagraphselector="P" style="width: 80%;margin-top: 14pt;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" width="80%">
+            <col style="width: 45px;" />
+            <col />
+            <tr>
+                <td style="padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top">
+                    <p style="text-align: center;margin-bottom: 0;" align="center">
+                        <img src="../image/note.gif" />
+                    </p>
+                </td>
+                <td style="width: 90%;padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top" width="90%">
+                    <p>Синхронизации информации в режиме реального времени требуется подключение к интернету. При использовании Интеграции учета на автономном веб-клиенте, при просмотре данных в режиме реального времени, данные будут по состоянию на момент последней связи клиента с базой данных хоста.</p>
+                </td>
+            </tr>
+        </table>
+        <p class="Infinitive">Для настройки</p>
+        <ol>
+            <li value="1">Убедитесь, что вы настроили и подключили <a href="Accounting_Integration_Detail_View.htm" target="_self">конечные точки</a>  перед началом работы службы.</li>
+            <li value="2">Просмотрите файл SLXSDataSyncServer.exe.config, убедитесь, что соединение определено верным образом в конце файла. Информация о соединении должна соответствовать connection.config на вашем Веб Сайте.
+				<br />По умолчанию файл конфигурации расположен в  ...\Program Files\Saleslogix\SLXSDataSyncServer.exe.config и файл с информацией по соединению в ...\inetpub\wwwroot\slxclient.
+			</li>
+            <li value="3">На административной рабочей станции откройте <span class="SLXBold">Службы</span>.</li>
+            <li value="4">Правой кнопкой мыши кликните <span class="SLXBold"><span class="MyVariablesCompanyNameShort">Infor</span> системный сервис</span>, затем нажмите <span class="SLXBold">Свойства</span>.</li>
+            <li value="5">В поле <span class="SLXBold">Тип старта</span> выберите <span class="SLXBold">Автоматически</span>.</li>
+            <li value="6">Запустите службу под пользователем WebDLL.</li>
+            <li value="7">Убедитесь, что вы включили проверку подлинности Windows для пользователя WebDLL.</li>
+            <li value="8">Нажмите <span class="SLXBold">Начать</span>.</li>
+            <li value="9">Нажмите <span class="SLXBold">ОК</span>.</li>
+        </ol>
+        <p class="RelatedTopics">См. также</p>
+        <p><a href="ConfiguringAccountingIntegration.htm" target="_self">Настройка Интеграции Учета</a>
+        </p>
+        <p><a href="Using_Sage_SalesLogix_Integration.htm" target="_self">Использование Интеграции учета</a>
+        </p>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

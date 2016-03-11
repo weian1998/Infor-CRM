@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="copyright" content="" />
+<meta name="topic-comment" content="Saleslogix Template" />
+<meta name="generator" content="Adobe RoboHelp 10" />
+<title>Saleslogix Template</title>
+<link rel="StyleSheet" href="SALESLOGIX.CSS" type="" />
+</head>
+
+<body>
+<?rh-region_start type="body" ?>
+	<h1 value="Architect Help (09-19-01) for v5.2 © 2001 Interact Commerce Corporation">Heading 
+	 1</h1>
+	<p>Body Text</p>
+	<p class="Infinitive">&#160;</p>
+	<p style="margin-top: 0.0; margin-bottom: 0.0;">&#160;</p>
+	<p style="margin-top: 0.0; margin-bottom: 0.0;">&#160;</p>
+	<p style="margin-top: 0.0; margin-bottom: 0.0;">&#160;</p>
+	<p class="Infinitive" style="margin-top: 0.0pt; margin-bottom: 0;">&#160;</p>
+<?rh-region_end type="body" ?>
+<?rh-region_start type="footer" style="width: 100%; position: relative;" ?>
+	<p style="font-family: Verdana; font-size: 8pt; border-top-style: Solid; 
+		 border-top-width: 1px;">Tell us how we can make the Help better. 
+	 E-mail us at saleslogix.techpubs@swiftpage.com</p>
+<?rh-region_end type="footer" ?>
+</body>
+</html>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:fileTags="Translation Status.Support files" xml:lang="fr" MadCap:tocPath="Utilisation de Query Builder|Utilisation des jointures" MadCap:medium="non-print" MadCap:InPreviewMode="false" MadCap:PreloadImages="false" MadCap:RuntimeFileType="Topic" MadCap:TargetType="WebHelp" lang="fr" MadCap:conditions="Output.WebClient,Output.Query Builder" MadCap:PathToHelpSystem="../../" MadCap:HelpSystemFileName="WebClient.xml" MadCap:SearchType="Stem">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Association de tables</title>
+        <link href="../SkinSupport/Slideshow.css" rel="stylesheet" />
+        <link href="../SkinSupport/MadCap.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/Infor.CSS" rel="stylesheet" />
+        <script src="../SkinSupport/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapAll.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapTopicAll.js" type="text/javascript">
+        </script>
+    </head>
+    <body>
+        <h1><a name="kanchor247"></a>Association de tables</h1>
+        <p>La connexion entre deux tables est appelée jointure&#160;: elle est établie à partir d'un champ qui figure dans les deux tables. Le nom de ce champ peut varier selon la table, mais il contient toujours les mêmes informations. Il y a deux types de jointures&#160;: Locale et Globale.</p>
+        <p class="subheading">Jointures locales</p>
+        <p>Une jointure locale est temporaire. Elle n'existe que pendant la durée d'activité ou d'exécution de l'objet ou de la requête qui l'utilise. Les jointures locales ne sont pas visibles dans la vue de l'arborescence de données de Query Builder.</p>
+        <p class="Infinitive">Pour ouvrir la boîte de dialogue Jointure locale</p>
+        <ul>
+            <li MadCap:conditions="Output.WebClient" class="Bullets" value="1">Cliquez sur un champ dans Query Builder, puis cliquez sur <span class="SLXBold">Créer une jointure locale</span>.</li>
+        </ul>
+        <p class="subheading">Jointures globales</p>
+        <p>Une jointure globale est permanente et existe de session en session dans la structure de l'arborescence des données de Query Builder. <span class="MyVariablesProduct Name">Infor CRM</span> contient des jointures globales prédéfinies (jointures système) qui ne peuvent pas être supprimées. Tout utilisateur peut employer ces jointures globales prédéfinies, mais seul l'administrateur système ou un utilisateur disposant de droits d'administration peut créer des jointures globales à l'aide du <a href="Global_Join_Manager.htm" target="_self">Gestionnaire de jointures globales</a>.</p>
+        <p class="Infinitive">Pour ouvrir le Gestionnaire de jointure globale</p>
+        <ul>
+            <li class="Bullets" value="1">Cliquez sur le bouton <span class="SLXBold">Jointures</span> de Query Builder (en vous connectant en tant qu'administrateur).</li>
+        </ul>
+        <p class="subheading">Utilisation des jointures</p>
+        <p>Lors de la création d'une jointure, vous devez identifier une table parent et une table fille. Le type de jointure détermine les informations renvoyées par la requête. Il existe trois types de jointure&#160;: <a href="Inner_joins.htm">interne</a>, <a href="Left_joins.htm">gauche</a> et <a href="Right_joins.htm">droite</a>.</p>
+        <p>Par exemple, les tables CONTACT et ACCOUNT contiennent toutes les deux le champ AccountID. Vous pouvez donc utiliser le champ AccountID pour joindre les tables ACCOUNT et CONTACT.</p>
+        <p>Vous pouvez également joindre les tables avec des champs portant des noms différents mais contenant la même valeur. Par exemple, la table ACCOUNT est liée à la table USERINFO par l'intermédiaire du champ AccountManagerID de la table ACCOUNT et du champ UserID de la table USERINFO. Bien que le nom de ces deux champs soit différent, leur valeur est la même.</p>
+        <p>Habituellement, les jointures sont utilisées pour générer des requêtes exécutées sur une base de données. Une fois une jointure créée, tout champ de table peut être utilisé dans une requête. Ces requêtes sont générées à partir de <a href="../QueryBuilder/Using_SalesLogix_Query_Builder.htm">Query Builder</a>.</p>
+        <p>Dans la vue de l'arborescence de données de Query Builder, une jointure apparaît ainsi&#160;:</p>
+        <p style="margin-top: 2.0pt;margin-bottom: 3.0pt;">
+            <img src="../image/joindissect.gif" alt="image\joindissect.gif" style="width: 392px;height: 172px;margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;border-style: none;float: none;border-style: none;" width="392" height="172" border="0" />
+        </p>
+        <table wrapperparagraphselector="P" style="margin-top: 14pt;border-spacing: 0px;border-spacing: 0px;" cellspacing="0">
+            <col />
+            <col />
+            <tr>
+                <td style="padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top">
+                    <p style="text-align: center;margin-bottom: 0;" align="center">
+                        <img src="../image/caution.gif" />
+                    </p>
+                </td>
+                <td style="padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top">
+                    <p style="margin-bottom: 0;">Par défaut, la table ADDRESS est liée à la table ACCOUNT grâce à une jointure interne. <span style="font-style: italic;">Ne modifiez pas</span> les propriétés de cette jointure.</p>
+                </td>
+            </tr>
+        </table>
+        <p class="RelatedTopics">Rubriques connexes</p>
+        <p><a href="Guidelines_for_Using_Joins.htm" target="_self">Instructions pour l'association de tables</a>
+        </p>
+        <p><a href="Add_a_Global_Join.htm" target="_self">Ajout d'une jointure globale</a>
+        </p>
+        <p><a href="Add_a_Local_Join.htm" target="_self">Ajout d'une jointure locale</a>
+        </p>
+        <p><a href="Join_Example.htm">Exemple de jointure</a>
+        </p>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

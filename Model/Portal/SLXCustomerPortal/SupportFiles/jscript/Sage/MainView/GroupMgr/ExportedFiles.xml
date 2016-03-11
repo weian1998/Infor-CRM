@@ -1,0 +1,15 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\MainView\GroupMgr\FilterConfigurationProvider.js" timeStamp="2015-05-28T03:09:00.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\MainView\GroupMgr\GroupManagerActions.js" timeStamp="2015-05-28T03:09:00.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\MainView\GroupMgr\GroupManagerFormatter.js" timeStamp="2015-05-28T03:09:00.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\MainView\GroupMgr\GroupManagerGroupContextService.js" timeStamp="2015-05-28T03:09:00.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\MainView\GroupMgr\GroupsListPanelConfig.js" timeStamp="2015-05-28T03:09:00.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\MainView\GroupMgr\GroupsSDataDetailViewDataManager.js" timeStamp="2015-05-28T03:09:00.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\MainView\GroupMgr\GroupsSDataSummaryFormatterScope.js" timeStamp="2015-05-28T03:09:00.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\MainView\GroupMgr\main.js" timeStamp="2015-05-28T03:09:00.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\MainView\GroupMgr\ReleasesListPanelConfig.js" timeStamp="2015-05-28T03:09:00.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\MainView\GroupMgr\StatisticsListPanelConfig.js" timeStamp="2015-05-28T03:09:00.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\MainView\GroupMgr\nls\" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\MainView\GroupMgr\templates\" />
+</exportedFiles>

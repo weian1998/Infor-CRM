@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<method xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="OrmOtherMethod" id="c089d6dc-6348-41a4-bc9c-9b8ed948213d" lastModifiedUtc="2013-07-05T18:08:00.4217216Z" name="btnAuthorize_OnClick" methodType="Other" actionType="None" returnMode="None" isInstance="false" containerName="IntegrationLinks">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmOtherMethod" />
+  </ExtendedPropertiesCollection>
+  <parameter>
+    <OrmEntityMethodParam id="c0f510dc-86b6-4260-8031-1a3002a0584e" paramName="form" sequence="0" paramType="IIntegrationLinks" />
+    <OrmEntityMethodParam id="420d7d7f-2b3f-4116-b350-7d84c480a4fe" paramName="args" sequence="0" paramType="EventArgs" />
+  </parameter>
+  <preExecuteTargets />
+  <methodTargets />
+  <postExecuteTargets />
+  <postFlushTargets />
+</method>

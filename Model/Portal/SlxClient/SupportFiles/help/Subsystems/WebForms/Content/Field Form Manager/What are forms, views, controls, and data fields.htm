@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:fileTags="Translation Status.Support files" MadCap:tocPath="Customizing the Work Space" MadCap:medium="non-print" MadCap:InPreviewMode="false" MadCap:PreloadImages="false" MadCap:RuntimeFileType="Topic" MadCap:TargetType="WebHelp" lang="en-us" xml:lang="en-us" MadCap:conditions="Primary.FieldMgr,Output.WebClient" MadCap:PathToHelpSystem="../../" MadCap:HelpSystemFileName="WebForms.xml" MadCap:SearchType="Stem">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="copyright" value="SalesLogix Sales Help (03/19/2002) for v6.2 © 1997-2004 Best Software, Inc. and Sage Technologies Limited" />
+        <meta name="window-type" content="(w95sec)" /><title>What are Forms, Views, Controls, and Data Fields?</title>
+        <link href="../SkinSupport/Slideshow.css" rel="stylesheet" MadCap:generated="True" />
+        <link href="../SkinSupport/MadCap.css" rel="stylesheet" MadCap:generated="True" />
+        <link href="../Resources/Stylesheets/Infor.CSS" rel="stylesheet" />
+        <script src="../SkinSupport/jquery.min.js">
+        </script>
+        <script src="../SkinSupport/MadCapAll.js">
+        </script>
+        <script src="../SkinSupport/MadCapTopicAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../WebForms_CSH.htm#Field Form Manager/What are forms, views, controls, and data fields.htm" style="font-family: Verdana;color: #ffffff;background-color: #cad59f;">Open topic with Search, TOC, and Index</a>
+        </p>
+        <h1>What are Forms, Views, Controls, and Data Fields?</h1>
+        <p class="subheading">Forms and Views</p>
+        <p>Forms are reusable pieces assembled in various combinations to make different <span class="MCPopup"><a href="javascript:void(0);" MadCap:src="Popups/View.htm" onclick="FMCPopup( event, this ); return false;" MadCap:width="4in" MadCap:height="auto" class="MCPopupSpot_Popup_0">views</a></span>; forms are the building blocks of all <span class="MyVariablesProduct Name">Infor CRM</span> views. For example, the Account Detail view is made of one form for the detail pane and other forms for the tabs. </p>
+        <p>A form may be used in multiple views. For example, the InsertContracts form is used in the Contracts Detail view and in the Insert Contracts view. </p>
+        <p>There are two kinds of forms:&#160;custom forms and <span class="MCPopup"><a href="javascript:void(0);" MadCap:src="Popups/Quick_Forms_def.htm" onclick="FMCPopup( event, this ); return false;" MadCap:width="4in" MadCap:height="auto" class="MCPopupSpot_Popup_0">Quick Forms</a></span>. </p>
+        <p>You can make simple changes to a view by editing its component forms with the <span class="MyVariablesFormDesignerName">Form Designer</span>. For example, you can change captions and move things around on a form.  When you save the form changes, all the views that contain the form change as well. <a name="kanchor15"></a>Changes you make affect everyone on the system because  form and view definitions are shared.    <a href="Working_with_forms.htm">Tell me more...</a></p>
+        <p class="subheading">Controls</p>
+        <p>Each thing on a form, such as a button or a box, is called a 'control'. There are about 30 different kinds of controls used on <span class="MyVariablesProduct Name">Infor CRM</span> forms. </p>
+        <p>Some kinds of controls cause an action to be performed. Examples are button controls that save data and link controls which open a view.</p>
+        <p> Many kinds of controls show data from the <span class="MyVariablesProduct Name">Infor CRM</span> database so that users can view or edit the data. For example, this pick list control enables users to view and change the status of an account:</p>
+        <blockquote>
+            <p>
+                <img src="../image/status_text_box.gif" />
+            </p>
+        </blockquote>
+        <p>All the control types we have talked about so far are visual controls; that is, they are intended to be displayed on forms. A few kinds of controls are <span class="MCPopup"><a href="javascript:void(0);" MadCap:src="Popups/Non-visual_Control.htm" onclick="FMCPopup( event, this ); return false;" MadCap:width="4in" MadCap:height="auto" class="MCPopupSpot_Popup_0">non-visual</a></span>.</p>
+        <p>The <span class="MyVariablesFormDesignerName">Form Designer</span> shows the layout of the controls on a form and allows you to drag and drop the controls into different positions.</p>
+        <p class="subheading">Control properties</p>
+        <p>Control properties are settings that define a control's behavior and appearance. For example, the Image property of a button control specifies the icon to show on the face of the button. Pick list controls have a property called Allow&#160;Multiple Selections. Two properties common to almost all controls are Caption and Tooltip.</p>
+        <p>When you select a control on the design surface of the <span class="MyVariablesFormDesignerName">Form Designer</span>, the control's properties show on tabs where you can change many of their values. </p>
+        <table wrapperparagraphselector="P" style="float: alignleft;left: 0px;top: 96px;width: 655px;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" width="655">
+            <col style="width: 6.224%;" />
+            <col style="width: 93.776%;" />
+            <tr valign="middle">
+                <td style="width: 6.224%;padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top" width="6.224%">
+                    <img src="../image/note.gif" style="border: none;width: 24px;height: 24px;float: none;border-style: none;border-style: none;" width="24" height="24" border="0" />
+                </td>
+                <td style="width: 93.776%;padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top" width="93.776%">Additional control properties may be accessible with the Application Architect.</td>
+            </tr>
+        </table>
+        <p MadCap:conditions="" class="subheading">Data fields
+</p>
+        <p MadCap:conditions="">Data fields are the individual kinds of information users view and change about accounts, contacts, and so on. Examples of data fields are Account Name and Status. A control that shows data from the <span class="MyVariablesProduct Name">Infor CRM</span> database is able to because it is tied or "bound" to the data field in the database.</p>
+        <p MadCap:conditions="">The <span class="MyVariablesFormDesignerName">Form Designer</span> shows the data field to which a control is bound.</p>
+        <p class="RelatedTopics">Related Topics</p>
+        <p><a href="Working_with_forms.htm">Working with Forms</a>
+        </p>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

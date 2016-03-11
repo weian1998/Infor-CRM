@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:fileTags="Translation Status.Support files" MadCap:tocPath="Administration|User Administration" MadCap:medium="non-print" MadCap:InPreviewMode="false" MadCap:PreloadImages="false" MadCap:RuntimeFileType="Topic" MadCap:TargetType="WebHelp" lang="en-us" xml:lang="en-us" MadCap:conditions="Output.WebClient,Targeted.WebHelp-slxgetstartedADMIN subset" MadCap:PathToHelpSystem="../../" MadCap:HelpSystemFileName="WebClient.xml" MadCap:SearchType="Stem">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Understanding Users</title>
+        <link href="../SkinSupport/Slideshow.css" rel="stylesheet" />
+        <link href="../SkinSupport/MadCap.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/Infor.CSS" rel="stylesheet" />
+        <script src="../SkinSupport/jquery.min.js">
+        </script>
+        <script src="../SkinSupport/MadCapAll.js">
+        </script>
+        <script src="../SkinSupport/MadCapTopicAll.js">
+        </script>
+    </head>
+    <body>
+        <h1>Understanding Users</h1>
+        <p><a name="kanchor40"></a>Users are the people that can access your <span class="MyVariablesProduct Name">Infor CRM</span> database. Each user has a profile that defines information such as the user name, title, manager, team membership, department membership, and security access.</p>
+        <p>You can add any of the following user types:</p>
+        <ul>
+            <li class="Bullets" value="1"><a href="javascript:void(0);" onclick="FMCToggler( this ); return false;" class="MCToggler_0" MadCap:targets="network">Network<img style="border: none;margin-left: 5px;" src="../SkinSupport/DropDownClosed.gif" MadCap:altsrc="../SkinSupport/DropDownOpen.gif" onload="if ( typeof( FMCPreloadImage ) == 'function' ) { FMCPreloadImage( '../SkinSupport/DropDownOpen.gif' ); }" alt="Closed" MadCap:alt2="Open" class="MCTogglerIcon" /></a> <![CDATA[ ]]></li>
+        </ul>
+        <p class="Topic-Text-Indent" MadCap:targetName="network" style="display: none;">A user who primarily accesses <span class="MyVariablesProduct Name">Infor CRM</span> via a direct network connection to the database.</p>
+        <ul>
+            <li class="Bullets" value="1"><a href="javascript:void(0);" onclick="FMCToggler( this ); return false;" class="MCToggler_0" MadCap:targets="concurrent1;concurrent2;concurrent3;concurrent4">Concurrent<img style="border: none;margin-left: 5px;" src="../SkinSupport/DropDownClosed.gif" MadCap:altsrc="../SkinSupport/DropDownOpen.gif" onload="if ( typeof( FMCPreloadImage ) == 'function' ) { FMCPreloadImage( '../SkinSupport/DropDownOpen.gif' ); }" alt="Closed" MadCap:alt2="Open" class="MCTogglerIcon" /></a>
+            </li>
+        </ul>
+        <p class="Topic-Text-Indent" MadCap:targetName="concurrent1" style="display: none;"> These licenses enable access to <span class="MyVariablesProduct Name">Infor CRM</span>, but are not assigned to an individual user. The number of users accessing the software at any one time may not exceed the number of Concurrent User licenses granted. For example, if you have 100 Concurrent User licenses, you can create any number of concurrent users, but only 100 of those users can be logged on to <span class="MyVariablesProduct Name">Infor CRM</span> at the same time.</p>
+        <p class="Topic-Text-Indent" MadCap:targetName="concurrent2" style="display: none;">Concurrent users are able to log on to the <span class="MyVariablesSLX Web">Infor CRM Web Client</span>, the <span class="MyVariablesSLX Client">Infor CRM Client</span>, the Administrator, Architect, SpeedSearch Client, Sync Client (Remote Office only) and a Remote Office.  Each logon will consume one Concurrent User license.  Concurrent users who log on to SpeedSearch Client will not consume a Concurrent User license, regardless of the access method.</p>
+        <p class="Topic-Text-Indent" MadCap:targetName="concurrent3" style="display: none;">Concurrent User licenses can be divided between the Host and any or all Remote Offices. This assignment can be changed at any time through the Administrator (Systems &gt; Offices &gt; Edit Remote Office &gt; Sync Options tab). When you assign Concurrent User licenses to a Remote Office, the Host assumes all Remote Office licenses are consumed at all times. For example, if you have a 30 Concurrent User license and you assign 10 licenses to one Remote Office, the Host automatically subtracts the 10 licenses and only allows 20 Concurrent Users to log on to applications at the main office.</p>
+        <p class="Topic-Text-Indent" MadCap:targetName="concurrent4" style="display: none;">The Concurrent User license type cannot be assigned to Remote users.</p>
+        <ul>
+            <li class="Bullets" value="1"><a href="javascript:void(0);" onclick="FMCToggler( this ); return false;" class="MCToggler_0" MadCap:targets="remote1;remote2">Remote<img style="border: none;margin-left: 5px;" src="../SkinSupport/DropDownClosed.gif" MadCap:altsrc="../SkinSupport/DropDownOpen.gif" onload="if ( typeof( FMCPreloadImage ) == 'function' ) { FMCPreloadImage( '../SkinSupport/DropDownOpen.gif' ); }" alt="Closed" MadCap:alt2="Open" class="MCTogglerIcon" /></a>
+            </li>
+        </ul>
+        <p class="Topic-Text-Indent" MadCap:targetName="remote1" style="display: none;">Remote Clients keep a subset of the main office database on their local computer (a laptop, for example) and use synchronization to transfer changes between their system and the main office. Note that Remote users never connect with the Remote Office, always with the main office.</p>
+        <p class="Topic-Text-Indent" MadCap:targetName="remote2" style="display: none;">If you have less than five Remote users, and it is not important that they share or have immediate access to the same accounts, then each user can be set up as a Remote user. A sales person traveling or a lone regional representative at a remote location are both examples of Remote users.</p>
+        <ul>
+            <li class="Bullets" value="1"><a href="javascript:void(0);" onclick="FMCToggler( this ); return false;" class="MCToggler_0" MadCap:targets="template1;template2;template3">Template<img style="border: none;margin-left: 5px;" src="../SkinSupport/DropDownClosed.gif" MadCap:altsrc="../SkinSupport/DropDownOpen.gif" onload="if ( typeof( FMCPreloadImage ) == 'function' ) { FMCPreloadImage( '../SkinSupport/DropDownOpen.gif' ); }" alt="Closed" MadCap:alt2="Open" class="MCTogglerIcon" /></a>
+            </li>
+        </ul>
+        <p class="Topic-Text-Indent" MadCap:targetName="template1" style="display: none;">User Templates can be created to define settings you want to use when creating new users. For example, you can create a user template that holds all options for Concurrent users. Then when you create a new user, you can use the Concurrent user template and the profile settings are predefined.</p>
+        <ul>
+            <li class="Topic-Text-Bulleted-2" MadCap:targetName="template2" value="1" style="display: none;">User Templates do not affect the license count or appear in the user's list.</li>
+            <li class="Topic-Text-Bulleted-2" MadCap:targetName="template3" value="2" style="display: none;">A User Template is not an active user and cannot log on to <span class="MyVariablesProduct Name">Infor CRM</span>.</li>
+            <li class="Bullets" value="3"><a href="javascript:void(0);" onclick="FMCToggler( this ); return false;" class="MCToggler_0" MadCap:targets="webOnly">Web Only<img style="border: none;margin-left: 5px;" src="../SkinSupport/DropDownClosed.gif" MadCap:altsrc="../SkinSupport/DropDownOpen.gif" onload="if ( typeof( FMCPreloadImage ) == 'function' ) { FMCPreloadImage( '../SkinSupport/DropDownOpen.gif' ); }" alt="Closed" MadCap:alt2="Open" class="MCTogglerIcon" /></a>
+            </li>
+        </ul>
+        <p class="Topic-Text-Indent" MadCap:targetName="webOnly" style="display: none;">Users who only have access to the <span class="MyVariablesSLX Web">Infor CRM Web Client</span>, and can view, add, delete, or modify information based on their access rights. This user type cannot log on to the <span class="MyVariablesSLX Client">Infor CRM Client</span>.</p>
+        <ul>
+            <li class="Bullets" value="1"><a href="javascript:void(0);" onclick="FMCToggler( this ); return false;" class="MCToggler_0" MadCap:targets="add_on">Add-on User<img style="border: none;margin-left: 5px;" src="../SkinSupport/DropDownClosed.gif" MadCap:altsrc="../SkinSupport/DropDownOpen.gif" onload="if ( typeof( FMCPreloadImage ) == 'function' ) { FMCPreloadImage( '../SkinSupport/DropDownOpen.gif' ); }" alt="Closed" MadCap:alt2="Open" class="MCTogglerIcon" /></a>
+            </li>
+        </ul>
+        <p class="Topic-Text-Indent" MadCap:targetName="add_on" style="display: none;">The Add-on User enables you to create a user with access to the <span class="MyVariablesProduct Name">Infor CRM</span> OLE DB Provider for third-party client interfaces. This user cannot log on to any <span class="MyVariablesProduct Name">Infor CRM</span> applications.</p>
+        <ul>
+            <li class="Bullets" value="1"><a href="javascript:void(0);" onclick="FMCToggler( this ); return false;" class="MCToggler_0" MadCap:targets="webViewer1;webViewer2;webViewer3">WebViewer<img style="border: none;margin-left: 5px;" src="../SkinSupport/DropDownClosed.gif" MadCap:altsrc="../SkinSupport/DropDownOpen.gif" onload="if ( typeof( FMCPreloadImage ) == 'function' ) { FMCPreloadImage( '../SkinSupport/DropDownOpen.gif' ); }" alt="Closed" MadCap:alt2="Open" class="MCTogglerIcon" /></a>
+            </li>
+        </ul>
+        <p class="Topic-Text-Indent" MadCap:targetName="webViewer1" style="display: none;">WebViewer users have read-only access to accounts, contacts, opportunities, and tickets. Depending on account and calendar security, WebViewer users can add, edit, and delete activities, notes, and history, but cannot use  processes. This user type cannot log on to the <span class="MyVariablesSLX Client">Infor CRM Client</span>.</p>
+        <p class="Topic-Text-Indent" MadCap:targetName="webViewer2" style="display: none;">A WebViewer user cannot:</p>
+        <ul MadCap:targetName="webViewer3" style="display: none;">
+            <li class="Topic-Text-Bulleted-2" value="1">Be a manager.</li>
+            <li class="Topic-Text-Bulleted-2" value="2">Be the owner of any team.</li>
+            <li class="Topic-Text-Bulleted-2" value="3">List any other users on the User Team Members tab.</li>
+        </ul>
+        <p>In addition, <span class="MyVariablesProduct Name">Infor CRM</span> supports several special user types:</p>
+        <ul>
+            <li class="Bullets" value="1"><a href="javascript:void(0);" onclick="FMCToggler( this ); return false;" class="MCToggler_0" MadCap:targets="systemadmin">system administrator<img style="border: none;margin-left: 5px;" src="../SkinSupport/DropDownClosed.gif" MadCap:altsrc="../SkinSupport/DropDownOpen.gif" onload="if ( typeof( FMCPreloadImage ) == 'function' ) { FMCPreloadImage( '../SkinSupport/DropDownOpen.gif' ); }" alt="Closed" MadCap:alt2="Open" class="MCTogglerIcon" /></a>
+            </li>
+        </ul>
+        <p class="Topic-Text-Indent" MadCap:targetName="systemadmin" style="display: none;">A user with access to all features and functions in <span class="MyVariablesProduct Name">Infor CRM</span>. The system administrator logs on as "admin."</p>
+        <ul>
+            <li class="Bullets" value="1"><a href="javascript:void(0);" onclick="FMCToggler( this ); return false;" class="MCToggler_0" MadCap:targets="adminstrative">Administrative<img style="border: none;margin-left: 5px;" src="../SkinSupport/DropDownClosed.gif" MadCap:altsrc="../SkinSupport/DropDownOpen.gif" onload="if ( typeof( FMCPreloadImage ) == 'function' ) { FMCPreloadImage( '../SkinSupport/DropDownOpen.gif' ); }" alt="Closed" MadCap:alt2="Open" class="MCTogglerIcon" /></a>
+            </li>
+        </ul>
+        <p class="Topic-Text-Indent" MadCap:targetName="adminstrative" style="display: none;">A user who can perform tasks normally reserved for the system administrator. Users with access to administrative functions are defined using administrative roles in the Administrator or roles in the Web Client. Administrative users log on using their user name (for example, Lee or Dan). The system administrator remains the only user with full access to all features and functions in the system.</p>
+        <ul>
+            <li class="Bullets" value="1"><a href="javascript:void(0);" onclick="FMCToggler( this ); return false;" class="MCToggler_0" MadCap:targets="retired">Retired<img style="border: none;margin-left: 5px;" src="../SkinSupport/DropDownClosed.gif" MadCap:altsrc="../SkinSupport/DropDownOpen.gif" onload="if ( typeof( FMCPreloadImage ) == 'function' ) { FMCPreloadImage( '../SkinSupport/DropDownOpen.gif' ); }" alt="Closed" MadCap:alt2="Open" class="MCTogglerIcon" /></a>
+            </li>
+        </ul>
+        <p class="Topic-Text-Indent" MadCap:targetName="retired" style="display: none;">A user type that provides a method to maintain the activity history of users who leave your organization. Retired users are treated like inactive users in that their contact activities are preserved in the database even though they are no longer able to access the system. However, inactive users use licenses while retired users do not.</p>
+        <p class="RelatedTopics">Related Topics</p>
+        <p><a href="Adding_a_User.htm" target="_self">Adding a User</a>
+        </p>
+        <p MadCap:conditions="Output.WebClient"><a href="Creating_a_Copy_of_a_User.htm" target="_self">Copying a User</a>
+        </p>
+        <p MadCap:conditions="Output.WebClient"><a href="User_Detail_View.htm" target="_self">User Detail View</a>
+        </p>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

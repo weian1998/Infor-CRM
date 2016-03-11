@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<MenuDropDownItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="b83173b9-fc9f-4259-83b7-1529a28f9146">
+  <ItemId>mnuJobSchedulesListDeleteJob</ItemId>
+  <NavUrl>javascript:Sage.MainView.JobMgr.JobManagerActions.deleteScheduledJob();</NavUrl>
+  <LargeImageUrl />
+  <SmallImageUrl />
+  <ContextMenuId />
+  <Target />
+  <AppliedSecurity />
+</MenuDropDownItem>

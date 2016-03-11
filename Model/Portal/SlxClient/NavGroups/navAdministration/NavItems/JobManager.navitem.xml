@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<NavigationItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="29b77490-c594-4ada-a80d-6028fe8e7d30">
+  <ItemId>JobManager</ItemId>
+  <NavUrl>JobManager.aspx</NavUrl>
+  <LargeImageUrl>[Localization!Global_Images:JobMgr_32x32]</LargeImageUrl>
+  <SmallImageUrl>[Localization!Global_Images:JobMgr_16x16]</SmallImageUrl>
+  <ContextMenuId>JobManagerNavBarContextMenu</ContextMenuId>
+  <Target />
+  <AppliedSecurity>Administration/Manage/Jobs</AppliedSecurity>
+</NavigationItem>

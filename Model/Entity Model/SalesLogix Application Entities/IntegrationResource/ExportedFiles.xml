@@ -1,0 +1,11 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\IntegrationResource\IntegrationResource.INTEGRATIONRESOURCE.entity.xml" timeStamp="2015-05-28T03:04:12.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\IntegrationResource\OnAfterDelete.method.xml" timeStamp="2015-05-28T03:04:12.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\IntegrationResource\OnAfterInsert.method.xml" timeStamp="2015-05-28T03:04:12.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\IntegrationResource\OnAfterUpdate.method.xml" timeStamp="2015-05-28T03:04:12.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\IntegrationResource\OnBeforeDelete.method.xml" timeStamp="2015-05-28T03:04:12.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\IntegrationResource\OnBeforeInsert.method.xml" timeStamp="2015-05-28T03:04:12.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\IntegrationResource\OnBeforeUpdate.method.xml" timeStamp="2015-05-28T03:04:12.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\IntegrationResource\OnCreate.method.xml" timeStamp="2015-05-28T03:04:12.0000" />
+</exportedFiles>

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\QuickForms\Design\Editors\nls\_PropertyEditor.js" timeStamp="2015-05-28T03:09:06.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\QuickForms\Design\Editors\nls\CheckBoxAdvancedPropertyEditor.js" timeStamp="2015-05-28T03:09:06.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\QuickForms\Design\Editors\nls\CheckBoxBasicPropertyEditor.js" timeStamp="2015-05-28T03:09:06.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\QuickForms\Design\Editors\nls\ColumnBasicPropertyEditor.js" timeStamp="2015-05-28T03:09:06.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\QuickForms\Design\Editors\nls\ComboBoxAdvancedPropertyEditor.js" timeStamp="2015-05-28T03:09:06.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\QuickForms\Design\Editors\nls\ComboBoxBasicPropertyEditor.js" timeStamp="2015-05-28T03:09:06.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\QuickForms\Design\Editors\nls\CurrencyAdvancedPropertyEditor.js" timeStamp="2015-05-28T03:09:06.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\QuickForms\Design\Editors\nls\CurrencyBasicPropertyEditor.js" timeStamp="2015-05-28T03:09:06.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\QuickForms\Design\Editors\nls\DataGridAdvancedPropertyEditor.js" timeStamp="2015-05-28T03:09:06.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\QuickForms\Design\Editors\nls\DataGridBasicPropertyEditor.js" timeStamp="2015-05-28T03:09:06.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\QuickForms\Design\Editors\nls\DateTimePickerAdvancedPropertyEditor.js" timeStamp="2015-05-28T03:09:06.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\QuickForms\Design\Editors\nls\DateTimePickerBasicPropertyEditor.js" timeStamp="2015-05-28T03:09:06.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\QuickForms\Design\Editors\nls\FormAdvancedPropertyEditor.js" timeStamp="2015-05-28T03:09:06.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\QuickForms\Design\Editors\nls\FormBasicPropertyEditor.js" timeStamp="2015-05-28T03:09:07.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\QuickForms\Design\Editors\nls\FormUsagesPropertyEditor.js" timeStamp="2015-05-28T03:09:07.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\QuickForms\Design\Editors\nls\GenericAdvancedPropertyEditor.js" timeStamp="2015-05-28T03:09:07.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\QuickForms\Design\Editors\nls\GenericBasicPropertyEditor.js" timeStamp="2015-05-28T03:09:07.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\QuickForms\Design\Editors\nls\LayoutPropertyEditor.js" timeStamp="2015-05-28T03:09:07.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\QuickForms\Design\Editors\nls\NonVisibleAdvancedPropertyEditor.js" timeStamp="2015-05-28T03:09:07.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\QuickForms\Design\Editors\nls\NumericAdvancedPropertyEditor.js" timeStamp="2015-05-28T03:09:07.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\QuickForms\Design\Editors\nls\NumericBasicPropertyEditor.js" timeStamp="2015-05-28T03:09:07.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\QuickForms\Design\Editors\nls\OwnerAdvancedPropertyEditor.js" timeStamp="2015-05-28T03:09:07.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\QuickForms\Design\Editors\nls\OwnerBasicPropertyEditor.js" timeStamp="2015-05-28T03:09:07.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\QuickForms\Design\Editors\nls\PickListAdvancedPropertyEditor.js" timeStamp="2015-05-28T03:09:07.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\QuickForms\Design\Editors\nls\PickListBasicPropertyEditor.js" timeStamp="2015-05-28T03:09:07.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\QuickForms\Design\Editors\nls\RowBasicPropertyEditor.js" timeStamp="2015-05-28T03:09:07.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\QuickForms\Design\Editors\nls\TextBoxAdvancedPropertyEditor.js" timeStamp="2015-05-28T03:09:07.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\QuickForms\Design\Editors\nls\TextBoxBasicPropertyEditor.js" timeStamp="2015-05-28T03:09:07.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\QuickForms\Design\Editors\nls\UserAdvancedPropertyEditor.js" timeStamp="2015-05-28T03:09:07.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\QuickForms\Design\Editors\nls\UserBasicPropertyEditor.js" timeStamp="2015-05-28T03:09:07.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\QuickForms\Design\Editors\nls\de\" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\QuickForms\Design\Editors\nls\en\" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\QuickForms\Design\Editors\nls\fr\" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\QuickForms\Design\Editors\nls\it\" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\QuickForms\Design\Editors\nls\ru\" />
+</exportedFiles>

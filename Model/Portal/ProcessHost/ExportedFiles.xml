@@ -1,0 +1,18 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\ProcessHost\ContextMenuItems.order.xml" timeStamp="2015-05-28T03:04:46.0000" />
+  <exportedFile url="\Portal\ProcessHost\MenuItems.order.xml" timeStamp="2015-05-28T03:04:46.0000" />
+  <exportedFile url="\Portal\ProcessHost\Modules.order.xml" timeStamp="2015-05-28T03:04:46.0000" />
+  <exportedFile url="\Portal\ProcessHost\NavigationGroups.order.xml" timeStamp="2015-05-28T03:04:46.0000" />
+  <exportedFile url="\Portal\ProcessHost\ProcessHost.cabsvc.ptl.xml" timeStamp="2015-05-28T03:04:46.0000" />
+  <exportedFile url="\Portal\ProcessHost\ProcessHost.cabsvc.ptl.xml.de.resx" timeStamp="2015-05-28T03:04:46.0000" />
+  <exportedFile url="\Portal\ProcessHost\ProcessHost.cabsvc.ptl.xml.fr.resx" timeStamp="2015-05-28T03:04:46.0000" />
+  <exportedFile url="\Portal\ProcessHost\ProcessHost.cabsvc.ptl.xml.it.resx" timeStamp="2015-05-28T03:04:46.0000" />
+  <exportedFile url="\Portal\ProcessHost\ProcessHost.cabsvc.ptl.xml.resx" timeStamp="2015-05-28T03:04:46.0000" />
+  <exportedFile url="\Portal\ProcessHost\ProcessHost.cabsvc.ptl.xml.ru.resx" timeStamp="2015-05-28T03:04:46.0000" />
+  <exportedFile url="\Portal\ProcessHost\Services.order.xml" timeStamp="2015-05-28T03:04:46.0000" />
+  <exportedFile url="\Portal\ProcessHost\SupportFiles.def.xml" timeStamp="2015-05-28T03:04:46.0000" />
+  <exportedFile url="\Portal\ProcessHost\Deployment\" />
+  <exportedFile url="\Portal\ProcessHost\Services\" />
+  <exportedFile url="\Portal\ProcessHost\SupportFiles\" />
+</exportedFiles>

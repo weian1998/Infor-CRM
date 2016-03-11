@@ -1,0 +1,68 @@
+<%@ Master Language="C#" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<script runat="server">
+    public void Page_Load(object sender, EventArgs e)
+    {
+        if (Page.IsPostBack)
+        {
+            Sage.Platform.TimeZones tzs = new Sage.Platform.TimeZones();
+            Sage.Platform.TimeZone tz = tzs.CurrentTimeZone;
+            if (Request.Params["tz_info"] != null)
+            {
+                string[] tzinfo = Request.Params["tz_info"].Split(',');
+                if (tzinfo.Length == 11)
+                {
+                    tz = tzs.FindTimeZone(tzinfo[0], tzinfo[1], tzinfo[2], tzinfo[3], tzinfo[4], tzinfo[5], tzinfo[6], tzinfo[7], tzinfo[8], tzinfo[9], tzinfo[10]);
+                }
+            }
+            else
+            {
+                log4net.ILog log = log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
+                log.Warn("TimeZone: Unable to get timezone from client, using server timezone.");
+            }
+
+            Sage.Platform.Application.IContextService context = Sage.Platform.Application.ApplicationContext.Current.Services.Get<Sage.Platform.Application.IContextService>(true);
+            context.SetContext("TimeZone", tz);
+        }
+        Page.Title = GetLocalResourceObject("LoginPageTitle").ToString();
+    }
+
+    public void ConfigureLoginPageLink(HtmlAnchor linkControl)
+    {
+        linkControl.InnerHtml = HttpUtility.HtmlEncode(GetLocalResourceObject("LogoffLink"));
+        linkControl.HRef = "~/Login.aspx";
+    }
+
+</script>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <link rel="shortcut icon" href="~/favicon.ico"/>
+    <title>Infor CRM</title>
+    
+	<link type="text/css" href="../css/SlxBase.css" rel="stylesheet" />
+
+    <script pin="pin" type="text/javascript">
+        var dojoConfig = {
+            parseOnLoad: true,
+            async: true,
+            isDebug: false,
+            locale: '<%= Global.Locale %>',
+            paths: { 'Sage': '../../../jscript/Sage' },
+            deferredOnError: function (e) {
+                if (dojo.config.isDebug) {
+                }
+            }
+        };
+    </script>
+    <script pin="pin" type="text/javascript" src="Libraries/dojo/dojo/dojo.js"></script>
+</head>
+<body class="inforSignInDialog">
+    <script pin="pin" src="jscript/timezone.js" type="text/javascript"></script>
+	<form id="Form1" runat="server" method="post" class="inforSignInDialogControls" >
+	    <asp:ContentPlaceHolder ID="ContentPlaceHolderArea" runat="server"></asp:ContentPlaceHolder>
+	</form>
+</body>
+</html>

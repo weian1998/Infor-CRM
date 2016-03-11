@@ -1,0 +1,13 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\MainView\ReportMgr\nls\it\BaseReportScheduleEditor.js" timeStamp="2015-05-28T03:09:05.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\MainView\ReportMgr\nls\it\FilterConfigurationProvider.js" timeStamp="2015-05-28T03:09:05.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\MainView\ReportMgr\nls\it\HistoryListPanelConfig.js" timeStamp="2015-05-28T03:09:05.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\MainView\ReportMgr\nls\it\ReportManagerActions.js" timeStamp="2015-05-28T03:09:05.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\MainView\ReportMgr\nls\it\ReportManagerFormatter.js" timeStamp="2015-05-28T03:09:05.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\MainView\ReportMgr\nls\it\ReportManagerGroupContextService.js" timeStamp="2015-05-28T03:09:05.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\MainView\ReportMgr\nls\it\ReportManagerUtility.js" timeStamp="2015-05-28T03:09:05.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\MainView\ReportMgr\nls\it\ReportsListPanelConfig.js" timeStamp="2015-05-28T03:09:05.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\MainView\ReportMgr\nls\it\ReportWizardController.js" timeStamp="2015-05-28T03:09:05.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\MainView\ReportMgr\nls\it\SchedulesListPanelConfig.js" timeStamp="2015-05-28T03:09:05.0000" />
+</exportedFiles>

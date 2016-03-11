@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<ModelItems xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Item Id="bdd7293d-de9f-489d-92b6-46beba316e3d">SDataListViewer.smartpart.xml</Item>
+  <Item Id="3ec0b846-b465-412f-9959-c9b2ea0e88a1">GroupManagerFilters.smartpart.xml</Item>
+  <Item Id="6b33dbf0-1c5f-4baf-b5ff-ee15697dc539">GroupManagerTasks.smartpart.xml</Item>
+</ModelItems>

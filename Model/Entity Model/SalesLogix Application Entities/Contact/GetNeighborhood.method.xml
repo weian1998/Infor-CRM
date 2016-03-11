@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<method xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="800e08a0-4374-4a18-b936-b529410b9bf4" lastModifiedUtc="2016-02-17T11:42:51.8977263Z" name="GetNeighborhood" returnType="IList&lt;IContact&gt;" methodType="Rule" actionType="None" returnMode="Object">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmEntityMethod" />
+  </ExtendedPropertiesCollection>
+  <parameter />
+  <preExecuteTargets />
+  <methodTargets>
+    <methodTarget xsi:type="OrmMethodTargetSnippet" id="7defaf7b-0085-4c98-9bcb-60f4731266af" lastModifiedUtc="2016-02-17T22:05:42.3454191Z" targetType="Sage.BusinessRules.CodeSnippets.ContactBusinessRules, Sage.SnippetLibrary.CSharp" targetMethod="GetNeighborhoodStep" active="true" codeSnippetId="6463e950-f2d6-43aa-ba67-bba9b40b157b">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmMethodTargetSnippet" />
+      </ExtendedPropertiesCollection>
+    </methodTarget>
+  </methodTargets>
+  <postExecuteTargets />
+  <postFlushTargets />
+</method>

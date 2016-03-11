@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:fileTags="Translation Status.Support files" MadCap:tocPath="" MadCap:medium="non-print" MadCap:InPreviewMode="false" MadCap:PreloadImages="false" MadCap:RuntimeFileType="Topic" MadCap:TargetType="WebHelp" lang="en-us" xml:lang="en-us" MadCap:conditions="Output.WebClient,Output.Query Builder" class="" MadCap:PathToHelpSystem="../../" MadCap:HelpSystemFileName="WebClient.xml" MadCap:SearchType="Stem">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Tipi di Relazioni tra Tabelle</title>
+        <link href="../SkinSupport/Slideshow.css" rel="stylesheet" />
+        <link href="../SkinSupport/MadCap.css" rel="stylesheet" />
+        <link href="../Resources/TableStyles/TableStyle.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/Infor.CSS" rel="stylesheet" />
+        <script src="../SkinSupport/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapAll.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapTopicAll.js" type="text/javascript">
+        </script>
+    </head>
+    <body>
+        <h1><a name="kanchor697"></a>Tipi di Relazioni tra Tabelle</h1>
+        <table wrapperparagraphselector="P" style="margin-top: 14pt;border-spacing: 0px;border-spacing: 0px;" cellspacing="0">
+            <col />
+            <col />
+            <tr>
+                <td style="padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top">
+                    <p style="text-align: center;margin-bottom: 0;" align="center">
+                        <img src="../image/note.gif" />
+                    </p>
+                </td>
+                <td style="padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top">
+                    <ul style="list-style: disc;" type="disc">
+                        <li class="kadov-p-CBullets" value="1">La tabella principale determina la relazione tra tabelle. Per esempio, quando la tabella Contatto (CONTACT) è la tabella principale, si ha una relazione Uno a Uno con la tabella Azienda (ACCOUNT). Comunque, quando la tabella ACCOUNT è principale, la relazione è Uno a Molti. Nella colonna di esempio, i nomi delle tabelle principali sono in corsivo.</li>
+                        <li class="SLXNote" value="2">Non è possibile operare direttamente con tabelle che hanno una relazione Molti a Molti. Occorre utilizzare una tabella di collegamento, una tabella intermediaria il cui scopo è risolvere le relazioni Molti a Molti creando un collegamento tra le tabelle. Se si necessitano informazioni dalle tabelle USERINFO e Attività (ACTIVITY), utilizzare la tabella Utenti_Attività (USER_ACTIVITY) per accedere a queste tabelle. La tabella USER_ACTIVITY è una tabella di collegamento.</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+        <p style="font-weight: normal;">Per esprimere i tipi di relazione tra le tabelle, utilizzare questi termini:</p>
+        <table style="width: 90%;mc-table-style: url('../Resources/TableStyles/TableStyle.css');margin-left: 0;margin-right: auto;" class="TableStyle-TableStyle" cellspacing="0">
+            <thead>
+                <tr class="TableStyle-TableStyle-Head-Header1">
+                    <th class="TableStyle-TableStyle-HeadE-Column1-Header1">Termine</th>
+                    <th class="TableStyle-TableStyle-HeadE-Column1-Header1">Simbolo</th>
+                    <th class="TableStyle-TableStyle-HeadE-Column1-Header1">Descrizione</th>
+                    <th class="TableStyle-TableStyle-HeadD-Column1-Header1">Esempio</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Uno a Uno</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">
+                        <img src="../image/ONETOONE.GIF" alt="image\onetoone.gif" style="width: 78px;height: 13px;margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;border-style: none;border-style: none;" width="78" height="13" border="0" />
+                    </td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Ad ogni record in una tabella corrisponde uno e un solo record in un'altra.</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Un contatto è in relazione con solo un'azienda, quindi la relazione tra le tabelle <i>CONTACT</i> ed ACCOUNT è Uno a Uno.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Zero a Uno</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">
+                        <img src="../image/ZEROTOONE.GIF" alt="image\zerotoone.gif" style="width: 76px;height: 13px;margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;border-style: none;border-style: none;" width="76" height="13" border="0" />
+                    </td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Ad un singolo record in una tabella corrisponde uno o nessun record in un'altra. Si ha una relazione Zero a Uno dopo che una tabella è stata impostata con una relazione Uno a Uno con un'altra tabella che non ha alcun record.</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Un'attività può essere in relazione con nessuna opportunità. Se è in relazione con opportunità, lo è con una sola; quindi, la relazione tra le tabelle <i>Attività (ACTIVITY)</i> ed Opportunità (OPPORTUNITY) è Zero a Uno.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Uno a Molti</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">
+                        <img src="../image/ONETOMANY.GIF" alt="image\onetomany.gif" style="width: 77px;height: 15px;margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;border-style: none;border-style: none;" width="77" height="15" border="0" />
+                    </td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Ad un singolo record in una tabella corrispondono uno o più record in un'altra.</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Più di un contatto può essere associato ad un'azienda, ma ad un'azienda è sempre associato almeno un contatto; la relazione tra le tabelle <i>ACCOUNT</i> e CONTACT è Uno a Molti.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Zero a Molti</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">
+                        <img src="../image/ZEROTOMANY.GIF" alt="image\zerotomany.gif" style="width: 76px;height: 14px;margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;border-style: none;float: none;border-style: none;" width="76" height="14" border="0" />
+                    </td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Ad un singolo record in una tabella corrisponde uno, molti o nessun record in un'altra. Si ha una relazione Zero a Molti dopo che una tabella è stata impostata con una relazione Uno a Molti con un'altra tabella che non ha alcun record.</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Un contatto può avere zero o più attività, quindi la relazione tra le tabelle <i>CONTACT</i> ed ACTIVITY è Zero a Molti.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyB-Column1-Body1">Molti a Molti</td>
+                    <td class="TableStyle-TableStyle-BodyB-Column1-Body1">
+                        <img src="../image/Manytomany.gif" />
+                    </td>
+                    <td class="TableStyle-TableStyle-BodyB-Column1-Body1">A molti record in una tabella corrispondono più record in un'altra.</td>
+                    <td class="TableStyle-TableStyle-BodyA-Column1-Body1">Un utente può avere più attività, mentre ad un'attività possono corrispondere più utenti; perciò la relazione tra le tabelle <i>USERINFO</i> ed ACTIVITY è Molti a Molti. </td>
+                </tr>
+            </tbody>
+        </table>
+        <p class="RelatedTopics">Argomenti Correlati</p>
+        <p class="Topic-Text-Numbered"><a href="Joining_Tables.htm">Join di Tabelle</a>
+        </p>
+        <p class="Topic-Text-Numbered"><a href="Join_Example.htm">Esempio di Join</a>
+        </p>
+        <p class="Topic-Text-Numbered"><a href="ID_Fields_in_Tables.htm">Campi ID nelle Tabelle</a>
+        </p>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<SmartPartMapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="efb58f36-0b4d-4708-96ec-5c2073ebc6f7">
+  <SmartPartId>SDataListViewer</SmartPartId>
+  <ReferencedModelId>00000000-0000-0000-0000-000000000000</ReferencedModelId>
+  <SmartPart>SmartParts\General\SDataListViewer.ascx</SmartPart>
+  <TargetWorkspace>MainContent</TargetWorkspace>
+  <ShowInMode />
+  <Properties>
+    <Property Name="MainViewDefinition" TypeConverter="">Sage.MainView.JobManager</Property>
+    <Property Name="HelpTopicName" TypeConverter="">jobmgrlistview</Property>
+    <Property Name="ListContextMenu" TypeConverter="">JobManagerListContextMenu</Property>
+    <Property Name="DetailPaneVisibleOnLoad" TypeConverter="">True</Property>
+  </Properties>
+  <AllowRoles />
+</SmartPartMapping>

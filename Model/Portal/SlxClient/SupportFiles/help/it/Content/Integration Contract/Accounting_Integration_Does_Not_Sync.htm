@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:fileTags="Translation Status.Support files" MadCap:tocPath="" MadCap:medium="non-print" MadCap:InPreviewMode="false" MadCap:PreloadImages="false" MadCap:RuntimeFileType="Topic" MadCap:TargetType="WebHelp" lang="en-us" xml:lang="en-us" MadCap:conditions="Output.WebClient,Output.IntegrationContract" MadCap:PathToHelpSystem="../../" MadCap:HelpSystemFileName="WebClient.xml" MadCap:SearchType="Stem">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Risoluzione dei Problemi di Integrazione - le informazioni non si sincronizzano</title>
+        <link href="../SkinSupport/Slideshow.css" rel="stylesheet" />
+        <link href="../SkinSupport/MadCap.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/Infor.CSS" rel="stylesheet" />
+        <script src="../SkinSupport/jquery.min.js">
+        </script>
+        <script src="../SkinSupport/MadCapAll.js">
+        </script>
+        <script src="../SkinSupport/MadCapTopicAll.js">
+        </script>
+    </head>
+    <body>
+        <h1><a name="kanchor501"></a>Risoluzione dei Problemi di Integrazione - le informazioni non si sincronizzano</h1>
+        <p>E' possibile verificare il seguente problema durante la sincronizzazione di informazioni tra <span class="MyVariablesCompanyNameFull">Infor</span> e le integrazioni supportate.</p>
+        <p class="Infinitive">Problema:</p>
+        <p>Le informazioni di integrazione non si sincronizzano.</p>
+        <p class="Infinitive">Soluzioni:</p>
+        <ul>
+            <li value="1">Verificare che il valore del campo <span class="SLXBold">TICK</span> della tabella <span class="SLXBold">SYNCDIGEST</span> si stia incrementando. <a href="javascript:void(0);" onclick="FMCToggler( this ); return false;" class="MCToggler_0" MadCap:targets="TICK">Per saperne di più...<img style="border: none;margin-left: 5px;" src="../SkinSupport/DropDownClosed.gif" MadCap:altsrc="../SkinSupport/DropDownOpen.gif" onload="if ( typeof( FMCPreloadImage ) == 'function' ) { FMCPreloadImage( '../SkinSupport/DropDownOpen.gif' ); }" alt="Closed" MadCap:alt2="Open" class="MCTogglerIcon" /></a><ol style="list-style-type: lower-alpha; display: none;" MadCap:targetName="TICK"><li value="1">Aprire la tabella <span class="SLXBold">SYNCDIGEST</span> nel database.</li><li value="2">Localizzare il campo <span class="SLXBold">APPID</span> della risorsa appropriata e annotare il valore del campo TICK.</li><li value="3">Dopo la prossima sincronizzazione verificare che questo valore sia incrementato.</li></ol></li>
+            <li value="2">Abilitare il logging aggiuntivo in ContractSyncTrigger. <a href="javascript:void(0);" onclick="FMCToggler( this ); return false;" class="MCToggler_0" MadCap:targets="Trigger">Per saperne di più...<img style="border: none;margin-left: 5px;" src="../SkinSupport/DropDownClosed.gif" MadCap:altsrc="../SkinSupport/DropDownOpen.gif" onload="if ( typeof( FMCPreloadImage ) == 'function' ) { FMCPreloadImage( '../SkinSupport/DropDownOpen.gif' ); }" alt="Closed" MadCap:alt2="Open" class="MCTogglerIcon" /></a><ol MadCap:targetName="Trigger" style="list-style-type: lower-alpha; display: none;"><li value="1">Aprire l'editor del registro di sistema ed accertarsi che esista la chiave <span class="SLXBold">HKEY_CURRENT_USER\Software\SalesLogix\Logging</span>. Se non è presente, crearne una nuova con il nome <span class="SLXBold">Logging</span>.</li><li value="2">Aggiungere un valore di stringa di registro di nome <span class="SLXBold">Debug</span>.</li></ol></li>
+            <li value="3">Visualizzare i registri degli errori, degli avvisi o i messagi di debug. <a href="javascript:void(0);" onclick="FMCToggler( this ); return false;" class="MCToggler_0" MadCap:targets="log items tab">Per saperne di più...<img style="border: none;margin-left: 5px;" src="../SkinSupport/DropDownClosed.gif" MadCap:altsrc="../SkinSupport/DropDownOpen.gif" onload="if ( typeof( FMCPreloadImage ) == 'function' ) { FMCPreloadImage( '../SkinSupport/DropDownOpen.gif' ); }" alt="Closed" MadCap:alt2="Open" class="MCTogglerIcon" /></a><ul MadCap:targetName="log items tab" style="display: none;"><li value="1">Nella <a href="../Integrations/Sync_Job_Detail_View.htm">Vista Dettaglio Sync Job</a> aprire la <a href="../Integrations/Log_Items_Tab.htm">scheda Elementi Log</a> e filtrare per <span class="SLXBold">Tipo di Log</span> per visualizzare errori, avvisi o messaggi di debug.</li></ul></li>
+            <li value="4">Utilizzare la <a href="../Integrations/SyncResultsDetailView.htm">Vista Dettaglio Risultati Sincronizzazione</a> per esaminare le informazioni su un elemento dell'operazione di sincronizzazione.</li>
+        </ul>
+        <p class="RelatedTopics">Argomenti Correlati</p>
+        <p MadCap:conditions="Output.WebClient"><a href="../Common/slxtroubleshooting.htm" target="_self">Risoluzione di Problemi Comuni</a>
+        </p>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

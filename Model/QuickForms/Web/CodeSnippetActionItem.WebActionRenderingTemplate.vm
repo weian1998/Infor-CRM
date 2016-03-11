@@ -1,0 +1,7 @@
+Sage.Platform.DynamicMethod.DynamicMethodLibrary lib = Sage.Platform.Orm.DynamicMethodLibraryHelper.Instance;
+var methodArgs = new object[] { FormAdapter, e };
+lib.Execute("$action.Method.ToString()", methodArgs);
+#set ($refreshData = $generator.getControlRefreshData($qfcontrol))
+#if ($refreshData ==  true)
+  RefreshPart();
+#end

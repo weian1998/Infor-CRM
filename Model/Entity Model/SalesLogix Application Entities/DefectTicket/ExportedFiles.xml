@@ -1,0 +1,11 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\DefectTicket\DefectTicket.DEFECTTICKET.entity.xml" timeStamp="2015-05-28T03:04:09.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\DefectTicket\OnAfterDelete.method.xml" timeStamp="2015-05-28T03:04:09.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\DefectTicket\OnAfterInsert.method.xml" timeStamp="2015-05-28T03:04:09.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\DefectTicket\OnAfterUpdate.method.xml" timeStamp="2015-05-28T03:04:09.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\DefectTicket\OnBeforeDelete.method.xml" timeStamp="2015-05-28T03:04:09.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\DefectTicket\OnBeforeInsert.method.xml" timeStamp="2015-05-28T03:04:09.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\DefectTicket\OnBeforeUpdate.method.xml" timeStamp="2015-05-28T03:04:09.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\DefectTicket\OnCreate.method.xml" timeStamp="2015-05-28T03:04:09.0000" />
+</exportedFiles>

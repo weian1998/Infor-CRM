@@ -1,0 +1,15 @@
+{
+    "--title": "Infor CRM",
+    "--footer": "Infor CRM",
+    "--categories": "docs-categories.json",
+    "--guides": "docs-guides.json",
+    "--warnings": ["-all"],
+    "--ignore-global": true,
+    "--builtin-classes": true,
+    "-o": "../docs-output",
+    "--images": "images",
+    "--": [
+        "../../../../../Platform/Client/Web/Libraries/Simplate.js",
+        "../Sage"
+    ]
+}

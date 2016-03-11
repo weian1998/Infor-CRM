@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<MenuDropDownItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="3ddbbf3f-198a-45b2-b65a-ea1cab56f122">
+  <ItemId>mnuSchedulesListDeleteSchedule</ItemId>
+  <NavUrl>javascript:Sage.MainView.ReportMgr.ReportManagerActions.deleteSchedule();</NavUrl>
+  <LargeImageUrl />
+  <SmallImageUrl />
+  <ContextMenuId />
+  <Target />
+  <AppliedSecurity>Entities/ReportManager/DeleteSchedule</AppliedSecurity>
+</MenuDropDownItem>

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Contract\Account.filter.xml" timeStamp="2015-05-28T03:04:05.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Contract\AddContractCommentsTimeStamp.method.xml" timeStamp="2015-05-28T03:04:05.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Contract\Contract.CONTRACT.entity.xml" timeStamp="2015-05-28T03:04:05.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Contract\ContractAmountTotal.filter.xml" timeStamp="2015-05-28T03:04:05.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Contract\ContractCount.filter.xml" timeStamp="2015-05-28T03:04:05.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Contract\CopyContract.method.xml" timeStamp="2015-05-28T03:04:05.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Contract\GetDuplicateContracts.method.xml" timeStamp="2015-05-28T03:04:05.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Contract\GetTicketActivities.method.xml" timeStamp="2015-05-28T03:04:05.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Contract\IsActive.filter.xml" timeStamp="2015-05-28T03:04:05.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Contract\IsDuplicateContracts.method.xml" timeStamp="2015-05-28T03:04:05.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Contract\OnAccountChanged.method.xml" timeStamp="2015-05-28T03:04:05.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Contract\OnAfterDelete.method.xml" timeStamp="2015-05-28T03:04:05.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Contract\OnAfterInsert.method.xml" timeStamp="2015-05-28T03:04:05.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Contract\OnAfterUpdate.method.xml" timeStamp="2015-05-28T03:04:05.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Contract\OnAmountChanged.method.xml" timeStamp="2015-05-28T03:04:05.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Contract\OnBeforeDelete.method.xml" timeStamp="2015-05-28T03:04:06.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Contract\OnBeforeInsert.method.xml" timeStamp="2015-05-28T03:04:05.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Contract\OnBeforeUpdate.method.xml" timeStamp="2015-05-28T03:04:05.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Contract\OnContactChanged.method.xml" timeStamp="2015-05-28T03:04:06.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Contract\OnContractTypeChanged.method.xml" timeStamp="2015-05-28T03:04:06.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Contract\OnCreate.method.xml" timeStamp="2015-05-28T03:04:06.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Contract\OnDiscountChanged.method.xml" timeStamp="2015-05-28T03:04:06.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Contract\OnEndingDateChanged.method.xml" timeStamp="2015-05-28T03:04:06.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Contract\OnFirstTicketChanged.method.xml" timeStamp="2015-05-28T03:04:06.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Contract\OnListPriceChanged.method.xml" timeStamp="2015-05-28T03:04:06.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Contract\OnQuantityChanged.method.xml" timeStamp="2015-05-28T03:04:06.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Contract\OnStartDateChanged.method.xml" timeStamp="2015-05-28T03:04:06.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Contract\Period.filter.xml" timeStamp="2015-05-28T03:04:06.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Contract\ReferenceNumber.filter.xml" timeStamp="2015-05-28T03:04:06.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Contract\Remaining.filter.xml" timeStamp="2015-05-28T03:04:06.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Contract\ServiceCode.filter.xml" timeStamp="2015-05-28T03:04:06.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Contract\TimeRemainingOnContract.filter.xml" timeStamp="2015-05-28T03:04:06.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Contract\Type.filter.xml" timeStamp="2015-05-28T03:04:06.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Contract\UpdateQuantityRemaining.method.xml" timeStamp="2015-05-28T03:04:06.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Contract\UpdateRemainingDays.method.xml" timeStamp="2015-05-28T03:04:06.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Contract\QuickForms\" />
+</exportedFiles>

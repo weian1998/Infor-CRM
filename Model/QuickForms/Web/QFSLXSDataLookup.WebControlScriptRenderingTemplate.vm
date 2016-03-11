@@ -1,0 +1,107 @@
+#set($stringObjectName = "${pagegenerator.FormName}${qfcontrol.ControlId}_Strings")
+
+#macro(doHideCondition $col)
+	#if($col.HideCondition != "")
+	    //Set to the value of the visibleCondition property
+	    hidden: ${col.HideCondition}(),
+	#end
+#end
+{
+  id : '${qfcontrol.ControlId}',
+  btnToolTip :  ${stringObjectName}['$generator.ConvertResourceKeyToScriptReference("${qfcontrol.ControlId}.ButtonTooltip")']  ||  '${qfcontrol.ButtonTooltip}', 
+  btnIcon: #if ($qfcontrol.LookupImage != "") '$generator.getImageResourceURL( "${qfcontrol.LookupImage}" )'  #else  'images/icons/plus_16x16.gif'   #end,
+  dialogButtonText : ${stringObjectName}['$generator.ConvertResourceKeyToScriptReference("${qfcontrol.ControlId}.DialogButtonText")']  ||  '${qfcontrol.DialogButtonText}', 
+  displayMode : 4, //$ {qf control . LookupDisplayMode}  When adding other dijit templates, need to convert control to use enum values
+  dialogTitle : ${stringObjectName}['$generator.ConvertResourceKeyToScriptReference("${qfcontrol.ControlId}.LookupDialogTitle")']  ||  '${qfcontrol.LookupDialogTitle}',
+  #if ($qfcontrol.LookupDialogHeight > 0) dialogHeight : '${qfcontrol.LookupDialogHeight}',  #end
+  #if ($qfcontrol.LookupDialogWidth > 0) dialogWidth : '${qfcontrol.LookupDialogWidth}', #end
+  structure : [
+     {
+       defaultCell: { width: 8, editable: false, styles: 'text-align: left;' },
+       cells: [
+	       {
+        field: '$key',
+        editable: false,
+        hidden: true,
+        id: 'id',
+		excludeFromFilters: true,
+        formatter: function (value, rowIdx, grid) {
+            var anchor = ['<div id=', value, ' >', value, '</ div>'].join('');
+		return anchor;
+        }
+    },
+#set($comma = "")
+#set($cols = $qfcontrol.LookupProperties.Count - 1)
+#set($width = 36)
+#if($cols > 1) 
+	#set($width = 36 / $cols )
+#end
+#if($width < 8) #set($width = 8) #end
+#foreach($lprop in $qfcontrol.LookupProperties)
+         $comma
+		 {
+		   name: ${stringObjectName}['$generator.ConvertResourceKeyToScriptReference("${qfcontrol.ControlId}.LookupProperties.${lprop.PropertyName}.PropertyHeader")']  || '$lprop.PropertyHeader',
+		   field: '$lprop.PropertyName',
+		   propertyType: '$lprop.PropertyType',
+		   #if($lprop.PropertyType == "System.Decimal")
+				styles: 'text-align: left;', 
+		   #end
+		#if ($lprop.PropertyFormat != "" && $lprop.PropertyFormat != "None")
+		   type: Sage.Utility.SDataLookup.setFormatType({
+		             propertyFormat: '${lprop.PropertyFormat}'
+		        }),
+		#end
+		   excludeFromFilters: $generator.GetJavascriptBoolString($lprop.ExcludeFromFilters),		   
+		   #if($lprop.HideCondition != "")
+		       //Set to the value of the visibleCondition property
+			   hidden: ${lprop.HideCondition}(),
+	       #end
+#if($comma != ",")
+		   width: 17,
+#else
+		   width: $width,
+#end
+#if ($qfcontrol.ChildEntity != "")
+		   formatter: function (value, rowIdx, grid) {
+				return Sage.Utility.SDataLookup.childObjectFormatter({
+					value: value, rowIdx: rowIdx, grid: grid,
+					fieldName: '$lprop.PropertyName', 
+	## Add button only on first item to restrict child Entity tree expansion to the first level.  
+	#if($comma != ",")
+					includeButton: true, 
+	#else
+					includeButton: false, 
+	#end
+					childentity: '${qfcontrol.ChildEntity}'
+		        });
+		   },
+#end
+		   sortable: $generator.GetJavascriptBoolString($lprop.IsSortable)
+         }
+#set($comma = ",")
+#end
+       ] ## end of cells array.
+     }  ## end of the object in the 'structure' array
+  ], ## end of 'structure' array
+  storeOptions: {
+      ## Pick up the first lookup prop as default sort column
+      sort: [ { attribute: '${qfcontrol.LookupProperties.get_Item(0).PropertyName}' } ],    
+    resourceKind : '$generator.GetSDataPathName(${qfcontrol.LookupResourceName})',
+	select : ${qfcontrol.LookupSelectList}
+  },
+  gridOptions: {
+	#if($qfcontrol.ConditionalShow != "")
+        contextualShow: ${qfcontrol.ConditionalShow},
+	#end	  
+	#if($qfcontrol.ConditionalWhere != "")
+        contextualCondition: ${qfcontrol.ConditionalWhere},
+	#end
+    selectionMode : '${qfcontrol.LookupSelectionMode}',
+    rowsPerPage : 15
+  }
+#if($qfcontrol.OnSelection != "")
+  ,
+  doSelected : ${qfcontrol.OnSelection}
+#end
+
+} // end of sdata lookup config object

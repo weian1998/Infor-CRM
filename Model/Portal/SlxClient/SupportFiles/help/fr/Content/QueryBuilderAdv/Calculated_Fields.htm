@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:fileTags="Translation Status.Support files" xml:lang="fr" MadCap:tocPath="Utilisation de Query Builder|Utilisation des champs calculés" MadCap:medium="non-print" MadCap:InPreviewMode="false" MadCap:PreloadImages="false" MadCap:RuntimeFileType="Topic" MadCap:TargetType="WebHelp" lang="fr" MadCap:conditions="Output.WebClient,Output.Query Builder" class="" MadCap:PathToHelpSystem="../../" MadCap:HelpSystemFileName="WebClient.xml" MadCap:SearchType="Stem">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Utilisation des champs calculés</title>
+        <link href="../SkinSupport/Slideshow.css" rel="stylesheet" />
+        <link href="../SkinSupport/MadCap.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/Infor.CSS" rel="stylesheet" />
+        <script src="../SkinSupport/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapAll.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapTopicAll.js" type="text/javascript">
+        </script>
+    </head>
+    <body>
+        <h1><a name="kanchor250"></a>Utilisation des champs calculés</h1>
+        <table wrapperparagraphselector="P" style="margin-top: 14pt;border-spacing: 0px;border-spacing: 0px;" cellspacing="0">
+            <col />
+            <col />
+            <tr>
+                <td style="padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" valign="top">
+                    <table wrapperparagraphselector="P" style="margin-top: 14pt;width: 98%;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" width="98%">
+                        <col style="width: 43px;" />
+                        <col style="width: 410px;" />
+                        <tr>
+                            <td style="padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top">
+                                <p style="text-align: center;margin-bottom: 0;" align="center">
+                                    <img src="../image/adminonly.gif" />
+                                </p>
+                            </td>
+                            <td style="padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top"><span class="SLXBold">Administrateur système uniquement</span>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <td style="padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" valign="middle">
+                    <p style="margin-top: 0.0;margin-bottom: 0;">&#160;</p>
+                </td>
+            </tr>
+        </table>
+        <p>Un champ calculé est dynamique et comporte au moins deux champs de la base de données. Les champs utilisés pour créer un champ calculé proviennent d'une table ou de plusieurs tables <a href="Joining_Tables.htm">liées</a>. Les valeurs qui apparaissent pour un champ calculé sont actualisées après toute modification des champs qui comprennent ces valeurs. Un champ calculé peut réaliser des opérations mathématiques ou générer des chaînes concaténées, en fonction du <a href="Calculation_Type.htm" target="_self">type de calcul</a>.</p>
+        <p><span class="MyVariablesProduct Name">Infor CRM</span> comprend un ensemble de champs calculés prédéfinis.Vous pouvez également en créer de nouveaux.</p>
+        <p class="Infinitive">Exemples</p>
+        <ul>
+            <li class="Bullets" value="1">Calcul numérique : Opportunity.Salespotential * Opportunity.Closeprobability / 100. Le chiffre des ventes pondérées résultant sera 100 si le potentiel des ventes est de 200 et la probabilité de clôture de 50&#160;%. (Le champ Probabilité de clôture reflète un nombre entier et non un pourcentage&#160;; il doit donc être divisé par 100.)</li>
+            <li class="Bullets" value="2">Calcul de chaînes&#160;: Contact.Lastname, Contact.Firstname. Un contact appelé Pierre Dubois s'affichera "Dubois, Pierre" dans la valeur du champ calculé.</li>
+        </ul>
+        <p class="RelatedTopics">Rubriques connexes</p>
+        <p><a href="Add_Edit_a_Calculated_Field.htm">Ajout ou modification de champs calculés</a>
+        </p>
+        <p><a href="Delete_a_Calculated_Field.htm">Suppression des champs calculés</a>
+        </p>
+        <div style="width: 100%;position: relative;">
+            <p>&#160;</p>
+        </div>
+        <p>&#160;</p>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

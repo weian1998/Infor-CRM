@@ -1,0 +1,58 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojo\cldr\nls\buddhist.js" timeStamp="2015-05-28T03:49:33.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojo\cldr\nls\chinese.js" timeStamp="2015-05-28T03:49:35.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojo\cldr\nls\coptic.js" timeStamp="2015-05-28T03:49:35.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojo\cldr\nls\currency.js" timeStamp="2015-05-28T03:49:36.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojo\cldr\nls\dangi.js" timeStamp="2015-05-28T03:49:36.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojo\cldr\nls\ethiopic-amete-alem.js" timeStamp="2015-05-28T03:49:40.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojo\cldr\nls\ethiopic.js" timeStamp="2015-05-28T03:49:40.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojo\cldr\nls\generic.js" timeStamp="2015-05-28T03:49:41.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojo\cldr\nls\gregorian.js" timeStamp="2015-05-28T03:49:41.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojo\cldr\nls\hebrew.js" timeStamp="2015-05-28T03:49:42.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojo\cldr\nls\indian.js" timeStamp="2015-05-28T03:49:42.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojo\cldr\nls\islamic-civil.js" timeStamp="2015-05-28T03:49:42.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojo\cldr\nls\islamic-rgsa.js" timeStamp="2015-05-28T03:49:42.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojo\cldr\nls\islamic-tbla.js" timeStamp="2015-05-28T03:49:42.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojo\cldr\nls\islamic-umalqura.js" timeStamp="2015-05-28T03:49:43.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojo\cldr\nls\islamic.js" timeStamp="2015-05-28T03:49:43.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojo\cldr\nls\japanese.js" timeStamp="2015-05-28T03:49:44.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojo\cldr\nls\number.js" timeStamp="2015-05-28T03:49:46.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojo\cldr\nls\persian.js" timeStamp="2015-05-28T03:49:47.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojo\cldr\nls\roc.js" timeStamp="2015-05-28T03:49:49.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojo\cldr\nls\ar\" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojo\cldr\nls\ca\" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojo\cldr\nls\cs\" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojo\cldr\nls\da\" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojo\cldr\nls\de\" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojo\cldr\nls\el\" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojo\cldr\nls\en\" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojo\cldr\nls\en-au\" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojo\cldr\nls\en-ca\" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojo\cldr\nls\en-gb\" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojo\cldr\nls\es\" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojo\cldr\nls\fi\" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojo\cldr\nls\fr\" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojo\cldr\nls\fr-ch\" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojo\cldr\nls\he\" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojo\cldr\nls\hu\" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojo\cldr\nls\it\" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojo\cldr\nls\ja\" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojo\cldr\nls\ko\" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojo\cldr\nls\nb\" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojo\cldr\nls\nl\" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojo\cldr\nls\pl\" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojo\cldr\nls\pt\" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojo\cldr\nls\pt-pt\" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojo\cldr\nls\ro\" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojo\cldr\nls\ru\" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojo\cldr\nls\sk\" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojo\cldr\nls\sl\" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojo\cldr\nls\sv\" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojo\cldr\nls\th\" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojo\cldr\nls\tr\" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojo\cldr\nls\zh\" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojo\cldr\nls\zh-hant\" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojo\cldr\nls\zh-hk\" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojo\cldr\nls\zh-tw\" />
+</exportedFiles>

@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<SchedulerJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="0f0c61bd-b223-42bf-9804-2f0a316c5e8b">
+  <InstanceId>68ad605945b14e51964303af6b4d5494</InstanceId>
+  <TypeName>Sage.Platform.DynamicMethod.DynamicMethodJob, Sage.Platform</TypeName>
+</SchedulerJob>

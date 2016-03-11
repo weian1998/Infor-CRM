@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<SchedulerJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="f59d29e0-8c17-4e1c-8cbb-ae5e37a5ab2e">
+  <InstanceId>4de6aa92848846e5ba63da49f69c81ee</InstanceId>
+  <TypeName>Sage.SalesLogix.BusinessRules.Jobs.UpdateEntityJob, Sage.SalesLogix.BusinessRules</TypeName>
+</SchedulerJob>

@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:fileTags="Translation Status.Support files" xml:lang="fr" MadCap:tocPath="" MadCap:medium="non-print" MadCap:InPreviewMode="false" MadCap:PreloadImages="false" MadCap:RuntimeFileType="Topic" MadCap:TargetType="WebHelp" lang="fr" MadCap:conditions="Output.WebClient,Output.Query Builder" class="" MadCap:PathToHelpSystem="../../" MadCap:HelpSystemFileName="WebClient.xml" MadCap:SearchType="Stem">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Connecteurs d'instruction de Query Builder</title>
+        <link href="../SkinSupport/Slideshow.css" rel="stylesheet" />
+        <link href="../SkinSupport/MadCap.css" rel="stylesheet" />
+        <link href="../Resources/TableStyles/TableStyle.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/Infor.CSS" rel="stylesheet" />
+        <script src="../SkinSupport/jquery.min.js">
+        </script>
+        <script src="../SkinSupport/MadCapAll.js">
+        </script>
+        <script src="../SkinSupport/MadCapTopicAll.js">
+        </script>
+    </head>
+    <body>
+        <h1><a name="kanchor676"></a>Connecteurs d'instruction de Query Builder</h1>
+        <p>Les connecteurs indiquent la fin d'une instruction conditionnelle et servent à interpréter des instructions conditionnelles multiples.</p>
+        <table style="width: 90%;mc-table-style: url('../Resources/TableStyles/TableStyle.css');margin-left: 0;margin-right: auto;" class="TableStyle-TableStyle" cellspacing="0">
+            <thead>
+                <tr class="TableStyle-TableStyle-Head-Header1">
+                    <th class="TableStyle-TableStyle-HeadE-Column1-Header1">...Connecteur</th>
+                    <th class="TableStyle-TableStyle-HeadD-Column1-Header1">...Utiliser</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">END</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">A la fin de la dernière instruction conditionnelle.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">AND</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Si vous utilisez plusieurs instructions conditionnelles et souhaitez sélectionner l'enregistrement uniquement s'il répond aux conditions des deux instructions.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyB-Column1-Body1">OR</td>
+                    <td class="TableStyle-TableStyle-BodyA-Column1-Body1">Si vous utilisez plusieurs instructions conditionnelles et souhaitez sélectionner l'enregistrement s'il répond à l'une ou l'autre condition de l'une ou l'autre instruction.</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>Lorsque vous ajoutez la première instruction conditionnelle à la grille, Query Builder insère automatiquement END en tant que connecteur. Au fur et à mesure que vous ajoutez des instructions conditionnelles, AND est inséré dans l'instruction précédente et END renvoyé à la dernière. <MadCap:conditionalText MadCap:conditions="Output.WebClient">Pour modifier le connecteur, cliquez sur la flèche du menu déroulant et sélectionnez une option de la liste. </MadCap:conditionalText> La dernière instruction conditionnelle doit porter END en tant que connecteur.</p>
+        <p><a href="javascript:void(0);" onclick="FMCToggler( this ); return false;" class="MCToggler_0" MadCap:targets="t4">Exemple 1 : utilisation de «&#160;AND&#160;» en tant que connecteur d'instruction<img style="border: none;margin-left: 5px;" src="../SkinSupport/DropDownClosed.gif" MadCap:altsrc="../SkinSupport/DropDownOpen.gif" onload="if ( typeof( FMCPreloadImage ) == 'function' ) { FMCPreloadImage( '../SkinSupport/DropDownOpen.gif' ); }" alt="Closed" MadCap:alt2="Open" class="MCTogglerIcon" /></a>
+        </p>
+        <div MadCap:targetName="t4" style="display: none;">
+            <p>Query Builder sélectionnera l'enregistrement si l'état du contact est actif <span class="SLXBold">ET</span> si les revenus du compte sont supérieurs ou égaux à 10&#160;000&#160;dollars.</p>
+            <p>Voici comment la grille de l'onglet Conditions apparaîtra selon cet exemple&#160;:</p>
+            <table style="width: 90%;mc-table-style: url('../Resources/TableStyles/TableStyle.css');margin-left: 0;margin-right: auto;" class="TableStyle-TableStyle" cellspacing="0">
+                <col class="TableStyle-TableStyle-Column-Column1" />
+                <col style="width: 32px;" class="TableStyle-TableStyle-Column-Column1" />
+                <col style="width: 145px;" class="TableStyle-TableStyle-Column-Column1" />
+                <col class="TableStyle-TableStyle-Column-Column1" />
+                <col style="width: 50px;" class="TableStyle-TableStyle-Column-Column1" />
+                <col class="TableStyle-TableStyle-Column-Column1" />
+                <col class="TableStyle-TableStyle-Column-Column1" />
+                <col class="TableStyle-TableStyle-Column-Column1" />
+                <thead>
+                    <tr class="TableStyle-TableStyle-Head-Header1">
+                        <th class="TableStyle-TableStyle-HeadE-Column1-Header1">Non</th>
+                        <th class="TableStyle-TableStyle-HeadE-Column1-Header1">(</th>
+                        <th class="TableStyle-TableStyle-HeadE-Column1-Header1">Champ</th>
+                        <th class="TableStyle-TableStyle-HeadE-Column1-Header1">Opérateur</th>
+                        <th class="TableStyle-TableStyle-HeadE-Column1-Header1">Valeur</th>
+                        <th class="TableStyle-TableStyle-HeadE-Column1-Header1">Respecter la casse</th>
+                        <th class="TableStyle-TableStyle-HeadE-Column1-Header1">)</th>
+                        <th class="TableStyle-TableStyle-HeadD-Column1-Header1">Et/ou</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="TableStyle-TableStyle-Body-Body1">
+                        <td class="TableStyle-TableStyle-BodyE-Column1-Body1">&#160;</td>
+                        <td class="TableStyle-TableStyle-BodyE-Column1-Body1">&#160;</td>
+                        <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Contact.Status</td>
+                        <td class="TableStyle-TableStyle-BodyE-Column1-Body1">égal à</td>
+                        <td class="TableStyle-TableStyle-BodyE-Column1-Body1">actif</td>
+                        <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Faux</td>
+                        <td class="TableStyle-TableStyle-BodyE-Column1-Body1">&#160;</td>
+                        <td class="TableStyle-TableStyle-BodyD-Column1-Body1">AND</td>
+                    </tr>
+                    <tr class="TableStyle-TableStyle-Body-Body1">
+                        <td class="TableStyle-TableStyle-BodyB-Column1-Body1">&#160;</td>
+                        <td class="TableStyle-TableStyle-BodyB-Column1-Body1">&#160;</td>
+                        <td class="TableStyle-TableStyle-BodyB-Column1-Body1">Contact.Account.Revenue</td>
+                        <td class="TableStyle-TableStyle-BodyB-Column1-Body1">égal ou supérieur à</td>
+                        <td class="TableStyle-TableStyle-BodyB-Column1-Body1">10&#160;000</td>
+                        <td class="TableStyle-TableStyle-BodyB-Column1-Body1">Vrai</td>
+                        <td class="TableStyle-TableStyle-BodyB-Column1-Body1">&#160;</td>
+                        <td class="TableStyle-TableStyle-BodyA-Column1-Body1">END</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <p><a href="javascript:void(0);" onclick="FMCToggler( this ); return false;" class="MCToggler_0" MadCap:targets="t3">Exemple 2 : utilisation de Contact.Status «&#160;OR&#160;» en tant que connecteur d'instruction<img style="border: none;margin-left: 5px;" src="../SkinSupport/DropDownClosed.gif" MadCap:altsrc="../SkinSupport/DropDownOpen.gif" onload="if ( typeof( FMCPreloadImage ) == 'function' ) { FMCPreloadImage( '../SkinSupport/DropDownOpen.gif' ); }" alt="Closed" MadCap:alt2="Open" class="MCTogglerIcon" /></a>
+        </p>
+        <div MadCap:targetName="t3" style="display: none;">
+            <p>Query Builder sélectionnera l'enregistrement si l'état du contact est actif <span class="SLXBold">OU</span> si les revenus du compte sont supérieurs ou égaux à 10&#160;000&#160;dollars.</p>
+            <p class="Tip-Note-Text">Voici comment la grille de l'onglet Conditions apparaîtra selon cet exemple&#160;:</p>
+            <table style="width: 90%;mc-table-style: url('../Resources/TableStyles/TableStyle.css');margin-left: 0;margin-right: auto;" class="TableStyle-TableStyle" cellspacing="0">
+                <col class="TableStyle-TableStyle-Column-Column1" />
+                <col style="width: 32px;" class="TableStyle-TableStyle-Column-Column1" />
+                <col style="width: 145px;" class="TableStyle-TableStyle-Column-Column1" />
+                <col class="TableStyle-TableStyle-Column-Column1" />
+                <col style="width: 50px;" class="TableStyle-TableStyle-Column-Column1" />
+                <col class="TableStyle-TableStyle-Column-Column1" />
+                <col class="TableStyle-TableStyle-Column-Column1" />
+                <col style="width: 66px;" class="TableStyle-TableStyle-Column-Column1" />
+                <thead>
+                    <tr class="TableStyle-TableStyle-Head-Header1">
+                        <th class="TableStyle-TableStyle-HeadE-Column1-Header1">Non</th>
+                        <th class="TableStyle-TableStyle-HeadE-Column1-Header1">(</th>
+                        <th class="TableStyle-TableStyle-HeadE-Column1-Header1">Champ</th>
+                        <th class="TableStyle-TableStyle-HeadE-Column1-Header1">Opérateur</th>
+                        <th class="TableStyle-TableStyle-HeadE-Column1-Header1">Valeur</th>
+                        <th class="TableStyle-TableStyle-HeadE-Column1-Header1">Respecter la casse</th>
+                        <th class="TableStyle-TableStyle-HeadE-Column1-Header1">)</th>
+                        <th class="TableStyle-TableStyle-HeadD-Column1-Header1">Et/ou</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="TableStyle-TableStyle-Body-Body1">
+                        <td class="TableStyle-TableStyle-BodyE-Column1-Body1">&#160;</td>
+                        <td class="TableStyle-TableStyle-BodyE-Column1-Body1">&#160;</td>
+                        <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Contact.Status</td>
+                        <td class="TableStyle-TableStyle-BodyE-Column1-Body1">égal à</td>
+                        <td class="TableStyle-TableStyle-BodyE-Column1-Body1">actif</td>
+                        <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Faux</td>
+                        <td class="TableStyle-TableStyle-BodyE-Column1-Body1">&#160;</td>
+                        <td class="TableStyle-TableStyle-BodyD-Column1-Body1">OR</td>
+                    </tr>
+                    <tr class="TableStyle-TableStyle-Body-Body1">
+                        <td class="TableStyle-TableStyle-BodyB-Column1-Body1">&#160;</td>
+                        <td class="TableStyle-TableStyle-BodyB-Column1-Body1">&#160;</td>
+                        <td class="TableStyle-TableStyle-BodyB-Column1-Body1">Contact.Account.Revenue</td>
+                        <td class="TableStyle-TableStyle-BodyB-Column1-Body1">égal ou supérieur à</td>
+                        <td class="TableStyle-TableStyle-BodyB-Column1-Body1">10&#160;000</td>
+                        <td class="TableStyle-TableStyle-BodyB-Column1-Body1">Vrai</td>
+                        <td class="TableStyle-TableStyle-BodyB-Column1-Body1">&#160;</td>
+                        <td class="TableStyle-TableStyle-BodyA-Column1-Body1">END</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <p><a href="javascript:void(0);" onclick="FMCToggler( this ); return false;" class="MCToggler_0" MadCap:targets="t2">Exemple 3 : utilisation de plusieurs instructions conditionnelles entre parenthèses<img style="border: none;margin-left: 5px;" src="../SkinSupport/DropDownClosed.gif" MadCap:altsrc="../SkinSupport/DropDownOpen.gif" onload="if ( typeof( FMCPreloadImage ) == 'function' ) { FMCPreloadImage( '../SkinSupport/DropDownOpen.gif' ); }" alt="Closed" MadCap:alt2="Open" class="MCTogglerIcon" /></a>
+        </p>
+        <div MadCap:targetName="t2" style="display: none;">
+            <p>Query Builder sélectionnera l'enregistrement si l'état du contact est actif <span class="SLXBold">ET</span> si les revenus du compte sont supérieurs ou égaux à 10&#160;000&#160;dollars. L'enregistrement sera <span class="SLXBold">également</span> sélectionné si l'état du contact est actif <span class="SLXBold">ET</span> que le revenu soit inférieur ou égal à 500&#160;dollars.</p>
+            <p class="Tip-Note-Text">Voici comment la grille de l'onglet Conditions apparaîtra selon cet exemple&#160;:</p>
+            <table style="width: 90%;mc-table-style: url('../Resources/TableStyles/TableStyle.css');margin-left: 0;margin-right: auto;" class="TableStyle-TableStyle" cellspacing="0">
+                <col class="TableStyle-TableStyle-Column-Column1" />
+                <col style="width: 32px;" class="TableStyle-TableStyle-Column-Column1" />
+                <col style="width: 145px;" class="TableStyle-TableStyle-Column-Column1" />
+                <col class="TableStyle-TableStyle-Column-Column1" />
+                <col style="width: 50px;" class="TableStyle-TableStyle-Column-Column1" />
+                <col class="TableStyle-TableStyle-Column-Column1" />
+                <col class="TableStyle-TableStyle-Column-Column1" />
+                <col style="width: 66px;" class="TableStyle-TableStyle-Column-Column1" />
+                <thead>
+                    <tr class="TableStyle-TableStyle-Head-Header1">
+                        <th class="TableStyle-TableStyle-HeadE-Column1-Header1">Non</th>
+                        <th class="TableStyle-TableStyle-HeadE-Column1-Header1">(</th>
+                        <th class="TableStyle-TableStyle-HeadE-Column1-Header1">Champ</th>
+                        <th class="TableStyle-TableStyle-HeadE-Column1-Header1">Opérateur</th>
+                        <th class="TableStyle-TableStyle-HeadE-Column1-Header1">Valeur</th>
+                        <th class="TableStyle-TableStyle-HeadE-Column1-Header1">Respecter la casse</th>
+                        <th class="TableStyle-TableStyle-HeadE-Column1-Header1">)</th>
+                        <th class="TableStyle-TableStyle-HeadD-Column1-Header1">Et/ou</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="TableStyle-TableStyle-Body-Body1">
+                        <td class="TableStyle-TableStyle-BodyE-Column1-Body1">&#160;</td>
+                        <td class="TableStyle-TableStyle-BodyE-Column1-Body1">&#160;</td>
+                        <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Contact.Status</td>
+                        <td class="TableStyle-TableStyle-BodyE-Column1-Body1">égal à</td>
+                        <td class="TableStyle-TableStyle-BodyE-Column1-Body1">actif</td>
+                        <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Faux</td>
+                        <td class="TableStyle-TableStyle-BodyE-Column1-Body1">&#160;</td>
+                        <td class="TableStyle-TableStyle-BodyD-Column1-Body1">AND</td>
+                    </tr>
+                    <tr class="TableStyle-TableStyle-Body-Body1">
+                        <td class="TableStyle-TableStyle-BodyE-Column1-Body1">&#160;</td>
+                        <td class="TableStyle-TableStyle-BodyE-Column1-Body1">(</td>
+                        <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Contact.Account.Revenue</td>
+                        <td class="TableStyle-TableStyle-BodyE-Column1-Body1">égal ou supérieur à</td>
+                        <td class="TableStyle-TableStyle-BodyE-Column1-Body1">10&#160;000</td>
+                        <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Vrai</td>
+                        <td class="TableStyle-TableStyle-BodyE-Column1-Body1">&#160;</td>
+                        <td class="TableStyle-TableStyle-BodyD-Column1-Body1">OR</td>
+                    </tr>
+                    <tr class="TableStyle-TableStyle-Body-Body1">
+                        <td class="TableStyle-TableStyle-BodyB-Column1-Body1">&#160;</td>
+                        <td class="TableStyle-TableStyle-BodyB-Column1-Body1">&#160;</td>
+                        <td class="TableStyle-TableStyle-BodyB-Column1-Body1">Contact.Account.Revenue</td>
+                        <td class="TableStyle-TableStyle-BodyB-Column1-Body1">égal ou inférieur à</td>
+                        <td class="TableStyle-TableStyle-BodyB-Column1-Body1">500</td>
+                        <td class="TableStyle-TableStyle-BodyB-Column1-Body1">Vrai</td>
+                        <td class="TableStyle-TableStyle-BodyB-Column1-Body1">)</td>
+                        <td class="TableStyle-TableStyle-BodyA-Column1-Body1">END</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <p><a href="javascript:void(0);" onclick="FMCToggler( this ); return false;" class="MCToggler_0" MadCap:targets="t1">Exemple 4 : utilisation de plusieurs instructions conditionnelles entre parenthèses comprenant «&#160;NOT&#160;»<img style="border: none;margin-left: 5px;" src="../SkinSupport/DropDownClosed.gif" MadCap:altsrc="../SkinSupport/DropDownOpen.gif" onload="if ( typeof( FMCPreloadImage ) == 'function' ) { FMCPreloadImage( '../SkinSupport/DropDownOpen.gif' ); }" alt="Closed" MadCap:alt2="Open" class="MCTogglerIcon" /></a>
+        </p>
+        <div MadCap:targetName="t1" style="display: none;">
+            <p>Query Builder sélectionnera l'enregistrement si l'état du contact n'est <span class="SLXBold">PAS</span> inactif <span class="SLXBold">ET</span> si les revenus du compte sont supérieurs ou égaux à 10&#160;000&#160;dollars. L'enregistrement sera <span class="SLXBold">également</span> sélectionné si l'état du contact n'est <span class="SLXBold">PAS</span> inactif <span class="SLXBold">ET</span> que le revenu soit inférieur ou égal à 500&#160;dollars.</p>
+            <p>Voici comment la grille de l'onglet Conditions apparaîtra selon cet exemple&#160;:</p>
+            <table style="width: 90%;mc-table-style: url('../Resources/TableStyles/TableStyle.css');margin-left: 0;margin-right: auto;" class="TableStyle-TableStyle" cellspacing="0">
+                <col class="TableStyle-TableStyle-Column-Column1" />
+                <col style="width: 32px;" class="TableStyle-TableStyle-Column-Column1" />
+                <col style="width: 145px;" class="TableStyle-TableStyle-Column-Column1" />
+                <col class="TableStyle-TableStyle-Column-Column1" />
+                <col style="width: 50px;" class="TableStyle-TableStyle-Column-Column1" />
+                <col class="TableStyle-TableStyle-Column-Column1" />
+                <col class="TableStyle-TableStyle-Column-Column1" />
+                <col style="width: 66px;" class="TableStyle-TableStyle-Column-Column1" />
+                <thead>
+                    <tr class="TableStyle-TableStyle-Head-Header1">
+                        <th class="TableStyle-TableStyle-HeadE-Column1-Header1">Non</th>
+                        <th class="TableStyle-TableStyle-HeadE-Column1-Header1">(</th>
+                        <th class="TableStyle-TableStyle-HeadE-Column1-Header1">Champ</th>
+                        <th class="TableStyle-TableStyle-HeadE-Column1-Header1">Opérateur</th>
+                        <th class="TableStyle-TableStyle-HeadE-Column1-Header1">Valeur</th>
+                        <th class="TableStyle-TableStyle-HeadE-Column1-Header1">Respecter la casse</th>
+                        <th class="TableStyle-TableStyle-HeadE-Column1-Header1">)</th>
+                        <th class="TableStyle-TableStyle-HeadD-Column1-Header1">Et/ou</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="TableStyle-TableStyle-Body-Body1">
+                        <td class="TableStyle-TableStyle-BodyE-Column1-Body1">NON</td>
+                        <td class="TableStyle-TableStyle-BodyE-Column1-Body1">&#160;</td>
+                        <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Contact.Status</td>
+                        <td class="TableStyle-TableStyle-BodyE-Column1-Body1">égal à</td>
+                        <td class="TableStyle-TableStyle-BodyE-Column1-Body1">inactive</td>
+                        <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Faux</td>
+                        <td class="TableStyle-TableStyle-BodyE-Column1-Body1">&#160;</td>
+                        <td class="TableStyle-TableStyle-BodyD-Column1-Body1">AND</td>
+                    </tr>
+                    <tr class="TableStyle-TableStyle-Body-Body1">
+                        <td class="TableStyle-TableStyle-BodyE-Column1-Body1">&#160;</td>
+                        <td class="TableStyle-TableStyle-BodyE-Column1-Body1">(</td>
+                        <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Contact.Account.Revenue</td>
+                        <td class="TableStyle-TableStyle-BodyE-Column1-Body1">égal ou supérieur à</td>
+                        <td class="TableStyle-TableStyle-BodyE-Column1-Body1">10&#160;000</td>
+                        <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Vrai</td>
+                        <td class="TableStyle-TableStyle-BodyE-Column1-Body1">&#160;</td>
+                        <td class="TableStyle-TableStyle-BodyD-Column1-Body1">OR</td>
+                    </tr>
+                    <tr class="TableStyle-TableStyle-Body-Body1">
+                        <td class="TableStyle-TableStyle-BodyB-Column1-Body1">&#160;</td>
+                        <td class="TableStyle-TableStyle-BodyB-Column1-Body1">&#160;</td>
+                        <td class="TableStyle-TableStyle-BodyB-Column1-Body1">Contact.Account.Revenue</td>
+                        <td class="TableStyle-TableStyle-BodyB-Column1-Body1">égal ou inférieur à</td>
+                        <td class="TableStyle-TableStyle-BodyB-Column1-Body1">500</td>
+                        <td class="TableStyle-TableStyle-BodyB-Column1-Body1">Vrai</td>
+                        <td class="TableStyle-TableStyle-BodyB-Column1-Body1">)</td>
+                        <td class="TableStyle-TableStyle-BodyA-Column1-Body1">END</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <p class="RelatedTopics">Rubriques connexes</p>
+        <p><a href="Query_Builder_Conditions.htm" target="_self">Ajout et modification de conditions</a>
+        </p>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

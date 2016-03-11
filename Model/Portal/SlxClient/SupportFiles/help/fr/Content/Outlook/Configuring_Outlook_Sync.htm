@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:fileTags="Translation Status.Support files" xml:lang="fr" MadCap:tocPath="Utilisation des intégrations|Intégration avec Outlook" MadCap:medium="non-print" MadCap:InPreviewMode="false" MadCap:PreloadImages="false" MadCap:RuntimeFileType="Topic" MadCap:TargetType="WebHelp" lang="fr" MadCap:conditions="Output.OutlookSync,Output.SendSLX Tray App,Output.WebClient,Output.GSWeb,Output.GSLAN,Output.Integrations LAN" MadCap:PathToHelpSystem="../../" MadCap:HelpSystemFileName="WebClient.xml" MadCap:SearchType="Stem">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Configuration de la synchronisation et de l'intégration de MS Outlook</title>
+        <link href="../SkinSupport/Slideshow.css" rel="stylesheet" />
+        <link href="../SkinSupport/MadCap.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/Infor.CSS" rel="stylesheet" />
+        <script src="../SkinSupport/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapAll.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapTopicAll.js" type="text/javascript">
+        </script>
+    </head>
+    <body>
+        <h1 MadCap:conditions="Output.Integrations LAN,Output.WebClient,Output.OutlookSync,Output.SendSLX Tray App">Configuration de la synchronisation et de l'intégration de MS Outlook<a name="kanchor253"></a></h1>
+        <p MadCap:conditions="Output.WebClient,Output.OutlookSync,Output.Integrations LAN">Les préférences de synchronisation et d'intégration doivent être configurées dans Microsoft Outlook.</p>
+        <table wrapperparagraphselector="P" style="width: 80%;margin-top: 14pt;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" width="80%" MadCap:conditions="Output.WebClient,Output.Integrations LAN,Output.OutlookSync">
+            <col style="width: 45px;" />
+            <col />
+            <tr MadCap:conditions="">
+                <td style="padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top">
+                    <p style="text-align: center;margin-bottom: 0;" align="center">
+                        <img src="../image/note.gif" />
+                    </p>
+                </td>
+                <td style="width: 90%;padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top" width="90%">Il est possible que les options Connexion et <span class="MyVariablesSendSLX">Envoyer à CRM</span>/Enregistrer dans l'historique soient déjà configurées pour les utilisateurs <span class="MyVariablesDocumentName">Client Web</span> qui définissent leurs options dans le Gestionnaire de Bureau.</td>
+            </tr>
+        </table>
+        <p MadCap:conditions="Output.WebClient,Output.SendSLX Tray App,Output.OutlookSync,Output.Integrations LAN">Vous pouvez configurer différents paramètres pour différents types d'enregistrements. Par exemple, vous pouvez activer la synchronisation unidirectionnelle pour les contacts et la synchronisation bidirectionnelle pour les éléments d'agenda. Les étapes suivantes indiquent les paramètres de synchronisation recommandés entre Microsoft Outlook et <span class="MyVariablesProduct Name">Infor CRM</span>.</p>
+        <p>Avant de configurer MS Outlook :</p>
+        <ul>
+            <li value="1">Microsoft Outlook doit être installé et s'exécuter sur la machine locale. <ul><li value="1">Web - Desktop Integration ne s'installera pas si Microsoft Office, y compris Outlook, n'est pas déjà installé. </li><li value="2">Windows - Si Microsoft Outlook n'a pas été installé avant d'installer le client <span class="MyVariablesProduct Name">Infor CRM</span>, vous devez effectuer des étapes de configuration supplémentaires.<br /></li></ul></li>
+            <li value="2">Vous devez connaître le serveur de connexion et le numéro de port, de même que votre nom d'utilisateur et votre mot de passe.<br /> Contactez l'administrateur système pour en savoir plus.</li>
+            <li MadCap:conditions="Output.Integrations LAN,Output.OutlookSync,Output.WebClient" value="3">Vous devez <a href="../Integrations/Creating_Contact_Sync_Group.htm">créer un groupe de synchronisation des contacts</a> pour les contacts que vous voulez synchroniser entre MS Outlook et <span class="MyVariablesProduct Name">Infor CRM</span>.</li>
+        </ul>
+        <p class="Infinitive">Pour configurer</p>
+        <ol>
+            <li value="1">Ouvrez Microsoft Outlook.<br /></li>
+            <li value="2">Si vous n'y êtes pas invité, cliquez sur le bouton <span class="SLXBold">Options</span>.<br /> Si le bouton Options n'apparaît pas, <span class="MyVariablesOutlook sync">Synchronisation d'Outlook</span> a été mal installé.</li>
+            <li value="3">Utilisez les onglets pour définir les options suivantes&#160;:<ul><li value="1"><a href="Outlook_Sync_Connection_Tab.htm">Connexion</a> - connexion au serveur <span class="MyVariablesProduct Name">Infor CRM</span>. Obligatoire pour la synchronisation des <a href="../Integrations/Understanding_Contact_Integration.htm">contacts</a> et des <a href="../Integrations/Understanding_Calendar_Integration.htm">agendas</a> et l'<a href="../Integrations/Understanding_Email_Integration.htm">intégration de la messagerie</a>. </li><li MadCap:conditions="Output.SendSLX Tray App,Output.WebClient,Output.OutlookSync,Output.Integrations LAN" value="2"><a href="Outlook_Sync_Sync_Tab.htm">Synchronisation</a> - options de synchronisation pour les contacts, rendez-vous (appels téléphoniques, réunions et activités personnelles) et tâches (à faire). Obligatoire pour la synchronisation des <a href="../Integrations/Understanding_Contact_Integration.htm">contacts</a> et des <a href="../Integrations/Understanding_Calendar_Integration.htm">agendas</a>.</li><li value="3"><a href="Outlook_Sync_SendSLX_RecordHistory_Tab.htm"><span class="MyVariablesSendSLX">Envoyer à CRM</span>/Enregistrer dans l'historique</a> - options pour les invites, l'affichage d'informations et le comportement des pièces jointes lors de l'utilisation de <span class="MyVariablesSendSLX">Envoyer à CRM</span>&#160;ou Enregistrer dans l'historique. Utilisé pour l'<a href="../Integrations/Understanding_Email_Integration.htm">intégration de la messagerie</a>. </li><li MadCap:conditions="Output.Integrations LAN,Output.OutlookSync,Output.SendSLX Tray App,Output.WebClient" value="4"><a href="Outlook_Sync_Address_Book_Tab.htm">Carnet d'adresses</a> - affiche des options pour votre carnet d'adresses <span class="MyVariablesProduct Name">Infor CRM</span>. Utilisé pour l'<a href="../Integrations/Understanding_Email_Integration.htm">intégration de la messagerie</a>. </li><li MadCap:conditions="Output.WebClient,Output.SendSLX Tray App,Output.OutlookSync,Output.Integrations LAN" value="5"><a href="Outlook_Sync_Logging_Tab.htm">Consignation</a> - possibilité d'activer ou de désactiver et d'afficher les informations de consignation pour dépannage. Utilisé pour la synchronisation des <a href="../Integrations/Understanding_Contact_Integration.htm">contacts</a> et des <a href="../Integrations/Understanding_Calendar_Integration.htm">agendas</a>&#160;</li><li value="6"><a href="Outlook_Sync_All_Options_Tab.htm">Toutes les options</a> - possibilité d'afficher des options sous forme de paires de valeurs. Recommandé aux utilisateurs avancés seulement.<br />&#160;</li></ul></li>
+            <li value="4">
+                <p>Cliquez sur <span class="SLXBold">OK</span>.</p>
+            </li>
+        </ol>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

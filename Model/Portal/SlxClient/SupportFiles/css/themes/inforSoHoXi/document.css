@@ -1,0 +1,43 @@
+@import url("/Libraries/dojo/dojo/resources/dojo.css");
+/* ======= Styling for the document itself (overriding dojo.css) ======== */
+.inforSoHoXi {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: .688em;
+  color: #131313;
+}
+/* Headings */
+.inforSoHoXi h1 {
+  font-size: 1.545em;
+  margin-bottom: 0.727em;
+}
+.inforSoHoXi h2 {
+  font-size: 1.364em;
+  line-height: 1.455em;
+  margin-top: 1em;
+  margin-bottom: 0.60em;
+  font-weight: normal;
+}
+.inforSoHoXi h3,
+.inforSoHoXi h4,
+.inforSoHoXi h5,
+.inforSoHoXi h6 {
+  font-size: 1.091em;
+  font-weight: normal;
+}
+/* paragraphs, quotes and lists */
+.inforSoHoXi p {
+  line-height: 1.3em;
+}
+/* pre and code */
+.inforSoHoXi pre,
+.inforSoHoXi code {
+  font-family: inherit;
+  background-color: #d2d2d2;
+  border: 1px solid #e5e5e5;
+}
+/* tables */
+.inforSoHoXi table.dojoTabular thead,
+.inforSoHoXi table.dojoTabular tfoot {
+  background-color: #d2d2d2;
+  border: 1px solid #e5e5e5;
+}

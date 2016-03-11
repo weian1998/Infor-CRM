@@ -1,0 +1,30 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\UI\Columns\ActivityAlarm.js" timeStamp="2015-05-28T03:09:15.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\UI\Columns\ActivityType.js" timeStamp="2015-05-28T03:09:15.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\UI\Columns\Boolean.js" timeStamp="2015-05-28T03:09:15.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\UI\Columns\Cell.js" timeStamp="2015-05-28T03:09:15.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\UI\Columns\CheckBox.js" timeStamp="2015-05-28T03:09:15.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\UI\Columns\Currency.js" timeStamp="2015-05-28T03:09:15.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\UI\Columns\DataType.js" timeStamp="2015-05-28T03:09:15.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\UI\Columns\DateTime.js" timeStamp="2015-05-28T03:09:15.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\UI\Columns\Dnd.js" timeStamp="2015-05-28T03:09:15.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\UI\Columns\DndCell.js" timeStamp="2015-05-28T03:09:15.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\UI\Columns\Email.js" timeStamp="2015-05-28T03:09:15.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\UI\Columns\HistoryType.js" timeStamp="2015-05-28T03:09:15.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\UI\Columns\Lookup.js" timeStamp="2015-05-28T03:09:15.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\UI\Columns\main.js" timeStamp="2015-05-28T03:09:15.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\UI\Columns\Numeric.js" timeStamp="2015-05-28T03:09:15.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\UI\Columns\Owner.js" timeStamp="2015-05-28T03:09:15.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\UI\Columns\OwnerType.js" timeStamp="2015-05-28T03:09:15.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\UI\Columns\Phone.js" timeStamp="2015-05-28T03:09:15.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\UI\Columns\PickList.js" timeStamp="2015-05-28T03:09:15.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\UI\Columns\RadioGroup.js" timeStamp="2015-05-28T03:09:15.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\UI\Columns\SlxEdit.js" timeStamp="2015-05-28T03:09:15.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\UI\Columns\SlxLink.js" timeStamp="2015-05-28T03:09:15.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\UI\Columns\SlxUser.js" timeStamp="2015-05-28T03:09:15.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\UI\Columns\TextBox.js" timeStamp="2015-05-28T03:09:15.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\UI\Columns\UserType.js" timeStamp="2015-05-28T03:09:15.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\UI\Columns\nls\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\UI\Columns\templates\" />
+</exportedFiles>

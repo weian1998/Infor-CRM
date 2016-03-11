@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<ModelItems xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Item Id="bc460073-6b35-40da-bf5a-a49aba84a90e">mnuSchedulesListEditSchedule.contextmenu.xml</Item>
+  <Item Id="3ddbbf3f-198a-45b2-b65a-ea1cab56f122">mnuSchedulesListDeleteSchedule.contextmenu.xml</Item>
+</ModelItems>

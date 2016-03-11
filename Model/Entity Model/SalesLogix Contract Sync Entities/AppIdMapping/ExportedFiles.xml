@@ -1,0 +1,22 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Entity Model\SalesLogix Contract Sync Entities\AppIdMapping\AppIdMapping.APPIDMAPPING.entity.xml" timeStamp="2015-05-28T03:04:32.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Contract Sync Entities\AppIdMapping\EncryptAccountingSystemPassword.method.xml" timeStamp="2015-05-28T03:04:32.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Contract Sync Entities\AppIdMapping\ExecuteSync.method.xml" timeStamp="2015-05-28T03:04:32.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Contract Sync Entities\AppIdMapping\ExecuteSyncAll.method.xml" timeStamp="2015-05-28T03:04:32.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Contract Sync Entities\AppIdMapping\GetSchemaDifferences.method.xml" timeStamp="2015-05-28T03:04:32.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Contract Sync Entities\AppIdMapping\GetSyncCycleInterval.method.xml" timeStamp="2015-05-28T03:04:32.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Contract Sync Entities\AppIdMapping\OnAfterDelete.method.xml" timeStamp="2015-05-28T03:04:32.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Contract Sync Entities\AppIdMapping\OnAfterInsert.method.xml" timeStamp="2015-05-28T03:04:32.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Contract Sync Entities\AppIdMapping\OnAfterUpdate.method.xml" timeStamp="2015-05-28T03:04:32.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Contract Sync Entities\AppIdMapping\OnBeforeDelete.method.xml" timeStamp="2015-05-28T03:04:32.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Contract Sync Entities\AppIdMapping\OnBeforeInsert.method.xml" timeStamp="2015-05-28T03:04:32.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Contract Sync Entities\AppIdMapping\OnBeforeUpdate.method.xml" timeStamp="2015-05-28T03:04:32.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Contract Sync Entities\AppIdMapping\OnCreate.method.xml" timeStamp="2015-05-28T03:04:32.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Contract Sync Entities\AppIdMapping\SaveSyncConfiguration.method.xml" timeStamp="2015-05-28T03:04:32.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Contract Sync Entities\AppIdMapping\SetLinkEnabledState.method.xml" timeStamp="2015-05-28T03:04:32.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Contract Sync Entities\AppIdMapping\TestAccountingFeed.method.xml" timeStamp="2015-05-28T03:04:32.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Contract Sync Entities\AppIdMapping\ValidateEndPoint.method.xml" timeStamp="2015-05-28T03:04:32.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Contract Sync Entities\AppIdMapping\ValidateSyncDigestResources.method.xml" timeStamp="2015-05-28T03:04:32.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Contract Sync Entities\AppIdMapping\QuickForms\" />
+</exportedFiles>

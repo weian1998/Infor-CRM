@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<SchedulerJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="af2c9113-8556-4d54-98e8-73f1a6696171">
+  <InstanceId>26f9f678919e46b590ed7d39a7602e72</InstanceId>
+  <TypeName>Saleslogix.Reporting.Jobs.CrystalReportsJob, Saleslogix.Reporting.Jobs</TypeName>
+  <Parameters />
+</SchedulerJob>

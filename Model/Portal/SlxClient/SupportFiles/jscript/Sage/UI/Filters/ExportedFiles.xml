@@ -1,0 +1,15 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\UI\Filters\CheckBoxFilter.js" timeStamp="2015-05-28T03:09:17.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\UI\Filters\EditFilterItems.js" timeStamp="2015-05-28T03:09:17.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\UI\Filters\EditFilters.js" timeStamp="2015-05-28T03:09:17.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\UI\Filters\EntityManagerCheckBoxFilter.js" timeStamp="2015-05-28T03:09:17.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\UI\Filters\EntityManagerEditFilters.js" timeStamp="2015-05-28T03:09:17.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\UI\Filters\EntityManagerFilterPanel.js" timeStamp="2015-05-28T03:09:17.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\UI\Filters\FilterManager.js" timeStamp="2015-05-28T03:09:17.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\UI\Filters\FilterPanel.js" timeStamp="2015-05-28T03:09:17.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\UI\Filters\GroupFilterConfigurationProvider.js" timeStamp="2015-05-28T03:09:17.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\UI\Filters\LookupFilter.js" timeStamp="2015-05-28T03:09:17.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\UI\Filters\nls\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\UI\Filters\templates\" />
+</exportedFiles>

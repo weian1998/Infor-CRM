@@ -1,0 +1,22 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\tests\_EditBase.js" timeStamp="2015-05-28T03:50:01.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\tests\ApplicationModuleTests.js" timeStamp="2015-05-28T03:50:01.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\tests\CalendarTests.js" timeStamp="2015-05-28T03:50:01.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\tests\ConvertTests.js" timeStamp="2015-05-28T03:50:01.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\tests\ErrorManagerTests.js" timeStamp="2015-05-28T03:50:01.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\tests\FieldManagerTests.js" timeStamp="2015-05-28T03:50:01.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\tests\FormatTests.js" timeStamp="2015-05-28T03:50:01.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\tests\GroupedListTests.js" timeStamp="2015-05-28T03:50:01.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\tests\index.html" timeStamp="2015-05-28T03:50:01.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\tests\MainToolbarTests.js" timeStamp="2015-05-28T03:50:01.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\tests\SearchWidgetTests.js" timeStamp="2015-05-28T03:50:01.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\tests\ToolbarTests.js" timeStamp="2015-05-28T03:50:01.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\tests\UtilityTests.js" timeStamp="2015-05-28T03:50:01.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\tests\View.js" timeStamp="2015-05-28T03:50:01.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\tests\feeds\" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\tests\Fields\" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\tests\Groups\" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\tests\localization\" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\tests\Stores\" />
+</exportedFiles>

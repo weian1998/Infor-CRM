@@ -1,0 +1,15 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\JobMgr\BaseListPanelConfig.js" timeStamp="2015-05-28T03:09:02.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\JobMgr\ExecutionsListPanelConfig.js" timeStamp="2015-05-28T03:09:02.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\JobMgr\FilterConfigurationProvider.js" timeStamp="2015-05-28T03:09:02.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\JobMgr\JobDefinitionsListPanelConfig.js" timeStamp="2015-05-28T03:09:02.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\JobMgr\JobManagerActions.js" timeStamp="2015-05-28T03:09:02.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\JobMgr\JobManagerGroupContextService.js" timeStamp="2015-05-28T03:09:02.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\JobMgr\RunJobDialog.js" timeStamp="2015-05-28T03:09:02.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\JobMgr\SchedulesListPanelConfig.js" timeStamp="2015-05-28T03:09:02.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\JobMgr\SDataDetailViewDataManager.js" timeStamp="2015-05-28T03:09:02.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\JobMgr\SDataSummaryFormatterScope.js" timeStamp="2015-05-28T03:09:02.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\JobMgr\nls\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\JobMgr\templates\" />
+</exportedFiles>

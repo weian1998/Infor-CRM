@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:fileTags="Translation Status.Support files" xml:lang="de" MadCap:tocPath="" MadCap:medium="non-print" MadCap:InPreviewMode="false" MadCap:PreloadImages="false" MadCap:RuntimeFileType="Topic" MadCap:TargetType="WebHelp" lang="de" MadCap:conditions="Output.WebClient,Output.Query Builder" MadCap:PathToHelpSystem="../../" MadCap:HelpSystemFileName="WebClient.xml" MadCap:SearchType="Stem">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>ID-Felder in Tabellen</title>
+        <link href="../SkinSupport/Slideshow.css" rel="stylesheet" />
+        <link href="../SkinSupport/MadCap.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/Infor.CSS" rel="stylesheet" />
+        <script src="../SkinSupport/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapAll.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapTopicAll.js" type="text/javascript">
+        </script>
+    </head>
+    <body>
+        <h1><a name="kanchor690"></a>ID-Felder in Tabellen</h1>
+        <p>Jede Tabelle weist mindestens ein ID-Feld auf, das verwendet wird, um die Eindeutigkeit eines jeden Datensatzes in der Tabelle sicherzustellen. Wenn ein Datensatz zur Tabelle FIRMA hinzugefügt wird, wird ein Wert automatisch in das Feld FIRMENID eingegeben. Jedes Mal, wenn ein Datensatz hinzugefügt wird, wird ein Wert basierend auf den Informationen in der Schlüsseldatei erzeugt.</p>
+        <p>Welche Felder die wichtigen ID-Felder einer Tabelle sind, ist von der <a href="Table_Relationship_Types.htm">Art der Beziehung</a> zwischen dieser und anderen Tabellen abhängig. Jede erstellte Tabelle, die nicht mit einer anderen Tabelle verknüpft ist, verfügt über ein eigenes, eindeutiges ID-Feld. Wenn eine neue Tabelle als untergeordnete Tabelle mit einer 1:1-Beziehung zu einer anderen Tabelle erstellt wird, ist deren ID-Feld gleich dem ID-Feld der übergeordneten Tabelle. Wenn die untergeordnete Tabelle eine 1:n-Beziehung zur anderen Tabelle aufweist, ist mehr als ein Feld erforderlich, um Eindeutigkeit sicherzustellen. Deshalb werden beim Erstellen der Tabelle automatisch zwei IDs generiert: eine, die für die Tabelle eindeutig ist, und eine, die das ID-Feld der Tabelle darstellt, auf der sie basiert. Wenn es sich bei der Tabelle um eine Verknüpfungstabelle handelt, deren Zweck in der Auflösung einer n:n-Beziehung besteht, werden drei ID-Felder benötigt. <span class="MyVariablesProduct Name">Infor CRM</span> erzeugt automatisch nur zwei IDs, nämlich eine, die für die Verknüpfungstabelle eindeutig ist, und eine für die Primärtabelle. Das ID-Feld der untergeordneten Tabelle müssen Sie bei der Erstellung der Tabelle hinzufügen, andernfalls werden über- und untergeordnete Tabellen nicht verknüpft.</p>
+        <table wrapperparagraphselector="P" style="margin-top: 14pt;border-spacing: 0px;border-spacing: 0px;" cellspacing="0">
+            <col />
+            <col />
+            <tr>
+                <td style="padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top">
+                    <p style="text-align: center;margin-bottom: 0;" align="center">
+                        <img src="../image/note.gif" />
+                    </p>
+                </td>
+                <td style="padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top">
+                    <p class="Tip-Note-Text" style="margin-bottom: 0;">Zwar beinhalten einige der in <span class="MyVariablesProduct Name">Infor CRM</span> vorhandenen Verknüpfungstabellen nur zwei ID-Felder, Sie sollten jedoch bei allen selbst erstellten Verknüpfungstabellen mit drei ID-Feldern arbeiten.</p>
+                </td>
+            </tr>
+        </table>
+        <p class="RelatedTopics">Verwandte Themen</p>
+        <p><a href="Joining_Tables.htm">Erstellen von Tabellen-Joins</a>
+        </p>
+        <p><a href="Join_Example.htm">Join-Beispiel</a>
+        </p>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

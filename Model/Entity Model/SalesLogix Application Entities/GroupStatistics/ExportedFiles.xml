@@ -1,0 +1,11 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\GroupStatistics\GroupStatistics.GROUPSTATS.entity.xml" timeStamp="2015-05-28T03:04:10.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\GroupStatistics\OnAfterDelete.method.xml" timeStamp="2015-05-28T03:04:10.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\GroupStatistics\OnAfterInsert.method.xml" timeStamp="2015-05-28T03:04:10.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\GroupStatistics\OnAfterUpdate.method.xml" timeStamp="2015-05-28T03:04:10.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\GroupStatistics\OnBeforeDelete.method.xml" timeStamp="2015-05-28T03:04:10.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\GroupStatistics\OnBeforeInsert.method.xml" timeStamp="2015-05-28T03:04:10.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\GroupStatistics\OnBeforeUpdate.method.xml" timeStamp="2015-05-28T03:04:10.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\GroupStatistics\OnCreate.method.xml" timeStamp="2015-05-28T03:04:10.0000" />
+</exportedFiles>

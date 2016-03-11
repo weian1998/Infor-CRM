@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WebSummaryViewConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityType TypeName="Sage.Entity.Interfaces.ILitRequest, Sage.Entity.Interfaces, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <Properties />
+  </EntityType>
+  <MashupName>LiteratureRequests</MashupName>
+  <QueryName>LitFulfillmentDetails_query</QueryName>
+  <Template>SummaryTemplates/LitFulfillmentDetails.html</Template>
+</WebSummaryViewConfiguration>

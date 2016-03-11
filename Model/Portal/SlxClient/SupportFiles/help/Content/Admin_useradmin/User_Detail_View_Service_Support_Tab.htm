@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:fileTags="Translation Status.Support files" MadCap:tocPath="" MadCap:medium="non-print" MadCap:InPreviewMode="false" MadCap:PreloadImages="false" MadCap:RuntimeFileType="Topic" MadCap:TargetType="WebHelp" lang="en-us" xml:lang="en-us" MadCap:conditions="Output.WebClient" MadCap:PathToHelpSystem="../../" MadCap:HelpSystemFileName="WebClient.xml" MadCap:SearchType="Stem">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="copyright" /><title>User Profile Service/Support Tab</title>
+        <link href="../SkinSupport/Slideshow.css" rel="stylesheet" />
+        <link href="../SkinSupport/MadCap.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/Infor.CSS" rel="stylesheet" />
+        <script src="../SkinSupport/jquery.min.js">
+        </script>
+        <script src="../SkinSupport/MadCapAll.js">
+        </script>
+        <script src="../SkinSupport/MadCapTopicAll.js">
+        </script>
+    </head>
+    <body>
+        <h1 value="Workgroup Administrator Help (03-19-02) for v5.2.2 © 2002 Interact Commerce Corporation"><a name="kanchor394"></a>Service/Support Tab</h1>
+        <p>Use the Service/Support tab on the User Detail view to set options related to customer service 
+ features, support features, and SpeedSearch. Consider the following when setting user access:</p>
+        <ul>
+            <li class="Bullets" value="1">When 
+ you add a new user, "Available for calls" is the only option 
+ selected by default. </li>
+            <li class="Bullets" value="2">Changes 
+ take effect when the application loads. When a user refreshes or logs 
+ on, the system applies the changes.</li>
+            <li class="Bullets" value="3">When you view the Service/Support tab in a Remote user's profile, the 
+ Remote user's Ticket ID Prefix is also displayed (read-only)</li>
+        </ul>
+        <p class="Topic-Text-Indent"><a href="javascript:void(0);" onclick="FMCToggler( this ); return false;" class="MCToggler_0" MadCap:targets="t1">More Information
+ about Ticket IDs<img style="border: none;margin-left: 5px;" src="../SkinSupport/DropDownClosed.gif" MadCap:altsrc="../SkinSupport/DropDownOpen.gif" onload="if ( typeof( FMCPreloadImage ) == 'function' ) { FMCPreloadImage( '../SkinSupport/DropDownOpen.gif' ); }" alt="Closed" MadCap:alt2="Open" class="MCTogglerIcon" /></a>
+        </p>
+        <div MadCap:targetName="t1" style="display: none;">
+            <p>To support synchronization between remote databases and the main office 
+ (Host) database, the <span class="MyVariablesProduct Name">Infor CRM</span> system must ensure that unique Ticket 
+ IDs are created when users add tickets at the main office, Remote Offices, 
+ or from Remote users' computers. The system assigns a Ticket Prefix to 
+ each database. The prefix consists of two parts:</p>
+            <ul style="list-style: disc;" type="disc">
+                <li class="Bullets" value="1"><span class="SLXBold">Site Identifier</span> 
+ – The first three digits of the prefix identifies the site. The Host database's 
+ site identifier is 001. Remote Office databases are assigned site identifiers 
+ in the 100-199 series. Remote user databases are assigned site identifiers 
+ in the 200 and up series. (Note that the site identifiers are not necessarily 
+ assigned in sequence, however.)</li>
+                <li class="Bullets" value="2"><span class="SLXBold">Key Base</span> 
+ – The last two digits of the prefix represent the revision number of the 
+ database. If you create a new database for a Remote Office or user, this 
+ number is incremented.</li>
+            </ul>
+            <p>When a user creates a ticket, the system assigns the correct prefix 
+ followed by a six-digit, auto-generated suffix (for example, 001-01-000015).</p>
+        </div>
+        <p class="Infinitive">To set 
+ options              </p>
+        <ol style="list-style: lower-alpha;list-style-type: lower-alpha;">
+            <li class="Topic-Text-Numbered" value="1">In the <a href="User_Detail_View.htm" target="_self">User Detail</a> view, click the <b>Service/Support</b> tab. </li>
+            <li class="Topic-Text-Numbered" value="2">Select one or more of the following options:</li>
+        </ol>
+        <ul>
+            <li class="Topic-Text-Bulleted-2" value="1"><span style="font-weight: bold;" class="SLXBold">Available for calls</span> - allows other users to assign tickets to this user.</li>
+        </ul>
+        <p class="Topic-Text-Indent2">	Tickets assigned to an unavailable user will default to unassigned.</p>
+        <ul>
+            <li class="Topic-Text-Bulleted-2" value="1"><span class="SLXBold">Notify user of new Ticket</span> 
+ - sends an e-mail message when a ticket is assigned to the user.</li>
+        </ul>
+        <p class="Topic-Text-Indent2">The system sends an e-mail message if a new ticket is assigned, or 
+ an existing ticket is reassigned to this user.</p>
+        <ul>
+            <li class="Topic-Text-Bulleted-2" value="1"><span class="SLXBold">User may grant access to Customer 
+ Portal</span> - allows the user to give customers access to 
+ tickets through <span class="MyVariablesCustomer Portal">Infor CRM Customer Portal</span>.</li>
+            <li class="Topic-Text-Bulleted-2" value="2"><span class="SLXBold">User has "Submit to SpeedSearch" as default</span> - sets 
+ Submit to SpeedSearch as the default option when the user creates a new ticket.</li>
+            <li class="Topic-Text-Bulleted-2" value="3"><span class="SLXBold">User may approve SpeedSearch submissions</span> - allows the user to determine which tickets and defects are available through SpeedSearch.</li>
+        </ul>
+        <p class="Topic-Text-Indent2">This option is only available if the SpeedSearch approval process is enabled for the office. This option is enabled in the Administrator.</p>
+        <ul>
+            <li class="Topic-Text-Bulleted-2" value="1"><span class="SLXBold">Notify user of new Defect</span> -  sends an e-mail message when a defect is assigned to the user.</li>
+        </ul>
+        <p class="Topic-Text-Indent2">An e-mail message is sent if a new defect is assigned, 
+ or an existing defect is reassigned to this user.</p>
+        <ol style="list-style: lower-alpha;list-style-type: lower-alpha;">
+            <li class="Topic-Text-Numbered" value="3">Click <span class="MCExpanding_0"><a href="javascript:void(0);" class="MCExpandingHead_0" onclick="FMCExpand( this ); return false;">Save<img style="border: none;margin-left: 5px;" src="../SkinSupport/ExpandClosed.gif" MadCap:altsrc="../SkinSupport/ExpandOpen.gif" onload="if ( typeof( FMCPreloadImage ) == 'function' ) { FMCPreloadImage( '../SkinSupport/ExpandOpen.gif' ); }" alt="Closed" MadCap:alt2="Open" class="MCExpandingIcon" /></a><span class="MCExpandingBody_0" style="display: none;"><img src="../image/update.gif" /></span></span>.</li>
+        </ol>
+        <p class="RelatedTopics">Related Topics</p>
+        <p><a href="User_Detail_View.htm" target="_self"><a href="User_Detail_View.htm" target="_self">User Detail View</a></a>
+        </p>
+        <p><a href="Changing_a_Users_Profile.htm" target="_self">Changing a User's Profile</a>
+        </p>
+        <div style="width: 100%;position: relative;">
+            <p>&#160;</p>
+        </div>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

@@ -1,0 +1,59 @@
+﻿<div>
+    <div dojoattachpoint="promptParameterContainer" class="crystalParameterContainer">
+        <div dojoattachpoint="paramsHeaderContainer"></div>
+        <table class="crystalTableContainer">
+            <colgroup>
+                <col style="width:45%" />
+                <col style="width:10%" />
+                <col style="width:45%" />
+            </colgroup>
+            <tr>
+                <td colspan="3">
+                    <div dojoattachpoint="divMinMaxMessage">
+                        <span dojoattachpoint="spanMinMaxMessage">&nbsp;</span>
+                    </div>
+                </td>
+            </tr>
+            <tr data-dojo-attach-point="rowParameterRange">
+                <td colspan="3">
+                    <div data-dojo-attach-point="parameterRangeWidgetContainer" style="height:auto"></div>
+                </td>
+            </tr>
+            <tr dojoattachpoint="rowSingleValue" class="display-none">
+                <td colspan="2">
+                    <div class="textcontrol picklist">
+                        <label>{%= Sage.Utility.htmlEncode($.lblSelectValue_Caption) %}</label><br />
+                        <select data-dojo-type="dijit.form.FilteringSelect" dojoAttachPoint="cmbValues"></select>
+                        <span dojoAttachPoint="errorEndRange" class="display-none" style="color:red">*</span>
+                    </div>
+                </td>
+                <td colspan="2"></td>
+            </tr>
+            <tr dojoAttachPoint="rowOrEnterValue">
+                <td colspan="3">
+                    <label style="font-weight:bold">{%= Sage.Utility.htmlEncode($.lblOrValue_Caption) %}</label><br />
+                </td>
+            </tr>
+            <tr dojoattachpoint="rowCustomValues" class="display-none">
+                <td>
+                    <div>
+                        <label>{%= Sage.Utility.htmlEncode($.lblEnterValue_Caption) %}</label><br />
+                        <div dojoAttachPoint="customValueContainer"></div>
+                        <span dojoAttachPoint="errorCustomValue" class="display-none" style="color:red">*</span>
+                    </div>
+                </td>
+                <td colspan="2"></td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <div dojoattachpoint="divValidationMessage" style="color:red">
+                        <span dojoattachpoint="spanValidationMessage">&nbsp;</span>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <br />
+    </div>
+</div>

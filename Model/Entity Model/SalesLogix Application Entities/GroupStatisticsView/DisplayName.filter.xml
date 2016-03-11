@@ -1,0 +1,14 @@
+﻿<?xml version="1.0"?>
+<entityFilter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="OrmUserLookupEntityFilter" id="852239c7-6d7e-4b68-bb70-385fa28b53e9" lastModifiedUtc="2015-02-23T21:06:05.2077681Z" filterName="DisplayName" propertyName="DisplayName">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmUserLookupEntityFilter" />
+  </ExtendedPropertiesCollection>
+  <operators>
+    <operator>Equal</operator>
+    <operator>NotEqual</operator>
+    <operator>StartsWith</operator>
+    <operator>EndsWith</operator>
+    <operator>Contains</operator>
+  </operators>
+</entityFilter>

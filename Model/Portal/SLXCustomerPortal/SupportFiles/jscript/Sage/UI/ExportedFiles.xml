@@ -1,0 +1,78 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\UI\_AbstractGrid.js" timeStamp="2015-05-28T03:09:14.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\UI\_DetailPane.js" timeStamp="2015-05-28T03:09:14.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\UI\_DetailPanelConfigurationProvider.js" timeStamp="2015-05-28T03:09:14.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\UI\_DialogLoadingMixin.js" timeStamp="2015-05-28T03:09:14.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\UI\_TitlePaneConfigProvider.js" timeStamp="2015-05-28T03:09:14.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\UI\ActivityList.js" timeStamp="2015-05-28T03:09:14.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\UI\ActivityScheduler.js" timeStamp="2015-05-28T03:09:14.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\UI\AttachmentList.js" timeStamp="2015-05-28T03:09:14.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\UI\Calendar.js" timeStamp="2015-05-28T03:09:14.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\UI\CalendarUsersListPane.js" timeStamp="2015-05-28T03:09:14.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\UI\ComboBox.js" timeStamp="2015-05-28T03:09:14.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\UI\ConditionManager.js" timeStamp="2015-05-28T03:09:14.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\UI\DashboardGroupListConfigurationProvider.js" timeStamp="2015-05-28T03:09:14.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\UI\DateTextBox.js" timeStamp="2015-05-28T03:09:14.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\UI\DetailPanel.js" timeStamp="2015-05-28T03:09:14.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\UI\Dialogs.js" timeStamp="2015-05-28T03:09:14.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\UI\EditableGrid.js" timeStamp="2015-05-28T03:09:14.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\UI\EditCalendarUsers.js" timeStamp="2015-05-28T03:09:14.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\UI\EditorContainer.js" timeStamp="2015-05-28T03:09:14.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\UI\FilteringSelect.js" timeStamp="2015-05-28T03:09:14.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\UI\GridContainer.js" timeStamp="2015-05-28T03:09:14.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\UI\GridMenuItem.js" timeStamp="2015-05-28T03:09:14.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\UI\GroupListConfigurationProvider.js" timeStamp="2015-05-28T03:09:14.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\UI\GroupMenuFmtScope.js" timeStamp="2015-05-28T03:09:14.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\UI\GroupsTitlePaneConfigProvider.js" timeStamp="2015-05-28T03:09:14.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\UI\GroupTabPane.js" timeStamp="2015-05-28T03:09:14.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\UI\ImageButton.js" timeStamp="2015-05-28T03:09:14.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\UI\JobSchedulingWidget.js" timeStamp="2015-05-28T03:09:14.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\UI\JsonPrintDetailPane.js" timeStamp="2015-05-28T03:09:14.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\UI\ListPanel.js" timeStamp="2015-05-28T03:09:14.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\UI\main.js" timeStamp="2015-05-28T03:09:14.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\UI\MenuBar.js" timeStamp="2015-05-28T03:09:14.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\UI\MenuBarItem.js" timeStamp="2015-05-28T03:09:14.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\UI\MenuItem.js" timeStamp="2015-05-28T03:09:14.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\UI\NavBar.js" timeStamp="2015-05-28T03:09:14.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\UI\NavBarPane.js" timeStamp="2015-05-28T03:09:14.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\UI\NotesHistoryList.js" timeStamp="2015-05-28T03:09:14.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\UI\NumberTextBox.js" timeStamp="2015-05-28T03:09:14.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\UI\OrientableMenuBar.js" timeStamp="2015-05-28T03:09:14.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\UI\PopupMenuBarItem.js" timeStamp="2015-05-28T03:09:14.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\UI\PopupMenuItem.js" timeStamp="2015-05-28T03:09:14.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\UI\SDataLookup.js" timeStamp="2015-05-28T03:09:14.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\UI\SDataMainViewConfigurationProvider.js" timeStamp="2015-05-28T03:09:14.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\UI\SDataSummaryFormatterScope.js" timeStamp="2015-05-28T03:09:14.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\UI\SearchConditionWidget.js" timeStamp="2015-05-28T03:09:14.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\UI\SearchMenuItem.js" timeStamp="2015-05-28T03:09:14.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\UI\SLXPreviewGrid.js" timeStamp="2015-05-28T03:09:14.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\UI\SpeedSearch.js" timeStamp="2015-05-28T03:09:14.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\UI\SummaryContainer.js" timeStamp="2015-05-28T03:09:14.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\UI\SummaryContents.js" timeStamp="2015-05-28T03:09:14.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\UI\SummaryDetailPane.js" timeStamp="2015-05-28T03:09:14.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\UI\SummaryFormatterScope.js" timeStamp="2015-05-28T03:09:14.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\UI\TabContainer.js" timeStamp="2015-05-28T03:09:14.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\UI\TabController.js" timeStamp="2015-05-28T03:09:14.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\UI\TextBox.js" timeStamp="2015-05-28T03:09:14.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\UI\TimelessActivitiesPane.js" timeStamp="2015-05-28T03:09:14.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\UI\TimeZoneItem.js" timeStamp="2015-05-28T03:09:14.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\UI\TitleContentPane.js" timeStamp="2015-05-28T03:09:14.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\UI\ToggleButton.js" timeStamp="2015-05-28T03:09:14.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\UI\ToolBarLabel.js" timeStamp="2015-05-28T03:09:14.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\UI\TransferBoxWidget.js" timeStamp="2015-05-28T03:09:14.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\UI\TransferBoxWidgetEnumerations.js" timeStamp="2015-05-28T03:09:14.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\UI\UniqueToListValidationTextBox.js" timeStamp="2015-05-28T03:09:14.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\UI\URL.js" timeStamp="2015-05-28T03:09:15.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\UI\WidgetEditor.js" timeStamp="2015-05-28T03:09:15.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\UI\widgetEditorLookup.js" timeStamp="2015-05-28T03:09:15.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\UI\Alarms\" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\UI\Columns\" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\UI\Controls\" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\UI\Dashboard\" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\UI\Filters\" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\UI\Grid\" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\UI\nls\" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\UI\SLXPreviewGrid\" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\UI\templates\" />
+</exportedFiles>

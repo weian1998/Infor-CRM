@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:fileTags="Translation Status.Support files" MadCap:tocPath="" MadCap:medium="non-print" MadCap:InPreviewMode="false" MadCap:PreloadImages="false" MadCap:RuntimeFileType="Topic" MadCap:TargetType="WebHelp" lang="en-us" xml:lang="en-us" MadCap:conditions="Output.WebClient,Output.Query Builder" class="" MadCap:PathToHelpSystem="../../" MadCap:HelpSystemFileName="WebClient.xml" MadCap:SearchType="Stem">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="copyright" /><title>Risoluzione dei Problemi: Query Builder Impiega molto tempo per Rispondere</title>
+        <link href="../SkinSupport/Slideshow.css" rel="stylesheet" />
+        <link href="../SkinSupport/MadCap.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/Infor.CSS" rel="stylesheet" />
+        <script src="../SkinSupport/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapAll.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapTopicAll.js" type="text/javascript">
+        </script>
+    </head>
+    <body>
+        <h1 value="Architect Help (09-19-01) for v5.2 © 2001 Interact Commerce Corporation"><a name="kanchor699"></a>Risoluzione dei Problemi: Query Builder Impiega molto tempo per Rispondere</h1>
+        <table wrapperparagraphselector="P" style="margin-top: 14pt;width: 98%;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" width="98%">
+            <col style="width: 43px;" />
+            <col style="width: 410px;" />
+            <tr>
+                <td style="padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top">
+                    <p style="text-align: center;margin-bottom: 0;" align="center">
+                        <img src="../image/adminonly.gif" />
+                    </p>
+                </td>
+                <td style="padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top"><span class="SLXBold">Solo per l'amministratore di sistema</span>
+                </td>
+            </tr>
+        </table>
+        <p>Se il Query Builder impiega molto tempo per rispondere, potrebbero esistere join ricorsive che è possibile rimuovere. Un esempio di join ricorsiva è:</p>
+        <p>Join 1: Azienda-&gt;Azienda_Ext</p>
+        <p>Join 2: Azienda_Ext-&gt;Azienda</p>
+        <p class="Infinitive">Per trovare le join ricorsive</p>
+        <ul>
+            <li class="Bullets" value="1">Eseguire la seguente istruzione:  <blockquote><p>SELECT j1.tabellada tabellada1, j1.campoda campoda1, j1.tabellaa tabellaa1, j1.campoa campoa1</p><p>FROM sysdba.JOINDATA j1, sysdba.joindata j2 where j1.fromtable = j2.totable  </p><p>AND j1.tabellaa = j2.tabellada </p><p>AND j1.campoda = j2.campoa </p><p>AND j1.campoa = j2.campoda</p></blockquote></li>
+        </ul>
+        <table wrapperparagraphselector="P" style="margin-top: 14pt;border-spacing: 0px;border-spacing: 0px;" cellspacing="0">
+            <col />
+            <col />
+            <tr>
+                <td style="padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top">
+                    <p style="text-align: center;margin-bottom: 0;" align="center">
+                        <img src="../image/caution.gif" />
+                    </p>
+                </td>
+                <td style="padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top">
+                    <p style="margin-bottom: 0;">Non rimuovere le seguenti join di sistema:</p>
+                    <ul>
+                        <li class="Bullets" value="1">Opportunity_Salesstep.Salesstepid -&gt; Salesstep.Salesstepid<br /></li>
+                        <li class="Bullets" value="2">Salesstep.Salesstepid -&gt; Opportunity_Salesstep.Salesstepid</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+        <p>Per ulteriori informazioni sull'esecuzione di istruzioni SQL, consultare la Guida di  Administrator.</p>
+        <p class="RelatedTopics">Argomenti Correlati</p>
+        <p><a href="../QueryBuilder/Using_SalesLogix_Query_Builder.htm" target="_self">Panoramica su Query Builder</a>
+        </p>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

@@ -1,0 +1,141 @@
+<html>
+    <head>
+        <title>Sage.UI.Filters Browser Tests</title>
+        <link rel="stylesheet" type="text/css" href="../../../../../Libraries/dojo/dijit/themes/claro/claro.css" />
+        <script type="text/javascript" src="../../mocks.js"></script>
+        <script pin="pin" type="text/javascript">
+            var dojoConfig = {
+                parseOnLoad: true,
+                isDebug: true,
+                paths: {'Sage' : '../../../jscript/Sage'}
+            };
+        </script>
+        <script type="text/javascript" src="../../../../../Libraries/dojo/dojo/dojo.js"></script>
+        <script type="text/javascript" src="../../../../../Libraries/Simplate.js"></script>
+          <script type="text/javascript">
+              require([
+                  "dojo/parser",
+                  "doh",
+                  "dojo/ready",
+                  'dojo/string',
+                  "dojo/_base/Deferred",
+                  "Sage/UI/Filters/LookupFilter"
+              ], function (
+                  parser,
+                  doh,
+                  ready,
+                  dString,
+                  Deferred,
+                  LookupFilter
+              ) {
+                  ready(function () {
+                      
+                     var filter = { 
+                         filterName: 'TestFilter',
+                         details: {
+                              userLookupFilter:{
+                                  operators: [
+                                   'Equal',
+                                  'NotEqual',
+                                  'LessThan',
+                                  'LessThanEqual',
+                                  'GreaterThan',
+                                  'GreaterThanEqual',
+                                  'StartsWith',
+                                  'EndsWith',
+                                  'Contains']
+                              }
+                          }
+                     };
+
+                     var store = {};
+                     var testHelper = function (argValue, argOperator) {
+                        var appliedValues = {
+                             value: {
+                                 operator: argOperator,
+                                 value: argValue
+                             }
+                         }
+                         var def = new Deferred();
+                         var lookupFilter;
+                         var args = {
+                             configurationProvider: null,
+                             filter: filter,
+                             store: store,
+                             appliedValues: appliedValues,
+                             parent: null,
+                             groupId: "testGroupId",
+                             expanded: true
+                         }
+                         var filterId = "lookupFilter_" + argOperator;
+                         lookupFilter = new LookupFilter(args, filterId);
+                         lookupFilter._filterGroup = filterId
+                         lookupFilter.startup();
+                         lookupFilter.toggleExpand();
+                         var value = lookupFilter.textInput.get('value');
+                         var selectedOp = lookupFilter.operators.get('value'); 
+                         doh.t(value === argValue);
+                         doh.t(selectedOp === argOperator);
+                         var onFilterChanged = function (aDefinition, aName, aValue, aSource) {
+                             doh.t(aName === lookupFilter.filter.filterName);
+                             doh.t(aValue.value === value);
+                             doh.t(aValue.operator === selectedOp);
+                             doh.t(aDefinition === filter);
+                         };
+                         dojo.subscribe(dString.substitute("/ui/filters/${0}/change", [lookupFilter._filterGroup]), this, onFilterChanged);
+
+                         lookupFilter.doSearch();
+                     };
+                     
+                     
+                     doh.register("Sage.tests.UI.Filters.LookupFilter", [
+                          function testLookupFilterStartsWith() {
+                              testHelper("A", "StartsWith");
+                          },
+                          function testLookupFilterContians() {
+                              testHelper("B", "Contains");                              
+                          },
+                          function testLookupFilterEndsWith() {
+                               testHelper("C", "EndsWith");
+                          },
+                          function testLookupFilterEqual() {
+                              testHelper("D", "Equal");
+                          },
+                          function testLookupFilterNotEqual() {
+                              testHelper("E", "NotEqual");
+                          },
+                          function testLookupFilterLessThan() {
+                              testHelper("F", "LessThan");
+                          },
+                          function testLookupFilterLessThanEqual() {
+                              testHelper("G", "LessThanEqual");
+                          },
+                          function testLookupFilterGreaterThan() {
+                              testHelper("H", "GreaterThan");
+                          },
+                          function testLookupFilterGreaterThanEqual() {
+                              testHelper("I", "GreaterThanEqual");
+                          }
+                      ]);
+
+                      //Execute D.O.H. in this remote file.
+                      doh.run();
+                  });
+              });
+
+        </script>       
+    </head>
+    <body class="claro">
+        <form>
+            <div id="lookupFilter_StartsWith"></div>
+            <div id="lookupFilter_Contains"></div>     
+            <div id="lookupFilter_EndsWith"></div>     
+            <div id="lookupFilter_Equal"></div>     
+            <div id="lookupFilter_LessThan"></div>     
+            <div id="lookupFilter_LessThanEqual"></div>     
+            <div id="lookupFilter_GreaterThan"></div>     
+            <div id="lookupFilter_GreaterThanEqual"></div>          
+  
+        </form>
+    </body>
+</html>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:fileTags="Translation Status.Support files" xml:lang="de" MadCap:tocPath="" MadCap:medium="non-print" MadCap:InPreviewMode="false" MadCap:PreloadImages="false" MadCap:RuntimeFileType="Topic" MadCap:TargetType="WebHelp" lang="de" MadCap:conditions="Output.WebClient,Output.Legacy LAN,Output.GSLAN" MadCap:PathToHelpSystem="../../" MadCap:HelpSystemFileName="WebClient.xml" MadCap:SearchType="Stem">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="copyright" />
+        <meta name="window-type" content="(w95sec)" /><title>Was ist Synchronisierung?</title>
+        <link href="../SkinSupport/Slideshow.css" rel="stylesheet" />
+        <link href="../SkinSupport/MadCap.css" rel="stylesheet" />
+        <link href="../Resources/TableStyles/TableStyle.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/Infor.CSS" rel="stylesheet" />
+        <script src="../SkinSupport/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapAll.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapTopicAll.js" type="text/javascript">
+        </script>
+    </head>
+    <body>
+        <h1 value="SalesLogix Sales Help (03/19/2002) for v6.2 © 1997-2004 Best Software, Inc. and Sage Technologies Limited" MadCap:conditions="Output.Legacy LAN,Output.WebClient"><a name="kanchor712"></a>Was ist Synchronisierung?<a name="kanchor713"></a></h1>
+        <p><a name="kanchor714"></a>
+        </p>
+        <table wrapperparagraphselector="P" style="margin-top: 14pt;width: 98%;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" width="98%">
+            <col style="width: 7.994%;" />
+            <col style="width: 92.006%;" />
+            <tr>
+                <td style="width: 7.994%;padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top" width="7.994%">
+                    <p style="text-align: center;margin-bottom: 0;" align="center">
+                        <img src="../image/remotes.gif" />
+                    </p>
+                </td>
+                <td style="width: 92.006%;padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top" width="92.006%">
+                    <p class="Tip-Note-Text" style="margin-bottom: 0;"><span class="SLXBold">Nur Remote-Benutzer</span>
+                    </p>
+                </td>
+            </tr>
+        </table>
+        <p MadCap:conditions="Output.Legacy LAN,Output.WebClient">Wenn in Ihrem Unternehmen Remote-Benutzer arbeiten, die sich nicht mit einer zentralen Computerumgebung verbinden können (z. B. mit einem WAN oder einem Online-System), führen die von diesen Benutzern an ihrer Datenbank vorgenommenen Änderungen zu Inkonsistenzen mit den Daten aus der Host-Datenbank. Durch die Synchronisierung werden diese Änderungen abgestimmt, Änderungen auf die Arbeitsgruppen-Datenbank angewendet und Dateien erstellt, die Remote-Benutzer abrufen können, um die Remote-Datenbank zu aktualisieren.</p>
+        <p>
+            <MadCap:conditionalText MadCap:conditions="Output.WebClient,Output.GSLAN">Eine Synchronisierung ist ein Austausch von Dateien zwischen Remote-Benutzern und der Zentrale.</MadCap:conditionalText>&#160;<MadCap:conditionalText MadCap:conditions="Output.WebClient">Netzwerk-Benutzer nehmen Änderungen direkt an der Arbeitsgruppen-Datenbank vor. Remote-Benutzer nehmen Änderungen an Remote-Datenbanken vor und verbinden sich dann mit der Hauptniederlassung, um Dateien, die solche Änderungen enthalten, zu übertragen und neue Dateien mit Änderungen, die an der Arbeitsgruppen-Datenbank vorgenommen wurden, abzurufen. Remote Office-Benutzer nehmen Änderungen direkt an der Datenbank des Remote Office vor. Das Remote Office kontaktiert anschließend die Hauptniederlassung, um nach demselben Verfahren wie ein Remote-Benutzer Dateien zu übertragen und abzurufen. Der Synchronisierungsserver übernimmt die von den Remote-Benutzern und den Remote Offices übermittelten Dateien, löst eventuell auftretende Konflikte, wendet die von den Remote-Benutzern und Remote Offices vorgenommene Änderungen auf die Datenbank der Hauptniederlassung an und erstellt Dateien, die die Datenbankänderungen für die Remote Clients enthalten.</MadCap:conditionalText>&#160;</p>
+        <p MadCap:conditions="Output.WebClient">Das Austauschen von Dateien und Aktualisieren von Datenbanken während der Synchronisierung ist derzeit nicht als Web-Anwendung verfügbar. Datenbankänderung durch Web-Benutzer werden bei der Synchronisierung als Änderungen von Netzwerk-Benutzern verarbeitet und protokolliert. Damit Remote-Benutzer in Bezug auf Firmen immer auf dem neusten Stand bleiben, haben Sie die Möglichkeit, Firmen schreibgeschützt im Web-Client anzuzeigen. Der Firmenzugriff wird durch die vom Systemadministrator festgelegten Zugriffsrechte bestimmt.</p>
+        <p class="RelatedTopics">Verwandte Themen</p>
+        <p MadCap:conditions="Output.WebClient"><a href="What_Is_Conflict_Resolution__.htm" target="_self">Grundlegendes zur Konfliktlösung</a>
+        </p>
+        <p MadCap:conditions="Output.WebClient"><a href="../Accounts/What_Are_Accounts.htm" target="_self">Firmen-Übersicht</a>
+        </p>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

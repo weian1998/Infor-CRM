@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<method xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="e9288576-4ccc-4bfd-9912-490a8bd36a90" lastModifiedUtc="2013-04-22T18:32:09.4994538Z" name="UpdateUserCalendarFavorites" methodType="Rule" actionType="None" returnMode="None">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmEntityMethod" />
+  </ExtendedPropertiesCollection>
+  <parameter>
+    <OrmEntityMethodParam id="1f184a94-b1ff-44ab-9833-6583751ba5de" paramName="userId" sequence="0" paramType="String" />
+    <OrmEntityMethodParam id="d0018668-ab2a-46b8-9d9c-c531580fdd11" paramName="favUserIds" sequence="0" paramType="String" />
+  </parameter>
+  <preExecuteTargets />
+  <methodTargets>
+    <methodTarget id="5e7f6fcc-112d-4312-8ed5-50039840dcc2" lastModifiedUtc="2013-04-22T18:31:19.3265102Z" targetType="Sage.SalesLogix.Activity.BusinessRules.UserCalendarFavorite, Sage.SalesLogix.Activity" targetMethod="updateCalendarFavoriteUsers" active="true">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmMethodTarget" />
+      </ExtendedPropertiesCollection>
+    </methodTarget>
+  </methodTargets>
+  <postExecuteTargets />
+  <postFlushTargets />
+</method>

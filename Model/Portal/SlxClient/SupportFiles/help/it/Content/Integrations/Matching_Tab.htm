@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:fileTags="Translation Status.Support files" MadCap:tocPath="" MadCap:medium="non-print" MadCap:InPreviewMode="false" MadCap:PreloadImages="false" MadCap:RuntimeFileType="Topic" MadCap:TargetType="WebHelp" lang="en-us" xml:lang="en-us" MadCap:conditions="Output.WebClient" MadCap:PathToHelpSystem="../../" MadCap:HelpSystemFileName="WebClient.xml" MadCap:SearchType="Stem">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Scheda Corrispondenza</title>
+        <link href="../SkinSupport/Slideshow.css" rel="stylesheet" />
+        <link href="../SkinSupport/MadCap.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/Infor.CSS" rel="stylesheet" />
+        <script src="../SkinSupport/jquery.min.js">
+        </script>
+        <script src="../SkinSupport/MadCapAll.js">
+        </script>
+        <script src="../SkinSupport/MadCapTopicAll.js">
+        </script>
+    </head>
+    <body>
+        <h1>Scheda Corrispondenza</h1>
+        <p><a name="kanchor528"></a>la scheda Corrispondenza è utilizzata per configurare le opzioni per la ricerca di corrispondenze tra <span class="MyVariablesCompanyNameFull">Infor</span> e qualsiasi sistema di contabilità integrato. Le opzioni selezionate definiscono in che modo i dati inseriti dagli utenti in <span class="MyVariablesCompanyNameFull">Infor</span> corrisponderanno ai dati esistenti nel proprio sistema di contabilità. <a href="javascript:void(0);" onclick="FMCToggler( this ); return false;" class="MCToggler_0" MadCap:targets="search criteria">Per saperne di più...<img style="border: none;margin-left: 5px;" src="../SkinSupport/DropDownClosed.gif" MadCap:altsrc="../SkinSupport/DropDownOpen.gif" onload="if ( typeof( FMCPreloadImage ) == 'function' ) { FMCPreloadImage( '../SkinSupport/DropDownOpen.gif' ); }" alt="Closed" MadCap:alt2="Open" class="MCTogglerIcon" /></a></p>
+        <p MadCap:targetName="search criteria" style="display: none;">Queste impostazioni definiscono i criteri predefiniti di corrispondenza per tutti gli utenti che collegano dati di contabilità. Impostare criteri di ricerca ristretti potrebbe restituire un numero non sufficiente di risultati agli utenti, portandoli a creare dei duplicati.</p>
+        <table wrapperparagraphselector="P" style="width: 80%;margin-top: 14pt;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" width="80%">
+            <col style="width: 45px;" />
+            <col />
+            <tr>
+                <td style="padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top">
+                    <p style="text-align: center;margin-bottom: 0;" align="center">
+                        <img src="../image/note.gif" />
+                    </p>
+                </td>
+                <td style="width: 90%;padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top" width="90%">
+                    <p class="Tip-Note-Text" style="margin-bottom: 0;">Questa scheda applica soltanto le integrazioni di Contabilità.</p>
+                </td>
+            </tr>
+        </table>
+        <p class="Infinitive">Per configurare</p>
+        <ol>
+            <li value="1">Aprire la <a href="SData_Detail_view.htm">vista Configurazione Sincronizzazione SData</a>.</li>
+            <li value="2">Fare clic sulla scheda <span class="SLXBold">Corrispondenza</span>.</li>
+            <li value="3">Fare clic sul collegamento <span class="SLXBold">Modifica</span> relativo alla risorsa per cui si vogliono definire o modificare i criteri di corrispondenza.</li>
+            <li value="4">Nella finestra di dialogo <span class="SLXBold">Modifica i Criteri di Corrispondenza</span>, completare le seguenti:
+        <ol style="list-style-type: lower-alpha;"><li value="1">Nella casella <span class="SLXBold">Proprietà</span> selezionare una proprietà per cui si vogliono comparare i valori. <br /><a name="kanchor529"></a>I propri sistemi di contabilità devono supportare il filtraggio in questa proprietà, altrimenti gli utenti che proveranno a promuovere le aziende non potranno vedere nessuna corrispondenza fino a quando non avranno modificato la ricerca. <a href="javascript:void(0);" onclick="FMCToggler( this ); return false;" class="MCToggler_0" MadCap:targets="4a bul">Per saperne di più...<img style="border: none;margin-left: 5px;" src="../SkinSupport/DropDownClosed.gif" MadCap:altsrc="../SkinSupport/DropDownOpen.gif" onload="if ( typeof( FMCPreloadImage ) == 'function' ) { FMCPreloadImage( '../SkinSupport/DropDownOpen.gif' ); }" alt="Closed" MadCap:alt2="Open" class="MCTogglerIcon" /></a><ul><li MadCap:targetName="4a bul" value="1" style="display: none;">Nel browser digitare l'URL Feed Contabilità creato quando è stata eseguita la configurazione di Integrazione Contabilità, seguito da <span class="SLXBold">/$schema</span>, e verificare che l'attributo <span class="SLXBold">canFilter</span> della proprietà sia impostato a <span class="SLXBold">Vero</span>.
+   
+        <p MadCap:targetName="4a para2" xml:space="preserve" class="TopicTextIndent3">Esempio di URL:</p><p class="TopicTextIndent3" MadCap:targetName="4a para 3">http://<i>server</i>:<i>port</i>/<i>sdatavirtualdir</i>/<i>applicazione</i>/<i>contratto</i>/<i>impostazionedati</i>/$schema</p></li></ul></li><li value="2">Nella casella <span class="SLXBold">Operatore</span> selezionare un operatore per completare la condizione di corrispondenza.</li><ul><li value="1"><span class="SLXBold">Uguale a</span> - per confermare la corrispondenza è necessario che il valore della proprietà sia uguale in ciascun sistema. Ad esempio Abbott non corrisponde ad Abbot Inc.</li><li value="2"><span class="SLXBold">Inizia per</span> - il valore della proprietà deve iniziare con lo stesso valore in ciascun sistema.</li><li value="3"><span class="SLXBold">Contiene</span> - All'interno del valore della proprietà in ciascun sistema deve essere contenuto lo stesso valore. Ad esempio Abbott può essere trovato sia in Abbott Inc che in Abbott Worldwide.</li></ul><li value="3">Per aggiungere ulteriori criteri di corrispondenza fare clic su <img src="../image/plus.gif" />.</li><li value="4">Per rimuovere criteri di corrispondenza fare clic su <img src="../image/minus.gif" />.</li><li value="5">Fare clic su <span class="SLXBold">OK</span>.</li></ol></li>
+        </ol>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

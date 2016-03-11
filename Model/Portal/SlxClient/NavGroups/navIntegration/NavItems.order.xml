@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<ModelItems xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Item Id="88d58f3e-d518-4d39-b527-3a63c24c9cf4">navIntegrationSyncResults.navitem.xml</Item>
+  <Item Id="85bd8d37-6e9d-4034-a6ff-76b5e8a84d49">navIntegrationSyncJobs.navitem.xml</Item>
+  <Item Id="6437c40d-f884-4a82-b229-ac5a1b228944">navIntegrationIntegrations.navitem.xml</Item>
+</ModelItems>

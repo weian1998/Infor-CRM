@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<ModelItems xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Item Id="2da9c551-653c-4389-80f3-9feefd401d2a">Sage.SalesLogix.Scheduling.UserAuthenticationListener.listener.xml</Item>
+  <Item Id="fbb4fb8f-42f2-4331-8ea4-08caeb0ae82c">Sage.SalesLogix.Scheduling.VirtualFileSystemListener.listener.xml</Item>
+  <Item Id="c79e539b-7715-4bbd-b408-100e4e628792">Sage.Platform.Scheduling.SessionScopeListener.listener.xml</Item>
+</ModelItems>

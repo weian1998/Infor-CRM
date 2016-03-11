@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:fileTags="Translation Status.Support files" xml:lang="de" MadCap:tocPath="" MadCap:medium="non-print" MadCap:InPreviewMode="false" MadCap:PreloadImages="false" MadCap:RuntimeFileType="Topic" MadCap:TargetType="WebHelp" lang="de" MadCap:conditions="Output.WebClient" MadCap:PathToHelpSystem="../../" MadCap:HelpSystemFileName="WebClient.xml" MadCap:SearchType="Stem">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="description" content="Erstellen Sie eine gesicherte Infor CRM Aktion für ein Benutzeroberflächenelement. Nachdem eine gesicherte Aktion einem Benutzeroberflächenelement zugewiesen wurde, können Benutzer nur dann das dazugehörige Element anzeigen und nutzen, wenn ihnen eine Rolle zugewiesen wurde, die die gesicherte Aktion enthält." />
+        <meta name="keywords" content="Create a secured action for Infor CRM Web Client user interface elements " /><title>Erstellen gesicherter Aktionen</title>
+        <link href="../SkinSupport/Slideshow.css" rel="stylesheet" />
+        <link href="../SkinSupport/MadCap.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/Infor.CSS" rel="stylesheet" />
+        <script src="../SkinSupport/jquery.min.js">
+        </script>
+        <script src="../SkinSupport/MadCapAll.js">
+        </script>
+        <script src="../SkinSupport/MadCapTopicAll.js">
+        </script>
+    </head>
+    <body>
+        <h1>Erstellen gesicherter Aktionen</h1>
+        <table wrapperparagraphselector="P" style="width: 80%;margin-top: 14pt;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" width="80%">
+            <col style="width: 39px;" />
+            <col />
+            <tr>
+                <td style="padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top">
+                    <p style="text-align: center;margin-bottom: 0;" align="center">
+                        <img src="../image/adminonly.gif">
+                        </img>
+                    </p>
+                </td>
+                <td style="width: 90%;padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top" width="90%">
+                    <p>Der Systemadministrator und Benutzer mit der entsprechenden <a href="What_are_Roles_and_Secured_Actions.htm" target="_self">Rolle</a> können auf diese Funktionen zugreifen.</p>
+                </td>
+            </tr>
+        </table>
+        <p>Zum Sichern von Elementen im Web Client können Sie neue gesicherte Aktionen erstellen.</p>
+        <p>Stellen Sie beim Erstellen einer neuen gesicherten Aktion sicher, dass die Aktion einen eindeutigen bislang nicht verwendeten Namen hat (es sei denn, Sie stellen eine versehentlich gelöschte gesicherte Aktion wieder her). Wenn Sie eine gesicherte Aktion gelöscht haben, ohne die Aktion manuell aus den Elementen in Application Architect zu entfernen, bietet die neue Aktion ggf. einen unerwünschten Zugriff. <a href="javascript:void(0);" onclick="FMCToggler( this ); return false;" class="MCToggler_0" MadCap:targets="ActionExample">Weitere Informationen...<img style="border: none;margin-left: 5px;" src="../SkinSupport/DropDownClosed.gif" MadCap:altsrc="../SkinSupport/DropDownOpen.gif" onload="if ( typeof( FMCPreloadImage ) == 'function' ) { FMCPreloadImage( '../SkinSupport/DropDownOpen.gif' ); }" alt="Closed" MadCap:alt2="Open" class="MCTogglerIcon" /></a></p>
+        <p MadCap:targetName="ActionExample" MadCap:conditions="Reporting.Reporting references" style="display: none;">Angenommen, Sie haben die gesicherte Aktion <span class="SLXBold">Drucken/Berichte</span> erstellt und mehreren Schaltflächen vom Typ <span class="SLXBold">Drucken</span> hinzugefügt (mithilfe der Eigenschaft <span class="SLXBold">Angewandte Sicherheit</span> in Application Architect). Anschließend haben Sie die gesicherte Aktion <span class="SLXBold">Drucken/Berichte</span> gelöscht, ohne die Eigenschaft <span class="SLXBold">Angewandte Sicherheit</span> für die Schaltflächen vom Typ <span class="SLXBold">Drucken</span> zu ändern. Wenn Sie eine neue gesicherte Aktion mit dem Namen <span class="SLXBold">Drucken/Berichte</span> erstellen, werden alle Schaltflächen vom Typ <span class="SLXBold">Drucken</span>, die zuvor der Aktion <span class="SLXBold">Drucken/Berichte</span> zugeordnet waren, mit der neuen Aktion <span class="SLXBold">Drucken/Berichte</span> verknüpft.</p>
+        <p><span class="MyVariablesProduct Name">Infor CRM</span> empfiehlt empfiehlt das Verwenden eines beschreibenden Namens für Ihre gesicherten Aktionen, der zum Nachverfolgen des beabsichtigten Zwecks der Aktion dienen kann. Die gesicherte Aktion <span class="SLXBold">Entität/Firma/Löschen</span> dient beispielsweise zum Steuern von Elementen, die Benutzern das Löschen von Firmen ermöglichen. Diese Benennungsstruktur wird empfohlen, aber nicht erzwungen. Der Name der gesicherten Aktion ist ein Zeichenfolgenwert mit beliebigen Benennungsregeln.</p>
+        <p class="Infinitive">So gehen Sie zum Erstellen vor</p>
+        <ol>
+            <li class="Topic-Text-Numbered" value="1">Klicken Sie im Menü <span class="SLXBold">Administration</span> auf <span class="SLXBold">Neue gesicherte Aktion</span>.</li>
+            <li class="Topic-Text-Numbered" value="2">Geben Sie in das Feld <span class="SLXBold">Gesicherte Aktion</span> den Namen der gesicherten Aktion ein.</li>
+            <li class="Topic-Text-Numbered" value="3">Geben Sie in das Feld <b>Beschreibung</b> beschreibende Informationen zur gesicherten Aktion ein.</li>
+            <li class="Topic-Text-Numbered" value="4">Klicken Sie auf <span class="MCExpanding_0"><a href="javascript:void(0);" class="MCExpandingHead_0" onclick="FMCExpand( this ); return false;">Speichern<img style="border: none;margin-left: 5px;" src="../SkinSupport/ExpandClosed.gif" MadCap:altsrc="../SkinSupport/ExpandOpen.gif" onload="if ( typeof( FMCPreloadImage ) == 'function' ) { FMCPreloadImage( '../SkinSupport/ExpandOpen.gif' ); }" alt="Closed" MadCap:alt2="Open" class="MCExpandingIcon" /></a><span class="MCExpandingBody_0" style="display: none;"><img src="../image/update.gif" /></span></span>, um die gesicherte Aktion zu speichern, oder auf <span class="MCExpanding_0"><a href="javascript:void(0);" class="MCExpandingHead_0" onclick="FMCExpand( this ); return false;">Speichern und neu<img style="border: none;margin-left: 5px;" src="../SkinSupport/ExpandClosed.gif" MadCap:altsrc="../SkinSupport/ExpandOpen.gif" onload="if ( typeof( FMCPreloadImage ) == 'function' ) { FMCPreloadImage( '../SkinSupport/ExpandOpen.gif' ); }" alt="Closed" MadCap:alt2="Open" class="MCExpandingIcon" /></a><span class="MCExpandingBody_0" style="display: none;"><img src="../image/savenew.gif" /></span></span>, um die gesicherte Aktion zu speichern und eine weitere zu erstellen.</li>
+            <li class="Topic-Text-Numbered" value="5">Auf der Registerkarte <a href="SecuredActionRolesTab.htm" target="_self">Rollen</a> können Sie die gesicherte Aktion einer Rolle hinzufügen.</li>
+            <li class="Topic-Text-Numbered" value="6">Auf der Registerkarte <a href="SecuredActionLocationsTab.htm" target="_self">Standorte</a> können Sie prüfen, ob die gesicherte Aktion verwendet wird.</li>
+        </ol>
+        <p class="RelatedTopics">Verwandte Themen</p>
+        <p><a target="_self" href="What_are_Roles_and_Secured_Actions.htm">Was sind Rollen und gesicherte Aktionen?</a>
+        </p>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

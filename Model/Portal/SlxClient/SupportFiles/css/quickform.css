@@ -1,0 +1,1048 @@
+/* the class for areas that contain input type=checkbox  */
+.checkbox
+{
+	clear : both;
+	padding-top : 2px;
+}
+
+
+.checkbox INPUT
+{
+	margin-right : 3px;
+}
+
+.checkbox LABEL 
+{
+	padding-right : 2px;
+}
+
+.alignleft.checkbox label 
+{
+    display: inline-block;
+    /*commment below to allow label first and checkbox later */
+    float: left;
+    text-align: right;
+    width: 34%;
+    margin: 3px 14px 0 0 ;
+}
+/*reset from line 22*/
+#PickListDetailcontents .alignleft.checkbox label, #InsertContactcontents .alignleft.checkbox label
+{
+    float:none;
+    text-align:left;
+    margin:0;
+    white-space: nowrap;
+}
+
+
+.slxlabel.alignleft.checkbox {
+    padding-top:9px;
+}
+
+/* the class for areas that conain input type=radio  */
+.radio
+{
+	clear : both;
+}
+.radio INPUT
+{
+	margin : 2px;
+	margin-top: 0px;
+}
+
+/* areas that contain "text" controls - including composite controls that include a text control  */
+.textcontrol
+{
+	float : left;
+	width : 50%;
+	white-space : nowrap;
+    margin: 2px 0px;
+}
+div#MainWhatsNewcontents .textcontrol {
+  margin: 0 10px !important;
+}
+#DialogWorkspace_window .textcontrol {
+	width: 60%;
+}
+.textcontrol.phone.lbl {
+    width:34%;
+}
+.width90
+{
+	width : 90% !important;
+}
+
+.textcontrol INPUT, .textcontrol TEXTAREA {	
+	font-size: 14px;
+	width : 99%;
+	/*background-color: #FFFFFF;
+	border: 1px solid #A8A9BE;*/
+	font-style: normal;
+	margin : .1em 0em;
+	vertical-align : middle;
+    text-overflow: ellipsis;
+}
+textarea {
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+}
+.textcontrol SELECT ,
+.textcontrol > table
+{
+	width : 100%;
+	margin : .08em 0em;
+	vertical-align : middle;
+	padding-left : 5px;
+}
+
+.textcontrol > .dijitSelect
+{
+	height: 34px;
+	width: 100%;	
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.TimeZoneList
+{
+	height: 34px;
+	width: 50%;	
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+    float: left;
+}
+
+.TimeZoneList .dijitArrowButton
+{
+	width: 16px;	
+}
+
+.textcontrol > .dijitSelect .dijitArrowButton
+{
+	width: 16px;
+}
+
+
+INPUT[disabled], .textcontrol INPUT[disabled], .textcontrol TEXTAREA[disabled],
+.dependency INPUT[disabled], .dependency TEXTAREA[disabled]
+{
+	background-color : #e5e5e5;
+	color : #737373;
+	border: 1px solid #d2d2d2;
+	cursor : default;	
+	text-shadow: none;
+}
+SELECT[disabled]
+{
+	background-color : #e5e5e5;
+	color : #737373;
+	border: 1px solid #d2d2d2;
+  	cursor : default;
+	opacity : 0.8;
+}
+.textcontrol INPUT[readonly] {
+    color : #1a1a1a;
+    border: 1px solid #d2d2d2;
+    cursor : default;
+    width: 100%;
+    -moz-box-sizing: border-box;
+    box-sizing:border-box;
+}
+[id$="txtEmailBaseTemplate"],
+[id$="txtLetterBaseTemplate"],
+[id$="txtFaxBaseTemplate"] {
+height: 34px !important;
+}
+.inforSoHoXi .dijitDialog .textcontrol INPUT[readonly] {
+  background-color: transparent !important;
+}
+.dijitValidationContainer input[readonly].dijitValidationIcon {
+  border: none !important;
+}
+.textcontrol TEXTAREA[readonly],
+.dependency INPUT[readonly], .dependency TEXTAREA[readonly]
+{
+    background-color : #e5e5e5; /*original*/
+    color : #1a1a1a;
+    border: 1px solid #d2d2d2;
+    cursor : default;
+    width: 100%;
+    -moz-box-sizing: border-box;
+    box-sizing:border-box;
+}
+
+div.dijitTextBoxReadOnly.dijitValidationTextBoxReadOnly.dijitReadOnly,
+div.dijitTextBoxReadOnly.dijitComboBoxReadOnly.dijitReadOnly
+{
+	background-color : #e5e5e5 !important; 
+    color : #1a1a1a !important;
+    cursor : default;
+	border: 1px solid #d2d2d2;
+}
+div.dijitTextBoxDisabled.dijitDisabled {
+    background-color : #e5e5e5 !important; 
+    color : #737373 !important;
+    cursor : default;
+	border: 1px solid #d2d2d2;
+}
+.textcontrol IMG 
+{
+	padding-left : 0px;
+}
+
+input#MainContent_InsertLead_cmdMatchingRecords {
+  position: relative;
+  left: 58%;
+  float: left;
+}
+
+.twocoltextcontrol INPUT,
+.twocoltextcontrol TEXTAREA,
+.twocoltextcontrol SELECT,
+.threecoltextcontrol INPUT,
+.threecoltextcontrol TEXTAREA,
+.threecoltextcontrol SELECT
+{	
+	color: #1a1a1a;
+	font-size: 14px;
+	width : 95%;
+	background-color: #FFFFFF;
+	border: 1px solid #999;
+	font-style: normal;
+	margin : .1em 0em;
+}
+
+.slxcontrol
+{
+	color: #1a1a1a;
+	font-size: 14px;
+	width : 55%;
+	background-color: #FFFFFF;
+	border: 1px solid #999;
+	font-style: normal;
+	margin : .1em 0em;
+}
+
+.slxlinkcontrol 
+{
+	font-size : 14px;
+	width : 48%;
+	font-style: normal;
+	margin : .2em 0em 0em .1em;
+}
+.slxtwocollinkcontrol 
+{
+	width : 75%;
+}
+
+.slxtext
+{
+	font-size: 12px;
+	font-style: normal;
+	border: 1px solid #999;
+}
+
+.slxbutton 
+{
+	color: #1a1a1a;
+	border : solid 1px #999;
+	background-color: #E1E1DC;
+	cursor : pointer;
+    text-align: center;
+    display: inline-block;
+    white-space: nowrap;
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	margin: 3px;
+}
+
+.slxcontrolbutton 
+{
+	vertical-align :  middle;
+}
+
+.bottomformtable 
+{
+	margin : 5px 0px 0px;
+	width : 100%;
+}
+
+.formtable 
+{
+	width : 100%;
+}
+
+.formtable TD 
+{
+	vertical-align : top;
+}
+
+.dijitDialogPaneContent .formtable td, .formtable tr.mainContentHeader td 
+{
+    vertical-align:middle;
+}
+ 
+.tws-tab-view-body > .formtable 
+{
+    margin: 0px;    
+    height: auto;
+}
+
+.optionsTable td
+{
+    padding-top:5px;
+    padding-bottom:5px;   
+}
+
+
+/* labels................  */
+
+.twocollbl 
+{
+	width : 17%; 
+	float : left;
+	text-align:right;
+	font-size : 12px;
+	padding-top : 14px;
+    margin-right: 13px;
+}
+.twocolremainder /* Used for spans that take up the rest of a two column row with a label */
+{
+	float : left;
+	font-size : 12px;
+	padding-top : .8em;
+    margin-right: 13px;
+}
+
+.slxlabel
+{
+	font-size : 12px;
+}
+.Bevel .slxlabel {
+    text-align:left;
+}
+.Bevel td
+{
+    padding: 5px 5px 0;
+}
+.Bevel .dijitComboBox 
+{
+    height:inherit !important;
+}
+.Bevel .lbl 
+{
+    padding-top:12px;
+}
+
+.tws-tab-view-header .slxlabel,
+.tws-tab-view-header span[id$="_QFLabel"] {
+  padding-top: 0px !important;
+}
+.tws-tab-view-header span[id$="lblTabDescription"] {
+    position: relative;
+    top: 5px;
+}
+.lbl 
+{
+	float : left;
+	font-size : 12px;
+	padding-top : 14px;
+    width: 34%;
+    white-space: normal;
+    margin-right: 14px;
+}
+.lbl + a 
+{
+    display: inline-block;
+    margin: 14px 0 10px;
+}
+.lbl + .slxlinkcontrol 
+{
+    margin-top: 10px;
+}
+.lbl + .lbl {
+    text-align:left !important;
+}
+.textcontrol + .lbl {
+    clear:left;
+}
+.lbl + .checkbox {
+    margin-top: 8px;
+    display: inline-block;
+}
+td > .lbl:only-child:only-of-type {
+    width:100%;
+}
+.lblLicMsg 
+{
+	float : right;
+	text-align:left;
+	font-size : 11px;
+	font-weight :normal;
+	padding-top : .3em;
+    width: 63%;
+}
+
+.tws-tab-view-body .lbl, .tws-tab-view-body .slxlabel {
+    text-align: right;
+    padding-top: 15px;
+    margin-right: 14px;
+}
+.tws-tab-view-body .slxlabel.alignleft.checkbox {
+    text-align:left;
+}
+
+.tws-tab-view-body td:only-child .slxlabel.checkbox.checkboxRight {
+    text-align:left;
+}
+.lblcontrol 
+{
+    float : left;
+	width : 50%;
+	white-space : nowrap;
+    margin: 14px 0px;
+}
+.lbl + div > .radio 
+{
+    padding-top: 15px;
+}
+
+.lbl + .radio 
+{
+    clear:none;
+}
+.datagrid .lbl
+{
+    padding-top : 0px
+}
+.datepicker .lbl, .phone .lbl, .picklist .lbl, .textcontrol .lbl
+{
+  width: 100%;
+  margin-top: -2px;
+}
+.task-pane-item .dijitTitlePaneContentInner 
+{
+    padding: 5px 6px !important;
+}
+
+.errorText {
+    font-weight: bold;
+    color: #ed1c24;
+    font-style: italic;
+}
+
+.colspan3
+{
+	width : 11.1%;
+}
+
+.formtable .lblright 
+{
+	font-size : 11px;
+	/*font-weight : bold;*/
+	padding-top : .3em;
+}
+
+.formtable .lbltop 
+{
+	width : 75%;
+	display : block;
+	font-size : 11px;
+	/*font-weight : bold;*/
+	padding-top : .3em;
+    text-align: left;
+}
+
+/* Label alignment */
+.alignleft 
+{
+    text-align: left;
+}
+
+.alignright 
+{
+	text-align : right;
+    white-space:inherit;
+}
+
+.aligncenter 
+{
+	text-align : center;
+}
+.valignbottom 
+{
+    vertical-align: bottom;
+}
+.valigntop 
+{
+    vertical-align: top;
+}
+
+.controlslist .alignleft 
+{
+    clear : both;
+}
+
+.controlslist .padleft 
+{
+    padding : 2px;
+}
+.controlslist .lookup
+{
+    padding-bottom : 3px;
+}
+
+HR 
+{
+	color : #b5cbe0;
+	clear : both;
+    border-bottom:none;
+}
+.timezone SELECT 
+{
+	width : 40%;
+	float : left;
+}
+.timezone INPUT
+{
+	width : auto;
+	float : left;
+	margin-left : 3px;
+	margin-right : 3px;
+}
+.timezone .TimeZoneLabel {
+	font-size : 12px;
+	background-color: #FFFFFF;
+	border: 1px solid #aaa;
+	font-style: normal;
+	margin : .2em 0em 0em .1em;
+	float : left;
+	width : 20%;
+    height: 34px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+}
+label[id$="tmzAddressTimeZone_lbl"] {
+    position: relative;
+    bottom: 5px;
+}
+.timezone > span > input {
+  float: left ;
+}
+.timezone .TimeZoneLabel TD
+{
+	vertical-align : middle;
+}
+div[id$="element_DefectReturns"] .formtable TD {
+    vertical-align: top;
+}
+
+/* dependency lookup control styles  */
+
+.dependency
+{
+	/*border : solid 1px black;*/
+}
+
+.dependency INPUT 
+{
+	color: #000000;
+	font-size: 11px;
+	width : 47%;
+	background-color: #FFFFFF;
+	border: 1px solid #aaa;
+	font-style: normal;
+	margin : .1em 0em;
+	padding-left : 5px;
+}
+
+.dependency IMG
+{
+	padding-left : 3px;
+}
+.formtable .qfActionContainer
+{
+	text-align: right;
+	/* width: 90%; to match general field widths */
+	padding: 10px;
+}
+
+.formtable .qfButtonContainer {
+    margin: 6px 0 0 3px;
+    display: inline;
+}
+
+.slx-tab-panel
+{
+    width: 100%;
+}
+
+.Warning INPUT,.Warning TEXTAREA, .Warning SELECT
+{	
+	color: red;	
+}
+
+.Bevel
+{
+    border-style:solid;
+    border-width:1px;
+    border-color: #c0c0c0;
+    padding:8px;
+    width:80%;
+}
+
+.Bevel.ExtendWidth {
+    width: 100%;
+}
+div.Bevel.ExtendWidth 
+{
+    padding:0;
+}
+div.Bevel.ExtendWidth table
+{
+    margin:8px;
+}
+
+input[type="radio"], input[type="checkbox"]
+{
+    margin-right:4px;
+}
+.wizardHeaderText {
+    font-size:14px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.wizardsectiontitle
+{
+    float: left;
+    text-align: left;
+    font-size: 15px;
+}
+
+.wizardsectiontext
+{
+    float: left;
+    text-align: left;
+    font-size: 12px;
+}
+
+.padBottom
+{
+    padding-bottom : 1em;
+}
+
+.padTop
+{
+    padding-top : 1em;
+}
+
+.boldtext
+{
+    font-weight : bold;
+}
+
+.italictext
+{
+    font-style : italic;
+}
+
+.dijitToolbarLabel 
+{
+    padding: 0px 5px;
+}
+
+.numericReducedWidth {
+    width: 40%;
+}
+
+
+
+
+/* specific to Form Manager page ------------------------------------------------- */
+
+.wysEditor .gridContainerZone 
+{
+    vertical-align: top;
+}
+
+.wysEditor 
+{
+    width:95%;
+    border: 1px solid #88A85C;
+    border-collapse: collapse;
+    margin: 10px;
+}
+
+.wysEditor .gridContainerTable 
+{
+    width: 100%;
+}
+
+.wysEditor .cpane
+{
+    background-color: #EAF1DF;
+	border:1px solid #88A85C;
+	font:bold 12px Arial;
+	color:#666;
+	margin: 10px;
+}
+
+.wysEditor .cpane.spanright
+{
+    margin-right: 0px;
+    border-right-width: 0px;
+}
+
+.wysEditor .cpane.spanleft
+{
+    margin-left: 0px;
+    border-left-width: 0px;
+}
+.wysEditor .cpane.spanleft .formMgr_ControlRepresentation .dragger
+{
+    background-image: url(../images/clear.gif);
+}
+.wysEditor .cpane.spanleft .formMgr_ControlRepresentation INPUT
+{
+    visibility: hidden;
+}
+
+.wysEditor .cpane.spacer 
+{
+    /* visibility: hidden; */
+    background-color: transparent;
+    border: 1px dashed #dddddd;
+}
+.wysEditor .cpane.spacer INPUT
+{
+    visibility: hidden;
+}
+
+.wysEditor .dropIndicator
+{
+	border:2px dashed #BFBFBF;
+	margin: 10px;
+}
+
+
+
+.formMgr_ControlRepresentation 
+{
+    color: #35491D;
+    width: 100%;
+    z-index: 5000;
+}
+
+.formMgr_ControlRepresentation.selected 
+{
+    background-color: #F8D6AA;
+}
+
+.formMgr_ControlRepresentation TD
+{
+    vertical-align: top;
+    padding-top: 5px;
+}
+
+.formMgr_ControlRepresentation .dragger
+{
+    width: 16px;
+    background-image: url(../images/icons/drag_handler_16x16.png);
+    background-repeat: no-repeat;
+    background-position: 0px 5px;
+}
+
+.formMgr_ControlRepresentation .lock
+{
+    width: 16px;
+    background-image: url(../images/clear.gif);
+    background-repeat: no-repeat;
+    background-position: 0px 5px;
+}
+
+.formMgr_ControlRepresentation.locked .lock 
+{
+    background-image: url(../images/icons/Private_16x16.png);
+}
+
+.formMgr_ControlRepresentation .caption 
+{
+    text-align: right;
+    padding-right: 4px;
+}
+
+.formMgr_ControlRepresentation .ctrlcontainer 
+{
+    width: 120px;
+}
+
+.formMgr_ControlRepresentation .ctrlcontainer INPUT 
+{
+    width: 114px;
+}
+
+.formMgr_ControlRepresentation .ctrlbtncontainer 
+{
+    width: 20px;
+    background-image: url(../images/clear.gif);
+    background-repeat: no-repeat;
+    background-position: 0px 5px;
+}
+
+.formMgr_ControlRepresentation.picklist .ctrlbtncontainer
+{
+    background-image: url(../images/icons/elipses.gif);
+}
+
+.formMgr_ControlRepresentation.url .ctrlbtncontainer 
+{
+    background-image: url(../images/icons/url.gif);
+}
+
+.formMgr_ControlRepresentation.email .ctrlbtncontainer 
+{
+    background-image: url(../images/icons/Send_Write_email_16x16.png);
+}
+
+.formMgr_ControlRepresentation.combobox .ctrlbtncontainer 
+{
+    background-image: url(../images/icons/);
+}
+
+.formMgr_ControlRepresentation.lookup .ctrlbtncontainer,
+.formMgr_ControlRepresentation.user .ctrlbtncontainer,
+.formMgr_ControlRepresentation.owner .ctrlbtncontainer
+{
+    background-image: url(../images/icons/Find_16x16.png);
+}
+
+.formMgr_ControlRepresentation.personname .ctrlbtncontainer,
+.formMgr_ControlRepresentation.address .ctrlbtncontainer  
+{
+    background-image: url(../images/icons/Edit_Item_16x16.gif);
+}
+
+.formMgr_ControlRepresentation.datetimepicker .ctrlbtncontainer 
+{
+    background-image: url(../images/icons/Calendar_16x16.gif);
+}
+
+.formMgr_ControlRepresentation.horizontalseparator 
+{
+    height : 3px;
+}
+
+.formMgr_ControlRepresentation.label INPUT,
+.formMgr_ControlRepresentation.horizontalseparator INPUT
+{
+    visibility:hidden;
+    width: 1px;
+}
+
+.formMgr_ControlRepresentation.label .ctrlcontainer 
+{
+    width: 1px;
+}
+
+.formMgr_ControlRepresentation.label .caption
+{
+    text-align: center;
+}
+
+
+.controlPropForm 
+{
+	width:100%;
+}
+
+.controlPropForm LABEL
+{
+	font:bold 12px Arial;
+	color:#666;
+}
+
+.wysEditor .layoutEditorTitleBar 
+{
+    background-color: #EAF1DF;
+    height: 25px;
+    width: 100%;
+    border-bottom:1px solid #88A85C;
+	color:#666;
+}
+
+.layoutEditorTitleBar .title 
+{
+	font:bold 14px Arial;
+	padding: 3px 0px 0px 3px;
+}
+
+
+/* add a field wizard */		
+
+
+
+
+.aafWizardContainer
+{
+    width:640px;
+    height:400px;
+}
+.sageWizardContainer .aafWizardContent
+{
+    padding:10px 5px 5px;
+    height:340px;
+}
+.sageWizardContainer .dijitContentPane 
+{
+    height: 370px !important;
+}
+
+.aafWizardContainer .aafWizardContent .caption 
+{
+    font-weight: bold;
+    padding: 0px 0px 10px;
+}
+.aafWizardContainer .aafWizardContent .description 
+{
+    color: #c0c0c0;
+    font-weight: normal;
+}
+.aafWizardContainer .aafWizardContent .wizGrid 
+{
+    height: 220px;
+    width: 620px;
+    border: 1px solid #c0c0c0;
+}
+.aafWizardContainer .aafWizardContent .highlight 
+{
+    font-weight: bold;
+}
+.aafWizardContainer .aafWizardContent .infoTable 
+{
+    padding: 4px 0px;
+}
+
+
+.newPropertyDialog 
+{
+    
+}
+
+.newPropertyDialog .tabs
+{
+    height: 300px;
+    width: 600px;
+}
+.newPropertyDialog .dataTypeForm 
+{
+    padding: 10px 0px 0px 20px;
+}
+/* end Form Manager page specific styles ----------------------------------------- */
+
+/* default wizard styles ................................. */
+
+.sageWizardButtons 
+{
+    text-align: right;
+}
+
+.sageWizardContainer 
+{
+    
+}
+
+.sageWizard 
+{
+    
+}
+
+/* end wizard styles .............................. */
+
+.right-controls-list-with-padding 
+{
+    padding-top: 5px;
+    text-align: right;
+    width: 90%;
+}
+
+/* specific to Schedule Process dialog ------------------------------------------------- */
+
+.SPformtable 
+{
+	margin : 15px 0px;
+	width : 100%;
+}
+
+.SPformtable TD 
+{
+	vertical-align : top;
+	padding-left : 20px;
+	padding-right : 20px;
+}
+
+.SPformtable .qfActionContainer
+{
+	text-align: right;
+	width: 98%; /* to match general field widths */
+	padding: 10px;
+}
+
+.SPcontrol
+{
+	float : right;
+	width : 50%;
+	white-space : nowrap;
+}
+
+.SPcontrol SELECT ,
+.SPcontrol > table
+{
+	width : 100%;
+	margin : .08em 0em;
+	vertical-align : middle;
+	padding-left : 1px;
+}
+
+.SPcontrol > .dijitSelect
+{
+	height: 18px;
+	width: 100%;	
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.SPcontrol > .dijitSelect .dijitArrowButton
+{
+	width: 16px;
+}
+label[id*="lueUseExistingAccount"] {
+  position: relative;
+  bottom: 13px;
+}
+#element_CampaignTargets .slxlabel {
+    padding: 12px 0 0 0;
+    float: left;
+}
+#CampaignDetailscontents .slxlabel {
+padding: 0 1em 0 0;
+}
+
+div[id$="Lookup-Condition-container"] {
+  padding: 0px !important;
+}
+
+div[id$="ctrlstReturnInfo"] > .slxlabel, div[id$="ctrlstShipTo"] > .slxlabel  {
+  margin-left:10px;
+  text-align: left;
+}
+.slxlabel div[id$="lblSortPosition"]:only-child {
+    padding-top:10px;
+}

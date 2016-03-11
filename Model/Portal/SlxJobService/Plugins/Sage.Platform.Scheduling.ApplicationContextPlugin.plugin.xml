@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<SchedulerPlugin xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="db9ac8b7-477e-4120-b09a-a0c63be8c8e0">
+  <InstanceId>fabbd42f1e7f4f7dbd48ff96da29d787</InstanceId>
+  <TypeName>Sage.Platform.Scheduling.ApplicationContextPlugin, Sage.Platform</TypeName>
+</SchedulerPlugin>

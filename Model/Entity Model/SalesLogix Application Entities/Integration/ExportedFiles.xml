@@ -1,0 +1,17 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Integration\AuthType.filter.xml" timeStamp="2015-05-28T03:04:11.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Integration\Integration.INTEGRATION.entity.xml" timeStamp="2015-05-28T03:04:11.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Integration\LinkType.filter.xml" timeStamp="2015-05-28T03:04:11.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Integration\Name.filter.xml" timeStamp="2015-05-28T03:04:11.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Integration\OnAfterDelete.method.xml" timeStamp="2015-05-28T03:04:11.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Integration\OnAfterInsert.method.xml" timeStamp="2015-05-28T03:04:11.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Integration\OnAfterUpdate.method.xml" timeStamp="2015-05-28T03:04:11.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Integration\OnBeforeDelete.method.xml" timeStamp="2015-05-28T03:04:11.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Integration\OnBeforeInsert.method.xml" timeStamp="2015-05-28T03:04:11.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Integration\OnBeforeUpdate.method.xml" timeStamp="2015-05-28T03:04:11.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Integration\OnCreate.method.xml" timeStamp="2015-05-28T03:04:11.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Integration\SyncEnabled.filter.xml" timeStamp="2015-05-28T03:04:11.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Integration\SyncMethod.filter.xml" timeStamp="2015-05-28T03:04:11.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Integration\QuickForms\" />
+</exportedFiles>

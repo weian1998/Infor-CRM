@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:fileTags="Translation Status.Support files" MadCap:tocPath="Administration|Pick Lists" MadCap:medium="non-print" MadCap:InPreviewMode="false" MadCap:PreloadImages="false" MadCap:RuntimeFileType="Topic" MadCap:TargetType="WebHelp" lang="en-us" xml:lang="en-us" MadCap:conditions="Output.WebClient,Targeted.WebHelp-slxgetstartedADMIN subset" MadCap:PathToHelpSystem="../../" MadCap:HelpSystemFileName="WebClient.xml" MadCap:SearchType="Stem">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Managing Items in a Pick List</title>
+        <link href="../SkinSupport/Slideshow.css" rel="stylesheet" />
+        <link href="../SkinSupport/MadCap.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/Infor.CSS" rel="stylesheet" />
+        <script src="../SkinSupport/jquery.min.js">
+        </script>
+        <script src="../SkinSupport/MadCapAll.js">
+        </script>
+        <script src="../SkinSupport/MadCapTopicAll.js">
+        </script>
+    </head>
+    <body>
+        <h1><a name="kanchor55"></a>Managing Items in a Pick List</h1>
+        <p>You can edit a pick list by adding a new item, editing an existing item, or deleting an item from the pick list.</p>
+        <table wrapperparagraphselector="P" style="width: 80%;margin-top: 14pt;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" width="80%">
+            <tr>
+                <td style="width: 10%;padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top" width="10%">
+                    <p style="text-align: center;margin-bottom: 0;" align="center">
+                        <img src="../image/note.gif" />
+                    </p>
+                </td>
+                <td style="width: 90%;padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top" width="90%">
+                    <p class="Tip-Note-Text" style="margin-bottom: 0;">If you add a custom item to the Opportunity Status pick list and a user sets the opportunity status to that item, the Opportunity Detail view Snapshot behaves as if the opportunity status is set to "Open".</p>
+                </td>
+            </tr>
+        </table>
+        <p class="Infinitive">To manage</p>
+        <ol>
+            <li class="Topic-Text-Numbered" value="1">Open the <a href="Pick_List_Detail_View.htm" target="_self">Pick List Detail</a> view.</li>
+            <li class="Topic-Text-Numbered" value="2">On the <b>Items</b> tab, do one of the following: </li>
+        </ol>
+        <ul>
+            <li class="Topic-Text-Bulleted-2" value="1">Click <span class="MCExpanding_0"><a href="javascript:void(0);" class="expandingHead_1" onclick="FMCExpand( this ); return false;">Add<img style="border: none;margin-left: 5px;" src="../SkinSupport/ExpandClosed.gif" MadCap:altsrc="../SkinSupport/ExpandOpen.gif" onload="if ( typeof( FMCPreloadImage ) == 'function' ) { FMCPreloadImage( '../SkinSupport/ExpandOpen.gif' ); }" alt="Closed" MadCap:alt2="Open" class="MCExpandingIcon" /></a><span class="MCExpandingBody_0" style="display: none;"><img src="../image/add.gif" /></span></span> to add a new item.</li>
+            <li class="Topic-Text-Bulleted-2" value="2">Click the <b>Edit</b> link for the item you want to change.</li>
+            <li class="Topic-Text-Bulleted-2" value="3">Click the <b>Delete</b> link for the item you want to remove.</li>
+        </ul>
+        <p class="Topic-Text-Indent2">If you use other software applications that share database information with <span class="MyVariablesProduct Name">Infor CRM</span>, you must delete the same pick list items in both applications.</p>
+        <ol>
+            <li class="Topic-Text-Numbered" value="3">In the <b>Add/Edit Item</b> dialog box:</li>
+        </ol>
+        <ul>
+            <li class="Topic-Text-Bulleted-2" value="1">In the <b>Text</b> box, type the text you want to appear in the pick list.</li>
+            <li class="Topic-Text-Bulleted-2" value="2">(Optional) In the <b>Code</b> box, type a code for the item.</li>
+        </ul>
+        <p class="Topic-Text-Indent2">If you use other software applications that share  database information with <span class="MyVariablesProduct Name">Infor CRM</span>, you must use the same pick list codes in  both applications.</p>
+        <ul>
+            <li class="Topic-Text-Bulleted-2" value="1">In the <b>Order</b> box, specify the order the item should appear in the list. <a href="javascript:void(0);" onclick="FMCToggler( this ); return false;" class="MCToggler_0" MadCap:targets="order">Tell me more...<img style="border: none;margin-left: 5px;" src="../SkinSupport/DropDownClosed.gif" MadCap:altsrc="../SkinSupport/DropDownOpen.gif" onload="if ( typeof( FMCPreloadImage ) == 'function' ) { FMCPreloadImage( '../SkinSupport/DropDownOpen.gif' ); }" alt="Closed" MadCap:alt2="Open" class="MCTogglerIcon" /></a></li>
+        </ul>
+        <p class="Topic-Text-Indent2" MadCap:targetName="order" style="display: none;">For example, if you type 0, the item appears as the first item in the list. If you have multiple items with the same order number, they are grouped by that number and the entire group appears in the list before the next highest order number. Note that if the <a href="Pick_List_Information_Boxes.htm" target="_self">Sorted alphabetically</a> attribute is selected, Order values are ignored.</p>
+        <ul>
+            <li class="Topic-Text-Bulleted-2" value="1">Select the <b>Is default item</b> check box to set the item as the default list item. </li>
+            <li class="Topic-Text-Bulleted-2" value="2">Click <b>Save and New</b> to continue adding  items, or click <b>OK</b> when you are finished.</li>
+        </ul>
+        <ol>
+            <li class="Topic-Text-Numbered" value="4">Click <span class="MCExpanding_0"><a href="javascript:void(0);" class="MCExpandingHead_0" onclick="FMCExpand( this ); return false;">Save<img style="border: none;margin-left: 5px;" src="../SkinSupport/ExpandClosed.gif" MadCap:altsrc="../SkinSupport/ExpandOpen.gif" onload="if ( typeof( FMCPreloadImage ) == 'function' ) { FMCPreloadImage( '../SkinSupport/ExpandOpen.gif' ); }" alt="Closed" MadCap:alt2="Open" class="MCExpandingIcon" /></a><span class="MCExpandingBody_0" style="display: none;"><img src="../image/update.gif" /></span></span>.
+                <table wrapperparagraphselector="P" style="width: 80%;margin-top: 14pt;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" width="80%"><col style="width: 45px;" /><col /><tr><td style="padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top"><p style="text-align: center;margin-bottom: 0;" align="center"><img src="../image/note.gif" /></p></td><td style="width: 90%;padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top" width="90%"><p class="Tip-Note-Text" style="margin-bottom: 0;">After updating items in a pick list, you may need to instruct users to go into their options and <a href="../Getting Started/prefsgen.htm">refresh  pick list data</a> in order for them to see the latest changes.</p></td></tr></table></li>
+        </ol>
+        <p class="RelatedTopics">Related Topics</p>
+        <p MadCap:conditions="Output.WebClient"><a href="Pick_Lists_Overview.htm" target="_self">What are Pick Lists?</a>
+        </p>
+        <p><a href="Adding_a_Pick_List.htm" target="_self">Adding a Pick List</a>
+        </p>
+        <p MadCap:conditions="Output.WebClient"><a href="Editing_or_Deleting_a_Pick_List.htm" target="_self">Deleting a Pick List</a>
+        </p>
+        <div style="width: 100%;position: relative;">
+            <p>&#160;</p>
+        </div>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

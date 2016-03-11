@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<SchedulerJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="7d896eb6-6ca2-4a8d-bac4-2f2fabb3d9a9">
+  <InstanceId>e4b407ddd3eb455c834602d53b3fff39</InstanceId>
+  <TypeName>Sage.SalesLogix.Activity.RolloverActivitiesJob, Sage.SalesLogix.Activity</TypeName>
+</SchedulerJob>

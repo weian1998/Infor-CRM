@@ -1,0 +1,35 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\QuickForms\Design\CheckBoxControlDesigner.js" timeStamp="2015-05-28T03:09:06.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\QuickForms\Design\ColumnDesigner.js" timeStamp="2015-05-28T03:09:06.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\QuickForms\Design\ComboBoxControlDesigner.js" timeStamp="2015-05-28T03:09:06.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\QuickForms\Design\ControlDesigner.js" timeStamp="2015-05-28T03:09:06.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\QuickForms\Design\ControlDesignerRegistry.js" timeStamp="2015-05-28T03:09:06.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\QuickForms\Design\CurrencyControlDesigner.js" timeStamp="2015-05-28T03:09:06.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\QuickForms\Design\DataGridControlDesigner.js" timeStamp="2015-05-28T03:09:06.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\QuickForms\Design\DataSourceDesigner.js" timeStamp="2015-05-28T03:09:06.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\QuickForms\Design\DataSourcePanel.js" timeStamp="2015-05-28T03:09:06.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\QuickForms\Design\DateTimePickerControlDesigner.js" timeStamp="2015-05-28T03:09:06.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\QuickForms\Design\DesignPanel.js" timeStamp="2015-05-28T03:09:06.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\QuickForms\Design\DesignSurface.js" timeStamp="2015-05-28T03:09:06.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\QuickForms\Design\EditableGridControlDesigner.js" timeStamp="2015-05-28T03:09:06.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\QuickForms\Design\EmailControlDesigner.js" timeStamp="2015-05-28T03:09:06.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\QuickForms\Design\FormDesigner.js" timeStamp="2015-05-28T03:09:06.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\QuickForms\Design\GenericControlDesigner.js" timeStamp="2015-05-28T03:09:06.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\QuickForms\Design\Help.js" timeStamp="2015-05-28T03:09:06.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\QuickForms\Design\HiddenControlDesigner.js" timeStamp="2015-05-28T03:09:06.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\QuickForms\Design\main.js" timeStamp="2015-05-28T03:09:06.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\QuickForms\Design\NonVisibleControlContainer.js" timeStamp="2015-05-28T03:09:06.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\QuickForms\Design\NumericControlDesigner.js" timeStamp="2015-05-28T03:09:06.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\QuickForms\Design\OwnerControlDesigner.js" timeStamp="2015-05-28T03:09:06.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\QuickForms\Design\PhoneControlDesigner.js" timeStamp="2015-05-28T03:09:06.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\QuickForms\Design\PickListControlDesigner.js" timeStamp="2015-05-28T03:09:06.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\QuickForms\Design\PropertyEditorContainer.js" timeStamp="2015-05-28T03:09:06.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\QuickForms\Design\PropertyValueError.js" timeStamp="2015-05-28T03:09:06.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\QuickForms\Design\RowDesigner.js" timeStamp="2015-05-28T03:09:06.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\QuickForms\Design\TextBoxControlDesigner.js" timeStamp="2015-05-28T03:09:06.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\QuickForms\Design\UrlControlDesigner.js" timeStamp="2015-05-28T03:09:06.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\QuickForms\Design\UserControlDesigner.js" timeStamp="2015-05-28T03:09:06.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\QuickForms\Design\Editors\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\QuickForms\Design\nls\" />
+</exportedFiles>

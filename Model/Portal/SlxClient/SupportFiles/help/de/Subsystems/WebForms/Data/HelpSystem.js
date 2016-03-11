@@ -1,0 +1,4 @@
+var xmlHelpSystemData = "";
+xmlHelpSystemData += '<?xml version=\"1.0\" encoding=\"utf-8\"?>';
+xmlHelpSystemData += '<WebHelpSystem DefaultUrl=\"Content/Field Form Manager/Working_with_forms.htm\" Toc=\"Data/Toc.xml\" Index=\"Data/Index.xml\" Concepts=\"Data/Concepts.xml\" Glossary=\"Content/Glossary.htm\" SearchDatabase=\"Data/Search.xml\" Alias=\"Data/Alias.xml\" Synonyms=\"Data/Synonyms.xml\" SearchFilterSet=\"Data/Filters.xml\" Skin=\"Data/SkinWeb_Infor/Skin.xml\" Skins=\"Default,Web_Infor\" BuildTime=\"3/4/2015 2:16:03 PM\" BuildVersion=\"10.1.0.0\" TargetType=\"WebHelp\" SkinTemplateFolder=\"Skin/\" InPreviewMode=\"false\" MoveOutputContentToRoot=\"false\" MakeFileLowerCase=\"false\" UseCustomTopicFileExtension=\"false\" />';
+CMCXmlParser._FilePathToXmlStringMap.Add('HelpSystem', xmlHelpSystemData);

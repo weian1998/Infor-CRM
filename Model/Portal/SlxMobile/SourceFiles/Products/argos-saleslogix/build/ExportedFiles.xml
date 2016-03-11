@@ -1,0 +1,14 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\Products\argos-saleslogix\build\bundle.bat" timeStamp="2015-05-28T03:47:32.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\Products\argos-saleslogix\build\bundle.config" timeStamp="2015-05-28T03:47:32.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\Products\argos-saleslogix\build\bundleExcludes.txt" timeStamp="2015-05-28T03:47:32.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\Products\argos-saleslogix\build\docs.cmd" timeStamp="2015-05-28T03:47:32.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\Products\argos-saleslogix\build\export.cmd" timeStamp="2015-05-28T03:47:32.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\Products\argos-saleslogix\build\import.cmd" timeStamp="2015-05-28T03:47:32.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\Products\argos-saleslogix\build\localization.json" timeStamp="2015-05-28T03:47:32.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\Products\argos-saleslogix\build\release-template.jsb2" timeStamp="2015-05-28T03:47:32.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\Products\argos-saleslogix\build\release.cmd" timeStamp="2015-05-28T03:47:32.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\Products\argos-saleslogix\build\release.jsb2" timeStamp="2015-05-28T03:47:32.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\Products\argos-saleslogix\build\release.sh" timeStamp="2015-05-28T03:47:32.0000" />
+</exportedFiles>

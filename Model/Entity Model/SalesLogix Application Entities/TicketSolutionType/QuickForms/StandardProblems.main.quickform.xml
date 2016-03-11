@@ -1,0 +1,301 @@
+<?xml version="1.0"?>
+<QuickForm xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="91ddc815-e0f5-4cc3-8237-f21428d0b04e" DefinitionType="Sage.Platform.QuickForms.QuickFormMainDetailViewDefinition, Sage.Platform.QuickForms">
+  <ActiveControl />
+  <ImagePath />
+  <LoadActions />
+  <Name>StandardProblems</Name>
+  <ClientScriptInclude />
+  <OnClientShow />
+  <ExtendedProperties />
+  <HelpFile />
+  <ReadOnly>false</ReadOnly>
+  <GeneratePrintView>false</GeneratePrintView>
+  <Controls>
+    <Control typeName="Sage.SalesLogix.QuickForms.QFControls.SDataGrid.QFSDataGrid, Sage.SalesLogix.QuickForms.QFControls">
+      <QFSDataGrid>
+        <Column>0</Column>
+        <Row>0</Row>
+        <IsReadOnly>false</IsReadOnly>
+        <HotKey>0</HotKey>
+        <TabIndex>0</TabIndex>
+        <ControlId>QFSDataGrid</ControlId>
+        <DataBindings />
+        <ControlLabelPlacement>left</ControlLabelPlacement>
+        <ExtendedProperties />
+        <CaptionAlignment>left</CaptionAlignment>
+        <StyleScheme />
+        <GenerateMember>false</GenerateMember>
+        <ReadOnlyCondition>False</ReadOnlyCondition>
+        <AppliedSecurity />
+        <RelateToPropertyName>TicketProblemSolutionTypes</RelateToPropertyName>
+        <PreviewField>TicketProblemType.Notes</PreviewField>
+        <ResourceKind>
+          <Name>ticketProblemSolutionTypes</Name>
+          <GetPredicate />
+        </ResourceKind>
+        <PathSegments />
+        <Columns>
+          <QFSDataLinkCol>
+            <StyleScheme />
+            <DataField>TicketProblemType.Description</DataField>
+            <ColumnId>40f3fb19-647e-49a3-8729-111e27ef8fb5</ColumnId>
+            <HorizontalAlignment>left</HorizontalAlignment>
+            <HeaderAlignment>left</HeaderAlignment>
+            <SortDirection>Ascending</SortDirection>
+            <IsSortable>true</IsSortable>
+            <SortField>TicketProblemType.Description</SortField>
+            <MultiCurrencyDependent>false</MultiCurrencyDependent>
+            <Destination />
+            <Image />
+            <EntityIdField>TicketProblemType.Id</EntityIdField>
+            <EntityTypeName>TicketProblemType</EntityTypeName>
+            <Target />
+            <AppliedSecurity />
+            <HideCondition />
+            <Width>20</Width>
+          </QFSDataLinkCol>
+          <QFEditableCol>
+            <StyleScheme />
+            <DataField>TicketProblemType.Area</DataField>
+            <ColumnId>94fea8be-6ba0-47b0-86cc-fd3d87210149</ColumnId>
+            <HorizontalAlignment>left</HorizontalAlignment>
+            <HeaderAlignment>left</HeaderAlignment>
+            <SortDirection>None</SortDirection>
+            <IsSortable>true</IsSortable>
+            <SortField>TicketProblemType.Area</SortField>
+            <MultiCurrencyDependent>false</MultiCurrencyDependent>
+            <IsEditable>false</IsEditable>
+            <HideCondition />
+            <Width>12</Width>
+            <CustomFormatter />
+            <AbbreviationLength>0</AbbreviationLength>
+          </QFEditableCol>
+          <QFEditableCol>
+            <StyleScheme />
+            <DataField>TicketProblemType.Category</DataField>
+            <ColumnId>08152593-e4a5-4b97-a8c6-fdbd26960f83</ColumnId>
+            <HorizontalAlignment>left</HorizontalAlignment>
+            <HeaderAlignment>left</HeaderAlignment>
+            <SortDirection>None</SortDirection>
+            <IsSortable>true</IsSortable>
+            <SortField>TicketProblemType.Category</SortField>
+            <MultiCurrencyDependent>false</MultiCurrencyDependent>
+            <IsEditable>false</IsEditable>
+            <HideCondition />
+            <Width>12</Width>
+            <CustomFormatter />
+            <AbbreviationLength>0</AbbreviationLength>
+          </QFEditableCol>
+          <QFEditableCol>
+            <StyleScheme />
+            <DataField>TicketProblemType.Issue</DataField>
+            <ColumnId>f4f354df-e285-41c2-bf0f-3b17d235d0e7</ColumnId>
+            <HorizontalAlignment>left</HorizontalAlignment>
+            <HeaderAlignment>left</HeaderAlignment>
+            <SortDirection>None</SortDirection>
+            <IsSortable>true</IsSortable>
+            <SortField>TicketProblemType.Issue</SortField>
+            <MultiCurrencyDependent>false</MultiCurrencyDependent>
+            <IsEditable>false</IsEditable>
+            <HideCondition />
+            <Width>12</Width>
+            <CustomFormatter />
+            <AbbreviationLength>0</AbbreviationLength>
+          </QFEditableCol>
+          <QFEditableCol>
+            <StyleScheme />
+            <DataField>TicketProblemType.Notes</DataField>
+            <ColumnId>60265654-16c8-4eed-b375-1c3a3bbc040b</ColumnId>
+            <HorizontalAlignment>left</HorizontalAlignment>
+            <HeaderAlignment>left</HeaderAlignment>
+            <SortDirection>None</SortDirection>
+            <IsSortable>true</IsSortable>
+            <SortField>TicketProblemType.Notes</SortField>
+            <MultiCurrencyDependent>false</MultiCurrencyDependent>
+            <IsEditable>false</IsEditable>
+            <HideCondition />
+            <Width>-1</Width>
+            <CustomFormatter />
+            <AbbreviationLength>128</AbbreviationLength>
+          </QFEditableCol>
+        </Columns>
+        <ConditionalWhere />
+        <Select>
+          <string>TicketProblemType.Id</string>
+        </Select>
+        <Include />
+        <FeedCategory>InternalAppEntities</FeedCategory>
+        <OnGetMappingId />
+        <ParentRelationshipPropertyName>TicketSolutionType</ParentRelationshipPropertyName>
+        <ChildRelationshipPropertyName>TicketProblemType</ChildRelationshipPropertyName>
+        <OnDataChange />
+        <OnAdd />
+        <Tools>
+          <SDataGridAddRelationTool>
+            <Name>Relate</Name>
+            <Image />
+            <DisplayInInsert>false</DisplayInInsert>
+            <OnClick>//default add relationship behavior</OnClick>
+            <StyleScheme />
+            <AppliedSecurity />
+            <LookupButton>
+              <Column>0</Column>
+              <Row>0</Row>
+              <IsReadOnly>false</IsReadOnly>
+              <HotKey>0</HotKey>
+              <TabIndex>0</TabIndex>
+              <ControlId>btnAddRelationship</ControlId>
+              <DataBindings />
+              <ControlLabelPlacement>left</ControlLabelPlacement>
+              <ExtendedProperties />
+              <CaptionAlignment>left</CaptionAlignment>
+              <StyleScheme />
+              <OnChangeAction>
+                <ResourceKey>btnAddRelationship</ResourceKey>
+                <Action typeName="Sage.Platform.QuickForms.ActionItems.NoActionActionItem, Sage.Platform.QuickForms">
+                  <NoActionActionItem>
+                    <MethodName />
+                  </NoActionActionItem>
+                </Action>
+                <IsDialogCloseAction>False</IsDialogCloseAction>
+                <RunOnEveryRePaint>False</RunOnEveryRePaint>
+                <DialogActionResult>NoResult</DialogActionResult>
+                <PerformsUpdate>False</PerformsUpdate>
+                <AppliedSecurity />
+                <RefreshData>False</RefreshData>
+              </OnChangeAction>
+              <Required>false</Required>
+              <LookupImage>[Localization!Global_Images:plus_16x16]</LookupImage>
+              <LookupDialogWidth xsi:nil="true" />
+              <LookupDialogHeight xsi:nil="true" />
+              <LookupDisplayMode>ButtonOnly</LookupDisplayMode>
+              <LookupBindingMode>Object</LookupBindingMode>
+              <LookupResultValue xsi:type="xsd:string" />
+              <AddEmptyListItem>false</AddEmptyListItem>
+              <AllowClearingResult>false</AllowClearingResult>
+              <OverrideSeedOnSearch>false</OverrideSeedOnSearch>
+              <LookupEntityName>TicketProblemType</LookupEntityName>
+              <LookupEntityTypeName>Sage.Entity.Interfaces.ITicketProblemType, Sage.Entity.Interfaces, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</LookupEntityTypeName>
+              <AutoPostBack>false</AutoPostBack>
+              <EnableHyperLinking>false</EnableHyperLinking>
+              <InitializeLookup>false</InitializeLookup>
+              <LookupProperties>
+                <LookupProperty>
+                  <PropertyName>Area</PropertyName>
+                  <PropertyType>System.String</PropertyType>
+                  <PropertyHeader>Area</PropertyHeader>
+                  <PropertyFormat>None</PropertyFormat>
+                  <PropertyFormatString />
+                  <UseAsResult>true</UseAsResult>
+                  <ExcludeFromFilters>false</ExcludeFromFilters>
+                  <IsSortable>true</IsSortable>
+                  <HideCondition />
+                </LookupProperty>
+                <LookupProperty>
+                  <PropertyName>Description</PropertyName>
+                  <PropertyType>System.String</PropertyType>
+                  <PropertyHeader>Description</PropertyHeader>
+                  <PropertyFormat>None</PropertyFormat>
+                  <PropertyFormatString />
+                  <UseAsResult>true</UseAsResult>
+                  <ExcludeFromFilters>false</ExcludeFromFilters>
+                  <IsSortable>true</IsSortable>
+                  <HideCondition />
+                </LookupProperty>
+              </LookupProperties>
+              <LookupPreFilters />
+              <OnSelection />
+              <AdditionalSelectFields />
+              <ChildEntity />
+              <LookupResourceName>TicketProblemType</LookupResourceName>
+              <ConditionalWhere />
+              <ConditionalShow />
+            </LookupButton>
+          </SDataGridAddRelationTool>
+          <SDataGridDeleteTool>
+            <Name>Delete</Name>
+            <Image>[Localization!Global_Images:Delete_16x16]</Image>
+            <DisplayInInsert>false</DisplayInInsert>
+            <OnClick />
+            <StyleScheme />
+            <AppliedSecurity />
+          </SDataGridDeleteTool>
+        </Tools>
+      </QFSDataGrid>
+    </Control>
+    <Control typeName="Sage.Platform.QuickForms.QFControls.QFDataSource, Sage.Platform.QuickForms.QFControls">
+      <QFDataSource>
+        <Column>0</Column>
+        <Row>1</Row>
+        <IsReadOnly>false</IsReadOnly>
+        <Visible>false</Visible>
+        <HotKey>48</HotKey>
+        <TabIndex>0</TabIndex>
+        <ControlId>dsTicketProblemTypes</ControlId>
+        <DataBindings />
+        <ControlLabelPlacement>none</ControlLabelPlacement>
+        <ExtendedProperties />
+        <CaptionAlignment>left</CaptionAlignment>
+        <StyleScheme />
+        <EntityTypeName>TicketProblemSolutionType</EntityTypeName>
+        <GetByMethod />
+        <GetByProperty>TicketProblemSolutionTypes</GetByProperty>
+        <UseSmartSelection>true</UseSmartSelection>
+        <DataOptional>false</DataOptional>
+      </QFDataSource>
+    </Control>
+  </Controls>
+  <ToolControls>
+    <Control typeName="Sage.Platform.QuickForms.Controls.QFElementSpacer, Sage.Platform.QuickForms">
+      <QFElementSpacer>
+        <Column>0</Column>
+        <Row>0</Row>
+        <IsReadOnly>false</IsReadOnly>
+        <HotKey>0</HotKey>
+        <TabIndex>0</TabIndex>
+        <ControlId />
+        <DataBindings />
+        <ControlLabelPlacement>left</ControlLabelPlacement>
+        <ExtendedProperties />
+        <CaptionAlignment>left</CaptionAlignment>
+        <StyleScheme />
+      </QFElementSpacer>
+    </Control>
+    <Control typeName="Sage.Platform.QuickForms.Controls.QFElementSpacer, Sage.Platform.QuickForms">
+      <QFElementSpacer>
+        <Column>0</Column>
+        <Row>0</Row>
+        <IsReadOnly>false</IsReadOnly>
+        <HotKey>0</HotKey>
+        <TabIndex>0</TabIndex>
+        <ControlId />
+        <DataBindings />
+        <ControlLabelPlacement>left</ControlLabelPlacement>
+        <ExtendedProperties />
+        <CaptionAlignment>left</CaptionAlignment>
+        <StyleScheme />
+      </QFElementSpacer>
+    </Control>
+  </ToolControls>
+  <Columns>
+    <ColumnStyle>
+      <SizeType>Percent</SizeType>
+      <Width>100</Width>
+    </ColumnStyle>
+  </Columns>
+  <Rows>
+    <RowStyle>
+      <SizeType>Absolute</SizeType>
+      <Height>35</Height>
+    </RowStyle>
+    <RowStyle>
+      <SizeType>Absolute</SizeType>
+      <Height>35</Height>
+    </RowStyle>
+  </Rows>
+  <Description />
+  <UseEntityNameAsTitle>false</UseEntityNameAsTitle>
+  <EntityTypeName>ITicketSolutionType</EntityTypeName>
+  <DefaultNamespace>Sage.Entity.Interfaces</DefaultNamespace>
+  <AssemblyName>Sage.Entity.Interfaces</AssemblyName>
+</QuickForm>

@@ -1,0 +1,23 @@
+﻿[
+'<div>',
+    '<div data-dojo-type="dijit.Dialog" id="{%= $.id %}-Dialog" title="" dojoAttachPoint="_dialog" >', //dialog
+         '<div class="event-dialog">',
+        '<div style="padding:5px;" id="{%= $.id %}-Condition-container">',
+            '<input id="Text1" type="text" style="width:85%;"  data-dojo-attach-point="_valueBox" data-dojo-attach-event="onkeypress:_onKeyPress"/>',     
+            '<button id="{%= $.id %}-Search" data-dojo-type="dijit.form.Button" type="button" dojoAttachPoint="searchButton" dojoAttachEvent="onClick:_doSearch">{%= $.srchBtnCaption %}</button>',
+          
+        '</div>',    
+        '<div data-dojo-attach-point="contentNode">',  
+        '<div id="{%= $.id %}-Grid-container" dojoAttachPoint="_speedSearchGrid"  style="width:auto;height:400px;"></div>',
+        '</div>',
+            '<div class="lookupButtonWrapper">',           
+                '<button data-dojo-type="dijit.form.Button" type="button" id="{%= $.id %}-GridSelectButton" ',
+                    'onClick="dijit.byId(\'{%= $.id %}\').getGridSelections(); ">{%= $.okText %}',
+                   '</button>',            
+                '<button data-dojo-type="dijit.form.Button" type="button" id="{%= $.id %}-CloseButton" ',
+                    'onClick="dijit.byId(\'{%= $.id %}-Dialog\').hide();">{%= $.cancelText %}</button>',
+            '</div>',
+             '</div>',
+     '</div> ', //dialog   
+'</div>'
+]

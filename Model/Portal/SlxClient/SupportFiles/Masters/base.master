@@ -1,0 +1,667 @@
+<%@ Import Namespace="Sage.Platform.Application.Services" %>
+<%@ Import Namespace="Sage.Platform.WebPortal"%>
+<%@ Import namespace="Sage.Platform.Application.UI.Web"%>
+<%@ Import namespace="Sage.Platform.Application.UI"%>
+<%@ Import namespace="Sage.SalesLogix"%>
+<%@ Import namespace="Sage.Platform.Utility"%>
+<%@ Import namespace="Sage.Platform.Application"%>
+<%@ Import namespace="Sage.Platform.Security"%>
+<%@ Import namespace="Sage.Entity.Interfaces"%>
+<%@ Master Language="C#" %>
+<%@ Register Assembly="Sage.SalesLogix.Client.GroupBuilder" Namespace="Sage.SalesLogix.Client.GroupBuilder" TagPrefix="SalesLogix" %>
+<%@ Register Assembly="Sage.Platform.WebPortal" Namespace="Sage.Platform.WebPortal.SmartParts" TagPrefix="smartParts" %>
+<%@ Register Assembly="Sage.Platform.WebPortal" Namespace="Sage.Platform.WebPortal.Workspaces" TagPrefix="workSpace" %>
+<%@ Register Assembly="Sage.Platform.WebPortal" Namespace="Sage.Platform.WebPortal.Services" TagPrefix="Services" %>
+<%@ Register Assembly="Sage.Platform.WebPortal" Namespace="Sage.Platform.WebPortal.Workspaces.Tab" TagPrefix="tws" %>
+<%@ Register Assembly="Sage.SalesLogix.Web.Controls" Namespace="Sage.SalesLogix.Web.Controls.PickList" TagPrefix="SalesLogix" %>
+<%@ Register Assembly="Sage.SalesLogix.Web.Controls" Namespace="Sage.SalesLogix.Web.Controls" TagPrefix="SalesLogix" %>
+<%@ Register Assembly="Sage.SalesLogix.Web.Controls" Namespace="Sage.SalesLogix.Web.Controls.Lookup" TagPrefix="SalesLogix" %>
+<%@ Register Assembly="Sage.SalesLogix.Web.Controls" Namespace="Sage.SalesLogix.Web.Controls.Timeline" TagPrefix="SalesLogix" %>
+<%@ Register Assembly="Sage.SalesLogix.Web.Controls" Namespace="Sage.SalesLogix.Web.Controls.ScriptResourceProvider" TagPrefix="Saleslogix" %>
+<%@ Register Assembly="System.Web.Extensions, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" Namespace="System.Web.UI" TagPrefix="asp" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<script runat="server">
+
+    public bool IncludeMiddlePane
+    {
+        get { return TabControl.IncludeMiddlePane; }
+        set { TabControl.IncludeMiddlePane = value; }
+    }
+
+    public bool IncludeMoreTabsTab
+    {
+        get { return TabControl.IncludeMoreTabsTab; }
+        set { TabControl.IncludeMoreTabsTab = value; }
+    }
+
+    public int DefaultVisibleTabCount
+    {
+        get { return TabControl.DefaultVisibleTabCount; }
+        set { TabControl.DefaultVisibleTabCount = value; }
+    }
+
+    [System.ComponentModel.Editor("Sage.Platform.WebPortal.Design.UITypeEditors.SmartPartTypeEditor, Sage.Platform.WebPortal.Design", typeof(System.Drawing.Design.UITypeEditor))]
+    public string OverrideActiveTab
+    {
+        get { return TabControl.OverrideActiveTab; }
+        set { TabControl.OverrideActiveTab = value; }
+    }
+
+    private bool _includeCollapseBtn = true;
+    public bool MainContentWorkspace_IncludeCollapseButton
+    {
+        get { return _includeCollapseBtn; }
+        set { _includeCollapseBtn = value; }
+    }
+
+    public bool IncludeTaskPane
+    {
+        get { return TaskPane.Visible; }
+        set { TaskPane.Visible = value; }
+    }
+    [System.ComponentModel.Browsable(false)]
+    public override string ID
+    {
+        get { return base.ID; }
+        set { base.ID = value; }
+    }
+
+    [System.ComponentModel.Browsable(false)]
+    public override bool Visible
+    {
+        get { return base.Visible; }
+        set { base.Visible = value; }
+    }
+
+    [System.ComponentModel.Browsable(false)]
+    public new string MasterPageFile
+    {
+        get { return base.MasterPageFile; }
+        set { base.MasterPageFile = value; }
+    }
+
+    private bool _UseAutoLogoff = true;
+    private int _AutoLogoffDuration = 30;
+
+    private void AddLocalizedScript(string filePattern, string langCode, string fallbackLangCode)
+    {
+        string[] langCodes = new string[] { langCode, fallbackLangCode };
+
+        foreach (string code in langCodes)
+        {
+            string path = string.Format(filePattern, code);
+            string physPath = path.StartsWith("~") ? HttpContext.Current.Server.MapPath(path) : HttpContext.Current.Server.MapPath(string.Concat("~/", path));
+
+            if (System.IO.File.Exists(physPath))
+            {
+                System.Web.UI.Page page = HttpContext.Current.Handler as System.Web.UI.Page;
+                page.Header.Controls.Add(new System.Web.UI.LiteralControl(
+                                             string.Format(
+                                                 @"<script pin=""pin"" type=""text/javascript"" src=""{0}""><" +
+                                                 @"/script>",
+                                                 path)
+                                             ));
+                break;
+            }
+        }
+    }
+
+    protected void Page_Load(object sender, EventArgs e)
+    {
+        Page.Form.Controls.Add(new ClientGroupContextService());
+        if (!Page.IsPostBack)
+        {
+            // Just used to create the Write menu now.
+            Page.Header.Controls.Add(new Sage.SalesLogix.Client.MailMerge.MailMergeInitControl());
+            Page.Form.Controls.Add(new ClientAppIdMappingService());
+            AddTimelineLibrary();
+            InitAutoLogout();
+            AlarmButton.Text = BuildAlarmButtonTag();
+            JobNotificationButton.Text = BuildJobNotificationButtonTag();
+        }
+
+        Page.Header.DataBind();
+    }
+
+    private void AddTimelineLibrary()
+    {
+        // Load this BEFORE jQuery libraries
+        EntityPage epage = Page as EntityPage;
+        if (epage != null)
+        {
+            if (epage.IsDetailMode)
+            {
+                var file = "timeline-all-min.js";
+                if (HttpContext.Current.IsDebuggingEnabled)
+                {
+                    file = "timeline-api.js";
+                }
+                var src =
+                    string.Format("jscript/timeline/api/{0}?i=0&timeline-use-local-resources=true&clientlocale={1}",
+                                  file, System.Globalization.CultureInfo.CurrentUICulture.Name);
+                Page.Header.Controls.AddAt(1, new LiteralControl(string.Format("<script pin=\"pin\" src=\"{0}\" type=\"text/javascript\"><" + "/script>", src)));
+            }
+        }
+    }
+
+    protected void LoginName_Load(object sender, EventArgs e)
+    {
+        if ((ScriptManager.GetCurrent(Page) == null) || (!ScriptManager.GetCurrent(Page).IsInAsyncPostBack))
+        {
+            Sage.SalesLogix.Security.SLXUserService userService = Sage.Platform.Application.ApplicationContext.Current.Services.Get<IUserService>() as Sage.SalesLogix.Security.SLXUserService;
+            if (userService != null)
+            {
+                IUser user = userService.GetUser();
+                LoginName.Text = String.Format(GetLocalResourceObject("UserWelcomeText").ToString(), user.UserInfo.FirstName, user.UserInfo.LastName);
+            }
+
+            Page.Title = GetLocalResourceObject("PageTitle").ToString();
+
+            try
+            {
+                var context = Sage.Platform.Application.ApplicationContext.Current.Services.Get<IContextService>(true);
+
+                var tz = (Sage.Platform.TimeZone)context.GetContext("TimeZone");
+
+                string uid = ApplicationContext.Current.Services.Get<IUserService>().UserId.Trim();
+
+                IUser u = Sage.Platform.EntityFactory.GetById<IUser>(uid);
+                if (u != null)
+                {
+                    if (tz == null || u.UserInfo.TimeZone != tz.KeyName)
+                    {
+                        Sage.Platform.TimeZones tzs = null;
+                        if (tz == null)
+                        {
+                            tzs = new Sage.Platform.TimeZones();
+                            tz = tzs.CurrentTimeZone;
+                        }
+                        if (u.UserInfo.TimeZone == null)
+                        {
+                            u.UserInfo.TimeZone = tz.KeyName;
+                            u.Save();
+                        }
+                        else
+                        {
+                            if (tzs == null)
+                            {
+                                tzs = new Sage.Platform.TimeZones();
+                            }
+                            var userTimeZone = tzs.FindTimeZone(u.UserInfo.TimeZone);
+
+                            // If the Offsets match, use the User's TimeZone
+                            if (DoTimeZoneOffsetsMatch(userTimeZone, tz))
+                            {
+                                //context.SetContext("TimeZone", userTimeZone);
+                                //Just save the time Zone becaue it ti in the basis but it is diffrent. 
+                                u.UserInfo.TimeZone = tz.KeyName;
+                                u.Save();
+                            }
+                            else // Should no match be setting the User's TimeZone?
+                            {
+                                u.UserInfo.TimeZone = tz.KeyName;
+                                u.Save();
+                            }
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType).Error(String.Format("TimeZone: Failed to set timezone: {0}", ex.Message), ex);
+            }
+        }
+    }
+
+    private bool DoTimeZoneOffsetsMatch(Sage.Platform.TimeZone tz1, Sage.Platform.TimeZone tz2)
+    {
+        if(tz1.Bias == tz2.Bias)
+        {
+            return true;
+        }
+
+        return false;
+    }
+
+    protected string GetSaveMsgSystemOption()
+    {
+        var systemInfo = Sage.Platform.Application.ApplicationContext.Current.Services.Get<Sage.SalesLogix.Services.ISystemOptionsService>(true);
+        return systemInfo.SendSlxSaveMSGFiles ? "true" : "false";
+    }
+    [ThreadStatic] private static int? _maxRequestLength;
+    protected string GetFileUploadOptions()
+    {
+        if (_maxRequestLength != null)
+        {
+            return string.Format("{{maxFileSize:{0}}}", _maxRequestLength);
+        }
+        int maxLength = 1000000;
+        Configuration config = System.Web.Configuration.WebConfigurationManager.OpenWebConfiguration("~");
+        var configSection = config.GetSection("system.web/httpRuntime") as System.Web.Configuration.HttpRuntimeSection;
+        if (configSection != null)
+        {
+            maxLength = configSection.MaxRequestLength * 1024;
+        }
+        _maxRequestLength = maxLength;
+
+        string options = "{" + string.Format("maxFileSize:{0}", maxLength) + "}";
+        return options;
+    }
+    protected string GetDragDropOptions()
+    {
+        string allowDetailDragDrop = GetAllowDragDrop("Detail")  ? "true" : "false";
+        string allowListDragDrop = GetAllowDragDrop("List") ? "true" : "false";
+        string options = "{" + string.Format("tabWorkSpaceID:'{0}',allowDetailDragDrop:{1}, allowListDragDrop:{2}", TabControl.ID, allowDetailDragDrop,allowListDragDrop) + "}";
+        return options;
+    }
+    protected bool GetAllowDragDrop(string uiMode) {
+
+        if (uiMode != null)
+        {
+            if (uiMode.ToUpper() == "DETAIL")
+            {
+                return true;
+            }
+            if (uiMode.ToUpper() == "LIST")
+            {
+                return false;
+            }
+        }
+        return false;
+    }
+    
+    protected string GetDefaultDropOptions()
+    {
+        var systemInfo = Sage.Platform.Application.ApplicationContext.Current.Services.Get<Sage.SalesLogix.Services.ISystemOptionsService>(true);
+        string saveMsgFiles = systemInfo.SendSlxSaveMSGFiles ? "true" : "false";
+        string options = "{" + string.Format("tabWorkspaceId:'{0}', saveMSGFiles:{1}", TabControl.ID, saveMsgFiles) + "}";
+        return options;
+    }
+    
+    protected string BuildAlarmButtonTag()
+    {
+        return string.Format("<div data-dojo-type=\"Sage.UI.Alarms.AlarmButton\" id=\"AlarmButton\" data-dojo-props=\"pollInterval:{0}\"></div>", Global.AlarmPollInterval);
+    }
+
+    protected string BuildJobNotificationButtonTag()
+    {
+        return string.Format("<div data-dojo-type=\"Sage.UI.Alarms.JobNotificationButton\" id=\"JobNotificationButton\" data-dojo-props=\"pollInterval:{0}\"></div>", Global.JobNotificationPollInterval);
+    }
+
+    private void InitAutoLogout()
+    {
+        var userOptions = ApplicationContext.Current.Services.Get<IUserOptionsService>();
+        if (userOptions != null)
+        {
+            var sUseAutoLogoff = userOptions.GetCommonOption("USEAUTOLOGOFF", "GENERAL");
+            if (!string.IsNullOrEmpty(sUseAutoLogoff))
+            {
+                _UseAutoLogoff = StringUtility.IsTrueValueString(sUseAutoLogoff);
+            }
+            var sAutoLogoffDuration = userOptions.GetCommonOption("LOGOFFDURATION", "GENERAL");
+            int iValue;
+            if (int.TryParse(sAutoLogoffDuration, out iValue))
+            {
+                this._AutoLogoffDuration = iValue;
+            }
+        }
+    }    
+    
+</script>
+<html>
+<head id="Head1" runat="server">
+    <%-- IE Should use the latest version available  --%>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+    <link rel="shortcut icon" href="~/favicon.ico"/>
+    <title>Infor CRM</title>
+    <link rel="stylesheet" type="text/css" href="~/Libraries/font-awesome/css/font-awesome.min.css" />
+    <!-- dojo
+    <link rel="stylesheet" type="text/css" href="~/Libraries/dojo/dijit/themes/claro/claro.css" />
+    <link rel="stylesheet" type="text/css" href="~/Libraries/dojo/dojox/grid/enhanced/resources/claroEnhancedGrid.css" />  -->
+
+    <%--DHTMLX Scheduler Libraries  --%>
+    <link href="~/Libraries/dhtmlxScheduler_v30/dhtmlxscheduler.css" rel="stylesheet" type="text/css" />
+    
+    <%-- debug theme styles: uncomment for debugging and development 
+
+        <link rel="stylesheet" type="text/css" href="~/css/themes/inforSoHoXi/inforSoHoXi.debug.css" />
+        
+    --%>
+
+    <%-- production theme styles: comment for debugging and development --%>
+
+        <link rel="stylesheet" type="text/css" href="~/css/themes/inforSoHoXi/inforSoHoXi.css" />
+
+    <%-- un-comment this block to use seperate style sheets
+    <link rel="stylesheet" type="text/css" href="~/css/SlxBase.css" /> 
+    <link rel="stylesheet" type="text/css" href="~/css/quickform.css" /> 
+    <link rel="stylesheet" type="text/css" href="~/css/sage-controls.css" /> 
+    <link rel="stylesheet" type="text/css" href="~/css/sage-platform.css" />
+    <link rel="stylesheet" type="text/css" href="~/css/sageStyles.css" />  
+    <link rel="stylesheet" type="text/css" href="~/css/layout.css"/>  
+    <link rel="stylesheet" type="text/css" href="~/css/library.css" /> 
+    <link rel="stylesheet" type="text/css" href="~/css/theme.css"/>
+    <link rel="stylesheet" type="text/css" href="~/css/design.css"/>
+    <link rel="stylesheet" type="text/css" href="~/css/Global_Images.css"/>--%>
+    
+    
+    <%-- comment this styles out if using seperate style sheets above--%>
+    <link rel="stylesheet" type="text/css" href="~/css/sage-styles.css" />
+
+    <link rel="stylesheet" type="text/css" href="~/css/layout-ie.css" />
+
+    <%-- DoJo Library --%>
+    <script pin="pin" type="text/javascript">
+        var errorHandlerConfig = {
+            isDebug: <%# Sage.Platform.Diagnostics.ErrorHelper.IsDevelopmentContext(Request).ToString(System.Globalization.CultureInfo.InvariantCulture).ToLowerInvariant() %>,            
+            preemption: {
+                enabled: <%# Sage.Platform.Diagnostics.ErrorHelper.AjaxPreemptionEnabled().ToString(System.Globalization.CultureInfo.InvariantCulture).ToLowerInvariant() %>,
+                    allowAuthRedirect: <%# Sage.Platform.Diagnostics.ErrorHelper.AjaxPreemptionAllowAuthRedirect().ToString(System.Globalization.CultureInfo.InvariantCulture).ToLowerInvariant() %>,
+                    handledStatusCodes: <%# String.Format("'{0}'", String.Join(",", Sage.Platform.Diagnostics.ErrorHelper.AjaxPreemptionHandledStatusCodes())) %>,
+                    showPreemptedErrorMsg: <%# Sage.Platform.Diagnostics.ErrorHelper.AjaxPreemptionShowPreemptedErrorMsg().ToString(System.Globalization.CultureInfo.InvariantCulture).ToLowerInvariant() %>,
+                    showInternalServerErrorMsg: <%# Sage.Platform.Diagnostics.ErrorHelper.AjaxPreemptionShowInternalServerErrorMsg().ToString(System.Globalization.CultureInfo.InvariantCulture).ToLowerInvariant() %>,
+                    showUnhandledMessagingServiceExceptionMsg: <%# Sage.Platform.Diagnostics.ErrorHelper.AjaxPreemptionShowUnhandledMessagingServiceExceptionMsg().ToString(System.Globalization.CultureInfo.InvariantCulture).ToLowerInvariant() %>
+                    },
+            authenticationRedirectUrl: <%# String.Format("'{0}'", Sage.Platform.Diagnostics.ErrorHelper.GetLoginRedirectUrl()) %>,
+            showExtendedValidationException: <%# Sage.Platform.Diagnostics.ErrorHelper.CanShowExtendedExceptionInfo(Sage.Platform.Diagnostics.ErrorHelper.ExceptionKind.ValidationException).ToString(System.Globalization.CultureInfo.InvariantCulture).ToLowerInvariant() %>,
+            showExtendedRoleAccessDeniedException: <%# Sage.Platform.Diagnostics.ErrorHelper.CanShowExtendedExceptionInfo(Sage.Platform.Diagnostics.ErrorHelper.ExceptionKind.RoleAccessDeniedException).ToString(System.Globalization.CultureInfo.InvariantCulture).ToLowerInvariant() %>
+            };   
+        var dojoConfig = {
+            parseOnLoad: true,
+            async: true,
+            isDebug: false,
+            locale: '<%# Global.Locale %>',
+            paths: { 'Sage': '../../../jscript/Sage' },
+            deferredOnError: function (e) {
+                if (dojo.config.isDebug) {
+                }
+            }
+        };
+    </script>
+    <script pin="pin" type="text/javascript" src="Libraries/dojo/dojo/dojo.js"></script>
+
+    <%-- Flattened NLS bundles from dojo build (Comment these out for development)--%>
+    <script pin="pin" type="text/javascript" src="Libraries/dojo/dojox/nls/dojox_<%# Global.Locale %>.js"></script>
+    <script pin="pin" type="text/javascript" src="Libraries/dojo/dijit/nls/dijit_<%# Global.Locale %>.js"></script>
+    <script pin="pin" type="text/javascript" src="jscript/Sage/nls/Sage_<%# Global.Locale %>.js"></script>
+
+    <%-- Combined dijit/dojox/Sage and all deps (Comment out for development) --%>
+    <script pin="pin" src="jscript/Sage/Sage-Combined.js" type="text/javascript"></script>
+
+    <%--  Built layers from dojo build (Uncomment to load each layer individual if needed)
+    <script pin="pin" type="text/javascript" src="Libraries/dojo/dijit/dijit.js"></script>
+    <script pin="pin" type="text/javascript" src="Libraries/dojo/dojox/dojox.js"></script>
+    <script pin="pin" type="text/javascript" src="Libraries/dojo/dgrid/dgrid.js"></script>
+    <script pin="pin" type="text/javascript" src="Libraries/dojo/put-selector/put-selector.js"></script>
+    <script pin="pin" type="text/javascript" src="jscript/Sage/Sage.js"></script>--%>
+
+    <%--Sage Platform (Uncomment to load for development)
+    <script pin="pin" src="jscript/sage-platform/sage-platform-servicecontainer.js" type="text/javascript"></script>
+    <script pin="pin" src="jscript/sage-platform/gears_init.js" type="text/javascript"></script>
+    <script pin="pin" src="jscript/sage-platform/sage-platform-maincontentworkspace.js" type="text/javascript"></script>
+    <script pin="pin" src="jscript/sage-platform/sage-platform-standardworkspace.js" type="text/javascript"></script>
+    <script pin="pin" src="jscript/sage-platform/sage-platform-tabworkspace.js" type="text/javascript"></script>
+    <script pin="pin" src="jscript/sage-platform/sage-platform-objectconnectionservice.js" type="text/javascript"></script>
+    <script pin="pin" src="jscript/sage-platform/sage-platform-integrationcontractservice.js" type="text/javascript"></script>
+    <script pin="pin" src="jscript/sage-platform/sage-controls-slxgridview.js" type="text/javascript"></script>
+    <script pin="pin" src="jscript/sage-platform/sage-controls-timeline.js" type="text/javascript"></script>--%>
+
+    <%-- Third Party Libs (Uncomment to load for development)
+    <script pin="pin" src="Libraries/sdata/Base64.js" type="text/javascript"></script>
+    <script pin="pin" src="Libraries/sdata/ObjTree.js" type="text/javascript"></script>
+    <script pin="pin" src="Libraries/sdata/sdata-client.js" type="text/javascript"></script>
+    <script pin="pin" src="Libraries/Simplate.js" type="text/javascript"></script>
+    <script pin="pin" src="Libraries/dhtmlxScheduler_v30/dhtmlxscheduler.js" type="text/javascript"></script>
+    <script pin="pin" src="Libraries/dhtmlxScheduler_v30/ext/dhtmlxscheduler_timeline.js" type="text/javascript"></script>
+    <script pin="pin" src="jscript/FusionCharts.js" type="text/javascript"></script>
+    <script pin="pin" src="Libraries/jQuery/jquery.js" type="text/javascript"></script>
+    <script pin="pin" src="Libraries/jQuery/jquery-ui.js" type="text/javascript"></script>--%>
+</head>
+<body class="inforSoHoXi">
+    <!--shown while dojo is loading-->
+    <div id='loader'>
+        <div id='loaderInner'></div>
+    </div>
+    <script pin="pin" type="text/javascript">
+        var localTitleTagId = '<%= localTitle.ClientID %>';
+    </script>
+    <form id="mainform" runat="server" style="width:100%; height:100%;" onsubmit="return Sage.Utility.Validate.shouldSubmit()">
+        <workSpace:DialogWorkspace runat="server" ID="DialogWorkspace"></workSpace:DialogWorkspace>
+         <SalesLogix:ScriptResourceProvider ID="MasterPageLinks" runat="server">
+            <Keys>
+                <SalesLogix:ResourceKeyName Key="IdleMessage" />
+                <SalesLogix:ResourceKeyName Key="LogoffMessage" />
+                <SalesLogix:ResourceKeyName Key="Merge_Account_SelectionError" />
+                <SalesLogix:ResourceKeyName Key="PromoteTitle" />
+                <SalesLogix:ResourceKeyName Key="PromotionNotification" />
+                <SalesLogix:ResourceKeyName Key="PromotePageNoneSelected" />  
+                <SalesLogix:ResourceKeyName Key="Warning" />
+                <SalesLogix:ResourceKeyName Key="PromoteDescription" />
+                <SalesLogix:ResourceKeyName Key="PromotePageColumnHeader" />                
+                <SalesLogix:ResourceKeyName Key="UnspecifiedError" />
+            </Keys>
+        </SalesLogix:ScriptResourceProvider>
+        <div data-dojo-type="dijit.layout.BorderContainer" data-dojo-props="gutters: true, liveSplitters: false, design: 'sidebar'" id="Viewport">
+            <div data-dojo-type="dijit.layout.BorderContainer" liveSplitters="false" design="sidebar" region="center" id="borderCenter">
+                <div data-dojo-type="dijit.layout.ContentPane" id="MainHeader" data-dojo-props="region:'top', splitter:false">
+                    <!-- outer bordercontainer top -->
+                    <div id="inforLogoPanel">
+                        <i id="navIconID" runat="server" class="fa fa-bars" title="<%$ resources: ToggleNavPane %>"></i>
+                        Infor CRM
+                    </div>                                    
+                    <workSpace:ToolbarWorkspace runat="server" ID="ToolBar"></workSpace:ToolbarWorkspace>                                                             
+                    <div data-dojo-type="Sage.UI.Controls.HelpMenu" id="HelpMenu"></div>
+                    <div id="ss-wrap">
+                        <div data-dojo-type="Sage.UI.SpeedSearch" id="SpeedSearch" class="quick-speedsearch"></div>
+                    </div>    
+                    <asp:Literal runat="server" ID="AlarmButton" Text=""></asp:Literal>
+                    <asp:Literal runat="server" ID="JobNotificationButton" Text=""></asp:Literal>
+                    <div id="asyncpostbackindicator">
+                        <asp:Image ID="Image1" ImageUrl="~/images/loading_animation_liferay.gif" AlternateText="<%$ resources: Loading %>" runat="server" />
+                    </div>       
+
+                    <%-- 
+                    <asp:PlaceHolder ID="surveyPlaceholder" runat="server" /> 
+                    --%>
+                    <!-- end outer bordercontainer top -->
+                </div>
+
+                <!-- outer border container left, the Navordion -->
+                <div id="mainnavContainer" data-dojo-type="dijit.layout.BorderContainer"
+                   region="left" splitter="true" gutters="false">
+                    <div widgetId="navLogo" id="navLogo" data-dojo-type="dijit.layout.ContentPane" region="top" splitter="false" gutters="false" >
+                        <img runat="server" class="inforUpperLeftLogo" src="~/images/inforLogo64x64.png" alt="Infor CRM"  /> 
+                        Infor CRM
+                        <span id="navPinID" title="Pin navigation bar" class="Global_Images icon_thumb_tack_24"></span>
+                    </div>
+                    <div data-dojo-type="Sage.UI.NavBar" id="MainNav" class="navordion" region="trailing" splitter="false" gutters="false">
+                        <workSpace:NavWorkspace ID="NavBar" runat="server" ImagePosition="left"></workSpace:NavWorkspace>
+                    </div>
+                </div>
+
+                <!-- begin inner border container -->
+                <div data-dojo-type="dijit.layout.BorderContainer" gutters="false" liveSplitters="false" id="innerBorder" region="center">
+                    <!-- inner bordercontainer top -->
+                    <div data-dojo-type="Sage.UI.TitleContentPane" id="titlePane" region="top" splitter="false"> 
+                        <asp:UpdatePanel runat="server" ID="localTitleUpdatePanel">
+                            <ContentTemplate>
+                                <div runat="server" id="localTitle" class="titlebar" ></div>
+                            </ContentTemplate>
+                        </asp:UpdatePanel>
+
+                        <div id="GroupsWrapper" style="clear: both;">
+                            <div id="GroupTabs" data-dojo-type="Sage.UI.GroupTabPane">
+                            </div>
+                        </div>
+
+                    </div><!-- end inner border container top -->
+                
+                    <!-- inner border container center -->
+				    <div data-dojo-type="dijit.layout.BorderContainer" splitter="true" gutters="false" liveSplitters="true" region="center" id="centerContent">
+                        <div data-dojo-type="Sage.Layout.MainContentDetailsPane" minSize="32" region="top" id="mainContentDetails" splitter="false">
+                            <!-- main work area? inner bordercontainer center content-->
+                            <asp:UpdatePanel runat="server" ID="mainformUpdatePanel" ChildrenAsTriggers="true" UpdateMode="conditional">
+                                <ContentTemplate>
+                                    <workSpace:MainContentWorkspace ID="MainContent" runat="server" SmartPartInfoStyle-CssClass="mainContentHeader" SmartPartContainerStyle-CssClass="mainContentContent" />
+                                </ContentTemplate>
+                            </asp:UpdatePanel>
+                            <tws:TabWorkspace runat="server" ID="TabControl" UseUIStateService="true">
+                                <MoreTabListTools>
+                                    <SalesLogix:PageLink ID="moreTabsHelp" runat="server" LinkType="HelpFileName" ToolTip="<%$ resources: Portal, Help_ToolTip %>" Target="MCWebHelp" NavigateUrl="moretabs.aspx" ImageUrl="~/ImageResource.axd?scope=global&type=Global_Images&key=Help_16x16"></SalesLogix:PageLink>
+                                </MoreTabListTools>
+                            </tws:TabWorkspace>
+                        </div>
+                    </div>
+                    <!-- end inner border container center -->
+ 
+                    <!-- inner bordercontainer right -->
+                    <workSpace:TaskPaneWorkspace runat="server" ID="TaskPane">
+                        <Tools>
+                            <SalesLogix:PageLink ID="taskPaneHelp" runat="server" LinkType="HelpFileName" ToolTip="<%$ resources: Portal, Help_ToolTip %>" Target="MCWebHelp" NavigateUrl="taskpane.aspx" ImageUrl="~/ImageResource.axd?scope=global&type=Global_Images&key=Help_16x16"></SalesLogix:PageLink>
+                        </Tools>
+                    </workSpace:TaskPaneWorkspace>	            
+                
+                </div><!-- end inner border container-->    
+            </div>
+            <div data-dojo-type="dijit.layout.ContentPane" region="bottom" splitter="false" gutters="false" id="MainFooter">
+                <!-- outer border container bottom -->    
+                <span id="copyright"><asp:Localize ID="copyrightMessage" EnableViewState="false" runat="server" Text="<%$ Resources: SalesLogix, Copyright %>"/></span>
+                <div data-dojo-type="Sage.UI.Controls.LogOffButton" id="LogOffButton"></div>
+                <div data-dojo-type="Sage.UI.TimeZoneItem" id="TimeZoneMenu" class="floatright"></div>
+                <span id="autoLogoff" class="floatright"> </span>
+                <span id="lclCurrentDate"><smartParts:CurrentDate ID="CurrentDate" runat="server" DateFormat="dd MMMM yyyy" /></span>
+                <span id="lclLoginName" class="floatright"><asp:Label ID="LoginName" runat="server" OnLoad="LoginName_Load" /></span>
+                <span id="statusMessage" class="floatright"></span>
+            </div><!-- end outer border container bottom -->
+        </div><!-- end outer border container -->
+    </form>   
+    <div id="dev_null" style="visibility: hidden;"></div>
+    <script type="text/javascript">
+        require([
+            "dojo/_base/html",
+            "dijit/_base/manager",
+            "dojo/parser",
+            "dijit/Toolbar",
+            "dijit/layout/ContentPane",
+            "dijit/layout/BorderContainer",
+            "dijit/TitlePane",
+            "dijit/form/ValidationTextBox",
+            "dijit/form/SimpleTextarea",
+            "dijit/form/CheckBox",
+            "dijit/form/TextBox",
+            "dijit/form/Select",
+            "dojo/ready",
+            "dojo/_base/fx",
+            "dojo/dom",
+            "dojo/dom-class",
+            "dojo/has", 
+            "dojo/_base/sniff",
+            "dojo/_base/window",
+            "Sage/Utility/PickList",
+            "Sage/Services/JobService",
+            "Sage/Groups/GroupManager",
+            "Sage/Groups/GroupNavigator", // all details
+            "Sage/Layout/MainContentDetailsPane",
+            "Sage/Layout/TabContainer", // Multi-Tab Controller
+            "Sage/Link",
+            "Sage/MailMerge/Loader",
+            "Sage/MainView/ActivityMgr/ActivityCalendar", // calendar page
+            "Sage/MainView/IntegrationContract/MatchingOptionsConfig", // integration setup
+            "Sage/Services/ActivityAction",
+            "Sage/Services/ActivityActionProcessor",
+            "Sage/Services/ActivityService",
+            "Sage/Services/CalendarSecurityService",
+            "Sage/Services/ClientBindingManagerService",
+            "Sage/Services/ClientContextService",
+            "Sage/Services/ClientEntityContext",
+            "Sage/Services/RoleSecurityService",
+            "Sage/Services/SelectionContextService",
+            "Sage/Services/SystemOptions",
+            "Sage/Services/UserOptions",
+            "Sage/Services/ReportingService",
+            "Sage/Services/_ServiceMixin",            
+            "Sage/UI/ActivityList", // activities tab
+            "Sage/UI/ActivityScheduler", // calendar page
+            "Sage/UI/Alarms/AlarmButton",
+            "Sage/UI/Controls/CheckBox", // contact detail
+            "Sage/UI/Controls/Currency",
+            "Sage/UI/Controls/HelpMenu",
+            "Sage/UI/Controls/LogOffButton",
+            "Sage/UI/Controls/MultiTab",
+            "Sage/UI/Controls/Select", // account detail
+            "Sage/UI/Controls/SimpleTextarea", // account detail
+            "Sage/UI/Controls/PickListAsText", // Summary Views
+            "Sage/UI/Filters/FilterPanel",
+            "Sage/UI/Filters/EntityManagerFilterPanel",
+            "Sage/UI/Filters/GroupFilterConfigurationProvider", // list
+            "Sage/UI/GroupListConfigurationProvider",
+            "Sage/UI/GroupTabPane",
+            "Sage/UI/MenuBar",
+            "Sage/UI/NavBar",
+            "Sage/UI/NotesHistoryList", // notes/history tab
+            "Sage/UI/SpeedSearch",
+            "Sage/UI/SummaryDetailPane",
+            "Sage/UI/TimeZoneItem",
+            "Sage/UI/TitleContentPane",
+            "Sage/Utility",
+            "Sage/Utility/Activity",
+            "Sage/Utility/SDataLookup", // insert opportunity (editable grid script)
+            "Sage/Utility/Validate",
+            "Sage/Utility/Groups",
+            "Sage/Utility/File",
+            "Sage/Utility/File/DragDropWatcher",
+            "Sage/Utility/File/DefaultDropHandler",
+            "Sage/TaskPane/ActivityTaskPaneActions",
+            "Sage/UI/Alarms/JobNotificationButton"
+        ], 
+        function (html, manager, parser, Toolbar, ContentPane, BorderContainer, TitlePane, ValidationTextBox, SimpleTextArea, CheckBox, TextBox, Select, ready, fx, dom, domClass, has, sniff, window,PickListUtil) { 
+            ready(function() {
+                initGears();
+                if ((Sage) && (Sage.Utility.File) && (Sage.Utility.File.DragDropWatcher)) {
+                    Sage.Utility.File.init(<%= GetFileUploadOptions() %>);
+                    Sage.Utility.File.DragDropWatcher.init(<%= GetDragDropOptions() %>);
+                    Sage.Utility.File.DefaultDropHandler.init(<%= GetDefaultDropOptions() %>);
+                }
+                
+                // For IE8, which does not have Date.now()
+                if(!Date.now) {
+                    Date.now = function() {
+                        return new Date().valueOf();
+                    };
+                }
+                if(has("ie") == 10)
+                {
+                    domClass.add(window.body(), "ie10");
+                }
+                var loader = dom.byId("loader");
+                fx.fadeOut({
+                    node: loader,
+                    duration: 1,
+                    onEnd: function () {
+                        loader.style.display = 'none';
+                    }
+                }).play();
+
+                PickListUtil.checkStaleCache();
+            });
+        });
+    </script>
+    <%--Sage Common --%>
+    <script pin="pin" language="JavaScript" src="jscript/sage-common/sage-common.js" type="text/javascript"></script>
+    <script type="text/javascript">                
+        $(document).ready(function(){
+            window.setTimeout('AutoLogout.process(1)',AutoLogout.OneMinute);
+            
+            <% if (!_UseAutoLogoff) { %>
+            AutoLogout.Enabled = false;
+            <% } %>
+            AutoLogout.LogoutDuration = <%= _AutoLogoffDuration %>;
+                            
+            $(document).click(function() {
+                AutoLogout.resetTimer();
+            }); 
+        });        
+    </script>
+</body>
+</html>

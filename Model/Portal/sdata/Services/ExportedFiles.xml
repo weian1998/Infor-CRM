@@ -1,0 +1,29 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\sdata\Services\Sage.Platform.Application.Caching.CacheInitializationService.service.xml" timeStamp="2015-05-28T03:04:46.0000" />
+  <exportedFile url="\Portal\sdata\Services\Sage.Platform.Application.IAuthenticationProvider.service.xml" timeStamp="2015-05-28T03:04:46.0000" />
+  <exportedFile url="\Portal\sdata\Services\Sage.Platform.Application.Services.IEntityMappingInfoService.service.xml" timeStamp="2015-05-28T03:04:46.0000" />
+  <exportedFile url="\Portal\sdata\Services\Sage.Platform.Application.Services.IUserOptionsService.service.xml" timeStamp="2015-05-28T03:04:46.0000" />
+  <exportedFile url="\Portal\sdata\Services\Sage.Platform.Data.IDataService.service.xml" timeStamp="2015-05-28T03:04:47.0000" />
+  <exportedFile url="\Portal\sdata\Services\Sage.Platform.Data.IHibernateConfigurationService.service.xml" timeStamp="2015-05-28T03:04:47.0000" />
+  <exportedFile url="\Portal\sdata\Services\Sage.Platform.Mashups.IMashupDiscoveryService.service.xml" timeStamp="2015-05-28T03:04:47.0000" />
+  <exportedFile url="\Portal\sdata\Services\Sage.Platform.Messaging.IMessageHost.service.xml" timeStamp="2015-05-28T03:04:47.0000" />
+  <exportedFile url="\Portal\sdata\Services\Sage.Platform.Messaging.Transport.IMessageTransport.service.xml" timeStamp="2015-05-28T03:04:47.0000" />
+  <exportedFile url="\Portal\sdata\Services\Sage.Platform.Orm.Services.IDynamicEntityConfigurationService.service.xml" timeStamp="2015-05-28T03:04:47.0000" />
+  <exportedFile url="\Portal\sdata\Services\Sage.Platform.Orm.Services.IDynamicEntityDescriptorConfigurationService.service.xml" timeStamp="2015-05-28T03:04:47.0000" />
+  <exportedFile url="\Portal\sdata\Services\Sage.Platform.Orm.Services.IDynamicEntityNHibernateConfigurationService.service.xml" timeStamp="2015-05-28T03:04:47.0000" />
+  <exportedFile url="\Portal\sdata\Services\Sage.Platform.Orm.Services.IDynamicEntitySDataConfigurationService.service.xml" timeStamp="2015-05-28T03:04:47.0000" />
+  <exportedFile url="\Portal\sdata\Services\Sage.Platform.Projects.Localization.ProjectLocalizationService.service.xml" timeStamp="2015-05-28T03:04:47.0000" />
+  <exportedFile url="\Portal\sdata\Services\Sage.Platform.Scheduling.ISchedulerClientService.service.xml" timeStamp="2015-05-28T03:04:47.0000" />
+  <exportedFile url="\Portal\sdata\Services\Sage.Platform.SData.IAppIdMappingService.service.xml" timeStamp="2015-05-28T03:04:47.0000" />
+  <exportedFile url="\Portal\sdata\Services\Sage.Platform.SData.IFilterAnalyticsService.service.xml" timeStamp="2015-05-28T03:04:47.0000" />
+  <exportedFile url="\Portal\sdata\Services\Sage.Platform.SData.Sync.ISyncDigestService.service.xml" timeStamp="2015-05-28T03:04:47.0000" />
+  <exportedFile url="\Portal\sdata\Services\Sage.Platform.SData.Sync.ISyncResultsService.service.xml" timeStamp="2015-05-28T03:04:47.0000" />
+  <exportedFile url="\Portal\sdata\Services\Sage.Platform.Security.IFieldLevelSecurityService.service.xml" timeStamp="2015-05-28T03:04:47.0000" />
+  <exportedFile url="\Portal\sdata\Services\Sage.Platform.Security.IRoleSecurityService.service.xml" timeStamp="2015-05-28T03:04:47.0000" />
+  <exportedFile url="\Portal\sdata\Services\Sage.Platform.Security.IUserService.service.xml" timeStamp="2015-05-28T03:04:47.0000" />
+  <exportedFile url="\Portal\sdata\Services\Sage.Platform.VirtualFileSystem.IFileSystemEventService.service.xml" timeStamp="2015-05-28T03:04:47.0000" />
+  <exportedFile url="\Portal\sdata\Services\Sage.SalesLogix.SalesLogixEntityKeyGenerator.service.xml" timeStamp="2015-05-28T03:04:47.0000" />
+  <exportedFile url="\Portal\sdata\Services\Sage.SalesLogix.Services.ISystemOptionsService.service.xml" timeStamp="2015-05-28T03:04:47.0000" />
+  <exportedFile url="\Portal\sdata\Services\Sage.Scheduling.Client.ISchedulerService.service.xml" timeStamp="2015-05-28T03:04:47.0000" />
+</exportedFiles>

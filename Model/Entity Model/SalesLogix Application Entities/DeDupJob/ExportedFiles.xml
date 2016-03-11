@@ -1,0 +1,16 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\DeDupJob\DateChecked.filter.xml" timeStamp="2015-05-28T03:04:06.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\DeDupJob\DeDupJob.DEDUPJOB.entity.xml" timeStamp="2015-05-28T03:04:06.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\DeDupJob\EntityName.filter.xml" timeStamp="2015-05-28T03:04:06.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\DeDupJob\OnAfterDelete.method.xml" timeStamp="2015-05-28T03:04:06.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\DeDupJob\OnAfterInsert.method.xml" timeStamp="2015-05-28T03:04:06.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\DeDupJob\OnAfterUpdate.method.xml" timeStamp="2015-05-28T03:04:06.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\DeDupJob\OnBeforeDelete.method.xml" timeStamp="2015-05-28T03:04:06.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\DeDupJob\OnBeforeInsert.method.xml" timeStamp="2015-05-28T03:04:06.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\DeDupJob\OnBeforeUpdate.method.xml" timeStamp="2015-05-28T03:04:06.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\DeDupJob\OnCreate.method.xml" timeStamp="2015-05-28T03:04:06.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\DeDupJob\SourceDescription.filter.xml" timeStamp="2015-05-28T03:04:06.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\DeDupJob\Status.filter.xml" timeStamp="2015-05-28T03:04:07.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\DeDupJob\QuickForms\" />
+</exportedFiles>

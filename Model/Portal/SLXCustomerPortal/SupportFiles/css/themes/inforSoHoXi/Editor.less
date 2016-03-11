@@ -1,0 +1,61 @@
+/* Editor 
+ * 
+ * Styling Editor means styling the Editor inside iframe container (dijitEditorIFrameContainer)
+ * 
+ * 1. Editor iframe container (default styling): 
+ * 		.dijitEditorIFrameContainer - normal state styles: background-color, border, padding
+ *
+ * 2. hovered Editor iframe container (ie, mouse hover on editor)
+ * 		.dijitEditorHover .dijitEditorIFrameContainer/dijitEditorIFrame - styles when mouse hover on the container
+ * 
+ * 3. focused Editor iframe container (ie, mouse focus on the editor pane)
+ * 		.dijitEditorFocused .dijitEditorIFrameContainer/dijitEditorIFrame - styles when container focused
+ * 
+ * 3. disabled Editor iframe container 
+ * 		.dijitEditorDisabled - editor's inner iframe container disable status styles: background, border
+ */
+
+@import "variables";
+
+.inforSoHoXi .dijitEditorIFrameContainer{
+	padding:3px 3px 1px 10px;
+}
+.inforSoHoXi .dijitEditorIFrame {
+	background-color: @textbox-background-color;
+}
+.inforSoHoXi .dijitEditor {
+	border: 1px solid @border-color;
+}
+.inforSoHoXi .dijitEditor .dijitEditorIFrameContainer{
+	background-color: @textbox-background-color;
+	/*background-image: url(@image-form-textbox-background);*/
+	background-repeat:repeat-x;
+}
+.dj_ie6 .inforSoHoXi .dijitEditor .dijitEditorIFrameContainer{
+	background-image: none;
+}
+.inforSoHoXi .dijitEditorHover .dijitEditorIFrameContainer,
+.inforSoHoXi .dijitEditorHover .dijitEditorIFrameContainer .dijitEditorIFrame{
+	background-color: @textbox-hovered-background-color;
+}
+.inforSoHoXi .dijitEditorFocused .dijitEditorIFrameContainer,
+.inforSoHoXi .dijitEditorFocused .dijitEditorIFrameContainer .dijitEditorIFrame{
+	/* TODO: contradicts rule above, which background-color do you want? */
+	background-color: @textbox-focused-background-color;
+}
+.inforSoHoXi .dijitEditorHover .dijitEditorIFrameContainer,
+.inforSoHoXi .dijitEditorFocused .dijitEditorIFrameContainer {
+}
+
+/* Disabled */
+.inforSoHoXi .dijitEditorDisabled {
+	border: 1px solid @disabled-border-color;
+	color: @disabled-text-color;
+}
+
+.inforSoHoXi .dijitDisabled .dijitEditorIFrame,
+.inforSoHoXi .dijitDisabled .dijitEditorIFrameContainer,
+.inforSoHoXi .dijitDisabled .dijitEditorIFrameContainer .dijitEditorIFrame {
+	background-color: @textbox-disabled-background-color;
+	background-image: none;
+}

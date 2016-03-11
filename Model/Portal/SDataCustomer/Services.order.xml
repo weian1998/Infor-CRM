@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<ModelItems xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Item Id="89987334-a5df-40e4-a5c4-34ab6fd13b9f">Sage.Platform.Security.IUserService.service.xml</Item>
+  <Item Id="00982854-de35-4a63-a305-39860be33ff5">Sage.Platform.Data.IDataService.service.xml</Item>
+  <Item Id="49039005-8238-466d-8799-7d364cd562a8">Sage.Platform.Application.Services.IUserOptionsService.service.xml</Item>
+  <Item Id="00435633-c3f2-47a6-998c-fb95155a2261">Sage.Platform.Mashups.IMashupDiscoveryService.service.xml</Item>
+  <Item Id="18954547-0f1c-4adb-bbf1-4c1ea1c11350">Sage.Platform.Data.IHibernateConfigurationService.service.xml</Item>
+  <Item Id="28345452-e0ac-42fb-9ca8-cf822f4c5599">Sage.SalesLogix.Services.ISystemOptionsService.service.xml</Item>
+  <Item Id="34796654-53d5-4682-9483-65cade304988">Sage.Platform.Security.IRoleSecurityService.service.xml</Item>
+  <Item Id="38904554-a870-404c-b7fa-5ffb1c29ffb6">Sage.Platform.Application.Services.IEntityMappingInfoService.service.xml</Item>
+  <Item Id="49055003-b15b-4d0d-9aa5-2993c5694b16">Sage.Platform.Application.Caching.CacheInitializationService.service.xml</Item>
+  <Item Id="85653327-481b-4051-ab4f-e3e519b85f5c">Sage.Scheduling.Client.ISchedulerService.service.xml</Item>
+  <Item Id="90786723-334b-b3af-35fe-aeffd57dec18">Sage.Platform.Scheduling.ISchedulerClientService.service.xml</Item>
+  <Item Id="94463423-d2f0-46cc-adbe-32731ddd5ad4">Sage.Platform.Projects.Localization.ProjectLocalizationService.service.xml</Item>
+  <Item Id="73452902-f00e-4f08-938b-f725c24f3394">Sage.Platform.Messaging.Transport.IMessageTransport.service.xml</Item>
+  <Item Id="37294373-aff5-4d53-8bcb-7beedc315116">Sage.Platform.Messaging.IMessageHost.service.xml</Item>
+  <Item Id="53378742-6e39-4ffb-b739-5bdadc556709">Sage.Platform.VirtualFileSystem.IFileSystemEventService.service.xml</Item>
+</ModelItems>

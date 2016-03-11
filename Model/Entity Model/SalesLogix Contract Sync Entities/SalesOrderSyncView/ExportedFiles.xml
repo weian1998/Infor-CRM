@@ -1,0 +1,11 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Entity Model\SalesLogix Contract Sync Entities\SalesOrderSyncView\OnAfterDelete.method.xml" timeStamp="2015-05-28T03:04:34.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Contract Sync Entities\SalesOrderSyncView\OnAfterInsert.method.xml" timeStamp="2015-05-28T03:04:34.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Contract Sync Entities\SalesOrderSyncView\OnAfterUpdate.method.xml" timeStamp="2015-05-28T03:04:34.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Contract Sync Entities\SalesOrderSyncView\OnBeforeDelete.method.xml" timeStamp="2015-05-28T03:04:34.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Contract Sync Entities\SalesOrderSyncView\OnBeforeInsert.method.xml" timeStamp="2015-05-28T03:04:34.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Contract Sync Entities\SalesOrderSyncView\OnBeforeUpdate.method.xml" timeStamp="2015-05-28T03:04:34.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Contract Sync Entities\SalesOrderSyncView\OnCreate.method.xml" timeStamp="2015-05-28T03:04:34.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Contract Sync Entities\SalesOrderSyncView\SalesOrderSyncView.SALESORDERSYNCVIEW.entity.xml" timeStamp="2015-05-28T03:04:34.0000" />
+</exportedFiles>

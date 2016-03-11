@@ -1,0 +1,45 @@
+﻿<div>
+    <div data-dojo-type="dijit.Dialog" title="{%= $._nlsResources.txtOptions %}" dojoattachpoint="_dialog" dojoattachevent="onCancel:_dialog_OnCancel" style="width: 450px">
+        <div data-dojo-type="dijit.form.Form" dojoAttachPoint="frmOptions" id="frmOptions" >
+            <div style="overflow:auto">
+                <div>
+                    <table cellspacing="10">
+
+                        <tr>
+                            <td>
+                                <label>{%= $._nlsResources.txtColumns %}:</label>
+                            </td>
+                            <td>                                
+                                <div style="display:inline-block;"><input type="text" dojoType="Sage.UI.Controls.Numeric" dojoAttachPoint="txtFieldCount" id="txtFieldCount" style="width:25px" /></div>
+                                <label>{%= $._nlsResources.txtZero %}</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <div dojoType="dijit.form.CheckBox" label="{%= $._nlsResources.txtHideOnSelection %}" id="chkHideOnSelection" name="chkHideOnSelection" dojoAttachPoint="chkHideOnSelection" ></div>
+                                <label class="checkbox-label" for="chkHideOnSelection">{%= $._nlsResources.txtHideOnSelection %}</label>
+                            </td>
+                        </tr>                        
+                        <tr>
+                            <td colspan="2">
+                                <div dojoType="dijit.form.CheckBox" label="{%= $._nlsResources.txtStayInDetailViewOnLookup %}" id="chkStayInDetailView" name="chkStayInDetailView" dojoAttachPoint="chkStayInDetailView" ></div>
+                                <label class="checkbox-label" for="chkStayInDetailView">{%= $._nlsResources.txtStayInDetailViewOnLookup %}</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <div dojoType="dijit.form.CheckBox" label="{%= $._nlsResources.txtDisplayExtendedGroupListOnLookup %}" id="chkShowOnLookup" name="chkShowOnLookup" dojoAttachPoint="chkShowOnLookup" ></div>
+                                <label class="checkbox-label" for="chkShowOnLookup">{%= $._nlsResources.txtDisplayExtendedGroupListOnLookup %}</label>
+                            </td>
+                        </tr>
+                        
+                    </table>
+                </div>
+            </div>
+            <div align="right" style="margin-top:10px">                
+                <div data-dojo-type="dijit.form.Button"dojoAttachPoint="cmdOk" dojoAttachEvent="onClick:_cmdOk_OnClick">{%= Sage.Utility.htmlEncode($._nlsResources.cmdOk_Caption) %}</div>
+                <div data-dojo-type="dijit.form.Button" dojoAttachPoint="cmdCancel" dojoAttachEvent="onClick:_cmdCancel_OnClick" style="margin-left:5px;">{%= Sage.Utility.htmlEncode($._nlsResources.cmdCancel_Caption) %}</div>
+            </div>
+        </div>
+    </div>
+</div>

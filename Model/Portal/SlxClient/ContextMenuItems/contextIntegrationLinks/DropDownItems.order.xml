@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<ModelItems xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Item Id="ccd258bd-c33f-4185-bfcc-358ac51aa7f3">menuItemLookupIntegrationLink.contextmenu.xml</Item>
+  <Item Id="22f1f88e-0d72-4486-8388-4bec6cb751c7">menuItemCreateNewIntegrationLinkGroup.contextmenu.xml</Item>
+</ModelItems>

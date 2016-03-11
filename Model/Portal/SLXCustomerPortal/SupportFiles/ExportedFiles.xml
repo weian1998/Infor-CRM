@@ -1,0 +1,35 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\application-thread.xml" timeStamp="2015-05-28T03:08:47.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\appSettings.config" timeStamp="2015-05-28T03:07:06.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\ContextualListConfiguration.xml" timeStamp="2015-05-28T03:07:06.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\dynamicInterceptors.xml" timeStamp="2015-05-28T03:08:47.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\favicon.ico" timeStamp="2015-05-28T03:07:06.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\ForgotMyPassword.aspx" timeStamp="2015-05-28T03:08:47.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\ForgotMyUserName.aspx" timeStamp="2015-05-28T03:08:47.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\Global.asax" timeStamp="2015-05-28T03:07:06.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\GoogleAuth.aspx" timeStamp="2015-05-28T03:08:47.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\log4net.config" timeStamp="2015-05-28T03:07:07.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\Login.aspx" timeStamp="2015-05-28T03:07:07.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\Logoff.aspx" timeStamp="2015-05-28T03:07:07.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\MashupConfiguration.xml" timeStamp="2015-05-28T03:07:07.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\ModelTypes.xml" timeStamp="2015-05-28T03:07:07.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\ResetMyPassword.aspx" timeStamp="2015-05-28T03:08:47.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\slx.appcache" timeStamp="2015-05-28T03:07:07.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\SLXErrorLookupService.asmx" timeStamp="2015-05-28T03:09:46.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\UIStateService.asmx" timeStamp="2015-05-28T03:07:38.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\web.config" timeStamp="2015-05-28T03:07:07.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\App_Code\" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\App_Data\" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\App_GlobalResources\" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\App_LocalResources\" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\bin\" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\css\" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\GroupBuilder\" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\help\" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\images\" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\Libraries\" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\Masters\" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\SmartParts\" />
+</exportedFiles>

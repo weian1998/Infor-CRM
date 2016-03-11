@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:fileTags="Translation Status.Support files" MadCap:tocPath="" MadCap:medium="non-print" MadCap:InPreviewMode="false" MadCap:PreloadImages="false" MadCap:RuntimeFileType="Topic" MadCap:TargetType="WebHelp" lang="en-us" xml:lang="en-us" MadCap:conditions="Output.WebClient" MadCap:PathToHelpSystem="../../" MadCap:HelpSystemFileName="WebClient.xml" MadCap:SearchType="Stem">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="description" content="The Infor CRM Actions tab on the Role Detail view allows administrative users to manage the secured actions assigned to a role. The secured actions of a role determine what functionality users assigned to the role can access in the Web Client.   " />
+        <meta name="keywords" content="Add or delete SLX secured actions using the Infor CRM Web Client Actions tab" /><title>Actions Tab</title>
+        <link href="../SkinSupport/Slideshow.css" rel="stylesheet" />
+        <link href="../SkinSupport/MadCap.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/Infor.CSS" rel="stylesheet" />
+        <script src="../SkinSupport/jquery.min.js">
+        </script>
+        <script src="../SkinSupport/MadCapAll.js">
+        </script>
+        <script src="../SkinSupport/MadCapTopicAll.js">
+        </script>
+    </head>
+    <body>
+        <h1>Actions Tab</h1>
+        <p><a name="kanchor355"></a>Use the Actions tab in the Role Detail view to manage the secured actions assigned to a role.  A role determines what functionality a user can access in the Web Client. Adding secured actions to a role determines what functionality the role gives access to. Adding users to the role determines who gets the access.           </p>
+        <p><a href="javascript:void(0);" onclick="FMCToggler( this ); return false;" class="MCToggler_0" MadCap:targets="elements example;actions1">Tell me more...<img style="border: none;margin-left: 5px;" src="../SkinSupport/DropDownClosed.gif" MadCap:altsrc="../SkinSupport/DropDownOpen.gif" onload="if ( typeof( FMCPreloadImage ) == 'function' ) { FMCPreloadImage( '../SkinSupport/DropDownOpen.gif' ); }" alt="Closed" MadCap:alt2="Open" class="MCTogglerIcon" /></a>
+        </p>
+        <p MadCap:targetName="actions1" style="display: none;">Elements are secured in the Application Architect by assigning an action to them, or applying security. Once a secured action is applied, users can only access that element if they are assigned a role that includes the secured action. For example, select Entities/Account/Save as the Applied Security property value for the Save button action on the Account main view.  When that button loads at runtime, the display value changes depending on whether the current user has permission to perform the action. </p>
+        <p MadCap:targetName="elements example" style="display: none;">See the "Understanding Secured Actions" topic in the Application Architect Help for more information.</p>
+        <p>Adding or removing a secured action from a role using this tab also adds or removes the secured action from the <a href="SecuredActionRolesTab.htm" target="_self">Roles</a> tab in the Secured Action Detail view.</p>
+        <p class="RelatedTopics">How Do I?</p>
+        <p class="HowDoI"><a href="javascript:void(0);" onclick="FMCToggler( this ); return false;" class="MCToggler_0" MadCap:targets="add action">Add a secured action to a role<img style="border: none;margin-left: 5px;" src="../SkinSupport/DropDownClosed.gif" MadCap:altsrc="../SkinSupport/DropDownOpen.gif" onload="if ( typeof( FMCPreloadImage ) == 'function' ) { FMCPreloadImage( '../SkinSupport/DropDownOpen.gif' ); }" alt="Closed" MadCap:alt2="Open" class="MCTogglerIcon" /></a>
+        </p>
+        <ol MadCap:targetName="add action" style="display: none;">
+            <li value="1">Open the <a href="Role_Detail_View.htm" target="_self">Role Detail</a> view.</li>
+            <li value="2">Click the <span class="SLXBold">Actions</span> tab.</li>
+            <li value="3">Click <span class="MCExpanding_0"><a href="javascript:void(0);" class="expandingHead_1" onclick="FMCExpand( this ); return false;">Add Action<img style="border: none;margin-left: 5px;" src="../SkinSupport/ExpandClosed.gif" MadCap:altsrc="../SkinSupport/ExpandOpen.gif" onload="if ( typeof( FMCPreloadImage ) == 'function' ) { FMCPreloadImage( '../SkinSupport/ExpandOpen.gif' ); }" alt="Closed" MadCap:alt2="Open" class="MCExpandingIcon" /></a><span class="MCExpandingBody_0" style="display: none;"><img src="../image/add.gif" /></span></span>.</li>
+            <li value="4">Use the <a href="../Lookups/findlookup.htm" target="_self">lookup</a> to find and select any actions you want to add to the role.</li>
+            <li value="5">Click <span class="SLXBold">Add Selected</span>.</li>
+        </ol>
+        <p class="HowDoI"><a href="javascript:void(0);" onclick="FMCToggler( this ); return false;" class="MCToggler_0" MadCap:targets="delete action">Remove a secured action from a role<img style="border: none;margin-left: 5px;" src="../SkinSupport/DropDownClosed.gif" MadCap:altsrc="../SkinSupport/DropDownOpen.gif" onload="if ( typeof( FMCPreloadImage ) == 'function' ) { FMCPreloadImage( '../SkinSupport/DropDownOpen.gif' ); }" alt="Closed" MadCap:alt2="Open" class="MCTogglerIcon" /></a>
+        </p>
+        <ol MadCap:targetName="delete action" style="display: none;">
+            <li value="1">Open the <a href="Role_Detail_View.htm" target="_self">Role Detail</a> view.</li>
+            <li value="2">Click the <span class="SLXBold">Actions</span> tab.</li>
+            <li value="3">
+                <p>
+                    <MadCap:conditionalText MadCap:conditions="Output.WebClient,Targeted.WebHelp-slxgetstarted sub-set">Select the record you want to remove and click the <span class="MCExpanding_0"><a href="javascript:void(0);" class="MCExpandingHead_0" onclick="FMCExpand( this ); return false;">Remove<img style="border: none;margin-left: 5px;" src="../SkinSupport/ExpandClosed.gif" MadCap:altsrc="../SkinSupport/ExpandOpen.gif" onload="if ( typeof( FMCPreloadImage ) == 'function' ) { FMCPreloadImage( '../SkinSupport/ExpandOpen.gif' ); }" alt="Closed" MadCap:alt2="Open" class="MCExpandingIcon" /></a><span class="MCExpandingBody_0" style="display: none;"><img src="../image/delete.gif" /></span></span> button.</MadCap:conditionalText>
+                </p>
+            </li>
+            <li value="4">Click <span class="SLXBold">Yes</span>.</li>
+        </ol>
+        <p class="RelatedTopics">Related Topics</p>
+        <p><a target="_self" href="What_are_Roles_and_Secured_Actions.htm">What are Roles and Secured Actions?</a>
+        </p>
+        <p><a href="Creating_a_Role.htm" target="_self">Creating a Role</a>
+        </p>
+        <p><a href="Editing_or_Deleting_a_Role.htm" target="_self">Editing or Deleting a Role</a>
+        </p>
+        <p><a href="Role_Users_Tab.htm" target="_self">Assigning a Role to a User</a>
+        </p>
+        <p><a href="Assigning_Users_To_Standard_Role.htm" target="_self">Assigning  Users to the Standard User Role</a>
+        </p>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

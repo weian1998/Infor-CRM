@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<method xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="bdba9897-8b18-41f1-abff-6fe4504af74d" lastModifiedUtc="2015-03-05T14:45:13.7534497Z" name="SaveImportJobTemplate" returnType="String" methodType="Rule" actionType="None" returnMode="Object">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmEntityMethod" />
+  </ExtendedPropertiesCollection>
+  <parameter>
+    <OrmEntityMethodParam id="31a8acfc-4c7e-4a9a-aa72-b1f1e8e7ac14" paramName="templateOptions" sequence="0" paramType="String">
+      <description>The specified options to be saved to the import template.</description>
+    </OrmEntityMethodParam>
+  </parameter>
+  <preExecuteTargets />
+  <methodTargets>
+    <methodTarget id="8fb5a68c-aa21-4d85-a01f-c88ac144c0b4" lastModifiedUtc="2015-02-27T21:06:16.390305Z" targetType="Sage.SalesLogix.Import.ImportTemplate, Sage.SalesLogix.BusinessRules" targetMethod="SaveImportJobTemplate" active="true">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmMethodTarget" />
+      </ExtendedPropertiesCollection>
+    </methodTarget>
+  </methodTargets>
+  <postExecuteTargets />
+  <postFlushTargets />
+</method>

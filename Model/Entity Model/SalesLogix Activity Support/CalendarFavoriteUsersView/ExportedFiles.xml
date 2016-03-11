@@ -1,0 +1,11 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\CalendarFavoriteUsersView\CalendarFavoriteUsersView.CALENDARFAVORITEUSERSVIEW.entity.xml" timeStamp="2015-05-28T03:03:55.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\CalendarFavoriteUsersView\OnAfterDelete.method.xml" timeStamp="2015-05-28T03:03:55.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\CalendarFavoriteUsersView\OnAfterInsert.method.xml" timeStamp="2015-05-28T03:03:55.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\CalendarFavoriteUsersView\OnAfterUpdate.method.xml" timeStamp="2015-05-28T03:03:55.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\CalendarFavoriteUsersView\OnBeforeDelete.method.xml" timeStamp="2015-05-28T03:03:55.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\CalendarFavoriteUsersView\OnBeforeInsert.method.xml" timeStamp="2015-05-28T03:03:55.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\CalendarFavoriteUsersView\OnBeforeUpdate.method.xml" timeStamp="2015-05-28T03:03:55.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\CalendarFavoriteUsersView\OnCreate.method.xml" timeStamp="2015-05-28T03:03:55.0000" />
+</exportedFiles>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:fileTags="Translation Status.Support files" MadCap:tocPath="" MadCap:medium="non-print" MadCap:InPreviewMode="false" MadCap:PreloadImages="false" MadCap:RuntimeFileType="Topic" MadCap:TargetType="WebHelp" lang="ru" xml:lang="ru" MadCap:conditions="Output.WebClient,Output.Customer Portal,Output.SpeedSearchClient" class="" MadCap:PathToHelpSystem="../../" MadCap:HelpSystemFileName="WebCustomerPortal.xml" MadCap:SearchType="Stem">
+    <!-- saved from url=(0016)http://localhost -->
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Использование фильтрации по параметрам в Быстром поиске</title>
+        <link href="../SkinSupport/Slideshow.css" rel="stylesheet" />
+        <link href="../SkinSupport/MadCap.css" rel="stylesheet" />
+        <link href="../Resources/TableStyles/TableStyle.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/Infor.CSS" rel="stylesheet" />
+        <script src="../SkinSupport/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapAll.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapTopicAll.js" type="text/javascript">
+        </script>
+    </head>
+    <body>
+        <h1><a name="kanchor39"></a>Использование фильтрации по параметрам в Быстром поиске<a name="kanchor40"></a></h1>
+        <p>Фильтрация по параметрам становится доступна по нажатию ссылки Расширенный в клиенте Быстрого поиска. Эти фильтры позволяют ограничить записи по заданным условиям.</p>
+        <p>Доступные фильтры задаются вашим системным администратором и могут подойти не для всех элементов области поиска. Например, фильтр Категория применим только к заявкам и дефектам.Если вы дополнительно выберете Документ в области поиска, то получите в результате поиска все документы, поскольку фильтр Категория не применим к Документам.</p>
+        <p>Часто используемые фильтры отображаются при любом поиске. Если вы выставили флаг напротив часто используемого фильтра, в результаты поиска попадут только те записи, которые отвечают условиям заданным вашим системным администратором для выбранного фильтра.</p>
+        <p> Для получения более подробной информации об установке параметров для часто используемых фильтров обратитесь к разделу "Настройка основных параметров Быстрого поиска" в руководстве Администратора.</p>
+        <p>Следующая таблица содержит список всех доступных фильтров, на основе стандартных индексов <span class="MyVariablesProduct Name">Infor CRM</span>.</p>
+        <table wrapperparagraphselector="P" style="margin-top: 14pt;width: 98%;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" width="98%" MadCap:conditions="Output.Customer Portal">
+            <col style="width: 43px;" />
+            <col style="width: 410px;" />
+            <tr>
+                <td style="padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top">
+                    <p style="text-align: center;margin-bottom: 0;" align="center">
+                        <img src="../image/note.gif" />
+                    </p>
+                </td>
+                <td style="padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top">
+                    <p class="Tip-Note-Text" style="margin-bottom: 0;">Некоторые фильтры могут быть недоступны из клиентского Web портала.</p>
+                </td>
+            </tr>
+        </table>
+        <table style="width: 90%;mc-table-style: url('../Resources/TableStyles/TableStyle.css');margin-left: 0;margin-right: auto;" class="TableStyle-TableStyle" cellspacing="0">
+            <col class="TableStyle-TableStyle-Column-Column1" />
+            <col class="TableStyle-TableStyle-Column-Column1" />
+            <col class="TableStyle-TableStyle-Column-Column1" />
+            <thead>
+                <tr class="TableStyle-TableStyle-Head-Header1">
+                    <th class="TableStyle-TableStyle-HeadE-Column1-Header1">Фильтр</th>
+                    <th class="TableStyle-TableStyle-HeadE-Column1-Header1">Описание</th>
+                    <th class="TableStyle-TableStyle-HeadD-Column1-Header1">Применим к</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Дата создания в течение  </td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Используется для нахождения записей, созданных в течение X дней. </td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Любому поиску  </td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Посл. обновление в течение</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Используется для нахождения записей, обновленных в течение X дней.</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Любому поиску  </td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">AccountID содержит</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Используется для нахождения записей, содержащих в поле ИД субъекта введенное значение. </td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Дела, История</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">ContactID содержит  </td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Используется для нахождения записей, содержащих в поле ИД контакта введенное значение.</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Дела, История  </td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">OpportunityID содержит</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Используется для нахождения записей, содержащих в поле ИД сделки введенное значение.</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Дела, История  </td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">TicketID содержит</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Используется для нахождения записей, содержащих в поле ИД заявки введенное значение. </td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Дела, История</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Название файла содержит</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Используется для нахождения записей, в которых имя файла содержит введенный текст. </td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Вложения, Библиотека, Документы</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Послед. изменение файла в течение  </td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1"> Используется для нахождения файлов, измененных последний раз в течение X дней. </td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Вложения, Библиотека, Документы</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Дата создания файла в течение</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1"> Используется для нахождения файлов, созданных в течение X дней.</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Вложения, Библиотека, Документы  </td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Статус содержит</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Используется для нахождения записей, в которых поле Статус содержит введенный текст. </td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Дефект, Внутренний дефект, Заявка, Внутренняя заявка</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Область содержит</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Используется для нахождения записей, в которых поле Область содержит введенный текст. </td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Дефект, Внутренний дефект, Заявка, Внутренняя заявка</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Категория содержит</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Используется для нахождения записей, в которых поле Категория содержит введенный текст.</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Дефект, Внутренний дефект, Заявка, Внутренняя заявка  </td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Проект содержит</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Используется для нахождения записей, в которых поле Проект содержит введенный текст.</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Дефект, Внутренний дефект</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyB-Column1-Body1">Фиксир. в содержит</td>
+                    <td class="TableStyle-TableStyle-BodyB-Column1-Body1">Используется для нахождения записей, в которых поле Фиксир. в содержит введенный текст.</td>
+                    <td class="TableStyle-TableStyle-BodyA-Column1-Body1">Дефект, Внутренний дефект</td>
+                </tr>
+            </tbody>
+        </table>
+        <p class="RelatedTopics">См. также</p>
+        <p><a href="Searching_for_Information.htm" target="_self">Поиск информации</a>
+        </p>
+        <p><a href="Previewing_an_Item.htm" target="_self">Предпросмотр результатов быстрого поиска</a>
+        </p>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

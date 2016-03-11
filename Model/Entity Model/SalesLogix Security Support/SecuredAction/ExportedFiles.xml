@@ -1,0 +1,16 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Entity Model\SalesLogix Security Support\SecuredAction\AddToRole.method.xml" timeStamp="2015-05-28T03:04:39.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Security Support\SecuredAction\NameIsDuplicate.method.xml" timeStamp="2015-05-28T03:04:39.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Security Support\SecuredAction\NameIsMissing.method.xml" timeStamp="2015-05-28T03:04:39.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Security Support\SecuredAction\OnAfterDelete.method.xml" timeStamp="2015-05-28T03:04:39.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Security Support\SecuredAction\OnAfterInsert.method.xml" timeStamp="2015-05-28T03:04:39.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Security Support\SecuredAction\OnAfterUpdate.method.xml" timeStamp="2015-05-28T03:04:39.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Security Support\SecuredAction\OnBeforeDelete.method.xml" timeStamp="2015-05-28T03:04:39.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Security Support\SecuredAction\OnBeforeInsert.method.xml" timeStamp="2015-05-28T03:04:39.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Security Support\SecuredAction\OnBeforeUpdate.method.xml" timeStamp="2015-05-28T03:04:39.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Security Support\SecuredAction\OnCreate.method.xml" timeStamp="2015-05-28T03:04:39.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Security Support\SecuredAction\Parent.filter.xml" timeStamp="2015-05-28T03:04:39.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Security Support\SecuredAction\SecuredAction.SECUREDACTION.entity.xml" timeStamp="2015-05-28T03:04:39.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Security Support\SecuredAction\QuickForms\" />
+</exportedFiles>

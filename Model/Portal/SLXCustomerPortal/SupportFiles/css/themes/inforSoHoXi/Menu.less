@@ -1,0 +1,206 @@
+/* Menu 
+
+There are three areas of styling for the Menu:  
+ 
+ 1. The menu 
+ 	There are three types of menus:
+ 	i)Context Menu
+ 	ii)Drop down Menu
+ 	iii) Navigation Menu
+ 	All three types of menus are affected by the .dijitMenu class in which you can set the background-color, padding and border
+ 	.dijitMenu affects the drop down menu in TimeTextBox, Calendar, ComboBox and FilteringSelect
+  .dijitMenuTable - for padding - also affects Select widget 	
+  	
+ 2. The menu bar
+ 	.dijitMenuBar - for border, margins, padding, background-color of the menu bar
+ 	.dijitMenuBar .dijitMenuItem - for padding, text color of menu items in the menu bar (overrides .dijitMenuItem) 
+ 	
+ 3. Menu items - items in the menu.  
+ 	.dijitMenuItem - for color
+ 	.dijitMenuItemHover, .dijitMenuItemSelected - for background-color, border, text color, padding of a menu item or menubar item that has been hovered over or selected	
+ 	.dijitMenuItemActive - for bacgkround-color of an active (mousedown) menu item
+	td.dijitMenuItemIconCell - for padding around a  menu item's icon
+	td.dijitMenuItemLabel - for padding around a menu item's label	
+	.dijitMenuSeparatorTop - for border, top border, of the separator
+	.dijitMenuSeparatorBottom - for bottom margin of the separator
+	
+	Styles specific to ComboBox and FilteringSelect widgets: 
+	.dijitComboBoxMenu .dijitMenuItem - for padding and border of a menu item in a ComboBox or FilteringSelect widget's menu
+	.dijitComboBoxMenu .dijitMenuItemSelected- for text color, background-color and border of a menu item in a ComboBox or FilteringSelect widget's menu
+
+*/
+
+@import "variables";
+
+.inforSoHoXi .dijitMenuBar {
+	border: 1px solid @border-color;
+	margin: 0;
+	padding: 0;
+	background-color: @bar-background-color;
+	background-position:0 0;
+	background-repeat:repeat-x;
+}
+.dj_ie6 .inforSoHoXi .dijitMenuBar {
+	background-image:none;
+}
+.inforSoHoXi .dijitMenu {
+	background-repeat:repeat-y;
+	background-color:@menu-background-color;
+	border: 1px solid @popup-border-color;
+
+	/* so adjoining borders of MenuBar/ComboBox and Menu overlap, avoiding double border */
+	margin: -1px 0;
+}
+.dj_ie6 .inforSoHoXi .dijitMenu {
+	margin: 0;	/* above -1px makes top/bottom borders disappear on IE6 */
+}
+.inforSoHoXi .dijitMenuBar .dijitMenuItem {  
+	padding: 6px 10px 7px;
+	background-position:0 100px;
+	margin:-1px;
+}	
+.inforSoHoXi .dijitMenuItem {
+	background-position:0 -40px;
+	background-repeat:repeat-x;
+	color: @active-text-color;
+}
+
+/* this prevents jiggling upon hover of a menu item */
+.inforSoHoXi .dijitMenuTable {
+	border-collapse:separate;
+	border-spacing:0 0;
+	padding:0;
+}
+.inforSoHoXi .dijitMenuItem td{
+	padding:1px;
+}
+/* hover over a MenuBarItem */
+.inforSoHoXi .dijitMenuPassive .dijitMenuItemHover{
+	background-color: @menu-hover-color;
+	border:solid 1px @menu-hover-color;
+	background-position:0 0;
+	color:@active-text-color;
+    }
+.inforSoHoXi .dijitMenuPassive .dijitMenuItemSelected {
+	background-color: @menu-selected-active-color;
+	border:solid 1px @menu-selected-active-color;
+	background-position:0 0;
+	color:@active-text-color;
+	padding: 5px 9px 6px;
+}
+.inforSoHoXi .dijitMenuPassive .dijitMenuItemActive{
+	background-position:0 -177px;
+}
+.dj_ie6 .inforSoHoXi .dijitMenuItem,
+.dj_ie6 .inforSoHoXi .dijitMenuPassive .dijitMenuItem {
+	background-image: none;
+}
+
+/* MenuBarItem that has been selected and menu drops down from it */
+.inforSoHoXi .dijitMenuActive .dijitMenuItemHover,
+.inforSoHoXi .dijitMenuActive .dijitMenuItemSelected {
+	border:solid 1px @menu-selected-active-color;
+	background-color: @menu-selected-active-color;
+	background-position:0 0;
+	color:@active-text-color;
+}
+.dj_ie .inforSoHoXi .dijitMenuActive .dijitMenuItemHover,
+.dj_ie .inforSoHoXi .dijitMenuActive .dijitMenuItemSelected,
+.dj_ie .inforSoHoXi .dijitMenuPassive .dijitMenuItemHover,
+.dj_ie .inforSoHoXi .dijitMenuPassive .dijitMenuItemSelected {
+	padding-top: 6px;
+	padding-bottom: 5px;
+	margin-top: -3px;
+}
+.inforSoHoXi .dijitMenuActive .dijitMenuItemActive{
+	background-color: @menu-selected-active-color;
+	background-position:0 -177px;
+}
+.inforSoHoXi .dijitMenuItemActive {
+	background-position:0 -177px;
+}
+.inforSoHoXi td.dijitMenuItemIconCell {
+ padding: 2px;
+ margin: 0 0 0 4px;
+}
+.inforSoHoXi td.dijitMenuItemLabel {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.inforSoHoXi .dijitMenuExpand {
+	width: 7px;
+	height: 7px;
+	background-image: url(@image-arrow-sprite);
+	background-position: -14px 0;
+	margin-right:3px;
+}
+.inforSoHoXi .dijitMenuItemDisabled .dijitMenuItemIconCell {
+	opacity:1;
+}
+.inforSoHoXi .dijitMenuSeparatorTop {
+	height: auto;
+	margin-top:1px; /* prevents spacing above/below separator */
+	border-bottom: 1px solid @border-color
+}
+.inforSoHoXi .dijitMenuSeparatorBottom{
+	height: auto;
+	margin-bottom:1px;
+}
+/* the checked menu item */
+.inforSoHoXi .dijitCheckedMenuItemIconChar {
+	display: none;
+}
+.inforSoHoXi .dijitCheckedMenuItemIcon {
+	background-image: url(@image-form-checkbox-and-radios);
+	background-repeat:no-repeat;
+	background-position: -15px 50%;
+	width:15px;
+	height:16px;
+}
+.dj_ie6 .inforSoHoXi .dijitCheckedMenuItemIcon {
+	background-image: url(@image-form-checkbox-and-radios-ie6);
+}
+.inforSoHoXi .dijitCheckedMenuItemChecked .dijitCheckedMenuItemIcon {
+	background-position: 0 50%;
+}
+
+/*ComboBox Menu*/
+.inforSoHoXi .dijitComboBoxMenu {
+	margin-left:0;
+	background-image: none;
+}
+
+.inforSoHoXi .dijitComboBoxMenu .dijitMenuItem {
+	padding: 10px 10px;	// Make drop down menu text line up with text in <input>.
+	border-width:1px 0 1px 0;
+	border-style:solid;
+	border-color: @select-dropdownitem-background-color;
+}
+.inforSoHoXi .dijitComboBoxMenu .dijitMenuItemSelected {
+	color:@active-text-color;
+	border-color:@menu-selected-active-color;
+	background-color:@menu-selected-active-color;
+}
+.inforSoHoXi .dijitComboBoxMenu .dijitMenuItemHover {
+	color: @active-text-color;
+	border-color: @menu-hover-color;
+	background-color: @menu-hover-color;
+	background-position: 0 0;
+}
+.inforSoHoXi .dijitComboBoxMenuActive .dijitMenuItemSelected {
+	background-position:0 -177px;
+	background-color: @select-dropdownitem-hovered-background-color;	/* TODO: why is this a different color than normal .dijitMenuItemSelected? */
+}
+.inforSoHoXi .dijitMenuPreviousButton, .inforSoHoXi .dijitMenuNextButton {
+	font-style: italic;
+}
+.inforSoHoXi .dijitMenuHover .dijitMenuItemHover {
+    background-color: @menu-hover-color;
+}
+.inforSoHoXi td[id*="GridMenuItem"] {
+  width: 100%;
+}
+.inforSoHoXi #ToolBar > .dijitMenuItemSelected
+{
+    background-color: @toolbar-menu-selected-background-color;
+}

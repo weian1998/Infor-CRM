@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<SchedulerJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="d4dfc968-9337-4f75-91b7-827a959d6efc">
+  <InstanceId>b5ad94ffd54a474d801de4c46efcf97f</InstanceId>
+  <TypeName>Sage.SalesLogix.BusinessRules.Jobs.DeleteEntityJob, Sage.SalesLogix.BusinessRules</TypeName>
+</SchedulerJob>

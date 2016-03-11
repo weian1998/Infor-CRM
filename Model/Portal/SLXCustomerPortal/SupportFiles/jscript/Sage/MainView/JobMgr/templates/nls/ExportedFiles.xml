@@ -1,0 +1,14 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\MainView\JobMgr\templates\nls\ExecutionDetailSummary.js" timeStamp="2015-05-28T03:09:03.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\MainView\JobMgr\templates\nls\ExecutionsListSummary.js" timeStamp="2015-05-28T03:09:03.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\MainView\JobMgr\templates\nls\JobDefinitionDetailSummary.js" timeStamp="2015-05-28T03:09:03.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\MainView\JobMgr\templates\nls\JobDefinitionsListSummary.js" timeStamp="2015-05-28T03:09:03.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\MainView\JobMgr\templates\nls\ScheduleDetailSummary.js" timeStamp="2015-05-28T03:09:03.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\MainView\JobMgr\templates\nls\SchedulesListSummary.js" timeStamp="2015-05-28T03:09:03.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\MainView\JobMgr\templates\nls\de\" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\MainView\JobMgr\templates\nls\en\" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\MainView\JobMgr\templates\nls\fr\" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\MainView\JobMgr\templates\nls\it\" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\MainView\JobMgr\templates\nls\ru\" />
+</exportedFiles>

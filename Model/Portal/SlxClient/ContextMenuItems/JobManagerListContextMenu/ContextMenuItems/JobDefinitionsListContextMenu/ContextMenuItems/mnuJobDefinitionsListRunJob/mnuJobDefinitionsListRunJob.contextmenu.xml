@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<MenuDropDownItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="752140cf-f0ce-4a89-aab1-07a6f0575402">
+  <ItemId>mnuJobDefinitionsListRunJob</ItemId>
+  <NavUrl>javascript:Sage.MainView.JobMgr.JobManagerActions.showRunJobDialog();</NavUrl>
+  <LargeImageUrl />
+  <SmallImageUrl />
+  <ContextMenuId />
+  <Target />
+  <AppliedSecurity>Entities/JobManager/RunJob</AppliedSecurity>
+</MenuDropDownItem>

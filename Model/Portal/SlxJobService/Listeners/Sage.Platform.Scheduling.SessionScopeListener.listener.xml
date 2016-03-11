@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<SchedulerListener xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="c79e539b-7715-4bbd-b408-100e4e628792">
+  <InstanceId>9c880d52db07499dbdf7076421c7062e</InstanceId>
+  <TypeName>Sage.Platform.Scheduling.SessionScopeListener, Sage.Platform</TypeName>
+</SchedulerListener>

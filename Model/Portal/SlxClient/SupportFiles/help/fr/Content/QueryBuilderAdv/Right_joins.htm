@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:fileTags="Translation Status.Support files" xml:lang="fr" MadCap:tocPath="" MadCap:medium="non-print" MadCap:InPreviewMode="false" MadCap:PreloadImages="false" MadCap:RuntimeFileType="Topic" MadCap:TargetType="WebHelp" lang="fr" MadCap:conditions="Output.WebClient,Output.Query Builder" class="" MadCap:PathToHelpSystem="../../" MadCap:HelpSystemFileName="WebClient.xml" MadCap:SearchType="Stem">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Jointures droites</title>
+        <link href="../SkinSupport/Slideshow.css" rel="stylesheet" />
+        <link href="../SkinSupport/MadCap.css" rel="stylesheet" />
+        <link href="../Resources/TableStyles/TableStyle.css" rel="stylesheet" />
+        <style>
+body
+{
+	border-left-style: none;
+	border-right-style: none;
+	border-top-style: none;
+	border-bottom-style: none;
+}
+
+</style>
+        <link href="../Resources/Stylesheets/Infor.CSS" rel="stylesheet" />
+        <script src="../SkinSupport/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapAll.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapTopicAll.js" type="text/javascript">
+        </script>
+    </head>
+    <body>
+        <h1><a name="kanchor699"></a>Jointures droites</h1>
+        <p>Utilisez une jointure droite pour inclure tous les enregistrements de la table enfant qui répondent aux critères et les lignes de la table parent dont les valeurs des champs que vous êtes en train de lier sont égales.</p>
+        <p>Exemple : Vous souhaitez générer une liste de toutes vos activités. Si l'activité est associée à une opportunité, sélectionnez-la également. Les enregistrements affichés dans la colonne Résultats de jointure sont renvoyés par cette requête. L'opportunité spécifique, associée à une activité, est indiquée entre parenthèses, à droite de l'activité.</p>
+        <table style="width: 90%;mc-table-style: url('../Resources/TableStyles/TableStyle.css');margin-left: 0;margin-right: auto;" class="TableStyle-TableStyle" cellspacing="0">
+            <col class="TableStyle-TableStyle-Column-Column1" />
+            <col class="TableStyle-TableStyle-Column-Column1" />
+            <col class="TableStyle-TableStyle-Column-Column1" />
+            <col class="TableStyle-TableStyle-Column-Column1" />
+            <thead>
+                <tr class="TableStyle-TableStyle-Head-Header1">
+                    <th class="TableStyle-TableStyle-HeadE-Column1-Header1">Source</th>
+                    <th class="TableStyle-TableStyle-HeadE-Column1-Header1" colspan="2">Sélection</th>
+                    <th class="TableStyle-TableStyle-HeadD-Column1-Header1">Résultats de jointure</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Table OPPORTUNITY</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1" colspan="2">Table ACTIVITY</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">&#160;</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Opportunité1</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Activité&#160;1</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1" rowspan="7">
+                        <p rowspan="7">Activité&#160;1</p>
+                        <p rowspan="7">Activité&#160;2</p>
+                        <p rowspan="7">Activité&#160;3</p>
+                        <p rowspan="7">Activité&#160;4</p>
+                        <p rowspan="7">Activité&#160;5</p>
+                        <p rowspan="7">Activité&#160;6</p>
+                        <p rowspan="7">Activité&#160;7</p>
+                        <p rowspan="7">Opportunité1</p>
+                        <p rowspan="7">Opportunité4</p>
+                        <p rowspan="7">Opportunité5</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Opportunité2</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Activité&#160;2</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">&#160;</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Opportunité3</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Activité&#160;3</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">(Opportunité1)</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Opportunité4</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Activité&#160;4</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">(Opportunité4)</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Opportunité5</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Activité&#160;5</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">&#160;</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Activité&#160;6</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">(Opportunité5)</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyB-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-TableStyle-BodyB-Column1-Body1">Activité&#160;7</td>
+                    <td class="TableStyle-TableStyle-BodyB-Column1-Body1">(Opportunité1)</td>
+                </tr>
+            </tbody>
+        </table>
+        <p class="RelatedTopics">Rubriques connexes</p>
+        <p><a href="Join_Example.htm">Exemple de jointure</a>
+        </p>
+        <p><a href="Inner_joins.htm">Jointures internes</a>
+        </p>
+        <p><a href="Left_joins.htm">Jointures gauches</a>
+        </p>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

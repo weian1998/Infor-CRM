@@ -1,0 +1,23 @@
+define((
+{ colNameComplete: 'Завершить',
+  colNameAttachment: 'Вложение',
+  colNameRecurring: 'Повторение',
+  colNameAlarm: 'Оповещение',
+  colNameType: 'Тип дела',
+  colNameStartDate: 'Дата начала',
+  colNameDuration: 'Длительность',
+  colNameContact: 'Имя',
+  colNameLead: 'Наводка',
+  colNameAccount: 'Субъект/Компания',
+  colNameCompany: 'Компания',
+  colNameRegarding: 'Тема',
+  colNamePriority: 'Приоритет',
+  colNameUserId: 'Исполнитель',
+  colNameTimeless: 'В течение дня',
+  colNameTypeName: 'Тип',
+  colNameContactName: 'Имя',
+  SnoozeAlarm: 'Отложить оповещение',
+  DismissAlarm: 'Отклонить оповещение',
+  colNameUnConfirmStatus: 'Неподтвержденные',
+  colNameAssociationCount: 'Число участников' }
+));

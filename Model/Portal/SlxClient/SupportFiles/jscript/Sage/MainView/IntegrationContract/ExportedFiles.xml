@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\IntegrationContract\AdvancedSearchOptions.js" timeStamp="2015-05-28T03:09:02.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\IntegrationContract\CustomerPaymentsRTDV.js" timeStamp="2015-05-28T03:09:02.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\IntegrationContract\InvoiceRTDV.js" timeStamp="2015-05-28T03:09:02.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\IntegrationContract\MatchingOptionsConfig.js" timeStamp="2015-05-28T03:09:02.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\IntegrationContract\SalesOrderRTDV.js" timeStamp="2015-05-28T03:09:02.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\IntegrationContract\SalesQuoteRTDV.js" timeStamp="2015-05-28T03:09:02.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\IntegrationContract\SyncResultsHistory.js" timeStamp="2015-05-28T03:09:02.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\IntegrationContract\nls\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\IntegrationContract\templates\" />
+</exportedFiles>

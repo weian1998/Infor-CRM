@@ -1,0 +1,38 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\SlxClient\SupportFiles\help\Content\QueryBuilderAdv\Add_a_Global_Join.htm" timeStamp="2015-05-28T02:52:03.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\help\Content\QueryBuilderAdv\Add_a_Local_Join.htm" timeStamp="2015-05-28T02:52:03.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\help\Content\QueryBuilderAdv\Add_Edit_a_Calculated_Field.htm" timeStamp="2015-05-28T02:52:03.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\help\Content\QueryBuilderAdv\Argument_index_specifier.htm" timeStamp="2015-05-28T02:52:03.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\help\Content\QueryBuilderAdv\assign_query_layout.htm" timeStamp="2015-05-28T02:52:03.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\help\Content\QueryBuilderAdv\Calculated_Fields.htm" timeStamp="2015-05-28T02:52:03.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\help\Content\QueryBuilderAdv\Calculation_Alias.htm" timeStamp="2015-05-28T02:52:03.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\help\Content\QueryBuilderAdv\Calculation_Type.htm" timeStamp="2015-05-28T02:52:03.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\help\Content\QueryBuilderAdv\Caption_alignment.htm" timeStamp="2015-05-28T02:52:04.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\help\Content\QueryBuilderAdv\Cascade_Options.htm" timeStamp="2015-05-28T02:52:04.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\help\Content\QueryBuilderAdv\Condition_value.htm" timeStamp="2015-05-28T02:52:04.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\help\Content\QueryBuilderAdv\Data_Relationships.htm" timeStamp="2015-05-28T02:52:04.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\help\Content\QueryBuilderAdv\Delete_a_Calculated_Field.htm" timeStamp="2015-05-28T02:52:04.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\help\Content\QueryBuilderAdv\Delete_a_Global_Join.htm" timeStamp="2015-05-28T02:52:04.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\help\Content\QueryBuilderAdv\Edit_a_Global_Join.htm" timeStamp="2015-05-28T02:52:04.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\help\Content\QueryBuilderAdv\Global_Join_Manager.htm" timeStamp="2015-05-28T02:52:04.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\help\Content\QueryBuilderAdv\Guidelines_for_Using_Joins.htm" timeStamp="2015-05-28T02:52:04.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\help\Content\QueryBuilderAdv\ID_Fields_in_Tables.htm" timeStamp="2015-05-28T02:52:04.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\help\Content\QueryBuilderAdv\Inner_joins.htm" timeStamp="2015-05-28T02:52:04.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\help\Content\QueryBuilderAdv\Join_Example.htm" timeStamp="2015-05-28T02:52:04.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\help\Content\QueryBuilderAdv\Join_Types.htm" timeStamp="2015-05-28T02:52:04.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\help\Content\QueryBuilderAdv\Joining_Tables.htm" timeStamp="2015-05-28T02:52:04.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\help\Content\QueryBuilderAdv\Left_joins.htm" timeStamp="2015-05-28T02:52:04.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\help\Content\QueryBuilderAdv\Left_justification_indicator.htm" timeStamp="2015-05-28T02:52:04.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\help\Content\QueryBuilderAdv\Operators.htm" timeStamp="2015-05-28T02:52:05.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\help\Content\QueryBuilderAdv\Precision_specifier.htm" timeStamp="2015-05-28T02:52:05.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\help\Content\QueryBuilderAdv\Query_Builder_Group_Example(Web).htm" timeStamp="2015-05-28T02:52:05.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\help\Content\QueryBuilderAdv\Query_Select_Table_Field.htm" timeStamp="2015-05-28T02:52:05.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\help\Content\QueryBuilderAdv\Right_joins.htm" timeStamp="2015-05-28T02:52:05.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\help\Content\QueryBuilderAdv\Show_a_Global_Join.htm" timeStamp="2015-05-28T02:52:05.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\help\Content\QueryBuilderAdv\Table_Relationship_Types.htm" timeStamp="2015-05-28T02:52:05.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\help\Content\QueryBuilderAdv\Text_alignment.htm" timeStamp="2015-05-28T02:52:05.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\help\Content\QueryBuilderAdv\Troubleshooting__Query_Builder_is_Slow_to_Respond.htm" timeStamp="2015-05-28T02:52:05.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\help\Content\QueryBuilderAdv\Use_Value_as_a_Literal.htm" timeStamp="2015-05-28T02:52:05.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\help\Content\QueryBuilderAdv\Visibility_Options.htm" timeStamp="2015-05-28T02:52:05.0000" />
+</exportedFiles>

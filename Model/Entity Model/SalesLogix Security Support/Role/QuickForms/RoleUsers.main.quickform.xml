@@ -1,0 +1,313 @@
+<?xml version="1.0"?>
+<QuickForm xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="62430dc4-b0e2-4b33-8e60-e8a1fbf4c8e1" DefinitionType="Sage.Platform.QuickForms.QuickFormMainDetailViewDefinition, Sage.Platform.QuickForms">
+  <ActiveControl />
+  <ImagePath />
+  <LoadActions />
+  <Name>RoleUsers</Name>
+  <ClientScriptIncludes />
+  <ClientResourceKeys />
+  <ExtendedProperties />
+  <HelpFile />
+  <ReadOnly>false</ReadOnly>
+  <GeneratePrintView>false</GeneratePrintView>
+  <Controls>
+    <Control typeName="Sage.SalesLogix.QuickForms.QFControls.SDataGrid.QFSDataGrid, Sage.SalesLogix.QuickForms.QFControls">
+      <QFSDataGrid>
+        <Column>0</Column>
+        <Row>0</Row>
+        <IsReadOnly>false</IsReadOnly>
+        <HotKey>0</HotKey>
+        <TabIndex>0</TabIndex>
+        <ControlId>grdRoles</ControlId>
+        <DataBindings />
+        <ControlLabelPlacement>left</ControlLabelPlacement>
+        <ExtendedProperties />
+        <CaptionAlignment>left</CaptionAlignment>
+        <StyleScheme />
+        <GenerateMember>false</GenerateMember>
+        <ReadOnlyCondition>False</ReadOnlyCondition>
+        <AppliedSecurity />
+        <RelateToPropertyName>Users</RelateToPropertyName>
+        <PreviewField />
+        <ResourceKind>
+          <Name>userRoles</Name>
+          <GetPredicate />
+        </ResourceKind>
+        <PathSegments />
+        <Columns>
+          <QFSDataLinkCol>
+            <StyleScheme />
+            <DataField>User.UserInfo.UserName</DataField>
+            <ColumnId>67620def-0232-4382-ad67-e8cdd30779af</ColumnId>
+            <HorizontalAlignment>left</HorizontalAlignment>
+            <HeaderAlignment>left</HeaderAlignment>
+            <SortDirection>Ascending</SortDirection>
+            <IsSortable>true</IsSortable>
+            <SortField>User.UserInfo.UserName</SortField>
+            <MultiCurrencyDependent>false</MultiCurrencyDependent>
+            <Destination />
+            <Image />
+            <EntityIdField>User.Id</EntityIdField>
+            <EntityTypeName>User</EntityTypeName>
+            <Target />
+            <AppliedSecurity />
+            <HideCondition />
+            <Width>16</Width>
+          </QFSDataLinkCol>
+          <QFEditableCol>
+            <StyleScheme />
+            <DataField>User.UserInfo.Division</DataField>
+            <ColumnId>b495e985-92d7-43cf-b279-9b67507ef789</ColumnId>
+            <HorizontalAlignment>left</HorizontalAlignment>
+            <HeaderAlignment>left</HeaderAlignment>
+            <SortDirection>None</SortDirection>
+            <IsSortable>true</IsSortable>
+            <SortField>User.UserInfo.Division</SortField>
+            <MultiCurrencyDependent>false</MultiCurrencyDependent>
+            <IsEditable>false</IsEditable>
+            <HideCondition />
+            <Width>15</Width>
+            <CustomFormatter />
+            <AbbreviationLength>0</AbbreviationLength>
+          </QFEditableCol>
+          <QFEditableCol>
+            <StyleScheme />
+            <DataField>User.UserInfo.Region</DataField>
+            <ColumnId>cc7540c6-a0ff-4e90-b21a-3b7bfd60a601</ColumnId>
+            <HorizontalAlignment>left</HorizontalAlignment>
+            <HeaderAlignment>left</HeaderAlignment>
+            <SortDirection>None</SortDirection>
+            <IsSortable>true</IsSortable>
+            <SortField>User.UserInfo.Region</SortField>
+            <MultiCurrencyDependent>false</MultiCurrencyDependent>
+            <IsEditable>false</IsEditable>
+            <HideCondition />
+            <Width>15</Width>
+            <CustomFormatter />
+            <AbbreviationLength>0</AbbreviationLength>
+          </QFEditableCol>
+        </Columns>
+        <ConditionalWhere />
+        <Select>
+          <string>User.Id</string>
+        </Select>
+        <Include />
+        <FeedCategory>InternalAppEntities</FeedCategory>
+        <OnGetMappingId />
+        <ParentRelationshipPropertyName>Role</ParentRelationshipPropertyName>
+        <ChildRelationshipPropertyName>Users</ChildRelationshipPropertyName>
+        <OnDataChange />
+        <OnAdd />
+        <Tools>
+          <SDataGridAddRelationTool>
+            <Name>Relate</Name>
+            <Image />
+            <DisplayInInsert>false</DisplayInInsert>
+            <MergePosition>Default</MergePosition>
+            <MergeControlId />
+            <OnClick>//default add relationship behavior</OnClick>
+            <StyleScheme />
+            <AppliedSecurity />
+            <LookupButton>
+              <Column>0</Column>
+              <Row>0</Row>
+              <IsReadOnly>false</IsReadOnly>
+              <HotKey>0</HotKey>
+              <TabIndex>0</TabIndex>
+              <ControlId>grdRoles_AddRelationTool</ControlId>
+              <DataBindings />
+              <ControlLabelPlacement>left</ControlLabelPlacement>
+              <ExtendedProperties />
+              <CaptionAlignment>left</CaptionAlignment>
+              <StyleScheme />
+              <OnChangeAction>
+                <ResourceKey>grdRoles_AddRelationTool</ResourceKey>
+                <Action typeName="Sage.Platform.QuickForms.ActionItems.NoActionActionItem, Sage.Platform.QuickForms">
+                  <NoActionActionItem>
+                    <MethodName />
+                  </NoActionActionItem>
+                </Action>
+                <IsDialogCloseAction>False</IsDialogCloseAction>
+                <RunOnEveryRePaint>False</RunOnEveryRePaint>
+                <DialogActionResult>NoResult</DialogActionResult>
+                <PerformsUpdate>False</PerformsUpdate>
+                <AppliedSecurity />
+                <RefreshData>False</RefreshData>
+              </OnChangeAction>
+              <Required>false</Required>
+              <LookupImage>[Localization!Global_Images:plus_16x16]</LookupImage>
+              <LookupDialogWidth xsi:nil="true" />
+              <LookupDialogHeight xsi:nil="true" />
+              <LookupDisplayMode>ButtonOnly</LookupDisplayMode>
+              <LookupBindingMode>Object</LookupBindingMode>
+              <LookupResultValue xsi:type="xsd:string" />
+              <AddEmptyListItem>false</AddEmptyListItem>
+              <AllowClearingResult>false</AllowClearingResult>
+              <OverrideSeedOnSearch>false</OverrideSeedOnSearch>
+              <LookupEntityName>User</LookupEntityName>
+              <LookupEntityTypeName />
+              <AutoPostBack>false</AutoPostBack>
+              <EnableHyperLinking>false</EnableHyperLinking>
+              <InitializeLookup>false</InitializeLookup>
+              <LookupProperties>
+                <LookupProperty>
+                  <PropertyName>UserInfo.UserName</PropertyName>
+                  <PropertyType>System.String</PropertyType>
+                  <PropertyHeader>User Name</PropertyHeader>
+                  <PropertyFormat>None</PropertyFormat>
+                  <PropertyFormatString />
+                  <UseAsResult>true</UseAsResult>
+                  <ExcludeFromFilters>false</ExcludeFromFilters>
+                  <IsSortable>true</IsSortable>
+                  <HideCondition />
+                </LookupProperty>
+                <LookupProperty>
+                  <PropertyName>UserInfo.Division</PropertyName>
+                  <PropertyType>System.String</PropertyType>
+                  <PropertyHeader>Division</PropertyHeader>
+                  <PropertyFormat>None</PropertyFormat>
+                  <PropertyFormatString />
+                  <UseAsResult>true</UseAsResult>
+                  <ExcludeFromFilters>false</ExcludeFromFilters>
+                  <IsSortable>true</IsSortable>
+                  <HideCondition />
+                </LookupProperty>
+                <LookupProperty>
+                  <PropertyName>UserInfo.Region</PropertyName>
+                  <PropertyType>System.String</PropertyType>
+                  <PropertyHeader>Region</PropertyHeader>
+                  <PropertyFormat>None</PropertyFormat>
+                  <PropertyFormatString />
+                  <UseAsResult>true</UseAsResult>
+                  <ExcludeFromFilters>false</ExcludeFromFilters>
+                  <IsSortable>true</IsSortable>
+                  <HideCondition />
+                </LookupProperty>
+                <LookupProperty>
+                  <PropertyName>Type</PropertyName>
+                  <PropertyType>Sage.Entity.Interfaces.UserType</PropertyType>
+                  <PropertyHeader>Type</PropertyHeader>
+                  <PropertyFormat>None</PropertyFormat>
+                  <PropertyFormatString />
+                  <UseAsResult>true</UseAsResult>
+                  <ExcludeFromFilters>false</ExcludeFromFilters>
+                  <IsSortable>true</IsSortable>
+                  <HideCondition />
+                </LookupProperty>
+              </LookupProperties>
+              <LookupPreFilters />
+              <LookupSelectionMode>Multi</LookupSelectionMode>
+              <OnSelection>function (items) {
+        var entities = [];
+        for (var i = 0; i &lt; items.length; i++) {
+            var role = {};
+            var hasRole = false;
+
+            // duplicate detection
+            for (var k in grid.store.dataCache) {
+                var rec = grid.store.dataCache[k];
+                if (rec.User &amp;&amp; rec.User.$key == items[i].$key)
+                    hasRole = true;
+            }
+            if (hasRole)
+                continue;
+
+            //Insert mode check
+            role.Role = { $key: Sage.Utility.getCurrentEntityId() };
+            role.User = {};
+            Sage.Utility.extend(role.User, items[i]);
+            delete role.$key;
+            delete role.$name;
+            delete role.$url;
+            entities.push(role);
+        }
+        if (entities.length &gt; 0)
+            grid.createItems(entities, function () { if (Sage.Utility.getModeId() !== 'insert') { __doPostBack("MainContent", ""); } });
+    }</OnSelection>
+              <AdditionalSelectFields />
+              <ChildEntity />
+              <LookupResourceName>User</LookupResourceName>
+              <ConditionalWhere>function() { return "Type ne 5 and Type ne 8 and Type ne 6"; }</ConditionalWhere>
+              <ConditionalShow />
+            </LookupButton>
+          </SDataGridAddRelationTool>
+          <SDataGridDeleteTool>
+            <Name>Delete</Name>
+            <Image>[Localization!Global_Images:Delete_16x16]</Image>
+            <DisplayInInsert>false</DisplayInInsert>
+            <MergePosition>Default</MergePosition>
+            <MergeControlId />
+            <OnClick />
+            <StyleScheme />
+            <AppliedSecurity />
+          </SDataGridDeleteTool>
+        </Tools>
+      </QFSDataGrid>
+    </Control>
+  </Controls>
+  <ToolControls>
+    <Control typeName="Sage.Platform.QuickForms.QFControls.QFLabel, Sage.Platform.QuickForms.QFControls">
+      <QFLabel>
+        <Column>0</Column>
+        <Row>0</Row>
+        <IsReadOnly>false</IsReadOnly>
+        <HotKey>0</HotKey>
+        <TabIndex>0</TabIndex>
+        <ControlId>QFLabel</ControlId>
+        <DataBindings />
+        <ControlLabelPlacement>left</ControlLabelPlacement>
+        <ExtendedProperties />
+        <CaptionAlignment>left</CaptionAlignment>
+        <StyleScheme />
+        <AssociatedControlID />
+      </QFLabel>
+    </Control>
+    <Control typeName="Sage.Platform.QuickForms.Controls.QFElementSpacer, Sage.Platform.QuickForms">
+      <QFElementSpacer>
+        <Column>0</Column>
+        <Row>0</Row>
+        <IsReadOnly>false</IsReadOnly>
+        <HotKey>0</HotKey>
+        <TabIndex>0</TabIndex>
+        <ControlId />
+        <DataBindings />
+        <ControlLabelPlacement>left</ControlLabelPlacement>
+        <ExtendedProperties />
+        <CaptionAlignment>left</CaptionAlignment>
+        <StyleScheme />
+      </QFElementSpacer>
+    </Control>
+    <Control typeName="Sage.Platform.QuickForms.Controls.QFElementSpacer, Sage.Platform.QuickForms">
+      <QFElementSpacer>
+        <Column>0</Column>
+        <Row>0</Row>
+        <IsReadOnly>false</IsReadOnly>
+        <HotKey>0</HotKey>
+        <TabIndex>0</TabIndex>
+        <ControlId />
+        <DataBindings />
+        <ControlLabelPlacement>left</ControlLabelPlacement>
+        <ExtendedProperties />
+        <CaptionAlignment>left</CaptionAlignment>
+        <StyleScheme />
+      </QFElementSpacer>
+    </Control>
+  </ToolControls>
+  <Columns>
+    <ColumnStyle>
+      <SizeType>Percent</SizeType>
+      <Width>100</Width>
+    </ColumnStyle>
+  </Columns>
+  <Rows>
+    <RowStyle>
+      <SizeType>Absolute</SizeType>
+      <Height>35</Height>
+    </RowStyle>
+  </Rows>
+  <Description />
+  <UseEntityNameAsTitle>true</UseEntityNameAsTitle>
+  <EntityTypeName>IRole</EntityTypeName>
+  <DefaultNamespace>Sage.Entity.Interfaces</DefaultNamespace>
+  <AssemblyName>Sage.Entity.Interfaces</AssemblyName>
+</QuickForm>

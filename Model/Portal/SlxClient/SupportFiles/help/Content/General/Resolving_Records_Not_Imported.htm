@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:fileTags="Translation Status.Support files" MadCap:tocPath="" MadCap:medium="non-print" MadCap:InPreviewMode="false" MadCap:PreloadImages="false" MadCap:RuntimeFileType="Topic" MadCap:TargetType="WebHelp" lang="en-us" xml:lang="en-us" MadCap:conditions="Version.82_Newto,Output.WebClient" MadCap:PathToHelpSystem="../../" MadCap:HelpSystemFileName="WebClient.xml" MadCap:SearchType="Stem">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Resolving Records that Were Not Imported</title>
+        <link href="../SkinSupport/Slideshow.css" rel="stylesheet" />
+        <link href="../SkinSupport/MadCap.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/Infor.CSS" rel="stylesheet" />
+        <script src="../SkinSupport/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapAll.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapTopicAll.js" type="text/javascript">
+        </script>
+    </head>
+    <body>
+        <h1>Resolving Records that Were Not Imported</h1>
+        <p>When importing a list of records, some records may not be imported. There are two reasons that records from an import list are not imported:</p>
+        <ul>
+            <li value="1">The import record is identified as a duplicate</li>
+            <li value="2">The import record is missing required information</li>
+        </ul>
+        <table wrapperparagraphselector="P" style="width: 80%;margin-top: 14pt;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" width="80%">
+            <col style="width: 45px;" />
+            <col />
+            <tr MadCap:conditions="">
+                <td style="padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top">
+                    <p style="text-align: center;margin-bottom: 0;" align="center">
+                        <img src="../image/note.gif" />
+                    </p>
+                </td>
+                <td style="width: 90%;padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top" width="90%">These steps apply to record import only, not lead imports.</td>
+            </tr>
+        </table>
+        <p class="Infinitive">To resolve records that were not imported</p>
+        <ol>
+            <li value="1">Open the <a href="../Leads/leadimporthistorydetailview.htm">Import History Detail view</a>.</li>
+            <li value="2">Click the <span class="SLXBold">History</span> tab.</li>
+            <li value="3">Open the source file.</li>
+            <li value="4">On the <a href="../Leads/leadimporthistoryhistorytab.htm">History</a> tab, use the line number, or record number listed in the <span class="SLXBold">Description</span> to find the corresponding record in the source file.</li>
+            <li value="5">Resolve the issue listed in the <span class="SLXBold">Description.</span> These are the most common issues:<ul><li value="1"><a name="kanchor513"></a><span class="SLXBold"># is being skipped a record was found for Contact</span>&#160;- the record was identified as a duplicate record and was not imported. Do one of the following:<ul><li value="1">If the record is a duplicate and should not be imported, do nothing.</li><li value="2">If the record was misidentified as a duplicate, edit the record so that the matching criteria no longer matches an existing record.<br />This is based upon the Matching Criteria specified during the import. Options may include Email, etc.&#160;&#160;</li></ul></li><li value="2"><a name="kanchor514"></a><span class="SLXBold"># is being skipped a record was found for Account</span>&#160;- the record was identified as a duplicate record and was not imported. Do one of the following:<ul><li value="1">If the record is a duplicate and should not be imported, do nothing.</li><li value="2">If the record was misidentified as a duplicate, edit the record so that the matching criteria no longer matches an existing record.<br />This is based upon the Matching Criteria specified during the import. Options may include Email, etc.&#160;&#160;</li></ul></li><li value="3"><a name="kanchor515"></a><span class="SLXBold">Value cannot be an empty string. Parameter name: account.Accountname</span> - the record did not have any data in the column mapped to Account.AccountName in the import.<ul><li value="1"> edit the record to include the required information identified in the Description that is missing from the import record. <br />For example, the error message </li></ul></li></ul></li>
+            <li value="6">Repeat until all errors are resolved.</li>
+            <li value="7">Save the changes to the import file.
+                <table wrapperparagraphselector="P" style="width: 80%;margin-top: 14pt;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" width="80%"><col style="width: 45px;" /><col /><tr MadCap:conditions=""><td style="padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top"><p style="text-align: center;margin-bottom: 0;" align="center"><img src="../image/note.gif" /></p></td><td style="width: 90%;padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top" width="90%">If the import file is very large and the number of records that were not imported is relatively small, it may be beneficial to create a copy of the import file that contains only the records that need to be re-imported and re-import the updated file.</td></tr></table></li>
+            <li value="8">Repeat the <a href="Importing_Records.htm">record import</a> with the updated import file.
+                <table wrapperparagraphselector="P" style="width: 80%;margin-top: 14pt;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" width="80%"><col style="width: 45px;" /><col /><tr MadCap:conditions=""><td style="padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top"><p style="text-align: center;margin-bottom: 0;" align="center"><img src="../image/note.gif" /></p></td><td style="width: 90%;padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top" width="90%">When the import is complete, the Import History record will list any errors or duplicates. If you re-imported files that were already successfully imported, then those records will be identified as duplicate records.</td></tr></table></li>
+        </ol>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

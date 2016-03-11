@@ -1,0 +1,20 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrderItem\CalcPriceFromProgramPrice.method.xml" timeStamp="2015-05-28T03:04:25.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrderItem\CalculateCalcPrice.method.xml" timeStamp="2015-05-28T03:04:25.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrderItem\CalculateDiscount.method.xml" timeStamp="2015-05-28T03:04:25.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrderItem\CalculateExtendedPrice.method.xml" timeStamp="2015-05-28T03:04:25.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrderItem\CalculatePriceChange.method.xml" timeStamp="2015-05-28T03:04:25.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrderItem\CalculateUnitOfMeasureChange.method.xml" timeStamp="2015-05-28T03:04:25.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrderItem\GetProductInfo.method.xml" timeStamp="2015-05-28T03:04:25.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrderItem\OnAfterDelete.method.xml" timeStamp="2015-05-28T03:04:25.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrderItem\OnAfterInsert.method.xml" timeStamp="2015-05-28T03:04:25.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrderItem\OnAfterUpdate.method.xml" timeStamp="2015-05-28T03:04:25.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrderItem\OnBeforeDelete.method.xml" timeStamp="2015-05-28T03:04:25.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrderItem\OnBeforeInsert.method.xml" timeStamp="2015-05-28T03:04:25.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrderItem\OnBeforeUpdate.method.xml" timeStamp="2015-05-28T03:04:25.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrderItem\OnCreate.method.xml" timeStamp="2015-05-28T03:04:25.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrderItem\Sage.SnippetLibrary.CSharp.@.c9d41b96-d57d-4dca-aeca-4cc310b56267.codesnippet.cs" timeStamp="2015-05-28T03:04:25.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrderItem\SalesOrderItem.SALESORDERITEMS.entity.xml" timeStamp="2015-05-28T03:04:25.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrderItem\QuickForms\" />
+</exportedFiles>

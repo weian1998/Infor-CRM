@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<MenuDropDownItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="5a94ee09-18f2-4f51-90ba-5c76203c9de5">
+  <ItemId>mnuArchiveListDeleteArchive</ItemId>
+  <NavUrl>javascript:Sage.MainView.ReportMgr.ReportManagerActions.deleteHistory();</NavUrl>
+  <LargeImageUrl />
+  <SmallImageUrl />
+  <ContextMenuId />
+  <Target />
+  <AppliedSecurity>Entities/ReportManager/DeleteHistory</AppliedSecurity>
+</MenuDropDownItem>

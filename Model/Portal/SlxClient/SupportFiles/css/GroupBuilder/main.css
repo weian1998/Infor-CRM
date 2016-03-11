@@ -1,0 +1,811 @@
+/* main */
+
+div.dropIndicator
+{
+	float: left;
+	display: inline;
+	width: 100%;
+	max-height:0px;
+	z-index: 1001;
+	border-top: 5px solid #add2f5;
+}
+
+BODY
+{
+	background-color: #fff;
+	font-family: Helvetica,Arial,sans-serif;
+	width:99%;
+	font-size: 8pt;
+	margin-left: 5px;
+	margin-top: 5px;
+	margin-right: 5px;
+	border-width: 0px;
+}
+
+TABLE
+{
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 11px;
+	color: #737373;
+	border-width: 0px;
+}
+
+TH
+{
+	background-color: #b6b6b6;
+	text-align: left;
+	border-left: 1px solid #999999;
+	border-bottom: 1px solid #999999;
+	padding: 0;
+}
+
+TABLE.tbodylt
+{
+	color: #737373;
+	alignment: left;
+	vertical-align: top;
+	border: 1px #999999 solid;
+	/*border-collapse: collapse;*/ /*this was making borders disappear in IE*/
+	width: 100%;
+}
+
+#QueryBuilderMaincontents .tbodylt
+{
+	width: 805px;
+}
+
+TABLE.fixed
+{
+	table-layout: fixed;
+}
+
+TD.divline
+{
+	/* use this to make the dividing lines between form sections  */ /* <td colspan=x class="divline">&nbsp;</td>                  */
+	height: 2px;
+	border-bottom: 1px solid #999999;
+	font-size: 3px;
+	padding: 0px;
+	margin: 0px;
+}
+
+#grdSorts tr th,
+#grdConditions tr th,
+.dndItem tr:first-child
+{
+	/*background:url(../../images/rowOverlay.png) repeat-x top #e6e6e6;*/ 
+    background-color: #d2d2d2;
+	color: #737373; 
+	font-size:11px; 
+	font-family: Helvetica,Arial,sans-serif;
+	font-weight: normal;
+	border: 0px;
+}
+
+.fixed input
+{
+	width: 190px;
+}
+
+.fixed input[type="checkbox"]
+{
+	width:13px !important;
+	margin:0;
+	padding:0;
+}
+
+input[type="button"]
+{
+	margin: 2px 5px;
+	min-width: 60px;
+    background-color: #999;
+    box-shadow: 0px -1px #737373 inset;
+    border-radius: 2px;
+    color: #FFF;
+    padding: 4px 8px 4px 8px;
+    outline: none;
+    font-size: 12px;
+    overflow: hidden;
+    font-family: Helvetica,Arial,sans-serif;
+    white-space: nowrap;
+    cursor: pointer;
+    border: none;
+    width: auto;
+    text-shadow: 0px 0px 1px rgba(34, 34, 34, 0.3);
+}
+input[type="button"]:disabled {
+    background: none repeat scroll 0px 0px #E0E0E0 !important;
+    color: #808080;
+    box-shadow: 0px -1px #E0E0E0 inset;
+    cursor: default;
+    text-shadow: 0px 0px 1px rgba(255, 255, 255, 0.3);
+}
+div#QueryBuilderMaincontents_inner div#buttonDiv
+{
+	padding-top: 10px;
+}
+
+div#QueryBuilderMaincontents_inner div#buttonDiv input#btnEdit
+{
+	margin-left: 0px !important;
+}
+
+/* settings for form controls............................................................*/
+
+TEXTAREA
+{
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 8pt;
+	color: #737373;
+}
+
+SELECT
+{
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 8pt;
+	color: #737373;
+	opacity: 1.0;
+}
+
+select[disabled]
+{
+	background-color: #FFF;
+}
+
+select[disabled] option
+{
+	color: #737373;
+	
+}
+
+INPUT
+{
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 8pt;
+	font-weight: normal;
+	color: #737373;
+}
+
+BUTTON
+{
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 8pt;
+	font-weight: normal;
+	color: #737373;
+	height: 20px;
+	border: 1px #c0c0c0 solid;
+	background-color: #F1F1EC;
+	cursor: pointer;
+}
+
+A
+{
+	color: #13a3f7;
+}
+
+A.alink
+{
+	color: #13a3f7;
+}
+
+A.vlink
+{
+	color: #13a3f7;
+}
+/* calendar control and other behaviors..................................................*/
+.calBtn
+{
+	border: 1px solid #b6b6b6;
+	cursor: pointer;
+	padding: 0px;
+	margin: 0px;
+}
+
+.dateInputBox
+{
+	/* border: 1px solid #c0c0c0; */
+	width: 80px;
+}
+
+
+.timePicker
+{
+	border: 1px solid #b6b6b6;
+	cursor: pointer;
+	padding: 0px;
+	margin: 0px;
+}
+.timeDisplay
+{
+	width: 80px;
+}
+
+
+.imgBtn
+{
+	/* this is for the images we use as buttons  */
+	cursor: pointer;
+	border: 1px solid RGB(208,208,191);
+}
+
+BODY.listview
+{
+	margin-top: 0px;
+}
+
+TR.rowLight__pref
+{
+	background-color: #e5e5e5;
+	color: #737373;
+}
+
+TR.rowDark__pref
+{
+	background-color: #FFFFFF;
+	color: #737373;
+}
+
+TR.rowSelected__pref
+{
+	background-color: #d2d2d2;
+	color: white;
+}
+
+TR.rowSelected__pref TD A
+{
+	color: yellow;
+}
+
+TR.rowSelected__pref TD
+{
+	color: white;
+}
+
+
+TD.cellGrid__pref
+{
+	border-right: 1px #b6b6b6 solid;
+	border-bottom: 1px #b6b6b6 solid;
+}
+
+.cellChrome__pref
+{
+	border: 1px #b6b6b6 solid;
+	background-color: #e5e5e5;
+	color: #737373;
+	cursor: pointer;
+}
+
+table.theader
+{
+	font-size: 11pt;
+	font-weight: bold;
+	color: #FFFFFF;
+	background-color: #b6b6b6;
+	width: 100%;
+	border-width: 0px;
+	position:relative;
+}
+
+tbodylt > tr
+{
+    height:0;
+}
+
+table.theader a
+{
+    position:absolute; 
+    top:-35px; 
+    right:45px;
+}
+
+td.header
+{
+	vertical-align: middle;
+}
+
+td.header2
+{
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 11pt;
+	font-weight: bold;
+	color: #737373;
+	alignment: left;
+	vertical-align: middle;
+}
+
+
+H3
+{
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 16pt;
+	color: #737373;
+}
+/* end main */
+
+/* JoinEditor */
+#JoinEditorcontents .padding
+{
+	padding: 3px;
+}
+#JoinEditorcontents .W1
+{
+	width: 220px;
+}
+#JoinEditorcontents .W2
+{
+	min-width: 80px; /*button size fix for multi-lang was width:80px;*/
+}
+/* end JoinEditor */
+
+/* OwnerAssign */
+#OwnerAssigncontents .tab
+{
+	cursor: pointer;
+	/*color: blue;*/
+	padding:2px;
+	background-image: url(../../images/groupbuilder/tabbak.gif);
+}
+#OwnerAssigncontents .W1
+{
+	width: 325px;
+	height: 340px;
+}
+#OwnerAssigncontents .W100
+{
+	width: 100%;
+}
+#OwnerAssigncontents .hiddentab
+{
+	display: none;
+}
+#OwnerAssigncontents #tabcontainer
+{
+	border: 1px solid #b6b6b6;
+	padding: 5px;
+}
+#OwnerAssigncontents #padleftbottom
+{
+	padding-left: 5px;
+	padding-bottom: 5px;
+}
+#OwnerAssigncontents .btn
+{
+	width: 88px;
+	height: 24px;
+}
+#OwnerAssigncontents .padtop
+{
+	padding-top: 5px;
+	padding-left: 5px;
+}
+/* end OwnerAssign */
+
+/* QBAddCondition */
+#dlgAddCondition .border
+{
+	border-right: 1px solid #b6b6b6;
+}
+#dlgAddCondition .W1
+{
+	width: 200px;
+}
+#dlgAddCondition .W2
+{
+	width: 60px;
+}
+#dlgAddCondition .dispnone
+{
+	display: none;
+}
+/* end QBAddCondition*/
+
+/* viewSQL */
+#queryDialog .pad
+{
+	padding: 4px;
+}
+#queryDialog #sqlDisp
+{
+	width: 400px;
+	height: 250px;
+}
+#queryDialog INPUT
+{
+	width: 60px;
+}
+/* end viewSQL */
+
+/* addCalcField */
+#addCalcFieldcontents #divTableTree
+{
+	border: #b6b6b6 1px solid;
+	overflow: auto;
+	width: 370px;
+	padding-top: 2px;
+	height: 220px;
+	background-color: white;
+}
+#addCalcFieldcontents .padd3
+{
+	padding: 3px;
+}
+#addCalcFieldcontents .W1
+{
+	width: 100px;
+}
+#addCalcFieldcontents .W2
+{
+	width: 152px;
+}
+#addCalcFieldcontents .W3
+{
+	width: 309px;
+}
+#addCalcFieldcontents .W100
+{
+	width: 100%;
+}
+#addCalcFieldcontents .tab
+{
+	cursor: pointer;
+	color: #737373;
+	background-image: url(../../images/groupbuilder/tabbak.gif);
+}
+#addCalcFieldcontents .hiddentab
+{
+	display: none;
+}
+#addCalcFieldcontents BUTTON
+{
+	width: 20px;
+	height: 23px;
+	font-weight: bold;
+	font-size: 14pt;
+	font-family: Helvetica,Arial,sans-serif;
+}
+#addCalcFieldcontents BUTTON.smallertext
+{
+	font-size: 12pt;
+}
+#addCalcFieldcontents #dispText
+{
+	height: 70px;
+	width: 350px;
+	overflow: auto;
+	background-color: white;
+	border: 1px solid #b6b6b6;
+}
+#addCalcFieldcontents .paddlb
+{
+	padding-left: 5px;
+	padding-bottom: 5px;
+}
+#addCalcFieldcontents .paddlt
+{
+	padding-top: 5px;
+	padding-left: 5px;
+}
+#addCalcFieldcontents #tabcontents
+{
+	border: 1px solid #b6b6b6;
+	padding: 6px;
+}
+/* end addCalcField */
+
+/* ShowGroups
+#divTableTree
+{
+	border: #c0c0c0 1px solid;
+	overflow: auto;
+	width: 370px;
+	padding-top: 2px;
+	height: 220px;
+	background-color: white;
+}
+.padd3
+{
+	padding: 3px;
+}
+.W1
+{
+	width: 60px;
+}
+.W2
+{
+	width: 150px;
+}
+.W3
+{
+	width: 300px;
+}
+.W100
+{
+	width: 100%;
+}
+.tab
+{
+	cursor: pointer;
+	color: blue;
+	background-image: url(../../images/groupbuilder/tabbak.gif);
+}
+.hiddentab
+{
+	display: none;
+}
+BUTTON
+{
+	width: 20px;
+	height: 23px;
+	font-weight: bold;
+	font-size: 14pt;
+	font-family: Helvetica,Arial,sans-serif;
+}
+BUTTON.smallertext
+{
+	font-size: 12pt;
+}
+#dispText
+{
+	height: 70px;
+	width: 350px;
+	overflow: auto;
+	background-color: white;
+	border: 1px solid #c0c0c0;
+}
+.paddlb
+{
+	padding-left: 5px;
+	padding-bottom: 5px;
+}
+.paddlt
+{
+	padding-top: 5px;
+	padding-left: 5px;
+}
+#tabcontents
+{
+	border: 1px solid #c0c0c0;
+	padding: 6px;
+}
+end ShowGroups */
+
+/* ShareGroup */
+
+#ShareGroupcontents
+{
+    padding-right:5px !important;
+}
+#ShareGroupcontents .dispnone
+{
+	display: none;
+}
+#ShareGroupcontents .btn
+{
+	height: 24px;
+	width: 120px;
+}
+#ShareGroupcontents SELECT
+{
+	height: 224px;
+	width: 300px;
+}
+#ShareGroupcontents .W1
+{
+	width: 300px;
+}
+#ShareGroupcontents .pad
+{
+	padding: 3px;
+}
+/* end ShareGroup */
+
+/* QBEditLayout */
+#dlgEditLayout .borderr
+{
+	/*border-right: #b6b6b6 1px solid;*/
+}
+#dlgEditLayout .W1
+{
+	width: 200px;
+}
+#dlgEditLayout .W2
+{
+	width: 110px;
+}
+#dlgEditLayout .W3
+{
+	width: 60px;
+}
+/* end QBEditLayout */
+
+/* GlobalJoinManager */
+#MainContent_GlobalJoinManager_joinGrid
+{
+	border: 1px solid #b6b6b6;
+}
+
+#MainContent_GlobalJoinManager_joinGrid table {
+    width: 100%;
+}
+
+#MainContent_GlobalJoinManager_joinGrid .cellGrid__pref {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 145px; /* max-width to force overflow behavior in table cells and keep table from pushing nav buttons out of window, especially IE9+ */
+}
+    
+#GlobalJoinManagercontents input[type="button"] {
+	width: 90px;
+}
+/* end GlobalJoinManager */
+
+/* calcfields */
+#calcfieldscontents #calcFieldGrid
+{
+	border: 1px solid #b6b6b6;
+	overflow: auto;
+	width: 100%;
+	height: 250px;
+}
+
+#calcfieldscontents #grdCalcFields
+{
+	width: 100%;
+}
+
+#calcfieldscontents INPUT
+{
+	width: 120px;
+}
+#calcfieldscontents #displayText
+{
+	border: 1px solid #b6b6b6;
+	background-color: #f9f9f9;
+	height: 60px;
+	width: 100%;
+}
+#calcfieldscontents .padded
+{
+	padding: 4px;
+}
+/* end calcfields */
+
+/* browseField */
+#browseFieldcontents INPUT.BUTTON
+{
+	width: 70px;
+}
+#browseFieldcontents .padded
+{
+	padding: 5px;
+}
+/* end browseField */
+
+/* QueryBuilderMain */
+#QueryBuilderMaincontents A:visited
+{
+	color: #737373;
+	font-size: 10px;
+}
+#QueryBuilderMaincontents A:active
+{
+	color: #737373;
+	font-size: 10px;
+}
+#QueryBuilderMaincontents A:link
+{
+	color: #737373;
+	font-size: 10px;
+}
+#QueryBuilderMaincontents .padding
+{
+	padding: 1px;
+}
+#QueryBuilderMaincontents #divTableTree
+{
+	border: #b6b6b6 1px solid;
+	overflow: auto;
+	width: 370px;
+	padding-top: 2px;
+	height: 220px;
+	background-color: white;
+}
+#QueryBuilderMaincontents #divFieldList
+{
+	border: #b6b6b6 1px solid;
+	overflow: auto;
+	width: 190px;
+	height: 220px;
+	background-color: white;
+}
+#QueryBuilderMaincontents .padrt
+{
+	padding-right: 5px;
+	padding-top: 5px;
+	cursor: pointer;
+}
+#QueryBuilderMaincontents .W1
+{
+	min-width:120px;
+    white-space:inherit;
+}
+#QueryBuilderMaincontents .W2
+{
+	width: 422px;
+    padding: 0px;
+}
+#QueryBuilderMaincontents textarea.W2 {
+    height:170px;
+    vertical-align: top;
+    width: 100% !important;
+    padding: 0 8px;
+    box-sizing: border-box;
+    border: 1px solid #999;
+    border-radius: 2px;
+    margin: 4px 0px 2px;
+}
+#QueryBuilderMaincontents select
+{
+	width: 100%;
+    min-width: 70px;
+}
+
+#QueryBuilderMaincontents .W100
+{
+	width: 100%;
+}
+#QueryBuilderMaincontents .dispnone
+{
+	display: none;
+}
+#QueryBuilderMaincontents .tab
+{
+	cursor: pointer;
+	color: #737373;
+	background-image: url(../../images/groupbuilder/tabbak.gif);
+}
+#QueryBuilderMaincontents #tab0
+{
+	font-weight: bold;
+}
+#QueryBuilderMaincontents .border
+{
+	border: #b6b6b6 1px solid;
+}
+#QueryBuilderMaincontents #makespace
+{
+	padding-left: 4px;
+	padding-bottom: 4px;
+	padding-top: 8px;
+}
+#QueryBuilderMaincontents .swapOn
+{
+	border: 2px solid;
+	border-color: blue;
+}
+#QueryBuilderMaincontents .swapOff
+{
+	border: "";
+}
+
+.QueryBuilderLayout
+{
+min-width: 150px;
+width: 100%;
+border:1px solid #b6b6b6;
+table-layout:fixed;
+overflow:hidden
+}
+
+#grdConditions, #grdSorts
+{
+	border:1px solid #ccc;
+}
+
+/* end QueryBuilderMain */
+
+#OwnerAssigncontents_inner
+{
+	margin-right: 5px;
+}

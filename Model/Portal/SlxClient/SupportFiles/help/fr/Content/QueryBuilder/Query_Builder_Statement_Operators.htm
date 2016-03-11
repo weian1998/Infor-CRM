@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:fileTags="Translation Status.Support files" xml:lang="fr" MadCap:tocPath="" MadCap:medium="non-print" MadCap:InPreviewMode="false" MadCap:PreloadImages="false" MadCap:RuntimeFileType="Topic" MadCap:TargetType="WebHelp" lang="fr" MadCap:conditions="Output.WebClient,Output.Query Builder" MadCap:PathToHelpSystem="../../" MadCap:HelpSystemFileName="WebClient.xml" MadCap:SearchType="Stem">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Opérateurs d'instruction de Query Builder</title>
+        <link href="../SkinSupport/Slideshow.css" rel="stylesheet" />
+        <link href="../SkinSupport/MadCap.css" rel="stylesheet" />
+        <link href="../Resources/TableStyles/TableStyle.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/Infor.CSS" rel="stylesheet" />
+        <script src="../SkinSupport/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapAll.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapTopicAll.js" type="text/javascript">
+        </script>
+    </head>
+    <body>
+        <h1>Opérateurs d'instruction de Query Builder<a name="kanchor677"></a></h1>
+        <p>Lorsque vous ajoutez une instruction conditionnelle, vous devez sélectionner un opérateur. L'opérateur permet de déterminer si un enregistrement répond ou non aux critères définis dans une instruction conditionnelle. Lorsque vous ajoutez une instruction conditionnelle, l'opérateur par défaut et les autres opérateurs disponibles dépendent du <a href="Query_Builder_Field_Type_Conventions.htm">type de champ</a>.</p>
+        <p>Le tableau suivant décrit tous les opérateurs possibles.</p>
+        <table style="width: 90%;mc-table-style: url('../Resources/TableStyles/TableStyle.css');margin-left: 0;margin-right: auto;" class="TableStyle-TableStyle" cellspacing="0">
+            <thead>
+                <tr class="TableStyle-TableStyle-Head-Header1">
+                    <th class="TableStyle-TableStyle-HeadE-Column1-Header1">Opérateur</th>
+                    <th class="TableStyle-TableStyle-HeadD-Column1-Header1">Sélectionne un enregistrement si le champ correspondant contient une valeur :</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Commençant par</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">qui commence par la valeur définie dans la zone La valeur est.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Contient</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">qui contient la chaîne définie dans la zone La valeur est.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">(=) égal à</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">égale à la valeur définie dans la zone La valeur est.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">(&lt;&gt;) non égal à</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">non égale à la valeur définie dans la zone La valeur est.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">(&lt;) inférieur à</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">inférieure à la valeur définie dans la zone La valeur est.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">(&lt;=) inférieur ou égal à</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">inférieure ou égale à la valeur définie dans la zone La valeur est.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">(&gt;) supérieur à</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">supérieure à la valeur définie dans la zone La valeur est.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">(&gt;=) supérieur ou égal à</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">supérieure ou égale à la valeur définie dans la zone La valeur est.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">In</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">qui contient une des chaînes définies dans la zone La valeur est, telle qu'une instruction OR littérale intégrée. Vous devez utiliser les guillemets pour chaque valeur indiquant ce qui doit être recherché.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Ne contient pas de données</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">nulle (ne contient aucune valeur).</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Contient des données</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">non nulle (contient une valeur quelconque).</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">dans les xxx derniers jours</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">est une date comprise dans les «&#160;xxx&#160;» derniers jours (passé). Saisissez soit un nombre entier soit deux séparés par une virgule pour une plage de dates.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyB-Column1-Body1">dans les xxx prochains jours</td>
+                    <td class="TableStyle-TableStyle-BodyA-Column1-Body1">est une date comprise dans les «&#160;xxx&#160;» prochains jours (futur). Saisissez soit un nombre entier soit deux séparés par une virgule pour une plage de dates.</td>
+                </tr>
+            </tbody>
+        </table>
+        <p class="RelatedTopics">Rubriques connexes</p>
+        <p><a href="Using_SalesLogix_Query_Builder.htm" target="_self">Présentation de Query Builder</a>
+        </p>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

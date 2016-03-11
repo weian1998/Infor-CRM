@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:fileTags="Translation Status.Support files" MadCap:tocPath="" MadCap:medium="non-print" MadCap:InPreviewMode="false" MadCap:PreloadImages="false" MadCap:RuntimeFileType="Topic" MadCap:TargetType="WebHelp" lang="en-us" xml:lang="en-us" MadCap:conditions="Output.WebClient" MadCap:PathToHelpSystem="../../" MadCap:HelpSystemFileName="WebClient.xml" MadCap:SearchType="Stem">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="description" content="Create an Infor CRM secured action for a user interface element. Once a secured action is applied to a user interface element, only users who are assigned a role that includes the secured action can see and use the element." />
+        <meta name="keywords" content="Create a secured action for Infor CRM Web Client user interface elements " /><title>Creating a Secured Action</title>
+        <link href="../SkinSupport/Slideshow.css" rel="stylesheet" />
+        <link href="../SkinSupport/MadCap.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/Infor.CSS" rel="stylesheet" />
+        <script src="../SkinSupport/jquery.min.js">
+        </script>
+        <script src="../SkinSupport/MadCapAll.js">
+        </script>
+        <script src="../SkinSupport/MadCapTopicAll.js">
+        </script>
+    </head>
+    <body>
+        <h1>Creating a Secured Action</h1>
+        <table wrapperparagraphselector="P" style="width: 80%;margin-top: 14pt;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" width="80%">
+            <col style="width: 39px;" />
+            <col />
+            <tr>
+                <td style="padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top">
+                    <p style="text-align: center;margin-bottom: 0;" align="center">
+                        <img src="../image/adminonly.gif" />
+                    </p>
+                </td>
+                <td style="width: 90%;padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top" width="90%">
+                    <p>The system administrator and users with the appropriate <a href="What_are_Roles_and_Secured_Actions.htm" target="_self">role</a> can access these features.The system administrator and users with an administrator role can access these features.</p>
+                </td>
+            </tr>
+        </table>
+        <p>You can create new secured actions to secure elements in the Web Client.</p>
+        <p>When creating a new secured action, ensure the action has a unique name not previously used (unless you are recovering an accidentally deleted secured action). If you deleted a secured action without manually removing the action from elements in the Application Architect, the new action may  give access you did not expect. <a href="javascript:void(0);" onclick="FMCToggler( this ); return false;" class="MCToggler_0" MadCap:targets="ActionExample">Tell me more...<img style="border: none;margin-left: 5px;" src="../SkinSupport/DropDownClosed.gif" MadCap:altsrc="../SkinSupport/DropDownOpen.gif" onload="if ( typeof( FMCPreloadImage ) == 'function' ) { FMCPreloadImage( '../SkinSupport/DropDownOpen.gif' ); }" alt="Closed" MadCap:alt2="Open" class="MCTogglerIcon" /></a></p>
+        <p MadCap:targetName="ActionExample" MadCap:conditions="Reporting.Reporting references" style="display: none;">For example, you created a secured action named Print/Reports and added that action to multiple Print buttons (using the Applied Security property in the Application Architect). Then you deleted the Print/Reports secured action but did not manually change the Applied Security property for the Print buttons. If you create a new secured action named Print/Reports, all the Print buttons formerly attached to the Print/Reports action will link to the new Print/Reports action.</p>
+        <p><span class="MyVariablesProduct Name">Infor CRM</span> recommends using a descriptive name for your secured actions that can be used to track the action's intended purpose. For example, the Entity/Account/Delete secured action is used to control elements that allow users to delete accounts. This naming structure is recommended, but not enforced. The secured action name is a string value and any naming convention can be used. </p>
+        <p class="Infinitive">To create</p>
+        <ol>
+            <li class="Topic-Text-Numbered" value="1">On the <span class="SLXBold">Administration</span> menu, click <span class="SLXBold">New Secured Action</span>.</li>
+            <li class="Topic-Text-Numbered" value="2">In the <span class="SLXBold">Secured Action</span> box, type the secured action name.</li>
+            <li class="Topic-Text-Numbered" value="3">In the <b>Description</b> box, type descriptive information about the secured action.</li>
+            <li class="Topic-Text-Numbered" value="4">Click <span class="MCExpanding_0"><a href="javascript:void(0);" class="MCExpandingHead_0" onclick="FMCExpand( this ); return false;">Save<img style="border: none;margin-left: 5px;" src="../SkinSupport/ExpandClosed.gif" MadCap:altsrc="../SkinSupport/ExpandOpen.gif" onload="if ( typeof( FMCPreloadImage ) == 'function' ) { FMCPreloadImage( '../SkinSupport/ExpandOpen.gif' ); }" alt="Closed" MadCap:alt2="Open" class="MCExpandingIcon" /></a><span class="MCExpandingBody_0" style="display: none;"><img src="../image/update.gif" /></span></span> to save the secured action or <span class="MCExpanding_0"><a href="javascript:void(0);" class="MCExpandingHead_0" onclick="FMCExpand( this ); return false;">Save and New<img style="border: none;margin-left: 5px;" src="../SkinSupport/ExpandClosed.gif" MadCap:altsrc="../SkinSupport/ExpandOpen.gif" onload="if ( typeof( FMCPreloadImage ) == 'function' ) { FMCPreloadImage( '../SkinSupport/ExpandOpen.gif' ); }" alt="Closed" MadCap:alt2="Open" class="MCExpandingIcon" /></a><span class="MCExpandingBody_0" style="display: none;"><img src="../image/savenew.gif" /></span></span> to save the secured action and create another.</li>
+            <li class="Topic-Text-Numbered" value="5">Use the <a href="SecuredActionRolesTab.htm" target="_self">Roles</a> tab to add the secured action to a role.</li>
+            <li class="Topic-Text-Numbered" value="6">Use the <a href="SecuredActionLocationsTab.htm" target="_self">Locations</a> tab to view where the secured action is used.</li>
+        </ol>
+        <p class="RelatedTopics">Related Topics</p>
+        <p><a target="_self" href="What_are_Roles_and_Secured_Actions.htm">What are Roles and Secured Actions?</a>
+        </p>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

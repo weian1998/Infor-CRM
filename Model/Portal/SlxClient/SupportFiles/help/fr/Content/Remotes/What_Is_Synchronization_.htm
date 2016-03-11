@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:fileTags="Translation Status.Support files" xml:lang="fr" MadCap:tocPath="" MadCap:medium="non-print" MadCap:InPreviewMode="false" MadCap:PreloadImages="false" MadCap:RuntimeFileType="Topic" MadCap:TargetType="WebHelp" lang="fr" MadCap:conditions="Output.WebClient,Output.Legacy LAN,Output.GSLAN" MadCap:PathToHelpSystem="../../" MadCap:HelpSystemFileName="WebClient.xml" MadCap:SearchType="Stem">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="copyright" />
+        <meta name="window-type" content="(w95sec)" /><title>Présentation de la synchronisation</title>
+        <link href="../SkinSupport/Slideshow.css" rel="stylesheet" />
+        <link href="../SkinSupport/MadCap.css" rel="stylesheet" />
+        <link href="../Resources/TableStyles/TableStyle.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/Infor.CSS" rel="stylesheet" />
+        <script src="../SkinSupport/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapAll.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapTopicAll.js" type="text/javascript">
+        </script>
+    </head>
+    <body>
+        <h1 value="SalesLogix Sales Help (03/19/2002) for v6.2 © 1997-2004 Best Software, Inc. and Sage Technologies Limited" MadCap:conditions="Output.Legacy LAN,Output.WebClient"><a name="kanchor713"></a>Présentation de la synchronisation<a name="kanchor714"></a></h1>
+        <p><a name="kanchor715"></a>
+        </p>
+        <table wrapperparagraphselector="P" style="margin-top: 14pt;width: 98%;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" width="98%">
+            <col style="width: 7.994%;" />
+            <col style="width: 92.006%;" />
+            <tr>
+                <td style="width: 7.994%;padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top" width="7.994%">
+                    <p style="text-align: center;margin-bottom: 0;" align="center">
+                        <img src="../image/remotes.gif" />
+                    </p>
+                </td>
+                <td style="width: 92.006%;padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top" width="92.006%">
+                    <p class="Tip-Note-Text" style="margin-bottom: 0;"><span class="SLXBold">Utilisateurs distants uniquement</span>
+                    </p>
+                </td>
+            </tr>
+        </table>
+        <p MadCap:conditions="Output.Legacy LAN,Output.WebClient">Si votre entreprise compte des utilisateurs distants qui ne peuvent pas se connecter à un environnement informatique centralisé tel qu'un réseau étendu ou un système en ligne, les modifications qu'ils apportent à leur base de données seront incohérentes avec les informations de leur base de données et de la base de données hôte. La synchronisation détecte ces modifications, les applique à la base de données du groupe de travail et crée des fichiers que les clients distants peuvent récupérer pour mettre à jour leurs bases de données distantes.</p>
+        <p>
+            <MadCap:conditionalText MadCap:conditions="Output.WebClient,Output.GSLAN">La synchronisation est un échange de fichiers entre les utilisateurs distants et le bureau principal.</MadCap:conditionalText>&#160;<MadCap:conditionalText MadCap:conditions="Output.WebClient"> Les utilisateurs réseau modifient directement la base de données du groupe de travail. Les utilisateurs distants apportent des modifications aux bases de données distantes, puis se connectent au bureau principal pour y transférer les fichiers contenant ces modifications et récupérer les fichiers contenant les modifications apportées à la base de données du groupe de travail et des autres sites distants. Les utilisateurs des bureaux distants modifient directement la base de données du bureau distant. Le bureau distant contacte ensuite le bureau principal pour envoyer et récupérer les fichiers, de la même façon que les utilisateurs distants. Le serveur de synchronisation récupère les fichiers livrés par les utilisateurs et les bureaux distants, résout les conflits, applique les modifications des sites distants à la base de données principale, puis crée les fichiers détaillant les modifications de la base de données pour les clients distants.</MadCap:conditionalText>&#160;</p>
+        <p MadCap:conditions="Output.WebClient">L'échange de fichiers et la mise à jour de la base de données survenant au cours de la synchronisation ne sont pas encore possibles via Internet. Les modifications de la base de données apportées par des utilisateurs Web sont traitées par la synchronisation comme les modifications d'un utilisateur réseau et sont consignées. Pour rester à jour avec les comptes détenus par leurs équipes, les utilisateurs distants peuvent aussi utiliser le client Web pour simplement afficher des comptes. L'accès au compte est déterminé par les droits d'accès de sécurité définis par l'administrateur système.</p>
+        <p class="RelatedTopics">Rubriques connexes</p>
+        <p MadCap:conditions="Output.WebClient"><a href="What_Is_Conflict_Resolution__.htm" target="_self">Présentation de la résolution de conflit</a>
+        </p>
+        <p MadCap:conditions="Output.WebClient"><a href="../Accounts/What_Are_Accounts.htm" target="_self">Présentation des comptes</a>
+        </p>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

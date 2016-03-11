@@ -1,0 +1,77 @@
+﻿<table class="crystalTableContainer">
+    <colgroup>
+        <col style="width:1%" />
+        <col style="width:44%" />
+        <col style="width:10%" />
+        <col style="width:1%" />
+        <col style="width:44%" />
+    </colgroup>
+    <tr data-dojo-attach-point="rowStartEndRangeLabels">
+        <td colspan="3">
+            <label style="font-weight:bold">${txtStartOfRange}</label>
+        </td>
+        <td colspan="2">
+            <label style="font-weight:bold">${txtEndOfRange}</label>
+        </td>
+    </tr>
+    <tr data-dojo-attach-point="rowStartEndRangeValues">
+        <td></td>
+        <td>
+            <div dojotype="dijit.form.FilteringSelect" data-dojo-attach-point="cboStartRangeValues" style="width:90%"></div>
+            <span data-dojo-attach-point="errorStartRange" class="display-none" style="color:red">*</span>
+        </td>
+        <td colspan="2"></td>
+        <td>
+            <select dojotype="dijit.form.FilteringSelect" data-dojo-attach-point="cboEndRangeValues" style="width:90%"></select>
+            <span data-dojo-attach-point="errorEndRange" class="display-none" style="color:red">*</span>
+        </td>
+    </tr>
+    <tr data-dojo-attach-point="rowStartEndOrValue">
+        <td colspan="3">
+            <label style="font-weight:bold">${lblOrValue_Caption}</label><br />
+        </td>
+        <td colspan="2">
+            <label style="font-weight:bold">${lblOrValue_Caption}</label><br />
+        </td>
+    </tr>
+    <tr data-dojo-attach-point="rowStartEndCustomValue">
+        <td></td>
+        <td>
+            <div>
+                <label>${lblEnterValue_Caption}</label><br />
+                <div data-dojo-attach-point="startCustomValueContainer"></div>
+                <span data-dojo-attach-point="errorStartCustomValue" class="display-none" style="color:red">*</span>
+        </td>
+        <td colspan="2"></td>
+        <td>
+            <div>
+                <label style="padding-left:3px">${lblEnterValue_Caption}</label><br />
+                <div data-dojo-attach-point="endCustomValueContainer"></div>
+                <span data-dojo-attach-point="errorEndCustomValue" class="display-none" style="color:red">*</span>
+        </td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>
+            <input data-dojo-type="dijit.form.CheckBox" data-dojo-attach-point="chkIncludeFromRange" />
+            <label>${txtIncludeThisValue}</label>
+        </td>
+        <td colspan="2"></td>
+        <td>
+            <input data-dojo-type="dijit.form.CheckBox" data-dojo-attach-point="chkIncludeToRange" />
+            <label>${txtIncludeThisValue}</label>
+        </td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>
+            <input data-dojo-type="dijit.form.CheckBox" data-dojo-attach-point="chkNoLowerValue" dojoAttachEvent="onChange:_chkNoLowerValue_OnCheck" />
+            <label>${txtNoLowerValue}</label>
+        </td>
+        <td colspan="2"></td>
+        <td>
+            <input data-dojo-type="dijit.form.CheckBox" data-dojo-attach-point="chkNoUpperValue" dojoAttachEvent="onChange:_chkNoUpperValue_OnCheck" />
+            <label>${txtNoUpperValue}</label>
+        </td>
+    </tr>
+</table>

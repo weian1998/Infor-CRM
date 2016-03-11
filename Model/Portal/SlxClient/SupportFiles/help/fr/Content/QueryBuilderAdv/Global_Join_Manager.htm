@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:fileTags="Translation Status.Support files" xml:lang="fr" MadCap:tocPath="Utilisation de Query Builder|Utilisation des jointures" MadCap:medium="non-print" MadCap:InPreviewMode="false" MadCap:PreloadImages="false" MadCap:RuntimeFileType="Topic" MadCap:TargetType="WebHelp" lang="fr" MadCap:conditions="Output.WebClient,Output.Query Builder" MadCap:PathToHelpSystem="../../" MadCap:HelpSystemFileName="WebClient.xml" MadCap:SearchType="Stem">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Gestionnaire de jointures globales</title>
+        <link href="../SkinSupport/Slideshow.css" rel="stylesheet" />
+        <link href="../SkinSupport/MadCap.css" rel="stylesheet" />
+        <link href="../Resources/TableStyles/TableStyle.css" rel="stylesheet" />
+        <style>
+td ol,
+td ul
+{
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+</style>
+        <link href="../Resources/Stylesheets/Infor.CSS" rel="stylesheet" />
+        <script src="../SkinSupport/jquery.min.js">
+        </script>
+        <script src="../SkinSupport/MadCapAll.js">
+        </script>
+        <script src="../SkinSupport/MadCapTopicAll.js">
+        </script>
+    </head>
+    <body>
+        <p>&#160;</p>
+        <h1><a name="kanchor249"></a>Gestionnaire de jointures globales</h1>
+        <table wrapperparagraphselector="P" style="margin-top: 14pt;width: 98%;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" width="98%">
+            <col style="width: 43px;" />
+            <col style="width: 410px;" />
+            <tr>
+                <td style="padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top">
+                    <p style="text-align: center;margin-bottom: 0;" align="center">
+                        <img src="../image/adminonly.gif" />
+                    </p>
+                </td>
+                <td style="padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top"><span class="SLXBold">Administrateur système uniquement</span>
+                </td>
+            </tr>
+        </table>
+        <table wrapperparagraphselector="P" style="margin-top: 14pt;border-spacing: 0px;border-spacing: 0px;" cellspacing="0">
+            <col />
+            <col />
+            <tr>
+                <td style="padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top">
+                    <p style="text-align: center;margin-bottom: 0;" align="center">
+                        <img src="../image/caution.gif" />
+                    </p>
+                </td>
+                <td style="padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top">
+                    <ul>
+                        <li class="Tip-Note-Text-Bulleted" value="1">Faites très attention au moment de créer des jointures globales car vous pourriez en créer une qui provoquerait de sérieux problèmes de performances.</li>
+                        <li class="Tip-Note-Text-Bulleted" value="2">Par défaut, la table ADDRESS est liée à la table ACCOUNT grâce à une jointure interne. Ne modifiez pas les propriétés de cette jointure.</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+        <p>Le Gestionnaire de jointures globales affiche toutes les jointures globales de votre base de données <span class="MyVariablesProduct Name">Infor CRM</span>. Il permet à l'administrateur système ou à l'utilisateur disposant de droits d'administration d'ajouter, de modifier et de supprimer des jointures globales en fonction des besoins. Une jointure globale est permanente et existe de session en session dans la structure de l'arborescence des données de Query Builder.</p>
+        <p><span class="MyVariablesProduct Name">Infor CRM</span> contient une série de jointures globales prédéfinies (ou jointures système) qui ne peuvent pas être supprimées. <MadCap:conditionalText MadCap:conditions="Output.WebClient">Tout utilisateur peut employer ces jointures globales prédéfinies en sélectionnant un champ dans Query Builder et en cliquant sur le bouton Jointure globale. S'il existe une jointure prédéfinie pour ce champ, l'option qui permet de la visualiser figure dans le menu contextuel sous l'intitulé «&#160;Jointure globale à&#160;» suivi d'un nom de table. </MadCap:conditionalText></p>
+        <p>Le Gestionnaire de jointures globales n'est disponible que si vous êtes connecté en tant qu'administrateur.</p>
+        <p class="RelatedTopics">Procédure</p>
+        <div class="MCDropDown">
+            <div class="MCDropDownHead_0"><a class="MCDropDownHotSpot_0" href="javascript:void(0);" id="MCDropDownHotSpot_2186905168_0" onclick="FMCDropDown( this ); return false;">Ouvrez le Gestionnaire de jointure globale<img style="border: none;margin-left: 5px;" src="../SkinSupport/DropDownClosed.gif" MadCap:altsrc="../SkinSupport/DropDownOpen.gif" onload="if ( typeof( FMCPreloadImage ) == 'function' ) { FMCPreloadImage( '../SkinSupport/DropDownOpen.gif' ); }" alt="Closed" MadCap:alt2="Open" class="MCDropDownIcon" /></a>
+            </div>
+            <div class="MCDropDownBody" id="MCDropDownBody_2186905168_0" style="display: none;">
+                <ol>
+                    <li value="1"><a href="../QueryBuilder/Opening_Query_Builder.htm">Ouvrir Query Builder</a>
+                    </li>
+                </ol>
+                <ol>
+                    <li class="Topic-Text-Numbered" MadCap:conditions="Output.WebClient" value="2">Ouvrez <a href="../QueryBuilder/Opening_Query_Builder.htm">Query Builder</a>, puis cliquez sur le bouton <span class="SLXBold">Jointures globales</span>.</li>
+                </ol>
+                <p class="Topic-Text-Indent" MadCap:conditions="Output.WebClient">Ce bouton n'apparaît que si vous êtes connecté en tant qu'administrateur.</p>
+            </div>
+        </div>
+        <p class="Topic-Text-Numbered"><a href="Add_a_Global_Join.htm">Ajouter une jointure globale</a>
+        </p>
+        <p class="Topic-Text-Numbered"><a href="Edit_a_Global_Join.htm">Modifier une jointure globale</a>
+        </p>
+        <p class="Topic-Text-Numbered"><a href="Delete_a_Global_Join.htm">Supprimer une jointure globale</a>
+        </p>
+        <p class="Topic-Text-Numbered"><a href="Show_a_Global_Join.htm">Afficher une jointure globale</a>
+        </p>
+        <p class="Topic-Text-Numbered">&#160;</p>
+        <p>Le Gestionnaire de jointures globales affiche les champs suivants&#160;:</p>
+        <table style="width: 90%;mc-table-style: url('../Resources/TableStyles/TableStyle.css');margin-left: 0;margin-right: auto;" class="TableStyle-TableStyle" cellspacing="0">
+            <thead>
+                <tr class="TableStyle-TableStyle-Head-Header1">
+                    <th class="TableStyle-TableStyle-HeadE-Column1-Header1">Champ</th>
+                    <th class="TableStyle-TableStyle-HeadD-Column1-Header1">Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Syst.</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Jointure système ne pouvant être supprimée.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">1:1</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Indique une relation un-à-un.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Table parent, Champ parent</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Table et champ principaux dans la relation de jointure.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Table enfant, Champ enfant</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Table et champ joints à la Table parent et au Champ parent.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1"><a href="Join_Types.htm">Type</a>
+                    </td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Type de jointure (<a href="Inner_joins.htm" target="_self">interne</a>, <a href="Left_joins.htm" target="_self">gauche</a> ou <a href="Right_joins.htm" target="_self">droite</a>).</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1"><a href="Cascade_Options.htm">Cascade</a>
+                    </td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Façon dont les enregistrements sont supprimés dans une jointure.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyB-Column1-Body1"><a href="Visibility_Options.htm">Visibilité</a>
+                    </td>
+                    <td class="TableStyle-TableStyle-BodyA-Column1-Body1">Affichage de la jointure dans Query Builder.</td>
+                </tr>
+            </tbody>
+        </table>
+        <p class="RelatedTopics">Rubriques connexes</p>
+        <p><a href="../QueryBuilder/Using_SalesLogix_Query_Builder.htm" target="_self">Présentation de Query Builder</a>
+        </p>
+        <p><a href="Joining_Tables.htm">Association de tables</a>
+        </p>
+        <p><a href="Join_Example.htm">Exemple de jointure</a>
+        </p>
+        <p><a href="Guidelines_for_Using_Joins.htm">Instructions pour l'utilisation des jointures</a>
+        </p>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

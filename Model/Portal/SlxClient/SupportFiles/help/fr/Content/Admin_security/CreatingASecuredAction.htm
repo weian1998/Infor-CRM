@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:fileTags="Translation Status.Support files" xml:lang="fr" MadCap:tocPath="" MadCap:medium="non-print" MadCap:InPreviewMode="false" MadCap:PreloadImages="false" MadCap:RuntimeFileType="Topic" MadCap:TargetType="WebHelp" lang="fr" MadCap:conditions="Output.WebClient" MadCap:PathToHelpSystem="../../" MadCap:HelpSystemFileName="WebClient.xml" MadCap:SearchType="Stem">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="description" content="Créez une action sécurisée Infor CRM pour un élément de l'interface utilisateur. Une fois qu'une application sécurisée est appliquée à un élément de l'interface utilisateur, seuls les utilisateurs auxquels a été attribué un rôle qui comprend l'action sécurisée peuvent voir et utiliser cet élément." />
+        <meta name="keywords" content="Create a secured action for Infor CRM Web Client user interface elements " /><title>Création d'une action sécurisée</title>
+        <link href="../SkinSupport/Slideshow.css" rel="stylesheet" />
+        <link href="../SkinSupport/MadCap.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/Infor.CSS" rel="stylesheet" />
+        <script src="../SkinSupport/jquery.min.js">
+        </script>
+        <script src="../SkinSupport/MadCapAll.js">
+        </script>
+        <script src="../SkinSupport/MadCapTopicAll.js">
+        </script>
+    </head>
+    <body>
+        <h1>Création d'une action sécurisée</h1>
+        <table wrapperparagraphselector="P" style="width: 80%;margin-top: 14pt;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" width="80%">
+            <col style="width: 39px;" />
+            <col />
+            <tr>
+                <td style="padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top">
+                    <p style="text-align: center;margin-bottom: 0;" align="center">
+                        <img src="../image/adminonly.gif">
+                        </img>
+                    </p>
+                </td>
+                <td style="width: 90%;padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top" width="90%">
+                    <p>L'administrateur système et les utilisateurs dotés d'un <a href="What_are_Roles_and_Secured_Actions.htm" target="_self">rôle</a> approprié peuvent accéder à ces fonctionnalités.</p>
+                </td>
+            </tr>
+        </table>
+        <p>Vous pouvez créer de nouvelles actions sécurisées pour sécuriser des éléments dans le client Web.</p>
+        <p>Lorsque vous créez une nouvelle action sécurisée, assurez-vous que cette action porte un nom unique, n'ayant pas été utilisé précédemment (à moins que vous ne récupériez une action sécurisée accidentellement supprimée). Si vous avez supprimé une action sécurisée sans la supprimer manuellement des éléments dans l'application Architect, la nouvelle action peut accorder des permissions imprévues. <a href="javascript:void(0);" onclick="FMCToggler( this ); return false;" class="MCToggler_0" MadCap:targets="ActionExample">En savoir plus...<img style="border: none;margin-left: 5px;" src="../SkinSupport/DropDownClosed.gif" MadCap:altsrc="../SkinSupport/DropDownOpen.gif" onload="if ( typeof( FMCPreloadImage ) == 'function' ) { FMCPreloadImage( '../SkinSupport/DropDownOpen.gif' ); }" alt="Closed" MadCap:alt2="Open" class="MCTogglerIcon" /></a></p>
+        <p MadCap:targetName="ActionExample" MadCap:conditions="Reporting.Reporting references" style="display: none;">Par exemple, vous avez créé une action sécurisée nommée Impression/Rapports et ajouté cette action à plusieurs boutons Imprimer (à l'aide de la propriété Sécurité appliquée dans l'application Architect). Vous avez ensuite supprimé l'action sécurisée Impression/Rapports, mais sans modifier manuellement la propriété Sécurité appliquée pour les boutons Imprimer. Si vous avez créé une nouvelle action sécurisée nommée Impression/Rapports, tous les boutons Imprimer liés précédemment à l'action Impression/Rapports seront liés à la nouvelle action Impression/Rapports.</p>
+        <p><span class="MyVariablesProduct Name">Infor CRM</span> recommande d'utiliser des noms descriptifs pour vos actions sécurisées, qui pourront être utilisés pour garder une trace du but recherché pour chaque action. Par exemple, l'action sécurisée Entité/Compte/Supprimer sert à contrôler des éléments qui permettent aux utilisateurs de supprimer des comptes. Cette structure de nomenclature est recommandée, mais pas obligatoire. Le nom de l'action sécurisée est une valeur de type chaîne et n'importe quelle convention de nomenclature peut être utilisée.</p>
+        <p class="Infinitive">Pour créer</p>
+        <ol>
+            <li class="Topic-Text-Numbered" value="1">Dans le menu <span class="SLXBold">Administration</span>, cliquez sur <span class="SLXBold">Nouvelle action sécurisée</span>.</li>
+            <li class="Topic-Text-Numbered" value="2">Dans le champ <span class="SLXBold">Action sécurisée</span>, saisissez le nom de l'action sécurisée.</li>
+            <li class="Topic-Text-Numbered" value="3">Dans le champ <b>Description</b>, entrez des informations descriptives sur cette action sécurisée.</li>
+            <li class="Topic-Text-Numbered" value="4">Cliquez sur <span class="MCExpanding_0"><a href="javascript:void(0);" class="MCExpandingHead_0" onclick="FMCExpand( this ); return false;">Enregistrer<img style="border: none;margin-left: 5px;" src="../SkinSupport/ExpandClosed.gif" MadCap:altsrc="../SkinSupport/ExpandOpen.gif" onload="if ( typeof( FMCPreloadImage ) == 'function' ) { FMCPreloadImage( '../SkinSupport/ExpandOpen.gif' ); }" alt="Closed" MadCap:alt2="Open" class="MCExpandingIcon" /></a><span class="MCExpandingBody_0" style="display: none;"><img src="../image/update.gif" /></span></span>. pour enregistrer l'action sécurisée ou <span class="MCExpanding_0"><a href="javascript:void(0);" class="MCExpandingHead_0" onclick="FMCExpand( this ); return false;">Enregistrer et nouveau<img style="border: none;margin-left: 5px;" src="../SkinSupport/ExpandClosed.gif" MadCap:altsrc="../SkinSupport/ExpandOpen.gif" onload="if ( typeof( FMCPreloadImage ) == 'function' ) { FMCPreloadImage( '../SkinSupport/ExpandOpen.gif' ); }" alt="Closed" MadCap:alt2="Open" class="MCExpandingIcon" /></a><span class="MCExpandingBody_0" style="display: none;"><img src="../image/savenew.gif" /></span></span> pour enregistrer l'action sécurisée et en créer une autre.</li>
+            <li class="Topic-Text-Numbered" value="5">Utilisez l'onglet <a href="SecuredActionRolesTab.htm" target="_self">Rôles</a> pour ajouter l'action sécurisée à un rôle.</li>
+            <li class="Topic-Text-Numbered" value="6">Utilisez l'onglet <a href="SecuredActionLocationsTab.htm" target="_self">Emplacements</a> pour voir où l'action sécurisée est utilisée.</li>
+        </ol>
+        <p class="RelatedTopics">Rubriques connexes</p>
+        <p><a target="_self" href="What_are_Roles_and_Secured_Actions.htm">Que sont les rôles et les actions sécurisées&#160;?</a>
+        </p>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

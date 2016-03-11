@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<SmartPartMapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="6b33dbf0-1c5f-4baf-b5ff-ee15697dc539">
+  <SmartPartId>GroupManagerTasks</SmartPartId>
+  <ReferencedModelId>00000000-0000-0000-0000-000000000000</ReferencedModelId>
+  <SmartPart>SmartParts\TaskPane\GroupManager\GroupManagerTasks.ascx</SmartPart>
+  <TargetWorkspace>TaskPane</TargetWorkspace>
+  <ShowInMode />
+  <Properties />
+  <AllowRoles />
+</SmartPartMapping>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:fileTags="Translation Status.Support files" MadCap:tocPath="Использование интеграции|Использование интеграции|Интеграция с Outlook|Синхронизация Календаря" MadCap:medium="non-print" MadCap:InPreviewMode="false" MadCap:PreloadImages="false" MadCap:RuntimeFileType="Topic" MadCap:TargetType="WebHelp" lang="ru" xml:lang="ru" MadCap:conditions="Output.Integrations LAN,Output.OutlookSync,Output.WebClient,Output.GSLAN,Output.GSWeb" MadCap:PathToHelpSystem="../../" MadCap:HelpSystemFileName="WebClient.xml" MadCap:SearchType="Stem">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Интеграция календаря</title>
+        <link href="../SkinSupport/Slideshow.css" rel="stylesheet" />
+        <link href="../SkinSupport/MadCap.css" rel="stylesheet" />
+        <link href="../Resources/TableStyles/TableStyle.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/Infor.CSS" rel="stylesheet" />
+        <script src="../SkinSupport/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapAll.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapTopicAll.js" type="text/javascript">
+        </script>
+    </head>
+    <body>
+        <h1>Интеграция календаря</h1>
+        <p>Интеграция календаря позволяет Вам синхронизировать свой календарь между <span class="MyVariablesCompanyNameShort">Infor</span> и поддерживаемым  <MadCap:conditionalText MadCap:conditions="Output.Integrations LAN,Output.OutlookSync,Output.WebClient"><a href="Using_External_Integrations.htm">источником интеграции</a></MadCap:conditionalText>. Ваш администратор должен настроить и предоставить доступ, прежде чем Вы сможете синхронизировать календари с источником интеграции.</p>
+        <p>В течение цикла синхронизации,  <span class="MyVariablesProduct Name">Infor CRM</span> сравниваются поля в Системах и фиксируются изменения информации, чтобы обеспечить целостность данных между системами. Только данные в отображенных полях передаются между приложениями. Данные сравниваются и вносятся изменения, чтобы гарантировать информационные  <a href="Matching_Records.htm">соответствия.</a> Например, если запись была добавлена ​​в одной системе, а не на другой, то что запись добавляется в неполную систему.</p>
+        <table wrapperparagraphselector="P" style="width: 80%;margin-top: 14pt;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" width="80%" MadCap:conditions="Output.WebClient,Output.OutlookSync,Output.Integrations LAN">
+            <col style="width: 45px;" />
+            <col />
+            <tr MadCap:conditions="">
+                <td style="padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top">
+                    <p style="text-align: center;margin-bottom: 0;" align="center">
+                        <img src="../image/note.gif" />
+                    </p>
+                </td>
+                <td style="width: 90%;padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top" width="90%">Синхронизация зависит от встроенных условий безопасности данных, связанных с пользователем, который зарегистрирован в <span class="MyVariablesCompanyNameShort">Infor</span>. Объем данных, доступный для передаче, ограничен правами безопасности зарегистрированного пользователя.</td>
+            </tr>
+        </table>
+        <p class="subheading">Поведение синхронизации Календаря</p>
+        <ul>
+            <li value="1">
+                <p>Если одна и та же запись обновлена в обеих системах во время одного синхронизирующего цикла, то последнее внесенное изменение будет победителем.</p>
+            </li>
+            <li value="2">
+                <p>Удаление действия в любой системе удаляет действие в обоих приложениях.</p>
+            </li>
+            <li value="3">
+                <p>Инициаторы Дел, участники и ресурсы:</p>
+            </li>
+            <ul>
+                <li value="1">Информация об участнике и ресурсе не синхронизируется.
+</li>
+                <li value="2">Если пользователь будет участником или инициатором действия, когда действие будет синхронизироваться, то пользователь будет причислен к инициатору.</li>
+            </ul>
+            <li value="4">
+                <p>Неподтвержденные и подтвержденные действия будут синхронизировать.</p>
+            </li>
+            <li value="5">
+                <p>Отклоненные Дела:</p>
+            </li>
+            <ul>
+                <li value="1">Дела, которые отклонены перед циклом синхронизации, не синхронизируются.
+</li>
+                <li value="2">Дела, которые отклонены после цикла синхронизации, удаляются из календаря пользователя в обоих приложениях.</li>
+            </ul>
+        </ul>
+        <ul>
+            <li value="1">Виды дел <span class="MyVariablesCompanyNameFull">Infor</span> могут синхронизироваться с различными типами дел в интегрированном приложении. Подробнее смотрите таблицу обмена данными календаря.</li>
+        </ul>
+        <p>
+            <MadCap:conditionalText MadCap:conditions="Output.WebClient,Output.OutlookSync,Output.Integrations LAN">Для определенных календарных сценариев интеграции см. <a href="Synchronizing_Calendars.htm">Календарные сценарии Синхронизации</a>.</MadCap:conditionalText>
+        </p>
+        <p class="subheading">Обмен данными между Календарями</p>
+        <p>В следующей таблице перечислены, как данные Календаря синхронизируются с внешними источниками интеграции:</p>
+        <table style="width: 95%;mc-table-style: url('../Resources/TableStyles/TableStyle.css');margin-left: 0;margin-right: auto;" class="TableStyle-TableStyle" cellspacing="0" MadCap:conditions="Output.Integrations LAN,Output.OutlookSync,Output.WebClient">
+            <col class="TableStyle-TableStyle-Column-Column1">
+            </col>
+            <col class="TableStyle-TableStyle-Column-Column1">
+            </col>
+            <col class="TableStyle-TableStyle-Column-Column1">
+            </col>
+            <thead>
+                <tr class="TableStyle-TableStyle-Head-Header1">
+                    <th class="TableStyle-TableStyle-HeadE-Column1-Header1" MadCap:conditions="Output.Integrations LAN,Output.OutlookSync,Output.WebClient"><span class="MyVariablesProduct Name">Infor CRM</span>
+                    </th>
+                    <th class="TableStyle-TableStyle-HeadE-Column1-Header1">Как синхронизирует</th>
+                    <th class="TableStyle-TableStyle-HeadD-Column1-Header1" MadCap:conditions="Output.Integrations LAN,Output.OutlookSync,Output.WebClient">Outlook</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1" MadCap:conditions="Output.Integrations LAN,Output.OutlookSync,Output.WebClient">Встречи</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">синхронизируется как </td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1" MadCap:conditions="Output.Integrations LAN,Output.OutlookSync,Output.WebClient">Назначения</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1" MadCap:conditions="Output.Integrations LAN,Output.OutlookSync,Output.WebClient">Звонки</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">синхронизируется как</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1" MadCap:conditions="Output.Integrations LAN,Output.OutlookSync,Output.WebClient">Назначения</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1" MadCap:conditions="Output.Integrations LAN,Output.OutlookSync,Output.WebClient">Личные дела</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">синхронизируется как</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1" MadCap:conditions="Output.Integrations LAN,Output.OutlookSync,Output.WebClient">Назначения, отмеченные как Частные</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1" MadCap:conditions="Output.Integrations LAN,Output.OutlookSync,Output.WebClient">Действия</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">синхронизируется как</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1" MadCap:conditions="Output.Integrations LAN,Output.OutlookSync,Output.WebClient">Задачи</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1" MadCap:conditions="Output.Integrations LAN,Output.OutlookSync,Output.WebClient">События</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">синхронизируется как</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1" MadCap:conditions="Output.Integrations LAN,Output.OutlookSync,Output.WebClient">не синхронизируются</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyB-Column1-Body1" MadCap:conditions="Output.Integrations LAN,Output.OutlookSync,Output.WebClient">Регулярные Звонки, Встречи или Личные Дела</td>
+                    <td class="TableStyle-TableStyle-BodyB-Column1-Body1">синхронизируется как</td>
+                    <td class="TableStyle-TableStyle-BodyA-Column1-Body1" MadCap:conditions="Output.Integrations LAN,Output.OutlookSync,Output.WebClient">Весь день</td>
+                </tr>
+            </tbody>
+        </table>
+        <p class="RelatedTopics">Как выполнить?</p>
+        <ul>
+            <li MadCap:conditions="Output.Integrations LAN,Output.OutlookSync,Output.WebClient" value="1"><a href="../Outlook/Configuring_Outlook_Sync.htm">Настройка Синхронизация с Outlook и интеграции с Outlook</a>
+            </li>
+            <li MadCap:conditions="Output.Integrations LAN,Output.OutlookSync,Output.WebClient" value="2">Ручная синхронизация Календарей и Контактов</li>
+        </ul>
+        <table wrapperparagraphselector="P" style="width: 80%;margin-top: 14pt;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" width="80%" MadCap:conditions="Output.WebClient,Output.OutlookSync,Output.Integrations LAN">
+            <col style="width: 45px;">
+            </col>
+            <col>
+            </col>
+            <tr>
+                <td style="padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top">
+                    <p style="text-align: center;margin-bottom: 0;" align="center">
+                        <img src="../image/caution.gif">
+                        </img>
+                    </p>
+                </td>
+                <td style="width: 90%;padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top" width="90%">
+                    <p>Одновременно синхронизации удаленного клиента на главного офиса базы данных и Microsoft Outlook , не рекомендуется. Это значительно снижает скорость синхронизации и вызывает проблемы с памятью. <span class="MyVariablesCompanyNameShort">Infor</span> рекомендует     синхронизировать с Outlook  до или после синхронизации свой удаленной базы данных.</p>
+                </td>
+            </tr>
+        </table>
+        <p class="RelatedTopics">См. также</p>
+        <p MadCap:conditions="Output.Integrations LAN,Output.OutlookSync,Output.WebClient"><a href="Synchronizing_Calendars.htm">Синхронизация Календаря</a>
+        </p>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

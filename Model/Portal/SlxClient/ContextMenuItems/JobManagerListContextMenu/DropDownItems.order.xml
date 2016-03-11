@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<ModelItems xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Item Id="885a8eac-5658-425c-bdfd-8913cff930c1">ExecutionsListContextMenu.contextmenu.xml</Item>
+  <Item Id="43ce7ce0-df4c-4693-8657-783d4b7b8399">SchedulesListContextMenu.contextmenu.xml</Item>
+  <Item Id="dbbf2391-5461-48bd-a31c-8bc8165568e7">JobDefinitionsListContextMenu.contextmenu.xml</Item>
+</ModelItems>

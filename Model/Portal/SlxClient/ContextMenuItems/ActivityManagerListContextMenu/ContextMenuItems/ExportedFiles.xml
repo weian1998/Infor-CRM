@@ -1,0 +1,8 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\SlxClient\ContextMenuItems\ActivityManagerListContextMenu\ContextMenuItems\ActivityListContextMenu\" />
+  <exportedFile url="\Portal\SlxClient\ContextMenuItems\ActivityManagerListContextMenu\ContextMenuItems\ConfimationListContextMenu\" />
+  <exportedFile url="\Portal\SlxClient\ContextMenuItems\ActivityManagerListContextMenu\ContextMenuItems\EventListContextMenu\" />
+  <exportedFile url="\Portal\SlxClient\ContextMenuItems\ActivityManagerListContextMenu\ContextMenuItems\LitRequestListContextMenu\" />
+  <exportedFile url="\Portal\SlxClient\ContextMenuItems\ActivityManagerListContextMenu\ContextMenuItems\ScheduleContextMenu\" />
+</exportedFiles>

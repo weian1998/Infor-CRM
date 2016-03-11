@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<method xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="edf4a784-88fb-4890-911d-e6e1c5550af7" lastModifiedUtc="2015-02-11T20:17:04.6195882Z" name="GetImportMappings" returnType="String" methodType="Rule" actionType="None" returnMode="Object">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmEntityMethod" />
+  </ExtendedPropertiesCollection>
+  <parameter>
+    <OrmEntityMethodParam id="9a658492-aeaf-4f95-834e-c4666c7f01e6" paramName="importOptions" sequence="0" paramType="String">
+      <description>The import options required in order to read the imported file.</description>
+    </OrmEntityMethodParam>
+  </parameter>
+  <preExecuteTargets />
+  <methodTargets>
+    <methodTarget id="637e159a-5ba4-44c4-98a1-5cffe9ebdbd3" lastModifiedUtc="2015-02-11T20:05:53.5734903Z" targetType="Sage.SalesLogix.Import.Rules, Sage.SalesLogix.BusinessRules" targetMethod="GetImportMappings" active="true">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmMethodTarget" />
+      </ExtendedPropertiesCollection>
+    </methodTarget>
+  </methodTargets>
+  <postExecuteTargets />
+  <postFlushTargets />
+</method>

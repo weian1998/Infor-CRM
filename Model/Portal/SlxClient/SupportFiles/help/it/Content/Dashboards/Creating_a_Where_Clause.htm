@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:fileTags="Translation Status.Support files" MadCap:tocPath="" MadCap:medium="non-print" MadCap:InPreviewMode="false" MadCap:PreloadImages="false" MadCap:RuntimeFileType="Topic" MadCap:TargetType="WebHelp" lang="en-us" xml:lang="en-us" MadCap:conditions="Primary.Accelerator" MadCap:PathToHelpSystem="../../" MadCap:HelpSystemFileName="WebClient.xml" MadCap:SearchType="Stem">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Creando una Clausola Dove</title>
+        <link href="../SkinSupport/Slideshow.css" rel="stylesheet" />
+        <link href="../SkinSupport/MadCap.css" rel="stylesheet" />
+        <link href="../Resources/TableStyles/TableStyle.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/Infor.CSS" rel="stylesheet" />
+        <script src="../SkinSupport/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapAll.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapTopicAll.js" type="text/javascript">
+        </script>
+    </head>
+    <body>
+        <h1>Creando una Clausola Dove</h1>
+        <table wrapperparagraphselector="P" style="width: 80%;margin-top: 14pt;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" width="80%">
+            <col style="width: 45px;" />
+            <col />
+            <tr>
+                <td style="padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top">
+                    <p style="text-align: center;margin-bottom: 0;" align="center">
+                        <img src="../image/caution.gif" />
+                    </p>
+                </td>
+                <td style="width: 90%;padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top" width="90%">
+                    <p class="Tip-Note-Text" style="margin-bottom: 0;">La creazione di una clausola Dove è raccomandato solo per gli utenti Avanzati. </p>
+                </td>
+            </tr>
+        </table>
+        <p>Una clausola Dove viene utilizzata per filtrare le informazioni da un feed SData. Il linguaggio di query SData viene usato per esprimere condizioni di filtraggio, con il cui parametro di query. Informazione da un feed SData è soggetta alla sicurezza, così gli utenti possono vedere solo i record che hanno il permesso di vedere.</p>
+        <p>La sintassi per creare una clausola Dove è molto specifica. Se la sintassi non è corretta, si potrebbero avere risultati indesiderati. </p>
+        <p class="Tip-Note-Text" style="margin-bottom: 0;">Al fine di creare una clausola Dove, è necessario conoscere quanto segue: </p>
+        <ul>
+            <li style="margin-bottom: 0;" value="1"> La risorsa associata al widget di avanzamento SData</li>
+            <li style="margin-bottom: 0;" value="2">ll nome della colonna che contiene i dati che si desidera filtrare 
+                <table wrapperparagraphselector="P" style="width: 80%;margin-top: 14pt;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" width="80%"><col style="width: 45px;" /><col /><tr><td style="padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top"><p style="text-align: center;margin-bottom: 0;" align="center"><img src="../image/note.gif" /></p></td><td style="width: 90%;padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top" width="90%"><p class="Tip-Note-Text" style="margin-bottom: 0;">Non tutte le colonne possono essere filtrare per filtrare dati. </p></td></tr></table></li>
+            <li style="margin-bottom: 0;" value="3">I valori che si stanno cercando</li>
+            <li style="margin-bottom: 0;" value="4">Quali sono gli operatori SData validi</li>
+            <li value="5">
+                <p>I valori di testo devono essere compresi tra virgolette semplici ('')</p>
+            </li>
+            <li value="6">
+                <p>I dati devono essere tra @ simboli</p>
+                <p>Diminuire</p>
+            </li>
+            <li value="7">
+                <p>Il testo in una dichiarazione deve essere compreso tra virgolette semplici ('') e simboli%</p>
+            </li>
+        </ul>
+        <p class="Infinitive">Per creare una clausola in cui</p>
+        <ul>
+            <li value="1">Nella finestra <span class="SLXBold">Clausola Dove</span> nel <a href="Using Widgets.htm">widget Sdata</a> <span class="SLXBold">Modifica Impostazioni Widget</span>, digitare una clausola dove si utilizza la sintassi appropriata. Non si include ''dove=''. <br />Per esempio, NomeAzienda eq 'Imprese Statali Co.'</li>
+        </ul>
+        <p class="PageBreakAfter">&#160;</p>
+        <p class="subheading">Filtri usati comunemente:</p>
+        <p>Per i seguenti esempi, si supponga di aver selezionato la risorsa Azienda.<br /></p>
+        <table style="mc-table-style: url('../Resources/TableStyles/TableStyle.css');margin-left: auto;margin-right: auto;width: 90%;" class="TableStyle-TableStyle" cellspacing="0">
+            <col class="TableStyle-TableStyle-Column-Column1" style="width: 140px;" />
+            <col class="TableStyle-TableStyle-Column-Column1" style="width: 140px;" />
+            <col class="TableStyle-TableStyle-Column-Column1" />
+            <col class="TableStyle-TableStyle-Column-Column1" style="width: 260px;" />
+            <thead>
+                <tr class="TableStyle-TableStyle-Head-Header1">
+                    <th class="TableStyle-TableStyle-HeadE-Column1-Header1">Condizione filtri dati</th>
+                    <th class="TableStyle-TableStyle-HeadE-Column1-Header1">Operatore clausola dove</th>
+                    <th class="TableStyle-TableStyle-HeadE-Column1-Header1">Esempio</th>
+                    <th class="TableStyle-TableStyle-HeadD-Column1-Header1">Effetto</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">equivale</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1" rowspan="3">eq</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">CreditodiValutazione eq 'Buono'</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Una lista di aziende dove il credito di valutazione equivale a ''Buono''.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">comparare due colonne </td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">CreareUtente eq ModificareUtente</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Una lista di aziende che per ultimo è stata modificata dallo stesso utente che ha creato l'azienda.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">equivale un dato</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">anno(CreareData) eq 2008 e mese(CreareData) eq 06 e giorno (CreareData) eq 14</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Una lista di tutte le aziende create nello specifico giorno, mese e anno.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">non equivale</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">ne</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Industria ne 'Servizi/Consulenza'</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Una lista di aziende che non è nell'industria Servizi/Consulenze.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">meno di </td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Esso</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Entrare che 5000000</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Una lista di aziende con entrare meno di 5 milioni.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">minore o uguale a</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">le</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">UltimaDataCronologia le #2012-01-01T00:00:01@</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Un elenco di aziende in cui l'elemento della cronologia più recente si è verificato, o prima del 1 gennaio 2013. </td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">superiore</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">gt</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Impiegati gt 100</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Una lista di aziende con più di 100 impiegati.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">maggiore o uguale a</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">ge</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">DataCreazione ge @2013-01-01T00:00:00+00:01@</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Una lista di tutte le aziende create il o dopo il 1 Gennaio 2013.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">all'interno di un intervallo</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">tra</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Indirizzo di spedizione. Codice postale tra 60650 e 60699</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Una lista di tutte le aziende con un codice postale tra 60650 e 60699.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Nell'impostazione</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">nel</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Credito di Valutazione nel ('Buono', 'Giusto', 'Misero')</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Una lista di tutte le aziende con un credito di valutazione ''Buono'' o ''Giusto'' o ''Misero''.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Non nell'impostazione</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">non nel</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Credito di Valutazione nel ('Buono', 'Giusto', 'Misero')</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Una lista di tutte le aziende con un credito di valutazione ''Buono'' o ''Giusto'' o ''Misero''.  </td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">contiene</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">come</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Descrizione Business come '%filiale%'</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Una lista di aziende che contiene ''filiale'' nella propria descrizione di business.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">inizia con (primo personaggio)</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">sinistra (&lt;colonna&gt;,1) tra</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">sinistra(Nome Azienda,1) tra 'A' e 'C'</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Una lista di aziende con un nome che inizia con 'A', 'B' o 'C'.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">inizia con (primi 2 personaggi)</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">sinistra (&lt;colonna&gt;,2) eq</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">sinistra(Nome Azienda,2) eq 'Ab'</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Una lista di aziende con un nome che inizia con 'Ab'.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">inizia con (primi 3 personaggi)</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">sinistra (&lt;colonna&gt;,3) eq</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">sinistra(Telefono Principale,3) eq 312</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Una lista di aziende con numeri del telefono principale nell'area codice 312.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyB-Column1-Body1">si è verificato negli ultimi X giorni</td>
+                    <td class="TableStyle-TableStyle-BodyB-Column1-Body1">Aggiungi data(colonna&gt;,X) ge</td>
+                    <td class="TableStyle-TableStyle-BodyB-Column1-Body1">Aggiungi data(Modifica Data, 7) ge IndicatoreDataOraCorrente</td>
+                    <td class="TableStyle-TableStyle-BodyA-Column1-Body1">Una lista di aziende modificate negli ultimi 7 giorni.</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>Se il proprio feed widget Sdata non restituisce dati come previsto, qui ci sono alcuni errori comuni:</p>
+        <ul>
+            <li value="1">Assicurarsi che la clausola dove contiene citazioni verticali (''), non inclinato apici ('')</li>
+            <li value="2">Assicurarsi che il nome della colonna sia corretto. I nomi di colonna sono case sensitive e si basano sul nome sottostante, non il nome ''bella''che compare nella vista <span class="MyVariablesCompanyNameFull">Infor</span>. Per esempio, NomeAzienda, non Azienda o Nome Azienda.</li>
+        </ul>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

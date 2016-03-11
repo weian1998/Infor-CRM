@@ -1,0 +1,26 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\UserActivity\Account.filter.xml" timeStamp="2015-05-28T03:03:57.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\UserActivity\ActivityType.filter.xml" timeStamp="2015-05-28T03:03:57.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\UserActivity\Attachment.filter.xml" timeStamp="2015-05-28T03:03:57.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\UserActivity\DismissAlarm.method.xml" timeStamp="2015-05-28T03:03:57.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\UserActivity\Duration.filter.xml" timeStamp="2015-05-28T03:03:57.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\UserActivity\Leader.filter.xml" timeStamp="2015-05-28T03:03:57.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\UserActivity\Name.filter.xml" timeStamp="2015-05-28T03:03:57.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\UserActivity\OnAfterDelete.method.xml" timeStamp="2015-05-28T03:03:57.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\UserActivity\OnAfterInsert.method.xml" timeStamp="2015-05-28T03:03:57.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\UserActivity\OnAfterUpdate.method.xml" timeStamp="2015-05-28T03:03:57.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\UserActivity\OnBeforeDelete.method.xml" timeStamp="2015-05-28T03:03:57.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\UserActivity\OnBeforeInsert.method.xml" timeStamp="2015-05-28T03:03:57.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\UserActivity\OnBeforeUpdate.method.xml" timeStamp="2015-05-28T03:03:57.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\UserActivity\OnCreate.method.xml" timeStamp="2015-05-28T03:03:57.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\UserActivity\Opportunity.filter.xml" timeStamp="2015-05-28T03:03:57.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\UserActivity\Priority.filter.xml" timeStamp="2015-05-28T03:03:57.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\UserActivity\Recurring.filter.xml" timeStamp="2015-05-28T03:03:57.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\UserActivity\SnoozeAlarm.method.xml" timeStamp="2015-05-28T03:03:57.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\UserActivity\Ticket.filter.xml" timeStamp="2015-05-28T03:03:57.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\UserActivity\TimeFrame.filter.xml" timeStamp="2015-05-28T03:03:57.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\UserActivity\Timeless.filter.xml" timeStamp="2015-05-28T03:03:57.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\UserActivity\Unconfirmed.filter.xml" timeStamp="2015-05-28T03:03:57.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\UserActivity\UserActivity.USER_ACTIVITY.entity.xml" timeStamp="2015-05-28T03:03:57.0000" />
+</exportedFiles>

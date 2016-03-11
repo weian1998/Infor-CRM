@@ -1,0 +1,46 @@
+﻿<div>
+    <table style="width:100%">
+        <colgroup>
+            <col style="width:45%" />
+            <col style="width:10%" />
+            <col style="width:45%" />
+        </colgroup>
+        <tr>
+            <td colspan="3">
+                <div data-dojo-attach-point="searchFilterDiv">
+                    <label>${searchFilterText}</label>
+                    <div dojoType="dijit.form.TextBox" dojoAttachPoint="searchFilter"></div>
+                    <button data-dojo-type="Sage.UI.ImageButton" imageClass="icon_Find_16x16" data-dojo-attach-point="filterButton" data-dojo-attach-event="onClick:_onFilterClick" ></button>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label data-dojo-attach-point="availableValues">${availableValuesText}</label>
+            </td>
+            <td></td>
+            <td>
+                <label data-dojo-attach-point="selectedValues">${selectedValuesText}</label>
+            </td>
+        </tr>
+        <tr>
+            <td data-dojo-attach-point="colFromNode">
+                <div data-dojo-attach-point="fromNode"></div>
+            </td>
+            <td style="text-align:center">
+                <div data-dojo-attach-point="transferButtons">
+                    <button data-dojo-type="dijit.form.Button" data-dojo-attach-event="onClick:_onAddClick" data-dojo-attach-point="addButton" title="${btnAddTooltip}">&gt;</button>
+                    <button data-dojo-type="dijit.form.Button" data-dojo-attach-event="onClick:_onAddAllClick" data-dojo-attach-point="addAllButton" title="${btnAddAllTooltip}">&gt;&gt;</button>
+                    <button data-dojo-type="dijit.form.Button" data-dojo-attach-event="onClick:_onRemoveClick" data-dojo-attach-point="removeButton" title="${btnRemoveTooltip}">&lt;</button>
+                    <button data-dojo-type="dijit.form.Button" data-dojo-attach-event="onClick:_onRemoveAllClick" data-dojo-attach-point="removeAllButton" title="${btnRemoveAllTooltip}">&lt;&lt;</button>
+                </div>
+            </td>
+            <td>
+                <div data-dojo-attach-point="toNode"></div>
+            </td>
+            <td style="vertical-align:top">
+                <span data-dojo-attach-point="errorValidation" class="display-none" style="color:red">*</span>
+            </td>
+        </tr>
+    </table>
+</div>

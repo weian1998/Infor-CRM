@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:fileTags="Translation Status.Support files" xml:lang="de" MadCap:tocPath="Administration|Integrationen" MadCap:medium="non-print" MadCap:InPreviewMode="false" MadCap:PreloadImages="false" MadCap:RuntimeFileType="Topic" MadCap:TargetType="WebHelp" lang="de" MadCap:conditions="Integrations.Admin,Output.WebClient,Integrations.ExchangeAdmin,Integrations.X3" MadCap:PathToHelpSystem="../../" MadCap:HelpSystemFileName="WebClient.xml" MadCap:SearchType="Stem">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Konfigurieren des Synchronisierungsdiensts für die Integration</title>
+        <link href="../SkinSupport/Slideshow.css" rel="stylesheet" />
+        <link href="../SkinSupport/MadCap.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/Infor.CSS" rel="stylesheet" />
+        <script src="../SkinSupport/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapAll.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapTopicAll.js" type="text/javascript">
+        </script>
+    </head>
+    <body>
+        <h1>Konfigurieren des Synchronisierungsdiensts für die Integration</h1>
+        <p><a name="kanchor60"></a>Der Synchronisierungsdienst für die Integration (<span class="MyVariablesProduct Name">Infor CRM</span> SData-Sync-Dienst) ermöglicht den Datentransfer zwischen <span class="MyVariablesProduct Name">Infor CRM</span> und Ihren Integrationen. Der Dienst muss gestartet und auf die automatische Ausführung festgelegt werden.</p>
+        <table wrapperparagraphselector="P" style="margin-top: 14pt;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" width="840px" MadCap:conditions="Output.WebClient">
+            <col style="width: 45px;" />
+            <col />
+            <tr>
+                <td style="padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top">
+                    <p style="text-align: center;margin-bottom: 0;" align="center">
+                        <img src="../image/note.gif" />
+                    </p>
+                </td>
+                <td style="width: 90%;padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top" width="90%">
+                    <p>Für die Synchronisierung von Informationen in Echtzeit wird eine Internetverbindung benötigt. Bei Verwendung der Buchhaltungsintegration im <span class="MyVariablesWebRemote">Offline Web Client</span> sind die Daten in Echtzeitdatenansichten auf dem Stand des Zeitpunkts, zu dem der Client zuletzt mit der Host-Datenbank verbunden war.</p>
+                </td>
+            </tr>
+        </table>
+        <p class="Infinitive">So nehmen Sie die Konfiguration vor</p>
+        <ol>
+            <li value="1">Melden Sie sich auf der Administrations-Workstation als WebDLL-Benutzer an.</li>
+            <li value="2">Achten Sie darauf, die <a href="SData_Detail_view.htm">SData-Synchronisierung</a> und Ihre <a href="Integrations_Detail_View.htm">Integration(en)</a> zu konfigurieren und aktivieren, bevor der Dienst gestartet wird.</li>
+            <li value="3">Vergewissern Sie sich, dass für den WebDLL-Benutzer die Windows-Authentifizierung aktiviert ist.<br /></li>
+            <li value="4">Öffnen Sie auf dem Computer mit Administrative Workstation <span class="SLXBold">Dienste</span>.</li>
+            <li value="5">Klicken Sie mit der rechten Maustaste auf <span style="mc-tag-and-class: span;" class="MyVariablesProduct Name">Infor CRM</span>-<span class="SLXBold">SData-Synchronisierungsdienst</span> und klicken Sie dann auf <span class="SLXBold">Eigenschaften</span>. <ol><li value="1">Wählen Sie im Feld <span class="SLXBold">Starttyp</span> die Option <span class="SLXBold">Automatisch</span> aus. </li><li value="2">Legen Sie den Dienst so fest, dass Anmeldung und Ausführung durch den WebDLL-Benutzer erfolgen. </li><li value="3">Klicken Sie auf <span class="SLXBold">Starten</span>.</li></ol></li>
+            <li value="6">Klicken Sie auf <span class="SLXBold">OK</span>.</li>
+        </ol>
+        <p class="RelatedTopics">Verwandte Themen</p>
+        <p MadCap:conditions="Integrations.Not Print"><a href="../Integration Contract/ConfiguringAccountingIntegration.htm" MadCap:conditions="Integrations.X3">Konfigurieren der X3-Buchhaltungsintegration</a>
+        </p>
+        <p MadCap:conditions="Integrations.Not Print"><a href="Configuring_Outlook_Sync_Integration.htm" MadCap:conditions="Integrations.OutlookSync">Konfigurieren der Outlook Sync-Integration</a>
+        </p>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

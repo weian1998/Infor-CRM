@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:fileTags="Translation Status.Support files" xml:lang="fr" MadCap:tocPath="" MadCap:medium="non-print" MadCap:InPreviewMode="false" MadCap:PreloadImages="false" MadCap:RuntimeFileType="Topic" MadCap:TargetType="WebHelp" lang="fr" MadCap:conditions="Output.WebClient" class="" MadCap:PathToHelpSystem="../../" MadCap:HelpSystemFileName="WebClient.xml" MadCap:SearchType="Stem">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Utilisation des options de correspondance avancée</title>
+        <link href="../SkinSupport/Slideshow.css" rel="stylesheet" />
+        <link href="../SkinSupport/MadCap.css" rel="stylesheet" />
+        <link href="../Resources/TableStyles/TableStyle.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/Infor.CSS" rel="stylesheet" />
+        <script src="../SkinSupport/jquery.min.js">
+        </script>
+        <script src="../SkinSupport/MadCapAll.js">
+        </script>
+        <script src="../SkinSupport/MadCapTopicAll.js">
+        </script>
+    </head>
+    <body>
+        <h1><a name="kanchor549"></a>Utilisation des options de correspondance avancée</h1>
+        <p>Utilisez les options de correspondance avancée pour définir comment trouver les correspondances potentielles.</p>
+        <p class="Infinitive">Pour définir les options avancées</p>
+        <ol style="list-style-type: decimal;">
+            <li class="Topic-Text-Numbered" value="1">Utilisez les cases <span class="SLXBold">Définition de doublons par score</span> pour déterminer le type de correspondance. Cette option n'est disponible que dans l'étape Gestion des doublons lors de l'importation de leads.</li>
+        </ol>
+        <ol style="list-style-type: lower-alpha;">
+            <li class="Topic-Text-Lettered" value="1">Dans la zone <span class="SLXBold">Doublon</span>, entrez le pourcentage minimum qui déterminera si un mot est un doublon.</li>
+            <li class="Topic-Text-Lettered" value="2">Dans la zone <span class="SLXBold">Doublon possible</span>, entrez le pourcentage minimum qui déterminera si un mot est un doublon potentiel.</li>
+        </ol>
+        <ol style="list-style-type: decimal;">
+            <li value="2" class="Topic-Text-Numbered">Sélectionnez <span class="SLXBold">Utiliser la lemmatisation</span> pour inclure d'autres formes d'un mot.</li>
+            <li class="Topic-Text-Numbered" value="3">Sélectionnez <span class="SLXBold">Utiliser la phonétique</span> pour inclure des mots ayant une consonance similaire.</li>
+            <li class="Topic-Text-Numbered" value="4">Sélectionnez <span class="SLXBold">Utiliser la recherche synonymique</span> pour inclure des mots ayant un sens similaire.</li>
+            <li class="Topic-Text-Numbered" value="5">Sélectionnez <span class="SLXBold">Recherche par correspondance approximative</span> pour inclure des mots similaires ou mal orthographiés. Sélectionnez ensuite le <span class="SLXBold">Niveau d'approximation</span> pour déterminer à quel point l'orthographe peut être différente pour qu'un mot soit considéré comme une correspondance. Chaque chiffre représente le nombre de lettres pouvant être différentes.</li>
+        </ol>
+        <p class="Topic-Text-Indent">Pour être une correspondance approximative&#160;:</p>
+        <ul>
+            <li class="Topic-Text-Bulleted-2" value="1">Chaque correspondance doit commencer par la première lettre du critère de correspondance.</li>
+            <li class="Topic-Text-Bulleted-2" value="2">Après la première lettre, chaque correspondance ne doit pas comporter plus de différences de caractères que le niveau d'approximation n'autorise. Par exemple, un niveau d'approximation de 3 donnera tous les noms avec 3 caractères différents au plus.</li>
+        </ul>
+        <ol style="list-style-type: decimal;">
+            <div class="MCDropDown">
+                <div class="MCDropDownHead_0"><a class="MCDropDownHotSpot_0" href="javascript:void(0);" id="MCDropDownHotSpot_2202111287_0" onclick="FMCDropDown( this ); return false;">Exemple<img style="border: none;margin-left: 5px;" src="../SkinSupport/DropDownClosed.gif" MadCap:altsrc="../SkinSupport/DropDownOpen.gif" onload="if ( typeof( FMCPreloadImage ) == 'function' ) { FMCPreloadImage( '../SkinSupport/DropDownOpen.gif' ); }" alt="Closed" MadCap:alt2="Open" class="MCDropDownIcon" /></a>
+                </div>
+                <div class="MCDropDownBody" id="MCDropDownBody_2202111287_0" style="display: none;">
+                    <p>Si « Jon » est votre critère de recherche, un niveau d'approximation de 1 trouverait que Jon et John sont une correspondance approximative, mais pas Jon et Johnn. Pour que Johnny soit une correspondance, vous devez augmenter le niveau d'approximation à 3. Toutefois, vous obtiendrez alors des noms tels que Jack ou Jeff.</p>
+                    <p>Utilisez le tableau suivant pour avoir des exemples des correspondances trouvées en fonction du niveau d'approximation.</p>
+                    <table class="TableStyle-TableStyle" style="mc-table-style: url('../Resources/TableStyles/TableStyle.css');margin-left: 0;margin-right: auto;" cellspacing="0">
+                        <col style="width: 33%;" class="TableStyle-TableStyle-Column-Column1" />
+                        <col style="width: 33%;" class="TableStyle-TableStyle-Column-Column1" />
+                        <col style="width: 33%;" class="TableStyle-TableStyle-Column-Column1" />
+                        <thead>
+                            <tr MadCap:conditions="" class="TableStyle-TableStyle-Head-Header1">
+                                <th class="TableStyle-TableStyle-HeadE-Column1-Header1">
+                                    <p colspan="1" rowspan="1">Niveau d'approximation 1</p>
+                                    <p colspan="1" rowspan="1">(autorise 1 caractère différent)</p>
+                                </th>
+                                <th class="TableStyle-TableStyle-HeadE-Column1-Header1">
+                                    <p colspan="1" rowspan="1">Niveau d'approximation 2</p>
+                                    <p colspan="1" rowspan="1">(autorise 2 caractères différents)</p>
+                                </th>
+                                <th class="TableStyle-TableStyle-HeadD-Column1-Header1">
+                                    <p colspan="1" rowspan="1" width="33.333%">Niveau d'approximation 3</p>
+                                    <p colspan="1" rowspan="1" width="33.333%">(autorise 3 caractères différents)</p>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr MadCap:conditions="" class="TableStyle-TableStyle-Body-Body1">
+                                <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Jon</td>
+                                <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Les correspondances trouvées seront également&#160;:</td>
+                                <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Les correspondances trouvées seront également&#160;:</td>
+                            </tr>
+                            <tr MadCap:conditions="" class="TableStyle-TableStyle-Body-Body1">
+                                <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Jo<u>h</u>n</td>
+                                <td class="TableStyle-TableStyle-BodyE-Column1-Body1">J<u>i<u>m</u></u></td>
+                                <td class="TableStyle-TableStyle-BodyD-Column1-Body1">J<u>eff</u></td>
+                            </tr>
+                            <tr MadCap:conditions="" class="TableStyle-TableStyle-Body-Body1">
+                                <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Jo<u>e</u></td>
+                                <td class="TableStyle-TableStyle-BodyE-Column1-Body1">J<u>ay</u></td>
+                                <td class="TableStyle-TableStyle-BodyD-Column1-Body1">J<u>ac</u>o<u>b</u></td>
+                            </tr>
+                            <tr MadCap:conditions="" class="TableStyle-TableStyle-Body-Body1">
+                                <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Jo<u>a</u>n</td>
+                                <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Jo<u>sh</u></td>
+                                <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Jo<u>yce</u></td>
+                            </tr>
+                            <tr MadCap:conditions="" class="TableStyle-TableStyle-Body-Body1">
+                                <td class="TableStyle-TableStyle-BodyE-Column1-Body1">&#160;</td>
+                                <td class="TableStyle-TableStyle-BodyE-Column1-Body1">J<u>as</u>on</td>
+                                <td class="TableStyle-TableStyle-BodyD-Column1-Body1">J<u>ack</u></td>
+                            </tr>
+                            <tr MadCap:conditions="" class="TableStyle-TableStyle-Body-Body1">
+                                <td class="TableStyle-TableStyle-BodyE-Column1-Body1">&#160;</td>
+                                <td class="TableStyle-TableStyle-BodyE-Column1-Body1">J<u>ua</u>n</td>
+                                <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Jo<u>h</u>n<u>ny</u></td>
+                            </tr>
+                            <tr MadCap:conditions="" class="TableStyle-TableStyle-Body-Body1">
+                                <td class="TableStyle-TableStyle-BodyB-Column1-Body1">&#160;</td>
+                                <td class="TableStyle-TableStyle-BodyB-Column1-Body1">Jo<u>e</u><u>l</u></td>
+                                <td class="TableStyle-TableStyle-BodyA-Column1-Body1">&#160;</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <li class="Topic-Text-Numbered" value="2">Cliquez sur <span class="SLXBold">OK</span>.</li>
+        </ol>
+        <p class="RelatedTopics">Rubriques connexes</p>
+        <p><a href="leadfinddupes.htm" target="_self">Recherche de doublons</a>
+        </p>
+        <p><a href="leadmergerecords.htm" target="_self">Fusion de doublons</a>
+        </p>
+        <p><a href="importing_leads_from_a_list.htm" target="_self">Importation de leads à partir d'une liste</a>
+        </p>
+        <div style="width: 100%;position: relative;">
+            <p>&#160;</p>
+        </div>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

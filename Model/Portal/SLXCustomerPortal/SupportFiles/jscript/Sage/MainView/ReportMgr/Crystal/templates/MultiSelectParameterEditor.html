@@ -1,0 +1,62 @@
+﻿<div>
+    <div data-dojo-attach-point="promptParameterContainer" class="crystalParameterContainer">
+        <div data-dojo-attach-point="paramsHeaderContainer"></div>
+        <div data-dojo-attach-point="divMinMaxMessage">
+            <span data-dojo-attach-point="spanMinMaxMessage">&nbsp;</span>
+        </div>
+        <div data-dojo-attach-point="parameterRangeDiv" class="display-none">
+            <div data-dojo-attach-point="parameterRangeWidgetContainer" style="height:auto"></div>
+            <div>
+                <label class="display-none" data-dojo-attach-point="lblRangeValidationError" style="color:red">{%= Sage.Utility.htmlEncode($.txtPleaseSpecifyValue) %}</label>
+            </div>
+            <div style="padding:5px">
+                <div data-dojo-type="dijit.form.Button" data-dojo-attach-point="cmdAddRange" dojoattachevent="onClick:_cmdAddRange_OnClick"
+                     style="float:right">
+                    {%= Sage.Utility.htmlEncode($.txtAddRange) %}
+                </div>
+            </div>
+            <br />
+        </div>
+        <div data-dojo-attach-point="divMultipleValues">
+            <table style="width:100%">
+                <colgroup>
+                    <col style="width:1%" />
+                    <col style="width:44%" />
+                    <col style="width:10%" />
+                    <col style="width:44%" />
+                </colgroup>
+                <tr>
+                    <td colspan="4">
+                        <div data-dojo-attach-point="transferBoxContainer" style="height:auto"></div>
+                    </td>
+                </tr>
+                <tr data-dojo-attach-point="rowCustomValues">
+                    <td></td>
+                    <td>
+                        <div>
+                            <label>{%= Sage.Utility.htmlEncode($.lblEnterValue_Caption) %}</label><br />
+                            <div data-dojo-attach-point="customValueContainer"></div>
+                            <span data-dojo-attach-point="errorCustomDate" class="display-none" style="color:red">*</span>
+                        </div>
+                    </td>
+                    <td>
+                        <br />
+                        <div data-dojo-type="dijit.form.Button" data-dojo-attach-point="cmdAddCustom" dojoattachevent="onClick:_cmdAddCustom_OnClick">{%= Sage.Utility.htmlEncode(">") %}</div>
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td colspan="3">
+                        <div data-dojo-attach-point="divValidationMessage" style="color:red">
+                            <span data-dojo-attach-point="spanValidationMessage">&nbsp;</span>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div>
+        <br />
+    </div>
+</div>

@@ -1,0 +1,401 @@
+<?xml version="1.0"?>
+<QuickForm xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="d544334c-3b5e-48f7-ad29-99731d7ce475" DefinitionType="Sage.Platform.QuickForms.QuickFormMainDetailViewDefinition, Sage.Platform.QuickForms">
+  <ActiveControl />
+  <ImagePath />
+  <LoadActions>
+    <FormActionDefinition>
+      <ResourceKey>15e6259e-95fe-489a-be5e-bb09b2b0745f</ResourceKey>
+      <Action typeName="Sage.Platform.QuickForms.ActionItems.CSharpSnippetActionItem, Sage.Platform.QuickForms">
+        <CSharpSnippetActionItem>
+          <MethodName>quickformload0</MethodName>
+          <CSharpCodeSnippet>Sage.Entity.Interfaces.IIntegration integration = BindingSource.Current as Sage.Entity.Interfaces.IIntegration;
+if (integration != null)
+{
+    var userService = Sage.Platform.Application.ApplicationContext.Current.Services.Get&lt;Sage.Platform.Security.IUserService&gt;();
+
+    //determines whether or not we want to display the Authorize Services button in the toolbar. If they have already authorized this provider then we don't want to show it.
+    bool authorized = false;
+    if (integration.OAuthProvider != null)
+        foreach (var userOAuthToken in integration.OAuthProvider.UserOAuthTokens.Where(userOAuthToken =&gt; userService.UserId.Trim() == userOAuthToken.User.Id.ToString()))
+        {
+            authorized = true;
+        }
+
+    btnAdd.Visible = integration.AuthorizationType == "Basic";
+    btnAuthorize.Visible = !authorized &amp;&amp; (integration.AuthorizationType == "OAuth1" || integration.AuthorizationType == "OAuth2" &amp;&amp; integration.LinkType == "Admin");
+
+    var clientContextService = PageWorkItem.Services.Get&lt;Sage.Platform.WebPortal.Services.ClientContextService&gt;();
+    if (clientContextService != null)
+    {
+        if (clientContextService.CurrentContext.ContainsKey("IntegrationAuthType"))
+        {
+            clientContextService.CurrentContext["IntegrationAuthType"] = integration.AuthorizationType;
+        }
+        else
+        {
+            clientContextService.CurrentContext.Add("IntegrationAuthType", integration.AuthorizationType);
+        }
+        if (clientContextService.CurrentContext.ContainsKey("IntegrationLinkType"))
+        {
+            clientContextService.CurrentContext["IntegrationLinkType"] = integration.LinkType;
+        }
+        else
+        {
+            clientContextService.CurrentContext.Add("IntegrationLinkType", integration.LinkType);
+        }
+    }
+}</CSharpCodeSnippet>
+        </CSharpSnippetActionItem>
+      </Action>
+      <IsDialogCloseAction>False</IsDialogCloseAction>
+      <RunOnEveryRePaint>False</RunOnEveryRePaint>
+      <DialogActionResult>NoResult</DialogActionResult>
+      <PerformsUpdate>False</PerformsUpdate>
+      <AppliedSecurity />
+      <RefreshData>False</RefreshData>
+    </FormActionDefinition>
+  </LoadActions>
+  <Name>IntegrationLinks</Name>
+  <ClientScriptIncludes />
+  <ClientResourceKeys />
+  <ExtendedProperties />
+  <HelpFile />
+  <ReadOnly>false</ReadOnly>
+  <GeneratePrintView>false</GeneratePrintView>
+  <Controls>
+    <Control typeName="Sage.SalesLogix.QuickForms.QFControls.SDataGrid.QFSDataGrid, Sage.SalesLogix.QuickForms.QFControls">
+      <QFSDataGrid>
+        <Column>0</Column>
+        <Row>0</Row>
+        <HotKey>0</HotKey>
+        <TabIndex>0</TabIndex>
+        <ControlId>grdLinks</ControlId>
+        <DataBindings />
+        <ControlLabelPlacement>left</ControlLabelPlacement>
+        <ExtendedProperties />
+        <CaptionAlignment>left</CaptionAlignment>
+        <StyleScheme />
+        <GenerateMember>false</GenerateMember>
+        <ReadOnlyCondition>False</ReadOnlyCondition>
+        <AppliedSecurity />
+        <RelateToPropertyName>Integration</RelateToPropertyName>
+        <PreviewField />
+        <ResourceKind>
+          <Name>operatingCompanies</Name>
+          <GetPredicate />
+        </ResourceKind>
+        <PathSegments />
+        <Columns>
+          <QFSDataEditCol>
+            <StyleScheme />
+            <DataField>Id</DataField>
+            <ColumnId>cda051d5-d4dc-4bb2-924a-ea2df29888c0</ColumnId>
+            <HorizontalAlignment>left</HorizontalAlignment>
+            <HeaderAlignment>left</HeaderAlignment>
+            <SortDirection>None</SortDirection>
+            <IsSortable>false</IsSortable>
+            <MultiCurrencyDependent>false</MultiCurrencyDependent>
+            <DialogSpecs>
+              <SmartPart>AddEditLink</SmartPart>
+              <Height>400</Height>
+              <Width>500</Width>
+              <Top>0</Top>
+              <Left>0</Left>
+              <EntityType>AppIdMapping</EntityType>
+              <ResourceKey>afede43f-5ad7-44c9-9532-cc1bbd79038d</ResourceKey>
+              <CenterDialog>True</CenterDialog>
+            </DialogSpecs>
+            <AppliedSecurity>Entities/IntegrationLink/Edit</AppliedSecurity>
+            <HideCondition>function () {
+    var clientContextService = Sage.Services.getService('ClientContextService');
+    if (clientContextService != null) {
+        if (clientContextService.containsKey('IntegrationAuthType') &amp;&amp; clientContextService.containsKey('IntegrationLinkType')) {
+            return clientContextService.getValue('IntegrationAuthType') !== 'Basic' || clientContextService.getValue('IntegrationLinkType') === 'Admin';
+        }
+    }
+    return false;
+}</HideCondition>
+            <Width>6</Width>
+          </QFSDataEditCol>
+          <QFSDataEditCol>
+            <StyleScheme />
+            <DataField>Id</DataField>
+            <ColumnId>ec7179d9-f6ea-4c31-9e21-df2ae6d282de</ColumnId>
+            <HorizontalAlignment>left</HorizontalAlignment>
+            <HeaderAlignment>left</HeaderAlignment>
+            <SortDirection>None</SortDirection>
+            <IsSortable>false</IsSortable>
+            <MultiCurrencyDependent>false</MultiCurrencyDependent>
+            <DialogSpecs>
+              <SmartPart>AuthorizeService</SmartPart>
+              <Height>400</Height>
+              <Width>600</Width>
+              <Top>0</Top>
+              <Left>0</Left>
+              <EntityType>AppIdMapping</EntityType>
+              <ResourceKey>8197f088-249b-4acc-9cfa-df95788bf686</ResourceKey>
+              <CenterDialog>True</CenterDialog>
+            </DialogSpecs>
+            <AppliedSecurity>Entities/AuthenticationProvider/Edit</AppliedSecurity>
+            <HideCondition>function () { return true; }</HideCondition>
+            <Width>6</Width>
+          </QFSDataEditCol>
+          <QFSDataCheckBoxCol>
+            <StyleScheme />
+            <DataField>Enabled</DataField>
+            <ColumnId>8611b626-1549-441d-a831-ff73ab1027be</ColumnId>
+            <HorizontalAlignment>center</HorizontalAlignment>
+            <HeaderAlignment>left</HeaderAlignment>
+            <SortDirection>None</SortDirection>
+            <IsSortable>false</IsSortable>
+            <MultiCurrencyDependent>false</MultiCurrencyDependent>
+            <IsEditable>true</IsEditable>
+            <HideCondition />
+            <Width>6</Width>
+            <CustomFormatter />
+            <AbbreviationLength>0</AbbreviationLength>
+          </QFSDataCheckBoxCol>
+          <QFEditableCol>
+            <StyleScheme />
+            <DataField>Name</DataField>
+            <ColumnId>f3a490d0-b497-4f70-b0d7-08b6127916e9</ColumnId>
+            <HorizontalAlignment>left</HorizontalAlignment>
+            <HeaderAlignment>left</HeaderAlignment>
+            <SortDirection>None</SortDirection>
+            <IsSortable>true</IsSortable>
+            <SortField>Name</SortField>
+            <MultiCurrencyDependent>false</MultiCurrencyDependent>
+            <IsEditable>true</IsEditable>
+            <HideCondition />
+            <Width>20</Width>
+            <CustomFormatter />
+            <AbbreviationLength>0</AbbreviationLength>
+          </QFEditableCol>
+          <QFEditableCol>
+            <StyleScheme />
+            <DataField>EndPointURL</DataField>
+            <ColumnId>da8216b3-8d02-41ef-a729-bed51d4dbdd5</ColumnId>
+            <HorizontalAlignment>left</HorizontalAlignment>
+            <HeaderAlignment>left</HeaderAlignment>
+            <SortDirection>None</SortDirection>
+            <IsSortable>true</IsSortable>
+            <SortField>EndPointURL</SortField>
+            <MultiCurrencyDependent>false</MultiCurrencyDependent>
+            <IsEditable>false</IsEditable>
+            <HideCondition />
+            <Width>40</Width>
+            <CustomFormatter />
+            <AbbreviationLength>0</AbbreviationLength>
+          </QFEditableCol>
+          <QFSDataLinkCol>
+            <StyleScheme />
+            <DataField>User.UserInfo.NameLF</DataField>
+            <ColumnId>07081f40-bdf3-42df-b974-39b355062663</ColumnId>
+            <HorizontalAlignment>left</HorizontalAlignment>
+            <HeaderAlignment>left</HeaderAlignment>
+            <SortDirection>None</SortDirection>
+            <IsSortable>true</IsSortable>
+            <SortField>User.UserInfo.NameLF</SortField>
+            <MultiCurrencyDependent>false</MultiCurrencyDependent>
+            <Destination />
+            <Image />
+            <EntityIdField>User.Id</EntityIdField>
+            <EntityTypeName>User</EntityTypeName>
+            <Target />
+            <AppliedSecurity />
+            <HideCondition />
+            <Width>-1</Width>
+          </QFSDataLinkCol>
+        </Columns>
+        <ConditionalWhere>function() { return 'Integration.Id eq "' + Sage.Utility.getCurrentEntityId() + '"'; }</ConditionalWhere>
+        <Select />
+        <Include>
+          <string>Integration</string>
+        </Include>
+        <FeedCategory>InternalAppEntities</FeedCategory>
+        <OnGetMappingId />
+        <ParentRelationshipPropertyName />
+        <ChildRelationshipPropertyName />
+        <OnDataChange />
+        <OnAdd />
+        <Tools>
+          <SDataGridSaveTool>
+            <Name>Save</Name>
+            <Image>[Localization!Global_Images:Save_16x16]</Image>
+            <DisplayInInsert>false</DisplayInInsert>
+            <MergePosition>Default</MergePosition>
+            <MergeControlId />
+            <OnClick />
+            <StyleScheme />
+            <AppliedSecurity />
+          </SDataGridSaveTool>
+          <SDataGridCancelTool>
+            <Name>Cancel</Name>
+            <Image>[Localization!Global_Images:Reset_16x16]</Image>
+            <DisplayInInsert>false</DisplayInInsert>
+            <MergePosition>Default</MergePosition>
+            <MergeControlId />
+            <OnClick>//default Cancel behavior</OnClick>
+            <StyleScheme />
+            <AppliedSecurity />
+          </SDataGridCancelTool>
+        </Tools>
+      </QFSDataGrid>
+    </Control>
+  </Controls>
+  <ToolControls>
+    <Control typeName="Sage.Platform.QuickForms.Controls.QFElementSpacer, Sage.Platform.QuickForms">
+      <QFElementSpacer>
+        <Column>0</Column>
+        <Row>0</Row>
+        <HotKey>0</HotKey>
+        <TabIndex>0</TabIndex>
+        <ControlId />
+        <DataBindings />
+        <ControlLabelPlacement>left</ControlLabelPlacement>
+        <ExtendedProperties />
+        <CaptionAlignment>left</CaptionAlignment>
+        <StyleScheme />
+      </QFElementSpacer>
+    </Control>
+    <Control typeName="Sage.Platform.QuickForms.Controls.QFElementSpacer, Sage.Platform.QuickForms">
+      <QFElementSpacer>
+        <Column>0</Column>
+        <Row>0</Row>
+        <HotKey>0</HotKey>
+        <TabIndex>0</TabIndex>
+        <ControlId />
+        <DataBindings />
+        <ControlLabelPlacement>left</ControlLabelPlacement>
+        <ExtendedProperties />
+        <CaptionAlignment>left</CaptionAlignment>
+        <StyleScheme />
+      </QFElementSpacer>
+    </Control>
+    <Control typeName="Sage.Platform.QuickForms.Controls.QFButton, Sage.Platform.QuickForms">
+      <QFButton>
+        <Column>0</Column>
+        <Row>0</Row>
+        <HotKey>0</HotKey>
+        <TabIndex>0</TabIndex>
+        <ControlId>btnAdd</ControlId>
+        <DataBindings />
+        <ControlLabelPlacement>none</ControlLabelPlacement>
+        <ExtendedProperties />
+        <CaptionAlignment>left</CaptionAlignment>
+        <StyleScheme />
+        <ButtonType>Icon</ButtonType>
+        <Image>[Localization!Global_Images:plus_16x16]</Image>
+        <OnClientClick />
+        <OnClickAction>
+          <ResourceKey>btnAdd</ResourceKey>
+          <Action typeName="Sage.Platform.QuickForms.ActionItems.DialogActionItem, Sage.Platform.QuickForms">
+            <DialogActionItem>
+              <SmartPart>AddEditLink</SmartPart>
+              <Height>400</Height>
+              <Width>600</Width>
+              <Top>0</Top>
+              <Left>0</Left>
+              <EntityType>AppIdMapping</EntityType>
+              <ResourceKey>2f41b7dc-517d-4878-86f9-22dbca968200</ResourceKey>
+              <CenterDialog>True</CenterDialog>
+            </DialogActionItem>
+          </Action>
+          <IsDialogCloseAction>False</IsDialogCloseAction>
+          <RunOnEveryRePaint>False</RunOnEveryRePaint>
+          <DialogActionResult>NoResult</DialogActionResult>
+          <PerformsUpdate>False</PerformsUpdate>
+          <AppliedSecurity>ENTITIES/INTEGRATIONLINK/ADD</AppliedSecurity>
+          <RefreshData>False</RefreshData>
+        </OnClickAction>
+      </QFButton>
+    </Control>
+    <Control typeName="Sage.Platform.QuickForms.Controls.QFButton, Sage.Platform.QuickForms">
+      <QFButton>
+        <Column>0</Column>
+        <Row>0</Row>
+        <HotKey>0</HotKey>
+        <TabIndex>0</TabIndex>
+        <ControlId>btnAuthorize</ControlId>
+        <DataBindings />
+        <ControlLabelPlacement>none</ControlLabelPlacement>
+        <ExtendedProperties />
+        <CaptionAlignment>left</CaptionAlignment>
+        <StyleScheme />
+        <ButtonType>Icon</ButtonType>
+        <Image>[Localization!Global_Images:plus_16x16]</Image>
+        <OnClientClick />
+        <OnClickAction>
+          <ResourceKey>btnAuthorize</ResourceKey>
+          <Action typeName="Sage.Platform.QuickForms.ActionItems.DialogActionItem, Sage.Platform.QuickForms">
+            <DialogActionItem>
+              <SmartPart>AuthorizeService</SmartPart>
+              <Height>200</Height>
+              <Width>600</Width>
+              <Top>0</Top>
+              <Left>0</Left>
+              <EntityType>UserOAuthToken</EntityType>
+              <ResourceKey>36a1cde4-6fee-4b03-9c00-f9df34419070</ResourceKey>
+              <CenterDialog>True</CenterDialog>
+            </DialogActionItem>
+          </Action>
+          <IsDialogCloseAction>False</IsDialogCloseAction>
+          <RunOnEveryRePaint>False</RunOnEveryRePaint>
+          <DialogActionResult>NoResult</DialogActionResult>
+          <PerformsUpdate>False</PerformsUpdate>
+          <AppliedSecurity>ENTITIES/AUTHENTICATIONPROVIDER/ADD</AppliedSecurity>
+          <RefreshData>False</RefreshData>
+        </OnClickAction>
+      </QFButton>
+    </Control>
+    <Control typeName="Sage.Platform.QuickForms.Controls.QFButton, Sage.Platform.QuickForms">
+      <QFButton>
+        <Column>0</Column>
+        <Row>0</Row>
+        <HotKey>0</HotKey>
+        <TabIndex>0</TabIndex>
+        <ControlId>btnSyncNow</ControlId>
+        <DataBindings />
+        <ControlLabelPlacement>none</ControlLabelPlacement>
+        <ExtendedProperties />
+        <CaptionAlignment>left</CaptionAlignment>
+        <StyleScheme />
+        <ButtonType>Icon</ButtonType>
+        <Image>[Localization!Global_Images:sync_all_16x16]</Image>
+        <OnClientClick />
+        <OnClickAction>
+          <ResourceKey>btnSyncNow</ResourceKey>
+          <Action typeName="Sage.Platform.QuickForms.ActionItems.CSharpSnippetActionItem, Sage.Platform.QuickForms">
+            <CSharpSnippetActionItem>
+              <MethodName>btnSyncNow_ClickAction</MethodName>
+              <CSharpCodeSnippet>Sage.SalesLogix.AppIdMapping.Rules.ExecuteSyncAll(null);</CSharpCodeSnippet>
+            </CSharpSnippetActionItem>
+          </Action>
+          <IsDialogCloseAction>False</IsDialogCloseAction>
+          <RunOnEveryRePaint>False</RunOnEveryRePaint>
+          <DialogActionResult>NoResult</DialogActionResult>
+          <PerformsUpdate>False</PerformsUpdate>
+          <AppliedSecurity />
+          <RefreshData>False</RefreshData>
+        </OnClickAction>
+      </QFButton>
+    </Control>
+  </ToolControls>
+  <Columns>
+    <ColumnStyle>
+      <SizeType>Percent</SizeType>
+      <Width>100</Width>
+    </ColumnStyle>
+  </Columns>
+  <Rows>
+    <RowStyle>
+      <SizeType>Absolute</SizeType>
+      <Height>35</Height>
+    </RowStyle>
+  </Rows>
+  <Description />
+  <UseEntityNameAsTitle>false</UseEntityNameAsTitle>
+  <EntityTypeName>IIntegration</EntityTypeName>
+  <DefaultNamespace>Sage.Entity.Interfaces</DefaultNamespace>
+  <AssemblyName>Sage.Entity.Interfaces</AssemblyName>
+</QuickForm>

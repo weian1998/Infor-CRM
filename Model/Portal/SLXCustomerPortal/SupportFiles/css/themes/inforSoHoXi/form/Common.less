@@ -1,0 +1,316 @@
+/* claro/form/Common.css */
+
+/*========================= common css =========================*/
+
+@import "../variables";
+
+/* 'dijitTextBox' refers to 'dijit(TextBox|DateTextBox|CurrencyTextBox|...)' */
+
+.inforSoHoXi .dijitTextBox,
+.inforSoHoXi .dijitInputInner {
+    // .dijitInputInner selector needed for ValidationTextBox on IE6 because <input> doesn't inherit
+    // the color setting from the ancestor div.dijitTextBox
+    color: @soho-textbox-color;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    background-color: @textbox-background-color;
+}
+.inforSoHoXi .dijitValidationTextBoxError .dijitValidationContainer, 
+.inforSoHoXi .dijitTextBoxError .dijitValidationContainer {
+	background-color: @erroricon-background-color;
+	background-image: url("@{image-form-error}");
+	background-position: top center;
+	border: solid @erroricon-background-color 0;
+	border-left-width: 1px;
+	width: 9px;
+}
+
+.inforSoHoXi .dijitValidationTextBoxError .dijitValidationIcon,
+.inforSoHoXi .dijitTextBoxError .dijitValidationIcon {
+	width: 0;
+	background-color: transparent !important; /* so the INPUT doesn't obscure the border in rtl+a11y */
+}
+
+/* Padding for the input area of TextBox based widgets, and corresponding padding for the
+ * down arrow button and the placeholder.   placeholder is explicitly listed  because
+ * dijitPlaceHolder is absolutely positioned, so padding set on dijitInputField
+ * won't affect it
+ */
+.inforSoHoXi .dijitTextArea,
+.inforSoHoXi .dijitInputField .dijitPlaceHolder {
+	padding: @textbox-padding;
+}
+.inforSoHoXi .dijitInputField .dijitPlaceHolder {
+  line-height: 34px;
+  margin: 0 10px;
+}
+.inforSoHoXi .dijitSelect .dijitInputField,
+.inforSoHoXi .dijitTextBox .dijitInputField {
+	// Subtract 1px from top/bottom because we add 1px to other nodes, see rules below.
+	// Although we are theoretically only adding 1px to top/bottom browsers seem to pad inputs by 1px on left/right,
+	// although that varies by so compensate for that too.
+	padding: 0;
+}
+.dj_gecko .inforSoHoXi .dijitTextBox .dijitInputInner,
+.dj_webkit .inforSoHoXi .dijitTextBox .dijitInputInner {
+	// Although we are theoretically only adding 1px to top/bottom, some browsers seem to pad inputs by 1px on left/right,
+	// so compensate for that too.
+	padding: @textbox-padding;
+}
+
+.inforSoHoXi .dijitSelect,
+.inforSoHoXi .dijitSelect .dijitButtonContents,
+.inforSoHoXi .dijitTextBox,
+.inforSoHoXi .dijitTextBox .dijitButtonNode {
+	/* color for (outer) border on *TextBox widgets, and border between input and buttons on ComboBox and Spinner */
+	border-color: none;
+	.transition-property(background-color, border);
+ 	.transition-duration(.35s);
+}
+.inforSoHoXi .dijitSelect,
+.inforSoHoXi .dijitTextBox {
+	background-color: @textbox-background-color;
+}
+
+/* hover */
+.inforSoHoXi .dijitSelectHover,
+.inforSoHoXi .dijitSelectHover .dijitButtonContents,
+.inforSoHoXi .dijitTextBoxHover,
+.inforSoHoXi .dijitTextBoxHover .dijitButtonNode {
+	border-color: @soho-textbox-border;
+ 	.transition-duration(.25s);
+}
+.inforSoHoXi .dijitTextBoxHover {
+	background-color: transparent;
+	background-image: url("@{image-form-textbox-background}");
+	background-repeat: repeat-x;
+}
+
+/* error state */
+.inforSoHoXi .dijitSelectError,
+.inforSoHoXi .dijitSelectError .dijitButtonContents,
+.inforSoHoXi .dijitTextBoxError,
+.inforSoHoXi .dijitTextBoxError .dijitButtonNode {
+	border-color: @error-border-color;
+}
+.inforSoHoXi .dijitTextBoxError,
+.inforSoHoXi .dijitTextBoxError .dijitInputContainer {
+	background-color: @textbox-error-background-color;
+}
+
+/* focused state */
+.inforSoHoXi .dijitSelectFocused,
+.inforSoHoXi .dijitSelectFocused .dijitButtonContents,
+.inforSoHoXi .dijitTextBoxFocused,
+.inforSoHoXi .dijitTextBoxFocused .dijitButtonNode {
+	border-color:@soho-textbox-border-focus;
+ 	.transition-duration(.1s);
+}
+.inforSoHoXi .dijitTextBoxFocused {
+	background-color: @textbox-focused-background-color;
+	/*background-image: url("@{image-form-textbox-background}");*/
+	background-repeat: repeat-x;
+}
+.inforSoHoXi .dijitTextBoxFocused .dijitInputContainer {
+	background: transparent;
+}
+
+.inforSoHoXi .dijitSelectErrorFocused,
+.inforSoHoXi .dijitSelectErrorFocused .dijitButtonContents,
+.inforSoHoXi .dijitTextBoxErrorFocused,
+.inforSoHoXi .dijitTextBoxErrorFocused .dijitButtonNode {
+	border-color: @error-focused-border-color;
+}
+.inforSoHoXi .dijitTextBoxFocused .dijitInputInner {
+    color: @active-text-color;
+}
+
+/* disabled state */
+.inforSoHoXi .dijitSelectDisabled,
+.inforSoHoXi .dijitSelectDisabled .dijitButtonContents,
+.inforSoHoXi .dijitTextBoxDisabled,
+.inforSoHoXi .dijitTextBoxDisabled .dijitButtonNode {
+	border-color: @disabled-border-color;
+}
+.inforSoHoXi .dijitSelectDisabled,
+.inforSoHoXi .dijitTextBoxDisabled,
+.inforSoHoXi .dijitTextBoxDisabled .dijitInputContainer {
+	background-color: @textbox-disabled-background-color;
+	background-image: none;
+}
+.inforSoHoXi .dijitSelectDisabled,
+.inforSoHoXi .dijitTextBoxDisabled,
+.inforSoHoXi .dijitTextBoxDisabled .dijitInputInner {
+	color: @disabled-text-color;
+}
+.dj_webkit .inforSoHoXi .dijitTextBoxDisabled input {
+    /* because WebKit lightens disabled input/textarea no matter what color you specify */
+	color: darken(@disabled-text-color, 5%)
+}
+.dj_webkit .inforSoHoXi textarea.dijitTextAreaDisabled {
+    /* because WebKit lightens disabled input/textarea no matter what color you specify */
+	color: darken(@disabled-text-color, 40%)
+}
+
+/*========================= for special widgets =========================*/
+
+/* Input boxes with an arrow (for a drop down) */
+.textcontrol .dijitSelect .dijitArrowButtonInner {
+    /*margin-top: 0px !important;*/
+}
+.inforSoHoXi .dijitSelect .dijitArrowButtonInner,
+.inforSoHoXi .dijitComboBox .dijitArrowButtonInner {
+	background-image: url("@{image-form-common-arrows}");
+	background-position:-35px 53%;
+	background-repeat: no-repeat;
+	margin-right: 10px;
+    margin-top: 9px;
+	width:16px;
+}
+
+.textcontrol > .dijitSelect .dijitArrowButton input,
+.slxlabel > .dijitSelect .dijitArrowButton input,
+.dijitStackContainer .dijitSelect .dijitArrowButtonInner,
+.dijitDialog .dijitSelect .dijitArrowButtonInner,
+.inforSoHoXi .timezone .dijitArrowButtonInner,
+.inforSoHoXi div[id$="User-Dialog"] .dijitArrowButtonInner,
+.inforSoHoXi div[id$="Grid-Dialog"] .dijitArrowButtonInner,
+.inforSoHoXi div[id$="Lookup-Dialog"] .dijitArrowButtonInner,
+.inforSoHoXi table[id$="MaxResults"] .dijitArrowButtonInner,
+.inforSoHoXi table[id$="SearchType"] .dijitArrowButtonInner {
+    margin-top: 0px !important;
+}
+.inforSoHoXi .dijitComboBox .dijitArrowButtonInner {
+	border: none;	// white gutter around the arrow button
+}
+
+.inforSoHoXi .dijitToolbar .dijitComboBox .dijitArrowButtonInner {
+	border: none;
+}
+
+.inforSoHoXi .dijitToolbar .dijitComboBox .dijitArrowButtonInner {
+	border: none;
+}
+.inforSoHoXi .dijitArrowButtonContainer .dijitArrowButtonInner {
+  border: none;
+}
+.inforSoHoXi .dijitSelectLabel {
+    margin-left: 10px;
+	padding: 10px 0;
+    border: transparent;
+    font-size: 14px;
+    text-align:left;
+}
+.inforSoHoXi table[id^="dijit_form_select"] .dijitSelectLabel {
+    padding: 0px;
+}
+.inforSoHoXi .dijitTextBox .dijitInputInner,
+.inforSoHoXi .dijitValidationTextBox .dijitValidationContainer 
+.inforSoHoXi .dijitTextBox .dijitValidationContainer {
+	padding: 0px 0;
+    height: 32px;
+    border: transparent;
+}
+
+/* Arrow "hover" effect:
+ * The arrow button should change color whenever the mouse is in a position such that clicking it
+ * will toggle the drop down.   That's either (1) anywhere over the ComboBox or (2) over the arrow
+ * button, depending on the openOnClick setting for the widget.
+ */
+.inforSoHoXi .dijitComboBoxOpenOnClickHover .dijitButtonNode,
+.inforSoHoXi .dijitComboBox .dijitDownArrowButtonHover,
+.inforSoHoXi .dijitComboBoxFocused .dijitArrowButton {
+	background-color:transparent;
+}
+.inforSoHoXi .dijitComboBoxOpenOnClickHover .dijitArrowButtonInner,
+.inforSoHoXi .dijitComboBox .dijitDownArrowButtonHover .dijitArrowButtonInner {
+	background-position:-70px 53%;
+}
+
+/* Arrow Button change when drop down is open */
+.inforSoHoXi .dijitComboBox .dijitHasDropDownOpen {	// .dijitHasDropDown is on dijitArrowButton node
+	background-color: @pressed-background-color;
+	background-position:0 -177px;
+	padding: 1px;		// Since no border on arrow button (see rule below)
+}	
+
+.dj_iequirks .inforSoHoXi .dijitComboBox .dijitHasDropDownOpen {
+	padding: 1px 0;
+}
+
+.claro .dijitComboBox .dijitHasDropDownOpen .dijitArrowButtonInner {
+	background-position:-70px 53%;
+	border: 0 none;
+}
+
+/* disabled state */
+.inforSoHoXi div.dijitComboBoxDisabled .dijitArrowButtonInner {
+	/* specific selector set to override background-position setting from Button.js
+	 * (.inforSoHoXi .dijitComboBoxDisabled .dijitArrowButtonInner) */
+	background-position:0 50%;
+	background-color:@disabled-background-color;
+}
+
+/*========================= hacks for browsers =========================*/
+/* it seems the input[type="hidden"] has a height (16px) too... this may cause the widget's height calculate error */
+.dj_ff3 .inforSoHoXi .dijitInputField input[type="hidden"] {
+	display: none;
+	height: 0;
+	width: 0;
+}
+
+/* ie6 doesn't support transparent background img */
+.dj_ie6 .inforSoHoXi .dijitTextBox,
+.dj_ie6 .inforSoHoXi .dijitComboBox .dijitButtonNode {
+	background-image: none;
+}
+.dj_borderbox .inforSoHoXi .dijitComboBox .dijitHasDropDownOpen .dijitArrowButtonInner {
+	width:18px;				// quirks mode means border-box sizing, so 18px with the border (same as 16px without border)
+}
+.dj_borderbox .inforSoHoXi .dijitComboBoxFocused .dijitHasDropDownOpen .dijitArrowButtonInner {
+	width:16px;				// when no border, then back to 16px just like content-box sizing
+}
+
+.inforSoHoXi .FManagerDialogFieldLabel > div.lbl {
+  max-width: @dialog-form-label-max-width;
+}
+.FManagerDialogFieldLabel > div.lbl {
+  max-width: @dialog-form-label-max-width;
+
+}
+.inforSoHoXi .FManagerDialogFieldLabel > div.fld  {
+  width:  -moz-calc(e('100% - @{dialog-form-textbox-width-offset}'));//@dialog-form-textbox-width-offset
+  /* WebKit */
+  width: -webkit-calc(e('100% - @{dialog-form-textbox-width-offset}'));
+  /* Opera */
+  width: -o-calc(e('100% - @{dialog-form-textbox-width-offset}'));
+  /* Standard */
+  width: calc(e('100% - @{dialog-form-textbox-width-offset}'));
+}
+.FManagerDialogFieldLabel > div.fld {
+  width:  -moz-calc(e('100% - @{dialog-form-textbox-width-offset}'));
+  /* WebKit */
+  width: -webkit-calc(e('100% - @{dialog-form-textbox-width-offset}'));
+  /* Opera */
+  width: -o-calc(e('100% - @{dialog-form-textbox-width-offset}'));
+  /* Standard */
+  width: calc(e('100% - @{dialog-form-textbox-width-offset}'));
+}
+.FManagerDialogFieldLabel > div.fld > div.dijitTextBox {
+  width: 100%;
+}
+.FManagerDialogFieldLabel {
+  width: 100%;
+}
+.inforSoHoXi div.propertyDiv {
+  position: relative;
+  float: left;
+}
+div.propertyDiv {
+  position: relative;
+  float: left;
+}
+.inforSoHoXi .width110{
+    width:110px !important;
+}

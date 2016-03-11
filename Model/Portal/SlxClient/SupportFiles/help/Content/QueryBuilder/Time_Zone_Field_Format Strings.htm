@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:fileTags="Translation Status.Support files" MadCap:tocPath="" MadCap:medium="non-print" MadCap:InPreviewMode="false" MadCap:PreloadImages="false" MadCap:RuntimeFileType="Topic" MadCap:TargetType="WebHelp" lang="en-us" xml:lang="en-us" MadCap:conditions="Output.WebClient,Output.Query Builder" MadCap:PathToHelpSystem="../../" MadCap:HelpSystemFileName="WebClient.xml" MadCap:SearchType="Stem">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Time Zone Field Format Strings</title>
+        <link href="../Resources/TableStyles/TableStyle.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/Infor.CSS" rel="stylesheet" />
+        <script src="../SkinSupport/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapAll.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapTopicAll.js" type="text/javascript">
+        </script>
+    </head>
+    <body>
+        <h1><a name="kanchor765"></a>Time Zone Field Format Strings</h1>
+        <p>The table below lists the format string options for Time Zone fields. Valid string
+formats depend on the format type you select.
+
+
+</p>
+        <p>If no format string is specified for a Time Zone field, the value is formatted using
+the display name for the corresponding time zone. For example: (GMT-06:00) Central
+Time (US &amp; Canada).</p>
+        <table wrapperparagraphselector="P" style="width: 80%;margin-top: 14pt;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" width="80%">
+            <col style="width: 45px;" />
+            <col />
+            <tr>
+                <td style="padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top">
+                    <p style="text-align: center;margin-bottom: 0;" align="center">
+                        <img src="../image/note.gif" />
+                    </p>
+                </td>
+                <td style="width: 90%;padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top" width="90%">
+                    <p class="Tip-Note-Text" style="margin-bottom: 0;">A format string must begin with a % sign and end with a format type character:
+
+
+</p>
+                    <p class="Tip-Note-Text" style="margin-bottom: 0;">[%] [type]</p>
+                </td>
+            </tr>
+        </table>
+        <table style="width: 90%;mc-table-style: url('../Resources/TableStyles/TableStyle.css');margin-left: auto;margin-right: auto;" class="TableStyle-TableStyle" cellspacing="0">
+            <col class="TableStyle-TableStyle-Column-Column1" />
+            <col class="TableStyle-TableStyle-Column-Column1" />
+            <thead>
+                <tr class="TableStyle-TableStyle-Head-Header1">
+                    <th class="TableStyle-TableStyle-HeadE-Column1-Header1">Option</th>
+                    <th class="TableStyle-TableStyle-HeadD-Column1-Header1">Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">
+                        <p>B</p>
+                    </td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">The value is formatted using the bias for the corresponding time zone (e.g. 420).
+ The bias is the difference in minutes between Greenwich Mean Time (UTC) and the
+time zone.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">DB</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">The value is formatted using the daylight bias for the corresponding time zone (e.g.
+-60).  The daylight bias is the difference in minutes between standard time and daylight
+time.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">SB</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">The value is formatted using the standard bias for the time zone (e.g. 0).  This
+value is used during local time translations that occur during standard time.  This
+value is generally 0.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">SN</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">The value is formatted using the standard name for the corresponding time zone (e.g.
+Central Standard Time).  This value is generally the same as the value stored in
+the TIMEZONE field.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyB-Column1-Body1">DN</td>
+                    <td class="TableStyle-TableStyle-BodyA-Column1-Body1">The value is formatted using the daylight name for the time zone (e.g. Central Daylight
+Time).  If the time zone does not observe DST then the value will be formatted as
+"N/A".</td>
+                </tr>
+            </tbody>
+        </table>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

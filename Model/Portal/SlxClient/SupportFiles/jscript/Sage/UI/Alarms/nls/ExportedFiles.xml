@@ -1,0 +1,16 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\UI\Alarms\nls\ActivityAlarm.js" timeStamp="2015-05-28T03:09:15.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\UI\Alarms\nls\AlarmButton.js" timeStamp="2015-05-28T03:09:15.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\UI\Alarms\nls\AlarmCountDown.js" timeStamp="2015-05-28T03:09:15.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\UI\Alarms\nls\AlarmPane.js" timeStamp="2015-05-28T03:09:15.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\UI\Alarms\nls\AlarmPopup.js" timeStamp="2015-05-28T03:09:15.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\UI\Alarms\nls\JobNotificationButton.js" timeStamp="2015-05-28T03:09:15.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\UI\Alarms\nls\JobNotificationPopup.js" timeStamp="2015-05-28T03:09:15.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\UI\Alarms\nls\UnconfirmedPane.js" timeStamp="2015-05-28T03:09:15.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\UI\Alarms\nls\de\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\UI\Alarms\nls\en\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\UI\Alarms\nls\fr\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\UI\Alarms\nls\it\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\UI\Alarms\nls\ru\" />
+</exportedFiles>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\OpportunityProduct\CalcPriceFromProgramPrice.method.xml" timeStamp="2015-05-28T03:04:19.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\OpportunityProduct\CalculateCalcPrice.method.xml" timeStamp="2015-05-28T03:04:19.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\OpportunityProduct\CalculateDiscount.method.xml" timeStamp="2015-05-28T03:04:19.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\OpportunityProduct\CalculateExtendedPrice.method.xml" timeStamp="2015-05-28T03:04:19.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\OpportunityProduct\OnAfterDelete.method.xml" timeStamp="2015-05-28T03:04:19.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\OpportunityProduct\OnAfterInsert.method.xml" timeStamp="2015-05-28T03:04:19.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\OpportunityProduct\OnAfterUpdate.method.xml" timeStamp="2015-05-28T03:04:19.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\OpportunityProduct\OnBeforeDelete.method.xml" timeStamp="2015-05-28T03:04:19.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\OpportunityProduct\OnBeforeInsert.method.xml" timeStamp="2015-05-28T03:04:19.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\OpportunityProduct\OnBeforeUpdate.method.xml" timeStamp="2015-05-28T03:04:19.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\OpportunityProduct\OnCreate.method.xml" timeStamp="2015-05-28T03:04:19.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\OpportunityProduct\OpportunityProduct.OPPORTUNITY_PRODUCT.entity.xml" timeStamp="2015-05-28T03:04:19.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\OpportunityProduct\UpdateDiscountFromCalculatedSales.method.xml" timeStamp="2015-05-28T03:04:19.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\OpportunityProduct\UpdateSalesPotential.method.xml" timeStamp="2015-05-28T03:04:19.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\OpportunityProduct\QuickForms\" />
+</exportedFiles>

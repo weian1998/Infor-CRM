@@ -1,0 +1,134 @@
+﻿[
+  '<table style="width:100%">',
+  '    <tbody>',
+  '    <col style="width:200px" />',
+  '    <col style="width:400px" />',
+  '    <tr>',
+  '        <td>',
+  '            <table>',
+  '                <tr id="{%= $.$key %}_GroupDetailSummary_txtGroupFamily">',
+  '                    <td class="SummaryCaption">{%= $.txtGroupFamily_Caption || "Family:" %} </td>',
+  '                    <td class="DataItem">{%= Sage.Utility.htmlEncode($.entity.Family) %}</td>',
+  '                </tr>',
+  
+  '                <tr id="{%= $.$key %}_GroupDetailSummary_txtGroupName">',
+  '                    <td class="SummaryCaption">{%= $.txtGroupName_Caption || "Name:" %} </td>',
+  '                    <td class="DataItem">{%= Sage.Utility.htmlEncode($.entity.Name) %}</td>',
+  '                </tr>',  
+  
+  '                <tr id="{%= $.$key %}_GroupDetailSummary_txtGroupDisplayName">',
+  '                    <td class="SummaryCaption">{%= $.txtGroupDisplayName_Caption || "Display Name:" %} </td>',
+  '                    <td class="DataItem">{%= Sage.Utility.htmlEncode($.entity.DisplayName) %}</td>',
+  '                </tr>',
+
+  '                <tr id="{%= $.$key %}_GroupDetailSummary_txtGroupDescription">',
+  '                    <td class="SummaryCaption">{%= $.txtGroupDescription_Caption || "Description:" %}</td>',
+  '                    <td class="DataItem">{%= Sage.Utility.htmlEncode($.entity.Description) %}</td>',
+  '                </tr>',
+  
+  '                <tr id="{%= $.$key %}_GroupDetailSummary_txtGroupId">',
+  '                    <td class="SummaryCaption">{%= $.txtGroupId_Caption || "ID:" %}</td>',
+  '                    <td class="DataItem">{%= Sage.Utility.htmlEncode($.entity.$key) %}</td>',
+  '                </tr>',
+
+  '                <tr id="{%= $.$key %}_GroupDetailSummary_txtGroupBasedOn">',
+  '                    <td class="SummaryCaption">{%= $.txtGroupBasedOn_Caption || "Based on Group ID:" %}</td>',
+  '                    <td class="DataItem">{%= Sage.Utility.htmlEncode($.entity.BasedOn) %}</td>',
+  '                </tr>',  
+  
+  '                <tr id="{%= $.$key %}_GroupDetailSummary_txtGroupSharedDate">',
+  '                    <td class="SummaryCaption">{%= $.txtGroupSharedDate_Caption || "Shared Date:" %}</td>',
+  '                <td class="DataItem">{%= Sage.MainView.GroupMgr.GroupManagerFormatter.formatDate($.entity.ReleasedDate) %}</td>',
+  '                </tr>',
+   
+  '                <tr id="{%= $.$key %}_GroupDetailSummary_txtGroupReleasedToType">',
+  '                    <td class="SummaryCaption">{%= $.txtGroupReleasedToType_Caption || "Shared to Type:" %}</td>',
+  '                <td class="DataItem">{%= Sage.Utility.htmlEncode($.entity.ReleasedToType) %}</td>',
+  '                </tr>',  
+  
+  '                <tr id="{%= $.$key %}_GroupDetailSummary_txtGroupReleasedTo">',
+  '                    <td class="SummaryCaption">{%= $.txtGroupReleasedTo_Caption || "Shared to Name:" %}</td>',
+  '                <td class="DataItem">{%= Sage.Utility.htmlEncode($.entity.ReleasedTo) %}</td>',
+  '                </tr>',
+  
+  '                <tr id="{%= $.$key %}_GroupDetailSummary_txtGroupReleasedToTitle">',
+  '                    <td class="SummaryCaption">{%= $.txtGroupReleasedToTitle_Caption || "Shared to Title:" %}</td>',
+  '                <td class="DataItem">{%= Sage.Utility.htmlEncode($.entity.Title) %}</td>',
+  '                </tr>',  
+  
+  '                <tr id="{%= $.$key %}_GroupDetailSummary_txtGroupReleasedToUserType">',
+  '                    <td class="SummaryCaption">{%= $.txtGroupReleasedToUserType_Caption || "Shared to User Type:" %}</td>',
+  '                <td class="DataItem">{%= Sage.Utility.htmlEncode($.entity.UserType) %}</td>',
+  '                </tr>',    
+  
+  '                <tr id="{%= $.$key %}_GroupDetailSummary_txtGroupCreateDate">',
+  '                    <td class="SummaryCaption">{%= $.txtGroupCreateDate_Caption || "Create Date:" %}</td>',
+  '                    <td class="DataItem">{%= Sage.MainView.GroupMgr.GroupManagerFormatter.formatDate($.entity.CreateDate) %}</td>',
+  '                </tr>',
+
+  '                <tr id="{%= $.$key %}_GroupDetailSummary_txtGroupCreateUser">',
+  '                    <td class="SummaryCaption">{%= $.txtGroupCreateUser_Caption || "Create User:" %}</td>',
+  '                    <td class="DataItem">{%= Sage.Utility.htmlEncode(Sage.MainView.GroupMgr.GroupManagerFormatter.formatGetUserById($.entity.CreateUser)) %}</td>',
+  '                </tr>',
+  
+  '                <tr id="{%= $.$key %}_GroupDetailSummary_txtGroupModifyDate">',
+  '                    <td class="SummaryCaption">{%= $.txtGroupModifyDate_Caption || "Modify Date:" %}</td>',
+  '                <td class="DataItem">{%= Sage.MainView.GroupMgr.GroupManagerFormatter.formatDate($.entity.ModifyDate) %}</td>',
+  '                </tr>',
+
+  '                <tr id="{%= $.$key %}_GroupDetailSummary_txtGroupModifyUser">',
+  '                    <td class="SummaryCaption">{%= $.txtGroupModifyUser_Caption || "Modify User:" %}</td>',
+  '                <td class="DataItem">{%= Sage.Utility.htmlEncode(Sage.MainView.GroupMgr.GroupManagerFormatter.formatGetUserById($.entity.ModifyUser)) %}</td>',
+  '                </tr>',
+  
+  '                <tr id="{%= $.$key %}_GroupDetailSummary_txtGroupUserId">',
+  '                    <td class="SummaryCaption">{%= $.txtGroupUserId_Caption || "User ID:" %}</td>',
+  '                <td class="DataItem">{%= Sage.Utility.htmlEncode($.entity.OwnerId) %}</td>',
+  '                </tr>',
+  
+  '                <tr id="{%= $.$key %}_GroupDetailSummary_txtGroupAdhoc">',
+  '                    <td class="SummaryCaption">{%= $.txtGroupAdhoc_Caption || "Ad Hoc:" %}</td>',
+  '                <td class="DataItem">{%= Sage.Utility.htmlEncode(Sage.MainView.GroupMgr.GroupManagerFormatter.formatBoolean($.entity.IsAdHoc)) %}</td>',
+  '                </tr>',
+  
+  '                <tr id="{%= $.$key %}_GroupDetailSummary_txtGroupHidden">',
+  '                    <td class="SummaryCaption">{%= $.txtGroupHidden_Caption || "Hidden:" %}</td>',
+  '                <td class="DataItem">{%= Sage.Utility.htmlEncode(Sage.MainView.GroupMgr.GroupManagerFormatter.formatBoolean($.entity.IsHidden)) %}</td>',
+  '                </tr>',
+  
+  '                <tr id="{%= $.$key %}_GroupDetailSummary_txtGroupAuthor">',
+  '                    <td class="SummaryCaption">{%= $.txtGroupAuthor_Caption || "Author:" %}</td>',
+  '                    <td class="DataItem">{%= Sage.Utility.htmlEncode($.entity.Author) %}</td>',
+  '                </tr>',
+  
+  '                <tr id="{%= $.$key %}_GroupDetailSummary_txtGroupCompany">',
+  '                    <td class="SummaryCaption">{%= $.txtGroupCompany_Caption || "Company:" %}</td>',
+  '                    <td class="DataItem">{%= Sage.Utility.htmlEncode($.entity.Company) %}</td>',
+  '                </tr>',
+  
+  '                <tr id="{%= $.$key %}_GroupDetailSummary_txtGroupCompanyVersion">',
+  '                    <td class="SummaryCaption">{%= $.txtGroupCompanyVersion_Caption || "Company Version:" %}</td>',
+  '                    <td class="DataItem">{%= Sage.Utility.htmlEncode($.entity.CompanyVersion) %}</td>',
+  '                </tr>',
+  
+  '                <tr id="{%= $.$key %}_GroupDetailSummary_txtGroupDev">',
+  '                    <td class="SummaryCaption">{%= $.txtGroupDev_Caption || "Dev:" %}</td>',
+  '                    <td class="DataItem">{%= Sage.Utility.htmlEncode(Sage.MainView.GroupMgr.GroupManagerFormatter.formatBoolean($.entity.IsDeveloperVersion)) %}</td>',
+  '                </tr>',
+  
+  '                <tr id="{%= $.$key %}_GroupDetailSummary_txtGroupDataCode">',
+  '                    <td class="SummaryCaption">{%= $.txtGroupDataCode_Caption || "Data Code:" %}</td>',
+  '                    <td class="DataItem">{%= Sage.Utility.htmlEncode($.entity.DataCode) %}</td>',
+  '                </tr>',
+  
+  '                <tr id="{%= $.$key %}_GroupDetailSummary_txtGroupType">',
+  '                    <td class="SummaryCaption">{%= $.txtGroupType_Caption || "Group Type:" %}</td>',
+  '                    <td class="DataItem">{%= Sage.Utility.htmlEncode(Sage.MainView.GroupMgr.GroupManagerFormatter.formatLegacyType($.entity.Type)) %}</td>',
+  '                </tr>',
+  
+  '            </table>',
+  '        </td>',
+  '      </tr>',
+  '   </tbody>',
+  '</table>'
+]

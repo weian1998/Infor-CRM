@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:fileTags="Translation Status.Support files" MadCap:tocPath="" MadCap:medium="non-print" MadCap:InPreviewMode="false" MadCap:PreloadImages="false" MadCap:RuntimeFileType="Topic" MadCap:TargetType="WebHelp" lang="en-us" xml:lang="en-us" MadCap:conditions="Output.WebClient,Output.Query Builder" MadCap:PathToHelpSystem="../../" MadCap:HelpSystemFileName="WebClient.xml" MadCap:SearchType="Stem">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Campi ID nelle Tabelle</title>
+        <link href="../SkinSupport/Slideshow.css" rel="stylesheet" />
+        <link href="../SkinSupport/MadCap.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/Infor.CSS" rel="stylesheet" />
+        <script src="../SkinSupport/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapAll.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapTopicAll.js" type="text/javascript">
+        </script>
+    </head>
+    <body>
+        <h1><a name="kanchor687"></a>Campi ID nelle Tabelle</h1>
+        <p>Ogni tabella ha almeno un campo ID, usato per assicurare che ogni record della tabella sia unico. Quando un record viene aggiunto alla tabella Azienda (ACCOUNT), un valore viene inserito automaticamente nel campo AccountID. Ogni volta in cui viene aggiunto un record viene generato un nuovo valore, basato sulle informazioni nel file chiave.</p>
+        <p>Quali siano i campi id di una tabella dipende dal <a href="Table_Relationship_Types.htm">tipo di relazione</a> che la tabella ha con le altre. Ogni tabella creata che non è collegata con altre è dotata di un proprio campo ID. Se una nuova tabella viene creata come tabella secondaria con una relazione Uno a Uno con un'altra tabella, il suo campo ID sarà il campo ID della tabella principale. Se la tabella secondaria è in relazione Uno a Molti con un'altra tabella, occorre più di un campo per assicurare l'unicità. Perciò, durante la creazione della tabella verranno generati automaticamente due ID: un ID unico per la tabella ed il campo ID riportato dalla tabella principale. Se una tabella è una tabella di collegamento destinato a risolvere una relazione molti a molti, avrà bisogno di tre campi ID.<span class="MyVariablesProduct Name">Infor CRM</span> solo generare automaticamente due ID, una unica per la tabella di collegamento e una per la tabella primaria. Occorre aggiungere il campo ID della tabella secondaria durante la creazione della tabella, oppure essa non collegherà la tabella principale a quella secondaria.</p>
+        <table wrapperparagraphselector="P" style="margin-top: 14pt;border-spacing: 0px;border-spacing: 0px;" cellspacing="0">
+            <col />
+            <col />
+            <tr>
+                <td style="padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top">
+                    <p style="text-align: center;margin-bottom: 0;" align="center">
+                        <img src="../image/note.gif" />
+                    </p>
+                </td>
+                <td style="padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top">
+                    <p class="Tip-Note-Text" style="margin-bottom: 0;">Nonostante alcune tabelle di collegamento esistenti in <span class="MyVariablesProduct Name">Infor CRM</span> contengano soltanto due campi ID, sarebbe meglio includere tutti i tre campi ID nelle tabelle collegamento di propria creazione.</p>
+                </td>
+            </tr>
+        </table>
+        <p class="RelatedTopics">Argomenti Correlati</p>
+        <p><a href="Joining_Tables.htm">Join di Tabelle</a>
+        </p>
+        <p><a href="Join_Example.htm">Esempio di Join</a>
+        </p>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

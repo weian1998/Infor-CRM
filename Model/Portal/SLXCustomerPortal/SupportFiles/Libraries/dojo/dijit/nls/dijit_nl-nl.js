@@ -1,0 +1,11 @@
+define('dijit/nls/dijit_nl-nl',{
+'dijit/nls/loading':{"loadingState":"Bezig met laden...","errorState":"Er is een fout opgetreden","_localized":{}}
+,
+'dijit/nls/common':{"buttonOk":"OK","buttonCancel":"Annuleren","buttonSave":"Opslaan","itemClose":"Sluiten","_localized":{}}
+,
+'dijit/_editor/nls/commands':{"bold":"Vet","copy":"Kopiëren","cut":"Knippen","delete":"Wissen","indent":"Inspringen","insertHorizontalRule":"Horizontale liniaal","insertOrderedList":"Genummerde lijst","insertUnorderedList":"Lijst met opsommingstekens","italic":"Cursief","justifyCenter":"Centreren","justifyFull":"Uitvullen","justifyLeft":"Links uitlijnen","justifyRight":"Rechts uitlijnen","outdent":"Uitspringen","paste":"Plakken","redo":"Opnieuw","removeFormat":"Opmaak verwijderen","selectAll":"Alles selecteren","strikethrough":"Doorhalen","subscript":"Subscript","superscript":"Superscript","underline":"Onderstrepen","undo":"Ongedaan maken","unlink":"Link verwijderen","createLink":"Link maken","toggleDir":"Schrijfrichting wijzigen","insertImage":"Afbeelding invoegen","insertTable":"Tabel invoegen/bewerken","toggleTableBorder":"Tabelkader wijzigen","deleteTable":"Tabel wissen","tableProp":"Tabeleigenschap","htmlToggle":"HTML-bron","foreColor":"Voorgrondkleur","hiliteColor":"Achtergrondkleur","plainFormatBlock":"Alineastijl","formatBlock":"Alineastijl","fontSize":"Lettergrootte","fontName":"Lettertype","tabIndent":"Inspringen","fullScreen":"Volledig scherm in-/uitschakelen","viewSource":"HTML-bron bekijken","print":"Afdrukken","newPage":"Nieuwe pagina","systemShortcut":"De actie \"${0}\" is alleen beschikbaar in uw browser via een sneltoetscombinatie. Gebruik ${1}.","ctrlKey":"ctrl+${0}","appleKey":"⌘${0}","_localized":{}}
+,
+'dijit/form/nls/validate':{"invalidMessage":"De opgegeven waarde is ongeldig.","missingMessage":"Deze waarde is verplicht.","rangeMessage":"Deze waarde is niet toegestaan.","_localized":{}}
+,
+'dijit/form/nls/ComboBox':{"previousMessage":"Eerdere opties","nextMessage":"Meer opties","_localized":{}}
+});

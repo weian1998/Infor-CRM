@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:fileTags="Translation Status.Support files" xml:lang="de" MadCap:tocPath="Verwenden des Abfrage-Assistenten|Verwenden von Joins" MadCap:medium="non-print" MadCap:InPreviewMode="false" MadCap:PreloadImages="false" MadCap:RuntimeFileType="Topic" MadCap:TargetType="WebHelp" lang="de" MadCap:conditions="Output.WebClient,Output.Query Builder" MadCap:PathToHelpSystem="../../" MadCap:HelpSystemFileName="WebClient.xml" MadCap:SearchType="Stem">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Global Join-Manager</title>
+        <link href="../SkinSupport/Slideshow.css" rel="stylesheet" />
+        <link href="../SkinSupport/MadCap.css" rel="stylesheet" />
+        <link href="../Resources/TableStyles/TableStyle.css" rel="stylesheet" />
+        <style>
+td ol,
+td ul
+{
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+</style>
+        <link href="../Resources/Stylesheets/Infor.CSS" rel="stylesheet" />
+        <script src="../SkinSupport/jquery.min.js">
+        </script>
+        <script src="../SkinSupport/MadCapAll.js">
+        </script>
+        <script src="../SkinSupport/MadCapTopicAll.js">
+        </script>
+    </head>
+    <body>
+        <p>&#160;</p>
+        <h1><a name="kanchor248"></a>Global Join-Manager</h1>
+        <table wrapperparagraphselector="P" style="margin-top: 14pt;width: 98%;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" width="98%">
+            <col style="width: 43px;" />
+            <col style="width: 410px;" />
+            <tr>
+                <td style="padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top">
+                    <p style="text-align: center;margin-bottom: 0;" align="center">
+                        <img src="../image/adminonly.gif" />
+                    </p>
+                </td>
+                <td style="padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top"><span class="SLXBold">Nur für Systemadministratoren</span>
+                </td>
+            </tr>
+        </table>
+        <table wrapperparagraphselector="P" style="margin-top: 14pt;border-spacing: 0px;border-spacing: 0px;" cellspacing="0">
+            <col />
+            <col />
+            <tr>
+                <td style="padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top">
+                    <p style="text-align: center;margin-bottom: 0;" align="center">
+                        <img src="../image/caution.gif" />
+                    </p>
+                </td>
+                <td style="padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top">
+                    <ul>
+                        <li class="Tip-Note-Text-Bulleted" value="1">Hierbei sollte jedoch sehr sorgfältig vorgegangen werden, da das Erstellen eines Global Join die Leistung des Systems beeinträchtigen kann.</li>
+                        <li class="Tip-Note-Text-Bulleted" value="2">Standardmäßig ist die Tabelle ADRESSE mit der Tabelle FIRMA über einen Inner Join verbunden. Die Eigenschaften dieses Join dürfen <span class="SLXBold">nicht</span> geändert werden.</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+        <p>Der Global Join Manager zeigt alle Global Joins in der <span class="MyVariablesProduct Name">Infor CRM</span>-Datenbank an und ermöglicht dem Systemadministrator oder einem Benutzer mit Administratorrechten, bei Bedarf Global Joins hinzuzufügen, zu bearbeiten oder zu löschen. Ein Global Join wird in der Verzeichnisstruktur des Abfrage-Assistenten von einer Session zur nächsten beibehalten.</p>
+        <p><span class="MyVariablesProduct Name">Infor CRM</span> enthält eine Reihe von bereits definierten Global Joins (so genannten System-Joins), die nicht gelöscht werden können. <MadCap:conditionalText MadCap:conditions="Output.WebClient">Diese vordefinierten Global Joins können von allen Benutzern verwendet werden, indem sie im Abfrage-Assistenten ein Feld auswählen und auf die Schaltfläche "Global Join" klicken. Wenn für dieses Feld bereits ein Join vorhanden ist, wird im Kontextmenü die Option "Global Join mit" mit dem angegebenen Tabellennamen zusammen angezeigt. </MadCap:conditionalText></p>
+        <p>Der Global Join-Manager steht nur zur Verfügung, wenn Sie als Administrator angemeldet sind.</p>
+        <p class="RelatedTopics">Vorgehensweise</p>
+        <div class="MCDropDown">
+            <div class="MCDropDownHead_0"><a class="MCDropDownHotSpot_0" href="javascript:void(0);" id="MCDropDownHotSpot_1077341633_0" onclick="FMCDropDown( this ); return false;">Öffnen des Global Join-Managers<img style="border: none;margin-left: 5px;" src="../SkinSupport/DropDownClosed.gif" MadCap:altsrc="../SkinSupport/DropDownOpen.gif" onload="if ( typeof( FMCPreloadImage ) == 'function' ) { FMCPreloadImage( '../SkinSupport/DropDownOpen.gif' ); }" alt="Closed" MadCap:alt2="Open" class="MCDropDownIcon" /></a>
+            </div>
+            <div class="MCDropDownBody" id="MCDropDownBody_1077341633_0" style="display: none;">
+                <ol>
+                    <li value="1"><a href="../QueryBuilder/Opening_Query_Builder.htm">Öffnen Sie den Abfrage-Assistenten</a>.</li>
+                </ol>
+                <ol>
+                    <li class="Topic-Text-Numbered" MadCap:conditions="Output.WebClient" value="2">Öffnen Sie den <a href="../QueryBuilder/Opening_Query_Builder.htm">Abfrage-Assistenten</a> und klicken Sie anschließend auf die Schaltfläche <span class="SLXBold">Global Joins</span>.</li>
+                </ol>
+                <p class="Topic-Text-Indent" MadCap:conditions="Output.WebClient">Diese Schaltfläche wird nur angezeigt, wenn Sie als Administrator angemeldet sind.</p>
+            </div>
+        </div>
+        <p class="Topic-Text-Numbered"><a href="Add_a_Global_Join.htm">Hinzufügen eines Global Join</a>
+        </p>
+        <p class="Topic-Text-Numbered"><a href="Edit_a_Global_Join.htm">Bearbeiten eines Global Join</a>
+        </p>
+        <p class="Topic-Text-Numbered"><a href="Delete_a_Global_Join.htm">Löschen eines Global Join</a>
+        </p>
+        <p class="Topic-Text-Numbered"><a href="Show_a_Global_Join.htm">Anzeigen eines Global Join</a>
+        </p>
+        <p class="Topic-Text-Numbered">&#160;</p>
+        <p>Der Global Join-Manager zeigt die folgenden Felder an:</p>
+        <table style="width: 90%;mc-table-style: url('../Resources/TableStyles/TableStyle.css');margin-left: 0;margin-right: auto;" class="TableStyle-TableStyle" cellspacing="0">
+            <thead>
+                <tr class="TableStyle-TableStyle-Head-Header1">
+                    <th class="TableStyle-TableStyle-HeadE-Column1-Header1">Feld</th>
+                    <th class="TableStyle-TableStyle-HeadD-Column1-Header1">Beschreibung</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Sys</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Ein System-Join, der nicht gelöscht werden kann.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">1:1</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Gibt eine 1:1-Beziehung an.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Übergeordnete Tabelle, übergeordnetes Feld</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Die Haupttabelle und das Feld eines Joins.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Untergeordnete Tabelle, untergeordnetes Feld</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Die mit der übergeordneten Tabelle und dem übergeordneten Feld verknüpfte Tabelle und das Feld.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1"><a href="Join_Types.htm">Typ</a>
+                    </td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Der Join-Typ (<a href="Inner_joins.htm" target="_self">Inner</a>, <a href="Left_joins.htm" target="_self">Left</a>, <a href="Right_joins.htm" target="_self">Right</a>)</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1"><a href="Cascade_Options.htm">Kaskadieren</a>
+                    </td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Gibt an, wie Datensätze durch einen Join gelöscht werden.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyB-Column1-Body1"><a href="Visibility_Options.htm">Sichtbarkeit</a>
+                    </td>
+                    <td class="TableStyle-TableStyle-BodyA-Column1-Body1">Gibt an, wie der Join im Abfrage-Assistenten angezeigt wird.</td>
+                </tr>
+            </tbody>
+        </table>
+        <p class="RelatedTopics">Verwandte Themen</p>
+        <p><a href="../QueryBuilder/Using_SalesLogix_Query_Builder.htm" target="_self">Abfrage-Assistent - Übersicht</a>
+        </p>
+        <p><a href="Joining_Tables.htm">Erstellen von Tabellen-Joins</a>
+        </p>
+        <p><a href="Join_Example.htm">Join-Beispiel</a>
+        </p>
+        <p><a href="Guidelines_for_Using_Joins.htm">Richtlinien für den Einsatz von Joins</a>
+        </p>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

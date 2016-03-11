@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:fileTags="Translation Status.Support files" MadCap:tocPath="" MadCap:medium="non-print" MadCap:InPreviewMode="false" MadCap:PreloadImages="false" MadCap:RuntimeFileType="Topic" MadCap:TargetType="WebHelp" lang="en-us" xml:lang="en-us" MadCap:conditions="Output.WebClient,Output.Query Builder" MadCap:PathToHelpSystem="../../" MadCap:HelpSystemFileName="WebClient.xml" MadCap:SearchType="Stem">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Opzioni Cascata</title>
+        <link href="../SkinSupport/Slideshow.css" rel="stylesheet" />
+        <link href="../SkinSupport/MadCap.css" rel="stylesheet" />
+        <link href="../Resources/TableStyles/TableStyle.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/Infor.CSS" rel="stylesheet" />
+        <script src="../SkinSupport/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapAll.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapTopicAll.js" type="text/javascript">
+        </script>
+    </head>
+    <body>
+        <h1><a name="kanchor682"></a>Opzioni Cascata</h1>
+        <table style="width: 90%;mc-table-style: url('../Resources/TableStyles/TableStyle.css');margin-left: 0;margin-right: auto;" class="TableStyle-TableStyle" cellspacing="0">
+            <thead>
+                <tr class="TableStyle-TableStyle-Head-Header1">
+                    <th class="TableStyle-TableStyle-HeadE-Column1-Header1">Seleziona</th>
+                    <th class="TableStyle-TableStyle-HeadD-Column1-Header1">A</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Elimina</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">
+                        <p>Elimina il record selezionato e qualsiasi record dipendente.</p>
+                        <p>Per esempio, se un utente viene eliminato dalla tabella USERINFO, vengono eliminati anche i record associati nella tabella USERPROFILE.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Pulisci</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">
+                        <p>Il campo chiave che collega il record nella tabella secondaria viene eliminato, ma non l'intero record nella tabella secondaria.</p>
+                        <p>Per esempio, se si elimina un record Contatto (CONTACT), i record Cronologia(HISTORY) ad esso associati non verranno eliminati; viene cancellato solo il collegamento al singolo contatto.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Sostituisci</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">
+                        <p>Quando si elimina un record, elimina il campo chiave che collega il record nella tabella secondaria, ma non il record stesso. Sostituisce il campo chiave con un altro ID.</p>
+                        <p>Per esempio, se un utente viene eliminato dalla tabella USERINFO, la sostituzione potrebbe essere utilizzata per assegnare le aziende di quella persona a qualcun altro.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Elimina (Arresta cascata)</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">
+                        <p>Elimina il record selezionato, ma non i record dipendenti.</p>
+                        <p>Per esempio, se un utente viene eliminato dalla tabella USERINFO, i record Cronologia (HISTORY) associati non verranno modificati.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyB-Column1-Body1">Ignora (Non usare in cascata)</td>
+                    <td class="TableStyle-TableStyle-BodyA-Column1-Body1">Quando si elimina un record, ignora questa tabella come se non esistesse.</td>
+                </tr>
+            </tbody>
+        </table>
+        <p class="RelatedTopics">Argomenti Correlati</p>
+        <p><a href="../QueryBuilder/Using_SalesLogix_Query_Builder.htm" target="_self">Panoramica su Query Builder</a>
+        </p>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

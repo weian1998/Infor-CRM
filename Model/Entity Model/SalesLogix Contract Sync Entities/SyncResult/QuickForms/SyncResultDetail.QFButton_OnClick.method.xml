@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<method xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="OrmOtherMethod" id="e629e34b-af26-488d-9a23-257eba8527da" lastModifiedUtc="2013-07-17T18:53:37.1068163Z" name="QFButton_OnClick" methodType="Other" actionType="None" returnMode="None" isInstance="false" containerName="SyncResultDetail">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmOtherMethod" />
+  </ExtendedPropertiesCollection>
+  <parameter>
+    <OrmEntityMethodParam id="c0df2fcb-212f-43f9-859c-fbb572d53121" paramName="form" sequence="0" paramType="ISyncResultDetail" />
+    <OrmEntityMethodParam id="eb7f896e-2d18-4692-b817-113559d95520" paramName="args" sequence="0" paramType="EventArgs" />
+  </parameter>
+  <preExecuteTargets />
+  <methodTargets />
+  <postExecuteTargets />
+  <postFlushTargets />
+</method>

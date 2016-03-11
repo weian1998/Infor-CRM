@@ -1,0 +1,81 @@
+@import "../variables";
+
+.inforSoHoXi .dijitTabContainerTop-tabs .dijitTabRtl,
+.inforSoHoXi .dijitTabContainerBottom-tabs .dijitTabRtl {
+	margin-right: 0;
+	margin-left: 1px;
+}
+.inforSoHoXi .dijitTabRtl {
+	-moz-box-orient:horizontal;
+	text-align: right;
+}
+.dj_ie7 .inforSoHoXi .dijitTabRtl .dijitTabContent {
+	display: block;
+	left: 0;
+}
+.dj_ie7 .inforSoHoXi .dijitTabContainerTop-tabs .dijitTabRtl,
+.dj_ie7 .inforSoHoXi .dijitTabContainerTop-tabs .dijitTabCheckedRtl {
+	top: 1px;
+}
+
+// Note that .tabStripButtonRtl .dijitButtonContents needed for IE8 quirks but breaks IE6 quirks
+.dj_ie7 .inforSoHoXi .tabStripButtonRtl .dijitButtonContents,
+.dj_ie8 .inforSoHoXi .tabStripButtonRtl .dijitButtonContents,
+.dj_ie6 .inforSoHoXi .dijitTabContainerTop-tabs .dijitTabRtl .dijitTabInnerDiv,
+.dj_ie6 .inforSoHoXi .dijitTabContainerBottom-tabs .dijitTabRtl .dijitTabInnerDiv,
+.dj_ie7 .inforSoHoXi .dijitTabContainerTop-tabs .dijitTabRtl .dijitTabInnerDiv,
+.dj_ie7 .inforSoHoXi .dijitTabContainerBottom-tabs .dijitTabRtl .dijitTabInnerDiv,
+.dj_iequirks .inforSoHoXi .dijitTabContainerTop-tabs .dijitTabRtl .dijitTabInnerDiv,
+.dj_iequirks .inforSoHoXi .dijitTabContainerBottom-tabs .dijitTabRtl .dijitTabInnerDiv {
+	float:left;
+}
+.dj_ie6 .inforSoHoXi .dijitTabRtl .tabLabel,
+.dj_ie6 .inforSoHoXi .dijitTabContainerRight-tabs .dijitTabRtl,
+.dj_ie6 .inforSoHoXi .dijitTabContainerLeft-tabs .dijitTabRtl,
+.dj_ie7 .inforSoHoXi .dijitTabContainerRight-tabs .dijitTabRtl .dijitTabInnerDiv,
+.dj_ie7 .inforSoHoXi .dijitTabContainerLeft-tabs .dijitTabRtl .dijitTabInnerDiv {
+	/*Make the .tablabel have width in ie6 with haslayout property, fix Close icon position bug*/
+	zoom:1;
+}
+.dj_ie6 .inforSoHoXi .dijitTabRtl .dijitTabCloseButton,
+.dj_ie7 .inforSoHoXi .dijitTabRtl .dijitTabCloseButton,
+.dj_iequirks .inforSoHoXi .dijitTabRtl .dijitTabCloseButton {
+	margin-right:5px;
+}
+
+.dj_ie6 .inforSoHoXi .dijitTabContainerRightRtl .dijitTabContainerRight-tabs,
+.dj_ie6 .inforSoHoXi .dijitTabContainerLeftRtl .dijitTabContainerLeft-tabs {
+	width:1%;
+}
+
+.dj_ie6 .dijitTabContainerTopStrip,
+.dj_ie6 .dijitTabContainerBottomStrip {
+	position:absolute;
+}
+.dj_iequirks .inforSoHoXi .dijitTabContainerTopRtl .dijitTabContainerTopStrip {
+	padding-top: 10px;
+}
+.dj_ie7 .inforSoHoXi .dijitTabContainerRight-tabs .dijitTabRtlChecked .dijitTabInnerDiv {
+	background-position:-341px -179px;
+}
+
+.dj_ie6 .dijitTabContainerTopRtl .dijitTabStripIcon,
+.dj_ie6 .dijitTabContainerBottomRtl .dijitTabStripIcon {
+   position: relative;
+}
+
+
+.dj_ie6-rtl .inforSoHoXi .dijitTabContainerTop-tabs {	
+	/* this strange rule prevents IE6 bug in themeTester.html?dir=rtl upon closing
+	 * "Closable" tab, where the other tabs disappear
+	 */
+	padding-left: 3px;
+}
+
+.dj_iequirks-rtl .inforSoHoXi .dijitTabListWrapper {
+	/* this strange rule prevents IE6 bug in themeTesterQuirk.html?dir=rtl upon closing
+	 * "Closable" tab, where the other tabs disappear
+	 */
+	border-left: 1px solid @pane-background-color;
+	border-right: 1px solid @pane-background-color;
+}

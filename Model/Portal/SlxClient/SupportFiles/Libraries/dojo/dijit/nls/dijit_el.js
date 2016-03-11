@@ -1,0 +1,11 @@
+define('dijit/nls/dijit_el',{
+'dijit/nls/loading':{"loadingState":"Φόρτωση...","errorState":"Σας ζητούμε συγνώμη, παρουσιάστηκε σφάλμα","_localized":{}}
+,
+'dijit/nls/common':{"buttonOk":"ΟΚ","buttonCancel":"Ακύρωση","buttonSave":"Αποθήκευση","itemClose":"Κλείσιμο","_localized":{}}
+,
+'dijit/_editor/nls/commands':{"bold":"Έντονα","copy":"Αντιγραφή","cut":"Αποκοπή","delete":"Διαγραφή","indent":"Εσοχή","insertHorizontalRule":"Οριζόντια γραμμή","insertOrderedList":"Αριθμημένη λίστα","insertUnorderedList":"Λίστα με κουκίδες","italic":"Πλάγια","justifyCenter":"Στοίχιση στο κέντρο","justifyFull":"Πλήρης στοίχιση","justifyLeft":"Στοίχιση αριστερά","justifyRight":"Στοίχιση δεξιά","outdent":"Μείωση περιθωρίου","paste":"Επικόλληση","redo":"Ακύρωση αναίρεσης","removeFormat":"Αφαίρεση μορφοποίησης","selectAll":"Επιλογή όλων","strikethrough":"Διαγράμμιση","subscript":"Δείκτης","superscript":"Εκθέτης","underline":"Υπογράμμιση","undo":"Αναίρεση","unlink":"Αφαίρεση διασύνδεσης","createLink":"Δημιουργία διασύνδεσης","toggleDir":"Εναλλαγή κατεύθυνσης","insertImage":"Εισαγωγή εικόνας","insertTable":"Εισαγωγή/Τροποποίηση πίνακα","toggleTableBorder":"Εναλλαγή εμφάνισης περιγράμματος πίνακα","deleteTable":"Διαγραφή πίνακα","tableProp":"Ιδιότητα πίνακα","htmlToggle":"Πρωτογενής κώδικας HTML","foreColor":"Χρώμα προσκηνίου","hiliteColor":"Χρώμα φόντου","plainFormatBlock":"Στυλ παραγράφου","formatBlock":"Στυλ παραγράφου","fontSize":"Μέγεθος γραμματοσειράς","fontName":"Όνομα γραμματοσειράς","tabIndent":"Εσοχή με το πλήκτρο Tab","fullScreen":"Εναλλαγή κατάστασης πλήρους οθόνης","viewSource":"Προβολή προέλευσης HTML","print":"Εκτύπωση","newPage":"Νέα σελίδα","systemShortcut":"Η ενέργεια \"${0}\" είναι διαθέσιμη στο πρόγραμμα πλοήγησης μόνο μέσω μιας συντόμευσης πληκτρολογίου. Χρησιμοποιήστε τη συντόμευση ${1}.","ctrlKey":"ctrl+${0}","appleKey":"⌘${0}","_localized":{}}
+,
+'dijit/form/nls/validate':{"invalidMessage":"Η τιμή που καταχωρήσατε δεν είναι έγκυρη.","missingMessage":"Η τιμή αυτή πρέπει απαραίτητα να καθοριστεί.","rangeMessage":"Η τιμή αυτή δεν ανήκει στο εύρος έγκυρων τιμών.","_localized":{}}
+,
+'dijit/form/nls/ComboBox':{"previousMessage":"Προηγούμενες επιλογές","nextMessage":"Περισσότερες επιλογές","_localized":{}}
+});

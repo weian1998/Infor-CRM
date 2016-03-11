@@ -1,0 +1,21 @@
+﻿define({
+    dlgManageImportOptions_Title: 'Datensatzimport - Optionen',
+    lstImportType_Caption: 'Wie möchten Sie mit den Datensätzen in dieser Datei verfahren?',
+    lstImportOption_Insert: 'Datensatz hinzufügen, wenn keine Übereinstimmung gefunden wird',
+    txtOption_Insert: 'Wenn anhand der definierten Übereinstimmungskriterien kein vorhandener Datensatz gefunden wird, wird ein neuer Kontakt-, Firmen- oder Adressendatensatz zur Datenbank hinzugefügt. Wenn jedoch ein übereinstimmender Datensatz gefunden wird, wird der Datensatz nicht importiert.',
+    lstImportOption_Update: 'Datensatz aktualisieren, wenn Übereinstimmung gefunden wird',
+    txtOption_Update: 'Wenn anhand der definierten Übereinstimmungskriterien ein vorhandener Kontakt-, Firmen- oder Adressendatensatz gefunden wird, wird der Datensatz mit den importierten Informationen aktualisiert. Wenn kein übereinstimmender Datensatz gefunden wird, werden die Informationen nicht importiert.',
+    lstImportOption_InsertUpdate: 'Jeden Datensatz hinzufügen oder aktualisieren',
+    txtOption_InsertUpdate: 'Wenn anhand der definierten Übereinstimmungskriterien ein vorhandener Kontakt-, Firmen- oder Adressendatensatz gefunden wird, wird der Datensatz mit den importierten Informationen aktualisiert. Wenn kein übereinstimmender Datensatz gefunden wird, wird ein neuer Datensatz hinzugefügt.',
+    txtMatchHeader_Caption: 'Definieren der Übereinstimmungskriterien:',
+    txtOptionsHeader_Caption: 'Optionen',
+    defaultOwner_Caption: 'Standardzugriffsberechtigter:',
+    lookupDefaultOwner_Caption: 'Zugriffsberechtigtensuche',
+    lookupDescriptionColText: 'Beschreibung',
+    lookupTypeColText: 'Typ',
+    createAdHoc_Caption: 'Neue Ad-hoc-Gruppe erstellen',
+    existingAdHoc_Caption: 'Zu vorhandener Ad-hoc-Gruppe hinzufügen',
+    errorNoAddHocGroupName: 'Geben Sie den Namen einer Ad-hoc-Gruppe an, bevor Sie fortfahren.',
+    match_Caption: 'Übereinstimmung:',
+    invalidMappingAssociation: 'Bevor Sie fortfahren, muss jede Übereinstimmungseigenschaft in den Eigenschaftszuordnungen angegeben werden.'
+});

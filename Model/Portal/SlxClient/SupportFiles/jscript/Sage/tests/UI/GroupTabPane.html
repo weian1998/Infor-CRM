@@ -1,0 +1,129 @@
+<html>
+    <head>
+        <title>Sage.UI Browser Tests</title>
+        <link rel="stylesheet" type="text/css" href="../../../../Libraries/dojo/dijit/themes/claro/claro.css" />
+        <script type="text/javascript" src="../mocks.js"></script>
+        <script pin="pin" type="text/javascript">
+            var dojoConfig = {
+                parseOnLoad: true,
+                isDebug: true,
+                paths: {'Sage' : '../../../jscript/Sage'}
+            };
+        </script>
+        <script type="text/javascript" src="../../../../Libraries/dojo/dojo/dojo.js"></script>
+        <script type="text/javascript" src="../../../../Libraries/Simplate.js"></script>
+        <script type="text/javascript">
+        require(
+        [
+            'dojo/parser',
+            'dojo/ready',
+            'doh',
+            'Sage/UI/GroupTabPane',
+            'dijit/layout/ContentPane'
+        ],
+        function (parser, ready, doh, GroupTabPane, ContentPane) {
+            ready(function(){
+                doh.register("Sage.tests.UI.GroupTabPane", [
+                    {
+                        testType: "perf",
+                        name: 'bulkTabsAddChildren',
+                        trialDuration: 100,
+                        trialDelay: 50,
+                        trialIterations: 1,
+                        timeout: 15000,
+                        setUp: function () {
+                        },
+                        runTest: function () {
+                            var tabContainer = dijit.byId('GroupTabs'),
+                                i = 0, len = 100,
+                                pane,
+                                widgets = [];
+                            
+                            for (i = 0; i < len; i++) {
+                                pane = new ContentPane({
+                                    title: 'Test' + i
+                                });
+                                
+                                widgets.push(pane);
+                            }
+                            
+                            tabContainer.addChildren(widgets, widgets[0]);
+                        },
+                        tearDown: function () {
+                        }
+                    },
+                    {
+                        name: 'checkDisplayedTabs',
+                        timeout: 15000,
+                        setUp: function() {
+                        },
+                        runTest: function() {
+                            var tabContainer = dijit.byId('GroupTabs'),
+                                children = tabContainer.getChildren();
+                            // Second tab should be flagged as drawn, but not the first, which is Lookup Results and is drawn
+                            //  as part of the GroupTitleListConfigProvider
+                            doh.f(tabContainer._drawnChildren[children[0].id]);
+                            doh.t(tabContainer._drawnChildren[children[1].id]);
+                            // Last tab shouldn't be flagged as drawn, as it isn't a part of the chunk of 25 items to initially draw
+                            doh.f(tabContainer._drawnChildren[children[children.length -1].id]);
+                        }
+                    },
+                    {
+                        name: 'drawnMoreTabs',
+                        timeout: 15000,
+                        setUp: function() {
+                        },
+                        runTest: function() {
+                            var tabContainer = dijit.byId('GroupTabs'),
+                                children = tabContainer.getChildren();
+                            tabContainer.drawChildren(24, 10, 'right');
+                            // 25 tabs were initially drawn, but 10 more are added
+                            // Element 34 should be drawn
+                            doh.t(tabContainer._drawnChildren[children[34].id]);
+                            // Element 35 should be just out of range of being drawn
+                            doh.f(tabContainer._drawnChildren[children[35].id]);
+                        }
+                    },
+                    {
+                        name: 'getChildren',
+                        timeout: 15000,
+                        setUp: function () {
+                        },
+                        runTest: function () {
+                            var tabContainer = dijit.byId('GroupTabs'),
+                                i = 0, len = 10,
+                                pane,
+                                widgets = [],
+                                children;
+                            
+                            for (i = 0; i < len; i++) {
+                                pane = new ContentPane({
+                                    title: 'Test' + i
+                                });
+                                
+                                widgets.push(pane);
+                            }
+                            
+                            tabContainer.addChildren(widgets);
+                            
+                            children = tabContainer.getChildren();
+                            doh.t(children.length > 0);
+                        },
+                        tearDown: function () {
+                        }
+                    }
+                ]);
+                
+                //Execute D.O.H. in this remote file.
+                doh.run();
+            });
+        });
+        </script>
+    </head>
+    <body class="claro">
+        <div id="container">
+            <div id="GroupTabs" data-dojo-type="Sage.UI.GroupTabPane" style="position:static;">
+            </div>
+        </div>
+    </body>
+</html>

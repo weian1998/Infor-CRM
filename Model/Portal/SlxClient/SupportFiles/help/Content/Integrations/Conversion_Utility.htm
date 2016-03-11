@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:fileTags="Translation Status.Support files" MadCap:tocPath="" MadCap:medium="non-print" MadCap:InPreviewMode="false" MadCap:PreloadImages="false" MadCap:RuntimeFileType="Topic" MadCap:TargetType="WebHelp" lang="en-us" xml:lang="en-us" MadCap:conditions="Output.WebClient,Integrations.ExchangeAdmin,Integrations.Admin" MadCap:PathToHelpSystem="../../" MadCap:HelpSystemFileName="WebClient.xml" MadCap:SearchType="Stem">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Running the SLXConversion Utility</title>
+        <link href="../Resources/Stylesheets/Infor.CSS" rel="stylesheet" />
+        <script src="../SkinSupport/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapAll.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapTopicAll.js" type="text/javascript">
+        </script>
+    </head>
+    <body>
+        <h1><a name="kanchor554"></a>Running the SLXConversion Utility</h1>
+        <p>Before setting up your integration endpoints, you must run the SLXConversion utility to update Account Phone Number and E-mail records. This utility supports integration by adding columns to the <span class="MyVariablesProduct Name">Infor CRM</span> database to enable a 1:many relationship for phone numbers and email addresses in Accounts and Contacts. </p>
+        <p>
+This creates a record in the ERPPHONENUMBER or ERPEMAILADDRESS table for each phone number and email column in either of the ACCOUNT or CONTACT tables. Those records are mapped back to the original entity column where they originated. 
+</p>
+        <p><![CDATA[     ]]></p>
+        <table wrapperparagraphselector="P" style="width: 80%;margin-top: 14pt;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" width="80%">
+            <col style="width: 45px;" />
+            <col />
+            <tr>
+                <td style="padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top">
+                    <p align="center" class="Topic-Text-Indent">
+                        <img src="../image/note.gif" />
+                    </p>
+                </td>
+                <td style="width: 90%;padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top" width="90%">
+                    <p class="Tip-Note-Text" style="margin-bottom: 0;">Windows Authentication must be configured for the administrative user before running the  SLXConversion utility. For detailed steps, see the "Using Windows Authentication" topic in the Administrator Help.</p>
+                </td>
+            </tr>
+        </table>
+        <p class="Infinitive">To run </p>
+        <ol>
+            <li value="1">On your Administrative Workstation, browse to the <span class="SLXBold">SLXConversionUtility.exe</span> and <span class="SLXBold">SLXConversionUtility.config</span> files.
+<br />By default the configuration files are in ...\Program Files\<span class="MyVariablesCompanyNameLegacy">Saleslogix</span>\ or ...\Program Files (x86)\<span class="MyVariablesCompanyNameLegacy">Saleslogix</span>\&#160;<![CDATA[ 
+]]></li>
+            <li value="2">Open <span class="SLXBold">SLXConversionUtility.config</span> in a text editor of your choice.</li>
+            <li value="3">Scroll to the <span class="SLXBold">&lt;connectionStrings&gt;</span> section, change the <span class="SLXBold">Initial Catalog</span> value from <span class="SLXBold">SALESLOGIX_EVAL</span> to your database alias, and save the change.<br />  For example:<br />&lt;connectionStrings&gt;
+    &lt;clear/&gt;
+    &lt;add name="Default" connectionString="Provider=SLXOLEDB.1;Persist Security Info=True;Initial Catalog=MyDatabaseAlias;Data Source=localhost;Extended Properties=&amp;quot;PORT=1706;LOG=ON;CASEINSENSITIVEFIND=ON;AUTOINCBATCHSIZE=1;SVRCERT=12345;ACTIVITYSECURITY=OFF;TIMEZONE=NONE&amp;quot;"/&gt;
+  &lt;/connectionStrings&gt;
+</li>
+            <li value="4">Double-click <span class="SLXBold">SLXConversionUtility.exe</span> to run the utility.
+</li>
+            <li value="5">Select all check boxes.</li>
+            <li value="6">Click <span class="SLXBold">Update</span>.</li>
+            <li value="7">Click <span class="SLXBold">Close</span>.
+</li>
+        </ol>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

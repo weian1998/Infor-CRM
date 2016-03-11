@@ -1,0 +1,57 @@
+﻿<div>
+    <div data-dojo-type="dijit.Dialog" title="{%= $._nlsResources.dlgSelectFile_Title %}" data-dojo-attach-point="_dialog" data-dojo-attach-event="onCancel:_btnCancel_OnClick" style="width: 625px">
+        <div data-dojo-type="dijit.form.Form">
+            <input type="file" data-dojo-attach-point="fileInputBtn" style="display:none;" />
+            <div class="crystalParameterContainer">
+                <table cellspacing="10" width="100%">
+                    <colgroup>
+                        <col style="width:2%"/>
+                        <col style="width:8%" />
+                        <col style="width:90%" />
+                    </colgroup>
+                    <tr>
+                        <td colspan="3">
+                            <label class="wizardHeaderText">{%= $._nlsResources.txtSelectFile %}</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span data-dojo-attach-point="errorNoUploadFile" class="display-none" style="color:red">*</span>
+                        </td>
+                        <td colspan="2">
+                            <div data-dojo-type="dijit.form.Button" data-dojo-attach-point="btnUploadFile" data-dojo-attach-event="onClick:_btnUploadFile_OnClick" >{%= Sage.Utility.htmlEncode($._nlsResources.btnUploadFile_Caption) %}</div>
+                            <input data-dojo-type="dijit.form.TextBox" data-dojo-attach-point="txtFakeUploadFile" readonly="readonly" value="{%= Sage.Utility.htmlEncode($._nlsResources.txtUploadFile_Caption) %}" style="width: 65%" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"></td>
+                        <td>
+                            <label data-dojo-attach-point="lblFileUpload"></label>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <br/>
+            <div class="crystalParameterContainer">
+                <table cellspacing="10">
+                    <tr>
+                        <td>
+                            <label>{%= $.lstTemplate_Caption %}</label>
+                        </td>
+                        <td>
+                            <div data-dojo-type="dijit.layout.ContentPane" data-dojo-attach-point="templates_Container"></div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <br/>
+            <div data-dojo-attach-point="divValidationMessage" style="color:red">
+                <span data-dojo-attach-point="spanValidationMessage">&nbsp;</span>
+            </div>
+            <div align="right" style="margin-top:10px">
+                <div data-dojo-type="dijit.form.Button" data-dojo-attach-point="btnNext" data-dojo-attach-event="onClick:_btnNext_OnClick">{%= Sage.Utility.htmlEncode($.btnNext_Caption) %}</div>
+                <div data-dojo-type="dijit.form.Button" data-dojo-attach-point="btnCancel" data-dojo-attach-event="onClick:_btnCancel_OnClick" style="margin-left:5px;">{%= Sage.Utility.htmlEncode($.btnCancel_Caption) %}</div>
+            </div>
+        </div>
+    </div>
+</div>

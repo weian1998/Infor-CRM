@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<SmartPartMapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="eef5dd16-a3d8-4473-9975-8861c62a47a4">
+  <SmartPartId>ReportManagerFilters</SmartPartId>
+  <ReferencedModelId>00000000-0000-0000-0000-000000000000</ReferencedModelId>
+  <SmartPart>SmartParts\TaskPane\ReportManager\ReportManagerFilters.ascx</SmartPart>
+  <TargetWorkspace>TaskPane</TargetWorkspace>
+  <ShowInMode />
+  <Properties />
+  <AllowRoles />
+</SmartPartMapping>

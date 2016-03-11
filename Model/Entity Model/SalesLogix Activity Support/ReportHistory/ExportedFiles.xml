@@ -1,0 +1,16 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\ReportHistory\OnAfterDelete.method.xml" timeStamp="2015-05-28T03:03:56.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\ReportHistory\OnAfterInsert.method.xml" timeStamp="2015-05-28T03:03:56.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\ReportHistory\OnAfterUpdate.method.xml" timeStamp="2015-05-28T03:03:56.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\ReportHistory\OnBeforeDelete.method.xml" timeStamp="2015-05-28T03:03:56.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\ReportHistory\OnBeforeInsert.method.xml" timeStamp="2015-05-28T03:03:56.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\ReportHistory\OnBeforeUpdate.method.xml" timeStamp="2015-05-28T03:03:56.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\ReportHistory\OnCreate.method.xml" timeStamp="2015-05-28T03:03:56.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\ReportHistory\OutputFormat.filter.xml" timeStamp="2015-05-28T03:03:56.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\ReportHistory\Report.filter.xml" timeStamp="2015-05-28T03:03:56.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\ReportHistory\ReportHistory.REPORTHISTORY.entity.xml" timeStamp="2015-05-28T03:03:56.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\ReportHistory\ScheduledBy.filter.xml" timeStamp="2015-05-28T03:03:56.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\ReportHistory\TimeFrame.filter.xml" timeStamp="2015-05-28T03:03:56.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\ReportHistory\Type.filter.xml" timeStamp="2015-05-28T03:03:56.0000" />
+</exportedFiles>

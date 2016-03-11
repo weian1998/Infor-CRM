@@ -1,0 +1,38 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\SDataCustomer\SupportFiles\bin\ru\Sage.Platform.Application.resources.dll" timeStamp="2015-05-27T15:20:00.0000" />
+  <exportedFile url="\Portal\SDataCustomer\SupportFiles\bin\ru\Sage.Platform.Application.UI.Web.resources.dll" timeStamp="2015-05-27T15:20:00.0000" />
+  <exportedFile url="\Portal\SDataCustomer\SupportFiles\bin\ru\Sage.Platform.BundleModel.resources.dll" timeStamp="2015-05-27T15:20:00.0000" />
+  <exportedFile url="\Portal\SDataCustomer\SupportFiles\bin\ru\Sage.Platform.Configuration.resources.dll" timeStamp="2015-05-27T15:20:00.0000" />
+  <exportedFile url="\Portal\SDataCustomer\SupportFiles\bin\ru\Sage.Platform.Design.resources.dll" timeStamp="2015-05-27T15:20:00.0000" />
+  <exportedFile url="\Portal\SDataCustomer\SupportFiles\bin\ru\Sage.Platform.FileSystem.resources.dll" timeStamp="2015-05-27T15:20:00.0000" />
+  <exportedFile url="\Portal\SDataCustomer\SupportFiles\bin\ru\Sage.Platform.Mashups.resources.dll" timeStamp="2015-05-27T15:20:00.0000" />
+  <exportedFile url="\Portal\SDataCustomer\SupportFiles\bin\ru\Sage.Platform.Orm.CodeGen.resources.dll" timeStamp="2015-05-27T15:20:00.0000" />
+  <exportedFile url="\Portal\SDataCustomer\SupportFiles\bin\ru\Sage.Platform.Projects.resources.dll" timeStamp="2015-05-27T15:20:00.0000" />
+  <exportedFile url="\Portal\SDataCustomer\SupportFiles\bin\ru\Sage.Platform.QuickForms.QFControls.resources.dll" timeStamp="2015-05-27T15:20:00.0000" />
+  <exportedFile url="\Portal\SDataCustomer\SupportFiles\bin\ru\Sage.Platform.QuickForms.resources.dll" timeStamp="2015-05-27T15:20:00.0000" />
+  <exportedFile url="\Portal\SDataCustomer\SupportFiles\bin\ru\Sage.Platform.QuickForms.WebFormGen.resources.dll" timeStamp="2015-05-27T15:20:00.0000" />
+  <exportedFile url="\Portal\SDataCustomer\SupportFiles\bin\ru\Sage.Platform.resources.dll" timeStamp="2015-05-27T15:20:00.0000" />
+  <exportedFile url="\Portal\SDataCustomer\SupportFiles\bin\ru\Sage.Platform.VirtualFileSystem.resources.dll" timeStamp="2015-05-27T15:20:00.0000" />
+  <exportedFile url="\Portal\SDataCustomer\SupportFiles\bin\ru\Sage.Platform.WebPortal.Design.resources.dll" timeStamp="2015-05-27T15:20:00.0000" />
+  <exportedFile url="\Portal\SDataCustomer\SupportFiles\bin\ru\Sage.Platform.WebPortal.resources.dll" timeStamp="2015-05-27T15:20:00.0000" />
+  <exportedFile url="\Portal\SDataCustomer\SupportFiles\bin\ru\Sage.SalesLogix.Activity.resources.dll" timeStamp="2015-05-27T15:20:00.0000" />
+  <exportedFile url="\Portal\SDataCustomer\SupportFiles\bin\ru\Sage.SalesLogix.API.resources.dll" timeStamp="2015-05-27T15:20:00.0000" />
+  <exportedFile url="\Portal\SDataCustomer\SupportFiles\bin\ru\Sage.SalesLogix.BusinessRules.resources.dll" timeStamp="2015-05-27T15:20:00.0000" />
+  <exportedFile url="\Portal\SDataCustomer\SupportFiles\bin\ru\Sage.SalesLogix.Client.GroupBuilder.resources.dll" timeStamp="2015-05-27T15:20:00.0000" />
+  <exportedFile url="\Portal\SDataCustomer\SupportFiles\bin\ru\Sage.SalesLogix.DelphiBridge.resources.dll" timeStamp="2015-05-27T15:20:00.0000" />
+  <exportedFile url="\Portal\SDataCustomer\SupportFiles\bin\ru\Sage.SalesLogix.GlobalCrmContractAdapter.resources.dll" timeStamp="2015-05-27T15:20:00.0000" />
+  <exportedFile url="\Portal\SDataCustomer\SupportFiles\bin\ru\Sage.SalesLogix.HighLevelTypes.resources.dll" timeStamp="2015-05-27T15:20:00.0000" />
+  <exportedFile url="\Portal\SDataCustomer\SupportFiles\bin\ru\Sage.SalesLogix.LegacyBridge.resources.dll" timeStamp="2015-05-27T15:20:00.0000" />
+  <exportedFile url="\Portal\SDataCustomer\SupportFiles\bin\ru\Sage.SalesLogix.PickLists.resources.dll" timeStamp="2015-05-27T15:20:00.0000" />
+  <exportedFile url="\Portal\SDataCustomer\SupportFiles\bin\ru\Sage.SalesLogix.Plugins.resources.dll" timeStamp="2015-05-27T15:20:00.0000" />
+  <exportedFile url="\Portal\SDataCustomer\SupportFiles\bin\ru\Sage.SalesLogix.QuickForms.QFControls.resources.dll" timeStamp="2015-05-27T15:20:00.0000" />
+  <exportedFile url="\Portal\SDataCustomer\SupportFiles\bin\ru\Sage.SalesLogix.resources.dll" timeStamp="2015-05-27T15:20:00.0000" />
+  <exportedFile url="\Portal\SDataCustomer\SupportFiles\bin\ru\Sage.SalesLogix.Security.resources.dll" timeStamp="2015-05-27T15:20:00.0000" />
+  <exportedFile url="\Portal\SDataCustomer\SupportFiles\bin\ru\Sage.SalesLogix.Services.Integration.resources.dll" timeStamp="2015-05-27T15:20:00.0000" />
+  <exportedFile url="\Portal\SDataCustomer\SupportFiles\bin\ru\Sage.SalesLogix.Services.SpeedSearch.resources.dll" timeStamp="2015-05-27T15:20:00.0000" />
+  <exportedFile url="\Portal\SDataCustomer\SupportFiles\bin\ru\Sage.SalesLogix.System.resources.dll" timeStamp="2015-05-27T15:20:00.0000" />
+  <exportedFile url="\Portal\SDataCustomer\SupportFiles\bin\ru\Sage.SalesLogix.SystemAdapter.resources.dll" timeStamp="2015-05-27T15:20:00.0000" />
+  <exportedFile url="\Portal\SDataCustomer\SupportFiles\bin\ru\Sage.SalesLogix.Web.resources.dll" timeStamp="2015-05-27T15:20:00.0000" />
+  <exportedFile url="\Portal\SDataCustomer\SupportFiles\bin\ru\Sage.SalesLogix.WebUserOptions.resources.dll" timeStamp="2015-05-27T15:20:00.0000" />
+</exportedFiles>

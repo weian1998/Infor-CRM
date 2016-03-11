@@ -1,0 +1,11 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\ERPEmailAddress\ERPEmailAddress.ERPEMAILADDRESS.entity.xml" timeStamp="2015-05-28T03:04:09.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\ERPEmailAddress\OnAfterDelete.method.xml" timeStamp="2015-05-28T03:04:09.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\ERPEmailAddress\OnAfterInsert.method.xml" timeStamp="2015-05-28T03:04:09.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\ERPEmailAddress\OnAfterUpdate.method.xml" timeStamp="2015-05-28T03:04:09.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\ERPEmailAddress\OnBeforeDelete.method.xml" timeStamp="2015-05-28T03:04:09.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\ERPEmailAddress\OnBeforeInsert.method.xml" timeStamp="2015-05-28T03:04:09.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\ERPEmailAddress\OnBeforeUpdate.method.xml" timeStamp="2015-05-28T03:04:09.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\ERPEmailAddress\OnCreate.method.xml" timeStamp="2015-05-28T03:04:09.0000" />
+</exportedFiles>

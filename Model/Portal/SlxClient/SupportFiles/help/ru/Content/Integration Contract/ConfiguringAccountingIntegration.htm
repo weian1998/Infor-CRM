@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:fileTags="Translation Status.Support files" MadCap:tocPath="Администрирование|Интеграция|Интеграция Учета" MadCap:medium="non-print" MadCap:InPreviewMode="false" MadCap:PreloadImages="false" MadCap:RuntimeFileType="Topic" MadCap:TargetType="WebHelp" lang="ru" xml:lang="ru" MadCap:conditions="Output.IntegrationContract" MadCap:PathToHelpSystem="../../" MadCap:HelpSystemFileName="WebClient.xml" MadCap:SearchType="Stem">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Настройка Интеграции Учета Х3</title>
+        <link href="../SkinSupport/Slideshow.css" rel="stylesheet" />
+        <link href="../SkinSupport/MadCap.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/Infor.CSS" rel="stylesheet" />
+        <script src="../SkinSupport/jquery.min.js">
+        </script>
+        <script src="../SkinSupport/MadCapAll.js">
+        </script>
+        <script src="../SkinSupport/MadCapTopicAll.js">
+        </script>
+    </head>
+    <body>
+        <h1><a name="kanchor63"></a>Настройка Интеграции Учета Х3</h1>
+        <p>Выполните следующие задачи для настройки Интеграции учета. Х3</p>
+        <ol>
+            <li value="1">
+                <p>Если работает поддержка мультивалютности, убедитесь, что <span class="MyVariablesCompanyNameShort">Infor</span> и ваша учетная система имеют одинаковую основную валюту.</p>
+            </li>
+            <li value="2">Запустите <a href="../../../Integration Contract/Account_Integration_Phone_Email_Utility.htm">SLXConversionUtility.exe</a>.<br />Необходима поддержка одной или всех интеграций.</li>
+            <table wrapperparagraphselector="P" style="width: 80%;margin-top: 14pt;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" width="80%">
+                <col style="width: 78px;" />
+                <col />
+                <tr>
+                    <td style="padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top">
+                        <p class="Topic-Text-Indent" style="text-align: center;">
+                            <img src="../image/note.gif" />
+                        </p>
+                    </td>
+                    <td style="width: 90%;padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top" width="90%">
+                        <p class="Tip-Note-Text" style="margin-bottom: 0;">Проверка подлинности Windows должна быть настроена для пользователя с правами администратора перед запуском Утилиты обновления телефонов и E-mail. Дополнительные сведения см. в разделе «Использование проверки подлинности Windows» в разделе справки Администратора.</p>
+                    </td>
+                </tr>
+            </table>
+            <li value="3">
+                <p><a href="../Integrations/SData_Detail_view.htm">Настройте синхронизацию<span class="MyVariablesCompanyNameFull">Infor</span> SData</a>.<br />Необходима поддержка одной или всех интеграций.</p>
+            </li>
+            <li value="4">
+                <p><a href="../Integrations/Integrations_List_View.htm">В списочном представлении интеграции</a> <span class="SLXBold"> выберите X3</span>.
+</p>
+            </li>
+            <li value="5">
+                <p>Просмотрите информационные поля.</p>
+            </li>
+            <li value="6">
+                <p>В поле  <span class="SLXBold">Тип ссылки</span> убедитесь, что выбрано <span class="SLXBold">Система</span>.</p>
+            </li>
+            <li value="7">
+                <p>Установите <span class="SLXBold">Включить</span>. </p>
+            </li>
+            <li value="8">
+                <p>Настройте синхронизацию.
+</p>
+                <ol>
+                    <li value="1">В поле <span class="SLXBold">Каждая синхронизация</span>введите количество минут, которое должно пройти между началом циклов синхронизации.</li>
+                    <li value="2">В поле <span class="SLXBold"> Запуск синхронизации между</span> нажмите кнопку кнопку  <span class="MCExpanding_0"><a href="javascript:void(0);" class="MCExpandingHead_0" onclick="FMCExpand( this ); return false;">Календарь<img style="border: none;margin-left: 5px;" src="../SkinSupport/ExpandClosed.gif" MadCap:altsrc="../SkinSupport/ExpandOpen.gif" onload="if ( typeof( FMCPreloadImage ) == 'function' ) { FMCPreloadImage( '../SkinSupport/ExpandOpen.gif' ); }" alt="Closed" MadCap:alt2="Open" class="MCExpandingIcon" /></a><span class="MCExpandingBody_0" style="display: none;"><img src="../image/calendar.gif" /></span></span>  и выберите время начала и время завершения периода, в течение которого синхронизация должна произойти. <span class="MyVariablesCompanyNameFull">Infor</span> рекомендует выбирать период, который не приходится на полночь. </li>
+                </ol>
+            </li>
+            <li value="9">Нажмите  <span class="MCExpanding_0"><a href="javascript:void(0);" class="MCExpandingHead_0" onclick="FMCExpand( this ); return false;">Сохранить<img style="border: none;margin-left: 5px;" src="../SkinSupport/ExpandClosed.gif" MadCap:altsrc="../SkinSupport/ExpandOpen.gif" onload="if ( typeof( FMCPreloadImage ) == 'function' ) { FMCPreloadImage( '../SkinSupport/ExpandOpen.gif' ); }" alt="Closed" MadCap:alt2="Open" class="MCExpandingIcon" /></a><span class="MCExpandingBody_0" style="display: none;"><img src="../image/update.gif" /></span></span></li>
+            <li value="10">На закладке Ссылки нажмите кнопку <span class="MCExpanding_0"><a href="javascript:void(0);" class="MCExpandingHead_0" onclick="FMCExpand( this ); return false;">Добавить ссылку<img style="border: none;margin-left: 5px;" src="../SkinSupport/ExpandClosed.gif" MadCap:altsrc="../SkinSupport/ExpandOpen.gif" onload="if ( typeof( FMCPreloadImage ) == 'function' ) { FMCPreloadImage( '../SkinSupport/ExpandOpen.gif' ); }" alt="Closed" MadCap:alt2="Open" class="MCExpandingIcon" /></a><span class="MCExpandingBody_0" style="display: none;"><img src="../image/add.gif" /></span></span>.</li>
+            <ol>
+                <li value="1">В поле <span class="SLXBold">URL</span>, введите SData URL, который <span class="MyVariablesCompanyNameFull">Infor</span> использует для обмена информацией между системами. </li>
+                <ul>
+                    <li value="1">Воспользуйтесь одним из следующих форматов:<ul><li value="1">Если ваша реализация не использует порт по умолчанию (порт 80), используйте формат: http://server:port/sdatavirtualdir/<i>application</i>/<i>contract</i>/<i>dataset</i>/</li><li value="2">  Если ваша реализация использует порт 80, не указывать номер порта из URL.<br />Синхронизация служба автоматически удаляет порт по умолчанию из URL, который вызывает соответствующие вопросы и ошибки. Избежать этого можно, используя формат: http://server/sdatavirtualdir/<i>application</i>/<i>contract</i>/<i>dataset</i>/</li></ul></li>
+                    <li value="2">Замените значения, предоставляемые партнером по интеграции:<ul><li value="1">&#160;<i>Sdatavirtualdir</i> - Например, sdata.
+</li><li value="2"><p>&#160;<i>application</i> - наименование системы учета. Например, accounts50.
+</p></li><li value="3">&#160;<i>contract</i> - имя контакта. Например, GCRM.
+</li><li value="4">&#160;<i>dataset</i> - различает набор данных или рабочей компании. Например, / - /</li></ul></li>
+                </ul>
+                <li value="2">В поле <span class="SLXBold">Отображаемое имя</span> введите краткое, но понятное наименование. Г</li>
+                <li value="3">В поле <span class="SLXBold">Имя пользователя</span>введите имя пользователя для URL.</li>
+                <li value="4">В поле <span class="SLXBold">Пароль</span> введите пароль для URL.</li>
+                <li value="5">
+                    <p>Нажмите кнопку <span class="SLXBold">Тестировать ссылку</span>и просмотрите информацию в поле <span class="SLXBold">Статус</span>.<br />Если канал протестирован не успешно, ознакомьтесь с информацией о ссылке, внесите необходимые изменения и проверьте ссылку снова.</p>
+                </li>
+                <li value="6">Нажмите <span class="SLXBold">OK</span>.</li>
+            </ol>
+            <li value="11"><a href="../Integrations/Integrations_Manage_Schema.htm">Сопоставьте схему БД</a> <span class="MyVariablesCompanyNameFull">Infor</span> со схемой источника интеграции для обеспечения целостности данных.
+</li>
+            <table wrapperparagraphselector="P" style="width: 80%;margin-top: 14pt;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" width="80%">
+                <col style="width: 45px;" />
+                <col />
+                <tr>
+                    <td style="padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top">
+                        <p align="center" class="Topic-Text-Indent">
+                            <img src="../image/note.gif" />
+                        </p>
+                    </td>
+                    <td style="width: 90%;padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top" width="90%">
+                        <p class="Tip-Note-Text" style="margin-bottom: 0;">Если вы создавали пользовательские сущности, которые не соответствуют <span class="MyVariablesCompanyNameShort">Infor</span>, синхронизация может не работать.</p>
+                    </td>
+                </tr>
+            </table>
+            <li value="12">Воспользуйтесь <a href="../Integrations/Integrations_Options_Tab.htm">закладкой Опции</a> для специальных настроек X3.<ol><li value="1"><p>Рядом с каждой опции, нажмите в столбце Значение и введите значение True, чтобы включить или False, чтобы отключить</p></li><ul><li value="1"><p>AccountingSystemManagesSO - Если True, удаляется возможность создать и отредактировать заказы на продажу в <span class="MyVariablesCompanyNameFull">Infor</span>. Должна использоваться система учета, чтобы управлять заказами на продажу.</p></li><li value="2">EnableEmailAuthentication - Если True, то проверки подлинности электронной почты используется для ограничения данных, которые можно увидеть или  проверить, что пользователь просмотрел. Некоторым системам учета может требоваться проверка подлинности электронной почты. После включения данной опции, необходимо изменить профиль каждого пользователя, чтобы включить адрес электронной почты, который соответствует адресу электронной почты пользователя в системе  учета.</li><li value="3">RestrictToSingleAccountingSystem - Если True, ограничивает вашу интеграцию  <span class="MyVariablesCompanyNameFull">Infor</span> с одной системой учета.</li></ul><li value="2">Нажмите  <span class="MCExpanding_0"><a href="javascript:void(0);" class="MCExpandingHead_0" onclick="FMCExpand( this ); return false;">Сохранить<img style="border: none;margin-left: 5px;" src="../SkinSupport/ExpandClosed.gif" MadCap:altsrc="../SkinSupport/ExpandOpen.gif" onload="if ( typeof( FMCPreloadImage ) == 'function' ) { FMCPreloadImage( '../SkinSupport/ExpandOpen.gif' ); }" alt="Closed" MadCap:alt2="Open" class="MCExpandingIcon" /></a><span class="MCExpandingBody_0" style="display: none;"><img src="../image/update.gif" /></span></span></li></ol></li>
+            <li value="13">В <a href="../Integrations/SData_Detail_view.htm">представлении Конфигурации Синхронизации SData</a> щелкните на <a href="../Integrations/Matching_Tab.htm">закладке Совпадения</a>.</li>
+            <ol>
+                <li value="1">Нажмите   <span class="SLXBold">Изменить</span> рядом с ресурса, чтобы установить глобальные критерии соответствия по умолчанию для пользователей создания ссылок.</li>
+                <li value="2">Выберите  <span class="SLXBold">Свойства</span> и <span class="SLXBold">Оператор</span>для критериев сравнения.</li>
+                <li value="3">Для добавления критериев сравнения нажмите <img src="../image/plus.gif" />.</li>
+                <li value="4">После того как закончите нажмите <span class="SLXBold">OK</span>.</li>
+            </ol>
+            <li value="14">Повторите шаг 13 для каждого ресурса.</li>
+            <li value="15">
+                <p>Настройте <a href="ConfiguringtIntSyncSvc.htm">синхронизацию службы Интеграции</a>. Необходима поддержка одной или всех интеграций.</p>
+            </li>
+            <li value="16">(Если необходимо), экспорт и <a href="../Manage/DedupWizard.htm">слияние записей </a> из вашей системы учета. 
+
+            </li>
+            <li value="17">Настройте <a href="../Admin_security/What_are_Roles_and_Secured_Actions.htm">роли пользователя</a> для интеграции.<ul><li value="1"><p>Роль интеграции блокирования цены контракта дает разрешение, чтобы зафиксировать цены продукта на заказ клиента.</p></li><li value="2"><p> Действия продвижения субъектов предоставляет пользователям права для продвижения субъектов и является частью роли обычного пользователя по умолчанию.</p></li></ul></li>
+        </ol>
+        <p class="RelatedTopics">Как выполнить?</p>
+        <p class="HowDoI"><a href="Accounting_Integration_Detail_View.htm" target="_self">Управление ссылками</a>
+        </p>
+        <p class="HowDoI"><a href="Accounting_Integration_Detail_View.htm" target="_self">Создать соединение между <span class="MyVariablesCompanyNameShort">Infor</span> и Учетной системой</a>
+        </p>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

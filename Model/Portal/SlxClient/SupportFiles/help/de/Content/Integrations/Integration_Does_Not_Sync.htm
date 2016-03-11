@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:fileTags="Translation Status.Support files" xml:lang="de" MadCap:tocPath="" MadCap:medium="non-print" MadCap:InPreviewMode="false" MadCap:PreloadImages="false" MadCap:RuntimeFileType="Topic" MadCap:TargetType="WebHelp" lang="de" MadCap:conditions="Output.WebClient" MadCap:PathToHelpSystem="../../" MadCap:HelpSystemFileName="WebClient.xml" MadCap:SearchType="Stem">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Fehlerbehebung bei der Integration - Informationen werden nicht synchronisiert</title>
+        <link href="../SkinSupport/Slideshow.css" rel="stylesheet" />
+        <link href="../SkinSupport/MadCap.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/Infor.CSS" rel="stylesheet" />
+        <script src="../SkinSupport/jquery.min.js">
+        </script>
+        <script src="../SkinSupport/MadCapAll.js">
+        </script>
+        <script src="../SkinSupport/MadCapTopicAll.js">
+        </script>
+    </head>
+    <body>
+        <h1><a name="kanchor527"></a>Fehlerbehebung bei der Integration - Informationen werden nicht synchronisiert</h1>
+        <p>Beim Synchronisieren von Informationen zwischen <span class="MyVariablesProduct Name">Infor CRM</span> und unterstützten Buchhaltungsanwendungen können folgende Probleme auftreten.</p>
+        <p class="Infinitive">Problem:</p>
+        <p>Informationen aus der Buchhaltungsintegration werden nicht synchronisiert</p>
+        <p class="Infinitive">Lösungen:</p>
+        <ul>
+            <li value="1">Überprüfen Sie, ob in der Tabelle <span class="SLXBold">SUN-ÜBERSICHT</span> der Wert des Felds <span class="SLXBold">ABHAKUNGSZEICHEN</span> erhöht wird. <a href="javascript:void(0);" onclick="FMCToggler( this ); return false;" class="MCToggler_0" MadCap:targets="TICK">Weitere Informationen...<img style="border: none;margin-left: 5px;" src="../SkinSupport/DropDownClosed.gif" MadCap:altsrc="../SkinSupport/DropDownOpen.gif" onload="if ( typeof( FMCPreloadImage ) == 'function' ) { FMCPreloadImage( '../SkinSupport/DropDownOpen.gif' ); }" alt="Closed" MadCap:alt2="Open" class="MCTogglerIcon" /></a><ol style="list-style-type: lower-alpha; display: none;" MadCap:targetName="TICK"><li value="1">Öffnen Sie in der Datenbank die Tabelle <span class="SLXBold">SYNC-ÜBERSICHT</span>. </li><li value="2">Suchen Sie das Feld <span class="SLXBold">ANWENDUNGS-ID</span>&#160;für die entsprechende Ressource, und notieren Sie sich den Wert im Feld <span class="SLXBold">ABHAKUNGSZEICHEN</span>. </li><li value="3">Kontrollieren Sie nach der nächsten Synchronisierung, ob sich der Wert im Feld <span class="SLXBold">ABHAKUNGSZEICHEN</span> erhöht hat.</li></ol></li>
+            <li value="2">Aktivieren Sie die zusätzliche Protokollierung im ContractSyncTrigger. <a href="javascript:void(0);" onclick="FMCToggler( this ); return false;" class="MCToggler_0" MadCap:targets="Trigger">Weitere Informationen...<img style="border: none;margin-left: 5px;" src="../SkinSupport/DropDownClosed.gif" MadCap:altsrc="../SkinSupport/DropDownOpen.gif" onload="if ( typeof( FMCPreloadImage ) == 'function' ) { FMCPreloadImage( '../SkinSupport/DropDownOpen.gif' ); }" alt="Closed" MadCap:alt2="Open" class="MCTogglerIcon" /></a><ol MadCap:targetName="Trigger" style="list-style-type: lower-alpha; display: none;"><li value="1">Öffnen Sie den Registrierungs-Editor, und stellen Sie sicher, dass der Schlüssel <span class="SLXBold">HKEY_CURRENT_USER\Software\<span class="MyVariablesCompanyNameLegacyBigL">SalesLogix</span>\Logging</span> vorhanden ist. Ist dies nicht der Fall, erstellen Sie einen neuen Schlüssel namens <span class="SLXBold">Logging</span>. </li><li value="2">Fügen Sie einen Registrierungs-Zeichenfolgenwert namens <span class="SLXBold">Debug</span> hinzu.</li></ol></li>
+            <li value="3">Sehen Sie sich protokollierte Fehler, Warnungen und Debug-Meldungen an. <a href="javascript:void(0);" onclick="FMCToggler( this ); return false;" class="MCToggler_0" MadCap:targets="log items tab">Weitere Informationen...<img style="border: none;margin-left: 5px;" src="../SkinSupport/DropDownClosed.gif" MadCap:altsrc="../SkinSupport/DropDownOpen.gif" onload="if ( typeof( FMCPreloadImage ) == 'function' ) { FMCPreloadImage( '../SkinSupport/DropDownOpen.gif' ); }" alt="Closed" MadCap:alt2="Open" class="MCTogglerIcon" /></a><ul MadCap:targetName="log items tab" style="display: none;"><li value="1">Öffnen Sie die <a href="Sync_Job_Detail_View.htm">Detailansicht "Sync-Aufträge"</a>, öffnen Sie die <a href="Log_Items_Tab.htm">Registerkarte "Protokollelemente"</a>, und filtern Sie nach <span class="SLXBold">Protokolltyp</span>, um Fehler, Warnungen oder Debug-Meldungen anzuzeigen.</li></ul></li>
+            <li value="4">In der <a href="SyncHistoryDetailView.htm">Detailansicht "Sync-Historie"</a> können Sie sich detaillierte Informationen zu einem Synchronisierungsauftragselement ansehen.</li>
+        </ul>
+        <p class="RelatedTopics">Verwandte Themen</p>
+        <p MadCap:conditions="Output.WebClient"><a href="../Common/slxtroubleshooting.htm" target="_self">Beheben gängiger Fehler</a>
+        </p>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

@@ -1,0 +1,162 @@
+.dojoxPortlet {
+	margin-bottom: 5px;
+}
+
+.dojoxPortlet .dijitTitlePaneTitle .dojoxPortletIcon {
+	width: 15px;
+	height: 15px;
+	float: right;
+	cursor: pointer;
+	background-repeat: no-repeat;
+}
+.tundra .dojoxPortlet-movable .dijitTitlePaneTitle,
+.soria .dojoxPortlet-movable .dijitTitlePaneTitle,
+.nihilo .dojoxPortlet-movable .dijitTitlePaneTitle {
+	cursor: move;
+}
+.dojoxPortlet .dijitTitlePaneTitle {
+	/*font-weight: bold;*/
+	font-size: 0.9em;
+}
+
+.soria .dojoxPortlet .dijitTitlePaneTitle {
+	color: #243C5F;
+}
+.tundra .dojoxPortlet .dijitTitlePaneTitle,
+.nihilo .dojoxPortlet .dijitTitlePaneTitle {
+	color: #333;
+}
+.dojoxPortlet-nonmovable .dijitTitlePaneTitle {
+	cursor: default;
+}
+
+.tundra .dojoxPortlet .dojoxPortletIcon {
+	background-image: url("../../../Libraries/dojo/dijit/themes/tundra/images/spriteRoundedIconsSmall.gif");
+}
+.soria .dojoxPortlet .dojoxPortletIcon {
+	background-image: url("../../../Libraries/dojo/dijit/themes/soria/images/spriteRoundedIconsSmall.gif");
+}
+.nihilo .dojoxPortlet .dojoxPortletIcon {
+	background-image: url("../../../Libraries/dojo/dijit/themes/nihilo/images/spriteRoundedIconsSmall.gif");
+}
+.inforSoHoXi .dojoxPortlet .dojoxPortletIcon {
+	background-image: url("../../../Libraries/dojo/dijit/themes/tundra/images/spriteRoundedIconsSmall.gif");
+}
+.dojoxPortlet .dojoxCloseNode {
+	background-position: right 0px;
+}
+.dojoxPortlet .dojoxCloseNodeHover {
+	background-position: right -15px;
+}
+
+.tundra .dojoxPortlet .dijitOpen .dojoxArrowDown,
+.soria .dojoxPortlet .dijitOpen .dojoxArrowDown,
+.nihilo .dojoxPortlet .dijitOpen .dojoxArrowDown,
+.inforSoHoXi .dojoxPortlet .dijitOpen .dojoxArrowDown{
+	background-position: -15px top;
+}
+.tundra .dojoxPortlet .dijitClosed .dojoxArrowDown,
+.soria .dojoxPortlet .dijitClosed .dojoxArrowDown,
+.nihilo .dojoxPortlet .dijitClosed .dojoxArrowDown,
+.inforSoHoXi .dojoxPortlet .dijitClosed .dojoxArrowDown {
+	background-position: 0 top;
+}
+
+.tundra .dojoxPortlet .dojoxPortletSettingsIcon,
+.soria .dojoxPortlet .dojoxPortletSettingsIcon,
+.nihilo .dojoxPortlet .dojoxPortletSettingsIcon,
+.inforSoHoXi .dojoxPortlet .dojoxPortletSettingsIcon {
+	background-image: url(../../../Libraries/dojo/dojox/widget/Portlet/images/icons.png);
+	background-position: 0 1px;
+}
+.tundra .dojoxPortletSettingsContainer,
+.soria .dojoxPortletSettingsContainer,
+.nihilo .dojoxPortletSettingsContainer,
+.inforSoHoXi .dojoxPortletSettingsContainer {
+	border-bottom: 1px solid #d2d2d2;
+	padding: 4px;
+}
+.tundra .dijitDialogPaneContent .dojoxPortletSettingsContainer,
+.soria .dijitDialogPaneContent .dojoxPortletSettingsContainer,
+.nihilo .dijitDialogPaneContent .dojoxPortletSettingsContainer,
+.inforSoHoXi .dijitDialogPaneContent .dojoxPortletSettingsContainer {
+	border-bottom: none;
+}
+
+.tundra .dijitDialogPaneContent .dojoxPortletSettingsContainer,
+.soria .dijitDialogPaneContent .dojoxPortletSettingsContainer,
+.nihilo .dijitDialogPaneContent .dojoxPortletSettingsContainer {
+	border-bottom: none;
+}
+
+
+.soria .dojoDndItemOver .dojoxPortletTitle {
+	border-top: 1px solid #d2d2d2;
+	border-left: 1px solid #d2d2d2;
+	border-right: 1px solid #d2d2d2;
+}
+.soria .dojoDndItemOver .dojoxPortletContentOuter {
+  border-bottom: 1px solid #d2d2d2;
+	border-left: 1px solid #d2d2d2;
+	border-right: 1px solid #d2d2d2;
+}
+
+.dojoxPortlet div.dojoxPortletContentOuter {
+    border-radius: 0 0 4px 4px;
+	/*background: #fff url(../../../dijit/themes/tundra/images/validationInputBg.gif) repeat-x top left;*/
+}
+
+.dojoxFeedPortletList {
+	padding-left: 25px;
+	margin: 0px;
+}
+.dojoxFeedPortletExpandableList {
+	padding-left: 0px;
+	margin: 0px;
+}
+.dojoxFeedPortletExpandableList li {
+	margin-bottom: 5px;
+}
+.dojoxFeedPortletList li {
+	padding-top: 4px;
+}
+.dojoxFeedPortletPreview {
+	max-height: 300px;
+	max-width: 400px;
+	overflow: hidden;
+}
+.dojoxFeedPortletPreview * {
+	max-height: 295px;
+	max-width: 395px;
+}
+.dojoxPortletFeedSettings {
+	padding: 5px;
+	border-bottom: 1px solid #d2d2d2;
+}
+.dojoxFeedPortletExpandableList {
+	list-style: none;
+}
+.dojoxPortletToggleIcon {
+	margin-right: 6px;
+	cursor: pointer;
+}
+.dojoxPortletToggleIcon img {
+	width: 15px;
+	height: 14px;
+}
+.dojoxPortletItemCollapsed .dojoxPortletToggleIcon {
+	background: url(/Libraries/dojo/dijit/themes/tundra/images/plusButton.gif) no-repeat 0 0;
+}
+.dojoxPortletItemOpen .dojoxPortletToggleIcon {
+	background: url(/Libraries/dojo/dijit/themes/tundra/images/minusButton.gif) no-repeat 0 0;
+}
+.dojoxPortletItemSummary {
+	margin-left: 20px;
+}
+.dojoxPortletItemCollapsed .dojoxPortletItemSummary {
+  display: none;
+}
+.dojoxPortletItemOpen .dojoxPortletItemSummary {
+  display: block;
+}
+

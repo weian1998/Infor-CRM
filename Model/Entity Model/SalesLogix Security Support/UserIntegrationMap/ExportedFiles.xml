@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Entity Model\SalesLogix Security Support\UserIntegrationMap\OnAfterDelete.method.xml" timeStamp="2015-05-28T03:04:43.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Security Support\UserIntegrationMap\OnAfterInsert.method.xml" timeStamp="2015-05-28T03:04:43.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Security Support\UserIntegrationMap\OnAfterUpdate.method.xml" timeStamp="2015-05-28T03:04:43.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Security Support\UserIntegrationMap\OnBeforeDelete.method.xml" timeStamp="2015-05-28T03:04:43.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Security Support\UserIntegrationMap\OnBeforeInsert.method.xml" timeStamp="2015-05-28T03:04:43.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Security Support\UserIntegrationMap\OnBeforeUpdate.method.xml" timeStamp="2015-05-28T03:04:43.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Security Support\UserIntegrationMap\OnCreate.method.xml" timeStamp="2015-05-28T03:04:43.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Security Support\UserIntegrationMap\SetUserIntegrationMapEnabledState.method.xml" timeStamp="2015-05-28T03:04:43.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Security Support\UserIntegrationMap\UserIntegrationMap.USERINTEGRATIONMAP.entity.xml" timeStamp="2015-05-28T03:04:43.0000" />
+</exportedFiles>

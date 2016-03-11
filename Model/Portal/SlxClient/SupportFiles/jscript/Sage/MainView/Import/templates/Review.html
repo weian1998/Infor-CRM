@@ -1,0 +1,44 @@
+﻿<div>
+    <div data-dojo-type="dijit.Dialog" title="{%= $._nlsResources.dlgMapFields_Title %}" data-dojo-attach-point="_dialog" data-dojo-attach-event="onCancel:_btnCancel_OnClick" style="width: 625px">
+        <div data-dojo-type="dijit.form.Form">
+            <div class="crystalParameterContainer">
+                <label class="wizardHeaderText">{%= $._nlsResources.txtHeader_Caption %}</label>
+                <br/>
+                <div style="padding-left: 5px">
+                    <label data-dojo-attach-point="previewFileName"></label>
+                </div>
+                <div style="padding-left: 5px">
+                    <label data-dojo-attach-point="previewImportDataMode"></label>
+                </div>
+                <div style="padding-left: 5px">
+                    <label data-dojo-attach-point="previewRecordCount"></label>
+                </div>
+                <div style="padding-left: 5px">
+                    <label data-dojo-attach-point="previewAdHocGroup"></label>
+                </div>
+            </div>
+            <br/>
+            <div class="crystalParameterContainer">
+                <table cellspacing="10">
+                    <tr>
+                        <td>
+                            <label>{%= $.lstTemplate_Caption %}</label>
+                        </td>
+                        <td>
+                            <div data-dojo-type="dijit.layout.ContentPane" data-dojo-attach-point="templates_Container"></div>
+                        </td>
+                    </tr>
+                </table>
+                <div>
+                    <div data-dojo-type="dijit.form.Button" data-dojo-attach-point="btnSaveTemplate" data-dojo-attach-event="onClick:_btnSaveTemplate_OnClick" >{%= Sage.Utility.htmlEncode($._nlsResources.btnSaveTemplate_Caption) %}</div>
+                    <div data-dojo-type="dijit.form.Button" data-dojo-attach-point="btnSaveAsTemplate" data-dojo-attach-event="onClick:_btnSaveAsTemplate_OnClick" >{%= Sage.Utility.htmlEncode($._nlsResources.btnSaveAsTemplate_Caption) %}</div>
+                </div>
+            </div>
+            <div align="right" style="margin-top:10px">
+                <div data-dojo-type="dijit.form.Button" data-dojo-attach-point="btnBack" data-dojo-attach-event="onClick:_btnBack_OnClick" >{%= Sage.Utility.htmlEncode($.btnBack_Caption) %}</div>
+                <div data-dojo-type="dijit.form.Button" data-dojo-attach-point="btnFinish" data-dojo-attach-event="onClick:_btnFinish_OnClick">{%= Sage.Utility.htmlEncode($.btnFinish_Caption) %}</div>
+                <div data-dojo-type="dijit.form.Button" data-dojo-attach-point="btnCancel" data-dojo-attach-event="onClick:_btnCancel_OnClick" style="margin-left:5px;">{%= Sage.Utility.htmlEncode($.btnCancel_Caption) %}</div>
+            </div>
+        </div>
+    </div>
+</div>

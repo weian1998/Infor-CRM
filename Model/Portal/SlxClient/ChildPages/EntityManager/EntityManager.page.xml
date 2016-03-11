@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<PortalPage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="ae388431-f6df-4364-8a0f-38b0bf73f42e">
+  <PageAlias>EntityManager</PageAlias>
+  <TemplateUrl>Masters\base.master</TemplateUrl>
+  <InheritTemplate>false</InheritTemplate>
+  <InheritsFrom>Sage.Platform.WebPortal.WebPortalPage, Sage.Platform.WebPortal</InheritsFrom>
+  <Properties />
+  <TemplateProperties />
+  <IsDefaultPage>false</IsDefaultPage>
+  <ExcludedGlobalModules />
+  <AppliedSecurity />
+  <IncludeScript />
+</PortalPage>

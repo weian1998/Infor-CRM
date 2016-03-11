@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<SmartPartMapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="1a8ff6e6-915e-483e-9f96-594aaa0053a9">
+  <SmartPartId>LiveGroupViewer</SmartPartId>
+  <ReferencedModelId>00000000-0000-0000-0000-000000000000</ReferencedModelId>
+  <SmartPart>SmartParts\GroupBuilder\LiveGroupViewer.ascx</SmartPart>
+  <TargetWorkspace>MainContent</TargetWorkspace>
+  <ShowInMode>List</ShowInMode>
+  <Properties>
+    <Property Name="ListContextMenu" TypeConverter="">IntegrationListContextMenu</Property>
+    <Property Name="HelpTopic" TypeConverter="">integrationlistview</Property>
+  </Properties>
+  <AllowRoles />
+</SmartPartMapping>

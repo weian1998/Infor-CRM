@@ -1,0 +1,11 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\ERPSalesOrder\ERPSalesOrder.SalesOrder.ERPSALESORDER.entity.xml" timeStamp="2015-05-28T03:04:09.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\ERPSalesOrder\OnAfterDelete.method.xml" timeStamp="2015-05-28T03:04:09.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\ERPSalesOrder\OnAfterInsert.method.xml" timeStamp="2015-05-28T03:04:09.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\ERPSalesOrder\OnAfterUpdate.method.xml" timeStamp="2015-05-28T03:04:09.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\ERPSalesOrder\OnBeforeDelete.method.xml" timeStamp="2015-05-28T03:04:09.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\ERPSalesOrder\OnBeforeInsert.method.xml" timeStamp="2015-05-28T03:04:09.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\ERPSalesOrder\OnBeforeUpdate.method.xml" timeStamp="2015-05-28T03:04:09.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\ERPSalesOrder\OnCreate.method.xml" timeStamp="2015-05-28T03:04:09.0000" />
+</exportedFiles>

@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:fileTags="Translation Status.Support files" MadCap:tocPath="" MadCap:medium="non-print" MadCap:InPreviewMode="false" MadCap:PreloadImages="false" MadCap:RuntimeFileType="Topic" MadCap:TargetType="WebHelp" lang="ru" xml:lang="ru" MadCap:conditions="Primary.Accelerator,Output.Customer Portal" MadCap:PathToHelpSystem="../../" MadCap:HelpSystemFileName="WebCustomerPortal.xml" MadCap:SearchType="Stem">
+    <!-- saved from url=(0016)http://localhost -->
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Создание запроса Where</title>
+        <link href="../Resources/TableStyles/TableStyle.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/Infor.CSS" rel="stylesheet" />
+        <script src="../SkinSupport/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapAll.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapTopicAll.js" type="text/javascript">
+        </script>
+    </head>
+    <body>
+        <h1>Создание запроса Where</h1>
+        <table wrapperparagraphselector="P" style="width: 80%;margin-top: 14pt;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" width="80%">
+            <col style="width: 45px;" />
+            <col />
+            <tr>
+                <td style="padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top">
+                    <p style="text-align: center;margin-bottom: 0;" align="center">
+                        <img src="../image/caution.gif" />
+                    </p>
+                </td>
+                <td style="width: 90%;padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top" width="90%">
+                    <p>Данная функция рекомендуется для использования продвинутым пользователям.</p>
+                </td>
+            </tr>
+        </table>
+        <p>Запрос Where используется для фильтрации информации из канала SData. Язык запросов SData используется для выражения условий фильтрации параметров запроса. Информация из канала SData защищена, так что пользователи могут видеть только записи, к которым они имеют разрешение на просмотр.</p>
+        <p>Синтаксис создания запроса специфический. Если синтаксис неправильный, Вы можете получить нежелательные результаты.</p>
+        <p>Для того, чтобы создать запрос Where, Вы должны знать следующее:</p>
+        <ul>
+            <li style="margin-bottom: 0;" value="1"> Ресурс, связанный виджет с Вашим каналом SData;</li>
+            <li value="2">
+                <p>Имя столбца, который содержит данные, которые необходимо фильтровать</p>
+            </li>
+            <table wrapperparagraphselector="P" style="width: 80%;margin-top: 14pt;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" width="80%">
+                <col style="width: 45px;" />
+                <col />
+                <tr>
+                    <td style="padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top">
+                        <p style="text-align: center;margin-bottom: 0;" align="center">
+                            <img src="../image/note.gif" />
+                        </p>
+                    </td>
+                    <td style="width: 90%;padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top" width="90%">
+                        <p class="Tip-Note-Text" style="margin-bottom: 0;">Данные не во всех столбцах могут быть отфильтрованы.</p>
+                    </td>
+                </tr>
+            </table>
+            <li value="3">
+                <p>Значения, которые Вы ищете;</p>
+            </li>
+            <li value="4">
+                <p>Какие существуют допустимые операторы SData;</p>
+            </li>
+            <li value="5">
+                <p>Текстовые значение должны быть между кавычками - (' ');</p>
+            </li>
+            <li value="6">
+                <p>Дата должна быть между символами @.</p>
+            </li>
+            <li value="7">
+                <p>Текстовый оператор должен находиться между (' ') и символом %.</p>
+            </li>
+        </ul>
+        <p class="Infinitive">Для создания запроса Where</p>
+        <ul>
+            <li value="1">В поле запроса куда в мастере настроек SData виджета, введите запрос Where с помощью соответствующего синтаксиса. Не включайте "where=".
+Например, AccountName eq 'State Enterprises Co.''</li>
+        </ul>
+        <p class="PageBreakAfter">&#160;</p>
+        <p class="subheading">Часто используемые фильтры: </p>
+        <p>Рассмотрим следующие примеры и предположим, что выбран ресурс Субъект.<br /></p>
+        <table style="mc-table-style: url('../Resources/TableStyles/TableStyle.css');margin-left: auto;margin-right: auto;" class="TableStyle-TableStyle" cellspacing="0">
+            <col class="TableStyle-TableStyle-Column-Column1" />
+            <col class="TableStyle-TableStyle-Column-Column1" />
+            <col class="TableStyle-TableStyle-Column-Column1" />
+            <col class="TableStyle-TableStyle-Column-Column1" />
+            <thead>
+                <tr class="TableStyle-TableStyle-Head-Header1">
+                    <th class="TableStyle-TableStyle-HeadE-Column1-Header1">Условия фильтрации данных</th>
+                    <th class="TableStyle-TableStyle-HeadE-Column1-Header1">Оператор запроса Where</th>
+                    <th class="TableStyle-TableStyle-HeadE-Column1-Header1">Пример</th>
+                    <th class="TableStyle-TableStyle-HeadD-Column1-Header1">Результат</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">equal
+равный</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1" rowspan="3">eq</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">CreditRating eq 'Good'
+Кредитный рейтинг равен «хорошо»</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Перечень Субъектов, у которых кредитный рейтинг равен "Хорошо".</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">compare two columns
+сравнить две колонки</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">CreateUser eq ModifyUser
+Создать учетную равную Измененный ползователь</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Список всех Субъектов, которые были модифицированы пользователем, который создал Субъекта.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">equals a date
+равна дате</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">year(CreateDate) eq 2008 and month(CreateDate) eq 06 and day(CreateDate) eq 14
+год (Дата создания) равен 2008 и месяц (Дата создания) равен 06 и день (Дата создания) равен 14</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Список всех Субъектов, созданных в указанный день, месяц и год.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">not equal
+не равно</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">ne</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Industry ne 'Services/Consulting'
+Отрасль не равна Услуги / Консалтинг</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Перечень Субъектов, у которых отрасль Услуги / Консалтинг.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">less than
+меньше</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">lt</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Revenue lt 5000000
+Выручка меньше 5000000</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Перечень Субъектов, с доходом менее 5 млн.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">less than или equal to
+меньше или равно</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">le</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">LastHistoryDate le @2012-01-01T00:00:01@
+Дата последней записи в историю меньше или равно 2012-01-01 00:00:01</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Список Субъектов, последние изменения которых производились до 1 января 2013 года включительно.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">greater than
+больше чем</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">gt</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Employees gt 100
+Количество сотрудников больше чем 100</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Список Субъектов, количество сотрудников больше чем 100.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">greater than или equal to
+больше или равно</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">ge</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">CreateDate ge @2013-01-01T00:00:00+00:01@
+Дата создания больше или равна 2013-01-01 00:00:00+00:01</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Список Субъектов, созданных после January 1st 2013 включительно.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">within a range
+в диапазоне</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">between</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">ShippingAddress.PostalCode between 60650 and 60699
+Почтовый индекс адреса доставки между 60650 и 60699</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Список Субъектов, у которых почтовый индекс адреса доставки между 60650 и 60699.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">in the set
+во множестве</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">in</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">CreditRating in ('Good', 'Fair', 'Poили')
+Кредитный рейтинг имеет значение из множества («хорошо», «справедливо», «плохо»)</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Список Субъектов, у которых кредитный рейтинг имеет значение из множества («хорошо», «справедливо», «плохо»).</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Not in the set
+не во множестве</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">not in</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Credit Rating not in ('Good', 'Fair', 'Poили')
+Кредитный рейтинг имеет значение отличающееся от представленных во множестве («хорошо», «справедливо», «плохо»)</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Список Субъектов, у которых кредитный рейтинг имеет значение отличающееся от «хорошо», «справедливо», «плохо»). </td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">contains
+содержит</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">like</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">BusinessDescription like '%subsidiary%'
+Описание бизнеса содержит "филиал"</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Список Субъектов, которые содержат "филиал" в их описании бизнеса.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">starts with (first character)
+начинается с (первый символ)</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">left(&lt;column&gt;,1) between</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">left(AccountName,1) between 'A' and 'C'
+Имя субъекта начинается с символа в диапазоне от А до С</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Список Субъектов, с именем, начинающимся с "A", "B" или "C".</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">starts with (first 2 characters)
+начинается с (первых два символа)</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">left(&lt;column&gt;,2) eq</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">left(AccountName,2) eq 'Ab'
+Имя субъекта начинается с символов 'Ab'</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Список Субъектов, с именем, начинающимся с "Ab".</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">starts with (first 3 characters)
+начинается с (первых три символа)</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">left(&lt;column&gt;,3) eq</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">left(MainPhone,3) eq 312
+Основной номер телефона начинается на 312.</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Список Субъектов, основной номер телефона которых начинается на 312.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyB-Column1-Body1">occurred within the last X days
+произошло в течение последних Х дней</td>
+                    <td class="TableStyle-TableStyle-BodyB-Column1-Body1">dateAdd(&lt;column&gt;,X) ge</td>
+                    <td class="TableStyle-TableStyle-BodyB-Column1-Body1">dateAdd(ModifyDate, 7) ge currentTimestamp
+</td>
+                    <td class="TableStyle-TableStyle-BodyA-Column1-Body1">Список Субъектов,изменных в течение последних 7 дней</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>Если канал SData не возращает данные, которые Вы ожидали, вот несколько распространенных ошибок:</p>
+        <ul>
+            <li value="1">Убедитесь, что запрос содержит (' '), а не (‘ ’)
+</li>
+            <li value="2">Убедитесь, что имя столбца написано верно. Имена столбцов чувствительны к регистру и берутся из базы данных, недостаточно имени которое отображается в представлениях. Например, AccountName а не Account или Account Name.
+</li>
+        </ul>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

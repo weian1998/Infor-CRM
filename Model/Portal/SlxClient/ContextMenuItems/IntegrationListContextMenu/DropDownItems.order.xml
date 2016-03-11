@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<ModelItems xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Item Id="0417517f-e082-47c4-9af8-020359583820">IlmNewAdHoc.contextmenu.xml</Item>
+  <Item Id="1a287952-6a36-4240-8ae0-637de5ce3731">IlmRemoveAdHoc.contextmenu.xml</Item>
+  <Item Id="f6f24a7a-20e8-4937-81eb-d1a70c8b7046">IlmAddAdHoc.contextmenu.xml</Item>
+</ModelItems>

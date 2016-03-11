@@ -1,0 +1,205 @@
+/* Button | DropDownButton | ComboButton | ToggleButton
+ * 
+ * Styling Buttons mainly includes:
+ * 
+ * 1. Containers
+ * 		.dijitButton
+ * 		.dijitDropDownButton
+ * 		.dijitComboButton
+ * 		.dijitButtonNode - common button/arrow wrapper shared across all three button types 
+ *
+ * 2. Button text
+ * 		.dijitButtonText
+ * 
+ * 3. Arrows - only for DropDownButton and ComboButton
+ * 	     There are total four directions arrows - down, left, right, up:
+ * 		.dijitArrowButtonInner - down arrow by default
+ *      .dijitLeftArrowButton .dijitArrowButtonInner - left arrow
+ *      .dijitRightArrowButton .dijitArrowButtonInner - right arrow
+ *      .dijitUpArrowButton .dijitArrowButtonInner - up arrow
+ * 
+ * 4. States - Hover, Active, Disabled, e.g.
+ * 		.dijitButtonHover .dijitButtonNode
+ * 		.dijitButtonActive .dijitButtonNode
+ * 		.dijitButtonDisabled .dijitButtonNode
+ *      
+ *      .dijitDisabled .dijitArrowButtonInner  - disabled arrow states 
+ */
+.inforSoHoXi .dijitButtonNode {
+  /* rules for dijit.form.*Button widgets and arrow nodes on ComboBox, Spinner etc. */
+  -webkit-transition-property: background-color;
+  -moz-transition-property: background-color;
+  transition-property: background-color;
+  -webkit-transition-duration: 0.3s;
+  -moz-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+.inforSoHoXi .dijitButton .dijitButtonNode,
+.inforSoHoXi .dijitDropDownButton .dijitButtonNode,
+.inforSoHoXi .dijitComboButton .dijitButtonNode,
+.inforSoHoXi .dijitToggleButton .dijitButtonNode {
+  padding: 0px 10px 10px 0px;
+  background-color: #999999;
+  color: #999999;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  -webkit-box-shadow: 0 -1px inset #737373;
+  -moz-box-shadow: 0 -1px inset #737373;
+  box-shadow: 0 -1px inset #737373;
+}
+.inforSoHoXi .dijitComboButton .dijitArrowButton {
+  border-left-width: 0;
+  padding: 4px 2px 4px 2px;
+  /* TODO: still needed? */
+}
+/*arrow styles for down/up/left/right directions*/
+.inforSoHoXi .dijitArrowButtonInner {
+  width: 15px;
+  height: 15px;
+  margin: 0 auto;
+  background-image: url("form/images/buttonArrows.png");
+  background-repeat: no-repeat;
+  background-position: -51px 53%;
+}
+.inforSoHoXi .dijitLeftArrowButton .dijitArrowButtonInner {
+  background-position: -77px 53%;
+}
+.inforSoHoXi .dijitRightArrowButton .dijitArrowButtonInner {
+  background-position: -26px 53%;
+}
+.inforSoHoXi .dijitUpArrowButton .dijitArrowButtonInner {
+  background-position: 0 53%;
+}
+.inforSoHoXi .dijitDisabled .dijitArrowButtonInner {
+  background-position: -151px 53%;
+}
+.inforSoHoXi .dijitDisabled .dijitLeftArrowButton .dijitArrowButtonInner {
+  background-position: -177px 53%;
+}
+.inforSoHoXi .dijitDisabled .dijitRightArrowButton .dijitArrowButtonInner {
+  background-position: -126px 53%;
+}
+.inforSoHoXi .dijitDisabled .dijitUpArrowButton .dijitArrowButtonInner {
+  background-position: -100px 53%;
+}
+.inforSoHoXi .dijitButtonText {
+  padding: 0 0.3em;
+  text-align: center;
+}
+/* hover status */
+.inforSoHoXi .dijitButtonHover .dijitButtonNode,
+.inforSoHoXi .dijitDropDownButtonHover .dijitButtonNode,
+.inforSoHoXi .dijitComboButton .dijitButtonNodeHover,
+.inforSoHoXi .dijitComboButton .dijitDownArrowButtonHover,
+.inforSoHoXi .dijitToggleButtonHover .dijitButtonNode {
+  background-color: #808080;
+  color: #ffffff;
+  -webkit-box-shadow: 0 -1px inset #595959;
+  -moz-box-shadow: 0 -1px inset #595959;
+  box-shadow: 0 -1px inset #595959;
+}
+/* active, checked status */
+.inforSoHoXi .dijitButtonActive .dijitButtonNode,
+.inforSoHoXi .dijitDropDownButtonActive .dijitButtonNode,
+.inforSoHoXi .dijitComboButtonActive .dijitButtonNode,
+.inforSoHoXi .dijitToggleButtonActive .dijitButtonNode,
+.inforSoHoXi .dijitStackController .dijitToggleButtonChecked .dijitButtonNode {
+  background-color: #737373;
+  -webkit-box-shadow: 0 1px 0 0 inset #595959;
+  -moz-box-shadow: 0 1px 0 0 inset #595959;
+  box-shadow: 0 1px 0 0 inset #595959;
+}
+/* disabled status */
+.inforSoHoXi .dijitButtonDisabled,
+.inforSoHoXi .dijitDropDownButtonDisabled,
+.inforSoHoXi .dijitComboButtonDisabled,
+.inforSoHoXi .dijitToggleButtonDisabled {
+  background-image: none;
+  outline: none;
+}
+.inforSoHoXi .dijitButtonDisabled .dijitButtonNode,
+.inforSoHoXi .dijitDropDownButtonDisabled .dijitButtonNode,
+.inforSoHoXi .dijitComboButtonDisabled .dijitButtonNode,
+.inforSoHoXi .dijitToggleButtonDisabled .dijitButtonNode {
+  background-position: 0 -149px;
+  background-color: #e5e5e5;
+  border: solid 1px #d2d2d2;
+  color: #737373;
+  -webkit-box-shadow: 0 -1px inset #e0e0e0;
+  -moz-box-shadow: 0 -1px inset #e0e0e0;
+  box-shadow: 0 -1px inset #e0e0e0;
+}
+.inforSoHoXi .dijitComboButtonDisabled .dijitArrowButton {
+  border-left-width: 0;
+}
+/* for ComboButton */
+.inforSoHoXi table.dijitComboButton {
+  border-collapse: separate;
+  /* override dijit.css so that ComboBox rounded corners work */
+}
+.inforSoHoXi div[id$="OpportunityDetailscontents"] .dijitComboBox,
+.inforSoHoXi .summaryGrid table.dijitComboButton {
+  border-collapse: separate;
+  /* override dijit.css so that ComboBox rounded corners work */
+  border: 1px solid #999;
+  height: 34px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+}
+.dj_ie6 .inforSoHoXi .dijitButtonNode {
+  background-image: none;
+}
+.inforSoHoXi .dijitComboButton .dijitStretch {
+  -moz-border-radius: 2px 0 0 2px;
+  border-radius: 2px 0 0 2px;
+}
+.inforSoHoXi .dijitComboButton .dijitArrowButton {
+  -moz-border-radius: 0 2px 2px 0;
+  border-radius: 0 2px 2px 0;
+}
+.EntityCard .dijitComboButton .dijitButtonNode {
+  padding: 5px 5px 5px 5px;
+  background-color: transparent;
+  border: none;
+}
+.dojoxGridMasterView .dijitUnifiedControlContainer {
+  border: 1px solid #737373;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+}
+.inforSoHoXi .transparentDropDown {
+  position: absolute !important;
+  border: none !important;
+  left: calc(100% - 43px) !important;
+}
+.inforSoHoXi .transparentDropDown .dijitButtonNode {
+  background-color: transparent!important;
+  padding: 0!important;
+  border: none !important;
+  box-shadow: none !important;
+}
+.inforSoHoXi .myIcon {
+  background-image: url("form/images/commonFormArrows.png") !important;
+  background-position: -35px 53% !important;
+  background-repeat: no-repeat !important;
+  width: 16px !important;
+  height: 16px !important;
+}
+.inforSoHoXi .floatNone {
+  float: none !important;
+}
+.inforSoHoXi .widthAuto {
+  width: auto !important;
+}
+.inforSoHoXi .dijitTooltipDialog {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+.inforSoHoXi .transparentDropDown .dijitButtonContents {
+  outline: 0 !important;
+}
+.inforSoHoXi .propertyDialog .dijitTooltipContainer {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+}

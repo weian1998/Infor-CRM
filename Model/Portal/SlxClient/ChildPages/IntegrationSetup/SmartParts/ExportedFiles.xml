@@ -1,0 +1,37 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\SlxClient\ChildPages\IntegrationSetup\SmartParts\AccountingSystems.smartpart.xml.de.resx" timeStamp="2015-05-28T03:05:16.0000" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\IntegrationSetup\SmartParts\AccountingSystems.smartpart.xml.fr.resx" timeStamp="2015-05-28T03:05:16.0000" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\IntegrationSetup\SmartParts\AccountingSystems.smartpart.xml.it.resx" timeStamp="2015-05-28T03:05:16.0000" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\IntegrationSetup\SmartParts\AccountingSystems.smartpart.xml.ru.resx" timeStamp="2015-05-28T03:05:16.0000" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\IntegrationSetup\SmartParts\AddEditAccountingSystem.smartpart.xml.de.resx" timeStamp="2015-05-28T03:05:16.0000" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\IntegrationSetup\SmartParts\AddEditAccountingSystem.smartpart.xml.fr.resx" timeStamp="2015-05-28T03:05:16.0000" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\IntegrationSetup\SmartParts\AddEditAccountingSystem.smartpart.xml.it.resx" timeStamp="2015-05-28T03:05:16.0000" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\IntegrationSetup\SmartParts\AddEditAccountingSystem.smartpart.xml.ru.resx" timeStamp="2015-05-28T03:05:16.0000" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\IntegrationSetup\SmartParts\Integrations.smartpart.xml" timeStamp="2015-05-28T03:05:16.0000" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\IntegrationSetup\SmartParts\Integrations.smartpart.xml.de.resx" timeStamp="2015-05-28T03:05:16.0000" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\IntegrationSetup\SmartParts\Integrations.smartpart.xml.fr.resx" timeStamp="2015-05-28T03:05:16.0000" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\IntegrationSetup\SmartParts\Integrations.smartpart.xml.it.resx" timeStamp="2015-05-28T03:05:16.0000" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\IntegrationSetup\SmartParts\Integrations.smartpart.xml.resx" timeStamp="2015-05-28T03:05:16.0000" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\IntegrationSetup\SmartParts\Integrations.smartpart.xml.ru.resx" timeStamp="2015-05-28T03:05:16.0000" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\IntegrationSetup\SmartParts\Matching.smartpart.xml" timeStamp="2015-05-28T03:05:16.0000" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\IntegrationSetup\SmartParts\Matching.smartpart.xml.de.resx" timeStamp="2015-05-28T03:05:16.0000" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\IntegrationSetup\SmartParts\Matching.smartpart.xml.fr.resx" timeStamp="2015-05-28T03:05:16.0000" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\IntegrationSetup\SmartParts\Matching.smartpart.xml.it.resx" timeStamp="2015-05-28T03:05:16.0000" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\IntegrationSetup\SmartParts\Matching.smartpart.xml.resx" timeStamp="2015-05-28T03:05:17.0000" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\IntegrationSetup\SmartParts\Matching.smartpart.xml.ru.resx" timeStamp="2015-05-28T03:05:17.0000" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\IntegrationSetup\SmartParts\SlxEndPointDetails.smartpart.xml" timeStamp="2015-05-28T03:05:16.0000" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\IntegrationSetup\SmartParts\SlxEndPointDetails.smartpart.xml.de.resx" timeStamp="2015-05-28T03:05:17.0000" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\IntegrationSetup\SmartParts\SlxEndPointDetails.smartpart.xml.fr.resx" timeStamp="2015-05-28T03:05:17.0000" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\IntegrationSetup\SmartParts\SlxEndPointDetails.smartpart.xml.it.resx" timeStamp="2015-05-28T03:05:17.0000" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\IntegrationSetup\SmartParts\SlxEndPointDetails.smartpart.xml.resx" timeStamp="2015-05-28T03:05:17.0000" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\IntegrationSetup\SmartParts\SlxEndPointDetails.smartpart.xml.ru.resx" timeStamp="2015-05-28T03:05:17.0000" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\IntegrationSetup\SmartParts\Synchronization.smartpart.xml.de.resx" timeStamp="2015-05-28T03:05:17.0000" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\IntegrationSetup\SmartParts\Synchronization.smartpart.xml.fr.resx" timeStamp="2015-05-28T03:05:17.0000" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\IntegrationSetup\SmartParts\Synchronization.smartpart.xml.it.resx" timeStamp="2015-05-28T03:05:17.0000" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\IntegrationSetup\SmartParts\Synchronization.smartpart.xml.ru.resx" timeStamp="2015-05-28T03:05:17.0000" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\IntegrationSetup\SmartParts\SyncJobConfirmation.smartpart.xml.de.resx" timeStamp="2015-05-28T03:05:17.0000" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\IntegrationSetup\SmartParts\SyncJobConfirmation.smartpart.xml.fr.resx" timeStamp="2015-05-28T03:05:17.0000" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\IntegrationSetup\SmartParts\SyncJobConfirmation.smartpart.xml.it.resx" timeStamp="2015-05-28T03:05:17.0000" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\IntegrationSetup\SmartParts\SyncJobConfirmation.smartpart.xml.ru.resx" timeStamp="2015-05-28T03:05:17.0000" />
+</exportedFiles>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\CustomSetting\CustomSetting.CUSTOMSETTINGS.entity.xml" timeStamp="2015-05-28T03:04:06.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\CustomSetting\OnAfterDelete.method.xml" timeStamp="2015-05-28T03:04:06.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\CustomSetting\OnAfterInsert.method.xml" timeStamp="2015-05-28T03:04:06.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\CustomSetting\OnAfterUpdate.method.xml" timeStamp="2015-05-28T03:04:06.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\CustomSetting\OnBeforeDelete.method.xml" timeStamp="2015-05-28T03:04:06.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\CustomSetting\OnBeforeInsert.method.xml" timeStamp="2015-05-28T03:04:06.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\CustomSetting\OnBeforeUpdate.method.xml" timeStamp="2015-05-28T03:04:06.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\CustomSetting\OnCreate.method.xml" timeStamp="2015-05-28T03:04:06.0000" />
+</exportedFiles>

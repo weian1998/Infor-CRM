@@ -1,0 +1,8 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\SlxClient\ContextMenuItems\OpportunityListContextMenu\ContextMenuItems\olmAddAdHoc\" />
+  <exportedFile url="\Portal\SlxClient\ContextMenuItems\OpportunityListContextMenu\ContextMenuItems\olmNewAdHoc\" />
+  <exportedFile url="\Portal\SlxClient\ContextMenuItems\OpportunityListContextMenu\ContextMenuItems\olmOpportunityStatistics\" />
+  <exportedFile url="\Portal\SlxClient\ContextMenuItems\OpportunityListContextMenu\ContextMenuItems\olmRemoveAdHoc\" />
+  <exportedFile url="\Portal\SlxClient\ContextMenuItems\OpportunityListContextMenu\ContextMenuItems\olmUpdateMultipleOpps\" />
+</exportedFiles>

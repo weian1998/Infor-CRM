@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:fileTags="Translation Status.Support files" MadCap:tocPath="Using Query Builder|Using Joins" MadCap:medium="non-print" MadCap:InPreviewMode="false" MadCap:PreloadImages="false" MadCap:RuntimeFileType="Topic" MadCap:TargetType="WebHelp" lang="en-us" xml:lang="en-us" MadCap:conditions="Output.WebClient,Output.Query Builder" MadCap:PathToHelpSystem="../../" MadCap:HelpSystemFileName="WebClient.xml" MadCap:SearchType="Stem">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Global Join Manager</title>
+        <link href="../SkinSupport/Slideshow.css" rel="stylesheet" />
+        <link href="../SkinSupport/MadCap.css" rel="stylesheet" />
+        <link href="../Resources/TableStyles/TableStyle.css" rel="stylesheet" />
+        <style>
+td ol,
+td ul
+{
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+</style>
+        <link href="../Resources/Stylesheets/Infor.CSS" rel="stylesheet" />
+        <script src="../SkinSupport/jquery.min.js">
+        </script>
+        <script src="../SkinSupport/MadCapAll.js">
+        </script>
+        <script src="../SkinSupport/MadCapTopicAll.js">
+        </script>
+    </head>
+    <body>
+        <p>&#160;</p>
+        <h1><a name="kanchor269"></a>Global Join Manager</h1>
+        <table wrapperparagraphselector="P" style="margin-top: 14pt;width: 98%;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" width="98%">
+            <col style="width: 43px;" />
+            <col style="width: 410px;" />
+            <tr>
+                <td style="padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top">
+                    <p style="text-align: center;margin-bottom: 0;" align="center">
+                        <img src="../image/adminonly.gif" />
+                    </p>
+                </td>
+                <td style="padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top"><span class="SLXBold">System Administrator Only</span>
+                </td>
+            </tr>
+        </table>
+        <table wrapperparagraphselector="P" style="margin-top: 14pt;border-spacing: 0px;border-spacing: 0px;" cellspacing="0">
+            <col />
+            <col />
+            <tr>
+                <td style="padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top">
+                    <p style="text-align: center;margin-bottom: 0;" align="center">
+                        <img src="../image/caution.gif" />
+                    </p>
+                </td>
+                <td style="padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top">
+                    <ul>
+                        <li class="Tip-Note-Text-Bulleted" value="1">Use 
+ extreme care when creating global joins, as it is possible to create a 
+ global join that can cause system performance problems.
+                        </li>
+                        <li class="Tip-Note-Text-Bulleted" value="2">By 
+ default, the ADDRESS table is joined to the ACCOUNT table via an Inner 
+ join. Do not change the properties of this join.
+                        </li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+        <p>The Global Join Manager displays all global joins in your <span class="MyVariablesProduct Name">Infor CRM</span> 
+ database, and permits the system administrator or administrative user 
+ to add, edit, and delete global joins as necessary. A global join is permanent 
+ and exists from session to session in the Query Builder data tree structure.</p>
+        <p><span class="MyVariablesProduct Name">Infor CRM</span> contains a series of predefined global joins (called 
+ system joins), which cannot be deleted. <MadCap:conditionalText MadCap:conditions="Output.WebClient">Anyone can use these predefined global joins by selecting a field in the Query  Builder and clicking the Global Join button. If a predefined join exists for this field, the option to view it displays in the
+shortcut menu as "Global Join To" with a table name specified.</MadCap:conditionalText> <![CDATA[ ]]></p>
+        <p>The Global Join Manager is only available if you are logged in as an  administrator.</p>
+        <p class="RelatedTopics">How Do I?</p>
+        <div class="MCDropDown">
+            <div class="MCDropDownHead_0"><a class="MCDropDownHotSpot_0" href="javascript:void(0);" id="MCDropDownHotSpot_986155422_0" onclick="FMCDropDown( this ); return false;">Open the Global Join Manager<img style="border: none;margin-left: 5px;" src="../SkinSupport/DropDownClosed.gif" MadCap:altsrc="../SkinSupport/DropDownOpen.gif" onload="if ( typeof( FMCPreloadImage ) == 'function' ) { FMCPreloadImage( '../SkinSupport/DropDownOpen.gif' ); }" alt="Closed" MadCap:alt2="Open" class="MCDropDownIcon" /></a>
+            </div>
+            <div class="MCDropDownBody" id="MCDropDownBody_986155422_0" style="display: none;">
+                <ol>
+                    <li value="1"><a href="../QueryBuilder/Opening_Query_Builder.htm">Open Query Builder</a>.</li>
+                </ol>
+                <ol>
+                    <li class="Topic-Text-Numbered" MadCap:conditions="Output.WebClient" value="2">Open the <a href="../QueryBuilder/Opening_Query_Builder.htm">Query Builder</a>, and then click the <span class="SLXBold">Global Joins</span> button.
+</li>
+                </ol>
+                <p class="Topic-Text-Indent" MadCap:conditions="Output.WebClient">This button only appears if you are logged on as Admin </p>
+            </div>
+        </div>
+        <p class="Topic-Text-Numbered"><a href="Add_a_Global_Join.htm">Add a Global Join</a> <![CDATA[ ]]></p>
+        <p class="Topic-Text-Numbered"><a href="Edit_a_Global_Join.htm">Edit a Global Join</a> <![CDATA[ ]]></p>
+        <p class="Topic-Text-Numbered"><a href="Delete_a_Global_Join.htm">Delete a Global Join</a>
+        </p>
+        <p class="Topic-Text-Numbered"><a href="Show_a_Global_Join.htm">Show a Global Join</a>
+        </p>
+        <p class="Topic-Text-Numbered"> <![CDATA[          ]]></p>
+        <p>The Global Join Manager displays the following fields:</p>
+        <table style="width: 90%;mc-table-style: url('../Resources/TableStyles/TableStyle.css');margin-left: 0;margin-right: auto;" class="TableStyle-TableStyle" cellspacing="0">
+            <thead>
+                <tr class="TableStyle-TableStyle-Head-Header1">
+                    <th class="TableStyle-TableStyle-HeadE-Column1-Header1">Field</th>
+                    <th class="TableStyle-TableStyle-HeadD-Column1-Header1">Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Sys</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">A system join that cannot be deleted.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">1:1</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Indicates a one-to-one relationship.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Parent Table, Parent Field</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">The main table and field in the join relationship.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Child Table, Child Field</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">The table and field joined to the Parent Table and Parent 
+ Field.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1"><a href="Join_Types.htm">Type</a>
+                    </td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">The type of join, such as <a href="Inner_joins.htm" target="_self">Inner</a>, <a href="Left_joins.htm" target="_self">Left</a>, or <a href="Right_joins.htm" target="_self">Right</a>.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1"><a href="Cascade_Options.htm">Cascade</a>
+                    </td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">How records are deleted through the join.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyB-Column1-Body1"><a href="Visibility_Options.htm">Visibility</a>
+                    </td>
+                    <td class="TableStyle-TableStyle-BodyA-Column1-Body1">How the join displays in Query Builder.</td>
+                </tr>
+            </tbody>
+        </table>
+        <p class="RelatedTopics">Related Topics</p>
+        <p><a href="../QueryBuilder/Using_SalesLogix_Query_Builder.htm" target="_self">Query Builder Overview</a>
+        </p>
+        <p><a href="Joining_Tables.htm">Joining Tables</a>
+        </p>
+        <p><a href="Join_Example.htm">Join Example</a>
+        </p>
+        <p><a href="Guidelines_for_Using_Joins.htm">Guidelines for Using Joins</a>
+        </p>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

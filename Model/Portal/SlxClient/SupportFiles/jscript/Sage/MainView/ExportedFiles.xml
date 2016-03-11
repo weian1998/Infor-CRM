@@ -1,0 +1,27 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\_BaseListPanelConfig.js" timeStamp="2015-05-28T03:08:56.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\ActivityManager.js" timeStamp="2015-05-28T03:08:56.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\BindingsManager.js" timeStamp="2015-05-28T03:08:56.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\EntityManager.js" timeStamp="2015-05-28T03:08:56.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\FormManager.js" timeStamp="2015-05-28T03:08:56.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\GroupManager.js" timeStamp="2015-05-28T03:08:56.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\JobManager.js" timeStamp="2015-05-28T03:08:57.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\main.js" timeStamp="2015-05-28T03:08:57.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\ReportManager.js" timeStamp="2015-05-28T03:08:57.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\SecurityManager.js" timeStamp="2015-05-28T03:08:57.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\Account\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\ActivityMgr\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\Contact\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\EntityMgr\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\GroupMgr\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\Import\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\IntegrationContract\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\JobMgr\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\Lead\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\nls\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\Opportunity\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\Options\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\ReportMgr\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\SecurityMgr\" />
+</exportedFiles>

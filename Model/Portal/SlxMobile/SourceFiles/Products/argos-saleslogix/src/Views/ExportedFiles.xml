@@ -1,0 +1,59 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\Products\argos-saleslogix\src\Views\_CardLayoutListMixin.js" timeStamp="2015-05-28T03:47:41.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\Products\argos-saleslogix\src\Views\_GroupListMixin.js" timeStamp="2015-05-28T03:47:41.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\Products\argos-saleslogix\src\Views\_MetricDetailMixin.js" timeStamp="2015-05-28T03:47:41.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\Products\argos-saleslogix\src\Views\_MetricListMixin.js" timeStamp="2015-05-28T03:47:41.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\Products\argos-saleslogix\src\Views\_RightDrawerBaseMixin.js" timeStamp="2015-05-28T03:47:41.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\Products\argos-saleslogix\src\Views\_RightDrawerListMixin.js" timeStamp="2015-05-28T03:47:41.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\Products\argos-saleslogix\src\Views\_SpeedSearchRightDrawerListMixin.js" timeStamp="2015-05-28T03:47:41.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\Products\argos-saleslogix\src\Views\AddAccountContact.js" timeStamp="2015-05-28T03:47:38.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\Products\argos-saleslogix\src\Views\AreaCategoryIssueLookup.js" timeStamp="2015-05-28T03:47:38.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\Products\argos-saleslogix\src\Views\Configure.js" timeStamp="2015-05-28T03:47:39.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\Products\argos-saleslogix\src\Views\ExchangeRateLookup.js" timeStamp="2015-05-28T03:47:39.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\Products\argos-saleslogix\src\Views\FooterToolbar.js" timeStamp="2015-05-28T03:47:39.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\Products\argos-saleslogix\src\Views\Help.js" timeStamp="2015-05-28T03:47:39.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\Products\argos-saleslogix\src\Views\Home.js" timeStamp="2015-05-28T03:47:39.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\Products\argos-saleslogix\src\Views\LeftDrawer.js" timeStamp="2015-05-28T03:47:39.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\Products\argos-saleslogix\src\Views\Login.js" timeStamp="2015-05-28T03:47:39.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\Products\argos-saleslogix\src\Views\LogOff.js" timeStamp="2015-05-28T03:47:39.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\Products\argos-saleslogix\src\Views\MainToolbar.js" timeStamp="2015-05-28T03:47:39.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\Products\argos-saleslogix\src\Views\MetricConfigure.js" timeStamp="2015-05-28T03:47:39.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\Products\argos-saleslogix\src\Views\MetricFilterLookup.js" timeStamp="2015-05-28T03:47:39.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\Products\argos-saleslogix\src\Views\MetricWidget.js" timeStamp="2015-05-28T03:47:39.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\Products\argos-saleslogix\src\Views\NameEdit.js" timeStamp="2015-05-28T03:47:39.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\Products\argos-saleslogix\src\Views\PickList.js" timeStamp="2015-05-28T03:47:40.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\Products\argos-saleslogix\src\Views\RelatedContextWidget.js" timeStamp="2015-05-28T03:47:40.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\Products\argos-saleslogix\src\Views\RelatedEditWidget.js" timeStamp="2015-05-28T03:47:40.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\Products\argos-saleslogix\src\Views\RightDrawer.js" timeStamp="2015-05-28T03:47:40.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\Products\argos-saleslogix\src\Views\SelectList.js" timeStamp="2015-05-28T03:47:40.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\Products\argos-saleslogix\src\Views\Settings.js" timeStamp="2015-05-28T03:47:40.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\Products\argos-saleslogix\src\Views\SpeedSearchList.js" timeStamp="2015-05-28T03:47:40.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\Products\argos-saleslogix\src\Views\TextEdit.js" timeStamp="2015-05-28T03:47:40.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\Products\argos-saleslogix\src\Views\UpdateToolbar.js" timeStamp="2015-05-28T03:47:41.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\Products\argos-saleslogix\src\Views\Account\" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\Products\argos-saleslogix\src\Views\Activity\" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\Products\argos-saleslogix\src\Views\Address\" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\Products\argos-saleslogix\src\Views\Attachment\" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\Products\argos-saleslogix\src\Views\Calendar\" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\Products\argos-saleslogix\src\Views\Charts\" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\Products\argos-saleslogix\src\Views\Competitor\" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\Products\argos-saleslogix\src\Views\Contact\" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\Products\argos-saleslogix\src\Views\Contract\" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\Products\argos-saleslogix\src\Views\ErrorLog\" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\Products\argos-saleslogix\src\Views\Event\" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\Products\argos-saleslogix\src\Views\Groups\" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\Products\argos-saleslogix\src\Views\History\" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\Products\argos-saleslogix\src\Views\Lead\" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\Products\argos-saleslogix\src\Views\LeadSource\" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\Products\argos-saleslogix\src\Views\Opportunity\" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\Products\argos-saleslogix\src\Views\OpportunityContact\" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\Products\argos-saleslogix\src\Views\OpportunityProduct\" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\Products\argos-saleslogix\src\Views\Owner\" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\Products\argos-saleslogix\src\Views\Product\" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\Products\argos-saleslogix\src\Views\ProductProgram\" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\Products\argos-saleslogix\src\Views\Ticket\" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\Products\argos-saleslogix\src\Views\TicketActivity\" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\Products\argos-saleslogix\src\Views\TicketActivityItem\" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\Products\argos-saleslogix\src\Views\User\" />
+</exportedFiles>

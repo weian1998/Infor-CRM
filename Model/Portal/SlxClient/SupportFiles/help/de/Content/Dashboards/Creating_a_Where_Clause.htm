@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:fileTags="Translation Status.Support files" xml:lang="de" MadCap:tocPath="" MadCap:medium="non-print" MadCap:InPreviewMode="false" MadCap:PreloadImages="false" MadCap:RuntimeFileType="Topic" MadCap:TargetType="WebHelp" lang="de" MadCap:conditions="Output.WebClient" MadCap:PathToHelpSystem="../../" MadCap:HelpSystemFileName="WebClient.xml" MadCap:SearchType="Stem">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Erstellen einer WHERE-Klausel</title>
+        <link href="../SkinSupport/Slideshow.css" rel="stylesheet" />
+        <link href="../SkinSupport/MadCap.css" rel="stylesheet" />
+        <link href="../Resources/TableStyles/TableStyle.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/Infor.CSS" rel="stylesheet" />
+        <script src="../SkinSupport/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapAll.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapTopicAll.js" type="text/javascript">
+        </script>
+    </head>
+    <body>
+        <h1>Erstellen einer WHERE-Klausel</h1>
+        <table wrapperparagraphselector="P" style="width: 80%;margin-top: 14pt;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" width="80%">
+            <col style="width: 45px;" />
+            <col />
+            <tr>
+                <td style="padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top">
+                    <p style="text-align: center;margin-bottom: 0;" align="center">
+                        <img src="../image/caution.gif" />
+                    </p>
+                </td>
+                <td style="width: 90%;padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top" width="90%">
+                    <p class="Tip-Note-Text" style="margin-bottom: 0;">Das Erstellen einer WHERE-Klausel wird nur fortgeschrittenen Benutzern empfohlen.</p>
+                </td>
+            </tr>
+        </table>
+        <p>Eine WHERE-Klausel wird verwendet, um Informationen aus einem SData-Feed zu filtern. Die SData-Abfragesprache wird verwendet, um Filterbedingungen mit dem Abfrageparameter "where" auszudrücken. Informationen aus einem SData-Feed sind geschützt, damit die Benutzer nur die Datensätze einsehen können, für die sie Zugriffsberechtigungen haben.</p>
+        <p>Die Syntax zum Erstellen von WHERE-Klauseln ist sehr spezfisch. Wenn die Syntax falsch ist, sehen Sie möglicherweise unerwünschte Ergebnisse.</p>
+        <p class="Tip-Note-Text" style="margin-bottom: 0;">Um eine WHERE-Klausel zu erstellen, muss Ihnen Folgendes bekannt sein bzw. müssen folgende Bedingungen erfüllt sein:</p>
+        <ul>
+            <li style="margin-bottom: 0;" value="1">Die Ressource, die mit Ihrem SData-Feed-Widget verknüpft ist</li>
+            <li style="margin-bottom: 0;" value="2">Der Spaltenname, der die Daten enthält, die Sie filtern möchten <table wrapperparagraphselector="P" style="width: 80%;margin-top: 14pt;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" width="80%"><col style="width: 45px;" /><col /><tr><td style="padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top"><p style="text-align: center;margin-bottom: 0;" align="center"><img src="../image/note.gif" /></p></td><td style="width: 90%;padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top" width="90%"><p class="Tip-Note-Text" style="margin-bottom: 0;">Nicht alle Spalten können zum Filtern von Daten verwendet werden.</p></td></tr></table></li>
+            <li style="margin-bottom: 0;" value="3">Die von Ihnen gesuchten Werte</li>
+            <li style="margin-bottom: 0;" value="4">Was die gültigen SData-Operatoren sind</li>
+            <li value="5">
+                <p>Die Textwerte müssen sich zwischen geraden Anführungszeichen befinden (' ')</p>
+            </li>
+            <li value="6">
+                <p>Daten müssen sich zwischen @-Symbolen befinden</p>
+                <p>Sag</p>
+            </li>
+            <li value="7">
+                <p>Texte in einer Wie-Aussage müssen sich zwischen geraden Anführungszeichen (' ') und %-Symbolen befinden</p>
+            </li>
+        </ul>
+        <p class="Infinitive">So erstellen Sie eine WHERE-Klausel</p>
+        <ul>
+            <li value="1">Geben Sie im Feld <span class="SLXBold">WHERE-Klausel</span> im <a href="Using Widgets.htm">SData Widget</a> des Assistenten <span class="SLXBold">Widget-Einstellungen bearbeiten</span> eine WHERE-Klausel mit der richtigen Syntax ein. Der Begriff "where=" wird nicht mit angegeben. <br /> Beispiel: AccountName eq 'State Enterprises Co.'</li>
+        </ul>
+        <p class="PageBreakAfter">&#160;</p>
+        <p class="subheading">Häufig verwendete Filter:</p>
+        <p>Gehen Sie in den folgenden Beispielen davon aus, dass Sie die Ressource "Firma" ausgewählt haben.<br /></p>
+        <table style="mc-table-style: url('../Resources/TableStyles/TableStyle.css');margin-left: auto;margin-right: auto;width: 90%;" class="TableStyle-TableStyle" cellspacing="0">
+            <col class="TableStyle-TableStyle-Column-Column1" style="width: 140px;" />
+            <col class="TableStyle-TableStyle-Column-Column1" style="width: 140px;" />
+            <col class="TableStyle-TableStyle-Column-Column1" />
+            <col class="TableStyle-TableStyle-Column-Column1" style="width: 260px;" />
+            <thead>
+                <tr class="TableStyle-TableStyle-Head-Header1">
+                    <th class="TableStyle-TableStyle-HeadE-Column1-Header1">Datenfilterbedingung</th>
+                    <th class="TableStyle-TableStyle-HeadE-Column1-Header1">WHERE-Klausel-Operator</th>
+                    <th class="TableStyle-TableStyle-HeadE-Column1-Header1">Beispiel</th>
+                    <th class="TableStyle-TableStyle-HeadD-Column1-Header1">Ergebnis</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">gleich</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1" rowspan="3">eq</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Bonität eq 'gut'</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Eine Liste der Firmen, deren Bonität gleich "gut" ist.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">zwei Spalten vergleichen</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Erstellungsbenutzer eq Änderungsbenutzer</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Eine Liste aller Firmen, die zuletzt von demselben Benutzer geändert wurden, der die Firma erstellt hat.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">gleich dem Datum</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Jahr(Erstellungsdatum) eq 2008 und Monat(Erstellungsdatum) eq 06 und Tag (Erstellungsdatum) eq 14</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Eine Liste aller Firmen, die an einem bestimmten Tag, in einem bestimmten Monat und in einem bestimmten Jahr erstellt wurden.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">nicht gleich</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">ne</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Branche ne 'Services/Consulting'</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Eine Liste der Firmen, die nicht der Branche Services/Consulting angehören.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">kleiner als</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">lt</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Gewinn lt 5000000</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Eine Liste der Firmen mit einem Gewinn von weniger als 5 Mio.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">weniger als oder gleich</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">le</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">DatumDerLetztenHistorie le @2012-01-01T00:00:01@</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Eine Liste der Firmen, bei denen der letzte Historieneintrag am oder vor dem ersten Januar 2013 stattfand.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">größer als</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">gt</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Mitarbeiter gt 100</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Eine Liste der Firmen mit mehr als 100 Mitarbeitern.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">größer gleich</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">ge</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Erstellungsdatum ge @2013-01-01T00:00:00+00:01@</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Eine Liste aller Firmen, die am oder vor dem ersten Januar 2013 erstellt wurden.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">innerhalb eines Bereichs</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">between</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Lieferadresse.Postleitzahl zwischen 60650 und 60699</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Eine Liste aller Firmen mit einer Postleitzahl zwischen 60650 und 60699.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">In der Gruppe</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">in</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Bonität in ('gut', 'mittelmäßig', 'schlecht')</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Eine Liste aller Firmen mit einer Bonität von "gut" oder "mittelmäßig" oder "schlecht".</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Nicht in der Gruppe</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">not in</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Bonität nicht i ('gut', 'mittelmäßig', 'schlecht')</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Eine Liste aller Firmen mit einer Bonität, die nicht "gut" oder "mittelmäßig" oder “schlecht” ist.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">enthält</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">wie</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Unt.beschr. like '%subsidiary%'</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Eine Liste aller Firmen mit "Tochtergesellschaft" in der Unternehmensbeschreibung.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">beginnt mit (erstes Zeichen)</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">left(&lt;Spalte&gt;,1) between</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">left(Firmenname,1) between 'A' und 'C'</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Eine Liste aller Firmen mit einem Namen, der mit "A", "B" oder "C" beginnt.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">beginnt mit (die ersten 2 Zeichen)</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">left(&lt;Spalte&gt;,2) eq</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">left(Firmenname,2) eq 'Ab'</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Eine Liste aller Firmen mit einem Namen, der mit "Ab" beginnt.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">beginnt mit (die ersten 3 Zeichen)</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">left(&lt;Spalte&gt;,3) eq</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">left(Haupttelefonnummer,3) eq 312</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Eine Liste aller Firmen mit Haupttelefonnummern mit der Vorwahl 312.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyB-Column1-Body1">innerhalb der letzten X Tage aufgetreten</td>
+                    <td class="TableStyle-TableStyle-BodyB-Column1-Body1">dateAdd(&lt;Spalte&gt;,X) ge</td>
+                    <td class="TableStyle-TableStyle-BodyB-Column1-Body1">dateAdd(Änderungsdatum, 7) ge aktuelle Uhrzeit</td>
+                    <td class="TableStyle-TableStyle-BodyA-Column1-Body1">Eine Liste aller Firmen, die in den letzten 7 Tagen geändert wurden.</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>Wenn Ihr SData-Feed-Widget nicht wie erwartet Daten abruft, könnte dies an den folgenden gängigen Fehlern liegen:</p>
+        <ul>
+            <li value="1">Achten Sie darauf, dass die WHERE-Klausel vertikale Anführungszeichen (' ') und nicht schräge Anführungszeichen (‘ ’) enthält.</li>
+            <li value="2">Achten Sie darauf, dass der Spaltenname korrekt ist. Bei Spaltennamen ist die Groß-/Kleinschreibung zu beachten, und sie basieren auf dem zugrunde liegenden Namen, nicht dem "schönen" Namen, der in <span class="MyVariablesProduct Name">Infor CRM</span>-Ansichten erscheint. Beispiel, Firmenname, nicht Firma oder Firma Name.</li>
+        </ul>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

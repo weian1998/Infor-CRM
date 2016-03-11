@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:fileTags="Translation Status.Support files" MadCap:tocPath="" MadCap:medium="non-print" MadCap:InPreviewMode="false" MadCap:PreloadImages="false" MadCap:RuntimeFileType="Topic" MadCap:TargetType="WebHelp" lang="ru" xml:lang="ru" MadCap:conditions="Output.WebClient,Output.Integrations LAN" MadCap:PathToHelpSystem="../../" MadCap:HelpSystemFileName="WebClient.xml" MadCap:SearchType="Stem">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Совпадения между записями интеграции</title>
+        <link href="../Resources/TableStyles/TableStyle.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/Infor.CSS" rel="stylesheet" />
+        <script src="../SkinSupport/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapAll.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapTopicAll.js" type="text/javascript">
+        </script>
+    </head>
+    <body>
+        <h1><a name="kanchor528"></a>Совпадения между записями интеграции</h1>
+        <p>Чтобы избежать повторяющихся записей и найти соответствующие записи в одном из приложений, поиск осуществляется на основе следующих ключевых полей:</p>
+        <table style="width: 95%;mc-table-style: url('../Resources/TableStyles/TableStyle.css');margin-left: 0;margin-right: auto;" class="TableStyle-TableStyle" cellspacing="0">
+            <col class="TableStyle-TableStyle-Column-Column1" />
+            <col class="TableStyle-TableStyle-Column-Column1" style="width: 86px;" />
+            <col class="TableStyle-TableStyle-Column-Column1" />
+            <col class="TableStyle-TableStyle-Column-Column1" />
+            <thead>
+                <tr class="TableStyle-TableStyle-Head-Header1">
+                    <th class="TableStyle-TableStyle-HeadE-Column1-Header1">Адресная книга / Контакты</th>
+                    <th class="TableStyle-TableStyle-HeadE-Column1-Header1">Субъекты</th>
+                    <th class="TableStyle-TableStyle-HeadE-Column1-Header1">
+                        <p>Назначение / активность</p>
+                        <p>&#160;</p>
+                    </th>
+                    <th class="TableStyle-TableStyle-HeadD-Column1-Header1">Дела</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">e-mail адрес (EMAIL1, EMAIL2, EMAIL3)</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">
+                        <p>Субъект/Компания</p>
+                    </td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Дата/Дата начала</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Дата/Дата начала</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">
+                        <p>&#160;</p>
+                    </td>
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Описание/ Тема</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Описание/ Тема</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyB-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-TableStyle-BodyB-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-TableStyle-BodyB-Column1-Body1">Продолжительность</td>
+                    <td class="TableStyle-TableStyle-BodyA-Column1-Body1">Продолжительность</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>Ключевые поля чувствительны к регистру. Например, если у вас есть запись для Lee Hogan в <span class="MyVariablesCompanyNameShort">Infor</span> и один для Lee Hogan в Microsoft Outlook, записи не идентичны. Обе записи добавляются в каждую систему во время синхронизации.</p>
+        <p class="subheading">Сопоставление контактов</p>
+        <p>Контакты согласованы с помощью электронной почты. Если совпадение не найдено, то создается новая запись. Чтобы не создавать дубликаты записей рекомендуется проверить, что контактные записи для синхронизации имеют уникальный адрес электронной почты для обоих приложений.</p>
+        <p>Если точное соответствие адреса электронной почты не может быть найдено, то происходит следующее:</p>
+        <ul>
+            <li value="1">В <span class="MyVariablesCompanyNameShort">Infor</span>, если адрес электронной почты не может быть найден, то создается новый контакт.
+</li>
+            <li value="2">В <span class="MyVariablesCompanyNameShort">Infor</span> при наличии нескольких записей:</li>
+            <ul>
+                <li class="Topic-Text-Numbered" value="1"><span class="MyVariablesCompanyNameShort">Infor</span> пытается сопоставить с помощью фамилию контакта и имя.
+</li>
+                <li class="Topic-Text-Numbered" value="2">Если совпадение не может быть найден тихо, то новый контакт создается в <span class="MyVariablesCompanyNameShort">Infor</span>.</li>
+            </ul>
+            <li value="3">
+                <p>В интегрированном приложении, если у многократных записей есть тот же адрес электронной почты, то контакт соединен с первым контактом, найденным с соответствующим адресом электронной почты.</p>
+            </li>
+        </ul>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

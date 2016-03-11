@@ -1,0 +1,87 @@
+<html>
+    <head>
+        <title>Sage.UI Browser Tests</title>
+        <script type="text/javascript" src="../mocks.js"></script>
+        <script pin="pin" type="text/javascript">
+            var dojoConfig = {
+                parseOnLoad: true,
+                isDebug: true,
+                paths: {'Sage' : '../../../jscript/Sage'}
+            };
+        </script>
+        <script type="text/javascript" src="../../../../Libraries/dojo/dojo/dojo.js"></script>
+        <script type="text/javascript" src="../../../../Libraries/Simplate.js"></script>
+        <script type="text/javascript">
+        dojo.provide("Sage.tests.UI.GroupListConfigurationProvider");
+        
+        dojo.require('dojo.parser');
+        dojo.require("doh.runner");
+        dojo.require("Sage.UI.GroupListConfigurationProvider");
+        dojo.require("Sage.Data.SDataStore");
+        dojo.require('dojox.grid.DataGrid');
+            
+        dojo.ready(function(){
+            doh.register("Sage.tests.UI.GroupListConfigurationProvider", [
+                function testLifeCycle() {
+                },
+                function testPercentColumnType() {
+                    var entry = {},
+                        groupListConfigurationProvider = new Sage.UI.GroupListConfigurationProvider();
+                    // Pulling the Context menus for the createConfiguration uses this global, which otherwise doesn't exist here
+                    Sage.UI.DataStore = {};
+                    
+                    entry.$key = 'testKey';
+                    entry.tableAliases = [];
+                    entry.layout = [{
+                                        alias: 'testColumn1Alias',
+                                        align: 'Left',
+                                        caption: 'testColumn1Caption',
+                                        captionAlign: 'Left',
+                                        dataPath: 'testKey:testColumn1',
+                                        displayName: 'testColumn1DisplayName',
+                                        fieldType: 'Number',
+                                        format: 'Percent',
+                                        formatString: '',
+                                        isFilterable: true,
+                                        originalCaption: 'testColumn1Caption',
+                                        propertyPath: 'testKey.testColumn1',
+                                        visible: true,
+                                        webLink: false,
+                                        width: 100
+                                    }];
+                                
+                    var groupListLayout = groupListConfigurationProvider._createConfigurationForList(entry);
+                    
+                    // With latest code, this cell should be a 'Percent' type. Older code, format of 'Percent' was formatType of 'Number'
+                    doh.t(groupListLayout.structure[0].cells[0][0].formatType == 'Percent');
+                },
+                function testColumnAlignmentRight() {
+                    var entry = {},
+                        groupListConfigurationProvider = new Sage.UI.GroupListConfigurationProvider();
+                    // Pulling the Context menus for the createConfiguration uses this global, which otherwise doesn't exist here
+                    Sage.UI.DataStore = {};
+                    entry.$key = 'testKey';
+                    entry.tableAliases = [];
+                    entry.layout = [{
+                                        alias: 'testColumn1Alias',
+                                        align: 'Right',
+                                        caption: 'testColumn1Caption',
+                                        visible: true,
+                                        width: 100
+                                    }];
+                    var groupListLayout = groupListConfigurationProvider._createConfigurationForList(entry);
+                    // test to see if the text-align is right
+                    doh.t(groupListLayout.structure[0].cells[0][0].styles == 'text-align: Right;');
+                }
+            ]);
+            
+            //Execute D.O.H. in this remote file.
+            doh.run();
+        });
+        </script>
+    </head>
+    <body>
+        <form>
+        </form>
+    </body>
+</html>

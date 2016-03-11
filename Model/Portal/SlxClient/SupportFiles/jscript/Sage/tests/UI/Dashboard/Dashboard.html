@@ -1,0 +1,70 @@
+<html>
+    <head>
+        <title>Sage.UI.Dashboard Browser Tests</title>
+        <link rel="stylesheet" type="text/css" href="../../../../../Libraries/dojo/dijit/themes/claro/claro.css" />
+        <link rel="stylesheet" type="text/css" href="../../../../../Libraries/dojo/dojox/grid/enhanced/resources/claroEnhancedGrid.css" />
+        <link rel="stylesheet" type="text/css" href="../../../../../Libraries/dojo/dojox/widget/Portlet/Portlet.css" />
+        <link rel="stylesheet" type="text/css" href="../../../../../Libraries/dojo/dojox/layout/resources/GridContainer.css" />
+        <link rel="stylesheet" type="text/css" href="../../../../../css/sage-styles.css" />
+        <script type="text/javascript" src="../../mocks.js"></script>
+        <script pin="pin" type="text/javascript">
+            var dojoConfig = {
+                parseOnLoad: true,
+                isDebug: true,
+                paths: {'Sage' : '../../../jscript/Sage'}
+            };
+        </script>
+        <script type="text/javascript" src="../../../../../Libraries/dojo/dojo/dojo.js"></script>
+        <script type="text/javascript" src="../../../../../Libraries/Simplate.js">
+        </script>
+        <script type="text/javascript">
+        require([
+            'dojo/parser',
+            'doh',
+            'dijit/_Container',
+            'dojox/widget/Portlet',
+            'Sage/UI/Dashboard/Dashboard',
+            'dojo/ready',
+            'dojo/dom',
+            'dojo/dom-construct',
+            'dijit/layout/BorderContainer'
+        ], function(
+            parser,
+            doh,
+            _Container,
+            Portlet,
+            Dashboard,
+            ready,
+            dom,
+            domConstruct
+        ) {
+            ready(function(){
+                doh.register("Sage.tests.UI.Dashboard.Dashboard", [
+                    function testLifeCycle() {
+                        Sage.UI.DataStore = { Dashboard: { 
+                            userOptions: { defaultTab: 'TestTab', hidden: {}, hiddenPages: {} },
+                            widgetsList: { TestWidget: 'Test Description' },
+                            userPages: ['{"Dashboard":{"@name":"TestTab","@title":"TestTab","@id":"TestTab","@family":"System","@colWidths":"50,50","Columns":{"Column":[]}}}'],
+                            permissions: { TestTab: true },
+                            WidgetResources: {}
+                        } };
+                        var dashboardContainer = dom.byId('borderCenter'),
+                            dashboard = new Dashboard( { id: 'Dashboard', region: 'center', tabStrip: true } );
+                        domConstruct.place(dashboard.domNode, dashboardContainer, 'only');
+                        dashboard.startup();
+                    }
+                ]);
+                
+                //Execute D.O.H. in this remote file.
+                doh.run();
+            });
+        });
+        </script>
+    </head>
+    <body>
+        <form>
+            <div data-dojo-type="dijit.layout.BorderContainer" liveSplitters="false" design="sidebar" region="center" id="borderCenter">
+            </div>
+        </form>
+    </body>
+</html>

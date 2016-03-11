@@ -1,0 +1,29 @@
+﻿<div>
+    <div data-dojo-type="dijit.Dialog" title="{%= $._nlsResources.dlgMapFields_Title %}" data-dojo-attach-point="_dialog" data-dojo-attach-event="onCancel:_btnCancel_OnClick" style="width: 650px;height:500px">
+        <div style="overflow:auto">
+            <label class="wizardHeaderText" data-dojo-attach-point="lblMatchedFields"></label>
+        </div>
+        <br/>
+        <div style="overflow:auto" data-dojo-attach-point="divRequiredFields">
+            <label style="color: red;font-size: 13px" data-dojo-attach-point="lblRequiredFields"></label>
+        </div>
+        <br/>
+        <div style="padding-left: 5px">
+            <div>
+                <div data-dojo-type="dijit.form.Button" data-dojo-attach-point="btnUnMapped" data-dojo-attach-event="onClick:btnUnMapped_OnClick" ></div>
+                <div data-dojo-type="dijit.form.Button" data-dojo-attach-point="btnMapped" data-dojo-attach-event="onClick:btnMapped_OnClick" ></div>
+                <div data-dojo-type="dijit.form.Button" data-dojo-attach-point="btnAll" data-dojo-attach-event="onClick:btnAll_OnClick" ></div>
+            </div>
+            <div data-dojo-attach-point="mappingsGrid"></div>
+        </div>
+        <br />
+        <div data-dojo-attach-point="divValidationMessage" style="color:red">
+            <span data-dojo-attach-point="spanValidationMessage">&nbsp;</span>
+        </div>
+        <div align="right" style="margin-top:10px">
+            <div data-dojo-type="dijit.form.Button" data-dojo-attach-point="btnBack" data-dojo-attach-event="onClick:_btnBack_OnClick" >{%= Sage.Utility.htmlEncode($.btnBack_Caption) %}</div>
+            <div data-dojo-type="dijit.form.Button" data-dojo-attach-point="btnNext" data-dojo-attach-event="onClick:_btnNext_OnClick">{%= Sage.Utility.htmlEncode($.btnNext_Caption) %}</div>
+            <div data-dojo-type="dijit.form.Button" data-dojo-attach-point="btnCancel" data-dojo-attach-event="onClick:_btnCancel_OnClick" style="margin-left:5px;">{%= Sage.Utility.htmlEncode($.btnCancel_Caption) %}</div>
+        </div>
+    </div>
+</div>

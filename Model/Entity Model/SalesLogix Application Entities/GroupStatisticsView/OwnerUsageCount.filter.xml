@@ -1,0 +1,14 @@
+﻿<?xml version="1.0"?>
+<entityFilter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="OrmRangeEntityFilter" id="9d328eb6-fff5-44a4-894a-372d927f4476" lastModifiedUtc="2015-02-24T17:19:57.0210929Z" filterName="OwnerUsageCount" propertyName="OwnerUsageCount" characters="0">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmRangeEntityFilter" />
+  </ExtendedPropertiesCollection>
+  <ranges id="06660efe-c581-4cc7-8c86-bbf239a584ae" rangeName="None" lower="0" upper="0" />
+  <ranges id="de8206f2-b7be-43d4-9585-f9f37605bcad" rangeName="OneToOneHundred" lower="1" upper="100" />
+  <ranges id="70a7a2af-bb77-4520-9f0a-7fda79bb024c" rangeName="OneHundredOneToOneThousand" lower="101" upper="1000" />
+  <ranges id="5569e907-1e69-485e-8882-a9064c4fcdf5" rangeName="OneThousandOneToTenThousand" lower="1001" upper="10000" />
+  <ranges id="6c5d9f8b-352a-417f-ba0b-3e425af1b446" rangeName="TenThousandOneToOneHundredThousand" lower="10001" upper="100000" />
+  <ranges id="a75215e1-d854-4308-bf76-c2b0b60e34b2" rangeName="OneHundredThousandOneToOneMillion" lower="100001" upper="1000000" />
+  <ranges id="3b74ab8b-52e8-4064-b580-8ce25ca7ea80" rangeName="MoreThanOneMillion" lower="1000001" upper="2147483647" />
+</entityFilter>

@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<ModelItems xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Item Id="efb58f36-0b4d-4708-96ec-5c2073ebc6f7">SDataListViewer.smartpart.xml</Item>
+  <Item Id="381e115b-eb3f-40a9-a55c-410874bb4ee3">JobManagerTasks.smartpart.xml</Item>
+</ModelItems>

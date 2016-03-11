@@ -1,0 +1,333 @@
+<?xml version="1.0"?>
+<QuickForm xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="d2b7e5be-59e1-4901-9270-d0df80ea2aef" DefinitionType="Sage.Platform.QuickForms.QuickFormMainDetailViewDefinition, Sage.Platform.QuickForms">
+  <ActiveControl />
+  <ImagePath />
+  <LoadActions />
+  <Name>DepartmentTeams</Name>
+  <ClientScriptInclude />
+  <ClientResourceKeys />
+  <OnClientShow />
+  <ExtendedProperties />
+  <HelpFile />
+  <ReadOnly>false</ReadOnly>
+  <GeneratePrintView>false</GeneratePrintView>
+  <Controls>
+    <Control typeName="Sage.SalesLogix.QuickForms.QFControls.SDataGrid.QFSDataGrid, Sage.SalesLogix.QuickForms.QFControls">
+      <QFSDataGrid>
+        <Column>0</Column>
+        <Row>0</Row>
+        <IsReadOnly>false</IsReadOnly>
+        <HotKey>0</HotKey>
+        <TabIndex>0</TabIndex>
+        <ControlId>grdTeams</ControlId>
+        <DataBindings />
+        <ControlLabelPlacement>left</ControlLabelPlacement>
+        <ExtendedProperties />
+        <CaptionAlignment>left</CaptionAlignment>
+        <StyleScheme />
+        <GenerateMember>false</GenerateMember>
+        <ReadOnlyCondition>False</ReadOnlyCondition>
+        <AppliedSecurity />
+        <RelateToPropertyName />
+        <PreviewField />
+        <ResourceKind>
+          <Name>ownerJoins</Name>
+          <GetPredicate />
+        </ResourceKind>
+        <PathSegments />
+        <Columns>
+          <QFSDataLinkCol>
+            <StyleScheme />
+            <DataField>Parent.OwnerDescription</DataField>
+            <ColumnId>463701ca-8ff2-43c1-a864-c673dec0100b</ColumnId>
+            <HorizontalAlignment>left</HorizontalAlignment>
+            <HeaderAlignment>left</HeaderAlignment>
+            <SortDirection>Ascending</SortDirection>
+            <IsSortable>true</IsSortable>
+            <SortField>Parent.OwnerDescription</SortField>
+            <MultiCurrencyDependent>false</MultiCurrencyDependent>
+            <Destination />
+            <Image />
+            <EntityIdField>Parent.Id</EntityIdField>
+            <EntityTypeName>Team</EntityTypeName>
+            <Target />
+            <AppliedSecurity />
+            <HideCondition />
+            <Width>15</Width>
+          </QFSDataLinkCol>
+          <QFEditableCol>
+            <StyleScheme />
+            <DataField>OwnerSecurityProfile.ProfileDescription</DataField>
+            <ColumnId>d6016bfc-0528-4763-8c5e-891b3981be43</ColumnId>
+            <HorizontalAlignment>left</HorizontalAlignment>
+            <HeaderAlignment>left</HeaderAlignment>
+            <SortDirection>None</SortDirection>
+            <IsSortable>true</IsSortable>
+            <SortField>OwnerSecurityProfile.ProfileDescription</SortField>
+            <MultiCurrencyDependent>false</MultiCurrencyDependent>
+            <IsEditable>false</IsEditable>
+            <HideCondition />
+            <Width>12</Width>
+            <CustomFormatter>function (value, row, cell) {
+   var item = cell.grid.getItem(row);
+   var profileId = item.OwnerSecurityProfile.$key;
+   var parentId = item.Parent.$key;
+   var childId = item.Child.$key;
+
+ return "&lt;a href='javascript:Link.editSecurityProfile(\"" + 
+   childId + "\",\"" + parentId + "\",\"" +
+   profileId + "\")'&gt;" + 
+   Sage.Utility.htmlEncode(value) + "&lt;/a&gt;";
+
+}</CustomFormatter>
+            <AbbreviationLength>0</AbbreviationLength>
+          </QFEditableCol>
+          <QFSDataDateTimeCol>
+            <StyleScheme />
+            <DataField>CreateDate</DataField>
+            <ColumnId>d81642fa-d355-4f94-b430-3d2a517c507d</ColumnId>
+            <HorizontalAlignment>left</HorizontalAlignment>
+            <HeaderAlignment>left</HeaderAlignment>
+            <SortDirection>None</SortDirection>
+            <IsSortable>true</IsSortable>
+            <SortField>CreateDate</SortField>
+            <MultiCurrencyDependent>false</MultiCurrencyDependent>
+            <IsEditable>false</IsEditable>
+            <HideCondition />
+            <Width>11</Width>
+            <CustomFormatter />
+            <AbbreviationLength>0</AbbreviationLength>
+            <DateOnly>false</DateOnly>
+          </QFSDataDateTimeCol>
+          <QFSDataDateTimeCol>
+            <StyleScheme />
+            <DataField>ModifyDate</DataField>
+            <ColumnId>289c9959-b3a3-4c90-a911-c12882cccecb</ColumnId>
+            <HorizontalAlignment>left</HorizontalAlignment>
+            <HeaderAlignment>left</HeaderAlignment>
+            <SortDirection>None</SortDirection>
+            <IsSortable>true</IsSortable>
+            <SortField>ModifyDate</SortField>
+            <MultiCurrencyDependent>false</MultiCurrencyDependent>
+            <IsEditable>false</IsEditable>
+            <HideCondition />
+            <Width>11</Width>
+            <CustomFormatter />
+            <AbbreviationLength>0</AbbreviationLength>
+            <DateOnly>false</DateOnly>
+          </QFSDataDateTimeCol>
+          <QFSDataSlxUserCol>
+            <StyleScheme />
+            <DataField>ModifyUser</DataField>
+            <ColumnId>ba2d83bf-74cc-4580-b255-e69b2ca9008e</ColumnId>
+            <HorizontalAlignment>left</HorizontalAlignment>
+            <HeaderAlignment>left</HeaderAlignment>
+            <SortDirection>None</SortDirection>
+            <IsSortable>true</IsSortable>
+            <SortField>ModifyUser</SortField>
+            <MultiCurrencyDependent>false</MultiCurrencyDependent>
+            <IsEditable>false</IsEditable>
+            <HideCondition />
+            <Width>13</Width>
+            <CustomFormatter />
+            <AbbreviationLength>0</AbbreviationLength>
+          </QFSDataSlxUserCol>
+        </Columns>
+        <ConditionalWhere>function () {
+                var ownerId = Sage.Utility.getCurrentEntityId();
+                return 'Child.Id eq "' + ownerId + '" and Parent.Id ne "' + ownerId + '" and Parent.Type eq "Team"';
+            }
+</ConditionalWhere>
+        <Select>
+          <string>Child.Id</string>
+        </Select>
+        <Include />
+        <FeedCategory>InternalAppEntities</FeedCategory>
+        <OnGetMappingId />
+        <ParentRelationshipPropertyName />
+        <ChildRelationshipPropertyName />
+        <OnDataChange />
+        <OnAdd />
+        <Tools>
+          <SDataGridTool>
+            <Name>btnRemoveFromTeam</Name>
+            <Image>[Localization!Global_Images:Delete_16x16]</Image>
+            <DisplayInInsert>false</DisplayInInsert>
+            <MergePosition>After</MergePosition>
+            <MergeControlId>lueTeams</MergeControlId>
+            <OnClick>function () {
+         // Invoke the RemoveFromTeam business rule for each team selected
+         var grid = this;
+         var selectedItems = grid.selection.getSelected();
+         if (selectedItems.length &lt; 1) {
+             alert(grid.noSelectionsText);
+             return;
+         }
+         if (!confirm(dojo.query("input[name$=ConfirmRemoveFromTeamText]")[0].value))
+             return;
+         var store = grid.store;
+         grid.showLoading();
+         var service = Sage.Data.SDataServiceRegistry.getSDataService('dynamic');
+         var processOne = function (i) {
+             var request = new Sage.SData.Client.SDataServiceOperationRequest(service)
+	            .setResourceKind('departments')
+	            .setOperationName('RemoveFromTeam');
+             var id = store.getValue(selectedItems[i], "$key");
+             var entry = {
+                 "$name": "RemoveFromTeam",
+                 "request": {
+                     "entity": { "$key": Sage.Utility.getCurrentEntityId() },
+                     "team": { "$key":  id }
+                 }
+             };
+             request.execute(entry, {
+                 success: function () {
+                     i++;
+                     if (i &lt; selectedItems.length)
+                         processOne(i);
+                     else
+                         grid.refresh();
+                 }
+             });
+         }
+         processOne(0);
+     }
+</OnClick>
+            <StyleScheme />
+            <AppliedSecurity />
+          </SDataGridTool>
+        </Tools>
+      </QFSDataGrid>
+    </Control>
+    <Control typeName="Sage.Platform.QuickForms.QFControls.QFHidden, Sage.Platform.QuickForms.QFControls">
+      <QFHidden>
+        <Column>0</Column>
+        <Row>0</Row>
+        <IsReadOnly>false</IsReadOnly>
+        <Visible>false</Visible>
+        <HotKey>0</HotKey>
+        <TabIndex>0</TabIndex>
+        <ControlId>ConfirmRemoveFromTeamText</ControlId>
+        <DataBindings />
+        <ControlLabelPlacement>none</ControlLabelPlacement>
+        <ExtendedProperties />
+        <CaptionAlignment>left</CaptionAlignment>
+        <StyleScheme />
+      </QFHidden>
+    </Control>
+  </Controls>
+  <ToolControls>
+    <Control typeName="Sage.Platform.QuickForms.Controls.QFElementSpacer, Sage.Platform.QuickForms">
+      <QFElementSpacer>
+        <Column>0</Column>
+        <Row>0</Row>
+        <IsReadOnly>false</IsReadOnly>
+        <HotKey>0</HotKey>
+        <TabIndex>0</TabIndex>
+        <ControlId />
+        <DataBindings />
+        <ControlLabelPlacement>left</ControlLabelPlacement>
+        <ExtendedProperties />
+        <CaptionAlignment>left</CaptionAlignment>
+        <StyleScheme />
+      </QFElementSpacer>
+    </Control>
+    <Control typeName="Sage.Platform.QuickForms.Controls.QFElementSpacer, Sage.Platform.QuickForms">
+      <QFElementSpacer>
+        <Column>0</Column>
+        <Row>0</Row>
+        <IsReadOnly>false</IsReadOnly>
+        <HotKey>0</HotKey>
+        <TabIndex>0</TabIndex>
+        <ControlId />
+        <DataBindings />
+        <ControlLabelPlacement>left</ControlLabelPlacement>
+        <ExtendedProperties />
+        <CaptionAlignment>left</CaptionAlignment>
+        <StyleScheme />
+      </QFElementSpacer>
+    </Control>
+    <Control typeName="Sage.SalesLogix.QuickForms.QFControls.QFSLXLookup, Sage.SalesLogix.QuickForms.QFControls">
+      <QFSLXLookup>
+        <Column>0</Column>
+        <Row>0</Row>
+        <IsReadOnly>false</IsReadOnly>
+        <HotKey>0</HotKey>
+        <TabIndex>0</TabIndex>
+        <ControlId>lueTeams</ControlId>
+        <DataBindings />
+        <ControlLabelPlacement>none</ControlLabelPlacement>
+        <ExtendedProperties />
+        <CaptionAlignment>left</CaptionAlignment>
+        <StyleScheme />
+        <OnChangeAction>
+          <ResourceKey>lueTeams</ResourceKey>
+          <Action typeName="Sage.Platform.QuickForms.ActionItems.CodeSnippetActionItem, Sage.Platform.QuickForms">
+            <CodeSnippetActionItem methodId="394d37bc-67af-4cd0-baa1-1c203108d834">
+              <MethodName>lueTeams_ChangeAction</MethodName>
+            </CodeSnippetActionItem>
+          </Action>
+          <IsDialogCloseAction>False</IsDialogCloseAction>
+          <RunOnEveryRePaint>False</RunOnEveryRePaint>
+          <DialogActionResult>NoResult</DialogActionResult>
+          <PerformsUpdate>False</PerformsUpdate>
+          <AppliedSecurity />
+          <RefreshData>False</RefreshData>
+        </OnChangeAction>
+        <Required>false</Required>
+        <LookupImage>[Localization!Global_Images:plus_16x16]</LookupImage>
+        <LookupDialogWidth xsi:nil="true" />
+        <LookupDialogHeight xsi:nil="true" />
+        <LookupDisplayMode>ButtonOnly</LookupDisplayMode>
+        <LookupBindingMode>Object</LookupBindingMode>
+        <LookupResultValue xsi:type="xsd:string" />
+        <SeedProperty />
+        <SeedValue />
+        <DropDownDisplayProperty />
+        <AddEmptyListItem>false</AddEmptyListItem>
+        <AllowClearingResult>false</AllowClearingResult>
+        <OverrideSeedOnSearch>false</OverrideSeedOnSearch>
+        <LookupEntityName>Team</LookupEntityName>
+        <LookupEntityTypeName>Sage.Entity.Interfaces.ITeam, Sage.Entity.Interfaces, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</LookupEntityTypeName>
+        <AutoPostBack>false</AutoPostBack>
+        <EnableHyperLinking>false</EnableHyperLinking>
+        <InitializeLookup>false</InitializeLookup>
+        <LookupProperties>
+          <LookupProperty>
+            <PropertyName>Owner.OwnerDescription</PropertyName>
+            <PropertyType>System.String</PropertyType>
+            <PropertyHeader>Team</PropertyHeader>
+            <PropertyFormat>None</PropertyFormat>
+            <PropertyFormatString />
+            <UseAsResult>true</UseAsResult>
+            <ExcludeFromFilters>false</ExcludeFromFilters>
+            <IsSortable>true</IsSortable>
+            <HideCondition />
+          </LookupProperty>
+        </LookupProperties>
+        <LookupPreFilters />
+      </QFSLXLookup>
+    </Control>
+  </ToolControls>
+  <Columns>
+    <ColumnStyle>
+      <SizeType>Percent</SizeType>
+      <Width>100</Width>
+    </ColumnStyle>
+  </Columns>
+  <Rows>
+    <RowStyle>
+      <SizeType>Absolute</SizeType>
+      <Height>35</Height>
+    </RowStyle>
+    <RowStyle>
+      <SizeType>Absolute</SizeType>
+      <Height>35</Height>
+    </RowStyle>
+  </Rows>
+  <Description />
+  <UseEntityNameAsTitle>true</UseEntityNameAsTitle>
+  <EntityTypeName>IDepartment</EntityTypeName>
+  <DefaultNamespace>Sage.Entity.Interfaces</DefaultNamespace>
+  <AssemblyName>Sage.Entity.Interfaces</AssemblyName>
+</QuickForm>

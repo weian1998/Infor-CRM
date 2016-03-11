@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:fileTags="Translation Status.Support files" MadCap:tocPath="Администрирование|Безопасность" MadCap:medium="non-print" MadCap:InPreviewMode="false" MadCap:PreloadImages="false" MadCap:RuntimeFileType="Topic" MadCap:TargetType="WebHelp" lang="ru" xml:lang="ru" MadCap:conditions="Output.WebClient,Output.IntegrationContract,Targeted.WebHelp-slxgetstartedADMIN subset" MadCap:PathToHelpSystem="../../" MadCap:HelpSystemFileName="WebClient.xml" MadCap:SearchType="Stem">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Что такое роли и действия безопасности?</title>
+        <link href="../SkinSupport/Slideshow.css" rel="stylesheet" />
+        <link href="../SkinSupport/MadCap.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/Infor.CSS" rel="stylesheet" />
+        <script src="../SkinSupport/jquery.min.js">
+        </script>
+        <script src="../SkinSupport/MadCapAll.js">
+        </script>
+        <script src="../SkinSupport/MadCapTopicAll.js">
+        </script>
+    </head>
+    <body>
+        <h1>Что такое роли и действия безопасности?</h1>
+        <p><a name="kanchor51"></a>Роль определяет какой функционал будет доступен пользователю в Веб-клиенте. Роли используют действия безопастности для управления доступом к элементам пользовательского интерфейса, таким как страницы, меню, пункты меню, панель инструментов, кнопки. При управлении доступом к элементам индивидуального пользовательского интерфейса, вы можете контролировать доступ к таким действиям как редактирование, удаление или печать. Текущими защищенными элементами являются все элементы пользовательского интерфейса, предоставляющие доступ к субъектам, контактам и сделкам.</p>
+        <p>Можно защитить элемент пользовательского интерфейса, назначив действие безопасности его свойству Applied Security в Архитекторе приложений. После того, как действие безопасности было назначено элементу пользовательского интерфейса, только пользователи, которым назначена роль с соответствующим действием безопасности будут видеть и иметь возможность использовать данный элемент управления. Например, действие безопасности Entities/Account/Save назначенное свойству Applied Security кнопки Сохранить детального представления субъектов. Во время работы кнопка будет видима или не видима в зависимости от того имеет ли пользователь разрешения на выполнение действия.</p>
+        <p>Пользователи не имеют доступа к защищенным элементам пользовательского интерфейса Веб-клиента до тех пор, пока им не будет назначена роль, предоставляющая доступ к этим элементам. Для того чтобы защитить элементы в Веб-клиенте используя роли необходимо добавить действия безопасности элементам управления, добавить действие в роль и назначить роль пользователям..    <a href="javascript:void(0);" onclick="FMCToggler( this ); return false;" class="MCToggler_0" MadCap:targets="example;roles steps">Узнать больше... <img style="border: none;margin-left: 5px;" src="../SkinSupport/DropDownClosed.gif" MadCap:altsrc="../SkinSupport/DropDownOpen.gif" onload="if ( typeof( FMCPreloadImage ) == 'function' ) { FMCPreloadImage( '../SkinSupport/DropDownOpen.gif' ); }" alt="Closed" MadCap:alt2="Open" class="MCTogglerIcon" /></a></p>
+        <p MadCap:targetName="example" style="display: none;">Элементы защищаются в Архитекторе приложений, путем назначения им действий безопасности. Значение свойства Applied Security это название действия безопасности. Для защиты элемента пользовательского интерфейса и предоставления доступа к данному элементу необходимо:</p>
+        <ol MadCap:targetName="roles steps" style="display: none;">
+            <li class="Topic-Text-Numbered" value="1">Определить, какое действие безопасности вы хотите использовать для защиты элемента. При необходимости, можно создать новое действие безопасности в Веб-клиенте.</li>
+            <li class="Topic-Text-Numbered" value="2">Добавить действие безопасности к свойству Applied Security элемента управления в Архитекторе приложений. Для более подробной информации смотрите раздел "Понимание действий безопасности" в справке Архитектора приложений.</li>
+            <li class="Topic-Text-Numbered" value="3">Добавить действие безопасности данного элемента к роли в Веб-клиенте.</li>
+            <li class="Topic-Text-Numbered" value="4">Назначить роль пользователям.</li>
+        </ol>
+        <p class="subheading">РОЛИ ПО УМОЛЧАНИЮ</p>
+        <p><a name="DefaultRoles"></a>По умолчанию пользователям, созданным в Веб-клиенте назначается Стандартная роль пользователя. Это позволяет получить доступ ко всем не административным функциям Веб-клиента.Если вы удалите пользователя из этой роли, у него больше не будет доступа ни к каким защищенным элементам управления до тех пор, пока вы не назначите ему новую роль. </p>
+        <p> <![CDATA[ ]]></p>
+        <p>Роли по умолчанию:</p>
+        <ul>
+            <li value="1"><span class="SLXBold">Администратор</span> - Предоставляет доступ на добавление, редактирование и удаление к административному функционалу, такому как пользователи, команды, подразделения, справочники, продукты, пакеты, проверке на дубликаты, обработке записей-дубликатов и истории проверки на дубликаты. Также дает право на редактирование  форм быстро в дизайнере Веб-форм.</li>
+            <li value="2"><span class="SLXBold">Менеджер качества данных</span> - Предоставляет доступ на добавление, редактирование и удаление к проверке на дубликаты, обработке записей-дубликатов и истории проверки на дубликаты.</li>
+            <li value="3"><span class="SLXBold">Стандартный пользователь</span> - Предоставляет доступ на просмотр, добавление, редактирование и удаление не административный сущностей Веб-клиента, таких как субъекты, контакты, сделки, пакеты, продукты, заказы на продажи и наводки.<br />Если у вас есть существующие пользователи или вы создаете новых пользователей в Администраторе, необходимо назначить им   <a href="Assigning_Users_To_Standard_Role.htm" target="_self">Стандартную роль пользователя</a>.</li>
+        </ul>
+        <ul>
+            <li value="1"><span class="SLXBold">Менеджер по заказам</span> - Предоставляет доступ на добавление и просмотр контактов и субъектов и доступ на добавление, редактирование и удаление к заказам на продажи.</li>
+            <li value="2"><span class="SLXBold">Интеграция </span> - Позволяет добавлять, редактировать, удалять и просмотреть разрешения для интеграции.</li>
+        </ul>
+        <table wrapperparagraphselector="P" style="margin-top: 14pt;border-spacing: 0px;margin-left: 0;margin-right: auto;caption-side: top;width: 843px;" cellspacing="0">
+            <col style="width: 38px;" />
+            <col />
+            <tr>
+                <td style="padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top">
+                    <p style="text-align: center;margin-bottom: 0;" align="center">
+                        <img src="../image/note.gif" />
+                    </p>
+                </td>
+                <td style="padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top">
+                    <p>Эта роль не рекомендуется для стандартных пользователей. Возможность просматривать историю синхронизации является частью роль обычного пользователя. Если пользователям требуется доступ к другим  действиям с интеграцией, например способность разрешать интеграцию. <span class="MyVariablesCompanyNameFull">Infor</span> рекомендует добавить те действия обычному пользователю или создать новую роль, которая включает эти действия.</p>
+                </td>
+            </tr>
+        </table>
+        <p><![CDATA[
+              ]]></p>
+        <ul>
+            <li MadCap:conditions="Output.IntegrationContract" value="1"><span class="SLXBold">Integration Contract Lock Price</span> - Пр(Только для Интеграции учета)предоставляет доступ на блокировку цен на продукы в заказах на продажи. </li>
+        </ul>
+        <table wrapperparagraphselector="P" style="margin-top: 14pt;border-spacing: 0px;margin-left: 0;margin-right: auto;caption-side: top;" cellspacing="0">
+            <col />
+            <col />
+            <tr>
+                <td style="width: 10%;padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top" width="10%">
+                    <p style="text-align: center;margin-bottom: 0;" align="center">
+                        <img src="../image/note.gif" />
+                    </p>
+                </td>
+                <td style="padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top">
+                    <ul>
+                        <li class="Bullets" value="1">Безопасность в сетевом клиенте определяется с помощью функций безопасности и административных ролей. Безопасность в Веб-клиенте объединяет все элементы безопасности сетевого клиента в одну модель безопасности - роль. Модель безопасности сетевого клиента не может быть использована в Веб-клиенте, также как и модель безопасности Веб-клиента не может быть использована в сетевом клиенте.</li>
+                        <li class="Bullets" value="2">Пользователь admin имеет доступ ко всем элементам управления пользовательского интерфейса все зависимости от действий безопасности.</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+        <p class="RelatedTopics" MadCap:conditions="Output.WebClient">Как выполнить?</p>
+        <p MadCap:conditions="Output.WebClient"><a href="Creating_a_Role.htm" target="_self">Создать роль</a>
+        </p>
+        <p MadCap:conditions="Output.WebClient"><a href="CreatingASecuredAction.htm" target="_self">Создать действие безопасности</a>
+        </p>
+        <p MadCap:conditions="Output.WebClient"><a href="Role_Users_Tab.htm" target="_self">Назначить роль пользователю</a>
+        </p>
+        <p MadCap:conditions="Output.WebClient"><a href="EditingOrDeletingASecuredAction.htm" target="_self">Изменить или удалить действие безопасности</a>
+        </p>
+        <p MadCap:conditions="Output.WebClient"><a href="Assigning_Users_To_Standard_Role.htm" target="_self">Назначить пользователю стандартную роль пользователя</a>
+        </p>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

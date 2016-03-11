@@ -1,0 +1,116 @@
+[
+    {
+        "name": "Sage",
+        "groups": [
+            {
+                "name": "Sage",
+                "classes": [
+                    "Sage._ActionMixin",
+                    "Sage._ConfigurationProvider",
+                    "Sage._EventMapMixin",
+                    "Sage._Templated",
+                    "Sage.Array",
+                    "Sage.BrowserSupport",
+                    "Sage.Format",
+                    "Sage.Link"
+                ]
+            },
+            {
+                "name": "Data",
+                "classes": [
+                    "Sage.Data.*"
+                ]
+            },
+            {
+                "name": "Extensions",
+                "classes": [
+                    "Sage.Extensions.*"
+                ]
+            },
+            {
+                "name": "Groups",
+                "classes": [
+                    "Sage.Groups.*"
+                ]
+            },
+            {
+                "name": "Layout",
+                "classes": [
+                    "Sage.Layout.*"
+                ]
+            },
+            {
+                "name": "Library",
+                "classes": [
+                    "Sage.Library.*"
+                ]
+            },
+            {
+                "name": "MainView",
+                "classes": [
+                    "Sage.MainView.*"
+                ]
+            },
+            {
+                "name": "QuickForms",
+                "classes": [
+                    "Sage.QuickForms.*"
+                ]
+            },
+            {
+                "name": "Reporting",
+                "classes": [
+                    "Sage.Reporting.*"
+                ]
+            },
+            {
+                "name": "Services",
+                "classes": [
+                    "Sage.Services.*"
+                ]
+            },
+            {
+                "name": "Store",
+                "classes": [
+                    "Sage.Store.*"
+                ]
+            },
+            {
+                "name": "TaskPane",
+                "classes": [
+                    "Sage.TaskPane.*"
+                ]
+            },
+            {
+                "name": "Utility",
+                "classes": [
+                    "Sage.Utility",
+                    "Sage.Utility.*"
+                ]
+            },
+            {
+                "name": "UI",
+                "classes": [
+                    "Sage.UI.*"
+                ]
+            },
+            {
+                "name": "Workspaces",
+                "classes": [
+                    "Sage.Workspaces.*"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Libraries",
+        "groups": [
+            {
+                "name": "Simplate",
+                "classes": [
+                    "Simplate"
+                ]
+            }
+        ]
+    }
+]

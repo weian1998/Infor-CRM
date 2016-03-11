@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<method xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="f1dc4141-6870-43ea-be95-2af68fd05bd2" lastModifiedUtc="2011-10-31T16:41:09.9251048Z" name="OnBeforeStatusCodeChanged" methodType="PropertyEvent" actionType="None" returnMode="None">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmEntityMethod" />
+  </ExtendedPropertiesCollection>
+  <parameter />
+  <preExecuteTargets />
+  <methodTargets>
+    <methodTarget id="7c4fdb58-3c08-4ade-a4cc-47efceb38639" lastModifiedUtc="2011-10-31T16:38:56.6174801Z" targetType="Sage.SalesLogix.Defect.Rules, Sage.SalesLogix.BusinessRules" targetMethod="OnBeforeStatusCodeChanged" active="true">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmMethodTarget" />
+      </ExtendedPropertiesCollection>
+    </methodTarget>
+  </methodTargets>
+  <postExecuteTargets />
+  <postFlushTargets />
+</method>

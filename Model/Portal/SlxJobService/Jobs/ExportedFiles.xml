@@ -1,0 +1,11 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\SlxJobService\Jobs\Sage.Platform.DynamicMethod.DynamicMethodJob.job.xml" timeStamp="2015-05-28T03:07:08.0000" />
+  <exportedFile url="\Portal\SlxJobService\Jobs\Sage.SalesLogix.Activity.RolloverActivitiesJob.job.xml" timeStamp="2015-05-28T03:07:08.0000" />
+  <exportedFile url="\Portal\SlxJobService\Jobs\Sage.SalesLogix.BusinessRules.Jobs.DeleteEntityJob.job.xml" timeStamp="2015-05-28T03:07:08.0000" />
+  <exportedFile url="\Portal\SlxJobService\Jobs\Sage.SalesLogix.BusinessRules.Jobs.ExportToExcelJob.job.xml" timeStamp="2015-05-28T03:07:08.0000" />
+  <exportedFile url="\Portal\SlxJobService\Jobs\Sage.SalesLogix.BusinessRules.Jobs.ImportJob.job.xml" timeStamp="2015-05-28T03:07:08.0000" />
+  <exportedFile url="\Portal\SlxJobService\Jobs\Sage.SalesLogix.BusinessRules.Jobs.UpdateEntityJob.job.xml" timeStamp="2015-05-28T03:07:08.0000" />
+  <exportedFile url="\Portal\SlxJobService\Jobs\Sage.SalesLogix.Contract.UpdateRemainingDaysJob.job.xml" timeStamp="2015-05-28T03:07:08.0000" />
+  <exportedFile url="\Portal\SlxJobService\Jobs\Saleslogix.Reporting.Jobs.CrystalReportsJob.job.xml" timeStamp="2015-05-28T03:07:08.0000" />
+</exportedFiles>

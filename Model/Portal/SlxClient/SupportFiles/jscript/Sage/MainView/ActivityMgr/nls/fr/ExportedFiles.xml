@@ -1,0 +1,23 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\ActivityMgr\nls\fr\ActivityCalendar.js" timeStamp="2015-05-28T03:08:58.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\ActivityMgr\nls\fr\ActivityEditor.js" timeStamp="2015-05-28T03:08:58.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\ActivityMgr\nls\fr\ActivityEditorAttendeesTab.js" timeStamp="2015-05-28T03:08:58.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\ActivityMgr\nls\fr\ActivityGroupContextService.js" timeStamp="2015-05-28T03:08:58.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\ActivityMgr\nls\fr\ActivityListPanelConfig.js" timeStamp="2015-05-28T03:08:58.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\ActivityMgr\nls\fr\AlarmListPanelConfig.js" timeStamp="2015-05-28T03:08:58.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\ActivityMgr\nls\fr\AllOpenActivityListPanelConfig.js" timeStamp="2015-05-28T03:08:58.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\ActivityMgr\nls\fr\BaseListPanelConfig.js" timeStamp="2015-05-28T03:08:58.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\ActivityMgr\nls\fr\ConfirmListPanelConfig.js" timeStamp="2015-05-28T03:08:58.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\ActivityMgr\nls\fr\EditEventEditor.js" timeStamp="2015-05-28T03:08:58.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\ActivityMgr\nls\fr\EventListPanelConfig.js" timeStamp="2015-05-28T03:08:58.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\ActivityMgr\nls\fr\FilterConfigurationProvider.js" timeStamp="2015-05-28T03:08:58.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\ActivityMgr\nls\fr\HistoryEditor.js" timeStamp="2015-05-28T03:08:58.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\ActivityMgr\nls\fr\HistoryEditorAttendeesTab.js" timeStamp="2015-05-28T03:08:58.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\ActivityMgr\nls\fr\LitRequestListPanelConfig.js" timeStamp="2015-05-28T03:08:58.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\ActivityMgr\nls\fr\OccurrenceOrSeriesQueryDlg.js" timeStamp="2015-05-28T03:08:58.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\ActivityMgr\nls\fr\PastDueListPanelConfig.js" timeStamp="2015-05-28T03:08:58.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\ActivityMgr\nls\fr\QuickCompleteEditor.js" timeStamp="2015-05-28T03:08:58.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\ActivityMgr\nls\fr\RecurringEditor.js" timeStamp="2015-05-28T03:08:58.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\ActivityMgr\nls\fr\SnoozeOptions.js" timeStamp="2015-05-28T03:08:58.0000" />
+</exportedFiles>

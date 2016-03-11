@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:fileTags="Translation Status.Support files" xml:lang="de" MadCap:tocPath="Verwenden von Integrationen|Outlook Integration|Verwenden der Outlook-Synchronisierung|Synchronisation" MadCap:medium="non-print" MadCap:InPreviewMode="false" MadCap:PreloadImages="false" MadCap:RuntimeFileType="Topic" MadCap:TargetType="WebHelp" lang="de" MadCap:conditions="Output.Integrations LAN,Output.WebClient,Integrations.Google topics,Integrations.ExchangeSync" MadCap:PathToHelpSystem="../../" MadCap:HelpSystemFileName="WebClient.xml" MadCap:SearchType="Stem">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Kalendersynchronisierungsszenarien für Outlook</title>
+        <link href="../SkinSupport/Slideshow.css" rel="stylesheet" />
+        <link href="../SkinSupport/MadCap.css" rel="stylesheet" />
+        <link href="../Resources/TableStyles/TableStyle.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/Infor.CSS" rel="stylesheet" />
+        <script src="../SkinSupport/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapAll.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapTopicAll.js" type="text/javascript">
+        </script>
+    </head>
+    <body>
+        <h1><a name="kanchor263"></a>Kalendersynchronisierungsszenarien für <span class="MyVariablesIntegrated (an)/Outlook (Caps)">Outlook</span></h1>
+        <p>Die folgenden häufig auftretenden Szenarien erläutern, wie die Kalendersynchronisierung mit <span class="MyVariablesIntegrated (an)/Outlook (lower)">Outlook</span> funktioniert.</p>
+        <table wrapperparagraphselector="P" style="width: 80%;margin-top: 14pt;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" width="80%">
+            <col style="width: 45px;" />
+            <col />
+            <tr MadCap:conditions="">
+                <td style="padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top">
+                    <p style="text-align: center;margin-bottom: 0;" align="center">
+                        <img src="../image/note.gif" />
+                    </p>
+                </td>
+                <td style="width: 90%;padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top" width="90%">Die integrierte Datensicherheit, die mit dem bei <span class="MyVariablesProduct Name">Infor CRM</span> angemeldeten Benutzer verknüpft ist, wirkt sich ebenfalls auf die Synchronisierung aus. Die Sicherheitsrechte des angemeldeten Benutzers begrenzen die Menge der übertragbaren Daten.</td>
+            </tr>
+        </table>
+        <p class="Infinitive">Synchronisierungsszenarien</p>
+        <p>Aktivitätentypen in <span class="MyVariablesProduct Name">Infor CRM</span> können in <span class="MyVariablesIntegrated (an)/Outlook (lower)">Outlook</span> zu verschiedenen Aktivitätentypen synchronisiert werden. Einzelheiten entnehmen Sie bitte der Tabelle <a href="Understanding_Calendar_Integration.htm">Grundlegendes zum Kalender-Datenaustausch</a>.</p>
+        <p>Für die folgenden Szenarien:</p>
+        <ul>
+            <li value="1">wird "Kalendereintrag" verwendet, um einen Kalenderaktivitätstyp in <span class="MyVariablesIntegrated (an)/Outlook (Caps)">Outlook</span> und Anrufe, Meetings oder persönliche Aktivitäten in <span class="MyVariablesProduct Name">Infor CRM</span> darzustellen.</li>
+            <li value="2">wird "Aufgabe" verwendet, um einen Nicht-Kalenderaktivitätstyp in <span class="MyVariablesIntegrated (an)/Outlook (lower)">Outlook</span> und eine Aufgabe in <span class="MyVariablesProduct Name">Infor CRM</span> darzustellen.</li>
+        </ul>
+        <table style="width: 95%;mc-table-style: url('../Resources/TableStyles/TableStyle.css');margin-left: 0;margin-right: auto;" class="TableStyle-TableStyle" cellspacing="0">
+            <col class="TableStyle-TableStyle-Column-Column1" style="width: 312px;" />
+            <col class="TableStyle-TableStyle-Column-Column1" />
+            <thead>
+                <tr class="TableStyle-TableStyle-Head-Header1">
+                    <th class="TableStyle-TableStyle-HeadE-Column1-Header1">Aktion</th>
+                    <th class="TableStyle-TableStyle-HeadD-Column1-Header1">Ergebnis<br /></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <th colspan="2" class="TableStyle-TableStyle-BodyD-Column1-Body1">Planen, Bearbeiten, Abschließen oder Löschen von Kalendereinträgen</th>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Planen Sie einen Kalendereintrag in einer der Anwendungen.</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Der Kalendereintrag wird synchronisiert.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Bearbeiten Sie einen Kalendereintrag in einer der Anwendungen.</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Der geänderte Kalendereintrag wird synchronisiert.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Bearbeiten Sie denselben Kalendereintrag in beiden Anwendungen während desselben Synchronisierungszyklus.</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">
+                        <p>Der Kalendereintrag, der zuletzt bearbeitet wurde, wird mit der anderen Anwendung synchronisiert, und alle Werte mit möglichen Differenzen werden aktualisiert.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Schließen Sie einen Kalendereintrag in <span class="MyVariablesProduct Name">Infor CRM</span> ab.</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Der Kalendereintrag wird in <span class="MyVariablesProduct Name">Infor CRM</span> abgeschlossen, und in <span class="MyVariablesIntegrated (the)/Outlook">Outlook</span> erscheint "Abgeschlossen" in der Betreffzeile des Eintrags.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Löschen Sie einen Kalendereintrag in einer der Anwendungen.</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Der Kalendereintrag wird in beiden Anwendungen aus den Kalendern des Benutzers entfernt.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <th class="TableStyle-TableStyle-BodyD-Column1-Body1" colspan="2">
+                        <p class="TableBold">Planen, Bearbeiten, Abschließen oder Löschen von Aufgaben</p>
+                    </th>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Planen Sie in einer der Anwendungen eine Aufgabe.</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Die Aufgabe wird synchronisiert.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Bearbeiten Sie in einer der Anwendungen eine Aufgabe.</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Die geänderte Aufgabe wird synchronisiert.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Bearbeiten Sie dieselbe Aufgabe in beiden Anwendungen während desselben Synchronisierungszyklus.</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">
+                        <p>Die Aufgabe, die zuletzt bearbeitet wurde, wird mit <span class="MyVariablesIntegrated (the)/Outlook">Outlook</span> synchronisiert, und alle Werte mit möglichen Differenzen werden aktualisiert.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Schließen Sie eine Aufgabe in <span class="MyVariablesProduct Name">Infor CRM</span> ab.</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Die Änderung wird synchronisiert, und die Aufgabe wird in <span class="MyVariablesIntegrated (the)/Outlook">Outlook</span> als abgeschlossen gekennzeichnet.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Schließen Sie eine Aufgabe in <span class="MyVariablesIntegrated (the)/Outlook">Outlook</span> ab.</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Die Änderung wird synchronisiert, und die Aufgabe wird abgeschlossen und in <span class="MyVariablesProduct Name">Infor CRM</span> als Historieneintrag protokolliert.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Planen Sie in <span class="MyVariablesIntegrated (the)/Outlook">Outlook</span> eine Aufgabe ohne Startdatum oder -uhrzeit.</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Die Aufgabe wird mit dem Erstellungsdatum als Startdatum in <span class="MyVariablesProduct Name">Infor CRM</span> als Aufgabe synchronisiert. Während der nächsten Synchronisierung wird das neue Startdatum synchronisiert und die Aufgabe in <span class="MyVariablesIntegrated (the)/Outlook">Outlook</span> aktualisiert.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <th class="TableStyle-TableStyle-BodyD-Column1-Body1" colspan="2">
+                        <p>Planen von Kalendereinträgen und -aufgaben mit mehreren Vorkommen</p>
+                    </th>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Planen Sie in <span class="MyVariablesProduct Name">Infor CRM</span> einen sich wiederholenden Kalendereintrag.</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Der Kalendereintrag und alle Vorkommen werden mit <span class="MyVariablesIntegrated (the)/Outlook">Outlook</span> synchronisiert.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Planen Sie in <span class="MyVariablesIntegrated (the)/Outlook">Outlook</span> einen Kalendereintrag mit mehreren Vorkommen.</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">
+                        <p>Der Kalendereintrag wird mit den maximal in <span class="MyVariablesProduct Name">Infor CRM</span> zulässigen Vorkommen mit <span class="MyVariablesProduct Name">Infor CRM</span> synchronisiert:</p>
+                        <ul>
+                            <li value="1">Täglich – 999</li>
+                            <li value="2">Wöchentlich – 260</li>
+                            <li value="3">Monatlich – 60</li>
+                            <li value="4">Jährlich – 20</li>
+                        </ul>
+                        <p>Dieses Limit wird wieder mit <span class="MyVariablesIntegrated (the)/Outlook">Outlook</span> rücksynchronisiert.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Planen Sie in <span class="MyVariablesProduct Name">Infor CRM</span> eine sich wiederholende Aufgabe.</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Die sich wiederholende Aufgabe wird mit einer sich wiederholenden Aufgabe in <span class="MyVariablesIntegrated (the)/Outlook">Outlook</span> synchronisiert.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Planen Sie in <span class="MyVariablesIntegrated (the)/Outlook">Outlook</span> eine sich wiederholende Aufgabe.</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">
+                        <p>Die Aufgabe wird mit den maximal in <span class="MyVariablesProduct Name">Infor CRM</span> zulässigen Vorkommen als Aufgabe in <span class="MyVariablesProduct Name">Infor CRM</span> synchronisiert:</p>
+                        <ul>
+                            <li value="1">Täglich – 999</li>
+                            <li value="2">Wöchentlich – 260</li>
+                            <li value="3">Monatlich – 60</li>
+                            <li value="4">Jährlich – 20</li>
+                        </ul>
+                        <p>Dieses Limit wird wieder mit <span class="MyVariablesIntegrated (the)/Outlook">Outlook</span> rücksynchronisiert.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <th class="TableStyle-TableStyle-BodyD-Column1-Body1" colspan="2">
+                        <p>Planen von Kalendereinträgen mit Mitgliedern</p>
+                    </th>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Planen Sie in einer der Anwendungen einen Kalendereintrag, bei dem ich der Organisator bin und es 3 weitere Mitglieder gibt.</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">
+                        <p>In der Anwendung, in der der Kalendereintrag geplant wurde, enthält der Kalendereintrag die geplanten Organisator- und Mitgliederinformationen. Bei der Synchronisierung mit der anderen Anwendung bleiben Sie der Organisator, jedoch enthält die andere Anwendung keine Mitgliederinformationen.</p>
+                        <p>Die Mitgliederinformationen bleiben im Kalendereintrag der ursprünglichen Anwendung, auch wenn der Kalender aktualisiert wird.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Planen Sie in einer der Anwendungen einen Kalendereintrag, bei dem ich ein Mitglied bin, nicht der Organisator.</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">
+                        <p>In der Anwendung, in der der Kalendereintrag geplant wurde, enthält der Kalendereintrag die geplanten Organisator- und Mitgliederinformationen. Bei der Synchronisierung mit der anderen Anwendung werden Sie zum Organisator, und die andere Anwendung enthält keine Mitgliederinformationen.</p>
+                        <p>Die Mitgliederinformationen bleiben im Kalendereintrag der ursprünglichen Anwendung, auch wenn der Kalender aktualisiert wird.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Ändern Sie in <span class="MyVariablesProduct Name">Infor CRM</span> den Organisator von mir zu einem anderen Benutzer, nachdem der Kalendereintrag synchronisiert wurde.</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">
+                        <p>Löscht den Kalendereintrag in <span class="MyVariablesIntegrated (the)/Outlook">Outlook</span>.*</p>
+                        <p>*In Outlook können Sie den Organisator eines Kalendereintrags nicht ändern.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <th class="TableStyle-TableStyle-BodyD-Column1-Body1" colspan="2">
+                        <p>Akzeptieren und Ablehnen von Kalendereintragseinladungen</p>
+                    </th>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Akzeptieren Sie in einer der Anwendungen eine Kalendereintragseinladung, bevor der Kalendereintrag synchronisiert wird.</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Der Kalendereintrag wird synchronisiert und zeigt an, dass er akzeptiert wurde.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Akzeptieren Sie in einer der Anwendungen eine Kalendereintragseinladung, nachdem der Kalendereintrag synchronisiert wurde.</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Der Kalendereintrag wird synchronisiert, wenn er erstmals geplant wird, und wird erneut synchronisiert, nachdem er aktualisiert wurde, um anzuzeigen, dass er akzeptiert wurde.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1" MadCap:conditions="">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Akzeptieren Sie eine Kalendereintragseinladung in <span class="MyVariablesIntegrated (the)/Outlook">Outlook</span> mit Vorbehalt.</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Der Kalendereintrag wird synchronisiert, wenn er erstmals geplant wird, und wird erneut synchronisiert, nachdem er aktualisiert wurde, um anzuzeigen, dass er akzeptiert wurde. <span class="MyVariablesProduct Name">Infor CRM</span> verfügt nicht über einen Vorbehalt-Status für Aktivitäten.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Lehnen Sie in einer der Anwendungen eine Kalendereintragseinladung ab, bevor der Kalendereintrag synchronisiert wird.</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">
+                        <p>Der Kalendereintrag wird in beiden Anwendungen aus den Kalendern des Benutzers entfernt.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Lehnen Sie in <span class="MyVariablesProduct Name">Infor CRM</span> eine Kalendereintragseinladung ab, nachdem der Kalendereintrag synchronisiert wurde.</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">
+                        <p>Der Kalendereintrag wird in beiden Anwendungen aus den Kalendern des Benutzers entfernt.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Lehnen Sie in <span class="MyVariablesProduct Name">Infor CRM</span> eine Kalendereintragseinladung ab, nachdem der Kalendereintrag synchronisiert wurde.</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Der Kalendereintrag wird in beiden Anwendungen aus den Kalendern des Benutzers entfernt.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <th class="TableStyle-TableStyle-BodyD-Column1-Body1" colspan="2">
+                        <p>Arbeiten mit persönlichen oder privaten Kalendereinträgen</p>
+                    </th>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Planen Sie eine persönlichen Aktivität in <span class="MyVariablesProduct Name">Infor CRM</span>.</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Die persönliche Aktivität wird als Kalendereintrag, der in <span class="MyVariablesIntegrated (an)/Outlook (Caps)">Outlook</span> als "Privat" festgelegt ist, synchronisiert.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Planen Sie in <span class="MyVariablesIntegrated (the)/Outlook">Outlook</span> einen sich privaten Kalendereintrag.</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Der private Kalendereintrag wird als persönliche Aktivität in <span class="MyVariablesProduct Name">Infor CRM</span> synchronisiert.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Löschen Sie in <span class="MyVariablesIntegrated (the)/Outlook">Outlook</span> die Kennzeichnung "Privat", nachdem der Kalendereintrag synchronisiert wurde.</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Der Kalendereintrag wird synchronisiert und ändert die private Aktivität zu einem Meeting in <span class="MyVariablesProduct Name">Infor CRM</span>.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Wählen Sie in <span class="MyVariablesIntegrated (the)/Outlook">Outlook</span> die Kennzeichnung "Privat" aus, nachdem der Kalendereintrag synchronisiert wurde.</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Der Kalendereintrag wird synchronisiert und ändert das Meeting zu einer privaten Aktivität in <span class="MyVariablesProduct Name">Infor CRM</span>.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <th class="TableStyle-TableStyle-BodyD-Column1-Body1" colspan="2">
+                        <p>Arbeiten mit Kalendereinträgen und Aufgaben ohne Zeitangabe</p>
+                    </th>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Planen Sie in <span class="MyVariablesProduct Name">Infor CRM</span> einen Kalendereintrag ohne Zeitangabe.</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Der Kalendereintrag ohne Zeitangabe wird als ganztägiges Ereignis mit <span class="MyVariablesIntegrated (the)/Outlook">Outlook</span> synchronisiert.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Planen Sie in <span class="MyVariablesIntegrated (the)/Outlook">Outlook</span> ein ganztägiges Ereignis.</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Das ganztägige Ereignis wird als Meeting ohne Zeitangabe in <span class="MyVariablesProduct Name">Infor CRM</span> synchronisiert.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Ändern Sie in <span class="MyVariablesProduct Name">Infor CRM</span> einen Kalendereintrag zu "ohne Zeitangabe".</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Der Kalendereintrag wird zu einem ganztägigen Ereignis in <span class="MyVariablesIntegrated (the)/Outlook">Outlook</span> geändert.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Dehnen Sie in <span class="MyVariablesProduct Name">Infor CRM</span> einen Kalendereintrag ohne Zeitangabe aus.</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Die Änderung wird mit <span class="MyVariablesIntegrated (the)/Outlook">Outlook</span> synchronisiert und ändert das Startdatum zum aktuellen Ausdehnungsdatum.</td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <th class="TableStyle-TableStyle-BodyD-Column1-Body1" colspan="2">
+                        <p>Wiedervorlegen von Alarmen</p>
+                    </th>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Legen Sie in einer der Anwendungen einen Alarm für einen Kalendereintrag wieder vor.</td>
+                    <td class="TableStyle-TableStyle-BodyD-Column1-Body1">
+                        <p>Der geänderte Kalendereintrag wird synchronisiert.</p>
+                        <p>Je nachdem, zu welchem Zeitpunkt während des Synchronisierungzyklus der Kalendereintrag wiedervorgelegt wird, kann der Alarm ausgelöst werden, bevor die Wiedervorlage synchronisiert wird.</p>
+                        <p><span class="MyVariablesProduct Name">Infor CRM</span> empfiehlt Wiedervorlegen von Alarmen in nur einer der Anwendungen.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyB-Column1-Body1">Legen Sie in einer der Anwendungen einen Alarm für eine Aufgabe wieder vor.</td>
+                    <td class="TableStyle-TableStyle-BodyA-Column1-Body1">
+                        <p>Die geänderte Aufgabe wird synchronisiert.</p>
+                        <p>Je nachdem, zu welchem Zeitpunkt während des Synchronisierungzyklus der Kalendereintrag wiedervorgelegt wird, kann der Alarm ausgelöst werden, bevor die Wiedervorlage synchronisiert wird.</p>
+                        <p><span class="MyVariablesProduct Name">Infor CRM</span> empfiehlt Wiedervorlegen von Alarmen in nur einer der Anwendungen.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p class="RelatedTopics">Verwandte Themen</p>
+        <p><a href="Understanding_Contact_Integration.htm">Grundlegendes zur Kontaktintegration</a>
+        </p>
+        <p><a href="Matching_Records.htm">Übereinstimmende Datensätze</a>
+        </p>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

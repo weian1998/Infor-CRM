@@ -1,0 +1,12 @@
+ [
+      {
+        "title": "Appendix",
+        "items": [
+               {
+                  "name": "v2_appendix_amd",
+                  "title": "AMD - Define",
+                  "description": "Describes how the AMD loader works with defining modules."
+               }
+        ]
+      }
+  ]

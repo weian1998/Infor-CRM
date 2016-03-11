@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\OAuthProviderScope\OAuthProviderScope.OAUTHPROVIDERSCOPE.entity.xml" timeStamp="2015-05-28T03:04:17.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\OAuthProviderScope\OnAfterDelete.method.xml" timeStamp="2015-05-28T03:04:17.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\OAuthProviderScope\OnAfterInsert.method.xml" timeStamp="2015-05-28T03:04:17.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\OAuthProviderScope\OnAfterUpdate.method.xml" timeStamp="2015-05-28T03:04:17.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\OAuthProviderScope\OnBeforeDelete.method.xml" timeStamp="2015-05-28T03:04:17.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\OAuthProviderScope\OnBeforeInsert.method.xml" timeStamp="2015-05-28T03:04:17.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\OAuthProviderScope\OnBeforeUpdate.method.xml" timeStamp="2015-05-28T03:04:17.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\OAuthProviderScope\OnCreate.method.xml" timeStamp="2015-05-28T03:04:17.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\OAuthProviderScope\QuickForms\" />
+</exportedFiles>

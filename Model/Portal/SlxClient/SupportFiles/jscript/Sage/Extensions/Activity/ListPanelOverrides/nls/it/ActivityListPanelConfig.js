@@ -1,0 +1,3 @@
+define((
+{ colNameAssociationCount: 'Numero partecipanti' }
+));

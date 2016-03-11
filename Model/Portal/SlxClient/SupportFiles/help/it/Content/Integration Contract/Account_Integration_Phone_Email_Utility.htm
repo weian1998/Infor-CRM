@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:fileTags="Translation Status.Support files" MadCap:tocPath="" MadCap:medium="non-print" MadCap:InPreviewMode="false" MadCap:PreloadImages="false" MadCap:RuntimeFileType="Topic" MadCap:TargetType="WebHelp" lang="en-us" xml:lang="en-us" MadCap:conditions="Output.IntegrationContract,Output.WebClient" MadCap:PathToHelpSystem="../../" MadCap:HelpSystemFileName="WebClient.xml" MadCap:SearchType="Stem">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Esecuzione dell'utilità SLXConversion</title>
+        <link href="../Resources/Stylesheets/Infor.CSS" rel="stylesheet" />
+        <script src="../SkinSupport/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapAll.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapTopicAll.js" type="text/javascript">
+        </script>
+    </head>
+    <body>
+        <h1><a name="kanchor507"></a>Esecuzione dell'utilità SLXConversion</h1>
+        <p>Prima di configurare i punti finali dell'Integrazione Contabilità è necessario eseguire la SLXConversion utility di aggiornamento Numero di Telefono Azienda ed Email dei record. Questa utilità supporta l'integrazione con l'aggiunta di colonne al database Saleslogix per abilitare un 1: quanti rapporti per i numeri di telefono e indirizzi e-mail di aziende e contatti. </p>
+        <p>
+Crea un record nella tabella ERPPHONENUMBER oppure ERPEMAILADDRESS per ciascuna colonna di numero di telefono ed email nelle tabelle AZIENDA o CONTATTO. Tali record sono corrispondenti alla colonna di entità originale da cui provengono. 
+</p>
+        <p>
+        </p>
+        <table wrapperparagraphselector="P" style="width: 80%;margin-top: 14pt;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" width="80%">
+            <col style="width: 45px;" />
+            <col />
+            <tr>
+                <td style="padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top">
+                    <p align="center" class="Topic-Text-Indent">
+                        <img src="../image/note.gif" />
+                    </p>
+                </td>
+                <td style="width: 90%;padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top" width="90%">
+                    <p class="Tip-Note-Text" style="margin-bottom: 0;">L'Autenticazione Windows deve essere configurata con i parametri di utente amministrativo prima di eseguire l'aggiornamento delle utilità Telefono ed E-mail. Per informazioni più dettagliate sui passaggi necessari, consultare l'argomento ''Utilizzo dell'Autenticazione Windows'' nella Guida di Administrator.</p>
+                </td>
+            </tr>
+        </table>
+        <p class="Infinitive">Per eseguire </p>
+        <ol>
+            <li value="1">Sul proprio Piano di lavoro Amministrativo, sfogliare i file <span class="SLXBold">SLXConversionUtility.exe</span> e <span class="SLXBold">SLXConversionUtility.config</span>. <br />Per impostazione predefinita questi file sono in ...\Programmi File\<span class="MyVariablesSLX old">Saleslogix</span></li>
+            <li value="2">Aprire <span class="SLXBold">SLXConversionUtility.config</span> in un editor di testo di vostra scelta.</li>
+            <li value="3">Scorrere fino alla sezione <span class="SLXBold">&lt;connectionStrings</span> e modificare il valore di <span class="SLXBold">Initial Catalog</span> da <span class="SLXBold">SALESLOGIX_EVAL</span> al proprio alias di database, e salvare le modifiche.<br />  Ad esempio: <br />&lt;connectionStrings&gt; &lt;clear/&gt; &lt;add name=''Default'' connectionString=''Provider=SLXOLEDB.1;Persist Security Info=True;Initial Catalog=MyDatabaseAlias;Data Source=localhost;Extended Properties=''PORT=1706;LOG=ON;CASEINSENSITIVEFIND=ON;AUTOINCBATCHSIZE=1;SVRCERT=12345;ACTIVITYSECURITY=OFF;TIMEZONE=NONE''''/&gt; &lt;/connectionStrings&gt;
+</li>
+            <li value="4">Doppio click <span class="SLXBold">SLXConversionUtility.exe</span> per eseguire l'utilità.
+</li>
+            <li value="5">Selezionare tutte le caselle di controllo.</li>
+            <li value="6">Fare clic su <span class="SLXBold">Aggiorna</span>.</li>
+            <li value="7">Fare clic su <span class="SLXBold">Chiudi</span>.
+</li>
+        </ol>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

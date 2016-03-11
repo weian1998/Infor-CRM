@@ -1,0 +1,44 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrder\Account.filter.xml" timeStamp="2015-05-28T03:04:23.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrder\AccountManager.filter.xml" timeStamp="2015-05-28T03:04:23.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrder\CanAddSalesOrderItems.method.xml" timeStamp="2015-05-28T03:04:23.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrder\CanChangeOperatingCompany.method.xml" timeStamp="2015-05-28T03:04:23.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrder\CleanUpErpPricingLines.method.xml" timeStamp="2015-05-28T03:04:23.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrder\CommissionAverage.filter.xml" timeStamp="2015-05-28T03:04:23.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrder\CompleteUpdatedErpPricingLines.method.xml" timeStamp="2015-05-28T03:04:23.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrder\CopySalesOrder.method.xml" timeStamp="2015-05-28T03:04:23.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrder\DateRequested.filter.xml" timeStamp="2015-05-28T03:04:23.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrder\DiscountAverage.filter.xml" timeStamp="2015-05-28T03:04:23.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrder\GetUpdatedErpPricingLines.method.xml" timeStamp="2015-05-28T03:04:23.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrder\GrandTotal.filter.xml" timeStamp="2015-05-28T03:04:23.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrder\IsContractIntegrationEnabled.method.xml" timeStamp="2015-05-28T03:04:23.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrder\IsMultiCurrencyEnabled.method.xml" timeStamp="2015-05-28T03:04:23.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrder\IsOperatingCompanyAssociatedWithAccount.method.xml" timeStamp="2015-05-28T03:04:23.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrder\IsQuote.filter.xml" timeStamp="2015-05-28T03:04:23.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrder\LockPricingForSOItems.method.xml" timeStamp="2015-05-28T03:04:23.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrder\OnAccountChanged.method.xml" timeStamp="2015-05-28T03:04:23.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrder\OnAfterDelete.method.xml" timeStamp="2015-05-28T03:04:23.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrder\OnAfterInsert.method.xml" timeStamp="2015-05-28T03:04:23.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrder\OnAfterUpdate.method.xml" timeStamp="2015-05-28T03:04:23.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrder\OnBeforeDelete.method.xml" timeStamp="2015-05-28T03:04:23.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrder\OnBeforeInsert.method.xml" timeStamp="2015-05-28T03:04:23.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrder\OnBeforeUpdate.method.xml" timeStamp="2015-05-28T03:04:23.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrder\OnBillingContactChanged.method.xml" timeStamp="2015-05-28T03:04:23.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrder\OnCreate.method.xml" timeStamp="2015-05-28T03:04:24.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrder\OnOpportunityChanged.method.xml" timeStamp="2015-05-28T03:04:24.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrder\OnShippingContactChanged.method.xml" timeStamp="2015-05-28T03:04:23.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrder\OnStatusChanged.method.xml" timeStamp="2015-05-28T03:04:24.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrder\OpenSalesOrderDeliveryExpectationAverage.filter.xml" timeStamp="2015-05-28T03:04:24.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrder\ReAssignLineNumbers.method.xml" timeStamp="2015-05-28T03:04:24.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrder\SalesOrder.SALESORDER.entity.xml" timeStamp="2015-05-28T03:04:24.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrder\SalesOrderCount.filter.xml" timeStamp="2015-05-28T03:04:24.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrder\SetDiscountRate.method.xml" timeStamp="2015-05-28T03:04:24.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrder\SetExchangeRate.method.xml" timeStamp="2015-05-28T03:04:24.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrder\SetSalesOrderBillingAddress.method.xml" timeStamp="2015-05-28T03:04:24.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrder\SetSalesOrderShippingAddress.method.xml" timeStamp="2015-05-28T03:04:24.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrder\Status.filter.xml" timeStamp="2015-05-28T03:04:24.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrder\Type.filter.xml" timeStamp="2015-05-28T03:04:24.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrder\UnLockPricingForSOItems.method.xml" timeStamp="2015-05-28T03:04:24.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrder\QuickForms\" />
+</exportedFiles>

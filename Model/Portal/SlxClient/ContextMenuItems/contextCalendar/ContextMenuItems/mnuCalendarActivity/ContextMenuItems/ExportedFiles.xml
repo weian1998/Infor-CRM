@@ -1,0 +1,8 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\SlxClient\ContextMenuItems\contextCalendar\ContextMenuItems\mnuCalendarActivity\ContextMenuItems\mnuCalendarActivityComplete\" />
+  <exportedFile url="\Portal\SlxClient\ContextMenuItems\contextCalendar\ContextMenuItems\mnuCalendarActivity\ContextMenuItems\mnuCalendarActivityDelete\" />
+  <exportedFile url="\Portal\SlxClient\ContextMenuItems\contextCalendar\ContextMenuItems\mnuCalendarActivity\ContextMenuItems\mnuCalendarActivityGoTo\" />
+  <exportedFile url="\Portal\SlxClient\ContextMenuItems\contextCalendar\ContextMenuItems\mnuCalendarActivity\ContextMenuItems\mnuCalendarActivityOpen\" />
+  <exportedFile url="\Portal\SlxClient\ContextMenuItems\contextCalendar\ContextMenuItems\mnuCalendarActivity\ContextMenuItems\mnuCalendarActivitySpacer\" />
+</exportedFiles>

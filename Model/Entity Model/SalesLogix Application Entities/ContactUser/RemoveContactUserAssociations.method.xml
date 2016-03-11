@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<method xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="7e85d543-38d3-4977-9029-b8622df713cf" lastModifiedUtc="2013-07-24T23:47:55.0620932Z" name="RemoveContactUserAssociations" methodType="Rule" actionType="None" returnMode="None">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmEntityMethod" />
+  </ExtendedPropertiesCollection>
+  <parameter>
+    <OrmEntityMethodParam id="b1d7f91a-1f3a-4b25-8bc7-2e686f60f8d5" paramName="contactIds" sequence="0" paramType="String" />
+    <OrmEntityMethodParam id="695c7561-25b6-4d2b-8b4a-e30f75da85d3" paramName="userIds" sequence="0" paramType="String" />
+  </parameter>
+  <preExecuteTargets />
+  <methodTargets>
+    <methodTarget id="47a16f7c-c72a-4ce0-a187-c646a1eb6e34" lastModifiedUtc="2013-09-26T23:17:04.5910876Z" targetType="Sage.SalesLogix.BusinessRules.ContactUser.ContactUserRules, Sage.SalesLogix.BusinessRules" targetMethod="RemoveContactUserAssociation" active="true">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmMethodTarget" />
+      </ExtendedPropertiesCollection>
+    </methodTarget>
+  </methodTargets>
+  <postExecuteTargets />
+  <postFlushTargets />
+</method>

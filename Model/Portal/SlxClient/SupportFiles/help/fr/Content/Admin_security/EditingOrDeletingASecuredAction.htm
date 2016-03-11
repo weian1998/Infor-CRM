@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:fileTags="Translation Status.Support files" xml:lang="fr" MadCap:tocPath="" MadCap:medium="non-print" MadCap:InPreviewMode="false" MadCap:PreloadImages="false" MadCap:RuntimeFileType="Topic" MadCap:TargetType="WebHelp" lang="fr" MadCap:conditions="Output.WebClient" MadCap:PathToHelpSystem="../../" MadCap:HelpSystemFileName="WebClient.xml" MadCap:SearchType="Stem">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="description" content="Modifier ou supprimer une action sécurisée Infor CRM. Lorsqu'une application sécurisée est appliquée à un élément de l'interface utilisateur, seuls les utilisateurs associés à un rôle comprenant l'action sécurisée peuvent voir et utiliser cet élément." />
+        <meta name="keywords" content="Edit or delete Infor CRM secured actions to change SLX users access to user interface elements" /><title>Modifier ou supprimer une action sécurisée</title>
+        <link href="../SkinSupport/Slideshow.css" rel="stylesheet" />
+        <link href="../SkinSupport/MadCap.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/Infor.CSS" rel="stylesheet" />
+        <script src="../SkinSupport/jquery.min.js">
+        </script>
+        <script src="../SkinSupport/MadCapAll.js">
+        </script>
+        <script src="../SkinSupport/MadCapTopicAll.js">
+        </script>
+    </head>
+    <body>
+        <h1>Modifier ou supprimer une action sécurisée</h1>
+        <table wrapperparagraphselector="P" style="width: 80%;margin-top: 14pt;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" width="80%">
+            <col style="width: 38px;" />
+            <col />
+            <tr>
+                <td style="padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top">
+                    <p style="text-align: center;margin-bottom: 0;" align="center">
+                        <img src="../image/adminonly.gif" />
+                    </p>
+                </td>
+                <td style="width: 90%;padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top" width="90%">
+                    <p>L'administrateur système et les utilisateurs dotés d'un <a href="What_are_Roles_and_Secured_Actions.htm" target="_self">rôle</a> approprié peuvent accéder à ces fonctionnalités.</p>
+                </td>
+            </tr>
+        </table>
+        <p>Si vous effacez ou renommez une action sécurisée, celle-ci est découplée de tous les éléments auxquels elle était affectée dans l'application Architect. Bien que la relation n'existe plus, l'élément reste toujours sécurisé jusqu'à ce que vous supprimiez manuellement l'action sécurisée de la propriété Sécurité appliquée du contrôle dans l'application Architect. <a href="javascript:void(0);" onclick="FMCToggler( this ); return false;" class="MCToggler_0" MadCap:targets="ActionExample">En savoir plus...<img style="border: none;margin-left: 5px;" src="../SkinSupport/DropDownClosed.gif" MadCap:altsrc="../SkinSupport/DropDownOpen.gif" onload="if ( typeof( FMCPreloadImage ) == 'function' ) { FMCPreloadImage( '../SkinSupport/DropDownOpen.gif' ); }" alt="Closed" MadCap:alt2="Open" class="MCTogglerIcon" /></a></p>
+        <p MadCap:targetName="ActionExample" MadCap:conditions="Reporting.Reporting references" style="display: none;">Par exemple, vous avez créé une action sécurisée nommée Impression/Rapports et ajouté cette action au bouton Imprimer de la vue Rapports. Si vous supprimez l'action sécurisée Impression/Rapports, Impression/Rapports s'affiche encore dans la propriété Sécurité appliquée du contrôle du bouton Imprimer dans l'application Architect, bien que l'action n'existe plus. Lorsqu'un utilisateur accède à la vue Rapports, il ne peut pas accéder au bouton Imprimer car il n'a pas été affecté à un rôle qui contient l'action sécurisée Impression/Rapports. L'utilisateur admin peut accéder à tous les éléments de l'interfacce utilisateur, pour toutes les actions sécurisées.</p>
+        <p>Si vous souhaitez supprimer la sécurité de l'élément, supprimez l'action sécurisée, puis supprimez manuellement l'action de la propriété Sécurité appliquée du contrôle dans l'application Architect.</p>
+        <table wrapperparagraphselector="P" style="width: 80%;margin-top: 14pt;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" width="80%">
+            <col style="width: 38px;" />
+            <col />
+            <tr>
+                <td style="padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top">
+                    <p style="text-align: center;margin-bottom: 0;" align="center">
+                        <img src="../image/caution.gif" />
+                    </p>
+                </td>
+                <td style="width: 90%;padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top" width="90%">
+                    <p><span class="MyVariablesProduct Name">Infor CRM</span> recommande d'enregistrer les informations concernant l'onglet <a href="SecuredActionLocationsTab.htm" target="_self">Emplacements</a> de l'action sécurisée avant de renommer ou de supprimer une action.</p>
+                </td>
+            </tr>
+        </table>
+        <p class="RelatedTopics">Procédure</p>
+        <p class="HowDoI"><a href="javascript:void(0);" onclick="FMCToggler( this ); return false;" class="MCToggler_0" MadCap:targets="edit">Modifier une action sécurisée<img style="border: none;margin-left: 5px;" src="../SkinSupport/DropDownClosed.gif" MadCap:altsrc="../SkinSupport/DropDownOpen.gif" onload="if ( typeof( FMCPreloadImage ) == 'function' ) { FMCPreloadImage( '../SkinSupport/DropDownOpen.gif' ); }" alt="Closed" MadCap:alt2="Open" class="MCTogglerIcon" /></a>
+        </p>
+        <ol MadCap:targetName="edit" style="display: none;">
+            <li class="Topic-Text-Numbered" value="1">Ouvrez la vue <a href="SecuredActionDetailView.htm" target="_self">Détails des actions sécurisées</a> pour l'action que vous souhaitez modifier.</li>
+            <li class="Topic-Text-Numbered" value="2">Utilisez l'onglet <a href="SecuredActionRolesTab.htm" target="_self">Rôles</a> pour ajouter l'action sécurisée à un rôle, ou pour l'en supprimer.</li>
+            <li class="Topic-Text-Numbered" value="3">Cliquez sur <span class="MCExpanding_0"><a href="javascript:void(0);" class="MCExpandingHead_0" onclick="FMCExpand( this ); return false;">Enregistrer<img style="border: none;margin-left: 5px;" src="../SkinSupport/ExpandClosed.gif" MadCap:altsrc="../SkinSupport/ExpandOpen.gif" onload="if ( typeof( FMCPreloadImage ) == 'function' ) { FMCPreloadImage( '../SkinSupport/ExpandOpen.gif' ); }" alt="Closed" MadCap:alt2="Open" class="MCExpandingIcon" /></a><span class="MCExpandingBody_0" style="display: none;"><img src="../image/update.gif" /></span></span>..</li>
+        </ol>
+        <p class="HowDoI"><a href="javascript:void(0);" onclick="FMCToggler( this ); return false;" class="MCToggler_0" MadCap:targets="delete">Supprimer une action sécurisée<img style="border: none;margin-left: 5px;" src="../SkinSupport/DropDownClosed.gif" MadCap:altsrc="../SkinSupport/DropDownOpen.gif" onload="if ( typeof( FMCPreloadImage ) == 'function' ) { FMCPreloadImage( '../SkinSupport/DropDownOpen.gif' ); }" alt="Closed" MadCap:alt2="Open" class="MCTogglerIcon" /></a>
+        </p>
+        <ol MadCap:targetName="delete" style="display: none;">
+            <li class="Topic-Text-Numbered" value="1">Ouvrez la vue <a href="SecuredActionDetailView.htm" target="_self">Détails des actions sécurisées</a> pour l'action que vous souhaitez supprimer.</li>
+            <li class="Topic-Text-Numbered" value="2">Cliquez sur <span class="MCExpanding_0"><a href="javascript:void(0);" class="MCExpandingHead_0" onclick="FMCExpand( this ); return false;">Supprimer<img style="border: none;margin-left: 5px;" src="../SkinSupport/ExpandClosed.gif" MadCap:altsrc="../SkinSupport/ExpandOpen.gif" onload="if ( typeof( FMCPreloadImage ) == 'function' ) { FMCPreloadImage( '../SkinSupport/ExpandOpen.gif' ); }" alt="Closed" MadCap:alt2="Open" class="MCExpandingIcon" /></a><span class="MCExpandingBody_0" style="display: none;"><img src="../image/delete.gif" /></span></span>.</li>
+            <li class="Topic-Text-Numbered" value="3">Pour confirmer, cliquez sur <b>OK</b>.</li>
+        </ol>
+        <p><a href="javascript:void(0);" onclick="FMCToggler( this ); return false;" class="MCToggler_0" MadCap:targets="recover">Récupérer une action sécurisée<img style="border: none;margin-left: 5px;" src="../SkinSupport/DropDownClosed.gif" MadCap:altsrc="../SkinSupport/DropDownOpen.gif" onload="if ( typeof( FMCPreloadImage ) == 'function' ) { FMCPreloadImage( '../SkinSupport/DropDownOpen.gif' ); }" alt="Closed" MadCap:alt2="Open" class="MCTogglerIcon" /></a>
+        </p>
+        <p MadCap:targetName="recover" style="display: none;">Si vous supprimez (ou renommez) accidentellement une action sécurisée, vous pouvez créer une nouvelle action sécurisée, portant le même nom, qui liera de nouveau l'action à tous les contrôles qui l'utilisent dans l'application Architect. Si vous avez supprimé manuellement l'action de la propriété Sécurité appliquée sur le contrôle dans l'application Architect, l'action ne pourra plus être liée au contrôle. Le nom de la nouvelle action sécurisée doit être EXACTEMENT le même que celui de l'action sécurisée précédente.</p>
+        <p class="RelatedTopics">Rubriques connexes</p>
+        <p><a target="_self" href="What_are_Roles_and_Secured_Actions.htm">Que sont les rôles et les actions sécurisées&#160;?</a>
+        </p>
+        <p><a href="CreatingASecuredAction.htm" target="_self">Création d'une action sécurisée</a>
+        </p>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

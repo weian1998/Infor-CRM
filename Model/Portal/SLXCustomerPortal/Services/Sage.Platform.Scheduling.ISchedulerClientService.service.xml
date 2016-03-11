@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<PortalService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="a5067a90-3a36-6d8f-82bc-a3679d49e098">
+  <InstanceId>a1d213856f6296774872322323123457</InstanceId>
+  <ServiceType>Sage.Platform.Scheduling.SchedulerClientService, Sage.Platform</ServiceType>
+  <RegisterAs>Sage.Platform.Scheduling.ISchedulerClientService, Sage.Platform</RegisterAs>
+  <Properties />
+  <Scope>Application</Scope>
+</PortalService>

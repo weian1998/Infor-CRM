@@ -1,0 +1,7 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\PortalTemplates\AspNetPortalTemplate\" />
+  <exportedFile url="\Portal\PortalTemplates\MobilePortalTemplate\" />
+  <exportedFile url="\Portal\PortalTemplates\ServicePortalTemplate\" />
+  <exportedFile url="\Portal\PortalTemplates\UIPortalTemplate\" />
+</exportedFiles>

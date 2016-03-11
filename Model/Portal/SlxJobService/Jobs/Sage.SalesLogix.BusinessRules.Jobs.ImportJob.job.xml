@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<SchedulerJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="e65eea45-8ca2-409f-83a3-6a4fb5841bb3">
+  <InstanceId>5ca4b2fa2e564b68831c95a9e9aac96c</InstanceId>
+  <TypeName>Sage.SalesLogix.BusinessRules.Jobs.ImportJob, Sage.SalesLogix.BusinessRules</TypeName>
+  <Parameters />
+</SchedulerJob>

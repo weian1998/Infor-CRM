@@ -1,0 +1,12 @@
+var xmlConceptsData = "";
+xmlConceptsData += '<?xml version=\"1.0\" encoding=\"utf-8\"?>';
+xmlConceptsData += '<CatapultTargetConcepts>';
+xmlConceptsData += '    <ConceptEntry Term=\"comptabilité\">';
+xmlConceptsData += '        <ConceptLink Title=\"Onglet Employé de la boîte de dialogue Profil utilisateur\" Link=\"/Content/Admin_useradmin/User_Detail_View_Employee_Tab.htm#aanchor2\" UsedConditions=\"\" LocalConditions=\"\" />';
+xmlConceptsData += '    </ConceptEntry>';
+xmlConceptsData += '    <ConceptEntry Term=\"Utilisateurs\">';
+xmlConceptsData += '        <ConceptLink Title=\"Ajout d\'un utilisateur\" Link=\"/Content/Admin_useradmin/Adding_a_User.htm#aanchor0\" UsedConditions=\"\" LocalConditions=\"\" />';
+xmlConceptsData += '        <ConceptLink Title=\"Activation ou désactivation du nom de connexion d\'un utilisateur\" Link=\"/Content/Admin_useradmin/Activating_or_Deactivating_a_User_Login.htm#aanchor1\" UsedConditions=\"\" LocalConditions=\"\" />';
+xmlConceptsData += '    </ConceptEntry>';
+xmlConceptsData += '</CatapultTargetConcepts>';
+CMCXmlParser._FilePathToXmlStringMap.Add('Concepts', xmlConceptsData);

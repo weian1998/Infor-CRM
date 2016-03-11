@@ -1,0 +1,17 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\src\Fields\_Field.js" timeStamp="2015-05-28T03:49:58.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\src\Fields\BooleanField.js" timeStamp="2015-05-28T03:49:57.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\src\Fields\DateField.js" timeStamp="2015-05-28T03:49:57.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\src\Fields\DecimalField.js" timeStamp="2015-05-28T03:49:57.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\src\Fields\DurationField.js" timeStamp="2015-05-28T03:49:57.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\src\Fields\EditorField.js" timeStamp="2015-05-28T03:49:57.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\src\Fields\HiddenField.js" timeStamp="2015-05-28T03:49:57.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\src\Fields\LookupField.js" timeStamp="2015-05-28T03:49:57.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\src\Fields\NoteField.js" timeStamp="2015-05-28T03:49:57.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\src\Fields\PhoneField.js" timeStamp="2015-05-28T03:49:58.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\src\Fields\SelectField.js" timeStamp="2015-05-28T03:49:58.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\src\Fields\SignatureField.js" timeStamp="2015-05-28T03:49:58.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\src\Fields\TextAreaField.js" timeStamp="2015-05-28T03:49:58.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\src\Fields\TextField.js" timeStamp="2015-05-28T03:49:58.0000" />
+</exportedFiles>

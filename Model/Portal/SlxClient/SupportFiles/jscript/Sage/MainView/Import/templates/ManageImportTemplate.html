@@ -1,0 +1,34 @@
+﻿<div>
+    <div data-dojo-type="dijit.Dialog" title="{%= $._nlsResources.dlgManageImportTemplate_Title %}" data-dojo-attach-point="_dialog" data-dojo-attach-event="onCancel:_btnCancel_OnClick" style="width: 800px">
+        <div data-dojo-type="dijit.form.Form">
+            <table cellspacing="10">
+                <tr>
+                    <td>
+                        <label>{%= $._nlsResources.txtDescription_Caption %}</label>
+                    </td>
+                    <td>
+                        <input data-dojo-type="dijit.form.TextBox" data-dojo-attach-point="txtTemplateDescription" style="width:200px" />
+                        <span data-dojo-attach-point="errorInvalidDescription" class="display-none" style="color:red">*</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>{%= $._nlsResources.txtImportTemplates_Caption %}</label>
+                    </td>
+                </tr>
+            </table>
+            <div data-dojo-attach-point="divLoadingMessage">
+                <br />
+                <label style="padding-left:300px;font-size:16px;font-weight:bold"> {%= Sage.Utility.htmlEncode($.gridLoading_Caption) %}</label>
+            </div>
+            <div data-dojo-attach-point="templatesGrid"></div>
+            <div data-dojo-attach-point="divValidationMessage" style="color:red">
+                <span data-dojo-attach-point="spanValidationMessage">&nbsp;</span>
+            </div>
+            <div align="right" style="margin-top:10px">
+                <div data-dojo-type="dijit.form.Button" data-dojo-attach-point="btnBack" data-dojo-attach-event="onClick:_btnSave_OnClick" >{%= Sage.Utility.htmlEncode($._nlsResources.btnSave_Caption) %}</div>
+                <div data-dojo-type="dijit.form.Button" data-dojo-attach-point="btnCancel" data-dojo-attach-event="onClick:_btnCancel_OnClick" style="margin-left:5px;">{%= Sage.Utility.htmlEncode($.btnClose_Caption) %}</div>
+            </div>
+        </div>
+    </div>
+</div>

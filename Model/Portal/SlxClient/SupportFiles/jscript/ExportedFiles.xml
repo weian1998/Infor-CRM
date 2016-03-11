@@ -1,0 +1,19 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\FusionCharts.js" timeStamp="2015-05-28T03:08:54.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\LitRequest.js" timeStamp="2015-05-28T03:06:44.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\SagePlatformScript.jsb" timeStamp="2015-05-28T03:46:03.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\SagePlatformScript_deployed.jsb" timeStamp="2015-05-28T03:08:54.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\SageSalesLogixCommon.jsb" timeStamp="2015-05-28T03:46:06.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Silverlight.js" timeStamp="2015-05-28T03:06:44.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\SLXDataGrid.js" timeStamp="2015-05-28T03:08:54.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\SpMailMerge.js" timeStamp="2015-05-28T03:06:44.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\timeobjs.js" timeStamp="2015-05-28T03:06:44.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\timezone.js" timeStamp="2015-05-28T03:08:54.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\XMLSupport.js" timeStamp="2015-05-28T03:08:54.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\sage-common\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\sage-platform\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\src-docs\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\timeline\" />
+</exportedFiles>

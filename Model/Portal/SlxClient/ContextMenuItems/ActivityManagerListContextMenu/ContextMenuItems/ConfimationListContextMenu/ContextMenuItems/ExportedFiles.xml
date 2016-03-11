@@ -1,0 +1,7 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\SlxClient\ContextMenuItems\ActivityManagerListContextMenu\ContextMenuItems\ConfimationListContextMenu\ContextMenuItems\mnuAcceptConfirmation\" />
+  <exportedFile url="\Portal\SlxClient\ContextMenuItems\ActivityManagerListContextMenu\ContextMenuItems\ConfimationListContextMenu\ContextMenuItems\mnuDeclineConfirmation\" />
+  <exportedFile url="\Portal\SlxClient\ContextMenuItems\ActivityManagerListContextMenu\ContextMenuItems\ConfimationListContextMenu\ContextMenuItems\mnuDeleteConfirmation\" />
+  <exportedFile url="\Portal\SlxClient\ContextMenuItems\ActivityManagerListContextMenu\ContextMenuItems\ConfimationListContextMenu\ContextMenuItems\mnuOpenConfirmation\" />
+</exportedFiles>

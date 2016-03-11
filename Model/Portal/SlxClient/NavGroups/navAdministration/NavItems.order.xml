@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<ModelItems xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Item Id="36ff9633-9cf0-4aff-afc8-dd21b73d7b8e">navEntitiesUsers.navitem.xml</Item>
+  <Item Id="c6ed735e-c119-4ddb-8c0e-8f21f83b4eae">navEntitiesTeams.navitem.xml</Item>
+  <Item Id="83e1a684-8727-454e-866f-8ba347688b53">navEntitiesDepartments.navitem.xml</Item>
+  <Item Id="7692717f-00a9-40d5-9492-43197fde5239">navEntitiesRoles.navitem.xml</Item>
+  <Item Id="171763c0-f508-4d42-893c-cfa9758cb711">navEntitiesCompetitors.navitem.xml</Item>
+  <Item Id="1e84750a-018b-4c80-90ca-0e7144795169">navEntitiesLeadSources.navitem.xml</Item>
+  <Item Id="585666ff-74f2-42ce-af7a-c7b5ae852098">navEntitiesProductsAdmin.navitem.xml</Item>
+  <Item Id="7bd47ff4-37ca-4a6e-917b-6a92b0f87864">navEntitiesPackagesAdmin.navitem.xml</Item>
+  <Item Id="c75406c4-32ff-450f-8fdd-88c0a72e8bb2">navEntitiesPickLists.navitem.xml</Item>
+  <Item Id="d3ce8fcb-cf44-4724-ae62-fe8a1ba01774">navEntitiesLiteratureItems.navitem.xml</Item>
+  <Item Id="8e72bd50-6412-45cb-8bf6-389d90f0190d">navResources.navitem.xml</Item>
+  <Item Id="7009aea8-b0b2-4ecc-9009-8815f867362e">navQualifications.navitem.xml</Item>
+  <Item Id="0b8e9511-9349-4546-8419-7698fb5c4bfe">navSecuredAction.navitem.xml</Item>
+  <Item Id="d2d4dea7-e785-4e9a-ace7-306b77595402">SecurityManager.navitem.xml</Item>
+  <Item Id="07b06534-bbb2-4652-9824-0de595da796a">navEntity.navitem.xml</Item>
+  <Item Id="3f664f8a-f027-4dfb-8f17-b6a95840b78b">FormManager.navitem.xml</Item>
+  <Item Id="b8cbed63-e3f1-44b8-b720-2459fb885bea">navGroupManager.navitem.xml</Item>
+  <Item Id="29b77490-c594-4ada-a80d-6028fe8e7d30">JobManager.navitem.xml</Item>
+  <Item Id="8b6c9e23-00d3-47d6-b1a7-ed8e83fce988">navSyncResults.navitem.xml</Item>
+  <Item Id="86eadcf2-5ccd-45dd-b80a-538048f1808e">navSyncJobs.navitem.xml</Item>
+  <Item Id="f82b37d6-d8be-4093-8b03-3479d0d952bd">navAdministrationIntegrations.navitem.xml</Item>
+</ModelItems>

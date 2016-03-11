@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:fileTags="Translation Status.Support files" xml:lang="de" MadCap:tocPath="" MadCap:medium="non-print" MadCap:InPreviewMode="false" MadCap:PreloadImages="false" MadCap:RuntimeFileType="Topic" MadCap:TargetType="WebHelp" lang="de" MadCap:conditions="Output.WebClient" class="" MadCap:PathToHelpSystem="../../" MadCap:HelpSystemFileName="WebClient.xml" MadCap:SearchType="Stem">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Verwenden erweiterter Übereinstimmungsoptionen</title>
+        <link href="../SkinSupport/Slideshow.css" rel="stylesheet" />
+        <link href="../SkinSupport/MadCap.css" rel="stylesheet" />
+        <link href="../Resources/TableStyles/TableStyle.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/Infor.CSS" rel="stylesheet" />
+        <script src="../SkinSupport/jquery.min.js">
+        </script>
+        <script src="../SkinSupport/MadCapAll.js">
+        </script>
+        <script src="../SkinSupport/MadCapTopicAll.js">
+        </script>
+    </head>
+    <body>
+        <h1><a name="kanchor548"></a>Verwenden erweiterter Übereinstimmungsoptionen</h1>
+        <p>Mit den erweiterten Übereinstimmungsoptionen können Sie definieren, wie mögliche Übereinstimmungen gefunden werden.</p>
+        <p class="Infinitive">So legen Sie erweiterte Optionen fest</p>
+        <ol style="list-style-type: decimal;">
+            <li class="Topic-Text-Numbered" value="1">Legen Sie mithilfe der Felder unter <span class="SLXBold">Duplikatdefinition nach Treffern</span> die Art der Übereinstimmung fest. Diese Option steht nur über den Schritt "Duplikate verwalten" beim Importieren von Interessenten zur Verfügung.</li>
+        </ol>
+        <ol style="list-style-type: lower-alpha;">
+            <li class="Topic-Text-Lettered" value="1">Geben Sie in das Feld <span class="SLXBold">Duplikat</span> den Mindestprozentsatz ein, ab dem ein Wort ein Duplikat ist.</li>
+            <li class="Topic-Text-Lettered" value="2">Geben Sie in das Feld <span class="SLXBold">Mögliches Duplikat</span> den Mindestprozentsatz ein, ab dem ein Wort ein mögliches Duplikat ist.</li>
+        </ol>
+        <ol style="list-style-type: decimal;">
+            <li value="2" class="Topic-Text-Numbered">Aktivieren Sie <span class="SLXBold">Auf den Wortstamm zurückführen</span>, um andere Formen eines Worts in die Suche einzuschließen.</li>
+            <li class="Topic-Text-Numbered" value="3">Aktivieren Sie die Option <span class="SLXBold">Ähnlich klingend</span>, um Wörter mit ähnlichem Klang in die Suche einzuschließen.</li>
+            <li class="Topic-Text-Numbered" value="4">Aktivieren Sie die Option <span class="SLXBold">Synonym verwenden</span>, um Wörter mit ähnlicher Bedeutung in die Suche einzuschließen.</li>
+            <li class="Topic-Text-Numbered" value="5">Aktivieren Sie die Option <span class="SLXBold">Ähnlich geschrieben</span>, um ähnlich oder falsch geschriebene Wörter in die Suche einzuschließen. Legen Sie dann über die Liste <span class="SLXBold">Ähnlichkeitsstufe</span> fest, wie weit die Schreibweise abweichen darf, damit ein Wort als Übereinstimmung gilt. Die Zahlenwerte stehen für die Anzahl an Buchstaben, die sich unterscheiden dürfen.</li>
+        </ol>
+        <p class="Topic-Text-Indent">Für eine Übereinstimmung mit ähnlicher Schreibweise gilt:</p>
+        <ul>
+            <li class="Topic-Text-Bulleted-2" value="1">Jede Übereinstimmung muss mit dem ersten Buchstaben der Suchkriterien beginnen.</li>
+            <li class="Topic-Text-Bulleted-2" value="2">Nach dem ersten Buchstaben darf jede Überstimmung nicht mehr Abweichungen aufweisen als die Ähnlichkeitsstufe festlegt. Bei einer Ähnlichkeitsstufe von 3 würden beispielsweise Namen mit maximal drei abweichenden Buchstaben gefunden.</li>
+        </ul>
+        <ol style="list-style-type: decimal;">
+            <div class="MCDropDown">
+                <div class="MCDropDownHead_0"><a class="MCDropDownHotSpot_0" href="javascript:void(0);" id="MCDropDownHotSpot_4050900496_0" onclick="FMCDropDown( this ); return false;">Beispiel<img style="border: none;margin-left: 5px;" src="../SkinSupport/DropDownClosed.gif" MadCap:altsrc="../SkinSupport/DropDownOpen.gif" onload="if ( typeof( FMCPreloadImage ) == 'function' ) { FMCPreloadImage( '../SkinSupport/DropDownOpen.gif' ); }" alt="Closed" MadCap:alt2="Open" class="MCDropDownIcon" /></a>
+                </div>
+                <div class="MCDropDownBody" id="MCDropDownBody_4050900496_0" style="display: none;">
+                    <p>Wenn Sie "Stefan" als Suchkriterium angeben, würden bei einer Ähnlichkeitsstufe von 1 beispielsweise "Stefan" und "Stehfan" als Übereinstimmungen gefunden, nicht jedoch "Stefan" und "Stephan". Damit "Stephan" als Übereinstimmung gefunden wird, müsste die Ähnlichkeitsstufe auf 3 angehoben werden. Dann würden aber auch die Namen "Steffen" und "Steffi" als Übereinstimmung angegeben.</p>
+                    <p>Die folgende Tabelle enthält weitere Beispiele dazu, welche Übereinstimmungen abhängig von der Ähnlichkeitsstufe gefunden werden.</p>
+                    <table class="TableStyle-TableStyle" style="mc-table-style: url('../Resources/TableStyles/TableStyle.css');margin-left: 0;margin-right: auto;" cellspacing="0">
+                        <col style="width: 33%;" class="TableStyle-TableStyle-Column-Column1" />
+                        <col style="width: 33%;" class="TableStyle-TableStyle-Column-Column1" />
+                        <col style="width: 33%;" class="TableStyle-TableStyle-Column-Column1" />
+                        <thead>
+                            <tr MadCap:conditions="" class="TableStyle-TableStyle-Head-Header1">
+                                <th class="TableStyle-TableStyle-HeadE-Column1-Header1">
+                                    <p colspan="1" rowspan="1">Ähnlichkeitsstufe 1</p>
+                                    <p colspan="1" rowspan="1">(1 Zeichen unterschiedlich)</p>
+                                </th>
+                                <th class="TableStyle-TableStyle-HeadE-Column1-Header1">
+                                    <p colspan="1" rowspan="1">Ähnlichkeitsstufe 2</p>
+                                    <p colspan="1" rowspan="1">(2 Zeichen unterschiedlich)</p>
+                                </th>
+                                <th class="TableStyle-TableStyle-HeadD-Column1-Header1">
+                                    <p colspan="1" rowspan="1" width="33.333%">Ähnlichkeitsstufe 3</p>
+                                    <p colspan="1" rowspan="1" width="33.333%">(3 Zeichen unterschiedlich)</p>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr MadCap:conditions="" class="TableStyle-TableStyle-Body-Body1">
+                                <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Jon</td>
+                                <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Zeigt als Ergebnis auch:</td>
+                                <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Zeigt als Ergebnis auch:</td>
+                            </tr>
+                            <tr MadCap:conditions="" class="TableStyle-TableStyle-Body-Body1">
+                                <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Jo<u>h</u>n</td>
+                                <td class="TableStyle-TableStyle-BodyE-Column1-Body1">J<u>i<u>m</u></u></td>
+                                <td class="TableStyle-TableStyle-BodyD-Column1-Body1">J<u>eff</u></td>
+                            </tr>
+                            <tr MadCap:conditions="" class="TableStyle-TableStyle-Body-Body1">
+                                <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Jo<u>e</u></td>
+                                <td class="TableStyle-TableStyle-BodyE-Column1-Body1">J<u>ay</u></td>
+                                <td class="TableStyle-TableStyle-BodyD-Column1-Body1">J<u>ak</u>o<u>b</u></td>
+                            </tr>
+                            <tr MadCap:conditions="" class="TableStyle-TableStyle-Body-Body1">
+                                <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Jo<u>a</u>n</td>
+                                <td class="TableStyle-TableStyle-BodyE-Column1-Body1">Jo<u>sh</u></td>
+                                <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Jo<u>yce</u></td>
+                            </tr>
+                            <tr MadCap:conditions="" class="TableStyle-TableStyle-Body-Body1">
+                                <td class="TableStyle-TableStyle-BodyE-Column1-Body1">&#160;</td>
+                                <td class="TableStyle-TableStyle-BodyE-Column1-Body1">J<u>as</u>on</td>
+                                <td class="TableStyle-TableStyle-BodyD-Column1-Body1">J<u>ack</u></td>
+                            </tr>
+                            <tr MadCap:conditions="" class="TableStyle-TableStyle-Body-Body1">
+                                <td class="TableStyle-TableStyle-BodyE-Column1-Body1">&#160;</td>
+                                <td class="TableStyle-TableStyle-BodyE-Column1-Body1">J<u>ua</u>n</td>
+                                <td class="TableStyle-TableStyle-BodyD-Column1-Body1">Jo<u>h</u>n<u>ny</u></td>
+                            </tr>
+                            <tr MadCap:conditions="" class="TableStyle-TableStyle-Body-Body1">
+                                <td class="TableStyle-TableStyle-BodyB-Column1-Body1">&#160;</td>
+                                <td class="TableStyle-TableStyle-BodyB-Column1-Body1">Jo<u>e</u><u>l</u></td>
+                                <td class="TableStyle-TableStyle-BodyA-Column1-Body1">&#160;</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <li class="Topic-Text-Numbered" value="2">Klicken Sie auf <span class="SLXBold">OK</span>.</li>
+        </ol>
+        <p class="RelatedTopics">Verwandte Themen</p>
+        <p><a href="leadfinddupes.htm" target="_self">Suchen nach doppelten Datensätzen</a>
+        </p>
+        <p><a href="leadmergerecords.htm" target="_self">Zusammenführen doppelter Datensätze</a>
+        </p>
+        <p><a href="importing_leads_from_a_list.htm" target="_self">Importieren von Interessenten aus einer Liste</a>
+        </p>
+        <div style="width: 100%;position: relative;">
+            <p>&#160;</p>
+        </div>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

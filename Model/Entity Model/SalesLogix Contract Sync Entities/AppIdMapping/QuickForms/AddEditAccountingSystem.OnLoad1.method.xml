@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<method xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="OrmOtherMethod" id="1a170f3e-2474-4a7e-bfb6-9c4f8cc56090" lastModifiedUtc="2013-09-03T15:18:49.0807594Z" name="OnLoad1" methodType="Other" actionType="None" returnMode="None" isInstance="false" containerName="AddEditAccountingSystem">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmOtherMethod" />
+  </ExtendedPropertiesCollection>
+  <parameter>
+    <OrmEntityMethodParam id="a25e4cdf-a590-4f84-a62c-f96a44584169" paramName="form" sequence="0" paramType="IAddEditAccountingSystem" />
+    <OrmEntityMethodParam id="dcf071aa-a605-4b4d-9f15-7a30777d79f9" paramName="args" sequence="0" paramType="EventArgs" />
+  </parameter>
+  <preExecuteTargets />
+  <methodTargets />
+  <postExecuteTargets />
+  <postFlushTargets />
+</method>

@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<ModelItems xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Item Id="1a8ff6e6-915e-483e-9f96-594aaa0053a9">LiveGroupViewer.smartpart.xml</Item>
+  <Item Id="f7296a8d-7efb-457f-b60f-ee241655f7c1">IntegrationDetail.smartpart.xml</Item>
+  <Item Id="90241107-5f54-4447-a972-540ad06fcf1b">IntegrationExtendedDetails.smartpart.xml</Item>
+  <Item Id="ec8dce37-1bef-40e8-9c84-37ff35a6c9b0">IntegrationLinks.smartpart.xml</Item>
+  <Item Id="66077373-9bb0-4757-b102-121580b5db43">IntegrationUsers.smartpart.xml</Item>
+  <Item Id="f879df8d-b87d-44a5-b480-2c9fc06c73d3">IntegrationResources.smartpart.xml</Item>
+  <Item Id="f86db2f4-734f-4e63-9410-b68749eb24da">IntegrationOptions.smartpart.xml</Item>
+  <Item Id="1f4f864b-aa8b-4921-a3c9-21ee6708f7ad">ProviderScopes.smartpart.xml</Item>
+  <Item Id="e10397d3-848f-4fd1-ad4d-8bd77ffda964">AddEditLink.smartpart.xml</Item>
+  <Item Id="1e3ca4d0-38e7-4ebb-8d7a-44f1df067f35">AuthorizeService.smartpart.xml</Item>
+  <Item Id="0c5c0452-5790-4435-a247-b9f39d9a473e">AddEditAccountingSystem.smartpart.xml</Item>
+</ModelItems>

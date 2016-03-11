@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<SmartPartMapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="c585bb01-1fad-4894-96ff-2e956d40eb2d">
+  <SmartPartId>SDataListViewer</SmartPartId>
+  <ReferencedModelId>00000000-0000-0000-0000-000000000000</ReferencedModelId>
+  <SmartPart>SmartParts\General\SDataListViewer.ascx</SmartPart>
+  <TargetWorkspace>MainContent</TargetWorkspace>
+  <ShowInMode />
+  <Properties>
+    <Property Name="MainViewDefinition" TypeConverter="">Sage.MainView.EntityManager</Property>
+    <Property Name="HelpTopicName" TypeConverter="">entitymgrlistview</Property>
+    <Property Name="DetailPaneVisibleOnLoad" TypeConverter="">True</Property>
+  </Properties>
+  <AllowRoles />
+</SmartPartMapping>

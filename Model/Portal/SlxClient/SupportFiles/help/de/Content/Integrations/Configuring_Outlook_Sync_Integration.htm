@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:fileTags="Translation Status.Support files" xml:lang="de" MadCap:tocPath="" MadCap:medium="non-print" MadCap:InPreviewMode="false" MadCap:PreloadImages="false" MadCap:RuntimeFileType="Topic" MadCap:TargetType="WebHelp" lang="de" MadCap:conditions="Integrations.OutlookSync" MadCap:PathToHelpSystem="../../" MadCap:HelpSystemFileName="WebClient.xml" MadCap:SearchType="Stem">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Konfigurieren der Outlook Sync-Integration</title>
+        <link href="../SkinSupport/Slideshow.css" rel="stylesheet" />
+        <link href="../SkinSupport/MadCap.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/Infor.CSS" rel="stylesheet" />
+        <script src="../SkinSupport/jquery.min.js">
+        </script>
+        <script src="../SkinSupport/MadCapAll.js">
+        </script>
+        <script src="../SkinSupport/MadCapTopicAll.js">
+        </script>
+    </head>
+    <body>
+        <h1><a name="kanchor517"></a>Konfigurieren der Outlook Sync-Integration</h1>
+        <p>Führen Sie die folgenden Aufgaben aus, um die Outlook Sync-Integration zu konfigurieren.</p>
+        <ol>
+            <li value="1">Führen Sie die Datei <a href="Conversion_Utility.htm">SLXConversionUtility.exe</a> aus. <br />Dies muss nur einmal durchgeführt werden, um alle Integrationen zu unterstützen.</li>
+            <li value="2"><a href="SData_Detail_view.htm">Konfigurieren Sie die <span class="MyVariablesProduct Name">Infor CRM</span> SData-Synchronisierung.</a>
+                <br />Dies muss nur einmal durchgeführt werden, um alle Integrationen zu unterstützen. .</li>
+            <li value="3">Konfigurieren Sie den <a href="Config_Integrations_Sync_Service.htm">Synchronisierungsdienst für die Integration</a>. <br /></li>
+            <li value="4">Stoppen Sie den <span class="MyVariablesProduct Name">Infor CRM</span><span class="SLXBold"> SData-Synchronisierungsdienst (Dienst)</span> und <span class="MyVariablesProduct Name">Infor CRM</span><span class="SLXBold"> Auftragsdienst (Dienst)</span> auf dem Webserver, wenn sie ausgeführt werden.</li>
+            <li value="5">Wählen Sie in der <a href="Integrations_List_View.htm">Listenansicht "Integrationen"</a> die Option <span class="SLXBold">OutlookSync</span>. <br />Dies muss nur einmal durchgeführt werden, um alle Integrationen zu unterstützen.</li>
+            <li value="6">Überprüfen Sie die Informationsfelder.</li>
+            <li value="7">Wählen Sie in der Liste <span class="SLXBold">Verknüpfungstyp</span> die Option <span class="SLXBold">Benutzer</span> aus.</li>
+            <li value="8">Markieren Sie das Kontrollkästchen <span class="SLXBold">Aktiviert</span>.</li>
+            <li value="9">Legen Sie die Synchronisierungsoptionen fest. <ol><li value="1">Geben Sie im Feld <span class="SLXBold">Synchronisieren alle</span> die Anzahl der Minuten ein, die zwischen den Anfängen der Synchronisierungszyklen jeweils vergehen sollen. </li><li value="2">Klicken Sie in den Feldern <span class="SLXBold">Synchronisierung ausführen</span> zwischen auf die Schaltfläche &#160;<span class="MCExpanding_0"><a href="javascript:void(0);" class="MCExpandingHead_0" onclick="FMCExpand( this ); return false;">Kalender<img style="border: none;margin-left: 5px;" src="../SkinSupport/ExpandClosed.gif" MadCap:altsrc="../SkinSupport/ExpandOpen.gif" onload="if ( typeof( FMCPreloadImage ) == 'function' ) { FMCPreloadImage( '../SkinSupport/ExpandOpen.gif' ); }" alt="Closed" MadCap:alt2="Open" class="MCExpandingIcon" /></a><span class="MCExpandingBody_0" style="display: none;">&#160;<img src="../image/calendar.gif" />&#160;</span></span>, und wählen Sie die Anfangs- und Endzeiten aus, zwischen denen die Synchronisierung stattfinden soll. <span class="MyVariablesProduct Name">Infor CRM</span> empfiehlt, keine Zeiten über Mitternacht auszuwählen. <table wrapperparagraphselector="P" style="width: 80%;margin-top: 14pt;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" width="80%"><col style="width: 78px;" /><col /><tr><td style="padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top"><p class="Topic-Text-Indent" style="text-align: center;"><img src="../image/note.gif" /></p></td><td style="width: 90%;padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top" width="90%"><p class="Tip-Note-Text" style="margin-bottom: 0;">Wenn Sie die Buchhaltungsintegration aktivieren bzw. deaktivieren, wird die Änderung erst wirksam, nachdem Sie sich von <span class="MyVariablesProduct Name">Infor CRM</span> abgemeldet und wieder angemeldet haben.</p></td></tr></table></li></ol></li>
+            <li value="10">Klicken Sie auf <span class="MCExpanding_0"><a href="javascript:void(0);" class="MCExpandingHead_0" onclick="FMCExpand( this ); return false;">Speichern<img style="border: none;margin-left: 5px;" src="../SkinSupport/ExpandClosed.gif" MadCap:altsrc="../SkinSupport/ExpandOpen.gif" onload="if ( typeof( FMCPreloadImage ) == 'function' ) { FMCPreloadImage( '../SkinSupport/ExpandOpen.gif' ); }" alt="Closed" MadCap:alt2="Open" class="MCExpandingIcon" /></a><span class="MCExpandingBody_0" style="display: none;"><img src="../image/update.gif" /></span></span></li>
+            <li value="11">
+                <p>Erteilen Sie die entsprechenden Zugriffsrechte:</p>
+                <ol>
+                    <li value="1">Konfigurieren Sie die Integrations<a href="../Admin_security/Select_Role_Dialog.htm">rolle</a> für jeden Benutzer, dem Sie administrativen Zugriff auf nicht die Buchhaltung betreffende Integrationen erteilen möchten.</li>
+                    <li value="2">Um einzelnen Benutzern Zugriff auf nicht-administrative Integrationsaufgaben zu gewähren, fügen Sie die folgenden <a href="../Admin_security/What_are_Roles_and_Secured_Actions.htm">gesicherten Aktionen</a> zur Rolle  "Standardbenutzer" hinzu:<ul><li value="1">Integration/Anzeigen</li><li value="2"> Entitäten/Sync-Historie/Anzeigen</li><li value="3"> Entitäten/Sync-Auftrag/Anzeigen</li></ul></li>
+                </ol>
+            </li>
+        </ol>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

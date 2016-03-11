@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<relationship xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="a834acf2-f435-422a-a2d8-3bf1211fa051" lastModifiedUtc="2013-02-26T19:56:14.8187871Z" cardinality="M:1" parentEntityId="43e822fd-e62f-4227-917d-929fc3afa97e" childEntityId="53edfc8b-8699-4608-89e0-3a3d5a4980ac">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmRelationship" />
+  </ExtendedPropertiesCollection>
+  <parentProperty id="a387df94-4fd6-445a-afbf-ba37af1adcbf" lastModifiedUtc="2013-02-26T19:55:39.2102266Z" name="Activity" audited="false">
+    <ExtendedPropertiesCollection>
+      <extendee type="Sage.Platform.Orm.Entities.OrmRelationProperty">
+        <extender guid="ae60621d-9d91-3d9a-b9fb-eb6c8be12131">
+          <OrmEntityPropertySDataExtension generate="true" />
+        </extender>
+      </extendee>
+    </ExtendedPropertiesCollection>
+    <SystemDataType guid="2f770d03-c93c-4605-8ae8-7cdae04830d7">
+      <RelationshipDataType />
+    </SystemDataType>
+  </parentProperty>
+  <childProperty id="bbbc96fa-ed9b-4ac8-8886-798856f852df" lastModifiedUtc="2013-02-26T19:54:52.9576018Z" name="CalendarSyncView" audited="false" include="false">
+    <ExtendedPropertiesCollection>
+      <extendee type="Sage.Platform.Orm.Entities.OrmRelationProperty">
+        <extender guid="ae60621d-9d91-3d9a-b9fb-eb6c8be12131">
+          <OrmEntityPropertySDataExtension generate="true" />
+        </extender>
+      </extendee>
+    </ExtendedPropertiesCollection>
+    <SystemDataType guid="2f770d03-c93c-4605-8ae8-7cdae04830d7">
+      <RelationshipDataType />
+    </SystemDataType>
+  </childProperty>
+  <column>
+    <OrmRelationshipColumn id="65d48a85-3b07-469d-a776-a1ceec0f55cf" parentPropertyId="67a64d02-fca1-4371-8920-e93db0218504" childPropertyId="ea1782d4-0f09-4281-a28f-f9420f0e8c44" ordinal="0" />
+  </column>
+</relationship>

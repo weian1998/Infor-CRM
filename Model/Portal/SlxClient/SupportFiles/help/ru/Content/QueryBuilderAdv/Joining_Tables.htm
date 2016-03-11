@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:fileTags="Translation Status.Support files" MadCap:tocPath="Конструктор Запросов|Использование Связей" MadCap:medium="non-print" MadCap:InPreviewMode="false" MadCap:PreloadImages="false" MadCap:RuntimeFileType="Topic" MadCap:TargetType="WebHelp" lang="ru" xml:lang="ru" MadCap:conditions="Output.WebClient,Output.Query Builder" MadCap:PathToHelpSystem="../../" MadCap:HelpSystemFileName="WebClient.xml" MadCap:SearchType="Stem">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Объединение Таблиц</title>
+        <link href="../SkinSupport/Slideshow.css" rel="stylesheet" />
+        <link href="../SkinSupport/MadCap.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/Infor.CSS" rel="stylesheet" />
+        <script src="../SkinSupport/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapAll.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapTopicAll.js" type="text/javascript">
+        </script>
+    </head>
+    <body>
+        <h1><a name="kanchor244"></a>Объединение Таблиц</h1>
+        <p>Объединение между двумя таблицами называется Связь и устанавливается при помощи поля, существующего в обеих таблицах. Поле может иметь различное название в таблицах, но содержать одинаковую информацию. Существует двая типа связей - Локальные и Глобальные.
+ </p>
+        <p class="subheading">Локальные Связи</p>
+        <p>Локальные связи являются временными. Они существуют только пока объект или запрос, использующий связь, активен или выполняется. Локальные связи не видны в иерархии данных в Конструкторе Запросов. </p>
+        <p class="Infinitive">Для открытия диалога Локальная Связь</p>
+        <ul>
+            <li MadCap:conditions="Output.WebClient" class="Bullets" value="1">Щелкните на поле в Конструкторе Запросов, а затем нажмите <span class="SLXBold">Создать Локальную Связь</span>.</li>
+        </ul>
+        <p class="subheading">Глобальные Связи</p>
+        <p>Глобальная связь является постоянной и существует для каждого сеанса в структуре дерева данных Конструктора Запросов. <span class="MyVariablesProduct Name">Infor CRM</span> содержит предопределенные глобальные связи (системные связи), которые не могут быть удалены. Любой может использовать предопределенные глобальные связи, но только системный администратор или пользователи с правами администратора могут создавать глобальные связи про помощи <a href="Global_Join_Manager.htm" target="_self">Менеджера Глобальных Связей</a>. </p>
+        <p class="Infinitive">Для открытия Менеджер Глобальных Связей</p>
+        <ul>
+            <li class="Bullets" value="1">Нажмите кнопку <span class="SLXBold">Связи</span> в Конструкторе Запросов (если вы вошли как администратор).</li>
+        </ul>
+        <p class="subheading">Работа со Связями</p>
+        <p>При создании связи вы должны указать родительскую и дочернюю таблицы. Тип связи определяет, как информация будет возвращаться в результате выполнения запроса. Существует три типа связи - <a href="Inner_joins.htm">Внутренняя</a>, <a href="Left_joins.htm">Левая</a> и <a href="Right_joins.htm">Правая</a>.</p>
+        <p>Например, обе таблицы КОНТАКТ и СУБЪЕКТ содержат поле ИД Субъекта.  Следовательно, вы можете использовать ИД Субъекта для связывания таблиц СУБЪЕКТ и КОНТАКТ.</p>
+        <p>Вы также можете связать поля таблицы, имеющие различные имена, но одинаковые значения. Например, таблица СУБЪЕКТ также связана с таблицей ПОЛЬЗОВАТЕЛЬ через поле ИД Менеджера в таблице СУБЪЕКТ, и поле ИД Пользователя в таблице ПОЛЬЗОВАТЕЛЬ. Хотя имена полей в таблицах различны, значения этих полей одни и те же.</p>
+        <p>В основном, связи используются для построения запросов для работы с базой данных. После создания связи, любое поле из этих таблиц может быть использовано в запросе. Эти запросы строятся при помощи <a href="../QueryBuilder/Using_SalesLogix_Query_Builder.htm">Конструктора Запросов</a>.</p>
+        <p>В иерархии данных Конструктора Запросов связи выглядят следующим образом:</p>
+        <p style="margin-top: 2.0pt;margin-bottom: 3.0pt;">
+            <img src="../image/JOINDISSECT.GIF" alt="image\joindissect.gif" style="width: 392px;height: 172px;margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;border-style: none;float: none;border-style: none;" width="392" height="172" border="0" />
+        </p>
+        <table wrapperparagraphselector="P" style="margin-top: 14pt;border-spacing: 0px;border-spacing: 0px;" cellspacing="0">
+            <col />
+            <col />
+            <tr>
+                <td style="padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top">
+                    <p style="text-align: center;margin-bottom: 0;" align="center">
+                        <img src="../image/caution.gif" />
+                    </p>
+                </td>
+                <td style="padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top">
+                    <p style="margin-bottom: 0;">По умолчанию, таблица АДРЕС соединена с таблицей СУБЪЕКТ через Внутреннюю связь. <span style="font-style: italic;">Не</span> 
+ изменяйте параметры этого соединения.</p>
+                </td>
+            </tr>
+        </table>
+        <p class="RelatedTopics">См. также</p>
+        <p><a href="Guidelines_for_Using_Joins.htm" target="_self">Рекомендации по Объединению Таблиц</a>
+        </p>
+        <p><a href="Add_a_Global_Join.htm" target="_self">Добавление Глобальной Связи</a>
+        </p>
+        <p><a href="Add_a_Local_Join.htm" target="_self">Добавление Локальной Связи</a>
+        </p>
+        <p><a href="Join_Example.htm">Пример Связи</a>
+        </p>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

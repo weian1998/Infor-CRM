@@ -1,0 +1,14 @@
+﻿<div>
+    <div data-dojo-type="dijit.Dialog" title="{%= $._nlsResources.dlgAddActions_Title %}" data-dojo-attach-point="_dialog" data-dojo-attach-event="onCancel:_btnCancel_OnClick" style="width: 625px">
+        <div data-dojo-type="dijit.form.Form">
+            <div style="overflow:auto">
+                <div data-dojo-attach-point="paramsContainerDiv" id="paramsContainerDiv" style="height:400px; overflow:auto"></div>
+            </div>
+            <div align="right" style="margin-top:10px">
+                <div data-dojo-type="dijit.form.Button" data-dojo-attach-point="btnBack" data-dojo-attach-event="onClick:_btnBack_OnClick" >{%= Sage.Utility.htmlEncode($.btnBack_Caption) %}</div>
+                <div data-dojo-type="dijit.form.Button" data-dojo-attach-point="btnNext" data-dojo-attach-event="onClick:_btnNext_OnClick">{%= Sage.Utility.htmlEncode($.btnNext_Caption) %}</div>
+                <div data-dojo-type="dijit.form.Button" data-dojo-attach-point="btnCancel" data-dojo-attach-event="onClick:_btnCancel_OnClick" style="margin-left:5px;">{%= Sage.Utility.htmlEncode($.btnCancel_Caption) %}</div>
+            </div>
+        </div>
+    </div>
+</div>

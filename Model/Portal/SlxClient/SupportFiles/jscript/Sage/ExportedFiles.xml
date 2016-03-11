@@ -1,0 +1,41 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\_ActionMixin.js" timeStamp="2015-05-28T03:08:54.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\_ConfigurationProvider.js" timeStamp="2015-05-28T03:08:54.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\_EventMapMixin.js" timeStamp="2015-05-28T03:08:54.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\_Templated.js" timeStamp="2015-05-28T03:08:54.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\Array.js" timeStamp="2015-05-28T03:08:54.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\BrowserSupport.js" timeStamp="2015-05-28T03:08:54.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\dgrid.js" timeStamp="2015-05-28T03:07:39.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\dgrid.js.uncompressed.js" timeStamp="2015-05-28T03:07:39.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\Format.js" timeStamp="2015-05-28T03:08:54.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\LanguageList.js" timeStamp="2015-05-28T03:08:54.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\Link.js" timeStamp="2015-05-28T03:08:54.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\main.js" timeStamp="2015-05-28T03:08:54.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\package.json" timeStamp="2015-05-28T03:08:54.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\Sage-Combined.js" timeStamp="2015-05-28T04:07:56.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\Sage.js" timeStamp="2015-05-28T03:57:14.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\Sage.js.uncompressed.js" timeStamp="2015-05-28T03:52:35.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\sage.profile.js" timeStamp="2015-05-28T03:08:54.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\Utility.js" timeStamp="2015-05-28T03:08:55.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\Data\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\Extensions\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\GroupBuilder\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\Groups\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\Layout\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\Library\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MailMerge\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\nls\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\QuickForms\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\Reporting\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\Services\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\Store\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\SummaryTemplates\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\TaskPane\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\templates\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\tests\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\UI\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\Utility\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\Workspaces\" />
+</exportedFiles>

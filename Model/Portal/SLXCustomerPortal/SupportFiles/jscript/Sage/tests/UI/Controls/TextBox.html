@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <title>Sage.UI.Controls Browser Tests</title>
+        <style type="text/css">
+        /* Hide dojo validation controls */
+        .dijitValidationContainer, .dijitBackgroundIframe {
+            visibility: hidden;
+        }
+        </style>
+        
+        <link rel="stylesheet" type="text/css" href="../../../../../Libraries/dojo/dijit/themes/claro/claro.css" />
+        <script type="text/javascript" src="../../mocks.js"></script>
+        <script pin="pin" type="text/javascript">
+            var dojoConfig = {
+                parseOnLoad: true,
+                isDebug: true,
+                paths: {'Sage' : '../../../jscript/Sage'}
+            };
+        </script>
+        <script type="text/javascript" src="../../../../../Libraries/dojo/dojo/dojo.js"></script>
+        <script type="text/javascript" src="../../../../../Libraries/Simplate.js"></script>
+        <script type="text/javascript">
+            dojo.provide("Sage.tests.UI.Controls.TextBox");
+            dojo.require("dojo.parser");
+            dojo.require("doh.runner");
+            dojo.require("Sage.UI.Controls.TextBox");
+
+            dojo.ready(function () {
+                doh.register("Sage.tests.UI.Controls.TextBox", [
+                    function testShow() {
+                    },
+                    function testReset() {
+                        var txt = dijit.byId("ct100_TextBox1");
+                        txt.set('displayedValue', '');
+                        txt.set('value', '');
+                        doh.t(txt.value === "");
+                    }
+                ]);
+
+                //Execute D.O.H. in this remote file.
+                doh.run();
+            });
+        </script>
+    </head>
+    <body class="claro">
+        <form>
+            <p>
+                <!-- Reset the value -->
+                <span>Reset Value Test</span>
+                <input id="ct100_TextBox1" data-dojo-type="Sage.UI.Controls.TextBox" value="Clear this text" />
+            </p>
+            <hr />
+        </form>
+    </body>
+</html>

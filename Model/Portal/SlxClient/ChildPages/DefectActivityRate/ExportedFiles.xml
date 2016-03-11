@@ -1,0 +1,13 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\SlxClient\ChildPages\DefectActivityRate\DefectActivityRate.page.xml" timeStamp="2015-05-28T03:05:02.0000" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\DefectActivityRate\DefectActivityRate.page.xml.de.resx" timeStamp="2015-05-28T03:05:02.0000" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\DefectActivityRate\DefectActivityRate.page.xml.fr.resx" timeStamp="2015-05-28T03:05:02.0000" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\DefectActivityRate\DefectActivityRate.page.xml.it.resx" timeStamp="2015-05-28T03:05:03.0000" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\DefectActivityRate\DefectActivityRate.page.xml.resx" timeStamp="2015-05-28T03:05:02.0000" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\DefectActivityRate\DefectActivityRate.page.xml.ru.resx" timeStamp="2015-05-28T03:05:03.0000" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\DefectActivityRate\Modules.order.xml" timeStamp="2015-05-28T03:05:03.0000" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\DefectActivityRate\SmartParts.order.xml" timeStamp="2015-05-28T03:05:03.0000" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\DefectActivityRate\Modules\" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\DefectActivityRate\SmartParts\" />
+</exportedFiles>

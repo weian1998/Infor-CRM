@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<method xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="21acf5a7-594b-4d22-9c0d-89c8da6f8710" lastModifiedUtc="2013-11-12T20:18:59.7961151Z" name="UpdatePrimaryActivityAttendee" methodType="Rule" actionType="None" returnMode="None">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmEntityMethod" />
+  </ExtendedPropertiesCollection>
+  <parameter>
+    <OrmEntityMethodParam id="5aa11375-9ee3-4e97-89f1-4ecf769179d3" paramName="entityId" sequence="0" paramType="String" />
+    <OrmEntityMethodParam id="1eb5dbbc-8c0a-4c89-8cc8-c4fa84e7e2d0" paramName="isAttendee" sequence="0" paramType="Boolean" />
+    <OrmEntityMethodParam id="8129aaad-3013-4058-a91c-970ef37027d5" paramName="roleName" sequence="0" paramType="String" />
+  </parameter>
+  <preExecuteTargets />
+  <methodTargets>
+    <methodTarget id="fb1d77ff-66e9-4f52-8958-d0b6a6cc42c5" lastModifiedUtc="2013-11-12T20:19:58.2159565Z" targetType="Sage.SalesLogix.Activity.BusinessRules.Activity.Rules, Sage.SalesLogix.Activity" targetMethod="updatePrimaryActivityAttendee" active="true">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmMethodTarget" />
+      </ExtendedPropertiesCollection>
+    </methodTarget>
+  </methodTargets>
+  <postExecuteTargets />
+  <postFlushTargets />
+</method>

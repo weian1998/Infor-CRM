@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<MenuDropDownItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="f5a942fb-4a0f-4190-bcd3-11ab0bd62627">
+  <ItemId>mnuReportsListScheduleReport</ItemId>
+  <NavUrl>javascript:Sage.MainView.ReportMgr.ReportManagerActions.scheduleReport();</NavUrl>
+  <LargeImageUrl />
+  <SmallImageUrl />
+  <ContextMenuId />
+  <Target />
+  <AppliedSecurity>Entities/ReportManager/ScheduleReport</AppliedSecurity>
+</MenuDropDownItem>

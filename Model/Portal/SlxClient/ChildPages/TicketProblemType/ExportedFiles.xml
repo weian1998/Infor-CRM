@@ -1,0 +1,13 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\SlxClient\ChildPages\TicketProblemType\Modules.order.xml" timeStamp="2015-05-28T03:05:41.0000" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\TicketProblemType\SmartParts.order.xml" timeStamp="2015-05-28T03:05:41.0000" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\TicketProblemType\TicketProblemType.page.xml" timeStamp="2015-05-28T03:05:41.0000" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\TicketProblemType\TicketProblemType.page.xml.de.resx" timeStamp="2015-05-28T03:05:41.0000" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\TicketProblemType\TicketProblemType.page.xml.fr.resx" timeStamp="2015-05-28T03:05:41.0000" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\TicketProblemType\TicketProblemType.page.xml.it.resx" timeStamp="2015-05-28T03:05:41.0000" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\TicketProblemType\TicketProblemType.page.xml.resx" timeStamp="2015-05-28T03:05:41.0000" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\TicketProblemType\TicketProblemType.page.xml.ru.resx" timeStamp="2015-05-28T03:05:41.0000" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\TicketProblemType\Modules\" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\TicketProblemType\SmartParts\" />
+</exportedFiles>

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\UI\Controls\_customSelectMixin.js" timeStamp="2015-05-28T03:09:15.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\UI\Controls\_DialogHelpIconMixin.js" timeStamp="2015-05-28T03:09:15.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\UI\Controls\Address.js" timeStamp="2015-05-28T03:09:15.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\UI\Controls\CheckBox.js" timeStamp="2015-05-28T03:09:15.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\UI\Controls\CopyToClipboard.js" timeStamp="2015-05-28T03:09:15.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\UI\Controls\Currency.js" timeStamp="2015-05-28T03:09:15.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\UI\Controls\CurrencyTextBox.js" timeStamp="2015-05-28T03:09:15.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\UI\Controls\DateTimePicker.js" timeStamp="2015-05-28T03:09:15.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\UI\Controls\DependControl.js" timeStamp="2015-05-28T03:09:15.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\UI\Controls\DependencyLookup.js" timeStamp="2015-05-28T03:09:15.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\UI\Controls\DropDownSelectPickList.js" timeStamp="2015-05-28T03:09:15.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\UI\Controls\DropDownSelectUser.js" timeStamp="2015-05-28T03:09:15.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\UI\Controls\DurationSelect.js" timeStamp="2015-05-28T03:09:15.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\UI\Controls\Email.js" timeStamp="2015-05-28T03:09:15.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\UI\Controls\EntityInfoToolTip.js" timeStamp="2015-05-28T03:09:15.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\UI\Controls\HelpMenu.js" timeStamp="2015-05-28T03:09:15.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\UI\Controls\LogOffButton.js" timeStamp="2015-05-28T03:09:15.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\UI\Controls\Lookup.js" timeStamp="2015-05-28T03:09:15.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\UI\Controls\main.js" timeStamp="2015-05-28T03:09:15.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\UI\Controls\MultiSelectPickList.js" timeStamp="2015-05-28T03:09:15.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\UI\Controls\MultiTab.js" timeStamp="2015-05-28T03:09:15.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\UI\Controls\Name.js" timeStamp="2015-05-28T03:09:15.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\UI\Controls\Numeric.js" timeStamp="2015-05-28T03:09:15.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\UI\Controls\Phone.js" timeStamp="2015-05-28T03:09:15.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\UI\Controls\PickList.js" timeStamp="2015-05-28T03:09:15.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\UI\Controls\PickListAsText.js" timeStamp="2015-05-28T03:09:15.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\UI\Controls\Select.js" timeStamp="2015-05-28T03:09:15.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\UI\Controls\SimpleTextarea.js" timeStamp="2015-05-28T03:09:15.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\UI\Controls\SingleSelectPickList.js" timeStamp="2015-05-28T03:09:15.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\UI\Controls\SummaryAggregate.js" timeStamp="2015-05-28T03:09:15.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\UI\Controls\TextBox.js" timeStamp="2015-05-28T03:09:15.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\UI\Controls\nls\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\UI\Controls\templates\" />
+</exportedFiles>

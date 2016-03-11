@@ -1,0 +1,11 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\HistoryAttendee\HistoryAttendee.HISTORYATTENDEE.entity.xml" timeStamp="2015-05-28T03:03:56.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\HistoryAttendee\OnAfterDelete.method.xml" timeStamp="2015-05-28T03:03:56.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\HistoryAttendee\OnAfterInsert.method.xml" timeStamp="2015-05-28T03:03:56.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\HistoryAttendee\OnAfterUpdate.method.xml" timeStamp="2015-05-28T03:03:56.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\HistoryAttendee\OnBeforeDelete.method.xml" timeStamp="2015-05-28T03:03:56.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\HistoryAttendee\OnBeforeInsert.method.xml" timeStamp="2015-05-28T03:03:56.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\HistoryAttendee\OnBeforeUpdate.method.xml" timeStamp="2015-05-28T03:03:56.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\HistoryAttendee\OnCreate.method.xml" timeStamp="2015-05-28T03:03:56.0000" />
+</exportedFiles>

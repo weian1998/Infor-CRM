@@ -1,0 +1,11 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SecTableDef\OnAfterDelete.method.xml" timeStamp="2015-05-28T03:04:26.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SecTableDef\OnAfterInsert.method.xml" timeStamp="2015-05-28T03:04:26.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SecTableDef\OnAfterUpdate.method.xml" timeStamp="2015-05-28T03:04:26.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SecTableDef\OnBeforeDelete.method.xml" timeStamp="2015-05-28T03:04:26.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SecTableDef\OnBeforeInsert.method.xml" timeStamp="2015-05-28T03:04:26.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SecTableDef\OnBeforeUpdate.method.xml" timeStamp="2015-05-28T03:04:26.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SecTableDef\OnCreate.method.xml" timeStamp="2015-05-28T03:04:26.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SecTableDef\SecTableDef.SECTABLEDEFS.entity.xml" timeStamp="2015-05-28T03:04:26.0000" />
+</exportedFiles>

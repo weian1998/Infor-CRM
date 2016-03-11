@@ -1,0 +1,58 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\SlxClient\SupportFiles\css\themes\inforSoHoXi\Calendar.css" timeStamp="2015-05-28T04:07:10.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\css\themes\inforSoHoXi\Calendar.less" timeStamp="2015-05-28T03:08:48.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\css\themes\inforSoHoXi\Calendar_rtl.css" timeStamp="2015-05-28T04:07:10.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\css\themes\inforSoHoXi\Calendar_rtl.less" timeStamp="2015-05-28T03:08:48.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\css\themes\inforSoHoXi\ColorPalette.css" timeStamp="2015-05-28T04:07:10.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\css\themes\inforSoHoXi\ColorPalette.less" timeStamp="2015-05-28T03:08:48.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\css\themes\inforSoHoXi\Common.css" timeStamp="2015-05-28T04:07:10.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\css\themes\inforSoHoXi\Common.less" timeStamp="2015-05-28T03:08:48.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\css\themes\inforSoHoXi\Dialog.css" timeStamp="2015-05-28T04:07:10.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\css\themes\inforSoHoXi\Dialog.less" timeStamp="2015-05-28T03:08:48.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\css\themes\inforSoHoXi\Dialog_rtl.css" timeStamp="2015-05-28T04:07:10.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\css\themes\inforSoHoXi\Dialog_rtl.less" timeStamp="2015-05-28T03:08:48.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\css\themes\inforSoHoXi\dijit.css" timeStamp="2015-05-28T04:07:11.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\css\themes\inforSoHoXi\dijit.less" timeStamp="2015-05-28T03:08:48.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\css\themes\inforSoHoXi\dijit_rtl.css" timeStamp="2015-05-28T04:07:11.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\css\themes\inforSoHoXi\dijit_rtl.less" timeStamp="2015-05-28T03:08:48.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\css\themes\inforSoHoXi\document.css" timeStamp="2015-05-28T04:07:11.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\css\themes\inforSoHoXi\document.less" timeStamp="2015-05-28T03:08:49.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\css\themes\inforSoHoXi\Editor.css" timeStamp="2015-05-28T04:07:10.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\css\themes\inforSoHoXi\Editor.less" timeStamp="2015-05-28T03:08:49.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\css\themes\inforSoHoXi\Editor_rtl.css" timeStamp="2015-05-28T04:07:10.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\css\themes\inforSoHoXi\Editor_rtl.less" timeStamp="2015-05-28T03:08:49.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\css\themes\inforSoHoXi\inforSoHoXi.css" timeStamp="2015-05-28T04:07:16.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\css\themes\inforSoHoXi\inforSoHoXi.debug.css" timeStamp="2015-05-28T04:07:12.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\css\themes\inforSoHoXi\inforSoHoXi.debug.less" timeStamp="2015-05-28T03:08:49.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\css\themes\inforSoHoXi\inforSoHoXi_rtl.css" timeStamp="2015-05-28T03:08:49.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\css\themes\inforSoHoXi\InlineEditBox.css" timeStamp="2015-05-28T04:07:10.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\css\themes\inforSoHoXi\InlineEditBox.less" timeStamp="2015-05-28T03:08:49.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\css\themes\inforSoHoXi\Menu.css" timeStamp="2015-05-28T04:07:10.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\css\themes\inforSoHoXi\Menu.less" timeStamp="2015-05-28T03:08:49.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\css\themes\inforSoHoXi\Menu_rtl.css" timeStamp="2015-05-28T04:07:11.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\css\themes\inforSoHoXi\Menu_rtl.less" timeStamp="2015-05-28T03:08:50.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\css\themes\inforSoHoXi\Portlet.css" timeStamp="2015-05-28T04:07:11.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\css\themes\inforSoHoXi\Portlet.less" timeStamp="2015-05-28T03:08:50.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\css\themes\inforSoHoXi\ProgressBar.css" timeStamp="2015-05-28T04:07:11.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\css\themes\inforSoHoXi\ProgressBar.less" timeStamp="2015-05-28T03:08:50.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\css\themes\inforSoHoXi\TimePicker.css" timeStamp="2015-05-28T04:07:11.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\css\themes\inforSoHoXi\TimePicker.less" timeStamp="2015-05-28T03:08:50.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\css\themes\inforSoHoXi\TimePicker_rtl.css" timeStamp="2015-05-28T04:07:11.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\css\themes\inforSoHoXi\TimePicker_rtl.less" timeStamp="2015-05-28T03:08:50.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\css\themes\inforSoHoXi\TitlePane.css" timeStamp="2015-05-28T04:07:11.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\css\themes\inforSoHoXi\TitlePane.less" timeStamp="2015-05-28T03:08:50.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\css\themes\inforSoHoXi\TitlePane_rtl.css" timeStamp="2015-05-28T04:07:11.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\css\themes\inforSoHoXi\TitlePane_rtl.less" timeStamp="2015-05-28T03:08:50.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\css\themes\inforSoHoXi\Toolbar.css" timeStamp="2015-05-28T04:07:11.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\css\themes\inforSoHoXi\Toolbar.less" timeStamp="2015-05-28T03:08:50.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\css\themes\inforSoHoXi\Toolbar_rtl.css" timeStamp="2015-05-28T04:07:11.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\css\themes\inforSoHoXi\Toolbar_rtl.less" timeStamp="2015-05-28T03:08:50.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\css\themes\inforSoHoXi\Tree.css" timeStamp="2015-05-28T04:07:11.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\css\themes\inforSoHoXi\Tree.less" timeStamp="2015-05-28T03:08:50.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\css\themes\inforSoHoXi\variables.less" timeStamp="2015-05-28T03:08:50.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\css\themes\inforSoHoXi\form\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\css\themes\inforSoHoXi\grid\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\css\themes\inforSoHoXi\images\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\css\themes\inforSoHoXi\layout\" />
+</exportedFiles>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:fileTags="Translation Status.Support files" xml:lang="fr" MadCap:tocPath="" MadCap:medium="non-print" MadCap:InPreviewMode="false" MadCap:PreloadImages="false" MadCap:RuntimeFileType="Topic" MadCap:TargetType="WebHelp" lang="fr" MadCap:conditions="Integrations.X3" MadCap:PathToHelpSystem="../../" MadCap:HelpSystemFileName="WebClient.xml" MadCap:SearchType="Stem">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Fusionner des données</title>
+        <link href="../SkinSupport/Slideshow.css" rel="stylesheet" />
+        <link href="../SkinSupport/MadCap.css" rel="stylesheet" />
+        <link href="../Resources/TableStyles/TableStyle.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/Infor.CSS" rel="stylesheet" />
+        <script src="../SkinSupport/jquery.min.js">
+        </script>
+        <script src="../SkinSupport/MadCapAll.js">
+        </script>
+        <script src="../SkinSupport/MadCapTopicAll.js">
+        </script>
+    </head>
+    <body>
+        <h1>Fusionner des données</h1>
+        <p><a name="kanchor511"></a>&#160;(Intégration de la comptabilité uniquement) L'écran Fusionner des données affiche les différences de données lorsque vous associez des enregistrements entre <span class="MyVariablesProduct Name">Infor CRM</span> et un système de comptabilité. Utilisez cet écran pour sélectionner les données que vous souhaitez utiliser lorsque vous fusionnez des enregistrements. Les données que vous conservez écrasent les données dans l'autre système. <a href="javascript:void(0);" onclick="FMCToggler( this ); return false;" class="MCToggler_0" MadCap:targets="IC rules">En savoir plus...<img style="border: none;margin-left: 5px;" src="../SkinSupport/DropDownClosed.gif" MadCap:altsrc="../SkinSupport/DropDownOpen.gif" onload="if ( typeof( FMCPreloadImage ) == 'function' ) { FMCPreloadImage( '../SkinSupport/DropDownOpen.gif' ); }" alt="Closed" MadCap:alt2="Open" class="MCTogglerIcon" /></a></p>
+        <ul MadCap:targetName="IC rules" style="display: none;">
+            <li class="Bullets" value="1">Si l'intégration du système de comptabilité n'est pas activée et que vous fusionnez deux comptes, les bons de commande associés au compte supprimé sont ajoutés au compte fusionné.</li>
+            <li class="Bullets" value="2">Si l'intégration du système de comptabilité est activée et que vous fusionnez deux comptes, un compte ayant des bons de commande associés ou des devis ayant été soumis au système de comptabilité ne peut pas être supprimé (le compte qui contient les enregistrements soumis ne peut pas être le compte source). Si nécessaire, vous pouvez contrôler le compte source en sélectionnant d'abord ce compte lors de la fusion des données. Cela vous permet de maintenir le compte avec les bons de commandes associés en les fusionnant.</li>
+        </ul>
+        <p class="Infinitive">Pour sélectionner</p>
+        <ol>
+            <li value="1">Ouvrez l'<a href="Linking_Records.htm" target="_self">Assistant d'association</a> et passez par les écrans précédents.</li>
+        </ol>
+        <ol MadCap:continue="true">
+            <li value="2">Remplissez l'écran <span class="SLXBold">Fusionner les données</span>. <table class="TableStyle-TableStyle" style="mc-table-style: url('../Resources/TableStyles/TableStyle.css');margin-left: 0;margin-right: auto;width: 894px;" cellspacing="0"><col style="width: 149px;" class="TableStyle-TableStyle-Column-Column1" /><col class="TableStyle-TableStyle-Column-Column1" /><thead><tr class="TableStyle-TableStyle-Head-Header1"><th class="TableStyle-TableStyle-HeadE-Column1-Header1">Zone</th><th class="TableStyle-TableStyle-HeadD-Column1-Header1">Description/action</th></tr></thead><tbody><tr class="TableStyle-TableStyle-Body-Body1"><td class="TableStyle-TableStyle-BodyE-Column1-Body1">Propriété</td><td class="TableStyle-TableStyle-BodyD-Column1-Body1"><p>Répertorie les champs de données qui existent pour l'enregistrement dans les deux enregistrements de <span class="MyVariablesProduct Name">Infor CRM</span>.</p></td></tr><tr class="TableStyle-TableStyle-Body-Body1"><td class="TableStyle-TableStyle-BodyE-Column1-Body1"><p>Colonne <i>[Source]</i>&#160;</p></td><td class="TableStyle-TableStyle-BodyD-Column1-Body1"><p>Utilisez la colonne à gauche de la colonne Source pour sélectionner champ par champ quelles données du compte <span class="MyVariablesProduct Name">Infor CRM</span> (Source) conserver lors de la fusion des enregistrements. </p><p>Sélectionnez l'option dans l'en-tête de colonne pour conserver toutes les données <span class="MyVariablesProduct Name">Infor CRM</span> (source).</p></td></tr><tr class="TableStyle-TableStyle-Body-Body1"><td class="TableStyle-TableStyle-BodyE-Column1-Body1">Colonne <i>[Cible]</i></td><td class="TableStyle-TableStyle-BodyD-Column1-Body1"><p>Utilisez la colonne à gauche de la colonne Cible pour définir champ par champ quelles données du système de comptabilité (cible) conserver lors de la fusion des enregistrements. </p><p>Sélectionnez l'option dans l'en-tête de colonne pour conserver toutes les données du système de comptabilité. </p></td></tr><tr class="TableStyle-TableStyle-Body-Body1"><td class="TableStyle-TableStyle-BodyB-Column1-Body1">Masquer les doublons ou Afficher tout</td><td class="TableStyle-TableStyle-BodyA-Column1-Body1">Cliquez pour afficher ou masquer les informations de propriété qui sont les mêmes dans les deux systèmes. Par défaut, seuls les champs ayant des valeurs différentes apparaissent dans la liste.</td></tr></tbody></table></li>
+            <li value="3">Cliquez sur <span class="SLXBold">Suivant</span> pour passer à l'étape suivante. <br /> En fonction de vos choix, vous devrez peut-être <a href="Merge_Contacts.htm" target="_self">fusionner les contacts</a> .</li>
+        </ol>
+        <p class="RelatedTopics">Rubriques connexes</p>
+        <p><a href="Linking_Records.htm" target="_self">Association d'enregistrements</a>
+        </p>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

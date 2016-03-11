@@ -1,0 +1,13 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\SlxClient\ChildPages\DeDupJob\DeDupJob.page.xml" timeStamp="2015-05-28T03:05:00.0000" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\DeDupJob\DeDupJob.page.xml.de.resx" timeStamp="2015-05-28T03:05:00.0000" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\DeDupJob\DeDupJob.page.xml.fr.resx" timeStamp="2015-05-28T03:05:00.0000" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\DeDupJob\DeDupJob.page.xml.it.resx" timeStamp="2015-05-28T03:05:00.0000" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\DeDupJob\DeDupJob.page.xml.resx" timeStamp="2015-05-28T03:05:00.0000" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\DeDupJob\DeDupJob.page.xml.ru.resx" timeStamp="2015-05-28T03:05:00.0000" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\DeDupJob\Modules.order.xml" timeStamp="2015-05-28T03:05:00.0000" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\DeDupJob\SmartParts.order.xml" timeStamp="2015-05-28T03:05:00.0000" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\DeDupJob\Modules\" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\DeDupJob\SmartParts\" />
+</exportedFiles>

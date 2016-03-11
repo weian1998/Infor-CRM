@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:fileTags="Translation Status.Support files" MadCap:tocPath="Utilizzo delle Integrazioni|Utilizzo delle Integrazioni|Integrazione con Outlook|Sincronizzazione dei Contatti" MadCap:medium="non-print" MadCap:InPreviewMode="false" MadCap:PreloadImages="false" MadCap:RuntimeFileType="Topic" MadCap:TargetType="WebHelp" lang="en-us" xml:lang="en-us" MadCap:conditions="Output.Integrations LAN,Output.OutlookSync,Output.WebClient,Output.GSWeb,Output.GSLAN" MadCap:PathToHelpSystem="../../" MadCap:HelpSystemFileName="WebClient.xml" MadCap:SearchType="Stem">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Comprendere l'Integrazione Contatti</title>
+        <link href="../SkinSupport/Slideshow.css" rel="stylesheet" />
+        <link href="../SkinSupport/MadCap.css" rel="stylesheet" />
+        <link href="../Resources/TableStyles/TableStyle.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/Infor.CSS" rel="stylesheet" />
+        <script src="../SkinSupport/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapAll.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapTopicAll.js" type="text/javascript">
+        </script>
+    </head>
+    <body>
+        <h1>Comprendere l'Integrazione Contatti</h1>
+        <p>La sincronizzazione di contatti tra <span class="MyVariablesProduct Name">Infor CRM</span> e una <a href="Using_External_Integrations.htm"><MadCap:conditionalText MadCap:conditions="Output.Integrations LAN,Output.OutlookSync,Output.WebClient"><a href="Using_External_Integrations.htm">integrazione</a></MadCap:conditionalText></a> supportata consente di modificare un record di contatti in entrambe le applicazioni e avere il cambiamento in entrambe le applicazioni. L'amministratore deve configurare e concedere l'autorizzazione prima di poter sincronizzare i contatti con una integrazione.</p>
+        <p>Durante il ciclo di sincronizzazione, <span class="MyVariablesProduct Name">Infor CRM</span> confronta campi in entrambi i sistemi, e fa modifiche per garantire che entrambi i sistemi contengano le stesse informazioni. Solo i dati nei campi mappati tra le applicazioni vengono trasferiti. I dati vengono comparati e le modifiche vengono fatte per fare in modo che le informazioni <a href="Matching_Records.htm">corrispondano</a>. Per esempio, se un record è stato aggiunto ad un sistema e non all'altro, questo record è aggiunto al sistema non aggiornato.</p>
+        <p class="subheading">Comportamento Sincronizzazione Contatti</p>
+        <ul>
+            <li value="1">Contatti sono collegati in base all'indirizzo di posta elettronica. Per il comportamento specifico di corrispondenza vedere l'argomento ''<a href="Matching_Records.htm">Corrispondenza record tra <span class="MyVariablesProduct Name">Infor CRM</span> e integrazioni</a>''.</li>
+            <li value="2">Se lo stesso record viene aggiornato in entrambi i sistemi durante lo stesso ciclo di sincronizzazione, l'ultima modifica vince.</li>
+            <li value="3">L'eliminazione di un contatto in <span class="MyVariablesProduct Name">Infor CRM</span> sposterà il contatto dalla <a href="../Outlook/Outlook_Sync_Sync_Tab.htm">cartella sincronizzazione contatto</a> in una cartella eliminata. </li>
+            <li value="4">La cancellazione di un contatto in un'applicazione integrata rimuoverà il contatto dal <a href="Configuring the Contact Sync Group.htm">gruppo sincronizzazione contatto</a>, ma non eliminerà il contatto da <span class="MyVariablesProduct Name">Infor CRM</span>.
+</li>
+        </ul>
+        <p>
+            <MadCap:conditionalText MadCap:conditions="Output.WebClient,Output.OutlookSync,Output.Integrations LAN">Per specifici scenari di integrazioni di contatto, vedere <a href="Synchronizing_Contacts.htm">scenari Sincronizzazione contatto</a>.</MadCap:conditionalText> <![CDATA[ ]]></p>
+        <table wrapperparagraphselector="P" style="width: 80%;margin-top: 14pt;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" width="80%" MadCap:conditions="Output.WebClient,Output.OutlookSync,Output.Integrations LAN">
+            <col style="width: 45px;" />
+            <col />
+            <tr MadCap:conditions="">
+                <td style="padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top">
+                    <p style="text-align: center;margin-bottom: 0;" align="center">
+                        <img src="../image/note.gif" />
+                    </p>
+                </td>
+                <td style="width: 90%;padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top" width="90%">
+                    <p>La Sincronizzazione riguarda i dati di sicurezza associati all'utente che si è connesso in <span class="MyVariablesProduct Name">Infor CRM</span>. Il quantitativo di dati disponibili ad essere trasferito è limitato dai diritti di sicurezza dell'utente autenticato.</p>
+                </td>
+            </tr>
+        </table>
+        <p>
+        </p>
+        <table wrapperparagraphselector="P" style="width: 80%;margin-top: 14pt;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" width="80%" MadCap:conditions="Output.WebClient,Output.OutlookSync,Output.Integrations LAN">
+            <col style="width: 45px;">
+            </col>
+            <col>
+            </col>
+            <tr>
+                <td style="padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top">
+                    <p style="text-align: center;margin-bottom: 0;" align="center">
+                        <img src="../image/caution.gif">
+                        </img>
+                    </p>
+                </td>
+                <td style="width: 90%;padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top" width="90%">
+                    <p class="Tip-Note-Text" style="margin-bottom: 0;">Non è raccomandabile sincronizzare simultaneamente il Remote Client con il database principale dell'ufficio e Microsoft Outlook . In questo modo si riduce notevolmente la velocità di sincronizzazione e provoca problemi di memoria. <span class="MyVariablesProduct Name">Infor CRM</span> raccomanda che si sincronizza con Outlook  prima o dopo la sincronizzazione del proprio database remoto.</p>
+                </td>
+            </tr>
+        </table>
+        <p class="RelatedTopics">Come fare a?</p>
+        <ul>
+            <li MadCap:conditions="Output.Integrations LAN,Output.OutlookSync,Output.WebClient" value="1"><a href="Creating_Contact_Sync_Group.htm">Creare il gruppo sincronizzazione contatto</a>
+            </li>
+            <li MadCap:conditions="Output.Integrations LAN,Output.OutlookSync,Output.WebClient" value="2"><a href="../Outlook/Adding Outlook Contacts to Saleslogix.htm">Aggiungere contatti al gruppo sincronizzazione contatto</a>
+            </li>
+            <li MadCap:conditions="Output.Integrations LAN,Output.OutlookSync,Output.WebClient" value="3"><a href="Configuring the Contact Sync Group.htm">Configurare il gruppo sincronizzazione contatto</a>
+            </li>
+            <li MadCap:conditions="Output.Integrations LAN,Output.OutlookSync,Output.WebClient" value="4"><a href="../Outlook/Configuring_Outlook_Sync.htm">Impostare opzioni contatto</a>
+            </li>
+        </ul>
+        <p MadCap:conditions="Output.Integrations LAN,Output.OutlookSync,Output.WebClient">Le seguenti tabelle mostrano come <span class="MyVariablesProduct Name">Infor CRM</span> i dati contatti sono sincronizzati con integrazioni esterne:</p>
+        <table style="width: 95%;mc-table-style: url('../Resources/TableStyles/TableStyle.css');margin-left: 0;margin-right: auto;" class="TableStyle-TableStyle" cellspacing="0" MadCap:conditions="Output.Integrations LAN,Output.OutlookSync,Output.WebClient">
+            <col class="TableStyle-TableStyle-Column-Column1" />
+            <col class="TableStyle-TableStyle-Column-Column1" />
+            <col class="TableStyle-TableStyle-Column-Column1" />
+            <thead>
+                <tr class="TableStyle-TableStyle-Head-Header1">
+                    <th class="TableStyle-TableStyle-HeadE-Column1-Header1" MadCap:conditions="Output.Integrations LAN,Output.OutlookSync,Output.WebClient"><span class="MyVariablesProduct Name">Infor CRM</span>
+                    </th>
+                    <th class="TableStyle-TableStyle-HeadE-Column1-Header1">Sincronizza Come</th>
+                    <th class="TableStyle-TableStyle-HeadD-Column1-Header1" MadCap:conditions="Output.Integrations LAN,Output.OutlookSync,Output.WebClient">Outlook</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-TableStyle-Body-Body1">
+                    <td class="TableStyle-TableStyle-BodyB-Column1-Body1" MadCap:conditions="Output.Integrations LAN,Output.OutlookSync,Output.WebClient">Contatti (Azienda)</td>
+                    <td class="TableStyle-TableStyle-BodyB-Column1-Body1">sincronizza come </td>
+                    <td class="TableStyle-TableStyle-BodyA-Column1-Body1" MadCap:conditions="Output.Integrations LAN,Output.OutlookSync,Output.WebClient">Contatti (Nome Società)
+
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p class="RelatedTopics">Argomenti Correlati</p>
+        <p MadCap:conditions="Output.Integrations LAN,Output.OutlookSync,Output.WebClient"><a href="Synchronizing_Contacts.htm">Scenari Sincronizzazione Contatto</a>
+        </p>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

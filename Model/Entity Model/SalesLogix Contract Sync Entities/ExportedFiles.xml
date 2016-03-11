@@ -1,0 +1,21 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Entity Model\SalesLogix Contract Sync Entities\SalesLogix Contract Sync Entities.T.package.xml" timeStamp="2015-05-28T03:04:32.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Contract Sync Entities\AccountSyncView\" />
+  <exportedFile url="\Entity Model\SalesLogix Contract Sync Entities\AppIdMapping\" />
+  <exportedFile url="\Entity Model\SalesLogix Contract Sync Entities\CalendarHistorySyncView\" />
+  <exportedFile url="\Entity Model\SalesLogix Contract Sync Entities\CalendarSyncView\" />
+  <exportedFile url="\Entity Model\SalesLogix Contract Sync Entities\ContactSyncView\" />
+  <exportedFile url="\Entity Model\SalesLogix Contract Sync Entities\CountryCodeMapping\" />
+  <exportedFile url="\Entity Model\SalesLogix Contract Sync Entities\LeadSyncView\" />
+  <exportedFile url="\Entity Model\SalesLogix Contract Sync Entities\SalesOrderSyncView\" />
+  <exportedFile url="\Entity Model\SalesLogix Contract Sync Entities\SalesQuotationSyncView\" />
+  <exportedFile url="\Entity Model\SalesLogix Contract Sync Entities\SlxContractSyncLog\" />
+  <exportedFile url="\Entity Model\SalesLogix Contract Sync Entities\SlxLogItem\" />
+  <exportedFile url="\Entity Model\SalesLogix Contract Sync Entities\SyncDigest\" />
+  <exportedFile url="\Entity Model\SalesLogix Contract Sync Entities\SyncJob\" />
+  <exportedFile url="\Entity Model\SalesLogix Contract Sync Entities\SyncResult\" />
+  <exportedFile url="\Entity Model\SalesLogix Contract Sync Entities\SyncStatus\" />
+  <exportedFile url="\Entity Model\SalesLogix Contract Sync Entities\TaskSyncView\" />
+  <exportedFile url="\Entity Model\SalesLogix Contract Sync Entities\UserIntegrationsView\" />
+</exportedFiles>

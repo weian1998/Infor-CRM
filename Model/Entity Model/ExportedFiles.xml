@@ -1,0 +1,16 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Entity Model\EntityResources.de.resx" timeStamp="2015-05-28T03:03:45.0000" />
+  <exportedFile url="\Entity Model\EntityResources.fr.resx" timeStamp="2015-05-28T03:03:45.0000" />
+  <exportedFile url="\Entity Model\EntityResources.it.resx" timeStamp="2015-05-28T03:03:45.0000" />
+  <exportedFile url="\Entity Model\EntityResources.resx" timeStamp="2015-05-28T03:03:45.0000" />
+  <exportedFile url="\Entity Model\EntityResources.ru.resx" timeStamp="2015-05-28T03:03:45.0000" />
+  <exportedFile url="\Entity Model\CodeTemplates\" />
+  <exportedFile url="\Entity Model\Process Orchestration Support\" />
+  <exportedFile url="\Entity Model\Relationships\" />
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\" />
+  <exportedFile url="\Entity Model\SalesLogix Contract Sync Entities\" />
+  <exportedFile url="\Entity Model\SalesLogix Security Support\" />
+  <exportedFile url="\Entity Model\Saleslogix Speedsearch Support\" />
+</exportedFiles>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Return\Account.filter.xml" timeStamp="2015-05-28T03:04:22.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Return\AssignedTo.filter.xml" timeStamp="2015-05-28T03:04:22.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Return\CompletedReturnsAgingAverage.filter.xml" timeStamp="2015-05-28T03:04:22.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Return\CompletedReturnsDeliveryComparedtoEstimateAgingAverage.filter.xml" timeStamp="2015-05-28T03:04:22.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Return\GetReturnDefects.method.xml" timeStamp="2015-05-28T03:04:22.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Return\OnAfterDelete.method.xml" timeStamp="2015-05-28T03:04:22.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Return\OnAfterInsert.method.xml" timeStamp="2015-05-28T03:04:22.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Return\OnAfterUpdate.method.xml" timeStamp="2015-05-28T03:04:22.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Return\OnAssociateTicket.method.xml" timeStamp="2015-05-28T03:04:22.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Return\OnBeforeDelete.method.xml" timeStamp="2015-05-28T03:04:22.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Return\OnBeforeInsert.method.xml" timeStamp="2015-05-28T03:04:22.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Return\OnBeforeUpdate.method.xml" timeStamp="2015-05-28T03:04:22.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Return\OnCreate.method.xml" timeStamp="2015-05-28T03:04:22.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Return\OnSetAssignedTo.method.xml" timeStamp="2015-05-28T03:04:22.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Return\OnSetCommentsDateTimeStamp.method.xml" timeStamp="2015-05-28T03:04:22.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Return\OnSetReturnNotesDateTimeStamp.method.xml" timeStamp="2015-05-28T03:04:22.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Return\OnSetShipContact.method.xml" timeStamp="2015-05-28T03:04:22.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Return\OnSetShipNotesDateTimeStamp.method.xml" timeStamp="2015-05-28T03:04:22.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Return\OnSetStatus.method.xml" timeStamp="2015-05-28T03:04:22.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Return\OpenReturnsAgingAverage.filter.xml" timeStamp="2015-05-28T03:04:22.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Return\Priority.filter.xml" timeStamp="2015-05-28T03:04:22.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Return\Return.RMA.entity.xml" timeStamp="2015-05-28T03:04:22.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Return\ReturnCount.filter.xml" timeStamp="2015-05-28T03:04:22.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Return\ReturnedBy.filter.xml" timeStamp="2015-05-28T03:04:22.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Return\ReturnNumber.filter.xml" timeStamp="2015-05-28T03:04:22.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Return\ReturnType.filter.xml" timeStamp="2015-05-28T03:04:22.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Return\ShipTo.filter.xml" timeStamp="2015-05-28T03:04:22.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Return\Status.filter.xml" timeStamp="2015-05-28T03:04:22.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Return\QuickForms\" />
+</exportedFiles>

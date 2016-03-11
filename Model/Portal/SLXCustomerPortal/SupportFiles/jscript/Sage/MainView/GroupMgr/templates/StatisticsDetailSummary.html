@@ -1,0 +1,74 @@
+﻿[
+  '<table style="width:100%">',
+  '    <tbody>',
+  '    <col style="width:300px" />',
+  '    <col style="width:400px" />',
+  '    <tr>',
+  '        <td>',
+  '            <table>',
+  '                <tr id="{%= $.$key %}_StatisticsDetailSummary_txtGroupFamily">',
+  '                    <td class="SummaryCaption">{%= $.txtGroupFamily_Caption || "Family:" %} </td>',
+  '                    <td class="DataItem">{%= Sage.Utility.htmlEncode($.entity.Family) %}</td>',
+  '                </tr>',
+  
+  '                <tr id="{%= $.$key %}_StatisticsDetailSummary_txtGroupName">',
+  '                    <td class="SummaryCaption">{%= $.txtGroupName_Caption || "Name:" %} </td>',
+  '                    <td class="DataItem">{%= Sage.Utility.htmlEncode($.entity.Name) %}</td>',
+  '                </tr>',  
+  
+  '                <tr id="{%= $.$key %}_StatisticsDetailSummary_txtGroupDisplayName">',
+  '                    <td class="SummaryCaption">{%= $.txtGroupDisplayName_Caption || "Display Name:" %} </td>',
+  '                    <td class="DataItem">{%= Sage.Utility.htmlEncode($.entity.DisplayName) %}</td>',
+  '                </tr>',
+
+  '                <tr id="{%= $.$key %}_StatisticsDetailSummary_txtGroupOwner">',
+  '                    <td class="SummaryCaption">{%= $.txtGroupOwner_Caption || "Owner:" %} </td>',
+  '                    <td class="DataItem">{%= Sage.Utility.htmlEncode(Sage.MainView.GroupMgr.GroupManagerFormatter.formatOwnerName($.entity.UserId)) %}</td>',
+  '                </tr>',
+  
+  '                <tr id="{%= $.$key %}_StatisticsDetailSummary_txtGroupOwnerUsageCount">',
+  '                    <td class="SummaryCaption">{%= $.txtGroupOwnerUsageCount_Caption || "Owner Usage Count:" %} </td>',
+  '                    <td class="DataItem">{%= Sage.MainView.GroupMgr.GroupManagerFormatter.formatInteger($.entity.OwnerUsageCount) %}</td>',
+  '                </tr>',
+  
+  '                <tr id="{%= $.$key %}_StatisticsDetailSummary_txtShared">',
+  '                    <td class="SummaryCaption">{%= $.txtGroupShared_Caption || "Shared:" %} </td>',
+  '                    <td class="DataItem">{%= Sage.Utility.htmlEncode(Sage.MainView.GroupMgr.GroupManagerFormatter.formatBoolean($.entity.Released)) %}</td>',
+  '                </tr>',
+  
+  '                <tr id="{%= $.$key %}_StatisticsDetailSummary_txtGroupShareUsageCount">',
+  '                    <td class="SummaryCaption">{%= $.txtGroupShareUsageCount_Caption || "Share Usage Count:" %} </td>',
+  '                    <td class="DataItem">{%= Sage.MainView.GroupMgr.GroupManagerFormatter.formatInteger($.entity.ReleaseUsageCount) %}</td>',
+  '                </tr>',
+  
+  '                <tr id="{%= $.$key %}_StatisticsDetailSummary_txtSharedDate">',
+  '                    <td class="SummaryCaption">{%= $.txtGroupSharedDate_Caption || "Shared Date:" %}</td>',
+  '                <td class="DataItem">{%= Sage.MainView.GroupMgr.GroupManagerFormatter.formatDate($.entity.ReleasedDate) %}</td>',
+  '                </tr>',
+  
+  '                <tr id="{%= $.$key %}_StatisticsDetailSummary_txtFirstUser">',
+  '                    <td class="SummaryCaption">{%= $.txtGroupFirstUser_Caption || "First Used By:" %} </td>',
+  '                    <td class="DataItem">{%= Sage.Utility.htmlEncode(Sage.MainView.GroupMgr.GroupManagerFormatter.formatGetUserById($.entity.FirstUser)) %}</td>',
+  '                </tr>',
+  
+  '                <tr id="{%= $.$key %}_StatisticsDetailSummary_txtFirstUseDate">',
+  '                    <td class="SummaryCaption">{%= $.txtGroupFirstUseDate_Caption || "First Used Date:" %}</td>',
+  '                <td class="DataItem">{%= Sage.MainView.GroupMgr.GroupManagerFormatter.formatDate($.entity.FirstUseDate) %}</td>',
+  '                </tr>',
+  
+  '                <tr id="{%= $.$key %}_StatisticsDetailSummary_txtLastUser">',
+  '                    <td class="SummaryCaption">{%= $.txtGroupLastUser_Caption || "Last Used By:" %} </td>',
+  '                    <td class="DataItem">{%= Sage.Utility.htmlEncode(Sage.MainView.GroupMgr.GroupManagerFormatter.formatGetUserById($.entity.LastUser)) %}</td>',
+  '                </tr>',
+  
+  '                <tr id="{%= $.$key %}_StatisticsDetailSummary_txtLastUseDate">',
+  '                    <td class="SummaryCaption">{%= $.txtGroupLastUseDate_Caption || "Last Used Date:" %}</td>',
+  '                <td class="DataItem">{%= Sage.MainView.GroupMgr.GroupManagerFormatter.formatDate($.entity.LastUseDate) %}</td>',
+  '                </tr>',
+  
+  '            </table>',
+  '        </td>',
+  '      </tr>',
+  '   </tbody>',
+  '</table>'
+]

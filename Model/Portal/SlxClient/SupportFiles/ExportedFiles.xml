@@ -1,0 +1,44 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\SlxClient\SupportFiles\application-thread.xml" timeStamp="2015-05-28T03:08:47.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\appSettings.config" timeStamp="2015-05-28T03:06:41.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\ChangePassword.aspx" timeStamp="2015-05-28T03:06:41.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\ChangePassword.aspx.cs" timeStamp="2015-05-28T03:06:41.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\ContextualListConfiguration.xml" timeStamp="2015-05-28T03:06:41.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\dynamicInterceptors.xml" timeStamp="2015-05-28T03:08:47.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\favicon.ico" timeStamp="2015-05-28T03:06:41.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\FeedProxy.ashx" timeStamp="2015-05-28T03:06:41.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\ForgotMyPassword.aspx" timeStamp="2015-05-28T03:08:47.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\ForgotMyUserName.aspx" timeStamp="2015-05-28T03:08:47.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\Global.asax" timeStamp="2015-05-28T03:06:41.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\GoogleAuth.aspx" timeStamp="2015-05-28T03:08:47.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\log4net.config" timeStamp="2015-05-28T03:06:41.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\Login.aspx" timeStamp="2015-05-28T03:06:41.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\Logoff.aspx" timeStamp="2015-05-28T03:06:41.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\MashupConfiguration.xml" timeStamp="2015-05-28T03:06:41.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\ModelTypes.xml" timeStamp="2015-05-28T03:06:41.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\ResetMyPassword.aspx" timeStamp="2015-05-28T03:08:47.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\slx.appcache" timeStamp="2015-05-28T03:06:41.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SLXErrorLookupService.asmx" timeStamp="2015-05-28T03:09:46.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\UIStateService.asmx" timeStamp="2015-05-28T03:07:38.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\web.config" timeStamp="2015-05-28T03:06:42.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\WinAuthLoad.aspx" timeStamp="2015-05-28T03:06:42.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\WinAuthLoad.aspx.cs" timeStamp="2015-05-28T03:06:42.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\Windows.aspx" timeStamp="2015-05-28T03:06:42.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\Windows.aspx.cs" timeStamp="2015-05-28T03:06:42.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\App_Code\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\App_Data\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\App_GlobalResources\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\App_LocalResources\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\Bin\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\css\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\FusionCharts\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\GroupBuilder\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\help\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\images\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\Libraries\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\Masters\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SummaryConfigData\" />
+</exportedFiles>

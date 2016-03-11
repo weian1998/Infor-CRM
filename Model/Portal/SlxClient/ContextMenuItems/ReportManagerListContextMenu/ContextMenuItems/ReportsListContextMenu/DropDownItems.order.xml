@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<ModelItems xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Item Id="43124e6c-20c0-463d-aab4-c2fc76565f11">mnuReportsListRunReport.contextmenu.xml</Item>
+  <Item Id="f5a942fb-4a0f-4190-bcd3-11ab0bd62627">mnuReportsListScheduleReport.contextmenu.xml</Item>
+</ModelItems>

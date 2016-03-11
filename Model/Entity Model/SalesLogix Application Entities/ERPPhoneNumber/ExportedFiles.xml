@@ -1,0 +1,11 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\ERPPhoneNumber\ERPPhoneNumber.ERPPHONENUMBER.entity.xml" timeStamp="2015-05-28T03:04:09.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\ERPPhoneNumber\OnAfterDelete.method.xml" timeStamp="2015-05-28T03:04:09.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\ERPPhoneNumber\OnAfterInsert.method.xml" timeStamp="2015-05-28T03:04:09.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\ERPPhoneNumber\OnAfterUpdate.method.xml" timeStamp="2015-05-28T03:04:09.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\ERPPhoneNumber\OnBeforeDelete.method.xml" timeStamp="2015-05-28T03:04:09.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\ERPPhoneNumber\OnBeforeInsert.method.xml" timeStamp="2015-05-28T03:04:09.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\ERPPhoneNumber\OnBeforeUpdate.method.xml" timeStamp="2015-05-28T03:04:09.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\ERPPhoneNumber\OnCreate.method.xml" timeStamp="2015-05-28T03:04:09.0000" />
+</exportedFiles>

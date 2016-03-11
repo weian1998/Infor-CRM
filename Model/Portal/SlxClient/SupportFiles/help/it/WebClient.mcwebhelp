@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WebHelpSystem DefaultUrl="Content/Common/slxoverview.htm" Toc="Data/Toc.xml" Index="Data/Index.xml" Concepts="Data/Concepts.xml" Glossary="Content/Glossary.htm" SearchDatabase="Data/Search.xml" Alias="Data/Alias.xml" Synonyms="Data/Synonyms.xml" Skin="Data/SkinWeb_Infor/Skin.xml" Skins="AOI,CustomerPortal,CustPortal_Infor,DesktopMgr,IC,Integrations,lntellisync,MailMerge,main,OutlookSync,PDF,QueryBuilder,SalesClient,SpeedSearchClient,WebHelp2.1,WebHelp2,Web_Infor" BuildTime="3/9/2015 4:00:46 PM" BuildVersion="10.1.0.0" TargetType="WebHelp" SkinTemplateFolder="Skin/" InPreviewMode="false" MoveOutputContentToRoot="false" MakeFileLowerCase="false" UseCustomTopicFileExtension="false">
+    <Subsystems>
+        <Url Source="Subsystems/WebClient11/WebClient11.mcwebhelp" TocPath="Amministrazione|Integrazioni|Integrazione Contabilità" />
+        <Url Source="Subsystems/WebClient6/WebClient6.mcwebhelp" TocPath="Amministrazione" />
+        <Url Source="Subsystems/WebClient7/WebClient7.mcwebhelp" TocPath="Amministrazione" />
+        <Url Source="Subsystems/WebClient8/WebClient8.mcwebhelp" TocPath="Amministrazione" />
+        <Url Source="Subsystems/WebClient9/WebClient9.mcwebhelp" TocPath="Amministrazione" />
+        <Url Source="Subsystems/WebClient12/WebClient12.mcwebhelp" TocPath="Marketing|Nominativi" />
+        <Url Source="Subsystems/WebForms/WebForms.mcwebhelp" TocPath="" />
+    </Subsystems>
+</WebHelpSystem>

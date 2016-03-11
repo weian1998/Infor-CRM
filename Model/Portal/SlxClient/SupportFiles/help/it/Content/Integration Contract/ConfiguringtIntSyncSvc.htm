@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:fileTags="Translation Status.Support files" MadCap:tocPath="Amministrazione|Integrazioni" MadCap:medium="non-print" MadCap:InPreviewMode="false" MadCap:PreloadImages="false" MadCap:RuntimeFileType="Topic" MadCap:TargetType="WebHelp" lang="en-us" xml:lang="en-us" MadCap:conditions="Output.IntegrationContract" MadCap:PathToHelpSystem="../../" MadCap:HelpSystemFileName="WebClient.xml" MadCap:SearchType="Stem">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Configurare il Servizio Sincronizzazione Integrazione.</title>
+        <link href="../SkinSupport/Slideshow.css" rel="stylesheet" />
+        <link href="../SkinSupport/MadCap.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/Infor.CSS" rel="stylesheet" />
+        <script src="../SkinSupport/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapAll.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapTopicAll.js" type="text/javascript">
+        </script>
+    </head>
+    <body>
+        <h1>Configurare il Servizio Sincronizzazione Integrazione.</h1>
+        <p><a name="kanchor61"></a>Il Servizio Sincronizzazione Integrazione Contabilità (<span class="MyVariablesCompanyNameFull">Infor</span> Servizio Sincronizzazione SData) consente il trasferimento di dati tra <span class="MyVariablesCompanyNameFull">Infor</span> e il proprio sistema di contabilità. Il servizio deve essere avviato e configurato in modo da essere eseguito automaticamente.</p>
+        <table wrapperparagraphselector="P" style="margin-top: 14pt;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" width="840px">
+            <col style="width: 45px;" />
+            <col />
+            <tr>
+                <td style="padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top">
+                    <p style="text-align: center;margin-bottom: 0;" align="center">
+                        <img src="../image/note.gif" />
+                    </p>
+                </td>
+                <td style="width: 90%;padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top" width="90%">
+                    <p>La sincronizzazione dell'informazione in tempo reale richiede una connessione ad internet. Quando si utilizza l'Integrazione di Contabilità nel <span class="MyVariablesWebRemote">Client Web Offline</span>, dati in viste di dati in tempo reale saranno aggiornati dall'ultima volta che il client si è connesso con il database host.</p>
+                </td>
+            </tr>
+        </table>
+        <p class="Infinitive">Per configurare</p>
+        <ol>
+            <li value="1">Accedere come utente WebDLL.</li>
+            <li value="2">Assicurarsi che è stato configurata e abilitata <a href="../Integrations/SData_Detail_view.htm">la Sincronizzazione SData</a> e le proprie <a href="../Integrations/Integrations_Detail_View.htm">Integrazioni</a> prima di avviare il servizio.</li>
+            <li value="3">Controllare il file SLXSDataSyncServer.exe.config per assicurarsi che la connessione sia definita correttamente al termine del file. Le informazioni di connessione devono corrispondere con il connection.config distribuitoo dal proprio sito Web.<br />Da impostazioni predefinite il file è in ..\Program Files\SalesLogix\SLXSDataSincronizzazioneServer.exe.config e il file di connessione è distribuitoo su ...\inetpub\wwwroot\slxclient</li>
+            <li value="4">Assicurarsi di aver abilitato Autenticazione Windows per l'utente WebDLL.</li>
+            <li value="5">Nel Piano di Lavoro Amministrativo, visualizzare i servizi Windows nella Gestione del Computer.</li>
+            <li value="6">Fare clic destro su <span style="mc-tag-and-class: span;" class="MyVariablesProduct Name">Infor CRM</span><span class="SLXBold">Servizio Sincronizzazione SData</span>, quindi cliccare su <span class="SLXBold">Proprietà</span>.<ol><li value="1">Nella casella <span class="SLXBold">Tipo di avvio</span> selezionare <span class="SLXBold">Automatico</span>.</li><li value="2">Impostare il servizio per connettersi ed eseguire come utente WebDLL.</li><li value="3">Fare clic su <span class="SLXBold">Avvia</span>.</li></ol></li>
+            <li value="7">Fare clic su <span class="SLXBold">OK</span>.</li>
+        </ol>
+        <p class="RelatedTopics">Argomenti Correlati</p>
+        <p><a href="Using_Sage_SalesLogix_Integration.htm" target="_self">Utilizzare Integrazione Contabilità</a>
+        </p>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>
