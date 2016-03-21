@@ -117,49 +117,55 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="City.Caption" xml:space="preserve">
-    <value>Stadt</value>
+  <data name="AccountName.Caption" xml:space="preserve">
+    <value>Firmenname</value>
   </data>
-  <data name="PostalCode.Caption" xml:space="preserve">
-    <value>Postal Code</value>
-  </data>
-  <data name="Company.Caption" xml:space="preserve">
-    <value>Type</value>
-  </data>
-  <data name="LeadNameLastFirst.Caption" xml:space="preserve">
-    <value>Name(Last, First)</value>
+  <data name="MainPhone.Caption" xml:space="preserve">
+    <value>Haupttelefon</value>
   </data>
   <data name="Status.Caption" xml:space="preserve">
     <value>Status</value>
   </data>
+  <data name="SubType.Caption" xml:space="preserve">
+    <value>Untertyp</value>
+  </data>
   <data name="Type.Caption" xml:space="preserve">
-    <value>Type</value>
+    <value>Firmentyp</value>
   </data>
-  <data name="grdLeads.c015cd52-00cf-4850-9166-8bf528798d3c.ColumnHeading" xml:space="preserve">
-    <value>City</value>
+  <data name="grdAccounts.0c1ec413-8b42-49d2-a478-adba2c78f9bb.ColumnHeading" xml:space="preserve">
+    <value>PLZ</value>
   </data>
-  <data name="grdLeads.6616b6ea-fc38-442e-95c2-6449b296f594.ColumnHeading" xml:space="preserve">
-    <value>Postal Code</value>
+  <data name="grdAccounts.7f9b7f3e-c57f-46a0-b993-5f12ccd265db.ColumnHeading" xml:space="preserve">
+    <value>Stadt</value>
   </data>
-  <data name="grdLeads.d6ef1165-184e-443e-ab4c-377e502bafc6.ColumnHeading" xml:space="preserve">
-    <value>Company</value>
+  <data name="grdAccounts.7c5c9da1-fd78-4276-a0aa-9873a1c46c41.ColumnHeading" xml:space="preserve">
+    <value>Verantwortlicher</value>
   </data>
-  <data name="grdLeads.cf2096af-2883-46c9-923f-d350c4c3eebe.ColumnHeading" xml:space="preserve">
-    <value>Name(Last, First)</value>
+  <data name="grdAccounts.bd1cf1fd-4273-44ef-9dc5-5568567c5f20.ColumnHeading" xml:space="preserve">
+    <value>Firma</value>
   </data>
-  <data name="grdLeads.1446d165-e4fc-48fd-ba6c-4a74f7f175db.ColumnHeading" xml:space="preserve">
+  <data name="grdAccounts.140f1963-203e-42ba-820d-c48a80090c5a.ColumnHeading" xml:space="preserve">
+    <value>Haupttelefon</value>
+  </data>
+  <data name="grdAccounts.5957af68-898d-4662-9d3f-840615c37819.ColumnHeading" xml:space="preserve">
     <value>Status</value>
   </data>
-  <data name="grdLeads.86a34c08-9b75-43bc-b5d1-dd6407195539.ColumnHeading" xml:space="preserve">
-    <value>Type</value>
+  <data name="grdAccounts.17357b9f-1b06-423b-9654-b8b19764418d.ColumnHeading" xml:space="preserve">
+    <value>Untertyp</value>
+  </data>
+  <data name="grdAccounts.2848d7b0-4777-44e0-b53c-65cd31be484b.ColumnHeading" xml:space="preserve">
+    <value>Firmentyp</value>
   </data>
   <data name="ddlType.Caption" xml:space="preserve">
-    <value>Type:</value>
+    <value>Firmentyp:</value>
+  </data>
+  <data name="ddlSubType.Caption" xml:space="preserve">
+    <value>Untertyp:</value>
   </data>
   <data name="ddlStatus.Caption" xml:space="preserve">
     <value>Status:</value>
   </data>
-  <data name="grdLeads.b02ca604-ad21-4381-9530-b07b1968acbe.ColumnHeading" xml:space="preserve">
-    <value>Name(Last, First)</value>
+  <data name="grdAccounts.acc46723-89f7-466d-81c3-96eb9c6ef077.ColumnHeading" xml:space="preserve">
+    <value>Firma</value>
   </data>
 </root>

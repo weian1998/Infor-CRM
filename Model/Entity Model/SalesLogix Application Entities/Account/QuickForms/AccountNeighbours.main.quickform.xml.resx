@@ -127,43 +127,43 @@
     <value>Account Manager</value>
   </data>
   <data name="AccountName.Caption" xml:space="preserve">
-    <value>Firmenname</value>
+    <value>Account</value>
   </data>
   <data name="MainPhone.Caption" xml:space="preserve">
-    <value>Haupttelefonnummer</value>
+    <value>Main Phone</value>
   </data>
   <data name="Status.Caption" xml:space="preserve">
     <value>Status</value>
   </data>
   <data name="SubType.Caption" xml:space="preserve">
-    <value>Untertyp</value>
+    <value>Sub Type</value>
   </data>
   <data name="Type.Caption" xml:space="preserve">
-    <value>Typ</value>
+    <value>Type</value>
   </data>
   <data name="grdAccounts.0c1ec413-8b42-49d2-a478-adba2c78f9bb.ColumnHeading" xml:space="preserve">
-    <value>PostalCode</value>
+    <value>Postalcode</value>
   </data>
   <data name="grdAccounts.7f9b7f3e-c57f-46a0-b993-5f12ccd265db.ColumnHeading" xml:space="preserve">
-    <value>Stadt</value>
+    <value>City</value>
   </data>
   <data name="grdAccounts.7c5c9da1-fd78-4276-a0aa-9873a1c46c41.ColumnHeading" xml:space="preserve">
     <value>Account Manager</value>
   </data>
   <data name="grdAccounts.bd1cf1fd-4273-44ef-9dc5-5568567c5f20.ColumnHeading" xml:space="preserve">
-    <value>Firmenname</value>
+    <value>Account</value>
   </data>
   <data name="grdAccounts.140f1963-203e-42ba-820d-c48a80090c5a.ColumnHeading" xml:space="preserve">
-    <value>Haupttelefonnummer</value>
+    <value>Main Phone</value>
   </data>
   <data name="grdAccounts.5957af68-898d-4662-9d3f-840615c37819.ColumnHeading" xml:space="preserve">
     <value>Status</value>
   </data>
   <data name="grdAccounts.17357b9f-1b06-423b-9654-b8b19764418d.ColumnHeading" xml:space="preserve">
-    <value>Untertyp</value>
+    <value>Sub Type</value>
   </data>
   <data name="grdAccounts.2848d7b0-4777-44e0-b53c-65cd31be484b.ColumnHeading" xml:space="preserve">
-    <value>Typ</value>
+    <value>Type</value>
   </data>
   <data name="ddlType_item0.Text" xml:space="preserve">
     <value />
@@ -181,6 +181,9 @@
     <value>Status:</value>
   </data>
   <data name="grdAccounts.acc46723-89f7-466d-81c3-96eb9c6ef077.ColumnHeading" xml:space="preserve">
-    <value>Firmenname</value>
+    <value>Account</value>
+  </data>
+  <data name="lblWarning.Text" xml:space="preserve">
+    <value />
   </data>
 </root>

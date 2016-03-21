@@ -1,5 +1,5 @@
 /*
- * Diese Metadaten werden von der Saleslogix-Plattform verwendet.  Bitte nicht löschen.
+ * This metadata is used by the Saleslogix platform.  Do not remove.
 <snippetHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="8182ef4b-73d1-45cf-883d-572f7212d2b9">
  <assembly>Sage.SnippetLibrary.CSharp</assembly>
  <name>GetNeighborhoodStep</name>

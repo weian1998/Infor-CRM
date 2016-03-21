@@ -1,5 +1,5 @@
 /*
- * Diese Metadaten werden von der Saleslogix-Plattform verwendet.  Bitte nicht löschen.
+ * This metadata is used by the Saleslogix platform.  Do not remove.
 <snippetHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="bdc68370-69a5-486c-8b97-6582792a2470">
  <assembly>Sage.SnippetLibrary.CSharp</assembly>
  <name>SearchPostalCodesStep</name>
@@ -24,6 +24,8 @@
 */
 
 
+
+
 #region Usings
 using System;
 using Sage.Entity.Interfaces;
@@ -38,7 +40,7 @@ namespace Sage.BusinessRules.CodeSnippets
     {
 		public static void SearchPostalCodesStep(IAccount account, IAddress address, string sCountry, out String[] result)
         {
-								string sZip = string.Empty;
+				string sZip = string.Empty;
                 string[] sSearchZip = {};
 				if (address == null){
 					result = sSearchZip;

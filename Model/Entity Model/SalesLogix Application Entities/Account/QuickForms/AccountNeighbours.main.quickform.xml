@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<QuickForm xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="fdc48441-fb29-432e-98a2-57117b47b8fa" DefinitionType="Sage.Platform.QuickForms.QuickFormMainDetailViewDefinition, Sage.Platform.QuickForms" lastModifiedUtc="2016-03-07T15:58:37.8019172Z">
+<QuickForm xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="fdc48441-fb29-432e-98a2-57117b47b8fa" DefinitionType="Sage.Platform.QuickForms.QuickFormMainDetailViewDefinition, Sage.Platform.QuickForms" lastModifiedUtc="2016-03-21T15:54:10.1338957Z">
   <ActiveControl />
   <ImagePath />
   <LoadActions>
@@ -11,7 +11,11 @@
           <CSharpCodeSnippet>	// SubType
 	Sage.Entity.Interfaces.IAccount account = this.BindingSource.Current as Sage.Entity.Interfaces.IAccount;
     ddlSubType.PickListName = account.GetSubTypePickListName();
+	lblWarning.Visible = account.Address.Country != "Germany";
+	lblWarning.Text = "Warning: Region search engine for country '" + account.Address.Country + "' not found!";
 	lblRecords.Text = account.GetNeightborhoodByFilter(null).Count.ToString() + " records found";
+
+		
 	
 	
 	
@@ -190,6 +194,23 @@
           <RefreshData>False</RefreshData>
         </OnRowSelectedAction>
       </QFDataGrid>
+    </Control>
+    <Control typeName="Sage.Platform.QuickForms.QFControls.QFLabel, Sage.Platform.QuickForms.QFControls">
+      <QFLabel>
+        <ColumnSpan>2</ColumnSpan>
+        <Column>0</Column>
+        <Row>2</Row>
+        <Visible>false</Visible>
+        <HotKey>0</HotKey>
+        <TabIndex>0</TabIndex>
+        <ControlId>lblWarning</ControlId>
+        <DataBindings />
+        <ControlLabelPlacement>left</ControlLabelPlacement>
+        <ExtendedProperties />
+        <CaptionAlignment>left</CaptionAlignment>
+        <StyleScheme />
+        <AssociatedControlID />
+      </QFLabel>
     </Control>
     <Control typeName="Sage.SalesLogix.QuickForms.QFControls.QFSLXPickList, Sage.SalesLogix.QuickForms.QFControls">
       <QFSLXPickList>
@@ -422,6 +443,10 @@ lblRecords.Text = account.GetNeighborhood().Count.ToString() + " records found";
     <RowStyle>
       <SizeType>Absolute</SizeType>
       <Height>100</Height>
+    </RowStyle>
+    <RowStyle>
+      <SizeType>Absolute</SizeType>
+      <Height>35</Height>
     </RowStyle>
   </Rows>
   <Description />

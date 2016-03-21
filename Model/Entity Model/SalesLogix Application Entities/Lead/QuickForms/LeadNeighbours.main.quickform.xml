@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<QuickForm xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="31b5a4ad-723e-4110-a1d4-a0415d54a725" DefinitionType="Sage.Platform.QuickForms.QuickFormMainDetailViewDefinition, Sage.Platform.QuickForms" lastModifiedUtc="2016-03-07T16:13:16.862178Z">
+<QuickForm xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="31b5a4ad-723e-4110-a1d4-a0415d54a725" DefinitionType="Sage.Platform.QuickForms.QuickFormMainDetailViewDefinition, Sage.Platform.QuickForms" lastModifiedUtc="2016-03-21T16:07:58.8314842Z">
   <ActiveControl />
   <ImagePath />
   <LoadActions>
@@ -9,7 +9,10 @@
         <CSharpSnippetActionItem>
           <MethodName>quickformload0</MethodName>
           <CSharpCodeSnippet>        ILead lead = BindingSource.Current as Sage.Entity.Interfaces.ILead;
-		lblRecords.Text = lead.GetNeighborhood().Count.ToString() + " records found";</CSharpCodeSnippet>
+		lblRecords.Text = lead.GetNeighborhood().Count.ToString() + " records found";
+		lblWarning.Visible = lead.Address.Country != "Germany";
+		lblWarning.Text = "Warning: Region search engine for country '" + lead.Address.Country + "' not found!";
+	</CSharpCodeSnippet>
         </CSharpSnippetActionItem>
       </Action>
       <IsDialogCloseAction>False</IsDialogCloseAction>
@@ -182,6 +185,23 @@
           <RefreshData>False</RefreshData>
         </OnRowSelectedAction>
       </QFDataGrid>
+    </Control>
+    <Control typeName="Sage.Platform.QuickForms.QFControls.QFLabel, Sage.Platform.QuickForms.QFControls">
+      <QFLabel>
+        <ColumnSpan>2</ColumnSpan>
+        <Column>0</Column>
+        <Row>2</Row>
+        <Visible>false</Visible>
+        <HotKey>0</HotKey>
+        <TabIndex>0</TabIndex>
+        <ControlId>lblWarning</ControlId>
+        <DataBindings />
+        <ControlLabelPlacement>left</ControlLabelPlacement>
+        <ExtendedProperties />
+        <CaptionAlignment>left</CaptionAlignment>
+        <StyleScheme />
+        <AssociatedControlID />
+      </QFLabel>
     </Control>
     <Control typeName="Sage.SalesLogix.QuickForms.QFControls.QFSLXPickList, Sage.SalesLogix.QuickForms.QFControls">
       <QFSLXPickList>
@@ -362,6 +382,10 @@
     <RowStyle>
       <SizeType>Absolute</SizeType>
       <Height>100</Height>
+    </RowStyle>
+    <RowStyle>
+      <SizeType>Absolute</SizeType>
+      <Height>35</Height>
     </RowStyle>
     <RowStyle>
       <SizeType>Absolute</SizeType>

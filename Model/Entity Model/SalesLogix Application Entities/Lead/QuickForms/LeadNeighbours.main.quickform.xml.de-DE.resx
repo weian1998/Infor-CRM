@@ -121,45 +121,45 @@
     <value>Stadt</value>
   </data>
   <data name="PostalCode.Caption" xml:space="preserve">
-    <value>Postal Code</value>
+    <value>PLZ</value>
   </data>
   <data name="Company.Caption" xml:space="preserve">
-    <value>Type</value>
+    <value>Typ</value>
   </data>
   <data name="LeadNameLastFirst.Caption" xml:space="preserve">
-    <value>Name(Last, First)</value>
+    <value>Name</value>
   </data>
   <data name="Status.Caption" xml:space="preserve">
     <value>Status</value>
   </data>
   <data name="Type.Caption" xml:space="preserve">
-    <value>Type</value>
+    <value>Typ</value>
   </data>
   <data name="grdLeads.c015cd52-00cf-4850-9166-8bf528798d3c.ColumnHeading" xml:space="preserve">
-    <value>City</value>
+    <value>Stadt</value>
   </data>
   <data name="grdLeads.6616b6ea-fc38-442e-95c2-6449b296f594.ColumnHeading" xml:space="preserve">
-    <value>Postal Code</value>
+    <value>PLZ</value>
   </data>
   <data name="grdLeads.d6ef1165-184e-443e-ab4c-377e502bafc6.ColumnHeading" xml:space="preserve">
-    <value>Company</value>
+    <value>Firma</value>
   </data>
   <data name="grdLeads.cf2096af-2883-46c9-923f-d350c4c3eebe.ColumnHeading" xml:space="preserve">
-    <value>Name(Last, First)</value>
+    <value>Name</value>
   </data>
   <data name="grdLeads.1446d165-e4fc-48fd-ba6c-4a74f7f175db.ColumnHeading" xml:space="preserve">
     <value>Status</value>
   </data>
   <data name="grdLeads.86a34c08-9b75-43bc-b5d1-dd6407195539.ColumnHeading" xml:space="preserve">
-    <value>Type</value>
+    <value>Typ</value>
   </data>
   <data name="ddlType.Caption" xml:space="preserve">
-    <value>Type:</value>
+    <value>Typ:</value>
   </data>
   <data name="ddlStatus.Caption" xml:space="preserve">
     <value>Status:</value>
   </data>
   <data name="grdLeads.b02ca604-ad21-4381-9530-b07b1968acbe.ColumnHeading" xml:space="preserve">
-    <value>Name(Last, First)</value>
+    <value>Name</value>
   </data>
 </root>

@@ -38,24 +38,31 @@ namespace Sage.BusinessRules.CodeSnippets
     {
         public static void GetNeighborhoodByFilterStep( IContact contact,  IDictionary<string, string> filter, out IList<IContact> result)
         {
-           	Sage.Platform.RepositoryHelper<Sage.Entity.Interfaces.IContact> repository = Sage.Platform.EntityFactory.GetRepositoryHelper<Sage.Entity.Interfaces.IContact>();
-            Sage.Platform.Repository.ICriteria criteria = repository.CreateCriteria();
-            Sage.Platform.Repository.IExpression exp = repository.EF.Like("address.PostalCode", "%");
-            criteria.CreateCriteria("Address", "address", Platform.Repository.JoinType.InnerJoin);
-            string[] codes = contact.Account.SearchPostalCodes(contact.Address, "DE");
-            Sage.Platform.Repository.IJunction disjunction = repository.EF.Disjunction();
-            for(int i = 0; i < codes.Length;  i++)
-                disjunction.Add(repository.EF.Like("address.PostalCode", codes[i], Platform.Repository.LikeMatchMode.BeginsWith));
-            Sage.Platform.Repository.IJunction conjunction = repository.EF.Conjunction();
-			if (filter != null && filter.Count > 0) { 
-                foreach(KeyValuePair<string, string> pair in filter){
-                    if (!string.IsNullOrEmpty(pair.Value))
-                        conjunction.Add(repository.EF.Eq(pair.Key, pair.Value));
-                }
-            }
-            criteria.Add(conjunction);
-            criteria.Add(disjunction);
-			result = criteria.List<IContact>();
+			if(String.IsNullOrEmpty(contact.Address.Country) || contact.Address.Country != "Germany")
+				result = new List<IContact>();
+			else
+			{
+				Sage.Platform.RepositoryHelper<Sage.Entity.Interfaces.IContact> repository = Sage.Platform.EntityFactory.GetRepositoryHelper<Sage.Entity.Interfaces.IContact>();
+	            Sage.Platform.Repository.ICriteria criteria = repository.CreateCriteria();
+	            Sage.Platform.Repository.IExpression exp = repository.EF.Like("address.PostalCode", "%");
+	            criteria.CreateCriteria("Address", "address", Platform.Repository.JoinType.InnerJoin);
+	            string[] codes = contact.Account.SearchPostalCodes(contact.Address, "DE");
+	            Sage.Platform.Repository.IJunction disjunction = repository.EF.Disjunction();
+	            for(int i = 0; i < codes.Length;  i++)
+	                disjunction.Add(repository.EF.Like("address.PostalCode", codes[i], Platform.Repository.LikeMatchMode.BeginsWith));
+	            Sage.Platform.Repository.IJunction conjunction = repository.EF.Conjunction();
+				if(filter == null)
+					filter = new Dictionary<string, string>();					
+				filter.Add("address.Country", contact.Address.Country);
+				foreach(KeyValuePair<string, string> pair in filter){
+	                if (!string.IsNullOrEmpty(pair.Value))
+	                    conjunction.Add(repository.EF.Eq(pair.Key, pair.Value));
+	            }
+	            criteria.Add(conjunction);
+	            criteria.Add(disjunction);
+				result = criteria.List<IContact>();
+				result.Remove(contact);
+			}
         }
     }
 }
