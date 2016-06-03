@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<method xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="6cec4c15-8a02-4c7a-8544-f61e5d035a8a" lastModifiedUtc="2016-02-17T12:07:49.3877269Z" name="GetNeighborhood" returnType="IList&lt;ILead&gt;" methodType="Rule" actionType="None" returnMode="Object">
+<method xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="6cec4c15-8a02-4c7a-8544-f61e5d035a8a" lastModifiedUtc="2016-03-30T14:08:31.9484524Z" name="GetNeighborhood" returnType="IList&lt;ILead&gt;" methodType="Rule" actionType="None" returnMode="Object">
   <extendedMetaData />
   <ExtendedPropertiesCollection>
     <extendee type="Sage.Platform.Orm.Entities.OrmEntityMethod" />
@@ -7,9 +7,9 @@
   <parameter />
   <preExecuteTargets />
   <methodTargets>
-    <methodTarget xsi:type="OrmMethodTargetSnippet" id="6ecc2113-0b3c-4a6d-869d-ecf5a04fb758" lastModifiedUtc="2016-03-21T14:21:22.9756064Z" targetType="Sage.BusinessRules.CodeSnippets.LeadBusinessRules, Sage.SnippetLibrary.CSharp" targetMethod="GetNeighborhoodStep" active="true" codeSnippetId="8182ef4b-73d1-45cf-883d-572f7212d2b9">
+    <methodTarget id="e7671285-5222-4542-b67e-8a79433ff80c" lastModifiedUtc="2016-03-30T14:08:57.1865731Z" targetType="blackpoint.icrm.umgebungssuche.Lead, blackpoint.icrm.umgebungssuche" targetMethod="GetNeighborhood" active="true">
       <ExtendedPropertiesCollection>
-        <extendee type="Sage.Platform.Orm.Entities.OrmMethodTargetSnippet" />
+        <extendee type="Sage.Platform.Orm.Entities.OrmMethodTarget" />
       </ExtendedPropertiesCollection>
     </methodTarget>
   </methodTargets>

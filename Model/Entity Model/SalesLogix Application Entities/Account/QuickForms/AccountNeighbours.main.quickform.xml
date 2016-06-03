@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<QuickForm xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="fdc48441-fb29-432e-98a2-57117b47b8fa" DefinitionType="Sage.Platform.QuickForms.QuickFormMainDetailViewDefinition, Sage.Platform.QuickForms" lastModifiedUtc="2016-03-21T15:54:10.1338957Z">
+<QuickForm xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="fdc48441-fb29-432e-98a2-57117b47b8fa" DefinitionType="Sage.Platform.QuickForms.QuickFormMainDetailViewDefinition, Sage.Platform.QuickForms" lastModifiedUtc="2016-04-18T08:36:16.1626473Z">
   <ActiveControl />
   <ImagePath />
   <LoadActions>
@@ -8,19 +8,12 @@
       <Action typeName="Sage.Platform.QuickForms.ActionItems.CSharpSnippetActionItem, Sage.Platform.QuickForms">
         <CSharpSnippetActionItem>
           <MethodName>quickformload0</MethodName>
-          <CSharpCodeSnippet>	// SubType
-	Sage.Entity.Interfaces.IAccount account = this.BindingSource.Current as Sage.Entity.Interfaces.IAccount;
-    ddlSubType.PickListName = account.GetSubTypePickListName();
-	lblWarning.Visible = account.Address.Country != "Germany";
-	lblWarning.Text = "Warning: Region search engine for country '" + account.Address.Country + "' not found!";
-	lblRecords.Text = account.GetNeightborhoodByFilter(null).Count.ToString() + " records found";
-
-		
-	
-	
-	
-	
-	</CSharpCodeSnippet>
+          <CSharpCodeSnippet>	Sage.Entity.Interfaces.IAccount account = this.BindingSource.Current as Sage.Entity.Interfaces.IAccount;
+    ddlSubType.PickListName = ""; //account.GetSubTypePickListName();
+	lblRecords.Text = account.GetNeighborhoodByFilter(null).Count.ToString() + " records found";
+    lblWarning.Visible = !blackpoint.icrm.umgebungssuche.AddressUtil.isSearchDefined(account.Address);
+    string[] countries = Enum.GetNames(typeof(blackpoint.icrm.umgebungssuche.AddressUtil.Country));
+    lblWarning.Text = "region search is available in the following countries/regions: '" + String.Join(", ", countries) + "'.";</CSharpCodeSnippet>
         </CSharpSnippetActionItem>
       </Action>
       <IsDialogCloseAction>False</IsDialogCloseAction>
@@ -57,7 +50,16 @@
           <Action typeName="Sage.Platform.QuickForms.ActionItems.CSharpSnippetActionItem, Sage.Platform.QuickForms">
             <CSharpSnippetActionItem>
               <MethodName>ddlType_ChangeAction</MethodName>
-              <CSharpCodeSnippet>	grdAccounts_RowSelectedAction(sender, e);</CSharpCodeSnippet>
+              <CSharpCodeSnippet>    System.Web.UI.WebControls.TextBox control = (System.Web.UI.WebControls.TextBox)sender;
+    string sItem = control.Text;
+    ddlSubType.PickListName = String.Empty;
+    if (!String.IsNullOrEmpty(sItem)) {
+		IList&lt;Sage.SalesLogix.PickLists.PickList&gt; items = Sage.SalesLogix.PickLists.PickList.GetPickListItemsByName("Account Type");
+        Sage.SalesLogix.PickLists.PickList item = items.FirstOrDefault&lt;Sage.SalesLogix.PickLists.PickList&gt;(a =&gt; a.Text == sItem);
+        if (item != null)
+            ddlSubType.PickListName = "Account " + item.Shorttext;
+    }
+	grdAccounts_RowSelectedAction(sender, e);</CSharpCodeSnippet>
             </CSharpSnippetActionItem>
           </Action>
           <IsDialogCloseAction>False</IsDialogCloseAction>
@@ -181,7 +183,7 @@
         filter.Add("Type", ddlType.PickListValue);
         filter.Add("SubType", ddlSubType.PickListValue);
         filter.Add("Status", ddlStatus.PickListValue);
-        grdAccounts.DataSource = account.GetNeightborhoodByFilter(filter);
+        grdAccounts.DataSource = account.GetNeighborhoodByFilter(filter);
 		grdAccounts.DataBind();
 		lblRecords.Text = grdAccounts.Rows.Count.ToString() + " records found";</CSharpCodeSnippet>
             </CSharpSnippetActionItem>

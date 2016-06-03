@@ -15273,4 +15273,94 @@
   <data name="SyncResult.User.DisplayName" xml:space="preserve">
     <value>User</value>
   </data>
+  <data name="PostalCode.DisplayName" xml:space="preserve">
+    <value>PostalCode</value>
+  </data>
+  <data name="PostalCode.ModifyDate.DisplayName" xml:space="preserve">
+    <value>Modifydate</value>
+  </data>
+  <data name="PostalCode.ModifyUser.DisplayName" xml:space="preserve">
+    <value>Modifyuser</value>
+  </data>
+  <data name="PostalCode.CreateDate.DisplayName" xml:space="preserve">
+    <value>Createdate</value>
+  </data>
+  <data name="PostalCode.CreateUser.DisplayName" xml:space="preserve">
+    <value>Createuser</value>
+  </data>
+  <data name="PostalCode.Country.DisplayName" xml:space="preserve">
+    <value>Country</value>
+  </data>
+  <data name="PostalCode.County.DisplayName" xml:space="preserve">
+    <value>County</value>
+  </data>
+  <data name="PostalCode.State.DisplayName" xml:space="preserve">
+    <value>State</value>
+  </data>
+  <data name="PostalCode.City.DisplayName" xml:space="preserve">
+    <value>City</value>
+  </data>
+  <data name="PostalCode.Areacode.DisplayName" xml:space="preserve">
+    <value>Areacode</value>
+  </data>
+  <data name="PostalCode.Postalcode.DisplayName" xml:space="preserve">
+    <value>Postalcode</value>
+  </data>
+  <data name="PostalCode.Postalcodeid.DisplayName" xml:space="preserve">
+    <value>Postalcodeid</value>
+  </data>
+  <data name="PostalCode.Longtitude.DisplayName" xml:space="preserve">
+    <value>Longtitude</value>
+  </data>
+  <data name="PostalCode.Latitude.DisplayName" xml:space="preserve">
+    <value>Latitude</value>
+  </data>
+  <data name="BlackpointConfig.DisplayName" xml:space="preserve">
+    <value>BlackpointConfig</value>
+  </data>
+  <data name="BlackpointConfig.BlackpointConfigId.DisplayName" xml:space="preserve">
+    <value>Id</value>
+  </data>
+  <data name="BlackpointConfig.CreateUser.DisplayName" xml:space="preserve">
+    <value>Create User</value>
+  </data>
+  <data name="BlackpointConfig.CreateDate.DisplayName" xml:space="preserve">
+    <value>Create Date</value>
+  </data>
+  <data name="BlackpointConfig.ModifyUser.DisplayName" xml:space="preserve">
+    <value>Modify User</value>
+  </data>
+  <data name="BlackpointConfig.ModifyDate.DisplayName" xml:space="preserve">
+    <value>Modify Date</value>
+  </data>
+  <data name="BlackpointConfig.Name.DisplayName" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="BlackpointConfig.Value.DisplayName" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="BlackpointConfig.SeccodeId.DisplayName" xml:space="preserve">
+    <value>SeccodeID</value>
+  </data>
+  <data name="Owner.BlackpointConfigs.DisplayName" xml:space="preserve">
+    <value>BlackpointConfigs</value>
+  </data>
+  <data name="BlackpointConfig.Owner.DisplayName" xml:space="preserve">
+    <value>Owner</value>
+  </data>
+  <data name="Team.Activities.DisplayName" xml:space="preserve">
+    <value>Activities</value>
+  </data>
+  <data name="Activity.AttendeeCount.DisplayName" xml:space="preserve">
+    <value>AttendeeCount</value>
+  </data>
+  <data name="Activity.Team.DisplayName" xml:space="preserve">
+    <value>Team</value>
+  </data>
+  <data name="Activity.GroupId.DisplayName" xml:space="preserve">
+    <value>GroupId</value>
+  </data>
+  <data name="Activity.GroupName.DisplayName" xml:space="preserve">
+    <value>GroupName</value>
+  </data>
 </root>

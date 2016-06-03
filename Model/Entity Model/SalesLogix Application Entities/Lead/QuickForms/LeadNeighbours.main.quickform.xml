@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<QuickForm xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="31b5a4ad-723e-4110-a1d4-a0415d54a725" DefinitionType="Sage.Platform.QuickForms.QuickFormMainDetailViewDefinition, Sage.Platform.QuickForms" lastModifiedUtc="2016-03-21T16:07:58.8314842Z">
+<QuickForm xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="31b5a4ad-723e-4110-a1d4-a0415d54a725" DefinitionType="Sage.Platform.QuickForms.QuickFormMainDetailViewDefinition, Sage.Platform.QuickForms" lastModifiedUtc="2016-03-31T07:37:56.6122527Z">
   <ActiveControl />
   <ImagePath />
   <LoadActions>
@@ -10,9 +10,9 @@
           <MethodName>quickformload0</MethodName>
           <CSharpCodeSnippet>        ILead lead = BindingSource.Current as Sage.Entity.Interfaces.ILead;
 		lblRecords.Text = lead.GetNeighborhood().Count.ToString() + " records found";
-		lblWarning.Visible = lead.Address.Country != "Germany";
-		lblWarning.Text = "Warning: Region search engine for country '" + lead.Address.Country + "' not found!";
-	</CSharpCodeSnippet>
+		lblWarning.Visible = !blackpoint.icrm.umgebungssuche.AddressUtil.isSearchDefined(lead.Address);
+    	string[] countries = Enum.GetNames(typeof(blackpoint.icrm.umgebungssuche.AddressUtil.Country));
+    	lblWarning.Text = "region search is available in the following countries/regions: '" + String.Join(", ", countries) + "'.";</CSharpCodeSnippet>
         </CSharpSnippetActionItem>
       </Action>
       <IsDialogCloseAction>False</IsDialogCloseAction>

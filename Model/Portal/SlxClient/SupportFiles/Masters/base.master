@@ -372,7 +372,7 @@
             async: true,
             isDebug: false,
             locale: '<%# Global.Locale %>',
-            paths: { 'Sage': '../../../jscript/Sage' },
+            paths: { 'Sage': '../../../jscript/Sage', 'BP': '../../../jscript/BP' },
             deferredOnError: function (e) {
                 if (dojo.config.isDebug) {
                 }
@@ -613,7 +613,8 @@
             "Sage/Utility/File/DragDropWatcher",
             "Sage/Utility/File/DefaultDropHandler",
             "Sage/TaskPane/ActivityTaskPaneActions",
-            "Sage/UI/Alarms/JobNotificationButton"
+            "Sage/UI/Alarms/JobNotificationButton",
+			"BP/UI/Controls/Address"
         ], 
         function (html, manager, parser, Toolbar, ContentPane, BorderContainer, TitlePane, ValidationTextBox, SimpleTextArea, CheckBox, TextBox, Select, ready, fx, dom, domClass, has, sniff, window,PickListUtil) { 
             ready(function() {

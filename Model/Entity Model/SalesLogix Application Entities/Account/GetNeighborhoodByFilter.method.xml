@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<method xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="8623fa5c-0fa6-4255-9517-89901c998895" lastModifiedUtc="2016-03-30T11:13:32.0562397Z" name="GetNeighborhoodByFilter" returnType="IList&lt;IAccount&gt;" methodType="Rule" actionType="None" returnMode="Object">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmEntityMethod" />
+  </ExtendedPropertiesCollection>
+  <parameter>
+    <OrmEntityMethodParam id="cfba363d-cf05-451e-8182-1e086f8b1119" paramName="filter" sequence="0" paramType="IDictionary&lt;string, string&gt;">
+      <description>filter value from client controls</description>
+    </OrmEntityMethodParam>
+  </parameter>
+  <preExecuteTargets />
+  <methodTargets>
+    <methodTarget id="3fba3133-fcc9-45c7-8e51-5f120a172b89" lastModifiedUtc="2016-03-30T11:14:26.6416685Z" targetType="blackpoint.icrm.umgebungssuche.Account, blackpoint.icrm.umgebungssuche" targetMethod="GetNeighborhoodBy" active="true">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmMethodTarget" />
+      </ExtendedPropertiesCollection>
+    </methodTarget>
+  </methodTargets>
+  <postExecuteTargets />
+  <postFlushTargets>
+    <methodTarget id="f3a728cd-08ba-40ff-97db-300b15b01167" lastModifiedUtc="2016-03-30T11:12:17.6099307Z" targetType="blackpoint.icrm.umgebungssuche.Account, blackpoint.icrm.umgebungssuche" targetMethod="GetNeighborhoodBy" active="true">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmMethodTarget" />
+      </ExtendedPropertiesCollection>
+    </methodTarget>
+  </postFlushTargets>
+</method>

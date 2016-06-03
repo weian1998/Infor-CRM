@@ -7,9 +7,9 @@
   <parameter />
   <preExecuteTargets />
   <methodTargets>
-    <methodTarget xsi:type="OrmMethodTargetSnippet" id="7defaf7b-0085-4c98-9bcb-60f4731266af" lastModifiedUtc="2016-02-17T22:05:42.3454191Z" targetType="Sage.BusinessRules.CodeSnippets.ContactBusinessRules, Sage.SnippetLibrary.CSharp" targetMethod="GetNeighborhoodStep" active="true" codeSnippetId="6463e950-f2d6-43aa-ba67-bba9b40b157b">
+    <methodTarget id="54c29f6e-17ed-486d-9010-c183013f92ff" lastModifiedUtc="2016-03-30T11:15:48.7813236Z" targetType="blackpoint.icrm.umgebungssuche.Contact, blackpoint.icrm.umgebungssuche" targetMethod="GetNeighborhood" active="true">
       <ExtendedPropertiesCollection>
-        <extendee type="Sage.Platform.Orm.Entities.OrmMethodTargetSnippet" />
+        <extendee type="Sage.Platform.Orm.Entities.OrmMethodTarget" />
       </ExtendedPropertiesCollection>
     </methodTarget>
   </methodTargets>

@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<WebModule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="0aa43fa1-f237-4cb0-9b4f-12f1e76703a2">
+  <InstanceId>347904d8074245ce9e44995ad7f1e38e</InstanceId>
+  <ModuleTypeName>blackpoint.icrm.common.Module.ScriptIncludeModule, blackpoint.icrm.common</ModuleTypeName>
+  <RunInMode>Detail, Insert</RunInMode>
+  <AllowRoles />
+  <Scope>Page</Scope>
+</WebModule>

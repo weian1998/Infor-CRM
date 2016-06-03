@@ -9,9 +9,9 @@
   </parameter>
   <preExecuteTargets />
   <methodTargets>
-    <methodTarget xsi:type="OrmMethodTargetSnippet" id="526a8096-e5aa-4229-a271-9ac9defacd0c" lastModifiedUtc="2016-03-21T15:26:34.1804774Z" targetType="Sage.BusinessRules.CodeSnippets.ContactBusinessRules, Sage.SnippetLibrary.CSharp" targetMethod="GetNeighborhoodByFilterStep" active="true" codeSnippetId="54680697-38c5-4079-9b38-04d9dddc8d65">
+    <methodTarget id="d7ece81e-805b-44b2-98d0-5645aad718a4" lastModifiedUtc="2016-03-30T11:16:05.1960578Z" targetType="blackpoint.icrm.umgebungssuche.Contact, blackpoint.icrm.umgebungssuche" targetMethod="GetNeighborhoodBy" active="true">
       <ExtendedPropertiesCollection>
-        <extendee type="Sage.Platform.Orm.Entities.OrmMethodTargetSnippet" />
+        <extendee type="Sage.Platform.Orm.Entities.OrmMethodTarget" />
       </ExtendedPropertiesCollection>
     </methodTarget>
   </methodTargets>

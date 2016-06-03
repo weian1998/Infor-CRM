@@ -2,16 +2,17 @@
 <BundleManifest id="7c7c2756-9ddf-4eeb-baf4-4011dea72fe4">
   <bundleProperties>
     <name>Umgebungssuche Web </name>
-    <description><![CDATA[]]></description>
-    <address><![CDATA[]]></address>
-    <company>BPA</company>
+    <description><![CDATA[Umgebungssuche Web]]></description>
+    <address><![CDATA[Friedberger Straße 106b
+61118 Bad Vilbel ]]></address>
+    <company>Blackpoint GmbH</company>
     <copyright><![CDATA[]]></copyright>
     <majorVersion>0</majorVersion>
     <minorVersion>0</minorVersion>
     <revision>0</revision>
-    <build>2</build>
+    <build>9</build>
     <autoIncrement>false</autoIncrement>
-    <installDate>0001-01-01T00:00:00</installDate>
+    <installDate>2016-03-23T08:35:12.4953308Z</installDate>
     <installPassword />
     <formatVersion>8.2.0.1136</formatVersion>
   </bundleProperties>
@@ -131,37 +132,37 @@
                             <bundleItem modelId="a7bdd2d9-93b0-499d-9fd4-c3f7a5f94e28" itemTypeName="Sage.Platform.Orm.Entities.BundleSupport.BusinessRuleBundleItem, Sage.Platform">
                               <BusinessRuleBundleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
                                 <ItemId>8623fa5c-0fa6-4255-9517-89901c998895</ItemId>
-                                <Url>\Entity Model\Saleslogix Application Entities\Account\GetNeightborhoodByFilter.method.xml</Url>
+                                <Url>\Entity Model\Saleslogix Application Entities\Account\GetNeighborhoodByFilter.method.xml</Url>
                                 <BundleItemType>ModelItem</BundleItemType>
-                                <Caption>GetNeightborhoodByFilter</Caption>
+                                <Caption>GetNeighborhoodByFilter</Caption>
                               </BusinessRuleBundleItem>
                               <children>
                                 <bundleItem modelId="a7bdd2d9-93b0-499d-9fd4-c3f7a5f94e28" itemTypeName="Sage.Platform.Orm.Entities.BundleSupport.StepsSubFolderContext, Sage.Platform">
                                   <StepsSubFolderContext xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
                                     <ItemId>8623fa5c-0fa6-4255-9517-89901c998895pre</ItemId>
-                                    <Url>\Entity Model\Saleslogix Application Entities\Account\GetNeightborhoodByFilter.method.xml::Pre Execute Steps</Url>
+                                    <Url>\Entity Model\Saleslogix Application Entities\Account\GetNeighborhoodByFilter.method.xml::Pre Execute Steps</Url>
                                     <BundleItemType>Container</BundleItemType>
                                     <Caption>Pre Execute Steps</Caption>
-                                    <ParentUrl>\Entity Model\Saleslogix Application Entities\Account\GetNeightborhoodByFilter.method.xml</ParentUrl>
+                                    <ParentUrl>\Entity Model\Saleslogix Application Entities\Account\GetNeighborhoodByFilter.method.xml</ParentUrl>
                                     <CaptionKey>pre</CaptionKey>
                                   </StepsSubFolderContext>
                                 </bundleItem>
                                 <bundleItem modelId="a7bdd2d9-93b0-499d-9fd4-c3f7a5f94e28" itemTypeName="Sage.Platform.Orm.Entities.BundleSupport.StepsSubFolderContext, Sage.Platform">
                                   <StepsSubFolderContext xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
                                     <ItemId>8623fa5c-0fa6-4255-9517-89901c998895primary</ItemId>
-                                    <Url>\Entity Model\Saleslogix Application Entities\Account\GetNeightborhoodByFilter.method.xml::Primary Steps</Url>
+                                    <Url>\Entity Model\Saleslogix Application Entities\Account\GetNeighborhoodByFilter.method.xml::Primary Steps</Url>
                                     <BundleItemType>Container</BundleItemType>
                                     <Caption>Primary Steps</Caption>
-                                    <ParentUrl>\Entity Model\Saleslogix Application Entities\Account\GetNeightborhoodByFilter.method.xml</ParentUrl>
+                                    <ParentUrl>\Entity Model\Saleslogix Application Entities\Account\GetNeighborhoodByFilter.method.xml</ParentUrl>
                                     <CaptionKey>primary</CaptionKey>
                                   </StepsSubFolderContext>
                                   <children>
                                     <bundleItem modelId="a7bdd2d9-93b0-499d-9fd4-c3f7a5f94e28" itemTypeName="Sage.Platform.Orm.Entities.BundleSupport.BusinessRuleStepBundleItem, Sage.Platform">
                                       <BusinessRuleStepBundleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-                                        <ItemId>2caf90fc-1efa-4385-9438-e9c292e47d3f</ItemId>
-                                        <Url>\Entity Model\Saleslogix Application Entities\Account\GetNeightborhoodByFilter.method.xml::Primary Steps::GetNeightborhoodByFilterStep</Url>
+                                        <ItemId>3fba3133-fcc9-45c7-8e51-5f120a172b89</ItemId>
+                                        <Url>\Entity Model\Saleslogix Application Entities\Account\GetNeighborhoodByFilter.method.xml::Primary Steps::GetNeighborhoodBy</Url>
                                         <BundleItemType>Other</BundleItemType>
-                                        <Caption>GetNeightborhoodByFilterStep</Caption>
+                                        <Caption>GetNeighborhoodBy</Caption>
                                         <SerializationOptions>ProcessDependentUrls</SerializationOptions>
                                         <InstallOptions>ProcessDependentUrls</InstallOptions>
                                       </BusinessRuleStepBundleItem>
@@ -171,84 +172,34 @@
                                 <bundleItem modelId="a7bdd2d9-93b0-499d-9fd4-c3f7a5f94e28" itemTypeName="Sage.Platform.Orm.Entities.BundleSupport.StepsSubFolderContext, Sage.Platform">
                                   <StepsSubFolderContext xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
                                     <ItemId>8623fa5c-0fa6-4255-9517-89901c998895post</ItemId>
-                                    <Url>\Entity Model\Saleslogix Application Entities\Account\GetNeightborhoodByFilter.method.xml::Post Execute Steps</Url>
+                                    <Url>\Entity Model\Saleslogix Application Entities\Account\GetNeighborhoodByFilter.method.xml::Post Execute Steps</Url>
                                     <BundleItemType>Container</BundleItemType>
                                     <Caption>Post Execute Steps</Caption>
-                                    <ParentUrl>\Entity Model\Saleslogix Application Entities\Account\GetNeightborhoodByFilter.method.xml</ParentUrl>
+                                    <ParentUrl>\Entity Model\Saleslogix Application Entities\Account\GetNeighborhoodByFilter.method.xml</ParentUrl>
                                     <CaptionKey>post</CaptionKey>
                                   </StepsSubFolderContext>
                                 </bundleItem>
                                 <bundleItem modelId="a7bdd2d9-93b0-499d-9fd4-c3f7a5f94e28" itemTypeName="Sage.Platform.Orm.Entities.BundleSupport.StepsSubFolderContext, Sage.Platform">
                                   <StepsSubFolderContext xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
                                     <ItemId>8623fa5c-0fa6-4255-9517-89901c998895postflush</ItemId>
-                                    <Url>\Entity Model\Saleslogix Application Entities\Account\GetNeightborhoodByFilter.method.xml::Post Flush Steps</Url>
+                                    <Url>\Entity Model\Saleslogix Application Entities\Account\GetNeighborhoodByFilter.method.xml::Post Flush Steps</Url>
                                     <BundleItemType>Container</BundleItemType>
                                     <Caption>Post Flush Steps</Caption>
-                                    <ParentUrl>\Entity Model\Saleslogix Application Entities\Account\GetNeightborhoodByFilter.method.xml</ParentUrl>
+                                    <ParentUrl>\Entity Model\Saleslogix Application Entities\Account\GetNeighborhoodByFilter.method.xml</ParentUrl>
                                     <CaptionKey>postflush</CaptionKey>
-                                  </StepsSubFolderContext>
-                                </bundleItem>
-                              </children>
-                            </bundleItem>
-                            <bundleItem modelId="a7bdd2d9-93b0-499d-9fd4-c3f7a5f94e28" itemTypeName="Sage.Platform.Orm.Entities.BundleSupport.BusinessRuleBundleItem, Sage.Platform">
-                              <BusinessRuleBundleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-                                <ItemId>3ee3d95c-1e08-4201-9a72-7df2d4869cf9</ItemId>
-                                <Url>\Entity Model\Saleslogix Application Entities\Account\SearchPostalCodes.method.xml</Url>
-                                <BundleItemType>ModelItem</BundleItemType>
-                                <Caption>SearchPostalCodes</Caption>
-                              </BusinessRuleBundleItem>
-                              <children>
-                                <bundleItem modelId="a7bdd2d9-93b0-499d-9fd4-c3f7a5f94e28" itemTypeName="Sage.Platform.Orm.Entities.BundleSupport.StepsSubFolderContext, Sage.Platform">
-                                  <StepsSubFolderContext xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-                                    <ItemId>3ee3d95c-1e08-4201-9a72-7df2d4869cf9pre</ItemId>
-                                    <Url>\Entity Model\Saleslogix Application Entities\Account\SearchPostalCodes.method.xml::Pre Execute Steps</Url>
-                                    <BundleItemType>Container</BundleItemType>
-                                    <Caption>Pre Execute Steps</Caption>
-                                    <ParentUrl>\Entity Model\Saleslogix Application Entities\Account\SearchPostalCodes.method.xml</ParentUrl>
-                                    <CaptionKey>pre</CaptionKey>
-                                  </StepsSubFolderContext>
-                                </bundleItem>
-                                <bundleItem modelId="a7bdd2d9-93b0-499d-9fd4-c3f7a5f94e28" itemTypeName="Sage.Platform.Orm.Entities.BundleSupport.StepsSubFolderContext, Sage.Platform">
-                                  <StepsSubFolderContext xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-                                    <ItemId>3ee3d95c-1e08-4201-9a72-7df2d4869cf9primary</ItemId>
-                                    <Url>\Entity Model\Saleslogix Application Entities\Account\SearchPostalCodes.method.xml::Primary Steps</Url>
-                                    <BundleItemType>Container</BundleItemType>
-                                    <Caption>Primary Steps</Caption>
-                                    <ParentUrl>\Entity Model\Saleslogix Application Entities\Account\SearchPostalCodes.method.xml</ParentUrl>
-                                    <CaptionKey>primary</CaptionKey>
                                   </StepsSubFolderContext>
                                   <children>
                                     <bundleItem modelId="a7bdd2d9-93b0-499d-9fd4-c3f7a5f94e28" itemTypeName="Sage.Platform.Orm.Entities.BundleSupport.BusinessRuleStepBundleItem, Sage.Platform">
                                       <BusinessRuleStepBundleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-                                        <ItemId>c0864bb6-240f-4d2d-9a37-a08f6b4c446d</ItemId>
-                                        <Url>\Entity Model\Saleslogix Application Entities\Account\SearchPostalCodes.method.xml::Primary Steps::SearchPostalCodesStep</Url>
+                                        <ItemId>f3a728cd-08ba-40ff-97db-300b15b01167</ItemId>
+                                        <Url>\Entity Model\Saleslogix Application Entities\Account\GetNeighborhoodByFilter.method.xml::Post Flush Steps::GetNeighborhoodBy</Url>
                                         <BundleItemType>Other</BundleItemType>
-                                        <Caption>SearchPostalCodesStep</Caption>
+                                        <Caption>GetNeighborhoodBy</Caption>
                                         <SerializationOptions>ProcessDependentUrls</SerializationOptions>
                                         <InstallOptions>ProcessDependentUrls</InstallOptions>
                                       </BusinessRuleStepBundleItem>
                                     </bundleItem>
                                   </children>
-                                </bundleItem>
-                                <bundleItem modelId="a7bdd2d9-93b0-499d-9fd4-c3f7a5f94e28" itemTypeName="Sage.Platform.Orm.Entities.BundleSupport.StepsSubFolderContext, Sage.Platform">
-                                  <StepsSubFolderContext xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-                                    <ItemId>3ee3d95c-1e08-4201-9a72-7df2d4869cf9post</ItemId>
-                                    <Url>\Entity Model\Saleslogix Application Entities\Account\SearchPostalCodes.method.xml::Post Execute Steps</Url>
-                                    <BundleItemType>Container</BundleItemType>
-                                    <Caption>Post Execute Steps</Caption>
-                                    <ParentUrl>\Entity Model\Saleslogix Application Entities\Account\SearchPostalCodes.method.xml</ParentUrl>
-                                    <CaptionKey>post</CaptionKey>
-                                  </StepsSubFolderContext>
-                                </bundleItem>
-                                <bundleItem modelId="a7bdd2d9-93b0-499d-9fd4-c3f7a5f94e28" itemTypeName="Sage.Platform.Orm.Entities.BundleSupport.StepsSubFolderContext, Sage.Platform">
-                                  <StepsSubFolderContext xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-                                    <ItemId>3ee3d95c-1e08-4201-9a72-7df2d4869cf9postflush</ItemId>
-                                    <Url>\Entity Model\Saleslogix Application Entities\Account\SearchPostalCodes.method.xml::Post Flush Steps</Url>
-                                    <BundleItemType>Container</BundleItemType>
-                                    <Caption>Post Flush Steps</Caption>
-                                    <ParentUrl>\Entity Model\Saleslogix Application Entities\Account\SearchPostalCodes.method.xml</ParentUrl>
-                                    <CaptionKey>postflush</CaptionKey>
-                                  </StepsSubFolderContext>
                                 </bundleItem>
                               </children>
                             </bundleItem>
@@ -584,68 +535,6 @@
                                 </bundleItem>
                               </children>
                             </bundleItem>
-                            <bundleItem modelId="a7bdd2d9-93b0-499d-9fd4-c3f7a5f94e28" itemTypeName="Sage.Platform.Orm.Entities.BundleSupport.BusinessRuleBundleItem, Sage.Platform">
-                              <BusinessRuleBundleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-                                <ItemId>cd815a29-0edf-4648-8df1-59faed0c04de</ItemId>
-                                <Url>\Entity Model\Saleslogix Application Entities\Lead\SearchPostalCodes.method.xml</Url>
-                                <BundleItemType>ModelItem</BundleItemType>
-                                <Caption>SearchPostalCodes</Caption>
-                              </BusinessRuleBundleItem>
-                              <children>
-                                <bundleItem modelId="a7bdd2d9-93b0-499d-9fd4-c3f7a5f94e28" itemTypeName="Sage.Platform.Orm.Entities.BundleSupport.StepsSubFolderContext, Sage.Platform">
-                                  <StepsSubFolderContext xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-                                    <ItemId>cd815a29-0edf-4648-8df1-59faed0c04depre</ItemId>
-                                    <Url>\Entity Model\Saleslogix Application Entities\Lead\SearchPostalCodes.method.xml::Pre Execute Steps</Url>
-                                    <BundleItemType>Container</BundleItemType>
-                                    <Caption>Pre Execute Steps</Caption>
-                                    <ParentUrl>\Entity Model\Saleslogix Application Entities\Lead\SearchPostalCodes.method.xml</ParentUrl>
-                                    <CaptionKey>pre</CaptionKey>
-                                  </StepsSubFolderContext>
-                                </bundleItem>
-                                <bundleItem modelId="a7bdd2d9-93b0-499d-9fd4-c3f7a5f94e28" itemTypeName="Sage.Platform.Orm.Entities.BundleSupport.StepsSubFolderContext, Sage.Platform">
-                                  <StepsSubFolderContext xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-                                    <ItemId>cd815a29-0edf-4648-8df1-59faed0c04deprimary</ItemId>
-                                    <Url>\Entity Model\Saleslogix Application Entities\Lead\SearchPostalCodes.method.xml::Primary Steps</Url>
-                                    <BundleItemType>Container</BundleItemType>
-                                    <Caption>Primary Steps</Caption>
-                                    <ParentUrl>\Entity Model\Saleslogix Application Entities\Lead\SearchPostalCodes.method.xml</ParentUrl>
-                                    <CaptionKey>primary</CaptionKey>
-                                  </StepsSubFolderContext>
-                                  <children>
-                                    <bundleItem modelId="a7bdd2d9-93b0-499d-9fd4-c3f7a5f94e28" itemTypeName="Sage.Platform.Orm.Entities.BundleSupport.BusinessRuleStepBundleItem, Sage.Platform">
-                                      <BusinessRuleStepBundleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-                                        <ItemId>6bf3fe19-a069-46ed-b3cd-f5ac57c466d8</ItemId>
-                                        <Url>\Entity Model\Saleslogix Application Entities\Lead\SearchPostalCodes.method.xml::Primary Steps::SearchPostalCodesStep</Url>
-                                        <BundleItemType>Other</BundleItemType>
-                                        <Caption>SearchPostalCodesStep</Caption>
-                                        <SerializationOptions>ProcessDependentUrls</SerializationOptions>
-                                        <InstallOptions>ProcessDependentUrls</InstallOptions>
-                                      </BusinessRuleStepBundleItem>
-                                    </bundleItem>
-                                  </children>
-                                </bundleItem>
-                                <bundleItem modelId="a7bdd2d9-93b0-499d-9fd4-c3f7a5f94e28" itemTypeName="Sage.Platform.Orm.Entities.BundleSupport.StepsSubFolderContext, Sage.Platform">
-                                  <StepsSubFolderContext xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-                                    <ItemId>cd815a29-0edf-4648-8df1-59faed0c04depost</ItemId>
-                                    <Url>\Entity Model\Saleslogix Application Entities\Lead\SearchPostalCodes.method.xml::Post Execute Steps</Url>
-                                    <BundleItemType>Container</BundleItemType>
-                                    <Caption>Post Execute Steps</Caption>
-                                    <ParentUrl>\Entity Model\Saleslogix Application Entities\Lead\SearchPostalCodes.method.xml</ParentUrl>
-                                    <CaptionKey>post</CaptionKey>
-                                  </StepsSubFolderContext>
-                                </bundleItem>
-                                <bundleItem modelId="a7bdd2d9-93b0-499d-9fd4-c3f7a5f94e28" itemTypeName="Sage.Platform.Orm.Entities.BundleSupport.StepsSubFolderContext, Sage.Platform">
-                                  <StepsSubFolderContext xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-                                    <ItemId>cd815a29-0edf-4648-8df1-59faed0c04depostflush</ItemId>
-                                    <Url>\Entity Model\Saleslogix Application Entities\Lead\SearchPostalCodes.method.xml::Post Flush Steps</Url>
-                                    <BundleItemType>Container</BundleItemType>
-                                    <Caption>Post Flush Steps</Caption>
-                                    <ParentUrl>\Entity Model\Saleslogix Application Entities\Lead\SearchPostalCodes.method.xml</ParentUrl>
-                                    <CaptionKey>postflush</CaptionKey>
-                                  </StepsSubFolderContext>
-                                </bundleItem>
-                              </children>
-                            </bundleItem>
                           </children>
                         </bundleItem>
                         <bundleItem modelId="a7bdd2d9-93b0-499d-9fd4-c3f7a5f94e28" itemTypeName="Sage.Platform.Orm.Entities.BundleSupport.EntitySubFolderContext, Sage.Platform">
@@ -805,6 +694,41 @@
                               </ModelItemBundleItem>
                             </bundleItem>
                           </children>
+                        </bundleItem>
+                      </children>
+                    </bundleItem>
+                  </children>
+                </bundleItem>
+                <bundleItem modelId="73d4e7d0-a7fa-40ae-8b45-1ad7ed954154" itemTypeName="Sage.Platform.WebPortal.Design.BundleSupport.LinkedFolderBundleItem, Sage.Platform.WebPortal.Design">
+                  <LinkedFolderBundleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                    <ItemId>\Portal\SlxClient\SlxClient.cabapp.ptl.xml\SupportFiles</ItemId>
+                    <Url>\Portal\SlxClient\SlxClient.cabapp.ptl.xml\SupportFiles</Url>
+                    <BundleItemType>Context</BundleItemType>
+                    <Caption>SupportFiles</Caption>
+                    <InstallOptions>SkipItemAndChildren</InstallOptions>
+                  </LinkedFolderBundleItem>
+                  <children>
+                    <bundleItem modelId="73d4e7d0-a7fa-40ae-8b45-1ad7ed954154" itemTypeName="Sage.Platform.WebPortal.Design.BundleSupport.LinkedFolderBundleItem, Sage.Platform.WebPortal.Design">
+                      <LinkedFolderBundleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                        <ItemId>\Portal\SlxClient\SlxClient.cabapp.ptl.xml\SupportFiles\Bin</ItemId>
+                        <Url>\Portal\SlxClient\SlxClient.cabapp.ptl.xml\SupportFiles\Bin</Url>
+                        <BundleItemType>Context</BundleItemType>
+                        <Caption>Bin</Caption>
+                        <InstallOptions>SkipItemAndChildren</InstallOptions>
+                      </LinkedFolderBundleItem>
+                      <children>
+                        <bundleItem modelId="73d4e7d0-a7fa-40ae-8b45-1ad7ed954154" itemTypeName="Sage.Platform.WebPortal.Design.BundleSupport.LinkedFileBundleItem, Sage.Platform.WebPortal.Design">
+                          <LinkedFileBundleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                            <ItemId>\Portal\SlxClient\SupportFiles\Bin\blackpoint.icrm.umgebungssuche.dll</ItemId>
+                            <Url>\Portal\SlxClient\SupportFiles\Bin\blackpoint.icrm.umgebungssuche.dll</Url>
+                            <BundleItemType>Other</BundleItemType>
+                            <Caption>blackpoint.icrm.umgebungssuche.dll</Caption>
+                            <InstallOptions>SkipItemAndChildren</InstallOptions>
+                            <IsLinkedFile>false</IsLinkedFile>
+                            <SourcePath>C:\Projects\Model\Portal\SlxClient\SupportFiles\Bin\blackpoint.icrm.umgebungssuche.dll</SourcePath>
+                            <ParentModelItemUrl>\Portal\SlxClient\SlxClient.cabapp.ptl.xml</ParentModelItemUrl>
+                            <ProjectPath>SupportFiles\Bin\blackpoint.icrm.umgebungssuche.dll</ProjectPath>
+                          </LinkedFileBundleItem>
                         </bundleItem>
                       </children>
                     </bundleItem>
