@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "blackpoint.icrm.umgebungssuche", "umgebungssuche\blackpoint.icrm.umgebungssuche.csproj", "{F4907723-9D20-49C6-B2C9-F0E4EA544175}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "blackpoint.icrm.common", "blackpoint.icrm.common\blackpoint.icrm.common.csproj", "{AA9F9269-5C41-4E52-AF8A-5348F554EF5E}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "SlxClient", "..\..\inetpub\wwwroot\SlxClient\", "{A7FF7E3A-07DB-4139-B3B3-BC8DD9A32110}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		Debug.AspNetCompiler.VirtualPath = "/SlxClient"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\inetpub\wwwroot\SlxClient\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\SlxClient\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/SlxClient"
+		Release.AspNetCompiler.PhysicalPath = "..\..\inetpub\wwwroot\SlxClient\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\SlxClient\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "49354"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F4907723-9D20-49C6-B2C9-F0E4EA544175}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4907723-9D20-49C6-B2C9-F0E4EA544175}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4907723-9D20-49C6-B2C9-F0E4EA544175}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4907723-9D20-49C6-B2C9-F0E4EA544175}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA9F9269-5C41-4E52-AF8A-5348F554EF5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA9F9269-5C41-4E52-AF8A-5348F554EF5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA9F9269-5C41-4E52-AF8A-5348F554EF5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA9F9269-5C41-4E52-AF8A-5348F554EF5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7FF7E3A-07DB-4139-B3B3-BC8DD9A32110}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7FF7E3A-07DB-4139-B3B3-BC8DD9A32110}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7FF7E3A-07DB-4139-B3B3-BC8DD9A32110}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7FF7E3A-07DB-4139-B3B3-BC8DD9A32110}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
