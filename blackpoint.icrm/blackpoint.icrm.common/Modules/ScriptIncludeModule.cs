@@ -24,7 +24,7 @@ namespace blackpoint.icrm.common.Module
 
             StringBuilder sb = new StringBuilder();
             sb.AppendLine("require({packages: [{ name: 'blackpoint', ");  //pkg-name
-            sb.Append("location: '").Append(HttpContext.Current.Request.ApplicationPath).Append("/blackpoint/js'}] }, "); //pkg-location
+            sb.Append("location: '").Append(HttpContext.Current.Request.ApplicationPath).Append("/jscript/blackpoint'}] }, "); //pkg-location
             sb.Append("['blackpoint/Activity/ActivityEditor'], "); // class-name
             sb.Append("function(ActivityEditor) { ActivityEditor() });"); // function-name
             cs.RegisterStartupScript(page.GetType(), "CustomActivityJS", sb.ToString(), true);

@@ -10,7 +10,7 @@ using Sage.Platform.WebPortal.Workspaces.Tab;
 
 namespace blackpoint.icrm.common.Module
 {
-    public class AccountSmartPartsLoaderModule : IModule
+    public class SmartPartsLoaderModule : IModule
     {
         private IPageWorkItemLocator _pageWorkItemLocator;
 
@@ -40,12 +40,13 @@ namespace blackpoint.icrm.common.Module
         {
             PageWorkItem workItem = PageWorkItemLocator.GetPageWorkItem();
             TabWorkspace tabWorkspace = workItem.Workspaces["TabControl"] as TabWorkspace;
-            bool inRole = false;
-            Sage.Entity.Interfaces.IRole role = Sage.Platform.EntityFactory.GetRepository<Sage.Entity.Interfaces.IRole>().FindFirstByProperty("RoleName", "Administrator");
-            if (role != null)
-                inRole = Sage.SalesLogix.API.MySlx.Security.CurrentUserInRole("Administrator");
-            if (!inRole)
-                tabWorkspace.Hide("AccountNeighbours", true);
+           //TODO here
+            //bool inRole = false;
+            //Sage.Entity.Interfaces.IRole role = Sage.Platform.EntityFactory.GetRepository<Sage.Entity.Interfaces.IRole>().FindFirstByProperty("RoleName", "Administrator");
+            //if (role != null)
+                //inRole = Sage.SalesLogix.API.MySlx.Security.CurrentUserInRole("Administrator");
+            //if (!inRole)
+                //tabWorkspace.Hide("AccountNeighbours", true);
         }
     }
 }

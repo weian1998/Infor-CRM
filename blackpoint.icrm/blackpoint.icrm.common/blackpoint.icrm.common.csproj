@@ -68,7 +68,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Modules\AccountSmartPartsLoaderModule.cs" />
+    <Compile Include="Modules\SmartPartsLoaderModule.cs" />
     <Compile Include="Modules\ScriptIncludeModule.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
