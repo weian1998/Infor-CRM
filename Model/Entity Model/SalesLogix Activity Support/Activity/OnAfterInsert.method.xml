@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<method xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="5ddf34ee-783f-4e78-bd73-f95cefca56a8" lastModifiedUtc="2013-09-26T00:34:31.4531514Z" name="OnAfterInsert" methodType="CrudEvent" actionType="None" returnMode="None">
+<method xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="5ddf34ee-783f-4e78-bd73-f95cefca56a8" lastModifiedUtc="2016-06-03T12:45:12.1806823Z" name="OnAfterInsert" methodType="CrudEvent" actionType="None" returnMode="None">
   <extendedMetaData />
   <ExtendedPropertiesCollection>
     <extendee type="Sage.Platform.Orm.Entities.OrmEntityMethod" />
@@ -13,6 +13,12 @@
       </ExtendedPropertiesCollection>
     </methodTarget>
   </methodTargets>
-  <postExecuteTargets />
+  <postExecuteTargets>
+    <methodTarget xsi:type="OrmMethodTargetSnippet" id="756e8992-bfa0-4d85-9921-15fe627d4995" lastModifiedUtc="2016-06-03T13:40:19.9524229Z" targetType="Sage.BusinessRules.CodeSnippets.ActivityBusinessRules, Sage.SnippetLibrary.CSharp" targetMethod="OnAfterInsertStep" active="true" codeSnippetId="2870e754-72ad-47a8-8557-9c5f65447ebe">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmMethodTargetSnippet" />
+      </ExtendedPropertiesCollection>
+    </methodTarget>
+  </postExecuteTargets>
   <postFlushTargets />
 </method>

@@ -15363,4 +15363,7 @@
   <data name="Activity.GroupName.DisplayName" xml:space="preserve">
     <value>GroupName</value>
   </data>
+  <data name="Activity.GroupFamily.DisplayName" xml:space="preserve">
+    <value>GroupFamily</value>
+  </data>
 </root>

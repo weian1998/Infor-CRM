@@ -11,7 +11,7 @@ function (ready, declare, aspect, lang,
             displayMode: 'Dialog',
             structure: [{ cells: [
                     { field: 'Name', name: 'Name' },
-                    { field: 'Family', name: 'Type' }
+                    { field: 'Family', name: 'Family' }
                 ]
             }],
             gridOptions: {
@@ -21,7 +21,7 @@ function (ready, declare, aspect, lang,
             },
             storeOptions: {
                 resourceKind: 'GroupReleasesView',
-                sort: [{ attribute: 'Name'}]
+                sort: [{ attribute: 'Family'}]
             },
             preFilters: [
 
@@ -46,11 +46,13 @@ function (ready, declare, aspect, lang,
             var act = this._activityData || this._historyData;
             if (sel) {
                 act.GroupId = sel.$key;
-                act.GroupName = sel.$descriptor;
+                act.GroupName = sel.Name;
+				act.GroupFamily = sel.Family;  //TODO
                 // here we could add handling to automatically set or clear the account when they select a new sales order
             } else {
                 act.GroupId = null;
                 act.GroupName = null;
+				act.GroupFamily = null;
             }
         })));
 
@@ -76,7 +78,7 @@ function (ready, declare, aspect, lang,
     function manualBind() {
         this._isBinding = true;
         var act = this._activityData || this._historyData;
-        this.my_lueGroup.set('selectedObject', act.GroupId ? { $key: act.GroupId, $descriptor: act.GroupName} : null);
+        this.my_lueGroup.set('selectedObject', act.GroupId ? { $key: act.GroupId, Name: act.GroupName, Family: act.GroupFamily} : null);
         this._isBinding = false;
     }
 
@@ -98,7 +100,7 @@ function (ready, declare, aspect, lang,
         if (!ctx) return false;
         if (ctx.EntityType == "Sage.Entity.Interfaces.IGroup") {
             // ... maybe get the account / contact for the sales order, too?
-            callback(scope, { GroupId: ctx.EntityId, GroupName: ctx.Name });
+            callback(scope, { GroupId: ctx.EntityId, GroupName: ctx.GroupName, GroupFamily: ctx.GroupFamily });
             return true;
         }
         return false;
